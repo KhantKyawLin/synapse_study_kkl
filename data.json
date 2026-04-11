@@ -1,5 +1,410 @@
 [
   {
+    "category": "Microbiology - Coccus",
+    "question": "Bacteria are typically amplified by how many times to be visible under a light microscope?",
+    "answer": "1000 times"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What are the three basic shapes of bacteria visible under a light microscope?",
+    "answer": "Coccus, bacillus, and spirilla"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which specific bacterial structure is described as a measurement unit for bacteria?",
+    "answer": "Micrometer ($\\mu m$)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the primary function of a bacterial capsule?",
+    "answer": "Anti-phagocytosis"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which bacterial structure is responsible for motility or movement?",
+    "answer": "Flagella"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Bacteria pili are classified into two types: ordinary pili and _____ pili.",
+    "answer": "sex"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the function of ordinary pili in bacteria?",
+    "answer": "Adhesion to host cells"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "The bacterial structure related to resistance against harsh environments is the _____.",
+    "answer": "spore"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What biological characteristic defines L-form bacteria?",
+    "answer": "They are lack of a cell wall."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which major chemical component is unique to the cell wall of Gram-positive ($G+$) bacteria?",
+    "answer": "Teichoic acid"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Gram-negative ($G-$) bacterial cell walls consist of a small amount of peptidoglycan and an _____ membrane.",
+    "answer": "outer"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What three components make up the Lipopolysaccharide (LPS) in $G-$ bacteria?",
+    "answer": "O-polysaccharide, Polysaccharide core, and Lipid A"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which part of the Lipopolysaccharide (LPS) represents the actual toxicity of the endotoxin?",
+    "answer": "Lipid A"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the mechanism by which penicillin inhibits the growth of $G+$ bacteria?",
+    "answer": "It inhibits the synthesis of the cell wall peptidoglycan."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Concept: $Staphylococci$",
+    "answer": "Definition: Gram-positive spherical bacteria arranged in grape-like clusters."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the average diameter of a $Staphylococcus$ cell?",
+    "answer": "$1 \\mu m$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Does $Staphylococcus$ typically possess flagella or spores?",
+    "answer": "No, it has neither flagella nor spores."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which $Staphylococcus$ species produces golden yellow pigment and has strong pathogenicity?",
+    "answer": "$Staphylococcus\\ aureus$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What test is used to identify the pathogenicity of $Staphylococci$ by inducing plasma clotting?",
+    "answer": "Coagulase test"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the function of Staphylococcal Protein A (SPA)?",
+    "answer": "It is an important surface antigen that binds to the IgG molecule."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which $Staphylococcus$ species is coagulase-negative and produces a white pigment?",
+    "answer": "$Staphylococcus\\ epidermidis$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Among nonspore-forming bacteria, which group has the strongest resistance to heat and drying?",
+    "answer": "$Staphylococci$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What percentage of $NaCl$ can $Staphylococcus$ tolerate in a culture medium?",
+    "answer": "$10\\%$ to $15\\%$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Staphylolysin is a cytotoxin that primarily damages _____.",
+    "answer": "cell membranes"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which staphylococcal exotoxin destroys leukocytes and attacks neutrophils?",
+    "answer": "Leukocidin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which toxin produced by $S.\\ aureus$ is responsible for food poisoning?",
+    "answer": "Enterotoxin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What syndrome is caused by the staphylococcal toxin TSST-1?",
+    "answer": "Toxic shock syndrome (TSS)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Name one local pyogenic infection caused by $S.\\ aureus$.",
+    "answer": "Furuncle (boil) or carbuncle"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Staphylococcal scalded skin syndrome (SSSS) is mediated by which type of toxin?",
+    "answer": "Exfoliative toxin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Concept: $Streptococcus$",
+    "answer": "Definition: Gram-positive spherical bacteria typically arranged in chains."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the composition of the capsule found in some $Streptococci$?",
+    "answer": "Hyaluronic acid"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "How are $Streptococci$ classified based on their hemolysis phenomena on blood agar?",
+    "answer": "$\\alpha$-hemolytic (incomplete), $\\beta$-hemolytic (complete), and $\\gamma$-hemolytic (none)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which hemolytic group of $Streptococcus$ is considered most pathogenic to humans?",
+    "answer": "$\\beta$-hemolytic streptococcus (Pyogenic streptococcus)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the primary protein antigen used to type Group A $Streptococci$?",
+    "answer": "M protein"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which substance produced by Group A $Streptococci$ dissolves fibrin clots?",
+    "answer": "Streptokinase (SK)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which enzyme produced by $Streptococcus$ breaks down the 'ground substance' of connective tissue?",
+    "answer": "Hyaluronidase"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What disease is associated with the production of Erythrogenic toxin by $Streptococcus$?",
+    "answer": "Scarlet fever"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What are the two types of streptolysin (hemolysin)?",
+    "answer": "SLO (oxygen-labile) and SLS (oxygen-stable)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What does a positive ASOT (anti-SLO test) titer of $>1:400$ indicate?",
+    "answer": "A recent or current infection by $Streptococcus$ producing SLO."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which antibiotic is the first choice for treating infections caused by $Streptococcus$?",
+    "answer": "Penicillin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Describe the morphology of $Streptococcus\\ pneumoniae$.",
+    "answer": "Gram-positive, encapsulated, lancet-shaped diplococcus."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the main invasive factor (pathogenicity) for $Streptococcus\\ pneumoniae$?",
+    "answer": "The capsule"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which test is used to distinguish $\\alpha$-hemolytic streptococcus from $Pneumococcus$?",
+    "answer": "Bile solubility test"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Concept: $Neisseria\\ meningitidis$",
+    "answer": "Definition: Gram-negative, encapsulated kidney-shaped diplococcus causing epidemic meningitis."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Describe the morphology of $Neisseria\\ gonorrhoeae$.",
+    "answer": "Gram-negative coffee bean-shaped diplococcus."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which culture medium is required for the growth of $Neisseria$ species?",
+    "answer": "Chocolate agar with $5\\%-10\\%\\ CO_2$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the primary pathogenic substance in $Neisseria$ species?",
+    "answer": "Lipopolysaccharide (LPS) / Endotoxin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which organism causes gonococcal conjunctivitis?",
+    "answer": "$Neisseria\\ gonorrhoeae$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "In the bacterial growth cycle, which phase should be selected to study biological characters?",
+    "answer": "Logarithmic (Log) phase"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Define 'Sterilization'.",
+    "answer": "The process of killing all microbial forms, including bacterial spores."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is 'Disinfection'?",
+    "answer": "The process of killing only pathogenic microorganisms."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which method is the most frequently used and effective for killing bacterial spores?",
+    "answer": "Autoclave sterilization"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the standard concentration of alcohol used for disinfection?",
+    "answer": "$75\\%$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "The principle of ultraviolet (UV) sterilization is the destruction of _____.",
+    "answer": "DNA"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which sterilization method is appropriate for heat-sensitive liquids like serum or antitoxin?",
+    "answer": "Filtration sterilization"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is 'Pasteurization' primarily used for?",
+    "answer": "The sterilization/disinfection of milk and beer."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Adding $1\\%-2\\%\\ NaHCO_3$ to boiling water increases the boiling point to _____.",
+    "answer": "$105^{\\circ}C$"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Term: Colony",
+    "answer": "Definition: A visible group of bacteria on a solid medium that proliferated from a single bacterium."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which chemical agent is commonly used to disinfect drinking water and swimming pools?",
+    "answer": "Chlorine"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "The presence of bacteria in the blood without multiplication is known as _____.",
+    "answer": "bacteremia"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is 'Septicemia'?",
+    "answer": "A systemic infection where bacteria multiply in the blood and produce toxins."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "The presence of bacterial toxins in the blood is called _____.",
+    "answer": "toxemia"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which type of bacteria (Gram-positive or Gram-negative) primarily produces endotoxins?",
+    "answer": "Gram-negative ($G-$) bacteria"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which type of toxin is highly immunogenic and can be converted into a toxoid?",
+    "answer": "Exotoxin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the chemical composition of most bacterial exotoxins?",
+    "answer": "Protein"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Under what growth condition do bacteria appear as a pellicle or turbid in liquid medium?",
+    "answer": "Surface growth or uniform growth throughout the medium."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which bacterial structure is specifically related to the sex pili's function?",
+    "answer": "Conjugation (transfer of genetic material)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Name the unique element of the bacterial cell wall found in both $G+$ and $G-$ bacteria.",
+    "answer": "Peptidoglycan"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the primary indicator that medical materials have been successfully sterilized?",
+    "answer": "Bacterial spores have been completely killed."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "A subclinical infection is also known as an _____ infection.",
+    "answer": "inapparent"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What are 'opportunistic pathogens'?",
+    "answer": "Normal flora that cause disease only when the host's resistance is lowered."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which structure helps a bacterium settle down or adhere to a host surface?",
+    "answer": "Pilus (ordinary)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "How does moisture improve heat sterilization compared to dry heat?",
+    "answer": "Moist heat has better penetration and denatures proteins more effectively."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Bacteria that are part of the 'normal flora' can become pathogenic if they move to an _____ position.",
+    "answer": "abnormal (or ectopic)"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "The ability of a bacterium to cause disease is determined by its invasiveness and _____.",
+    "answer": "toxin production"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which staphylococcal toxin is associated with 'scalded skin syndrome' in infants?",
+    "answer": "Exfoliative toxin"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "M protein in $Streptococcus$ helps the bacteria resist _____.",
+    "answer": "phagocytosis"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Name the diagnostic test used to differentiate $S.\\ pneumoniae$ from other $\\alpha$-hemolytic streptococci based on enzyme activation.",
+    "answer": "Bile solubility test"
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "True or False: Endotoxins are easily degraded by heat.",
+    "answer": "False (they are heat-stable lipopolysaccharides)."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "Which $Staphylococcus$ species is a common cause of subacute endocarditis?",
+    "answer": "$Staphylococcus\\ epidermidis$ (often weak pathogenicity but can infect heart valves)."
+  },
+  {
+    "category": "Microbiology - Coccus",
+    "question": "What is the function of the enzyme Streptodornase (SD)?",
+    "answer": "It liquefies thick purulent exudates by degrading DNA."
+  },
+  {
     "category": "Immunology - Antigen",
     "question": "What is the definition of an antigen (Ag)?",
     "answer": "Substances that stimulate the immune system to produce antibodies and effector lymphocytes."
