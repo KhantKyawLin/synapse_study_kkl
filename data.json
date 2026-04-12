@@ -705,6 +705,381 @@
     "answer": "Gut-associated lymphoid tissue (GALT)."
   },
   {
+    "category": "Microbiology - Enteric",
+    "question": "What is the standard measurement unit used for bacteria?",
+    "answer": "Micrometer ($\\mu m$)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "How many times must a bacterium be amplified to be visible under a light microscope?",
+    "answer": "1000 times"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Identify the three primary shapes of bacteria seen under a light microscope.",
+    "answer": "Coccus, bacillus, and spirilla"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What are the four essential basic structures of all bacteria?",
+    "answer": "Cell wall, cell membrane, cytoplasm, and nucleoid"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which bacterial structure is specifically responsible for anti-phagocytic function?",
+    "answer": "Capsule"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The bacterial structure primarily used for locomotion is the _____.",
+    "answer": "Flagella"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the primary function of ordinary pili in bacterial pathogenesis?",
+    "answer": "Adhesion to host cells"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which bacterial structure is the most resistant form, capable of surviving harsh environments?",
+    "answer": "Spore"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Bacteria that have lost their cell wall but are still capable of growth are called _____.",
+    "answer": "L-form bacteria"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which unique chemical component is found in the cell walls of Gram-positive bacteria but not Gram-negative bacteria?",
+    "answer": "Teichoic acid"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The toxic component of the Gram-negative bacterial cell wall is _____.",
+    "answer": "Lipid A (of the Lipopolysaccharide)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "How does the peptidoglycan layer of Gram-positive bacteria differ from Gram-negative bacteria in terms of thickness?",
+    "answer": "It is much thicker in Gram-positive bacteria."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which enzyme's synthesis is inhibited by Penicillin, thereby preventing bacterial cell wall formation?",
+    "answer": "Peptidoglycan synthase (transpeptidase)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the name for extrachromosomal DNA fragments found in the bacterial cytoplasm?",
+    "answer": "Plasmids"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Define 'sterilization' in a clinical context.",
+    "answer": "The process of killing all microbial forms, including bacterial spores."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which moist heat sterilization method is most frequently used to ensure the destruction of spores?",
+    "answer": "Autoclave sterilization"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the standard concentration of alcohol used for skin disinfection?",
+    "answer": "$75\\%$"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The primary mechanism by which Ultraviolet (UV) light kills bacteria is the destruction of _____.",
+    "answer": "DNA"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which growth phase should be selected to study the biological characteristics and morphology of a bacterial culture?",
+    "answer": "Logarithmic (log) phase"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Define 'Normal Flora'.",
+    "answer": "Microorganisms that normally reside in or on the human body without causing disease."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Under what general conditions does a normal flora microorganism become an opportunistic pathogen?",
+    "answer": "Alteration of colonization site, declining host immunity, or dysbacteria."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Differentiate 'Bacteremia' from 'Septicemia'.",
+    "answer": "Bacteremia is the presence of bacteria in the blood without multiplication; septicemia involves bacteria multiplying in the blood and producing toxins."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What term describes the condition where bacterial exotoxins enter the bloodstream and cause toxic symptoms, but the bacteria remain at the site of infection?",
+    "answer": "Toxemia"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which bacterial toxin is composed of protein and is typically secreted by living Gram-positive bacteria?",
+    "answer": "Exotoxin"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "How does the heat stability of endotoxins compare to that of exotoxins?",
+    "answer": "Endotoxins are heat-stable, while most exotoxins are heat-labile (destroyed by heat)."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What are the three main types of antigens used to classify Enterobacteriaceae?",
+    "answer": "O (somatic), H (flagellar), and K or Vi (capsular) antigens."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which genus of enteric bacilli is the primary indicator of fecal contamination in water and food?",
+    "answer": "Escherichia ($E. coli$)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the appearance of pathogenic enteric bacteria (like Shigella or Salmonella) on Salmonella-Shigella (SS) agar?",
+    "answer": "Colorless and small colonies."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "On SS agar, non-pathogenic enteric bacteria (like $E. coli$) appear pink because they can ferment _____.",
+    "answer": "Lactose"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which pathotype of $E. coli$ is the major cause of traveler's diarrhea?",
+    "answer": "Enterotoxigenic $E. coli$ (ETEC)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The $B$ subunit of $E. coli$ heat-labile enterotoxin (LT) binds specifically to which host cell receptor?",
+    "answer": "$GM_{1}$ ganglioside"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the intracellular mechanism of action for $E. coli$ Heat-Labile Enterotoxin (LT)?",
+    "answer": "Activation of Adenylate Cyclase (AC), leading to increased $cAMP$."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The Heat-Stable Toxin ($ST$) produced by ETEC causes diarrhea by activating _____.",
+    "answer": "Guanylate Cyclase (GC), leading to increased $cGMP$."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which pathotype of $E. coli$ produces Shiga toxin and causes hemorrhagic colitis?",
+    "answer": "Enterohemorrhagic $E. coli$ (EHEC)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the characteristic clinical presentation of infection with Enteroinvasive $E. coli$ (EIEC)?",
+    "answer": "Symptoms resembling bacillary dysentery (Shigella)."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which $E. coli$ pathotype is associated with the formation of a 'mucous brick-like biofilm' on the intestinal surface?",
+    "answer": "Enteroaggregative $E. coli$ (EAggEC)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Describe the motility and Gram-stain characteristics of Shigella.",
+    "answer": "Non-motile (no flagella) and Gram-negative rods."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the primary transmission route for Shigella infections?",
+    "answer": "Gastrointestinal tract (fecal-oral route)."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What are the typical components of stools in a patient with acute bacillary dysentery?",
+    "answer": "Blood, mucus, and pus."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which Shigella subgroup is known for producing the potent Shiga toxin (Stx)?",
+    "answer": "Group A (Shigella dysenteriae)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "In Shigella pathogenesis, what causes the clinical symptom of tenesmus?",
+    "answer": "The action of exotoxin on the autonomic nervous system."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Compare the motility of Salmonella to Shigella.",
+    "answer": "Salmonella is motile (peritrichous flagella), whereas Shigella is non-motile."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the clinical name for the systemic infection caused by Salmonella typhi?",
+    "answer": "Enteric fever (Typhoid fever)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "During the first week of Enteric Fever, which specimen is most likely to yield a positive culture?",
+    "answer": "Blood"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the diagnostic 'rose spot' seen in typhoid fever?",
+    "answer": "Small red spots appearing on the skin during the infection."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The serologic test used to detect antibodies against the $O$ and $H$ antigens of Salmonella typhi is the _____ test.",
+    "answer": "Widal"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is considered a clinically significant $O$ antibody titer in a single Widal test result?",
+    "answer": "$\\ge 1:80$"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "In the Widal test, what is the significant titer level for $H$ antibodies?",
+    "answer": "$\\ge 1:160$"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Where do Salmonella bacteria typically persist in chronic carriers?",
+    "answer": "The gallbladder"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which Salmonella syndrome typically presents with positive stool cultures but negative blood cultures?",
+    "answer": "Gastroenteritis"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The capsular antigen of Salmonella typhi that is related to virulence is known as the _____ antigen.",
+    "answer": "$Vi$ antigen"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which staphylococcal species is coagulase-positive and highly pathogenic?",
+    "answer": "Staphylococcus aureus"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the function of Staphylococcal Protein A (SPA)?",
+    "answer": "It is a surface protein that identifies pathogenicity and helps resist phagocytosis."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which toxin produced by S. aureus is responsible for Staphylococcal Scalded Skin Syndrome (SSSS)?",
+    "answer": "Exfoliative toxin"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The S. aureus enterotoxin causes food poisoning by stimulating the _____.",
+    "answer": "Vomiting center of the Central Nervous System (CNS)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which type of hemolysis is characterized by transparent, clear zones around colonies on blood agar?",
+    "answer": "$\\beta$-hemolysis"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Group A Streptococcus is primarily associated with which type of infection?",
+    "answer": "Pyogenic (pus-forming) infections"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which streptococcal enzyme is used clinically to dissolve blood clots?",
+    "answer": "Streptokinase (SK)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Scarlet fever is caused by the _____ produced by Group A streptococci.",
+    "answer": "Pyrogenic exotoxin (Erythrogenic toxin)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which specific test distinguishes $\\alpha$-hemolytic streptococcus from Pneumococcus?",
+    "answer": "Bile solubility test"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the primary pathogen responsible for epidemic meningitis?",
+    "answer": "Neisseria meningitidis (Meningococcus)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Describe the typical morphology of Neisseria gonorrhoeae.",
+    "answer": "Gram-negative, kidney-shaped or coffee bean-shaped diplococci."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which structure provides the main invasive power for Pneumococcus?",
+    "answer": "Capsule"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Define 'transduction' in bacterial genetics.",
+    "answer": "The transfer of bacterial DNA from a donor to a recipient mediated by a bacteriophage."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is a 'temperate phage'?",
+    "answer": "A phage whose DNA integrates into the bacterial chromosome as a prophage without immediately lysing the cell."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Lysogenic conversion is defined as _____.",
+    "answer": "The acquisition of new biological traits by a bacterium after a temperate phage integrates into its chromosome."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which plasmid is specifically related to bacterial conjugation and the transfer of genetic material?",
+    "answer": "$F$ plasmid (Fertility factor)"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The process where a bacterium directly takes up free DNA from the environment is called _____.",
+    "answer": "Transformation"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which parasite stage is the dormant, resistant, and infective form of protozoa like Entamoeba histolytica?",
+    "answer": "Cyst"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "The active, pathogenic, and reproductive stage of protozoa is the _____.",
+    "answer": "Trophozoite"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the characteristic intestinal lesion caused by Entamoeba histolytica?",
+    "answer": "Flask-shaped ulcer"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Amoebic liver abscesses are clinically recognized by the presence of _____.",
+    "answer": "Reddish-brown 'chocolate' pus"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Differentiate 'Definitive Host' from 'Intermediate Host'.",
+    "answer": "A definitive host harbors the adult or sexual stage; an intermediate host harbors the larval or asexual stage."
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "Which medical flagellate is the cause of Kala-azar (Visceral Leishmaniasis)?",
+    "answer": "Leishmania donovani"
+  },
+  {
+    "category": "Microbiology - Enteric",
+    "question": "What is the insect vector for the transmission of Leishmania donovani?",
+    "answer": "Sand flies"
+  },
+  {
     "category": "Immunology - Antibody",
     "question": "What is the primary function of an antigen (Ag)?",
     "answer": "Antigens stimulate the immune system to produce specific antibodies."
