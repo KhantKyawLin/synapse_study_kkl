@@ -8,6 +8,7 @@ const frontCategoryEl = document.getElementById('front-category');
 const frontTextEl = document.getElementById('front-text');
 const backCategoryEl = document.getElementById('back-category');
 const backTextEl = document.getElementById('back-text');
+const moduleFilterEl = document.getElementById('moduleFilter');
 const categoryFilterEl = document.getElementById('categoryFilter');
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
@@ -22,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     flashcardEl.addEventListener('click', flipCard);
     prevBtn.addEventListener('click', showPreviousCard);
     nextBtn.addEventListener('click', showNextCard);
+    moduleFilterEl.addEventListener('change', handleModuleChange);
     categoryFilterEl.addEventListener('change', handleCategoryChange);
 });
 
@@ -39,7 +41,7 @@ async function loadFlashcards() {
             return;
         }
 
-        populateCategories();
+        populateFilters();
 
         // Initialize with all cards
         filteredFlashcards = [...allFlashcards];
@@ -72,37 +74,79 @@ async function loadFlashcards() {
     }
 }
 
-// Extract unique categories and populate the select dropdown
-function populateCategories() {
-    const categories = [...new Set(allFlashcards.map(card => card.category))];
-
-    categories.forEach(category => {
+// Extract modules and categories then populate filters
+function populateFilters() {
+    const modules = [...new Set(allFlashcards.map(card => card.category.split(' - ')[0]))].sort();
+    
+    // Clear and populate Module filter
+    moduleFilterEl.innerHTML = '<option value="All">All Modules</option>';
+    modules.forEach(mod => {
         const option = document.createElement('option');
-        option.value = category;
-        option.textContent = category;
+        option.value = mod;
+        option.textContent = mod;
+        moduleFilterEl.appendChild(option);
+    });
+
+    // Initialize Category filter
+    populateCategoryFilter('All');
+}
+
+function populateCategoryFilter(selectedModule) {
+    let categories = [];
+    
+    if (selectedModule === 'All') {
+        categories = [...new Set(allFlashcards.map(card => card.category.split(' - ')[1] || 'General'))];
+    } else {
+        categories = [...new Set(allFlashcards.filter(card => card.category.startsWith(selectedModule)).map(card => card.category.split(' - ')[1] || 'General'))];
+    }
+    
+    categories.sort();
+    
+    categoryFilterEl.innerHTML = '<option value="All">All Categories</option>';
+    categories.forEach(cat => {
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat;
         categoryFilterEl.appendChild(option);
     });
 }
 
+// Handle module selection
+function handleModuleChange(e) {
+    const selectedModule = e.target.value;
+    populateCategoryFilter(selectedModule);
+    applyFilters();
+}
+
 // Handle category selection
 function handleCategoryChange(e) {
-    const selectedCategory = e.target.value;
+    applyFilters();
+}
 
+function applyFilters() {
+    const selectedModule = moduleFilterEl.value;
+    const selectedCategory = categoryFilterEl.value;
+    
     if (flashcardEl.classList.contains('flipped')) {
         flashcardEl.classList.remove('flipped');
-        setTimeout(() => updateFilteredCards(selectedCategory), 300); // wait for flip animation
+        setTimeout(() => updateFilteredCards(selectedModule, selectedCategory), 300);
     } else {
-        updateFilteredCards(selectedCategory);
+        updateFilteredCards(selectedModule, selectedCategory);
     }
 }
 
-function updateFilteredCards(category) {
-    if (category === 'All') {
-        filteredFlashcards = [...allFlashcards];
-    } else {
-        filteredFlashcards = allFlashcards.filter(card => card.category === category);
+function updateFilteredCards(selectedModule, selectedCategory) {
+    let result = [...allFlashcards];
+    
+    if (selectedModule !== 'All') {
+        result = result.filter(card => card.category.startsWith(selectedModule));
     }
-
+    
+    if (selectedCategory !== 'All') {
+        result = result.filter(card => (card.category.split(' - ')[1] || 'General') === selectedCategory);
+    }
+    
+    filteredFlashcards = result;
     currentIndex = 0;
 
     if (filteredFlashcards.length === 0) {

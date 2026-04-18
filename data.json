@@ -1,408 +1,1273 @@
 [
   {
-    "category": "Microbiology - Coccus",
-    "question": "Bacteria are typically amplified by how many times to be visible under a light microscope?",
-    "answer": "1000 times"
+    "category": "Microbiology - C.tetani",
+    "question": "What is the Gram stain result and basic shape of Clostridium tetani?",
+    "answer": "It is a Gram-positive, long, and slender bacillus."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What are the three basic shapes of bacteria visible under a light microscope?",
-    "answer": "Coccus, bacillus, and spirilla"
+    "category": "Microbiology - C.tetani",
+    "question": "Where is the spore specifically located within a Clostridium tetani cell?",
+    "answer": "The spore is located at the terminal end of the cell."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which specific bacterial structure is described as a measurement unit for bacteria?",
-    "answer": "Micrometer ($\\mu m$)"
+    "category": "Microbiology - C.tetani",
+    "question": "Which descriptive term is commonly used for the microscopic appearance of a Clostridium tetani spore and its vegetative cell?",
+    "answer": "The appearance is described as a drumstick form."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the primary function of a bacterial capsule?",
-    "answer": "Anti-phagocytosis"
+    "category": "Microbiology - C.tetani",
+    "question": "How does the diameter of a Clostridium tetani spore compare to its vegetative cell?",
+    "answer": "The diameter of the spore is greater than that of the vegetative cell."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which bacterial structure is responsible for motility or movement?",
-    "answer": "Flagella"
+    "category": "Microbiology - C.tetani",
+    "question": "What type of flagellar arrangement does Clostridium tetani possess?",
+    "answer": "It possesses peritrichous flagella."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Bacteria pili are classified into two types: ordinary pili and _____ pili.",
-    "answer": "sex"
+    "category": "Microbiology - C.tetani",
+    "question": "Does Clostridium tetani possess a capsule?",
+    "answer": "No, Clostridium tetani does not have a capsule."
   },
   {
-    "category": "Microbiology - Coccus",
+    "category": "Microbiology - C.tetani",
+    "question": "What are the oxygen requirement conditions for Clostridium tetani growth?",
+    "answer": "It is an obligate anaerobe."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What characteristic growth pattern is observed when Clostridium tetani is cultured on blood agar?",
+    "answer": "Swarming occurs across the surface of the blood agar."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which type of hemolysis is typically produced by Clostridium tetani on blood agar?",
+    "answer": "It produces a faint $\\beta$ hemolysis."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "For how long can Clostridium tetani spores tolerate being in boiling water at $100^{\\circ}C$?",
+    "answer": "The spores can tolerate boiling for up to 60 minutes."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "At what specific temperature and pressure must medical supplies be heated to ensure the death of Clostridium spores?",
+    "answer": "They must be heated at $121^{\\circ}C$ under pressure."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the minimum recommended duration for autoclaving at $121^{\\circ}C$ to sterilize medical supplies contaminated with spores?",
+    "answer": "The recommended duration is at least 20 to 30 minutes."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "How long can Clostridium tetani spores remain viable when residing in soil?",
+    "answer": "They can remain viable for several decades in the soil."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "In what specific state does a Clostridium tetani spore exist when it is described as a resting bacterium?",
+    "answer": "It exists in a dormant state with a thick coat that resists high temperatures and solvents."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Under what condition do Clostridium tetani spores germinate into vegetative bacteria inside the human body?",
+    "answer": "Germination occurs when the spores are introduced into a suitable anaerobic environment."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Why is Clostridium tetani classified as a non-invasive organism?",
+    "answer": "The infection remains strictly localized in the regional anaerobic area of devitalized tissue."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which type of wound profile most strongly favors the growth of Clostridium tetani?",
+    "answer": "Deep and narrow wounds favor growth by providing anaerobic conditions."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "How does the presence of aerobic bacteria in a wound promote the pathogenesis of tetanus?",
+    "answer": "Aerobic bacteria consume local oxygen, creating the anaerobic environment required for Clostridium tetani."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "List the two primary exotoxins produced by Clostridium tetani.",
+    "answer": "The two exotoxins are tetanolysin and tetanospasmin."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What functional category of toxin is tetanospasmin?",
+    "answer": "Tetanospasmin is a potent neurotoxin."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Through what specific transport mechanism does tetanospasmin reach the Central Nervous System (CNS)?",
+    "answer": "It reaches the CNS via retrograde transport along axons."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Tetanospasmin blocks the release of which specific inhibitory neurotransmitters?",
+    "answer": "It blocks the release of glycine and $\\gamma$-aminobutyric acid (GABA)."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the physiological consequence of tetanospasmin blocking inhibitory neurotransmitter release?",
+    "answer": "The consequence is spastic paralysis characterized by severe muscle contractions."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the clinical term for the lockjaw symptom associated with tetanus?",
+    "answer": "The clinical term for lockjaw is trismus."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Term: Opisthotonos",
+    "answer": "Definition: A condition of severe hyperextension and spasticity in which an individual's head, neck, and spinal column enter a complete backward arching position."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the most common cause of death in patients suffering from progressive tetanus?",
+    "answer": "The most common cause of death is respiratory failure due to paralysis of the respiratory muscles."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "How is a diagnosis of tetanus primarily established in a clinical setting?",
+    "answer": "The diagnosis is primarily established based on the presentation of characteristic clinical symptoms."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the role of debridement in the treatment of a tetanus-prone wound?",
+    "answer": "Debridement involves the surgical removal of necrotic tissue to eliminate the anaerobic environment required for bacterial growth."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What specific substance is used for active immunization against tetanus?",
+    "answer": "Active immunization is performed using tetanus toxoid."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "The abbreviation TAT stands for which medical treatment used for passive tetanus immunization?",
+    "answer": "TAT stands for Tetanus Antitoxin."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the primary mechanism of action for Tetanus Antitoxin (TAT)?",
+    "answer": "TAT works by neutralizing the circulating exotoxin before it binds to nerve cells."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Can Tetanus Antitoxin (TAT) neutralize tetanospasmin that has already bound to Central Nervous System receptors?",
+    "answer": "No, TAT can only neutralize free toxin and cannot affect toxin already bound to nerve cells."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which antibiotic is considered the first choice for treating a Clostridium tetani infection?",
+    "answer": "Penicillin is the first-choice antibiotic for treatment."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What are the components of the Triple Vaccine used for pediatric immunization?",
+    "answer": "The components are Diphtheria, Pertussis, and Tetanus (DPT)."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which type of immunity is triggered by the administration of the tetanus toxoid vaccine?",
+    "answer": "It triggers active humoral immunity through the production of antitoxin antibodies."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Under what specific clinical circumstance should a patient receive an injection of TAT (Tetanus Antitoxin)?",
+    "answer": "TAT should be administered when a wound is contaminated with soil and the patient's immune status is uncertain or high-risk."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "How does Clostridium tetani differ from Clostridium botulinum in terms of the type of paralysis caused?",
+    "answer": "C. tetani causes spastic paralysis, whereas C. botulinum causes flaccid paralysis."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the effect of Tetanospasmin on the synaptic activity between an inhibitory interneuron and a motor neuron?",
+    "answer": "It inhibits the release of neurotransmitters from the inhibitory interneuron, preventing the motor neuron from being turned off."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Concept: Toxoid",
+    "answer": "Definition: A bacterial exotoxin that has been modified to be non-toxic while retaining its ability to stimulate the production of protective antibodies."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Why might a tetanus-infected wound not be clinically obvious upon examination?",
+    "answer": "The infection remains strictly localized and the bacterium is not invasive, so the visible wound may be small or seemingly healed."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Besides penicillin, which other classes of antibiotics can be used to treat tetanus?",
+    "answer": "Other antibiotics include achromycin (tetracycline) and erythrocin (erythromycin)."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "In the tetanus disease process, what is meant by apparent infection?",
+    "answer": "It refers to an infection where the host exhibits obvious clinical symptoms of the disease."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the primary factor determining the pathogenicity of Clostridium tetani?",
+    "answer": "Pathogenicity is primarily determined by its invasiveness (though minimal) and the production of potent exotoxins."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "The principle of asepsis in medical procedures is defined as the _____.",
+    "answer": "prevention of microbial contamination of living tissues or sterile materials by exclusion, destruction, or inhibition"
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "In the context of bacterial growth cycles, which phase is ideal for studying the biological characteristics of Clostridium tetani?",
+    "answer": "The logarithmic phase is ideal for study."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the main chemical component of the cell wall in Gram-positive bacteria like C. tetani?",
+    "answer": "The main component is peptidoglycan."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which structure, commonly found in enteric bacilli but notably absent in C. tetani, is used for adhesion to host cells?",
+    "answer": "Pili (fimbriae) are the structures used for adhesion."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "How does the resistance of C. tetani spores compare to that of its vegetative form?",
+    "answer": "Spores are significantly more resistant to heat, chemicals, and desiccation than the vegetative form."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What term describes the presence of Clostridium tetani toxins in the blood without the bacteria themselves spreading extensively?",
+    "answer": "The term is toxemia."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which specific neurotransmitter is blocked by tetanospasmin in the spinal cord to cause muscle spasms?",
+    "answer": "Glycine is the specific inhibitory neurotransmitter blocked in the spinal cord."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "True or False: Sterilization is defined as the killing of only pathogenic microorganisms.",
+    "answer": "False, sterilization is the killing of all microbial forms, including spores."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the expected result of a motility test for Clostridium tetani?",
+    "answer": "The result would be positive because it possesses peritrichous flagella."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "The chemical composition of bacterial exotoxins, such as Tetanospasmin, is primarily _____.",
+    "answer": "protein"
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "Which inhibitory neurotransmitter is primarily associated with the brain and is blocked by tetanospasmin?",
+    "answer": "The neurotransmitter is $\\gamma$-aminobutyric acid (GABA)."
+  },
+  {
+    "category": "Microbiology - C.tetani",
+    "question": "What is the standard unit of measurement for bacterial size, such as the slender bacilli of C. tetani?",
+    "answer": "The standard unit is the micrometer ($\\mu m$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the standard magnification required to see bacteria under a microscope?",
+    "answer": "$1000$ times."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "The highly resistant, dormant forms of bacteria like Bacillus and Clostridium are known as _____.",
+    "answer": "Resting structures (or spores)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What specific temperature and conditions are required to kill bacterial spores during sterilization?",
+    "answer": "$121^{\\circ}C$ under pressure."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "For how many minutes must medical supplies be heated at $121^{\\circ}C$ to achieve sterilization?",
+    "answer": "At least $20$ to $30$ minutes."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the primary difference between disinfection and sterilization?",
+    "answer": "Sterilization kills all microbial forms including spores, while disinfection only kills pathogenic microorganisms."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "During which phase of the bacterial growth cycle are biological characteristics best studied?",
+    "answer": "Logarithmic (Log) phase."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "The visible group of bacteria formed by the proliferation of a single bacterium on solid medium is called a _____.",
+    "answer": "Colony."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the optimal concentration of alcohol used for disinfection?",
+    "answer": "$75\\%$."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How does ultraviolet light act as a disinfectant?",
+    "answer": "It interferes with $DNA$ synthesis."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the characteristic arrangement of Staphylococcus cells?",
+    "answer": "Grape-like clusters."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which bacterium is known for its high salt tolerance and $90\\%$ resistance to penicillin?",
+    "answer": "Staphylococcus aureus."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the first-choice antibiotic for treating Streptococcus infections?",
+    "answer": "Penicillin."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the main invasive factor (virulence factor) of Pneumococcus?",
+    "answer": "The capsule."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How do nonpathogenic enterobacteria typically appear on Salmonella-Shigella ($SS$) medium?",
+    "answer": "Pink and large colonies."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which $E. coli$ toxin activates adenyl cyclase ($AC$) to increase intestinal secretion?",
+    "answer": "Heat-labile enterotoxin ($LT$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "The mechanism of $E. coli$ Heat-stable toxin ($ST$) involves the activation of which enzyme?",
+    "answer": "Guanylyl cyclase ($GC$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which diagnostic test is used to identify Salmonella infections such as Typhoid fever?",
+    "answer": "Widal test."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Where do Salmonella bacteria typically reside in chronic carriers?",
+    "answer": "The gallbladder."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Describe the morphology of Vibrio cholerae.",
+    "answer": "Gram-negative, short, curved (comma-shaped) rods with a single polar flagellum."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What are the specific $pH$ requirements for the growth of Vibrio cholerae?",
+    "answer": "Alkaline conditions between $pH$ $8.5$ and $9.5$."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which selective culture medium is used for the isolation of Vibrio cholerae?",
+    "answer": "Thiosulfate citrate bile salts sucrose ($TCBS$) agar."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How long does it take for Vibrio cholerae to die at a temperature of $100^{\\circ}C$?",
+    "answer": "$2$ minutes."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which virulence factor allows Vibrio cholerae to colonize the small intestine?",
+    "answer": "Pili."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the primary clinical finding associated with Cholera?",
+    "answer": "Severe diarrhea with rice water stools."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the characteristic morphological appearance of Clostridium tetani cells containing spores?",
+    "answer": "Drum-stick appearance."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which type of growth is observed for Clostridium tetani on blood agar?",
+    "answer": "Swarming growth with faint $\\beta$ hemolysis."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the pathogenic mechanism of Tetanospasmin?",
+    "answer": "It blocks the release of inhibitory neurotransmitters glycine and $\\gamma$-aminobutyric acid ($GABA$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How is active immunity against tetanus achieved?",
+    "answer": "Vaccination with tetanus toxoid (often as part of the $DPT$ vaccine)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the immediate treatment for a wound contaminated with soil to prevent tetanus?",
+    "answer": "Injection of tetanus antitoxin ($TAT$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Describe the morphology and Gram stain of Clostridium perfringens.",
+    "answer": "Gram-positive, large, rectangular bacillus."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the position of the spore in Clostridium perfringens?",
+    "answer": "Subterminal."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How does Clostridium perfringens differ from most other Clostridia regarding motility and capsule?",
+    "answer": "It is non-motile and possesses a capsule."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which biochemical phenomenon is characteristic of Clostridium perfringens in milk medium?",
+    "answer": "Stormy fermentation."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What type of hemolysis is produced by Clostridium perfringens on blood agar?",
+    "answer": "Double zones of hemolysis."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which exotoxin is the primary virulence factor in invasive Clostridium perfringens infections?",
+    "answer": "$\\alpha$ toxin."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What clinical condition, characterized by crepitus and muscle necrosis, is caused by Clostridium perfringens?",
+    "answer": "Gas gangrene."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How does food poisoning caused by Clostridium perfringens enterotoxin typically resolve?",
+    "answer": "It is mild and self-limiting within $1$ to $2$ days."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which non-antibiotic therapy is used to treat gas gangrene by increasing oxygen tension in tissues?",
+    "answer": "Hyperbaric oxygen."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the essential surgical step in treating Clostridium perfringens wound infections?",
+    "answer": "Debridement (removal of necrotic tissue)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Describe the characteristic morphology of Clostridium botulinum spores.",
+    "answer": "Subterminal oval spores, giving a tennis racket appearance."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the pathogenic mechanism of Botulinum neurotoxin?",
+    "answer": "It blocks the release of the neurotransmitter acetylcholine at neuromuscular junctions."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What type of paralysis is characteristic of botulism?",
+    "answer": "Flaccid paralysis."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the infective stage of Entamoeba histolytica for humans?",
+    "answer": "The mature cyst."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How many nuclei are found in a mature, infective Entamoeba histolytica cyst?",
+    "answer": "$4$ nuclei."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which stage of Entamoeba histolytica is responsible for invading host tissues?",
+    "answer": "Trophozoite."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is a characteristic finding in the endoplasm of Entamoeba histolytica trophozoites?",
+    "answer": "Ingested red blood cells."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What type of intestinal lesion is characteristic of amoebic dysentery?",
+    "answer": "Flask-shaped ulcers."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Describe the appearance of pus from an extra-intestinal amoebic liver abscess.",
+    "answer": "Chocolate pus."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which drug is used to treat symptomatic intestinal amoebiasis and liver abscesses?",
+    "answer": "Metronidazole."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which component of the Gram-negative bacterial cell wall is responsible for its endotoxin activity?",
+    "answer": "Lipid A."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Compare the heat stability of most exotoxins versus endotoxins.",
+    "answer": "Exotoxins are generally heat-labile (destroyed by heat), while endotoxins are heat-stable."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "The chemical composition of bacterial exotoxins is primarily _____.",
+    "answer": "Protein."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which structure helps bacteria adhere to host cell surfaces?",
+    "answer": "Pilus (pili)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What term describes a localized systemic infection where bacteria multiply in the blood and cause high fever?",
+    "answer": "Septicemia."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the most frequently used method to kill bacterial spores in a laboratory setting?",
+    "answer": "Autoclave sterilization."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which antigen in Salmonella is associated with the capsule and virulence?",
+    "answer": "$Vi$ antigen."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "How is the transmission of Entamoeba histolytica primarily achieved?",
+    "answer": "Swallowing items contaminated with mature cysts from human feces (fecal-oral route)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which second messenger is increased by the A subunit of the Cholera toxin?",
+    "answer": "$cAMP$."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the primary diagnostic stage for Entamoeba histolytica found in stool samples?",
+    "answer": "Cysts and trophozoites."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What clinical condition involves the widespread peeling of skin caused by Staphylococcus toxins?",
+    "answer": "Staphylococcal scalded skin syndrome ($SSSS$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which bacterium uses swarming motility to cover the surface of a blood agar plate?",
+    "answer": "Clostridium tetani."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which type of immunity is persistent after recovery from Typhoid fever?",
+    "answer": "Specific cellular immunity."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the effect of Tetanospasmin on muscle activity?",
+    "answer": "It causes spastic paralysis (sustained muscle contraction)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Why must food be heated thoroughly to prevent botulism, despite the resistance of spores?",
+    "answer": "The botulinum toxin itself is heat-labile (destroyed by heat)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which bacterium is identified by colorless, small colonies on $SS$ agar and lack of motility?",
+    "answer": "Shigella."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What are the three main types of antigens used for serotyping enteric bacilli?",
+    "answer": "$O$ (somatic), $H$ (flagellar), and $K/Vi$ (capsular) antigens."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which bacterium is associated with Rose spots on the abdomen during infection?",
+    "answer": "Salmonella typhi."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "In Clostridium perfringens, which toxin is primarily responsible for tissue destruction in gas gangrene?",
+    "answer": "$\\alpha$ toxin (a lecithinase)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the primary mode of bacterial multiplication?",
+    "answer": "Simple binary fission."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which disinfectant is commonly used for drinking water and swimming pools?",
+    "answer": "Chlorine."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the typical diameter of a Staphylococcus or Streptococcus cell?",
+    "answer": "$1.0 \\mu m$."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which temperature group contains all human pathogens and opportunists?",
+    "answer": "Mesophilic forms ($30^{\\circ}C$ to $37^{\\circ}C$)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "What is the specific diagnostic finding for Staphylococcus aureus on $TCBS$ agar?",
+    "answer": "It does not grow on $TCBS$ (only Vibrio species do)."
+  },
+  {
+    "category": "Microbiology - C.perfringens",
+    "question": "Which drug is specifically used to treat asymptomatic cyst-passers of Entamoeba histolytica?",
+    "answer": "Diiodoquin."
+  },
+  {
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the typical magnification required to see bacteria under a light microscope?",
+    "answer": "1000 times."
+  },
+  {
+    "category": "Microbiology - C.botulinum",
+    "question": "Bacteria that lack a nuclear membrane and nucleolus are classified as _____ cells.",
+    "answer": "prokaryotic"
+  },
+  {
+    "category": "Microbiology - C.botulinum",
+    "question": "Which bacterial structure is specifically responsible for motility?",
+    "answer": "Flagella."
+  },
+  {
+    "category": "Microbiology - C.botulinum",
     "question": "What is the function of ordinary pili in bacteria?",
-    "answer": "Adhesion to host cells"
+    "answer": "Adhesion to host cells."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "The bacterial structure related to resistance against harsh environments is the _____.",
+    "category": "Microbiology - C.botulinum",
+    "question": "Bacterial L-forms are characterized by a deficiency in which structure?",
+    "answer": "The cell wall."
+  },
+  {
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the primary chemical component of the Gram-positive bacterial cell wall?",
+    "answer": "Peptidoglycan."
+  },
+  {
+    "category": "Microbiology - C.botulinum",
+    "question": "The highly resistant, dormant resting stage of some bacteria is called a _____.",
     "answer": "spore"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What biological characteristic defines L-form bacteria?",
-    "answer": "They are lack of a cell wall."
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the standard temperature and time for sterilization in an autoclave to kill spores?",
+    "answer": "$121^\\circ C$ for 15-20 minutes."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which major chemical component is unique to the cell wall of Gram-positive ($G+$) bacteria?",
-    "answer": "Teichoic acid"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which disinfectant concentration is considered optimal for alcohol-based antisepsis?",
+    "answer": "$75\\%$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Gram-negative ($G-$) bacterial cell walls consist of a small amount of peptidoglycan and an _____ membrane.",
-    "answer": "outer"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the primary mechanism by which ultraviolet (UV) light kills bacteria?",
+    "answer": "Interfering with DNA synthesis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What three components make up the Lipopolysaccharide (LPS) in $G-$ bacteria?",
-    "answer": "O-polysaccharide, Polysaccharide core, and Lipid A"
+    "category": "Microbiology - C.botulinum",
+    "question": "The ability of a pathogen to invade, colonize, and spread within a host is termed _____.",
+    "answer": "invasiveness"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which part of the Lipopolysaccharide (LPS) represents the actual toxicity of the endotoxin?",
-    "answer": "Lipid A"
+    "category": "Microbiology - C.botulinum",
+    "question": "How do exotoxins differ from endotoxins regarding their origin?",
+    "answer": "Exotoxins are mainly secreted by living Gram-positive bacteria, while endotoxins are part of the Gram-negative cell wall."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the mechanism by which penicillin inhibits the growth of $G+$ bacteria?",
-    "answer": "It inhibits the synthesis of the cell wall peptidoglycan."
+    "category": "Microbiology - C.botulinum",
+    "question": "An exotoxin that has been treated to destroy its toxicity but retain its immunogenicity is called a _____.",
+    "answer": "toxoid"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Concept: $Staphylococci$",
-    "answer": "Definition: Gram-positive spherical bacteria arranged in grape-like clusters."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which specific component of the Gram-negative bacterial lipopolysaccharide (LPS) is responsible for its toxicity?",
+    "answer": "Lipid A."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the average diameter of a $Staphylococcus$ cell?",
-    "answer": "$1 \\mu m$"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which surface protein is an important diagnostic marker for $Staphylococcus$ $aureus$?",
+    "answer": "Staphylococcal Protein A (SPA)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Does $Staphylococcus$ typically possess flagella or spores?",
-    "answer": "No, it has neither flagella nor spores."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which enzyme produced by $Staphylococcus$ $aureus$ causes plasma to clot and is a key pathogenicity marker?",
+    "answer": "Coagulase."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which $Staphylococcus$ species produces golden yellow pigment and has strong pathogenicity?",
-    "answer": "$Staphylococcus\\ aureus$"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the characteristic arrangement of $Streptococcus$ cells?",
+    "answer": "In chains."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What test is used to identify the pathogenicity of $Staphylococci$ by inducing plasma clotting?",
-    "answer": "Coagulase test"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which pathogen is associated with the clinical finding of rice water stools?",
+    "answer": "$Vibrio$ $cholerae$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the function of Staphylococcal Protein A (SPA)?",
-    "answer": "It is an important surface antigen that binds to the IgG molecule."
+    "category": "Microbiology - C.botulinum",
+    "question": "What environment does $Vibrio$ $cholerae$ require for optimal growth in culture?",
+    "answer": "Alkaline conditions ($pH$ 8.5-9.5)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which $Staphylococcus$ species is coagulase-negative and produces a white pigment?",
-    "answer": "$Staphylococcus\\ epidermidis$"
+    "category": "Microbiology - C.botulinum",
+    "question": "The A subunit of the Cholera toxin increases the levels of _____ in intestinal cells, leading to diarrhea.",
+    "answer": "$cAMP$"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Among nonspore-forming bacteria, which group has the strongest resistance to heat and drying?",
-    "answer": "$Staphylococci$"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which bacterium is the primary cause of bacillary dysentery?",
+    "answer": "$Shigella$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What percentage of $NaCl$ can $Staphylococcus$ tolerate in a culture medium?",
-    "answer": "$10\\%$ to $15\\%$"
+    "category": "Microbiology - C.botulinum",
+    "question": "The Widal test is used to diagnose which infectious disease?",
+    "answer": "Typhoid fever (Enteric fever)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Staphylolysin is a cytotoxin that primarily damages _____.",
-    "answer": "cell membranes"
+    "category": "Microbiology - C.botulinum",
+    "question": "In a Widal test, a diagnostic rise in antibody titer is generally considered to be at least _____ times.",
+    "answer": "4"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which staphylococcal exotoxin destroys leukocytes and attacks neutrophils?",
-    "answer": "Leukocidin"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which anaerobic bacterium is known for causing stormy fermentation in milk medium?",
+    "answer": "$Clostridium$ $perfringens$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which toxin produced by $S.\\ aureus$ is responsible for food poisoning?",
-    "answer": "Enterotoxin"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the characteristic shape of $Clostridium$ $tetani$ spores?",
+    "answer": "Drumstick-shaped (terminal round spore)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What syndrome is caused by the staphylococcal toxin TSST-1?",
-    "answer": "Toxic shock syndrome (TSS)"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the mechanism of action for Tetanospasmin?",
+    "answer": "It blocks the release of inhibitory neurotransmitters (Glycine and $GABA$)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Name one local pyogenic infection caused by $S.\\ aureus$.",
-    "answer": "Furuncle (boil) or carbuncle"
+    "category": "Microbiology - C.botulinum",
+    "question": "Morphology: $Clostridium$ $botulinum$",
+    "answer": "Gram-positive bacilli with subterminal oval spores resembling a tennis racket."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Staphylococcal scalded skin syndrome (SSSS) is mediated by which type of toxin?",
-    "answer": "Exfoliative toxin"
+    "category": "Microbiology - C.botulinum",
+    "question": "What are the oxygen requirements for the growth of $Clostridium$ $botulinum$?",
+    "answer": "Obligate anaerobic."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Concept: $Streptococcus$",
-    "answer": "Definition: Gram-positive spherical bacteria typically arranged in chains."
+    "category": "Microbiology - C.botulinum",
+    "question": "Regarding resistance, how does the $Clostridium$ $botulinum$ toxin compare to its spores?",
+    "answer": "The spores are highly resistant to heat, while the toxin is heat-labile."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the composition of the capsule found in some $Streptococci$?",
-    "answer": "Hyaluronic acid"
+    "category": "Microbiology - C.botulinum",
+    "question": "At what temperature and for how long is the Botulinum toxin typically destroyed?",
+    "answer": "$100^\\circ C$ for 10 minutes (or $80^\\circ C$ for 20 minutes)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "How are $Streptococci$ classified based on their hemolysis phenomena on blood agar?",
-    "answer": "$\\alpha$-hemolytic (incomplete), $\\beta$-hemolytic (complete), and $\\gamma$-hemolytic (none)"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the pathogenic mechanism of the Botulinum toxin?",
+    "answer": "It blocks the release of acetylcholine ($ACh$) at the neuromuscular junction."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which hemolytic group of $Streptococcus$ is considered most pathogenic to humans?",
-    "answer": "$\\beta$-hemolytic streptococcus (Pyogenic streptococcus)"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which type of paralysis is caused by $Clostridium$ $botulinum$ infection?",
+    "answer": "Flaccid paralysis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the primary protein antigen used to type Group A $Streptococci$?",
-    "answer": "M protein"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the most common cause of death in progressive botulism?",
+    "answer": "Respiratory failure."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which substance produced by Group A $Streptococci$ dissolves fibrin clots?",
-    "answer": "Streptokinase (SK)"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is a major clinical finding in $Clostridium$ $botulinum$ food poisoning besides paralysis?",
+    "answer": "Blurred vision with fixed dilated pupils."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which enzyme produced by $Streptococcus$ breaks down the 'ground substance' of connective tissue?",
-    "answer": "Hyaluronidase"
+    "category": "Microbiology - C.botulinum",
+    "question": "Is fever typically present or absent in cases of botulism food poisoning?",
+    "answer": "Absent."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What disease is associated with the production of Erythrogenic toxin by $Streptococcus$?",
-    "answer": "Scarlet fever"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which clinical form of botulism is associated with the ingestion of spores by neonates?",
+    "answer": "Infant botulism."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What are the two types of streptolysin (hemolysin)?",
-    "answer": "SLO (oxygen-labile) and SLS (oxygen-stable)"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the primary treatment for patients presenting with botulism?",
+    "answer": "Administration of anti-toxin."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What does a positive ASOT (anti-SLO test) titer of $>1:400$ indicate?",
-    "answer": "A recent or current infection by $Streptococcus$ producing SLO."
+    "category": "Microbiology - C.botulinum",
+    "question": "What preventive measure should be taken with canned foods to avoid botulism?",
+    "answer": "Heat the food thoroughly before consumption."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which antibiotic is the first choice for treating infections caused by $Streptococcus$?",
-    "answer": "Penicillin"
+    "category": "Microbiology - C.botulinum",
+    "question": "Term: Trophozoite",
+    "answer": "Definition: The active, pathogenic, and reproductive stage of a protozoan. Example: The motile form of $Entamoeba$ $histolytica$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Describe the morphology of $Streptococcus\\ pneumoniae$.",
-    "answer": "Gram-positive, encapsulated, lancet-shaped diplococcus."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which stage of $Entamoeba$ $histolytica$ is both the infective and diagnostic stage?",
+    "answer": "The mature cyst."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the main invasive factor (pathogenicity) for $Streptococcus\\ pneumoniae$?",
-    "answer": "The capsule"
+    "category": "Microbiology - C.botulinum",
+    "question": "A mature $Entamoeba$ $histolytica$ cyst contains exactly _____ nuclei.",
+    "answer": "4"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which test is used to distinguish $\\alpha$-hemolytic streptococcus from $Pneumococcus$?",
-    "answer": "Bile solubility test"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the characteristic shape of intestinal ulcers caused by $Entamoeba$ $histolytica$?",
+    "answer": "Flask-shaped."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Concept: $Neisseria\\ meningitidis$",
-    "answer": "Definition: Gram-negative, encapsulated kidney-shaped diplococcus causing epidemic meningitis."
+    "category": "Microbiology - C.botulinum",
+    "question": "Amoebic liver abscesses are often characterized by reddish-brown pus known as _____ pus.",
+    "answer": "chocolate"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Describe the morphology of $Neisseria\\ gonorrhoeae$.",
-    "answer": "Gram-negative coffee bean-shaped diplococcus."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which medication is used to treat symptomatic intestinal amoebiasis?",
+    "answer": "Metronidazole."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which culture medium is required for the growth of $Neisseria$ species?",
-    "answer": "Chocolate agar with $5\\%-10\\%\\ CO_2$"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the primary method of motility for $Entamoeba$ $histolytica$ trophozoites?",
+    "answer": "Pseudopodia."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the primary pathogenic substance in $Neisseria$ species?",
-    "answer": "Lipopolysaccharide (LPS) / Endotoxin"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which structure allows bacteria to survive boiling ($100^\\circ C$)?",
+    "answer": "The spore."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which organism causes gonococcal conjunctivitis?",
-    "answer": "$Neisseria\\ gonorrhoeae$"
+    "category": "Microbiology - C.botulinum",
+    "question": "Pasteurization is a sterilization method commonly used for _____ and _____.",
+    "answer": "milk; beer"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "In the bacterial growth cycle, which phase should be selected to study biological characters?",
-    "answer": "Logarithmic (Log) phase"
+    "category": "Microbiology - C.botulinum",
+    "question": "The synthetic product of bacteria responsible for causing fever in humans is called a _____.",
+    "answer": "pyrogen"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Define 'Sterilization'.",
-    "answer": "The process of killing all microbial forms, including bacterial spores."
+    "category": "Microbiology - C.botulinum",
+    "question": "During which phase of the bacterial growth cycle are bacteria most suitable for studying biological characteristics?",
+    "answer": "Logarithmic (log) phase."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is 'Disinfection'?",
-    "answer": "The process of killing only pathogenic microorganisms."
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the difference between disinfection and sterilization?",
+    "answer": "Disinfection kills only pathogenic microorganisms, while sterilization kills all forms of life including spores."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which method is the most frequently used and effective for killing bacterial spores?",
-    "answer": "Autoclave sterilization"
+    "category": "Microbiology - C.botulinum",
+    "question": "How does $Staphylococcus$ $saprophyticus$ differ from $Staphylococcus$ $aureus$ regarding coagulase production?",
+    "answer": "$S.$ $saprophyticus$ is coagulase-negative, whereas $S.$ $aureus$ is coagulase-positive."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the standard concentration of alcohol used for disinfection?",
-    "answer": "$75\\%$"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which bacterium can grow on media containing $10\\%-15\\% \\ NaCl$?",
+    "answer": "$Staphylococcus$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "The principle of ultraviolet (UV) sterilization is the destruction of _____.",
-    "answer": "DNA"
+    "category": "Microbiology - C.botulinum",
+    "question": "Scarlet fever and rheumatic fever are complications caused by which genus of bacteria?",
+    "answer": "$Streptococcus$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which sterilization method is appropriate for heat-sensitive liquids like serum or antitoxin?",
-    "answer": "Filtration sterilization"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which $E.$ $coli$ group is associated with producing toxins similar to the Cholera toxin?",
+    "answer": "Enterotoxigenic $E.$ $coli$ (ETEC)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is 'Pasteurization' primarily used for?",
-    "answer": "The sterilization/disinfection of milk and beer."
+    "category": "Microbiology - C.botulinum",
+    "question": "The heat-stable toxin ($ST$) of $E.$ $coli$ causes diarrhea by increasing levels of _____.",
+    "answer": "$cGMP$"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Adding $1\\%-2\\%\\ NaHCO_3$ to boiling water increases the boiling point to _____.",
-    "answer": "$105^{\\circ}C$"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the first-choice antibiotic for treating $Streptococcus$ infections?",
+    "answer": "Penicillin."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Term: Colony",
-    "answer": "Definition: A visible group of bacteria on a solid medium that proliferated from a single bacterium."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which type of hemolysis produces a transparent zone on blood agar?",
+    "answer": "$\\beta$-hemolysis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which chemical agent is commonly used to disinfect drinking water and swimming pools?",
-    "answer": "Chlorine"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the primary clinical finding of Gas Gangrene, and which organism causes it?",
+    "answer": "Tissue necrosis and gas production; $Clostridium$ $perfringens$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "The presence of bacteria in the blood without multiplication is known as _____.",
-    "answer": "bacteremia"
+    "category": "Microbiology - C.botulinum",
+    "question": "In the mechanism of tetanus, spastic paralysis results from the lack of _____ of the motor neurons.",
+    "answer": "inhibition"
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is 'Septicemia'?",
-    "answer": "A systemic infection where bacteria multiply in the blood and produce toxins."
+    "category": "Microbiology - C.botulinum",
+    "question": "Which vaccine is used for the active immunization of children against tetanus?",
+    "answer": "DPT (Diphtheria, Pertussis, Tetanus) vaccine."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "The presence of bacterial toxins in the blood is called _____.",
-    "answer": "toxemia"
+    "category": "Microbiology - C.botulinum",
+    "question": "How does the toxin production of $Clostridium$ $perfringens$ differ from $C.$ $tetani$ in terms of diversity?",
+    "answer": "$C.$ $perfringens$ produces multiple exotoxins ($\\alpha, \\beta, \\epsilon, \\iota$), whereas $C.$ $tetani$ primarily produces Tetanospasmin."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which type of bacteria (Gram-positive or Gram-negative) primarily produces endotoxins?",
-    "answer": "Gram-negative ($G-$) bacteria"
+    "category": "Microbiology - C.botulinum",
+    "question": "What is the role of Tetanus Antitoxin (TAT) in treatment?",
+    "answer": "It neutralizes free (unbound) exotoxin in the bloodstream."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which type of toxin is highly immunogenic and can be converted into a toxoid?",
-    "answer": "Exotoxin"
+    "category": "Microbiology - C.botulinum",
+    "question": "Which form of $Entamoeba$ $histolytica$ is commonly found in the stool of chronic carriers?",
+    "answer": "The cyst."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the chemical composition of most bacterial exotoxins?",
-    "answer": "Protein"
+    "category": "Microbiology - C.botulinum",
+    "question": "Tenesmus is a clinical symptom commonly associated with which bacterial infection?",
+    "answer": "$Shigella$ (Bacillary dysentery)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Under what growth condition do bacteria appear as a pellicle or turbid in liquid medium?",
-    "answer": "Surface growth or uniform growth throughout the medium."
+    "category": "Microbiology - C.botulinum",
+    "question": "What color do non-pathogenic enteric bacteria typically produce on SS (Salmonella-Shigella) agar?",
+    "answer": "Pink."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which bacterial structure is specifically related to the sex pili's function?",
-    "answer": "Conjugation (transfer of genetic material)"
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the Gram stain result and typical arrangement of Staphylococcus?",
+    "answer": "Gram-positive spherical cells arranged in grape-like clusters."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Name the unique element of the bacterial cell wall found in both $G+$ and $G-$ bacteria.",
-    "answer": "Peptidoglycan"
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which protein serves as an important surface antigen for Staphylococci?",
+    "answer": "Staphylococcal Protein A (SPA)."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the primary indicator that medical materials have been successfully sterilized?",
-    "answer": "Bacterial spores have been completely killed."
+    "category": "Microbiology - Staphylococcus",
+    "question": "Staphylococci are classified as aerobic or _____ anaerobic.",
+    "answer": "Facultative."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "A subclinical infection is also known as an _____ infection.",
-    "answer": "inapparent"
+    "category": "Microbiology - Staphylococcus",
+    "question": "What are the three typical pigment colors produced by Staphylococcal colonies?",
+    "answer": "Golden yellow, white, and lemon."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What are 'opportunistic pathogens'?",
-    "answer": "Normal flora that cause disease only when the host's resistance is lowered."
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Staphylococcal species produces a golden yellow pigment?",
+    "answer": "Staphylococcus aureus."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which structure helps a bacterium settle down or adhere to a host surface?",
-    "answer": "Pilus (ordinary)"
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Staphylococcal species typically produces a white pigment?",
+    "answer": "Staphylococcus epidermidis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "How does moisture improve heat sterilization compared to dry heat?",
-    "answer": "Moist heat has better penetration and denatures proteins more effectively."
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the optimum $pH$ for the cultivation of Staphylococci?",
+    "answer": "$pH$ $7.4$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Bacteria that are part of the 'normal flora' can become pathogenic if they move to an _____ position.",
-    "answer": "abnormal (or ectopic)"
+    "category": "Microbiology - Staphylococcus",
+    "question": "Staphylococci exhibit high salt tolerance and can grow in media containing what concentration of $NaCl$?",
+    "answer": "$10\\%$ to $15\\%$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "The ability of a bacterium to cause disease is determined by its invasiveness and _____.",
-    "answer": "toxin production"
+    "category": "Microbiology - Staphylococcus",
+    "question": "How does the resistance of Staphylococcus compare to other nonspore-forming bacteria?",
+    "answer": "It is the strongest among nonspore-forming bacteria."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which staphylococcal toxin is associated with 'scalded skin syndrome' in infants?",
-    "answer": "Exfoliative toxin"
+    "category": "Microbiology - Staphylococcus",
+    "question": "Approximately what percentage of Staphylococci strains are resistant to Penicillin G?",
+    "answer": "$90\\%$."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "M protein in $Streptococcus$ helps the bacteria resist _____.",
-    "answer": "phagocytosis"
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the primary biochemical marker used to identify the pathogenicity of Staphylococci?",
+    "answer": "Plasma-coagulase."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Name the diagnostic test used to differentiate $S.\\ pneumoniae$ from other $\\alpha$-hemolytic streptococci based on enzyme activation.",
-    "answer": "Bile solubility test"
+    "category": "Microbiology - Staphylococcus",
+    "question": "How does coagulase help Staphylococci resist the host immune system?",
+    "answer": "It induces plasma clotting around the bacteria to resist phagocytosis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "True or False: Endotoxins are easily degraded by heat.",
-    "answer": "False (they are heat-stable lipopolysaccharides)."
+    "category": "Microbiology - Staphylococcus",
+    "question": "What effect does coagulase have on the localization of a Staphylococcal infection?",
+    "answer": "It limits the infection and promotes tissue necrosis."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "Which $Staphylococcus$ species is a common cause of subacute endocarditis?",
-    "answer": "$Staphylococcus\\ epidermidis$ (often weak pathogenicity but can infect heart valves)."
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the main type of Staphylolysin produced by pathogenic strains?",
+    "answer": "$\\alpha$-staphylolysin."
   },
   {
-    "category": "Microbiology - Coccus",
-    "question": "What is the function of the enzyme Streptodornase (SD)?",
-    "answer": "It liquefies thick purulent exudates by degrading DNA."
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the pathogenic mechanism of Staphylolysin?",
+    "answer": "It acts as a cytotoxin that damages cell membranes."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which host cells are primarily targeted and destroyed by Staphylococcal Leukocidin?",
+    "answer": "Neutrophils and macrophages."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which toxin is the causative agent of Staphylococcal Scalded Skin Syndrome (SSSS)?",
+    "answer": "Exfoliative toxin."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which clinical condition is characterized by fever and is caused by Toxic Shock Syndrome Toxin 1?",
+    "answer": "Toxic Shock Syndrome (TSS)."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Staphylococcal enterotoxin is thermostable and can resist boiling at $100^{\\circ}C$ for how many minutes?",
+    "answer": "$30$ minutes."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the physiological mechanism by which Staphylococcal enterotoxin causes vomiting?",
+    "answer": "It stimulates the vomiting center of the Central Nervous System."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Approximately what fraction of Staphylococcus aureus strains can produce enterotoxin?",
+    "answer": "One-half ($\\frac{1}{2}$)."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "List three examples of local pyogenic skin infections caused by Staphylococcus.",
+    "answer": "Furuncle (boil), carbuncle, and impetigo."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What terms describe the systemic spread of Staphylococcus leading to abscesses in internal organs?",
+    "answer": "Bacteremia and Pyemia."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which specific patient population is most frequently affected by Staphylococcal Scalded Skin Syndrome (SSSS)?",
+    "answer": "Newborns, infants, and immune-deficient patients."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "In suspected cases of food poisoning, which specimens should be collected for laboratory diagnosis?",
+    "answer": "Suspected food and vomitus."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Besides coagulase, which biochemical test involves the fermentation of a specific sugar to identify Staphylococcus aureus?",
+    "answer": "Mannitol fermentation."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What diagnostic test is used to identify the presence of SPA on the surface of S. aureus?",
+    "answer": "Conglutination test."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "For patients with recurrent Staphylococcal attacks, what specialized therapy may be attempted?",
+    "answer": "Desensitization therapy with a self-vaccine."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "The presence of a subterminal oval spore that resembles a 'tennis racket' is characteristic of which Clostridium species?",
+    "answer": "Clostridium botulinum."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the required temperature and duration for pressure sterilization to kill highly resistant bacterial spores?",
+    "answer": "$121^{\\circ}C$ for at least $20$ to $30$ minutes."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Clostridium species is described as a large, rectangular, Gram-positive bacillus with a capsule and no motility?",
+    "answer": "Clostridium perfringens."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What unique cultural phenomenon occurs when Clostridium perfringens is grown in milk medium?",
+    "answer": "Stormy fermentation."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the primary neurotoxin produced by Clostridium tetani that blocks inhibitory neurotransmitters?",
+    "answer": "Tetanospasmin."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Vibrio cholerae structure is essential for adapting to and moving through mucous surfaces?",
+    "answer": "Flagella."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the preferred culture medium for the isolation of Vibrio cholerae?",
+    "answer": "TCBS (Thiosulfate citrate bile salts sucrose agar)."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Vibrio cholerae requires an alkaline environment with a $pH$ range of _____ to grow well.",
+    "answer": "$8.5$ to $9.5$."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What type of paralysis is characteristic of Botulism caused by Clostridium botulinum?",
+    "answer": "Flaccid paralysis."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which vaccine is used to provide active immunity against tetanus, diphtheria, and pertussis?",
+    "answer": "DPT vaccine."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the Gram stain and morphology of Shigella?",
+    "answer": "Gram-negative short rods."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Enterobacteriaceae species forms pink, large colonies on SS medium due to lactose fermentation?",
+    "answer": "Escherichia coli."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Salmonella typically multiplies inside which host immune cells?",
+    "answer": "Macrophages."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What specific serological test is used to diagnose Enteric (Typhoid) fever?",
+    "answer": "Widal test."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "In the context of bacterial growth, what is a 'colony'?",
+    "answer": "A visible group of bacteria on solid medium derived from a single progenitor cell."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the definition of 'sterilization' in microbiology?",
+    "answer": "The complete destruction of all forms of microbial life, including spores."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which phase of the bacterial growth curve is characterized by the most rapid cell division?",
+    "answer": "Log (logarithmic) phase."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What structure is referred to as 'resting bacteria' and allows survival in extreme desiccation?",
+    "answer": "Spore."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Gram-positive coccus is arranged in chains and requires enriched media for growth?",
+    "answer": "Streptococcus."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the first choice of antibiotic for treating infections caused by Streptococcus pyogenes?",
+    "answer": "Penicillin."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which toxin produced by Group A Streptococcus causes the rash seen in Scarlet Fever?",
+    "answer": "Pyrogenic exotoxin (Erythrogenic toxin)."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the common term for the terminal round spore of Clostridium tetani?",
+    "answer": "Drum-stick."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which bacterial structure is primarily responsible for adhesion and colonization in the small intestine?",
+    "answer": "Pili."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the characteristic appearance of stools in a patient with Cholera?",
+    "answer": "Rice water stools."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "How is 'antisepsis' defined relative to living tissues?",
+    "answer": "The use of chemical agents on skin or living tissue to inhibit or eliminate microbial growth."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which bacterial enzyme, also known as 'spreading factor,' breaks down connective tissue?",
+    "answer": "Hyaluronidase."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which toxin produced by Staphylococcus aureus is a major cause of hospital-acquired Toxic Shock Syndrome?",
+    "answer": "TSST-1."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What is the primary method of preventing hospital-acquired Staphylococcal infections?",
+    "answer": "Personal hygiene, disinfection, and isolation."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Staphylococcus species is generally considered non-pathogenic and lacks coagulase?",
+    "answer": "Staphylococcus saprophyticus."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Bacterial spores are highly resistant because of their thick coat and extremely low _____ content.",
+    "answer": "Water."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "Which Streptococcus enzyme is used clinically to dissolve blood clots?",
+    "answer": "Streptokinase (SK)."
+  },
+  {
+    "category": "Microbiology - Staphylococcus",
+    "question": "What term describes a state where a pathogen persists in a host without causing clinical symptoms but can be shed?",
+    "answer": "Carrier state."
   },
   {
     "category": "Immunology - Antigen",
@@ -703,381 +1568,6 @@
     "category": "Immunology - Antigen",
     "question": "Oral administration of an antigen primarily targets which lymphoid tissue?",
     "answer": "Gut-associated lymphoid tissue (GALT)."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the standard measurement unit used for bacteria?",
-    "answer": "Micrometer ($\\mu m$)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "How many times must a bacterium be amplified to be visible under a light microscope?",
-    "answer": "1000 times"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Identify the three primary shapes of bacteria seen under a light microscope.",
-    "answer": "Coccus, bacillus, and spirilla"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What are the four essential basic structures of all bacteria?",
-    "answer": "Cell wall, cell membrane, cytoplasm, and nucleoid"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which bacterial structure is specifically responsible for anti-phagocytic function?",
-    "answer": "Capsule"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The bacterial structure primarily used for locomotion is the _____.",
-    "answer": "Flagella"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the primary function of ordinary pili in bacterial pathogenesis?",
-    "answer": "Adhesion to host cells"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which bacterial structure is the most resistant form, capable of surviving harsh environments?",
-    "answer": "Spore"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Bacteria that have lost their cell wall but are still capable of growth are called _____.",
-    "answer": "L-form bacteria"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which unique chemical component is found in the cell walls of Gram-positive bacteria but not Gram-negative bacteria?",
-    "answer": "Teichoic acid"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The toxic component of the Gram-negative bacterial cell wall is _____.",
-    "answer": "Lipid A (of the Lipopolysaccharide)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "How does the peptidoglycan layer of Gram-positive bacteria differ from Gram-negative bacteria in terms of thickness?",
-    "answer": "It is much thicker in Gram-positive bacteria."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which enzyme's synthesis is inhibited by Penicillin, thereby preventing bacterial cell wall formation?",
-    "answer": "Peptidoglycan synthase (transpeptidase)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the name for extrachromosomal DNA fragments found in the bacterial cytoplasm?",
-    "answer": "Plasmids"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Define 'sterilization' in a clinical context.",
-    "answer": "The process of killing all microbial forms, including bacterial spores."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which moist heat sterilization method is most frequently used to ensure the destruction of spores?",
-    "answer": "Autoclave sterilization"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the standard concentration of alcohol used for skin disinfection?",
-    "answer": "$75\\%$"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The primary mechanism by which Ultraviolet (UV) light kills bacteria is the destruction of _____.",
-    "answer": "DNA"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which growth phase should be selected to study the biological characteristics and morphology of a bacterial culture?",
-    "answer": "Logarithmic (log) phase"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Define 'Normal Flora'.",
-    "answer": "Microorganisms that normally reside in or on the human body without causing disease."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Under what general conditions does a normal flora microorganism become an opportunistic pathogen?",
-    "answer": "Alteration of colonization site, declining host immunity, or dysbacteria."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Differentiate 'Bacteremia' from 'Septicemia'.",
-    "answer": "Bacteremia is the presence of bacteria in the blood without multiplication; septicemia involves bacteria multiplying in the blood and producing toxins."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What term describes the condition where bacterial exotoxins enter the bloodstream and cause toxic symptoms, but the bacteria remain at the site of infection?",
-    "answer": "Toxemia"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which bacterial toxin is composed of protein and is typically secreted by living Gram-positive bacteria?",
-    "answer": "Exotoxin"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "How does the heat stability of endotoxins compare to that of exotoxins?",
-    "answer": "Endotoxins are heat-stable, while most exotoxins are heat-labile (destroyed by heat)."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What are the three main types of antigens used to classify Enterobacteriaceae?",
-    "answer": "O (somatic), H (flagellar), and K or Vi (capsular) antigens."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which genus of enteric bacilli is the primary indicator of fecal contamination in water and food?",
-    "answer": "Escherichia ($E. coli$)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the appearance of pathogenic enteric bacteria (like Shigella or Salmonella) on Salmonella-Shigella (SS) agar?",
-    "answer": "Colorless and small colonies."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "On SS agar, non-pathogenic enteric bacteria (like $E. coli$) appear pink because they can ferment _____.",
-    "answer": "Lactose"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which pathotype of $E. coli$ is the major cause of traveler's diarrhea?",
-    "answer": "Enterotoxigenic $E. coli$ (ETEC)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The $B$ subunit of $E. coli$ heat-labile enterotoxin (LT) binds specifically to which host cell receptor?",
-    "answer": "$GM_{1}$ ganglioside"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the intracellular mechanism of action for $E. coli$ Heat-Labile Enterotoxin (LT)?",
-    "answer": "Activation of Adenylate Cyclase (AC), leading to increased $cAMP$."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The Heat-Stable Toxin ($ST$) produced by ETEC causes diarrhea by activating _____.",
-    "answer": "Guanylate Cyclase (GC), leading to increased $cGMP$."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which pathotype of $E. coli$ produces Shiga toxin and causes hemorrhagic colitis?",
-    "answer": "Enterohemorrhagic $E. coli$ (EHEC)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the characteristic clinical presentation of infection with Enteroinvasive $E. coli$ (EIEC)?",
-    "answer": "Symptoms resembling bacillary dysentery (Shigella)."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which $E. coli$ pathotype is associated with the formation of a 'mucous brick-like biofilm' on the intestinal surface?",
-    "answer": "Enteroaggregative $E. coli$ (EAggEC)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Describe the motility and Gram-stain characteristics of Shigella.",
-    "answer": "Non-motile (no flagella) and Gram-negative rods."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the primary transmission route for Shigella infections?",
-    "answer": "Gastrointestinal tract (fecal-oral route)."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What are the typical components of stools in a patient with acute bacillary dysentery?",
-    "answer": "Blood, mucus, and pus."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which Shigella subgroup is known for producing the potent Shiga toxin (Stx)?",
-    "answer": "Group A (Shigella dysenteriae)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "In Shigella pathogenesis, what causes the clinical symptom of tenesmus?",
-    "answer": "The action of exotoxin on the autonomic nervous system."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Compare the motility of Salmonella to Shigella.",
-    "answer": "Salmonella is motile (peritrichous flagella), whereas Shigella is non-motile."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the clinical name for the systemic infection caused by Salmonella typhi?",
-    "answer": "Enteric fever (Typhoid fever)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "During the first week of Enteric Fever, which specimen is most likely to yield a positive culture?",
-    "answer": "Blood"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the diagnostic 'rose spot' seen in typhoid fever?",
-    "answer": "Small red spots appearing on the skin during the infection."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The serologic test used to detect antibodies against the $O$ and $H$ antigens of Salmonella typhi is the _____ test.",
-    "answer": "Widal"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is considered a clinically significant $O$ antibody titer in a single Widal test result?",
-    "answer": "$\\ge 1:80$"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "In the Widal test, what is the significant titer level for $H$ antibodies?",
-    "answer": "$\\ge 1:160$"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Where do Salmonella bacteria typically persist in chronic carriers?",
-    "answer": "The gallbladder"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which Salmonella syndrome typically presents with positive stool cultures but negative blood cultures?",
-    "answer": "Gastroenteritis"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The capsular antigen of Salmonella typhi that is related to virulence is known as the _____ antigen.",
-    "answer": "$Vi$ antigen"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which staphylococcal species is coagulase-positive and highly pathogenic?",
-    "answer": "Staphylococcus aureus"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the function of Staphylococcal Protein A (SPA)?",
-    "answer": "It is a surface protein that identifies pathogenicity and helps resist phagocytosis."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which toxin produced by S. aureus is responsible for Staphylococcal Scalded Skin Syndrome (SSSS)?",
-    "answer": "Exfoliative toxin"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The S. aureus enterotoxin causes food poisoning by stimulating the _____.",
-    "answer": "Vomiting center of the Central Nervous System (CNS)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which type of hemolysis is characterized by transparent, clear zones around colonies on blood agar?",
-    "answer": "$\\beta$-hemolysis"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Group A Streptococcus is primarily associated with which type of infection?",
-    "answer": "Pyogenic (pus-forming) infections"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which streptococcal enzyme is used clinically to dissolve blood clots?",
-    "answer": "Streptokinase (SK)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Scarlet fever is caused by the _____ produced by Group A streptococci.",
-    "answer": "Pyrogenic exotoxin (Erythrogenic toxin)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which specific test distinguishes $\\alpha$-hemolytic streptococcus from Pneumococcus?",
-    "answer": "Bile solubility test"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the primary pathogen responsible for epidemic meningitis?",
-    "answer": "Neisseria meningitidis (Meningococcus)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Describe the typical morphology of Neisseria gonorrhoeae.",
-    "answer": "Gram-negative, kidney-shaped or coffee bean-shaped diplococci."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which structure provides the main invasive power for Pneumococcus?",
-    "answer": "Capsule"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Define 'transduction' in bacterial genetics.",
-    "answer": "The transfer of bacterial DNA from a donor to a recipient mediated by a bacteriophage."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is a 'temperate phage'?",
-    "answer": "A phage whose DNA integrates into the bacterial chromosome as a prophage without immediately lysing the cell."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Lysogenic conversion is defined as _____.",
-    "answer": "The acquisition of new biological traits by a bacterium after a temperate phage integrates into its chromosome."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which plasmid is specifically related to bacterial conjugation and the transfer of genetic material?",
-    "answer": "$F$ plasmid (Fertility factor)"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The process where a bacterium directly takes up free DNA from the environment is called _____.",
-    "answer": "Transformation"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which parasite stage is the dormant, resistant, and infective form of protozoa like Entamoeba histolytica?",
-    "answer": "Cyst"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "The active, pathogenic, and reproductive stage of protozoa is the _____.",
-    "answer": "Trophozoite"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the characteristic intestinal lesion caused by Entamoeba histolytica?",
-    "answer": "Flask-shaped ulcer"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Amoebic liver abscesses are clinically recognized by the presence of _____.",
-    "answer": "Reddish-brown 'chocolate' pus"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Differentiate 'Definitive Host' from 'Intermediate Host'.",
-    "answer": "A definitive host harbors the adult or sexual stage; an intermediate host harbors the larval or asexual stage."
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "Which medical flagellate is the cause of Kala-azar (Visceral Leishmaniasis)?",
-    "answer": "Leishmania donovani"
-  },
-  {
-    "category": "Microbiology - Enteric",
-    "question": "What is the insect vector for the transmission of Leishmania donovani?",
-    "answer": "Sand flies"
   },
   {
     "category": "Immunology - Antibody",
@@ -1783,5 +2273,1705 @@
     "category": "Immunology - Complement",
     "question": "The complement system is described as a 'cascade' because _____.",
     "answer": "The activation of one protein leads to the sequential proteolytic activation of the next."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the typical shape and Gram stain reaction of Streptococcus?",
+    "answer": "Gram-positive ($G+$) spherical cells."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "How are Streptococcus cells typically arranged when viewed under a microscope?",
+    "answer": "In chains."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the average diameter of a Streptococcus cell?",
+    "answer": "$1.0 \\mu m$."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Streptococcus species do not form spores and are characterized as _____.",
+    "answer": "Nonsporeforming."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Are Streptococcus species motile or nonmotile?",
+    "answer": "Nonmotile."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which chemical substance composes the capsule of a Streptococcus cell?",
+    "answer": "Hyaluronic acid."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the composition of the pilus-like structures on the surface of Streptococcus?",
+    "answer": "Lipoteichoic acid-M protein (LTA-M protein)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "In terms of oxygen requirements, Streptococcus is classified as a _____.",
+    "answer": "Facultative anaerobe."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Why is Streptococcus considered a fastidious organism regarding culture media?",
+    "answer": "It requires enriched media (highly nutritive), such as blood or serum."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What growth phenomenon is observed when Streptococcus is cultured in liquid medium?",
+    "answer": "Formation of sediment at the bottom."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which type of hemolysis is characterized by an incomplete, greenish zone around colonies on blood agar?",
+    "answer": "$\\alpha$-hemolysis."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What defines $\\beta$-hemolysis on a blood agar plate?",
+    "answer": "Complete hemolysis, appearing as a transparent zone around the colony."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Streptococci that produce no hemolysis are referred to as _____.",
+    "answer": "$\\gamma$-hemolytic (Nonhemolytic) streptococci."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "The Lancefield classification system divides streptococci into 20 groups based on which antigen?",
+    "answer": "Polysaccharide antigen (Group-specific C-substance)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Lancefield groups are designated by letters A through H and _____ through V.",
+    "answer": "K."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What are the four types of protein antigens used for typing Group A streptococci?",
+    "answer": "M, R, T, and S proteins."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which protein antigen is a major virulence factor and determines type-specificity in Group A streptococci?",
+    "answer": "M protein."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "How does the resistance of Streptococcus compare to nonspore-forming bacteria like Staphylococcus?",
+    "answer": "It is weaker and more sensitive to antiseptics."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Name two specific antibiotic classes that Streptococcus is typically sensitive to.",
+    "answer": "Penicillins and sulfonamides."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptococcal enzyme dissolves fibrin clots by transforming plasminogen into plasmin?",
+    "answer": "Streptokinase (SK)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the function of Hyaluronidase in streptococcal pathogenesis?",
+    "answer": "It breaks down connective tissue, acting as a spreading factor."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which enzyme is responsible for liquefying pus by degrading DNA?",
+    "answer": "Streptodornase (SD)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What are the two types of hemolysins (streptolysins) produced by Streptococcus?",
+    "answer": "SLO (Streptolysin O) and SLS (Streptolysin S)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptolysin is oxygen-labile and highly antigenic?",
+    "answer": "Streptolysin O (SLO)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptolysin is oxygen-stable and responsible for surface hemolysis on blood agar?",
+    "answer": "Streptolysin S (SLS)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Pyrogenic exotoxin is the primary cause of which infectious disease?",
+    "answer": "Scarlet fever."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What are the two main ways Streptococcus causes disease?",
+    "answer": "Invasive/pyogenic infection and intoxication."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Name a common localized respiratory infection caused by Group A streptococci.",
+    "answer": "Streptococcal sore throat (Pharyngitis)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the term for a localized streptococcal skin infection?",
+    "answer": "Streptococcal pyoderma (Impetigo)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which clinical condition involves a streptococcal infection extending specifically through lymphatic vessels?",
+    "answer": "Erysipelas."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Subacute endocarditis is most frequently associated with which hemolytic group of streptococci?",
+    "answer": "$\\alpha$-hemolytic streptococci."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What are two major post-streptococcal sequelae (nonsuppurative complications)?",
+    "answer": "Rheumatic fever and glomerulonephritis."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Immunity against Group A streptococcal infections is _____ specific.",
+    "answer": "Type."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Immunity against scarlet fever is based on the presence of _____ in the blood.",
+    "answer": "Specific antitoxins."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which three specimen types are typically collected for a laboratory diagnosis of Streptococcus?",
+    "answer": "Pus, throat swabs, and blood."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What does the abbreviation ASOT stand for?",
+    "answer": "Anti-Streptolysin O Test."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "An ASOT titer greater than _____ is considered a positive standard for recent infection.",
+    "answer": "$1:400$."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which antibiotic is the first choice for treating Streptococcus infections?",
+    "answer": "Penicillin."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the primary preventive measure for serious streptococcal complications like rheumatic fever?",
+    "answer": "Timely treatment of primary infections such as pharyngitis."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the optimal pH for the growth of Streptococcus species?",
+    "answer": "$7.4$."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the optimal temperature for the growth of Streptococcus species?",
+    "answer": "$37 ^\\circ C$."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Besides carbon and nitrogen, what are two additional growth factors needed by Streptococcus?",
+    "answer": "Vitamins and purines/pyrimidines."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "The M protein helps Streptococcus evade the host immune system by resisting _____.",
+    "answer": "Phagocytosis."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptococcal group is known as the pyogenic streptococcus?",
+    "answer": "Group A streptococcus."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "In addition to fever, what is a biological activity of pyrogenic exotoxin?",
+    "answer": "Increasing sensitivity to endotoxin."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptococcal structure contains the group-specific polysaccharide used in Lancefield typing?",
+    "answer": "The cell wall."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which hemolytic group of Streptococcus is often part of the normal oral flora?",
+    "answer": "$\\alpha$-hemolytic streptococci."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "The Bile Solubility Test is used to distinguish $\\alpha$-hemolytic streptococci from which other pathogen?",
+    "answer": "Streptococcus pneumoniae."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What type of toxin is erythrogenic toxin considered in terms of its immune mechanism?",
+    "answer": "A superantigen."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Deep tissue infections characterized by spreading inflammation are known as _____.",
+    "answer": "Cellulitis."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the Gram reaction and morphology of the genus Streptococcus?",
+    "answer": "Gram-positive cocci."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Streptococcus pyogenes is a common species belonging to which Lancefield group?",
+    "answer": "Group A."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which streptococcal enzyme is used clinically to treat myocardial infarction by dissolving clots?",
+    "answer": "Streptokinase."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What clinical finding is characterized by a strawberry tongue and a diffuse red rash?",
+    "answer": "Scarlet fever."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Does Streptococcus produce the enzyme catalase?",
+    "answer": "No (it is catalase-negative)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which component of the Streptococcus cell surface is associated with anti-M protein antibodies?",
+    "answer": "Pilus-like structures."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Why is Streptococcus described as an invasive organism?",
+    "answer": "It produces enzymes like hyaluronidase and streptokinase that allow it to spread through tissues."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Antibodies against which streptococcal protein provide protection against re-infection by the same type?",
+    "answer": "M protein."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which type of Streptococcus is most likely to cause neonatal sepsis and meningitis?",
+    "answer": "Group B streptococci."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "A positive ASOT indicates the presence of antibodies against which virulence factor?",
+    "answer": "Streptolysin O."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the typical appearance of Streptococcus colonies on blood agar before hemolysis is considered?",
+    "answer": "Small, semitransparent, or transparent colonies."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which biochemical process provides the primary energy source for Streptococcus growth?",
+    "answer": "Fermentation of sugars (Carbon source)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Pyrogenic exotoxins are divided into which three antigenic types?",
+    "answer": "Types A, B, and C."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Which Lancefield group antigen is composed of rhamnose and N-acetylglucosamine?",
+    "answer": "Group A polysaccharide antigen."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "Is Streptococcus sensitivity to penicillin usually high or low?",
+    "answer": "High (highly sensitive)."
+  },
+  {
+    "category": "Microbiology - Streptococcus",
+    "question": "What is the main invasive power factor for Streptococcus pneumoniae, distinct from other streptococci?",
+    "answer": "The capsule."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the typical morphology and Gram stain of Escherichia coli?",
+    "answer": "Gram-negative short rods with rounded ends."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which locomotory structure do most strains of Escherichia coli possess?",
+    "answer": "Peritrichous flagella."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "In the context of Escherichia coli antigens, what does 'O' represent?",
+    "answer": "Somatic antigen (Lipopolysaccharide)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "In the context of Escherichia coli antigens, what does 'H' represent?",
+    "answer": "Flagellar antigen."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "In the context of Escherichia coli antigens, what does 'K' represent?",
+    "answer": "Capsular polysaccharide antigen."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "How do Escherichia coli colonies appear on SS (Salmonella-Shigella) medium?",
+    "answer": "Pink and large."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Escherichia coli is classified as lactose _____, which distinguishes it from many pathogenic enteric bacilli on SS medium.",
+    "answer": "Positive"
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the primary mechanism of action for the B subunit of E. coli heat-labile enterotoxin (LT)?",
+    "answer": "Binding to the GM1 ganglioside receptor on enterocytes."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which host cell enzyme is activated by the A subunit of E. coli heat-labile enterotoxin (LT)?",
+    "answer": "Adenyl cyclase."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Escherichia coli heat-labile enterotoxin (LT) causes fluid secretion by increasing the intracellular concentration of _____.",
+    "answer": "cAMP"
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "At what temperature can E. coli heat-stable toxin (ST) remain stable for 20 minutes?",
+    "answer": "$100^{\\circ}C$."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "The Escherichia coli heat-stable toxin (ST) mechanism involves the activation of _____.",
+    "answer": "Guanylyl cyclase (GC)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Escherichia coli heat-stable toxin (ST) causes diarrhea by increasing the intracellular concentration of _____.",
+    "answer": "cGMP"
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which specific category of pathogenic E. coli produces both LT and ST enterotoxins?",
+    "answer": "Enterotoxigenic E. coli (ETEC)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which E. coli category causes disease by adhering to and destroying the small intestinal mucosa using pili?",
+    "answer": "Enteropathogenic E. coli (EPEC)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which toxin is primarily associated with Enterohemorrhagic E. coli (EHEC)?",
+    "answer": "Shiga toxin."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which category of E. coli causes symptoms that resemble bacillary dysentery (Shigella)?",
+    "answer": "Enteroinvasive E. coli (EIEC)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which E. coli clinical type forms a 'mucous bricked' like biofilm on the cell surface?",
+    "answer": "Enteroaggregative E. coli (EAggEC)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the most common extraintestinal infection caused by Escherichia coli?",
+    "answer": "Urinary tract infection (UTI)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which structure helps Escherichia coli and other bacteria adhere to and settle down in a host?",
+    "answer": "Pilus (pili)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "To what magnification must bacteria typically be amplified to be seen under a light microscope?",
+    "answer": "1000 times."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Name the three basic shapes of bacteria described in the light microscope sections.",
+    "answer": "Coccus, bacillus, and spirilla."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which bacterial structure is considered a 'resting structure' that is highly resistant to heat and chemicals?",
+    "answer": "Spore."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What specific temperature and conditions are required to kill bacterial spores during sterilization?",
+    "answer": "$121^{\\circ}C$ under pressure."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "How long must medical supplies be heated at $121^{\\circ}C$ to ensure sterilization?",
+    "answer": "At least 20-30 minutes."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the standard index used to determine if a sterilization process is passable?",
+    "answer": "Whether bacterial spores have been killed."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "In Gram-negative bacteria, what are the three main components of the outer membrane?",
+    "answer": "Lipopolysaccharide (LPS), proteins, and phospholipids."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "The phenomenon of _____ led Alexander Fleming to invent Penicillin.",
+    "answer": "Antibiosis (bacteriolysis by mold)"
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What characterizes 'L-form' bacteria?",
+    "answer": "Bacteria that are deficient in or lack a cell wall."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the major chemical component of the Gram-positive bacterial cell wall?",
+    "answer": "Peptidoglycan."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which specific bacterial structure is responsible for movement?",
+    "answer": "Flagella."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the defining characteristic of Staphylococcus morphology?",
+    "answer": "Gram-positive spherical cells arranged in grape-like clusters."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the defining characteristic of Streptococcus arrangement?",
+    "answer": "Gram-positive spherical cells arranged in chains."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which bacterial shape is characteristic of Vibrio cholerae?",
+    "answer": "Short, curved (comma) shape."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Vibrio cholerae requires an _____ environment for optimal growth, typically between pH 8.5 to 9.5.",
+    "answer": "Alkaline"
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which culture medium is specifically used for the growth of Vibrio cholerae?",
+    "answer": "TCBS (Thiosulfate citrate bile salts sucrose agar)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the characteristic clinical finding of a severe cholera infection?",
+    "answer": "Rice water stools."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Identify the morphology and spore position of Clostridium tetani.",
+    "answer": "Gram-positive slender bacilli with terminal round spores ('drum-stick' form)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the characteristic appearance of Clostridium botulinum spores?",
+    "answer": "Subterminal oval spores ('tennis racket' form)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Define 'Virulence' in bacteriology.",
+    "answer": "The degree or measure of pathogenicity of a bacterium."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What are the two main groups of toxins produced by bacteria?",
+    "answer": "Exotoxins and endotoxins."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which type of bacterial toxin is primarily composed of protein and is typically secreted by living organisms?",
+    "answer": "Exotoxin."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which component of the Gram-negative cell wall is responsible for the toxicity of endotoxin?",
+    "answer": "Lipid A."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Define 'Bacteremia'.",
+    "answer": "The presence of bacteria in the blood without multiplication."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Define 'Septicemia'.",
+    "answer": "Bacteria circulate and multiply in the blood, producing toxic products and serious symptoms."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Define 'Toxemia'.",
+    "answer": "Bacteria multiply locally and do not enter the blood, but their exotoxins enter the blood and cause symptoms."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which stage of Entamoeba histolytica is considered the 'infective stage' for humans?",
+    "answer": "The mature cyst."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the characteristic shape of intestinal ulcers caused by Entamoeba histolytica?",
+    "answer": "Flask-shaped ulcers."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the appearance of the pus found in an amoebic liver abscess?",
+    "answer": "Reddish-brown 'chocolate' pus."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which clinical finding is used to distinguish alpha-hemolytic Streptococcus from Pneumococcus?",
+    "answer": "Bile solubility test."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the major pathogenic factor (invasive power) of Pneumococcus?",
+    "answer": "Capsule."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which concentration of alcohol is typically used for disinfection?",
+    "answer": "$75\\%$."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the primary mechanism of ultraviolet (UV) sterilization?",
+    "answer": "Interference with DNA synthesis (destroying DNA)."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which sterilization method is suitable for heat-sensitive liquids like blood serum or antitoxin?",
+    "answer": "Filtration sterilization."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the characteristic effect of Clostridium perfringens in a milk medium?",
+    "answer": "'Stormy fermentation'."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which drug is the first choice for treating Streptococcus infections?",
+    "answer": "Penicillin."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "The Widal test is a serological method used to diagnose which bacterial infection?",
+    "answer": "Enteric (Typhoid) fever caused by Salmonella."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "How does Staphylococcus aureus typically appear on culture media?",
+    "answer": "Smooth colonies with pigments like golden yellow, white, or lemon."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "In enteric bacilli classification, which sugar fermentation test is used to divide pathogenic and nonpathogenic species?",
+    "answer": "Lactose fermentation."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the action of Shiga toxin produced by Shigella?",
+    "answer": "Acts on intestinal mucosa to cause inflammation and ulcers."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which phase of the bacterial growth cycle is best for studying biological characteristics?",
+    "answer": "Logarithmic phase."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which pathogenic material of Beta-streptococcus is specifically related to allergic disorders (sequelae)?",
+    "answer": "M protein."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "What is the incubation condition typically required for Pneumococcus culture?",
+    "answer": "Aerobic with $5\\%-10\\% \\text{ CO}_2$."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Which disinfectant is commonly used for drinking water and swimming pools?",
+    "answer": "Chlorine."
+  },
+  {
+    "category": "Flashcards - E",
+    "question": "Concept: Pyrogen",
+    "answer": "Definition: A synthetic product of bacteria that causes a rise in body temperature."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the typical magnification required to see bacteria under a light microscope?",
+    "answer": "1000 times."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Bacteria that are spherical in shape are classified as _____.",
+    "answer": "coccus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial shape is described as a curved rod or comma-shaped?",
+    "answer": "vibrio"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the measurement unit commonly used for bacteria?",
+    "answer": "micrometer ($\\mu m$)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial structure is primarily responsible for resistance to harsh environmental conditions like boiling?",
+    "answer": "spore"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "At what temperature and for how long must medical supplies be heated under pressure to ensure sterilization of spores?",
+    "answer": "$121^{\\circ}C$ for 20-30 minutes."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which Gram-positive cocci typically arrange themselves in grape-like clusters?",
+    "answer": "Staphylococcus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which surface protein on *Staphylococcus aureus* binds to the Fc portion of IgG?",
+    "answer": "Staphylococcal Protein A (SPA)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What percentage of *Staphylococcus* strains are currently resistant to penicillin G?",
+    "answer": "90%"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What enzyme produced by pathogenic *Staphylococci* causes plasma to clot?",
+    "answer": "coagulase"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial genus is characterized by Gram-positive spherical cells arranged in chains?",
+    "answer": "Streptococcus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the first-choice antibiotic for treating *Streptococcus* infections?",
+    "answer": "penicillin"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which serologic test for *Streptococcus* is considered positive when the titer exceeds 1:400?",
+    "answer": "ASOT (anti-SLO test)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the characteristic shape of *Streptococcus pneumoniae*?",
+    "answer": "Gram-positive lancet-shaped diplococcus."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which Gram-negative diplococcus is the primary pathogen of epidemic meningitis?",
+    "answer": "Neisseria meningitidis"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the Gram stain and morphology of *Shigella*?",
+    "answer": "Gram-negative short rods."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "How is *Shigella* differentiated from *E. coli* on SS (Salmonella-Shigella) agar?",
+    "answer": "*Shigella* forms colorless colonies because it does not ferment lactose."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which locomotive structure is notably absent in *Shigella* species?",
+    "answer": "flagella"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which component of the *Shigella* cell wall is responsible for its strong endotoxin activity?",
+    "answer": "Lipopolysaccharide (LPS)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the specific name of the exotoxin produced by *Shigella* group A?",
+    "answer": "Shiga toxin (Stx)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What are the characteristic components of stool in acute bacillary dysentery?",
+    "answer": "Blood, mucus, and pus."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "The clinical sensation of a constant urge to defecate, often associated with *Shigella*, is called _____.",
+    "answer": "tenesmus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the name of the vaccine used for the prevention of *Shigella*?",
+    "answer": "Streptomycin-dependent (SD) dysentery vaccine."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial structure is primarily responsible for the adherence of *Shigella* to the intestinal mucosa?",
+    "answer": "pili"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the Gram stain and morphology of *Vibrio cholerae*?",
+    "answer": "Gram-negative, short, curved (comma-shaped) rod."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which specific culture medium is used for the isolation of *Vibrio cholerae*?",
+    "answer": "TCBS (Thiosulfate citrate bile salts sucrose) agar."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the optimal pH range for the growth of *Vibrio cholerae*?",
+    "answer": "pH 8.5 to 9.5."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the characteristic appearance of stool in a patient with cholera?",
+    "answer": "Rice water stools."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which subunit of the cholera toxin (ctx) binds to the GM1 ganglioside receptor on enterocytes?",
+    "answer": "B subunit"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial species is described as having a 'drumstick' appearance due to a terminal round spore?",
+    "answer": "Clostridium tetani"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the primary pathogenic mechanism of *Clostridium tetani*?",
+    "answer": "Production of tetanospasmin (neurotoxin) that blocks inhibitory neurotransmitters."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which vaccine is used to provide active immunity against tetanus?",
+    "answer": "Tetanus toxoid (part of the DPT vaccine)."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which anaerobic bacterium causes 'stormy fermentation' in milk medium?",
+    "answer": "Clostridium perfringens"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the primary toxin produced by *Clostridium perfringens* involved in gas gangrene?",
+    "answer": "alpha ($\\alpha$) toxin"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial spore is described as having a 'tennis racket' appearance?",
+    "answer": "Clostridium botulinum"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "How does the botulinum neurotoxin cause flaccid paralysis?",
+    "answer": "It blocks the release of acetylcholine at the neuromuscular junction."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "On SS agar, *E. coli* produces pink colonies because it can ferment _____.",
+    "answer": "lactose"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which type of *E. coli* is a major cause of traveler's diarrhea through the production of LT and ST toxins?",
+    "answer": "Enterotoxigenic E. coli (ETEC)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which *E. coli* group causes a 'mucous bricked-like biofilm' that blocks fluid absorption?",
+    "answer": "Enteroaggregative E. coli (EAggEC)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which serological test is used to diagnose Enteric (Typhoid) fever by detecting O and H antibodies?",
+    "answer": "Widal test"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "In the Widal test, what is the normal diagnostic threshold titer for the 'O' antigen?",
+    "answer": "lower than 1:80"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Where does *Salmonella typhi* typically persist in chronic carriers?",
+    "answer": "gallbladder"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which parasite causes characteristic 'flask-shaped ulcers' in the large intestine?",
+    "answer": "Entamoeba histolytica"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the active, motile, and pathogenic stage of *Entamoeba histolytica*?",
+    "answer": "trophozoite"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which stage of *Entamoeba histolytica* is the infective form transmitted via the fecal-oral route?",
+    "answer": "mature cyst"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the characteristic appearance of pus from an amoebic liver abscess?",
+    "answer": "Reddish-brown 'chocolate' pus."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which drug is used to treat invasive amoebic dysentery and liver abscesses?",
+    "answer": "Metronidazole"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which vector is responsible for transmitting *Leishmania donovani*?",
+    "answer": "sand fly"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the name of the severe systemic disease caused by *Leishmania donovani*?",
+    "answer": "Kala-azar (Visceral Leishmaniasis)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "In the human body, *Leishmania donovani* exists as an intracellular form called an _____.",
+    "answer": "amastigote"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the primary organelle used for movement in medical flagellates like *Giardia*?",
+    "answer": "flagellum"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which procedure involves killing all microbial forms, including spores?",
+    "answer": "sterilization"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the typical concentration of alcohol used for effective skin disinfection?",
+    "answer": "75%"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "How does ultraviolet (UV) light achieve its bactericidal effect?",
+    "answer": "It destroys or interferes with DNA synthesis."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which sterilization method is used specifically for heat-sensitive liquids like serum or antitoxin?",
+    "answer": "filtration"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "The transfer of bacterial DNA mediated by a bacteriophage is called _____.",
+    "answer": "transduction"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which structure is involved in the transfer of plasmids between bacteria during conjugation?",
+    "answer": "sex pilus (F pilus)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What defines 'lysogenic conversion' in bacteria?",
+    "answer": "A host bacterium acquires new properties after a lysogenic phage integrates its gene into the bacterial genome."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Bacteria that have lost their cell wall but remain viable are known as _____.",
+    "answer": "L-form bacteria"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which component is unique to the cell walls of bacteria and is a target for penicillin?",
+    "answer": "peptidoglycan"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What are the three main types of bacterial antigens?",
+    "answer": "O (somatic), H (flagellar), and K (capsular)."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which type of bacterial infection is characterized by the presence and multiplication of bacteria in the blood with systemic symptoms?",
+    "answer": "Septicemia"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which structural component of Gram-negative bacteria acts as Lipid A, the toxic part of endotoxin?",
+    "answer": "Lipopolysaccharide (LPS)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which phase of the bacterial growth cycle is best for studying biological characteristics?",
+    "answer": "logarithmic (log) phase"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which term describes microorganisms that normally live on the body without causing disease?",
+    "answer": "normal flora"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the primary difference between an exotoxin and an endotoxin regarding heat stability?",
+    "answer": "Exotoxins are usually heat-labile (protein), while endotoxins are heat-stable (lipopolysaccharide)."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which specific structure helps bacteria adhere to host cell surfaces to initiate infection?",
+    "answer": "ordinary pilus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the term for an infection where the host shows no obvious clinical symptoms despite the presence of a pathogen?",
+    "answer": "inapparent infection (or subclinical infection)"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which bacterial structure is related to anti-phagocytosis?",
+    "answer": "capsule"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the main chemical component of the Gram-positive bacterial cell wall?",
+    "answer": "peptidoglycan"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which type of bacteria is sensitive to the action of penicillin due to its thick peptidoglycan layer?",
+    "answer": "Gram-positive bacteria"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "Which *Staphylococcus* species is coagulase-negative and often associated with lemon-colored pigments?",
+    "answer": "Staphylococcus saprophyticus"
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the primary clinical finding associated with *Salmonella* gastroenteritis?",
+    "answer": "Diarrhea (food poisoning symptoms)."
+  },
+  {
+    "category": "Microbiology - Shigella",
+    "question": "What is the name of the 'rice water' appearance cause by the cholera toxin?",
+    "answer": "Cholera"
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the Gram stain result and morphology of $Salmonella$?",
+    "answer": "Gram-negative rods."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which organelle provides motility to most $Salmonella$ species?",
+    "answer": "Peritrichous flagella."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Besides flagella, what other surface structure do $Salmonella$ typically possess for attachment?",
+    "answer": "Pili."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In terms of oxygen requirements, how are $Salmonella$ classified?",
+    "answer": "Facultative anaerobes."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the characteristic appearance of $Salmonella$ colonies on SS (Salmonella-Shigella) agar?",
+    "answer": "Colorless and small colonies."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Why do $Salmonella$ appear colorless on SS agar compared to the pink colonies of $E. coli$?",
+    "answer": "They do not ferment lactose."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In biochemical testing, what is the result of $Salmonella$ for glucose fermentation?",
+    "answer": "Positive."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "How does the motility of $Salmonella$ differ from $Shigella$?",
+    "answer": "$Salmonella$ is motile, while $Shigella$ is non-motile."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the name of the somatic antigen found in the $Salmonella$ cell wall?",
+    "answer": "O antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the name of the flagellar antigen in $Salmonella$?",
+    "answer": "H antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which specific capsular/virulence antigen is associated with $Salmonella\\ typhi$?",
+    "answer": "Vi antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "How resistant are $Salmonella$ species to heat and chemical disinfectants?",
+    "answer": "They are easily killed by both."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the primary function of pili in $Salmonella$ pathogenesis?",
+    "answer": "Adhesion to host cells."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which component of the $Salmonella$ cell wall acts as a powerful toxin when the bacteria lyse?",
+    "answer": "Endotoxin."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Some $Salmonella$ strains produce an exotoxin with a mechanism similar to which other enteric pathogen?",
+    "answer": "Enterotoxigenic $E. coli$ (ETEC)."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Inside the host, where do $Salmonella$ bacteria primarily multiply to evade the immune system?",
+    "answer": "Inside macrophages."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What are the three main clinical syndromes caused by $Salmonella$ infection?",
+    "answer": "Gastroenteritis, Enteric (Typhoid) fever, and Septicemia."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which $Salmonella$ syndrome is characterized by rose spots and a relatively slow pulse?",
+    "answer": "Enteric (Typhoid) fever."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the typical White Blood Cell (WBC) count finding in a patient with Typhoid fever?",
+    "answer": "Normal or low WBC count."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "During Enteric fever, which two organs are typically enlarged upon clinical examination?",
+    "answer": "Liver and spleen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the most common clinical manifestation of $Salmonella$ infection, accounting for approximately $70\\%$ of cases?",
+    "answer": "Gastroenteritis."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a patient with $Salmonella$ gastroenteritis, what is the expected result of a blood culture?",
+    "answer": "Negative."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a patient with $Salmonella$ gastroenteritis, what is the expected result of a stool culture?",
+    "answer": "Positive."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a patient with $Salmonella$ septicemia, what is the expected result of a blood culture?",
+    "answer": "Positive."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a patient with $Salmonella$ septicemia, what is the expected result of a stool culture?",
+    "answer": "Negative."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Where does $Salmonella\\ typhi$ typically persist in chronic carriers?",
+    "answer": "The gallbladder."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "How long must a patient shed $Salmonella$ in their stool to be classified as a chronic carrier?",
+    "answer": "More than one year."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which serological test is used to diagnose Enteric fever by detecting specific antibodies?",
+    "answer": "Widal test."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the laboratory method used in the Widal test?",
+    "answer": "Tube agglutination."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a Widal test, an O antigen titer of $\\ge 1:80$ is considered _____.",
+    "answer": "clinically significant/suggestive of infection."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In a Widal test, an H antigen titer of $\\ge 1:160$ is considered _____.",
+    "answer": "clinically significant/suggestive of infection."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What change in Widal test titers between early and convalescent specimens confirms a diagnosis?",
+    "answer": "A four-fold or greater rise in antibody titer."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which specimen is most likely to yield a positive culture during the first week of Enteric fever?",
+    "answer": "Blood."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "During the first to third week of Enteric fever, which specimen has the highest diagnostic yield?",
+    "answer": "Bone marrow."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In which weeks of Enteric fever infection are stool and urine cultures most likely to be positive?",
+    "answer": "Weeks 2 to 3."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the diagnostic specimen of choice for identifying a $Salmonella$ carrier?",
+    "answer": "Stool."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What type of immunity is primarily responsible for persistent protection after recovery from Enteric fever?",
+    "answer": "Specific cellular immunity."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the standard treatment for a symptomatic $Salmonella$ infection?",
+    "answer": "Antibiotic therapy."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "How does $Salmonella\\ typhi$ travel from the liver back to the small intestine to be shed in feces?",
+    "answer": "Via the bile."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the transmission route for $Salmonella$ causing Enteric fever?",
+    "answer": "The oral route (ingestion of contaminated food or water)."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In biochemical testing, which sugar do both $E. coli$ and $Salmonella$ ferment?",
+    "answer": "Glucose."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In the context of the Widal test, what does the 'PH' titer refer to?",
+    "answer": "Paratyphoid H antigen titer."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the biochemical motility result for $Salmonella$ on semisolid medium?",
+    "answer": "Positive (motile)."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which clinical syndrome is characterized by transient primary bacteremia followed by multiplication in the bone marrow and spleen?",
+    "answer": "Enteric (Typhoid) fever."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Besides stool, what other specimen can be cultured in cases of $Salmonella$ food poisoning (gastroenteritis)?",
+    "answer": "Vomitus."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the first generic name in the Latin binomial for the causative agent of Typhoid fever?",
+    "answer": "$Salmonella$."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which $Salmonella$ antigen is used to determine the specific serotype during identification?",
+    "answer": "O (somatic) antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "True or False: $Salmonella$ are normally part of the human intestinal flora.",
+    "answer": "False (they are considered pathogenic intestinal bacteria)."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the effect of $Salmonella$ enterotoxin on the small intestine?",
+    "answer": "It stimulates fluid secretion leading to diarrhea."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Why is bone marrow culture used if blood cultures are negative in suspected Typhoid fever?",
+    "answer": "It remains positive longer and is more sensitive than blood culture."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "In the laboratory diagnosis of $Salmonella$, what follows the isolation on SS agar in the identification process?",
+    "answer": "Biochemical testing and serum identification."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the significance of a relatively slow pulse (bradycardia) in the presence of high fever in Typhoid patients?",
+    "answer": "It is a classic diagnostic sign of Enteric fever."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the primary infection source for $Salmonella$?",
+    "answer": "Patients' stool and chronic carriers."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Does recovery from $Salmonella$ gastroenteritis typically result in long-term immunity?",
+    "answer": "No (persistent immunity is associated with Enteric fever)."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which $Salmonella$ antigen is most heat-stable?",
+    "answer": "O antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "Which $Salmonella$ antigen is heat-labile and destroyed by boiling?",
+    "answer": "H antigen."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "The rose spots seen in Typhoid fever are typically found on which part of the body?",
+    "answer": "The abdomen/trunk."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the typical morphology of $Salmonella$ in a stained smear?",
+    "answer": "Gram-negative, medium-sized rods with rounded ends."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "If the O titer is high but the H titer is low in a Widal test, what does it usually indicate?",
+    "answer": "Early stage of infection."
+  },
+  {
+    "category": "Microbiology - Salmonella",
+    "question": "What is the normal value for the O titer in a healthy individual (Widal test)?",
+    "answer": "$< 1:80$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the characteristic morphology of $Vibrio$ $cholerae$?",
+    "answer": "Short, curved, $G^-$ bacilli shaped like a comma."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How many flagella does $Vibrio$ $cholerae$ possess, and where are they located?",
+    "answer": "A single polar flagellum."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Describe the characteristic movement of $Vibrio$ $cholerae$ under a microscope.",
+    "answer": "Highly motile, moving shuttle-like back and forth."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "True or False: $Vibrio$ $cholerae$ is a spore-forming bacterium.",
+    "answer": "False."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which specific alkaline $pH$ range is tolerated by $Vibrio$ $cholerae$?",
+    "answer": "$pH$ $8.5$ to $9.5$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the name of the selective culture medium used for the isolation of $Vibrio$ $cholerae$?",
+    "answer": "TCBS (Thiosulfate citrate bile salts sucrose agar)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How long does it take for $Vibrio$ $cholerae$ to die at a temperature of $100^\\circ C$?",
+    "answer": "$2$ minutes."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "$Vibrio$ $cholerae$ is highly sensitive to which two environmental conditions?",
+    "answer": "Drying and acidic environments."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "In the pathogenesis of cholera, what is the primary function of the bacterial flagella?",
+    "answer": "To penetrate the mucous surface layer of the small intestine."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the primary role of pili in $Vibrio$ $cholerae$ infection?",
+    "answer": "To allow the bacteria to colonize the small intestine through adhesion."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which subunit of the cholera toxin (ctx) binds to the $GM1$ ganglioside receptor on enterocytes?",
+    "answer": "The B subunit."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the enzymatic function of the A subunit of the cholera toxin (ctx)?",
+    "answer": "It activates adenyl cyclase, leading to increased levels of $cAMP$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the physiological result of increased $cAMP$ levels in enterocytes during a cholera infection?",
+    "answer": "Severe diarrhea and loss of water and electrolytes."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Describe the characteristic appearance of stools in a patient with severe cholera.",
+    "answer": "Rice water stools."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What are the three major clinical complications resulting from the massive fluid loss in cholera?",
+    "answer": "Electrolyte disturbances, kidney failure, and circulatory failure (shock)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which antibiotics are typically applied for the symptomatic treatment of $Vibrio$ $cholerae$?",
+    "answer": "Tetracycline and chloromycetin."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Term: Ordinary pilus (fimbriae)",
+    "answer": "Definition: Short, rigid, hair-like structures used for bacterial adhesion."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the typical arrangement of $Staphylococcus$ cells?",
+    "answer": "$G^+$ spherical cells arranged in grape-like clusters."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which pigment colors are typically produced by $Staphylococcus$ colonies?",
+    "answer": "Golden yellow, white, and lemon."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What distinguishes $Staphylococcus$ resistance compared to other non-spore-forming bacteria?",
+    "answer": "It is the strongest among non-spores, showing high salt tolerance."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which bacterium is the primary cause of scarlet fever and rheumatic fever?",
+    "answer": "$Streptococcus$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How is $Streptococcus$ typically arranged, and what is its Gram stain reaction?",
+    "answer": "$G^+$ spherical cells arranged in chains."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the antibiotic of first choice for treating $Streptococcus$ infections?",
+    "answer": "Penicillin."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which capsule component is found in $Streptococcus$?",
+    "answer": "Hyaluronic acid."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "On SS medium, why do $E.$ $coli$ colonies appear pink and large?",
+    "answer": "Because they are lactose fermenters (nonpathogenic enterobacteria in this context)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which two enterotoxins are associated with Enterotoxigenic $E.$ $coli$ (ETEC)?",
+    "answer": "LT (heat-labile) and ST (heat-stable)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What are the common extraintestinal infections caused by $E.$ $coli$?",
+    "answer": "Urinary tract infections (UTI) and septicemia."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Describe the motility and flagella status of $Shigella$.",
+    "answer": "Non-motile; it lacks flagella but possesses pili."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the appearance of $Shigella$ colonies on SS agar?",
+    "answer": "Colorless and small colonies (lactose negative)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How does $Salmonella$ typically travel through the body's immune defenses?",
+    "answer": "It multiplies inside macrophages."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which serologic method is used to diagnose enteric (typhoid) fever by detecting $O$ and $H$ antibodies?",
+    "answer": "The Widal test."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Where does $Salmonella$ typically persist in chronic carriers?",
+    "answer": "The gallbladder."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the characteristic spore shape and location in $Clostridium$ $tetani$?",
+    "answer": "Terminal round spore, creating a drum-stick appearance."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "By what mechanism does Tetanospasmin cause spastic paralysis?",
+    "answer": "It blocks the release of inhibitory neurotransmitters."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the essential treatment for preventing tetanus in a patient with a deep wound?",
+    "answer": "Debridement and injection of TAT (Tetanus Antitoxin)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Describe the morphology and unique culture phenomenon of $Clostridium$ $perfringens$.",
+    "answer": "Large $G^+$ rectangular bacilli causing stormy fermentation in milk medium."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the primary toxin produced by $Clostridium$ $perfringens$ responsible for gas gangrene?",
+    "answer": "$\\alpha$ toxin (a lecithinase)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which bacterium produces a neurotoxin that leads to flaccid paralysis by blocking acetylcholine release?",
+    "answer": "$Clostridium$ $botulinum$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the typical spore appearance of $Clostridium$ $botulinum$?",
+    "answer": "Subterminal oval spore resembling a tennis racket."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the infective stage of $Entamoeba$ $histolytica$?",
+    "answer": "The mature cyst containing 1 to 4 nuclei."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the pathogenic stage of $Entamoeba$ $histolytica$ that causes tissue damage?",
+    "answer": "The trophozoite stage."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Describe the classic intestinal pathology caused by $Entamoeba$ $histolytica$.",
+    "answer": "Characteristic flask-shaped ulcers in the large intestine."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which drug is used to treat symptomatic amoebic dysentery and liver abscesses?",
+    "answer": "Metronidazole."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the diagnostic appearance of pus from an amoebic liver abscess?",
+    "answer": "Chocolate pus."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the difference between disinfection and sterilization?",
+    "answer": "Disinfection kills pathogens, while sterilization kills all microbes including spores."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which bacterial synthetic product is responsible for causing a fever reaction in humans?",
+    "answer": "Pyrogen."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Term: Septicemia",
+    "answer": "Definition: Bacteria multiply in the blood and produce toxins, causing systemic symptoms."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What bacterial structure is primarily responsible for adhesion to host cells?",
+    "answer": "The ordinary pilus (fimbriae)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Contrast the chemical composition of bacterial endotoxin versus exotoxin.",
+    "answer": "Endotoxins are lipopolysaccharides ($LPS$), while exotoxins are proteins."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which part of the Lipopolysaccharide ($LPS$) molecule is responsible for its toxic effects?",
+    "answer": "Lipid A."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Can endotoxins be prepared into toxoids for vaccines?",
+    "answer": "No; only exotoxins can be converted into toxoids."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the main function of cell-mediated immunity in bacterial infections?",
+    "answer": "It is the primary defense against intracellular bacteria."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "According to the SS agar results, which enterobacteria produce colorless colonies?",
+    "answer": "Pathogenic enterobacteria like $Shigella$ and $Salmonella$."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the diagnostic stage for $Entamoeba$ $histolytica$ found in stool samples?",
+    "answer": "Cysts and trophozoites."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Under what oxygen condition does $Clostridium$ $tetani$ grow?",
+    "answer": "Obligate anaerobic conditions."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which structural component of $Gram$-negative bacteria contains the periplasmic space?",
+    "answer": "The region between the cytoplasmic membrane and the outer membrane."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the sedimentation pattern of bacteria growing in a liquid medium?",
+    "answer": "They typically grow as a sediment at the bottom or as a pellicle on top."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How does the resistance of bacterial spores compare to vegetative cells?",
+    "answer": "Spores are significantly more resistant to heat, chemicals, and radiation."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "In the Gram stain, what color do $G^-$ bacteria appear?",
+    "answer": "Red or pink."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "In the Gram stain, what color do $G^+$ bacteria appear?",
+    "answer": "Purple or blue."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which subunit of the $70S$ prokaryotic ribosome is responsible for peptide bond formation?",
+    "answer": "The $50S$ large subunit."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the target of penicillin in the bacterial cell wall?",
+    "answer": "The cross-linking of peptidoglycan chains."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the function of the bacterial mesosome?",
+    "answer": "An invagination of the plasma membrane involved in cell division and secretion."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which bacterial structure is used for the transfer of genetic material during conjugation?",
+    "answer": "The sex pilus (F pilus)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is a bacteriophage?",
+    "answer": "A virus that infects and replicates within bacteria."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What characterizes the 'L-form' of a bacterium?",
+    "answer": "Bacteria that have lost their cell wall but remain viable."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the primary infection source for cholera?",
+    "answer": "The stool of infected patients and contaminated water/food."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "How does $Vibrio$ $cholerae$ typically exit the body?",
+    "answer": "Through the feces (fecal-oral route)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which receptor on human enterocytes is targeted by the $B$ subunit of cholera toxin?",
+    "answer": "The $GM1$ receptor."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Is $Vibrio$ $cholerae$ a facultative or obligate anaerobe?",
+    "answer": "Facultative anaerobe."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Cloze: The strongest diarrhea toxin known is _____.",
+    "answer": "Cholera toxin (ctx)"
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which bacterial structure is essential for survival in extreme environments like boiling water?",
+    "answer": "The spore."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What clinical finding is diagnostic of a $Streptococcus$ infection on blood agar?",
+    "answer": "Hemolysis ($\\alpha$, $\\beta$, or $\\gamma$)."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "Which test detects the presence of the enzyme Coagulase in $Staphylococcus$?",
+    "answer": "The Coagulase test."
+  },
+  {
+    "category": "Microbiology - Vibrio",
+    "question": "What is the primary mode of transmission for $Entamoeba$ $histolytica$?",
+    "answer": "Ingestion of mature cysts from contaminated food or water."
   }
 ]

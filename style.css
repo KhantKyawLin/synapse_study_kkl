@@ -42,6 +42,16 @@ body {
     z-index: 10;
 }
 
+.controls-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-group {
+    min-width: 180px;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
