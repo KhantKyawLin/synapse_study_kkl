@@ -1,0 +1,274 @@
+{
+  "Microbiology": [
+    {
+      "Name": "Staphylococcus",
+      "Tag": "G+",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Spherical cells, grape-like clusters."
+        },
+        {
+          "title": "Culture",
+          "content": "Aerobic/facultative, smooth colonies (golden/white/lemon)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Strongest among nonspores; high salt tolerance; 90% penicillin-resistant."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Coagulase, SPA, staphylolysin, leukocidin, exfoliative toxin, TSST-1, enterotoxin."
+        },
+        {
+          "title": "Clinical",
+          "content": "Local pyogenic infections (furuncle, carbuncle), bacteremia, SSSS, TSS, food poisoning."
+        },
+        {
+          "title": "Treatment",
+          "content": "Hygiene, sensitive antibiotics."
+        }
+      ]
+    },
+    {
+      "Name": "Streptococcus",
+      "Tag": "G+",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Spherical cells, arranged in chains."
+        },
+        {
+          "title": "Culture",
+          "content": "Facultative anaerobe, requires enriched media; classified by hemolysis (α, β, γ)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Weak; sensitive to normal antiseptics, penicillin, and erythromycin."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Hyaluronidase, SK, SD, Pyrogenic exotoxin, Streptolysin, M protein."
+        },
+        {
+          "title": "Clinical",
+          "content": "Sore throat, pyoderma, erysipelas, scarlet fever, rheumatic fever."
+        },
+        {
+          "title": "Treatment",
+          "content": "Penicillin (first choice); timely treatment of primary infection."
+        }
+      ]
+    },
+    {
+      "Name": "E. coli",
+      "Tag": "G-",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Short rods, mostly possess peritrichous flagella & pili."
+        },
+        {
+          "title": "Culture",
+          "content": "Lactose (+); forms pink, large colonies on SS medium."
+        },
+        {
+          "title": "Resistance",
+          "content": "Susceptible to standard disinfectants; easily develops opportunistic drug resistance."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Pili, LT & ST enterotoxins, Shiga toxin."
+        },
+        {
+          "title": "Clinical",
+          "content": "Extraintestinal (UTI, septicemia); Gastroenteritis via ETEC, EPEC, EHEC, EIEC, EAggEC."
+        },
+        {
+          "title": "Treatment",
+          "content": "Stool/urine culture on SS agar; fluid management and antibiotics."
+        }
+      ]
+    },
+    {
+      "Name": "Shigella",
+      "Tag": "G-",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Short rods; possess pili, no flagella."
+        },
+        {
+          "title": "Culture",
+          "content": "Lactose (-); colorless, small colonies on SS medium."
+        },
+        {
+          "title": "Resistance",
+          "content": "Weak, sensitive to acid; easily develops drug resistance."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Pili, strong endotoxin, Shiga exotoxin (Stx)."
+        },
+        {
+          "title": "Clinical",
+          "content": "Bacillary dysentery (acute and chronic)."
+        },
+        {
+          "title": "Treatment",
+          "content": "Manage dehydration; antibiotics; SD vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Salmonella",
+      "Tag": "G-",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Rods; possess pili and mostly peritrichous flagella."
+        },
+        {
+          "title": "Culture",
+          "content": "Lactose (-); colorless colonies on SS medium."
+        },
+        {
+          "title": "Resistance",
+          "content": "Easily killed by heat and chemical disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Pili, endotoxin, enterotoxin; multiplies inside macrophages."
+        },
+        {
+          "title": "Clinical",
+          "content": "Gastroenteritis, Enteric (Typhoid) fever, Septicemia; carrier state in gallbladder."
+        },
+        {
+          "title": "Treatment",
+          "content": "Widal test; antibiotics; persistent cellular immunity post-recovery."
+        }
+      ]
+    },
+    {
+      "Name": "Vibrio cholerae",
+      "Tag": "G-",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Short, curved (comma); single polar flagellum."
+        },
+        {
+          "title": "Culture",
+          "content": "Facultative anaerobic; requires alkaline environment (pH 8.5-9.5); cultured on TCBS."
+        },
+        {
+          "title": "Resistance",
+          "content": "Weak; sensitive to acid/drying; dies at 100℃ in 2 minutes."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Flagella (penetration), pili (adhesion), strong Cholera Toxin (ctx)."
+        },
+        {
+          "title": "Clinical",
+          "content": "Cholera (severe diarrhea/rice water stools)."
+        },
+        {
+          "title": "Treatment",
+          "content": "Early diagnosis, quarantine, rapid rehydration, tetracycline/chloromycetin, vaccination."
+        }
+      ]
+    },
+    {
+      "Name": "Clostridium tetani",
+      "Tag": "G+",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Slender bacilli; terminal round spore ('drum-stick')."
+        },
+        {
+          "title": "Culture",
+          "content": "Obligate anaerobic."
+        },
+        {
+          "title": "Resistance",
+          "content": "Very strong; spores survive boiling, killed only by autoclaving at 121℃ under pressure."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Tetanospasmin (neurotoxin blocking inhibitory neurotransmitter release)."
+        },
+        {
+          "title": "Clinical",
+          "content": "Tetanus (lockjaw, spastic paralysis, severe muscle spasms)."
+        },
+        {
+          "title": "Treatment",
+          "content": "Debridement, TAT injection, penicillin, DPT vaccine (toxoids)."
+        }
+      ]
+    },
+    {
+      "Name": "Clostridium perfringens",
+      "Tag": "G+",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Large, rectangular bacilli; subterminal spore; capsule, non-motile."
+        },
+        {
+          "title": "Culture",
+          "content": "Anaerobic; 'stormy fermentation' in milk medium."
+        },
+        {
+          "title": "Resistance",
+          "content": "Strong resistance due to spores."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "α, β, ε, ι exotoxins (primarily α toxin) and enterotoxin."
+        },
+        {
+          "title": "Clinical",
+          "content": "Gas gangrene; mild, self-limiting food poisoning."
+        },
+        {
+          "title": "Treatment",
+          "content": "Debridement, hyperbaric oxygen, antitoxin, antimicrobial therapy."
+        }
+      ]
+    },
+    {
+      "Name": "Clostridium botulinum",
+      "Tag": "G+",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Bacilli; subterminal oval spore ('tennis racket'); flagella present."
+        },
+        {
+          "title": "Culture",
+          "content": "Obligate anaerobic."
+        },
+        {
+          "title": "Resistance",
+          "content": "Spores highly resistant; toxin is heat-labile."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Botulinum neurotoxin blocks release of acetylcholine."
+        },
+        {
+          "title": "Clinical",
+          "content": "Botulism (food poisoning/infant botulism); flaccid paralysis."
+        },
+        {
+          "title": "Treatment",
+          "content": "Heat food thoroughly, administer anti-toxin, antibiotic therapy if infected."
+        }
+      ]
+    }
+  ]
+}

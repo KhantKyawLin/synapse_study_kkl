@@ -1,0 +1,235 @@
+/* Dashboard Base Layout */
+.dashboard-layout {
+    height: 100vh;
+    overflow: hidden; /* Prevent body scroll, manage scroll inside areas */
+}
+
+.dashboard-main {
+    flex: 1;
+    overflow: hidden;
+    padding: 2rem 3rem;
+}
+
+/* Sidebar */
+.dashboard-sidebar {
+    background: rgba(30,36,45,0.4);
+    border-radius: 20px;
+    border: 1px solid var(--border-subtle);
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+}
+
+.sidebar-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Filters */
+.tag-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.05);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.filter-btn:hover {
+    background: rgba(30,161,242,0.1);
+    border-color: var(--primary-cyan);
+    color: var(--primary-cyan);
+}
+
+.filter-btn.active {
+    background: var(--primary-cyan);
+    border-color: var(--primary-cyan);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(30,161,242,0.4);
+}
+
+/* Item List */
+.item-list-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.item-list-container::-webkit-scrollbar {
+    width: 6px;
+}
+.item-list-container::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.item-btn {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-main);
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.item-btn:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.item-btn.active {
+    background: rgba(30,161,242,0.15);
+    border-color: rgba(30,161,242,0.3);
+    color: var(--primary-glow);
+    font-weight: 600;
+}
+
+/* Detail View */
+.dashboard-content {
+    height: 100%;
+    overflow-y: auto;
+    padding-left: 2rem;
+}
+
+.dashboard-content::-webkit-scrollbar {
+    width: 8px;
+}
+.dashboard-content::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+.detail-view {
+    padding: 1rem;
+}
+
+.empty-state {
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    margin-top: 5rem;
+}
+
+/* Content Blocks */
+.detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.detail-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.detail-tag {
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: rgba(30, 161, 242, 0.2);
+    color: var(--primary-glow);
+    border: 1px solid rgba(30, 161, 242, 0.3);
+}
+
+.blocks-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+}
+
+.content-block {
+    background: var(--card-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    padding: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.content-block h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: var(--primary-cyan);
+    font-weight: 600;
+}
+
+.content-block p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-main);
+    font-size: 1.05rem;
+}
+
+/* Adding some color variations for specific blocks to make it look premium */
+.content-block:nth-child(2n) {
+    background: rgba(200, 30, 50, 0.05); /* very dark subtle red */
+    border-color: rgba(200, 30, 50, 0.15);
+}
+.content-block:nth-child(2n) h3 {
+    color: #ff5e78;
+}
+
+.content-block:nth-child(3n) {
+    background: rgba(30, 200, 100, 0.05); /* very dark subtle green */
+    border-color: rgba(30, 200, 100, 0.15);
+}
+.content-block:nth-child(3n) h3 {
+    color: #4cd964;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-layout {
+        height: auto;
+        overflow: visible;
+    }
+    .dashboard-main {
+        padding: 1rem;
+    }
+    .dashboard-sidebar {
+        margin-bottom: 2rem;
+        max-height: 400px;
+    }
+    .dashboard-content {
+        padding-left: 0;
+        height: auto;
+    }
+    .app-nav {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+}

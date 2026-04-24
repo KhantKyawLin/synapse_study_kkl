@@ -7,9 +7,10 @@
 ## ✨ Features
 
 - **3D Interactive Cards**: Smooth 3D flipping animation using CSS transitions to reveal answers.
+- **Universal Dashboard Engine**: Automatically generates complex UI dashboard layouts directly from custom CSV files for subjects like Microbiology or Immunology.
 - **Dynamic Filtering**: Flashcards are automatically categorized based on input data; filter by subjects like "Antigen", "Antibody", or "Complement".
 - **Visual Excellence**: Dark-themed, tech-focused aesthetic with neon glowing elements, matching the Synapse Study brand.
-- **Data-Driven**: Efficiently loads hundreds of cards from a `data.json` file.
+- **Data-Driven**: Efficiently loads hundreds of cards from `data.json` and `dashboards_data.json`.
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
 - **Smart Feedback**: Integrated SweetAlert2 notifications for a premium user experience.
 
@@ -23,12 +24,17 @@
 ## 📂 Project Structure
 
 ```text
-├── flash_cards_excel_files/   # Source CSV/Excel files
+├── dashboard_excel_files/      # Source CSV files for the Universal Dashboards
+├── flash_cards_excel_files/    # Source CSV/Excel files for Flashcards
 ├── data.json                   # Generated card database
+├── dashboards_data.json        # Generated dashboard database
 ├── update.js                   # Node.js automation script
-├── index.html                  # Main application UI
-├── script.js                   # Navigation and filter logic
-├── style.css                   # Premium animations and themes
+├── index.html                  # Main flashcard application UI
+├── dashboard.html              # Universal Dashboard Application UI
+├── script.js                   # Navigation and filter logic for flashcards
+├── dashboard.js                # Dynamic parsing engine for dashboards
+├── style.css                   # Premium animations and core themes
+├── dashboard.css               # Specific layouts for dashboard modules
 └── logo.jpg                    # Official Synapse Study branding
 ```
 
@@ -41,15 +47,16 @@ npm start
 ```
 *Alternatively, use the "Live Server" extension in VS Code.*
 
-### 2. Updating Flashcards
-Whenever you have new cards in Excel or CSV format:
-1. Export your cards as a `.csv` file.
-2. Place the file in the `flash_cards_excel_files` folder.
-3. Run the update command:
+### 2. Updating Flashcards and Dashboards
+Whenever you have new content in Excel or CSV format:
+1. Export your content as a `.csv` file.
+2. If it's a Flashcard, place the file in the `flash_cards_excel_files` folder.
+3. If it's a Dashboard Module (e.g., Immunology), place the file in the `dashboard_excel_files` folder. Make sure Column 1 is "Name" and Column 2 is "Tag" (your filters).
+4. Run the update command:
    ```bash
    npm run update
    ```
-4. Clear your browser cache and refresh to see the new content!
+5. Clear your browser cache and refresh to see the new content!
 
 ## 📄 License
 Created by [Khant Kyaw Lin](https://github.com/KhantKyawLin/Synapse_Study). For educational use only.
