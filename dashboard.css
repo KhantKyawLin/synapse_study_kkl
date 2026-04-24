@@ -1,13 +1,16 @@
 /* Dashboard Base Layout */
 .dashboard-layout {
     height: 100vh;
-    overflow: hidden; /* Prevent body scroll, manage scroll inside areas */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* CRITICAL: Prevent body scroll */
 }
 
 .dashboard-main {
     flex: 1;
-    overflow: hidden;
-    padding: 2rem 3rem;
+    overflow: hidden; /* CRITICAL: Parent of flex items must be hidden to allow children to scroll */
+    padding: 1.5rem 2rem;
+    height: calc(100vh - 80px); /* Height minus header approx */
 }
 
 /* Sidebar */
