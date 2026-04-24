@@ -1,8 +1,27 @@
+// --- GLOBAL STATE ---
 let allFlashcards = [];
 let filteredFlashcards = [];
 let currentIndex = 0;
 
-// DOM Elements
+let allDashboardsContext = {};
+let currentModuleData = [];
+let filteredModuleData = [];
+let currentSelectedItem = null;
+let currentFilter = 'All';
+
+// --- DOM ELEMENTS ---
+// Common
+const appContainer = document.getElementById('app');
+const navFlashcards = document.getElementById('nav-flashcards');
+const navDashboards = document.getElementById('nav-dashboards');
+
+// Views
+const flashcardView = document.getElementById('flashcard-view');
+const dashboardView = document.getElementById('dashboard-view');
+const flashcardControls = document.getElementById('flashcard-controls');
+const dashboardControls = document.getElementById('dashboard-controls');
+
+// Flashcards
 const flashcardEl = document.getElementById('flashcard');
 const frontCategoryEl = document.getElementById('front-category');
 const frontTextEl = document.getElementById('front-text');
@@ -15,237 +34,249 @@ const nextBtn = document.getElementById('nextBtn');
 const currentIndexEl = document.getElementById('currentIndex');
 const totalCardsEl = document.getElementById('totalCards');
 
-// Initialize App
-document.addEventListener('DOMContentLoaded', () => {
-    loadFlashcards();
+// Dashboard
+const moduleFilterDashEl = document.getElementById('moduleFilterDash');
+const tagFiltersEl = document.getElementById('tagFilters');
+const itemListEl = document.getElementById('itemList');
+const detailViewEl = document.getElementById('detailView');
 
-    // Event Listeners
+// --- INITIALIZATION ---
+document.addEventListener('DOMContentLoaded', () => {
+    initApp();
+});
+
+async function initApp() {
+    // Load both datasets
+    await Promise.all([loadFlashcards(), loadDashboards()]);
+    
+    // Global Event Listeners
+    navFlashcards.addEventListener('click', () => switchView('flashcards'));
+    navDashboards.addEventListener('click', () => switchView('dashboards'));
+    
+    // Flashcard listeners
     flashcardEl.addEventListener('click', flipCard);
     prevBtn.addEventListener('click', showPreviousCard);
     nextBtn.addEventListener('click', showNextCard);
-    moduleFilterEl.addEventListener('change', handleModuleChange);
-    categoryFilterEl.addEventListener('change', handleCategoryChange);
-});
+    moduleFilterEl.addEventListener('change', handleFlashcardModuleChange);
+    categoryFilterEl.addEventListener('change', () => applyFlashcardFilters());
+    
+    // Dashboard listeners
+    moduleFilterDashEl.addEventListener('change', (e) => loadDashboardModule(e.target.value));
+}
 
-// Fetch data from data.json
-async function loadFlashcards() {
-    try {
-        const response = await fetch('data.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        allFlashcards = await response.json();
-
-        if (allFlashcards.length === 0) {
-            showEmptyState();
-            return;
-        }
-
-        populateFilters();
-
-        // Initialize with all cards
-        filteredFlashcards = [...allFlashcards];
-        currentIndex = 0;
-
-        updateUI();
-
-        // Successful load sweet alert
-        Swal.fire({
-            toast: true,
-            position: 'top-end',
-            icon: 'success',
-            title: 'Flashcards loaded successfully!',
-            showConfirmButton: false,
-            timer: 2000,
-            background: 'rgba(30, 36, 45, 0.95)',
-            color: '#fff'
-        });
-
-    } catch (error) {
-        console.error("Could not load flashcards:", error);
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Failed to load flashcards. Please check if data.json exists.',
-            background: 'rgba(30, 36, 45, 0.95)',
-            color: '#fff',
-            confirmButtonColor: '#1ea1f2'
-        });
+function switchView(view) {
+    if (view === 'flashcards') {
+        navFlashcards.classList.add('active');
+        navDashboards.classList.remove('active');
+        
+        flashcardView.classList.remove('d-none');
+        flashcardControls.classList.remove('d-none');
+        
+        dashboardView.classList.add('d-none');
+        dashboardControls.classList.add('d-none');
+    } else {
+        navFlashcards.classList.remove('active');
+        navDashboards.classList.add('active');
+        
+        flashcardView.classList.add('d-none');
+        flashcardControls.classList.add('d-none');
+        
+        dashboardView.classList.remove('d-none');
+        dashboardControls.classList.remove('d-none');
     }
 }
 
-// Extract modules and categories then populate filters
-function populateFilters() {
+// --- FLASHCARD LOGIC ---
+async function loadFlashcards() {
+    try {
+        const response = await fetch('data.json');
+        allFlashcards = await response.json();
+        if (allFlashcards.length === 0) return;
+
+        populateFlashcardFilters();
+        filteredFlashcards = [...allFlashcards];
+        currentIndex = 0;
+        updateFlashcardUI();
+    } catch (e) { console.error("Error loading flashcards", e); }
+}
+
+function populateFlashcardFilters() {
     const modules = [...new Set(allFlashcards.map(card => card.category.split(' - ')[0]))].sort();
-    
-    // Clear and populate Module filter
     moduleFilterEl.innerHTML = '<option value="All">All Modules</option>';
     modules.forEach(mod => {
-        const option = document.createElement('option');
-        option.value = mod;
-        option.textContent = mod;
-        moduleFilterEl.appendChild(option);
+        const opt = document.createElement('option');
+        opt.value = opt.textContent = mod;
+        moduleFilterEl.appendChild(opt);
     });
-
-    // Initialize Category filter
     populateCategoryFilter('All');
 }
 
 function populateCategoryFilter(selectedModule) {
-    let categories = [];
+    let categories = (selectedModule === 'All') 
+        ? allFlashcards.map(c => c.category.split(' - ')[1] || 'General')
+        : allFlashcards.filter(c => c.category.startsWith(selectedModule)).map(c => c.category.split(' - ')[1] || 'General');
     
-    if (selectedModule === 'All') {
-        categories = [...new Set(allFlashcards.map(card => card.category.split(' - ')[1] || 'General'))];
-    } else {
-        categories = [...new Set(allFlashcards.filter(card => card.category.startsWith(selectedModule)).map(card => card.category.split(' - ')[1] || 'General'))];
-    }
-    
-    categories.sort();
-    
+    categories = [...new Set(categories)].sort();
     categoryFilterEl.innerHTML = '<option value="All">All Categories</option>';
     categories.forEach(cat => {
-        const option = document.createElement('option');
-        option.value = cat;
-        option.textContent = cat;
-        categoryFilterEl.appendChild(option);
+        const opt = document.createElement('option');
+        opt.value = opt.textContent = cat;
+        categoryFilterEl.appendChild(opt);
     });
 }
 
-// Handle module selection
-function handleModuleChange(e) {
-    const selectedModule = e.target.value;
-    populateCategoryFilter(selectedModule);
-    applyFilters();
+function handleFlashcardModuleChange(e) {
+    populateCategoryFilter(e.target.value);
+    applyFlashcardFilters();
 }
 
-// Handle category selection
-function handleCategoryChange(e) {
-    applyFilters();
-}
-
-function applyFilters() {
-    const selectedModule = moduleFilterEl.value;
-    const selectedCategory = categoryFilterEl.value;
+function applyFlashcardFilters() {
+    const mod = moduleFilterEl.value;
+    const cat = categoryFilterEl.value;
     
     if (flashcardEl.classList.contains('flipped')) {
         flashcardEl.classList.remove('flipped');
-        setTimeout(() => updateFilteredCards(selectedModule, selectedCategory), 300);
+        setTimeout(() => updateFilteredFlashcards(mod, cat), 300);
     } else {
-        updateFilteredCards(selectedModule, selectedCategory);
+        updateFilteredFlashcards(mod, cat);
     }
 }
 
-function updateFilteredCards(selectedModule, selectedCategory) {
-    let result = [...allFlashcards];
+function updateFilteredFlashcards(mod, cat) {
+    let res = [...allFlashcards];
+    if (mod !== 'All') res = res.filter(c => c.category.startsWith(mod));
+    if (cat !== 'All') res = res.filter(c => (c.category.split(' - ')[1] || 'General') === cat);
     
-    if (selectedModule !== 'All') {
-        result = result.filter(card => card.category.startsWith(selectedModule));
-    }
-    
-    if (selectedCategory !== 'All') {
-        result = result.filter(card => (card.category.split(' - ')[1] || 'General') === selectedCategory);
-    }
-    
-    filteredFlashcards = result;
+    filteredFlashcards = res;
     currentIndex = 0;
-
-    if (filteredFlashcards.length === 0) {
-        showEmptyState();
-    } else {
-        updateUI();
-    }
+    filteredFlashcards.length === 0 ? showEmptyState() : updateFlashcardUI();
 }
 
-// Flip Card Animation
-function flipCard() {
-    if (filteredFlashcards.length > 0) {
-        flashcardEl.classList.toggle('flipped');
-    }
-}
-
-// Show specific card based on index
-function updateUI() {
+function updateFlashcardUI() {
     if (filteredFlashcards.length === 0) return;
-
-    const currentCard = filteredFlashcards[currentIndex];
-
-    // Update text
-    frontCategoryEl.textContent = currentCard.category;
-    frontTextEl.textContent = currentCard.question;
-
-    backCategoryEl.textContent = currentCard.category;
-    backTextEl.textContent = currentCard.answer;
-
-    // Update counter
+    const card = filteredFlashcards[currentIndex];
+    frontCategoryEl.textContent = backCategoryEl.textContent = card.category;
+    frontTextEl.textContent = card.question;
+    backTextEl.textContent = card.answer;
     currentIndexEl.textContent = currentIndex + 1;
     totalCardsEl.textContent = filteredFlashcards.length;
-
-    // Update button states
     prevBtn.disabled = currentIndex === 0;
     nextBtn.disabled = currentIndex === filteredFlashcards.length - 1;
-
-    // Render Math Formulas (LaTeX) synchronously on specific text elements ONLY to preserve smooth flipping transitions
-    // Added a small recursive check in case the library is slightly slow on Vercel
-    const renderMath = () => {
-        if (window.renderMathInElement) {
-            const katexOptions = {
-                delimiters: [
-                    { left: '$$', right: '$$', display: true },
-                    { left: '$', right: '$', display: false }
-                ],
-                throwOnError: false
-            };
-            renderMathInElement(frontTextEl, katexOptions);
-            renderMathInElement(backTextEl, katexOptions);
-        } else {
-            // Retry once if library is not yet available
-            setTimeout(renderMath, 100);
-        }
-    };
-    
-    renderMath();
+    renderMath(flashcardView);
 }
 
-// Navigation Logic
-function showNextCard() {
-    if (currentIndex < filteredFlashcards.length - 1) {
-        // Reset flip state if needed
-        let waitTime = 0;
-        if (flashcardEl.classList.contains('flipped')) {
-            flashcardEl.classList.remove('flipped');
-            waitTime = 300; // time to wait for slightly un-flipping before changing text
-        }
+function flipCard() { if (filteredFlashcards.length > 0) flashcardEl.classList.toggle('flipped'); }
+function showNextCard() { if (currentIndex < filteredFlashcards.length - 1) { currentIndex++; updateFlashcardUI(); } }
+function showPreviousCard() { if (currentIndex > 0) { currentIndex--; updateFlashcardUI(); } }
 
-        setTimeout(() => {
-            currentIndex++;
-            updateUI();
-        }, waitTime);
+// --- DASHBOARD LOGIC ---
+async function loadDashboards() {
+    try {
+        const response = await fetch('dashboards_data.json');
+        allDashboardsContext = await response.json();
+        const moduleNames = Object.keys(allDashboardsContext);
+        if (moduleNames.length === 0) return;
+
+        moduleNames.forEach(mod => {
+            const opt = document.createElement('option');
+            opt.value = opt.textContent = mod;
+            moduleFilterDashEl.appendChild(opt);
+        });
+
+        loadDashboardModule(moduleNames[0]);
+    } catch (e) { console.error("Error loading dashboards", e); }
+}
+
+function loadDashboardModule(moduleName) {
+    currentModuleData = allDashboardsContext[moduleName] || [];
+    currentFilter = 'All';
+    filteredModuleData = [...currentModuleData];
+    currentSelectedItem = filteredModuleData[0] || null;
+    buildTagFilters();
+    renderItemList();
+    renderDetailView();
+}
+
+function buildTagFilters() {
+    tagFiltersEl.innerHTML = '';
+    const tags = ['All', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
+    tags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = `filter-btn ${tag === currentFilter ? 'active' : ''}`;
+        btn.textContent = tag;
+        btn.onclick = () => {
+            currentFilter = tag;
+            Array.from(tagFiltersEl.children).forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            filterDashboardData();
+        };
+        tagFiltersEl.appendChild(btn);
+    });
+}
+
+function filterDashboardData() {
+    filteredModuleData = (currentFilter === 'All') ? [...currentModuleData] : currentModuleData.filter(i => i.Tag === currentFilter);
+    currentSelectedItem = filteredModuleData[0] || null;
+    renderItemList();
+    renderDetailView();
+}
+
+function renderItemList() {
+    itemListEl.innerHTML = '';
+    filteredModuleData.forEach(item => {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.className = `item-btn ${currentSelectedItem === item ? 'active' : ''}`;
+        btn.textContent = item.Name;
+        btn.onclick = () => {
+            currentSelectedItem = item;
+            Array.from(itemListEl.children).forEach(c => c.querySelector('.item-btn').classList.remove('active'));
+            btn.classList.add('active');
+            renderDetailView();
+        };
+        li.appendChild(btn);
+        itemListEl.appendChild(li);
+    });
+}
+
+function renderDetailView() {
+    if (!currentSelectedItem) {
+        detailViewEl.innerHTML = '<div class="empty-state text-center"><p>Select an item.</p></div>';
+        return;
     }
+    const blocksHtml = currentSelectedItem.details.map((d, i) => `
+        <div class="content-block">
+            <h3>${d.title}</h3>
+            <p id="dash-content-${i}">${d.content}</p>
+        </div>
+    `).join('');
+
+    detailViewEl.innerHTML = `
+        <div class="detail-header">
+            <h1 class="detail-title" id="dash-title">${currentSelectedItem.Name}</h1>
+            ${currentSelectedItem.Tag ? `<span class="detail-tag">${currentSelectedItem.Tag}</span>` : ''}
+        </div>
+        <div class="blocks-grid">${blocksHtml}</div>
+    `;
+    renderMath(detailViewEl);
 }
 
-function showPreviousCard() {
-    if (currentIndex > 0) {
-        // Reset flip state if needed
-        let waitTime = 0;
-        if (flashcardEl.classList.contains('flipped')) {
-            flashcardEl.classList.remove('flipped');
-            waitTime = 300;
-        }
-
-        setTimeout(() => {
-            currentIndex--;
-            updateUI();
-        }, waitTime);
+// --- UTILS ---
+function renderMath(element) {
+    if (window.renderMathInElement) {
+        renderMathInElement(element, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false }
+            ],
+            throwOnError: false
+        });
     }
 }
 
 function showEmptyState() {
-    frontCategoryEl.textContent = "N/A";
-    frontTextEl.textContent = "No flashcards found for this category.";
-    backCategoryEl.textContent = "N/A";
-    backTextEl.textContent = "No flashcards found.";
+    frontCategoryEl.textContent = backCategoryEl.textContent = "N/A";
+    frontTextEl.textContent = "No flashcards found.";
     currentIndexEl.textContent = 0;
     totalCardsEl.textContent = 0;
-    prevBtn.disabled = true;
-    nextBtn.disabled = true;
 }

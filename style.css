@@ -129,6 +129,8 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     transition: all 0.3s ease;
+    background: transparent;
+    border: none;
 }
 
 .nav-link:hover {
@@ -137,9 +139,25 @@ body {
 }
 
 .nav-link.active {
-    color: #fff;
-    background: var(--primary-cyan);
+    color: #fff !important;
+    background: var(--primary-cyan) !important;
     box-shadow: 0 4px 15px rgba(30, 161, 242, 0.3);
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.d-none { display: none !important; }
+
+.header-controls {
+    display: flex;
+    gap: 1rem;
 }
 
 .category-select {
