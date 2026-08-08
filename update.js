@@ -44,10 +44,14 @@ function updateData() {
         
         // Auto-determine category from filename
         // Matches "2_antigen_flashcards_immunology.csv" -> "Immunology - Antigen"
+        // Matches "endocrine_1.csv" -> "Pathophysiology - Endocrine Module"
         let category = "General";
         const parts = file.replace('.csv', '').split('_');
         
-        if (parts.length >= 4) {
+        if (file.startsWith('endocrine')) {
+             const num = parts[1] ? ` ${parts[1]}` : '';
+             category = `Pathophysiology - Endocrine Module${num}`;
+        } else if (parts.length >= 4) {
              const topic = parts[1].charAt(0).toUpperCase() + parts[1].slice(1);
              const subject = parts[3].charAt(0).toUpperCase() + parts[3].slice(1);
              category = `${subject} - ${topic}`;
