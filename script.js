@@ -154,6 +154,7 @@ function updateFilteredFlashcards(mod, cat) {
 
 function updateFlashcardUI() {
     if (filteredFlashcards.length === 0) return;
+    flashcardEl.classList.remove('flipped');
     const card = filteredFlashcards[currentIndex];
     frontCategoryEl.textContent = backCategoryEl.textContent = card.category;
     frontTextEl.textContent = card.question;
