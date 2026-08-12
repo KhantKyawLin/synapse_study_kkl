@@ -7,6 +7,7 @@ let currentFilter = 'All';
 // DOM Elements
 const moduleFilterEl = document.getElementById('moduleFilter');
 const tagFiltersEl = document.getElementById('tagFilters');
+const itemSelectEl = document.getElementById('itemSelect');
 const itemListEl = document.getElementById('itemList');
 const detailViewEl = document.getElementById('detailView');
 
@@ -113,26 +114,58 @@ function filterData() {
 }
 
 function renderItemList() {
-    itemListEl.innerHTML = '';
-    
-    filteredModuleData.forEach(item => {
-        const li = document.createElement('li');
-        const btn = document.createElement('button');
-        btn.className = `item-btn ${currentSelectedItem === item ? 'active' : ''}`;
-        btn.textContent = item.Name;
-        
-        btn.onclick = () => {
-            currentSelectedItem = item;
-            // Update active visually
-            Array.from(itemListEl.children).forEach(c => c.querySelector('.item-btn').classList.remove('active'));
-            btn.classList.add('active');
-            
-            renderDetailView();
+    if (itemSelectEl) {
+        itemSelectEl.innerHTML = '';
+        if (filteredModuleData.length === 0) {
+            const opt = document.createElement('option');
+            opt.value = '';
+            opt.textContent = 'No items found';
+            itemSelectEl.appendChild(opt);
+        } else {
+            filteredModuleData.forEach((item, index) => {
+                const opt = document.createElement('option');
+                opt.value = index;
+                opt.textContent = item.Name;
+                if (item === currentSelectedItem) opt.selected = true;
+                itemSelectEl.appendChild(opt);
+            });
+        }
+
+        itemSelectEl.onchange = (e) => {
+            const idx = parseInt(e.target.value, 10);
+            if (!isNaN(idx) && filteredModuleData[idx]) {
+                currentSelectedItem = filteredModuleData[idx];
+                renderDetailView();
+            }
         };
-        
-        li.appendChild(btn);
-        itemListEl.appendChild(li);
-    });
+    }
+
+    if (itemListEl) {
+        itemListEl.innerHTML = '';
+        filteredModuleData.forEach(item => {
+            const li = document.createElement('li');
+            const btn = document.createElement('button');
+            btn.className = `item-btn ${currentSelectedItem === item ? 'active' : ''}`;
+            btn.textContent = item.Name;
+            
+            btn.onclick = () => {
+                currentSelectedItem = item;
+                // Update active visually
+                if (itemListEl.children.length > 0) {
+                    Array.from(itemListEl.children).forEach(c => {
+                        const b = c.querySelector('.item-btn');
+                        if (b) b.classList.remove('active');
+                    });
+                }
+                btn.classList.add('active');
+                
+                renderDetailView();
+            };
+            
+            li.appendChild(btn);
+            itemListEl.appendChild(li);
+        });
+    }
 }
 
 function renderDetailView() {
