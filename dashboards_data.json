@@ -1,272 +1,1442 @@
 {
-  "Microbiology": [
+  "Pathogens Database": [
     {
-      "Name": "Staphylococcus",
-      "Tag": "G+",
+      "Name": "Staphylococcus aureus",
+      "Tag": "G+ Coccus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Spherical cells, grape-like clusters."
+          "content": "G+ spherical cells, grape-like clusters, non-motile, non-spore."
         },
         {
           "title": "Culture",
-          "content": "Aerobic/facultative, smooth colonies (golden/white/lemon)."
+          "content": "Aerobic/facultative anaerobe; smooth, convex colonies with golden (or white/lemon) pigment. Decomposes mannitol."
         },
         {
           "title": "Resistance",
-          "content": "Strongest among nonspores; high salt tolerance; 90% penicillin-resistant."
+          "content": "Strongest among non-spore bacteria; high salt tolerance (7.5% NaCl); resistant to drying; 90% penicillin-resistant."
         },
         {
           "title": "Pathogenesis",
-          "content": "Coagulase, SPA, staphylolysin, leukocidin, exfoliative toxin, TSST-1, enterotoxin."
+          "content": "Coagulase (clots plasma, limits lesions), SPA (binds Fc of IgG, anti-phagocytic), toxins (staphylolysin, leukocidin, exfoliative toxin, TSST-1, enterotoxin)."
         },
         {
-          "title": "Clinical",
-          "content": "Local pyogenic infections (furuncle, carbuncle), bacteremia, SSSS, TSS, food poisoning."
+          "title": "Clinical Findings",
+          "content": "Local pyogenic infections (furuncle, carbuncle, wound infection), systemic infections (bacteremia, osteomyelitis), toxin-mediated diseases (SSSS, TSS, food poisoning)."
         },
         {
-          "title": "Treatment",
-          "content": "Hygiene, sensitive antibiotics."
+          "title": "Treatment & Prevention",
+          "content": "Hygiene, drug sensitivity testing, penicillin-resistant penicillins (e.g., oxacillin) or vancomycin for MRSA."
         }
       ]
     },
     {
-      "Name": "Streptococcus",
-      "Tag": "G+",
+      "Name": "Streptococcus pyogenes (Group A)",
+      "Tag": "G+ Coccus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Spherical cells, arranged in chains."
+          "content": "G+ spherical cells, arranged in chains, capsulated in young cultures."
         },
         {
           "title": "Culture",
-          "content": "Facultative anaerobe, requires enriched media; classified by hemolysis (α, β, γ)."
+          "content": "Facultative anaerobe, requires enriched media (blood agar); forms small colonies with a large zone of complete beta-hemolysis."
         },
         {
           "title": "Resistance",
-          "content": "Weak; sensitive to normal antiseptics, penicillin, and erythromycin."
+          "content": "Weak; sensitive to normal disinfectants, heat, penicillin, and erythromycin."
         },
         {
           "title": "Pathogenesis",
-          "content": "Hyaluronidase, SK, SD, Pyrogenic exotoxin, Streptolysin, M protein."
+          "content": "M protein (anti-phagocytic, cross-reacts with host tissue), lipoteichoic acid (adhesion), streptolysins (O & S), SK (streptokinase), SD (streptodornase), pyrogenic exotoxin (scarlet fever)."
         },
         {
-          "title": "Clinical",
-          "content": "Sore throat, pyoderma, erysipelas, scarlet fever, rheumatic fever."
+          "title": "Clinical Findings",
+          "content": "Pyogenic infections (sore throat, tonsillitis, pyoderma, erysipelas, childbed fever), toxigenic diseases (scarlet fever), hypersensitivity diseases (acute glomerulonephritis, rheumatic fever)."
         },
         {
-          "title": "Treatment",
-          "content": "Penicillin (first choice); timely treatment of primary infection."
+          "title": "Treatment & Prevention",
+          "content": "Penicillin G is the absolute first choice; timely treatment of primary sore throat infection to prevent rheumatic fever."
         }
       ]
     },
     {
-      "Name": "E. coli",
-      "Tag": "G-",
+      "Name": "Streptococcus pneumoniae (Pneumococcus)",
+      "Tag": "G+ Coccus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Short rods, mostly possess peritrichous flagella & pili."
+          "content": "G+ encapsulated lancet-shaped diplococcus in pairs."
         },
         {
           "title": "Culture",
-          "content": "Lactose (+); forms pink, large colonies on SS medium."
+          "content": "Requires blood or serum; aerobic/facultative; displays alpha-hemolysis (green zone) on blood agar. Bile soluble (differentiates from S. viridans)."
         },
         {
           "title": "Resistance",
-          "content": "Susceptible to standard disinfectants; easily develops opportunistic drug resistance."
+          "content": "Weak, highly sensitive to common disinfectants, heat, and optochin."
         },
         {
           "title": "Pathogenesis",
-          "content": "Pili, LT & ST enterotoxins, Shiga toxin."
+          "content": "Capsule (main invasive power, inhibits phagocytosis), pneumolysin, neuraminidase."
         },
         {
-          "title": "Clinical",
-          "content": "Extraintestinal (UTI, septicemia); Gastroenteritis via ETEC, EPEC, EHEC, EIEC, EAggEC."
+          "title": "Clinical Findings",
+          "content": "Lobar pneumonia (sharp pain, chills, fever, rusty sputum), meningitis, otitis media."
         },
         {
-          "title": "Treatment",
-          "content": "Stool/urine culture on SS agar; fluid management and antibiotics."
+          "title": "Treatment & Prevention",
+          "content": "Penicillin G, cephalosporins. Pneumococcal capsular polysaccharide vaccine available for high-risk individuals."
         }
       ]
     },
     {
-      "Name": "Shigella",
-      "Tag": "G-",
+      "Name": "Neisseria meningitidis (Meningococcus)",
+      "Tag": "G- Coccus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Short rods; possess pili, no flagella."
+          "content": "G- coffee bean or kidney-shaped diplococcus in pairs, possesses capsules and pili."
         },
         {
           "title": "Culture",
-          "content": "Lactose (-); colorless, small colonies on SS medium."
+          "content": "Aerobic; chocolate agar under 5%-10% CO2; autolytic enzymes make old cultures lyse quickly."
         },
         {
           "title": "Resistance",
-          "content": "Weak, sensitive to acid; easily develops drug resistance."
+          "content": "Very low; sensitive to cold, heat, drying, and disinfectants."
         },
         {
           "title": "Pathogenesis",
-          "content": "Pili, strong endotoxin, Shiga exotoxin (Stx)."
+          "content": "Capsule, pili (adhesion), strong Endotoxin (LPS, damages blood vessels, causes petechiae), IgA1 protease."
         },
         {
-          "title": "Clinical",
-          "content": "Bacillary dysentery (acute and chronic)."
+          "title": "Clinical Findings",
+          "content": "Epidemic cerebrospinal meningitis (fever, headache, neck stiffness, skin petechiae, hemorrhagic rash)."
         },
         {
-          "title": "Treatment",
-          "content": "Manage dehydration; antibiotics; SD vaccine."
+          "title": "Treatment & Prevention",
+          "content": "Penicillin G, ceftriaxone. Group-specific capsular polysaccharide vaccine used for prevention."
         }
       ]
     },
     {
-      "Name": "Salmonella",
-      "Tag": "G-",
+      "Name": "Neisseria gonorrhoeae (Gonococcus)",
+      "Tag": "G- Coccus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Rods; possess pili and mostly peritrichous flagella."
+          "content": "G- kidney-shaped diplococcus, coffee bean-shaped, typically found inside polymorphonuclear leukocytes (PMNs) in acute pus."
         },
         {
           "title": "Culture",
-          "content": "Lactose (-); colorless colonies on SS medium."
+          "content": "Aerobic; chocolate agar or Thayer-Martin medium under 5%-10% CO2."
         },
         {
           "title": "Resistance",
-          "content": "Easily killed by heat and chemical disinfectants."
+          "content": "Extremely weak; dies rapidly outside the human host; sensitive to cold and drying."
         },
         {
           "title": "Pathogenesis",
-          "content": "Pili, endotoxin, enterotoxin; multiplies inside macrophages."
+          "content": "Pili (highly antigenically variable), outer membrane proteins, endotoxin (LPS), IgA1 protease. Destroys mucosal immunity."
         },
         {
-          "title": "Clinical",
-          "content": "Gastroenteritis, Enteric (Typhoid) fever, Septicemia; carrier state in gallbladder."
+          "title": "Clinical Findings",
+          "content": "Gonorrhea (sexually transmitted urethritis, cervicitis with purulent discharge). Female infections are often asymptomatic early but can lead to PID. Neonatal ophthalmia (gonococcal conjunctivitis) via birth canal."
         },
         {
-          "title": "Treatment",
-          "content": "Widal test; antibiotics; persistent cellular immunity post-recovery."
+          "title": "Treatment & Prevention",
+          "content": "Ceftriaxone or spectinomycin. Erythromycin eye drops for newborns. No vaccine due to high pilus variation."
+        }
+      ]
+    },
+    {
+      "Name": "Escherichia coli",
+      "Tag": "G- Bacillus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "G- short rods, mostly possess peritrichous flagella (motile) and pili (fecal-oral adhesion)."
+        },
+        {
+          "title": "Culture",
+          "content": "Aerobic/facultative; ferments lactose with gas (forms pink, large colonies on MacConkey/SS agar; green metallic sheen on EMB agar)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Susceptible to heat and standard disinfectants; easily develops drug resistance via plasmid transfer."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Pili, enterotoxins (Heat-labile LT, Heat-stable ST), Shiga-like toxin, endotoxin, capsule."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "UTI (most common cause), neonatal meningitis, septicemia. Gastroenteritis via pathotypes: ETEC (traveler's diarrhea), EPEC (infantile), EHEC (bloody diarrhea, HUS), EIEC (dysentery-like), EAggEC."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Fluid/electrolyte management. Antibiotics (based on sensitivity test) for systemic infections. Hygiene."
+        }
+      ]
+    },
+    {
+      "Name": "Shigella species (Dysentery Bacillus)",
+      "Tag": "G- Bacillus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "G- short rods, possess pili for attachment, non-motile (no flagella)."
+        },
+        {
+          "title": "Culture",
+          "content": "Lactose non-fermenter; forms colorless, small, smooth colonies on SS agar."
+        },
+        {
+          "title": "Resistance",
+          "content": "Weak, highly sensitive to heat, drying, and gastric acid; S. sonnei is a late/slow lactose fermenter."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Pili (invasion of colonic epithelial cells), strong endotoxin (causes mucosal necrosis), Shiga exotoxin (Stx, enterotoxic, cytotoxic, neurotoxic)."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Bacillary dysentery (acute and chronic). Manifests as fever, abdominal pain, tenesmus, bloody purulent stools. Toxic megacolon/shock can occur."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Oral rehydration, fluoroquinolones or trimethoprim-sulfamethoxazole. Strict personal hygiene. No widely used vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Salmonella species",
+      "Tag": "G- Bacillus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "G- rods, possess peritrichous flagella (highly motile) and pili. Non-spore."
+        },
+        {
+          "title": "Culture",
+          "content": "Lactose non-fermenter; forms colorless colonies with black centers (H2S production) on SS agar."
+        },
+        {
+          "title": "Resistance",
+          "content": "Moderate; easily killed by boiling (100°C) and standard pasteurization/disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Invasion proteins (Vi antigen, anti-phagocytic), endotoxin, enterotoxin. Multiplies and survives inside macrophages."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Enteric (Typhoid/Paratyphoid) fever (fever, rose spots, splenomegaly, leukopenia, intestinal hemorrhage/perforation in 3rd week), gastroenteritis, septicemia."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Widal test for auxiliary diagnosis. Antibiotics (ceftriaxone, ciprofloxacin). Typhoid vaccine (Vi polysaccharide) available."
         }
       ]
     },
     {
       "Name": "Vibrio cholerae",
-      "Tag": "G-",
+      "Tag": "G- Vibrio",
       "details": [
         {
           "title": "Morphology",
-          "content": "Short, curved (comma); single polar flagellum."
+          "content": "G- comma-shaped curved rod, single polar flagellum (\"shuttling like fish\" darting motility)."
         },
         {
           "title": "Culture",
-          "content": "Facultative anaerobic; requires alkaline environment (pH 8.5-9.5); cultured on TCBS."
+          "content": "Facultative anaerobe; grows in highly alkaline media (pH 8.5-9.5, alkaline peptone water); yellow colonies on TCBS agar."
         },
         {
           "title": "Resistance",
-          "content": "Weak; sensitive to acid/drying; dies at 100℃ in 2 minutes."
+          "content": "Very weak; sensitive to heat, drying, and gastric acid; killed at 100°C in 2 minutes."
         },
         {
           "title": "Pathogenesis",
-          "content": "Flagella (penetration), pili (adhesion), strong Cholera Toxin (ctx)."
+          "content": "Flagella (penetrates mucus), pili (TCP, attachment), Cholera Toxin (exotoxin, activates adenylate cyclase -> high cAMP -> hypersecretion of water/electrolytes)."
         },
         {
-          "title": "Clinical",
-          "content": "Cholera (severe diarrhea/rice water stools)."
+          "title": "Clinical Findings",
+          "content": "Cholera (severe, painless watery diarrhea, \"rice-water\" stools, extreme dehydration, muscle cramps, hypovolemic shock)."
         },
         {
-          "title": "Treatment",
-          "content": "Early diagnosis, quarantine, rapid rehydration, tetracycline/chloromycetin, vaccination."
+          "title": "Treatment & Prevention",
+          "content": "Immediate, massive oral/IV rehydration (essential), tetracycline/doxycycline to shorten shedding. Quarantine, sanitation."
+        }
+      ]
+    },
+    {
+      "Name": "Vibrio parahaemolyticus",
+      "Tag": "G- Vibrio",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "G- polymorphic curved rod, halophilic (requires high salt, 3.5% NaCl)."
+        },
+        {
+          "title": "Culture",
+          "content": "Halophilic growth, green colonies on TCBS, Kanagawa phenomenon positive (produces thermostable direct hemolysin)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, acid, and fresh water (dies in tap water)."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Thermostable direct hemolysin (TDH) and TDH-related hemolysin (TRH) (cytotoxic, cardiotoxic)."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Food poisoning (acute gastroenteritis with watery diarrhea, abdominal cramps, fever) associated with raw/undercooked seafood."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Self-limiting; hydration. Antibiotics only for severe cases."
         }
       ]
     },
     {
       "Name": "Clostridium tetani",
-      "Tag": "G+",
+      "Tag": "G+ Bacillus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Slender bacilli; terminal round spore ('drum-stick')."
+          "content": "G+ slender bacilli with terminal round spores, presenting a characteristic \"drum-stick\" appearance."
         },
         {
           "title": "Culture",
-          "content": "Obligate anaerobic."
+          "content": "Obligate anaerobe, difficult to grow, swarming growth on blood agar."
         },
         {
           "title": "Resistance",
-          "content": "Very strong; spores survive boiling, killed only by autoclaving at 121℃ under pressure."
+          "content": "Spores are extremely resistant; survive boiling for hours; killed only by autoclaving at 121°C under pressure."
         },
         {
           "title": "Pathogenesis",
-          "content": "Tetanospasmin (neurotoxin blocking inhibitory neurotransmitter release)."
+          "content": "Tetanospasmin (powerful neurotoxin, blocks release of inhibitory neurotransmitters GABA/glycine -> continuous muscle contraction)."
         },
         {
-          "title": "Clinical",
-          "content": "Tetanus (lockjaw, spastic paralysis, severe muscle spasms)."
+          "title": "Clinical Findings",
+          "content": "Tetanus (lockjaw, trismus, spastic paralysis, opisthotonus, facial grimace/risus sardonicus). Wound must be anaerobic (deep/dirty)."
         },
         {
-          "title": "Treatment",
-          "content": "Debridement, TAT injection, penicillin, DPT vaccine (toxoids)."
+          "title": "Treatment & Prevention",
+          "content": "Wound debridement, Tetanus Antitoxin (TAT, must perform skin test first!), penicillin/metronidazole, DPT toxoid vaccine for prevention."
         }
       ]
     },
     {
       "Name": "Clostridium perfringens",
-      "Tag": "G+",
+      "Tag": "G+ Bacillus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Large, rectangular bacilli; subterminal spore; capsule, non-motile."
+          "content": "G+ large rectangular bacilli, non-motile, forms capsule in vivo, subterminal oval spore."
         },
         {
           "title": "Culture",
-          "content": "Anaerobic; 'stormy fermentation' in milk medium."
+          "content": "Anaerobic; produces \"stormy fermentation\" in milk medium (clots and gas) and double-zone hemolysis on blood agar."
         },
         {
           "title": "Resistance",
-          "content": "Strong resistance due to spores."
+          "content": "Spores are highly resistant to heat, drying, and chemical disinfectants."
         },
         {
           "title": "Pathogenesis",
-          "content": "α, β, ε, ι exotoxins (primarily α toxin) and enterotoxin."
+          "content": "Alpha toxin (lecithinase, damages cell membranes, causes tissue necrosis and hemolysis), enterotoxin, theta toxin."
         },
         {
-          "title": "Clinical",
-          "content": "Gas gangrene; mild, self-limiting food poisoning."
+          "title": "Clinical Findings",
+          "content": "Gas gangrene (myonecrosis, gas bubbles in tissue, foul odor, high mortality), food poisoning (watery diarrhea from reheated meat)."
         },
         {
-          "title": "Treatment",
-          "content": "Debridement, hyperbaric oxygen, antitoxin, antimicrobial therapy."
+          "title": "Treatment & Prevention",
+          "content": "Surgical debridement, hyperbaric oxygen therapy, high-dose penicillin G, gas gangrene polyvalent antitoxin."
         }
       ]
     },
     {
       "Name": "Clostridium botulinum",
-      "Tag": "G+",
+      "Tag": "G+ Bacillus",
       "details": [
         {
           "title": "Morphology",
-          "content": "Bacilli; subterminal oval spore ('tennis racket'); flagella present."
+          "content": "G+ bacilli, peritrichous flagella, subterminal oval spores (\"tennis racket\" shape)."
         },
         {
           "title": "Culture",
-          "content": "Obligate anaerobic."
+          "content": "Obligate anaerobe, grows on blood agar or cooked meat medium."
         },
         {
           "title": "Resistance",
-          "content": "Spores highly resistant; toxin is heat-labile."
+          "content": "Spores are extremely heat-resistant. However, the botulinum neurotoxin itself is heat-labile (destroyed by boiling for 10 min)."
         },
         {
           "title": "Pathogenesis",
-          "content": "Botulinum neurotoxin blocks release of acetylcholine."
+          "content": "Botulinum neurotoxin (the most potent poison known; blocks acetylcholine release at neuromuscular junctions -> flaccid paralysis)."
         },
         {
-          "title": "Clinical",
-          "content": "Botulism (food poisoning/infant botulism); flaccid paralysis."
+          "title": "Clinical Findings",
+          "content": "Botulism (foodborne from canned foods: double vision, dysphagia, descending flaccid paralysis, respiratory failure). Infant botulism."
         },
         {
-          "title": "Treatment",
-          "content": "Heat food thoroughly, administer anti-toxin, antibiotic therapy if infected."
+          "title": "Treatment & Prevention",
+          "content": "Trivalent botulinum antitoxin, intensive respiratory support. Heat canned food thoroughly before consumption."
+        }
+      ]
+    },
+    {
+      "Name": "Mycobacterium tuberculosis",
+      "Tag": "Acid-Fast Rod",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Acid-fast positive thin, straight rods, waxy lipid-rich cell wall (mycolic acid), non-spore, non-motile."
+        },
+        {
+          "title": "Culture",
+          "content": "Obligate aerobe; grows extremely slowly (doubling time 18 hrs); rough, wrinkled, off-white \"bread crumb\" colonies on Löwenstein-Jensen (L-J) medium in 2-4 weeks."
+        },
+        {
+          "title": "Resistance",
+          "content": "High resistance to drying, acids, and alkalis (survives 3% HCl / 4% NaOH for 15 min); sensitive to wet heat (65°C 15min), alcohol (75%), and UV."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Intracellular survival in macrophages, lipids (cord factor, wax D, sulfatide, phospholipid) cause tissue necrosis and granuloma."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Tuberculosis: Primary TB (tubercles, caseous necrosis), Post-primary TB (secondary reactivation, lung cavities, chronic cough, bloody sputum), Miliary TB (disseminated)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Tuberculin skin test (PPD/OT) for diagnosis. BCG vaccine (live attenuated M. bovis) for infants. Multi-drug therapy (Isoniazid, Rifampin, Streptomycin)."
+        }
+      ]
+    },
+    {
+      "Name": "Mycobacterium leprae",
+      "Tag": "Acid-Fast Rod",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Acid-fast positive rods, typically arranged in bundles (globi) inside histiocytes."
+        },
+        {
+          "title": "Culture",
+          "content": "Cannot be cultivated on artificial media or cell culture. Can only grow in armadillos or footpads of mice."
+        },
+        {
+          "title": "Resistance",
+          "content": "Similar to M. tuberculosis (highly resistant to environmental factors)."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Infection of skin histiocytes and Schwann cells of peripheral nerves, leading to demyelination and nerve damage."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Leprosy (Hansen's disease): Lepromatous leprosy (severe, nodular skin lesions, lion-like facies) or Tuberculoid leprosy (local anesthetic skin macules)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Multi-drug therapy: Dapsone, Rifampin, and Clofazimine. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Mycoplasma pneumoniae",
+      "Tag": "No Cell Wall",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Pleomorphic, small, completely lacks a peptidoglycan cell wall; bounded by a triple-layered sterol membrane."
+        },
+        {
+          "title": "Culture",
+          "content": "Enriched agar containing sterols/serum; grows slowly (takes 2-3 weeks), forming tiny \"fried egg\" colonies."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly sensitive to drying, heat, osmotic shock, and antibiotics targeting cell wall (completely resistant to penicillin/beta-lactams)."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "P1 adhesin (attaches to respiratory cilia, inhibits ciliary action), hydrogen peroxide production."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Primary Atypical Pneumonia (PAP, walking pneumonia: dry hacking cough, fever, headache, patchy infiltrates on X-ray). Cold agglutination test positive."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Macrolides (erythromycin, azithromycin) or tetracycline/doxycycline. Resistant to beta-lactams."
+        }
+      ]
+    },
+    {
+      "Name": "Chlamydia trachomatis",
+      "Tag": "Intracellular",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Small, obligate intracellular bacteria. Exists in two forms: Elementary Body (EB, small, infectious, extracellular) and Reticulate Body (RB, large, replicative, intracellular)."
+        },
+        {
+          "title": "Culture",
+          "content": "Requires living host cells (yolk sac of embryonated eggs, McCoy cell cultures). Forms glycogen-containing inclusion bodies."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, lipid solvents, and antibiotics."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Intracellular replication cycle (EB -> RB -> binary fission -> EB -> cell lysis). Direct cellular damage and chronic inflammation."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Trachoma (serotypes A-C, chronic conjunctivitis, blindness), inclusion conjunctivitis, nongonococcal urethritis (NGU), Lymphogranuloma Venereum (LGV, serotypes L1-L3)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Tetracycline/doxycycline, erythromycin, or azithromycin."
+        }
+      ]
+    },
+    {
+      "Name": "Rickettsia prowazekii",
+      "Tag": "Intracellular",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Small, pleomorphic Gram-negative coccobacilli, visible under light microscope."
+        },
+        {
+          "title": "Culture",
+          "content": "Obligate intracellular parasite; cultivated in yolk sacs of embryonated eggs, tissue culture, or susceptible animals (guinea pigs)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, drying, disinfectants, and antibiotics."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Endothelial cell infection, multiplying in cytoplasm -> vasculitis, thrombosis, rash. Weil-Felix reaction (cross-reacts with Proteus OX19)."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Epidemic typhus (severe fever, headache, macular rash, stupor/delirium). Transmitted by the human body louse."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Vector control (louse control). Tetracyclines (doxycycline) or chloramphenicol. Live vaccine strain E used experimentally."
+        }
+      ]
+    },
+    {
+      "Name": "Treponema pallidum",
+      "Tag": "Spirochete",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Thin, spiral-shaped with close, regular spirals; Gram-negative but stained by Fontana silver stain (brown); dark-field microscopy for live motility."
+        },
+        {
+          "title": "Culture",
+          "content": "Cannot be cultivated on artificial media. Can be maintained in rabbit epithelial cells but grows very slowly."
+        },
+        {
+          "title": "Resistance",
+          "content": "Very weak; sensitive to heat, drying, oxygen, soap, and standard disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Hyaluronidase, outer membrane proteins. Damages endothelial cells of blood vessels, leading to endarteritis."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Syphilis: Primary (painless chancre), Secondary (diffuse skin rash, condylomata lata), Tertiary (gummas, cardiovascular/neurosyphilis). Congenital syphilis."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Penicillin G is highly effective and remains the first choice. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Leptospira interrogans",
+      "Tag": "Spirochete",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Tightly coiled spirals with hook-shaped ends, forming characteristic \"C\" or \"S\" shapes. Gram-negative; stained by Fontana silver stain."
+        },
+        {
+          "title": "Culture",
+          "content": "Aerobic; can be cultivated in liquid media containing animal serum (Korthof medium); grows slowly at 28-30°C."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly sensitive to drying and acid; can survive in neutral/alkaline water for weeks."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Invasion through broken skin/mucosa from water contaminated with infected rodent/domestic animal urine."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Leptospirosis (zoonosis, common in farmers): biphasic illness with fever, muscle pain (especially calves), conjunctival suffusion, Weil's disease (jaundice, renal failure)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Penicillin G or doxycycline. Rodent control, vaccination of domestic animals, avoid contaminated water."
+        }
+      ]
+    },
+    {
+      "Name": "Borrelia burgdorferi",
+      "Tag": "Spirochete",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Large, loose spirals with wider distances than T. pallidum. Gram-negative; stained by silver impregnation."
+        },
+        {
+          "title": "Culture",
+          "content": "Microaerophilic; cultivated in BSK (Barbour-Stoenner-Kelly) medium; grows slowly."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, drying, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmission via Ixodes tick bite. Outer surface proteins (Osp) trigger inflammatory response."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Lyme disease: Stage 1 (erythema migrans/bull's-eye rash), Stage 2 (carditis, neurological symptoms), Stage 3 (chronic arthritis)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Doxycycline or amoxicillin. Tick control, personal protection in endemic areas."
+        }
+      ]
+    },
+    {
+      "Name": "Influenza Virus (Type A)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical or pleomorphic; genome consists of 8 segments of negative-sense ssRNA. Glycoprotein spikes: Hemagglutinin (HA) & Neuraminidase (NA)."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in amniotic or allantoic cavities of embryonated chicken eggs or MDCK cell lines."
+        },
+        {
+          "title": "Resistance",
+          "content": "Enveloped; sensitive to lipid solvents (ether, alcohol), heat, acid, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "HA binds to sialic acid receptors on respiratory epithelium. NA liquefies mucus and aids viral release. Antigenic drift (epidemics) & shift (reassortment -> pandemics)."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Influenza (flu): abrupt onset of high fever, muscle ache, headache, cough, sore throat. Risk of primary/secondary bacterial pneumonia."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Inactivated or live-attenuated vaccines. Neuraminidase inhibitors (Oseltamivir/Tamiflu) or M2 inhibitors (Amantadine)."
+        }
+      ]
+    },
+    {
+      "Name": "Measles Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, paramyxovirus; non-segmented negative-sense ssRNA."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell culture; causes multinucleated giant cell formation (syncytia) and cytopathic effects (inclusion bodies)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Enveloped; highly sensitive to heat, acid, lipid solvents, and UV light."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmission via respiratory droplets. Virulence proteins cause fusion of infected cells. Mutated defective interfering particles (DIP) persist in brain."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Measles (rubeola): fever, cough, coryza, conjunctivitis, Koplik's spots (white spots on buccal mucosa, diagnostic), maculopapular rash. Late complication: SSPE."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Live attenuated measles vaccine (part of MMR, given at 8 months and 7 years). Immunoglobulin for passive protection."
+        }
+      ]
+    },
+    {
+      "Name": "Mumps Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, paramyxovirus; negative-sense ssRNA. Only one antigenic type."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell culture or embryonated eggs."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, lipid solvents, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Respiratory droplet transmission. Disseminates from respiratory tract to salivary glands and other organs."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Mumps: painful swelling of one or both parotid salivary glands, fever. Complications include orchitis (can lead to infertility in males) and aseptic meningitis."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Live attenuated mumps vaccine (MMR vaccine). Lifetime immunity follows natural infection."
+        }
+      ]
+    },
+    {
+      "Name": "Rubella Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, togavirus; positive-sense ssRNA. One serotype."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell lines; displays poor cytopathic effects."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, organic solvents, and low pH."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Respiratory droplet transmission. Crosses the placenta (vertical transmission) to infect the fetus, halting mitosis and causing congenital defects."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Rubella (German measles): mild rash, fever, lymphadenopathy. Congenital Rubella Syndrome (CRS): cataracts, patent ductus arteriosus, deafness, microcephaly."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Live attenuated rubella vaccine (MMR vaccine). Women should not be vaccinated during pregnancy."
+        }
+      ]
+    },
+    {
+      "Name": "Respiratory Syncytial Virus (RSV)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, paramyxovirus; negative-sense ssRNA. Lacks HA and NA."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows in cell culture; characteristically induces fusion of cells to form large multinucleated syncytia (giant cells)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly unstable in environment; sensitive to heat, acid, and detergents."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmission via droplets or contact. Infects bronchiolar epithelium, causing necrosis and plug formation of mucus/fibrin."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Bronchiolitis and bronchopneumonia in infants (most important cause of infant respiratory tract illness, 50-90% of bronchiolitis). Common cold in adults."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Supportive (oxygen, hydration). Ribavirin aerosol for severe cases. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Poliovirus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Naked, small, icosahedral; positive-sense ssRNA. Three serotypes (1, 2, and 3)."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows rapidly in primate cell cultures with clear cytopathic effects."
+        },
+        {
+          "title": "Resistance",
+          "content": "Naked capsid; highly resistant to lipid solvents (ether), acid (survives gastric acid), and detergents; sensitive to heat and chlorine."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral transmission. Replicates in pharynx/gut lymphoid tissue -> twice viremia -> invades CNS -> destroys motor neurons in spinal cord anterior horns."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Poliomyelitis (infantile paralysis): 90-95% inapparent/subclinical. Minor illness (fever, sore throat). Paralytic poliomyelitis (flaccid paralysis, muscle atrophy)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Sabin oral vaccine (OPV: live-attenuated, mucosal IgA + serum IgG, risk of reversion) or Salk vaccine (IPV: inactivated, serum IgG only, no reversion)."
+        }
+      ]
+    },
+    {
+      "Name": "Coxsackievirus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Naked, small, icosahedral, enterovirus; positive-sense ssRNA."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell culture or newborn mice."
+        },
+        {
+          "title": "Resistance",
+          "content": "Resistant to ether, acid, and detergents."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral transmission. Group A targets skin/mucosa; Group B has tissue tropism for heart, pancreas, and meninges."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Group A: Herpangina, Hand-Foot-and-Mouth Disease, aseptic meningitis. Group B: viral myocarditis, pericarditis, Bornholm disease (pleurodynia)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Symptomatic treatment. Hand hygiene, sanitation."
+        }
+      ]
+    },
+    {
+      "Name": "Rotavirus (Human)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Naked, double-shelled capsid resembling a wheel (\"Rota\"); segmented dsRNA (11 segments)."
+        },
+        {
+          "title": "Culture",
+          "content": "Difficult to cultivate in standard cell culture; requires trypsin pretreatment."
+        },
+        {
+          "title": "Resistance",
+          "content": "Relatively stable in environment; resistant to ether, acid, and mild heat."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral route. Infects and damages mature enterocytes in the duodenum and jejunum, leading to malabsorption of water and sodium."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Severe infantile diarrhea (leading cause of diarrheal hospitalizations in infants and young children worldwide; watery stools, vomiting, fever)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Oral or IV rehydration (critical). Rotavirus live-attenuated oral vaccines are available."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatitis A Virus (HAV)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Naked, icosahedral picornavirus; positive-sense ssRNA. One serotype."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows slowly in cell culture without cytopathic effects."
+        },
+        {
+          "title": "Resistance",
+          "content": "Stable to acid (pH 3), ether, heat (60°C for 1 hr); inactivated by chlorine, formaldehyde, or boiling."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral transmission. Replicates in hepatocytes, immune-mediated destruction of infected cells causes liver damage."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Acute hepatitis A: fever, anorexia, nausea, jaundice. Almost always self-limiting, no chronic carrier state, not linked to liver cancer."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Symptomatic. Inactivated HAV vaccine for active immunization. Immune globulin for passive post-exposure prophylaxis."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatitis B Virus (HBV)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, double-shelled spherical particle (\"Dane particle\", intact HBV), circular partially dsDNA. Serum contains small spherical & tubular HBsAg particles."
+        },
+        {
+          "title": "Culture",
+          "content": "Cannot be cultivated in cell lines. Chimpanzees are highly susceptible."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly stable; resists drying, freezing, and mild heat; inactivated by autoclaving or 100°C for 10 min."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmitted via blood, sex, or maternal-fetal (vertical). Uses reverse transcriptase for replication. Immune-mediated (CTLs) lysis of hepatocytes causes pathology."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Hepatitis B (acute and chronic). High risk of chronic carriage, cirrhosis, and primary hepatocellular carcinoma (liver cancer)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Recombinant HBsAg vaccine. Post-exposure HBIG (passive). Antivirals (Tenofovir, Entecavir, interferon-alpha) for chronic infection."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatitis C Virus (HCV)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, flavivirus; positive-sense ssRNA. Highly variable hypervariable regions."
+        },
+        {
+          "title": "Culture",
+          "content": "Highly difficult to cultivate in vitro."
+        },
+        {
+          "title": "Resistance",
+          "content": "Enveloped; sensitive to heat, lipid solvents, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmitted primarily by blood transfusion, IV drug use. High rate of antigenic mutation leads to immune escape and persistent chronic infection."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Hepatitis C: acute infection is often subclinical, but >80% progresses to chronic hepatitis, cirrhosis, and liver cancer."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Direct-Acting Antivirals (DAAs, e.g., Sofosbuvir, Ledipasvir) offer a cure rate >95%. No vaccine due to high mutation."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatitis D Virus (HDV)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Defective virus; spherical, contains negative-sense circular ssRNA, but uses HBV's envelope (HBsAg) for its outer coat."
+        },
+        {
+          "title": "Culture",
+          "content": "Requires co-infection with HBV to replicate."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to detergents, heat, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmitted via blood or sex. Co-infection (simultaneous HBV/HDV) or Superinfection (HDV infects chronic HBV carrier; causes severe acute flare)."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Severe hepatitis, fulminant hepatitis, rapid progression to cirrhosis."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Prevented by HBV vaccination. Interferon-alpha is used with limited efficacy."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatitis E Virus (HEV)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Naked, icosahedral, hepevirus; positive-sense ssRNA."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows poorly in cell culture."
+        },
+        {
+          "title": "Resistance",
+          "content": "Relatively stable; sensitive to high temperature and chlorine."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral transmission (often waterborne epidemics). Direct cytotoxicity or immune-mediated liver damage."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Acute hepatitis E: similar to HAV. No chronic state. Highly severe in pregnant women (mortality rate up to 20% in 3rd trimester)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Symptomatic support. Vaccine developed and used in some endemic countries."
+        }
+      ]
+    },
+    {
+      "Name": "Herpes Simplex Virus 1 (HSV-1)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, icosahedral capsid, linear dsDNA. Glycoprotein spikes."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows rapidly in many cell lines, causing cytopathic effects (cell swelling, giant cells, intranuclear inclusions)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, detergents, lipid solvents, and acid."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Direct contact transmission. Primary lytic infection in epithelial cells, then establishes latent infection in neurons of the trigeminal ganglia."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Herpes labialis (fever blisters, cold sores), gingivostomatitis, keratoconjunctivitis, sporadic herpes encephalitis (high mortality)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Acyclovir (inhibits viral DNA polymerase), Ganciclovir. Avoid direct contact during active lesions. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Herpes Simplex Virus 2 (HSV-2)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, linear dsDNA, structurally similar to HSV-1."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell culture; cytopathology identical to HSV-1."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, ether, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Sexual contact transmission or vertical neonatal transmission during delivery. Establishes latency in sacral nerve ganglia."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Genital herpes (painful vesicular lesions on genitalia, fever, inguinal lymphadenopathy), neonatal herpes (severe, systemic, high mortality)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Acyclovir, Famciclovir, Valacyclovir. Cesarean section if active lesions are present in the birth canal."
+        }
+      ]
+    },
+    {
+      "Name": "Varicella-Zoster Virus (VZV)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, icosahedral capsid, linear dsDNA. Structurally identical to other herpesviruses."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in human diploid cell cultures; grows slowly."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly unstable in environment; sensitive to heat, detergents, and drying."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Respiratory droplet transmission. Primary infection in respiratory tract, disseminates via blood to skin. Establishes latency in dorsal root sensory ganglia."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Chickenpox (varicella: pruritic vesicular rash appearing in waves, mostly in children). Shingles (herpes zoster: painful vesicular eruption along a dermatome, reactivating in elderly/immunosuppressed)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Acyclovir for shingles. Live-attenuated varicella vaccine (prevention). VZV immunoglobulin for exposed immunocompromised individuals."
+        }
+      ]
+    },
+    {
+      "Name": "Cytomegalovirus (CMV)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, largest herpesvirus, linear dsDNA. Glycoprotein spikes."
+        },
+        {
+          "title": "Culture",
+          "content": "Grows extremely slowly, only in human fibroblasts; characteristically produces cytomegaly (huge swollen cells with \"owl's eye\" intranuclear inclusions)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly sensitive to freezing, heat, and detergents."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmitted by blood, saliva, breast milk, semen, and placenta. Establishes latency in kidneys, salivary glands, and monocytes."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Congenital cytomegalic inclusion disease (microcephaly, calcifications, hepatosplenomegaly), cytomegalic mononucleosis (heterophile-negative), severe pneumonia/retinitis in AIDS."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Ganciclovir, Foscarnet. Screen blood products. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Epstein-Barr Virus (EBV)",
+      "Tag": "DNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, icosahedral capsid, linear dsDNA. Outer envelope contains gp340/220."
+        },
+        {
+          "title": "Culture",
+          "content": "Cannot grow in standard cell lines; infects and immortalizes human B lymphocytes in vitro (uses CD21 receptor)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, ether, and standard disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Transmitted via saliva (\"kissing disease\"). gp120/gp340 binds CD21 on B cells. Immortalizes B cells, leading to uncontrolled proliferation."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Infectious mononucleosis (fever, sore throat, lymphadenopathy, atypical lymphocytes), Burkitt's lymphoma (endemic in Africa), Nasopharyngeal carcinoma (NPC, highly prevalent in Southern China)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Symptomatic. Acyclovir has no clinical benefit for acute mononucleosis. IgA anti-VCA antibody used to screen/monitor NPC. Subunit gp340 vaccine under development."
+        }
+      ]
+    },
+    {
+      "Name": "Human Immunodeficiency Virus (HIV)",
+      "Tag": "Retrovirus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, diploid +ssRNA (two identical copies of positive RNA). Core contains reverse transcriptase, integrase, protease, and p24. gp120 & gp41 spikes."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in CD4+ T-lymphocyte cell lines or human peripheral blood mononuclear cells (PBMCs)."
+        },
+        {
+          "title": "Resistance",
+          "content": "Enveloped; sensitive to heating (56°C 30min), lipid solvents, and 70% alcohol."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "gp120 binds to CD4 receptors and co-receptors (CCR5/CXCR4) on Helper T (Th) cells and macrophages. Reverse transcriptase copies RNA to dsDNA, which integrates into host genome. CTLs destroy infected Th cells -> collapse of cellular immunity."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Acquired Immunodeficiency Syndrome (AIDS): long incubation; presenting with fever, lymphadenopathy, weight loss, followed by fatal opportunistic infections (Pneumocystis, Cryptococcus) and malignancies (Kaposi sarcoma)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Combination Antiretroviral Therapy (ART/HAART: reverse transcriptase, protease, and integrase inhibitors). Safe sex, needle hygiene. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Rabies Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, bullet-shaped virus, negative-sense ssRNA. Glycoprotein spikes."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell culture (duck embryo or diploid cell lines) or mouse brain."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to lipid solvents, heat (56°C 1 hr), acid, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Bite of infected animal (saliva). Virus replicates locally in muscle, then ascends sensory nerves to spinal cord and brain. Form eosinophilic cytoplasmic inclusions (Negri bodies) in neurons."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Rabies: hydrophobia (spasms of swallowing muscles triggered by sight of water), hyper-salivation, agitation, seizures, progressive paralysis, 100% fatal encephalitis once symptoms begin."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Immediate wound washing with soap & water, passive immunization (Rabies Immunoglobulin, HRIG) around wound, active immunization (killed rabies vaccine, HDCV)."
+        }
+      ]
+    },
+    {
+      "Name": "Hantaan Virus (Hantavirus)",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, bunyavirus; segmented negative-sense ssRNA (3 segments: L, M, S)."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in Vero cells or suckling mice."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, acid, detergents, and organic solvents."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Natural host: striped field mouse (*Apodemus agrarius*). Shed in mouse urine, feces, saliva. Inhaled as aerosols -> infects vascular endothelial cells -> capillary leakage."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Hemorrhagic Fever with Renal Syndrome (HFRS): fever, hemorrhage, hypotension/shock, oliguria, anuria, renal failure. Typical \"three-red\" (flushed face, neck, chest)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Supportive fluid management. Ribavirin (reduces mortality if given early). Rodent control is the primary prevention."
+        }
+      ]
+    },
+    {
+      "Name": "Japanese Encephalitis Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, flavivirus; positive-sense ssRNA."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in cell lines or suckling mouse brain."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, ether, acid, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Vector: Culex tritaeniorhynchus mosquito. Reservoir hosts: pigs and birds. Mosquito bite -> viremia -> crosses blood-brain barrier -> infects CNS neurons."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Japanese B Encephalitis: high fever, headache, vomiting, meningeal signs, altered mental status, stupor, coma, spastic paralysis. High rate of permanent neurological sequelae."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Supportive care. Inactivated or live attenuated vaccines are highly effective for prevention."
+        }
+      ]
+    },
+    {
+      "Name": "Dengue Virus",
+      "Tag": "RNA Virus",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Enveloped, spherical, flavivirus; positive-sense ssRNA. Four serotypes (DEN-1 to DEN-4)."
+        },
+        {
+          "title": "Culture",
+          "content": "Cultivated in mosquito cell lines or suckling mice."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to heat, lipid solvents, and disinfectants."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Vector: Aedes aegypti/albopictus mosquito. Primary infection induces immunity. Secondary infection with a different serotype leads to Antibody-Dependent Enhancement (ADE) -> severe disease."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Dengue fever (breakbone fever: high fever, severe joint/muscle pain, retro-orbital pain, rash). Dengue Hemorrhagic Fever (DHF) / Dengue Shock Syndrome (DSS) due to vascular permeability."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Supportive fluid therapy. Vector control. Avoid aspirin (risk of bleeding)."
+        }
+      ]
+    },
+    {
+      "Name": "Cryptococcus neoformans",
+      "Tag": "Fungus (Yeast)",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Encapsulated, round or oval yeast cell; reproduces by single budding. Surrounded by a very thick, prominent polysaccharide capsule."
+        },
+        {
+          "title": "Culture",
+          "content": "Sabouraud's dextrose agar at 25°C or 37°C; forms cream-colored, mucoid yeast-like colonies."
+        },
+        {
+          "title": "Resistance",
+          "content": "Highly resistant in dry pigeon droppings, which serve as the primary environmental reservoir."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Inhalation of yeast cells. Polysaccharide capsule is highly anti-phagocytic. Melanizing enzyme protects against oxidative damage."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Cryptococcal meningitis (subacute/chronic meningitis with headache, neck stiffness, cranial nerve palsies, highly common in AIDS patients), pulmonary cryptococcosis."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Negative ink stain of CSF for rapid diagnosis. Combination of Amphotericin B and Flucytosine, followed by long-term Fluconazole. No vaccine."
+        }
+      ]
+    },
+    {
+      "Name": "Candida albicans",
+      "Tag": "Fungus (Yeast)",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Oval budding yeast cells, forms pseudohyphae (in tissue invasion) and thick-walled double-contoured chlamydospores on cornmeal agar."
+        },
+        {
+          "title": "Culture",
+          "content": "Sabouraud's agar at 37°C; forms smooth, white-to-cream, yeast-scented colonies in 24-48 hours."
+        },
+        {
+          "title": "Resistance",
+          "content": "Moderate; sensitive to standard antifungals and heat."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Opportunistic pathogen (part of normal flora). Switches from yeast to pseudohyphae form during tissue invasion, adhering via cell surface proteins."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Candidiasis: Superficial thrush (oral pseudomembranous plaques), vulvovaginitis (cottage-cheese discharge, itching), cutaneous intertrigo. Systemic candidiasis (endocarditis, meningitis, multi-organ abscesses in neutropenic/catheterized patients)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Gram stain of scrapings. Topical or oral Nystatin/Clotrimazole for superficial infections; Fluconazole or Caspofungin/Amphotericin B for systemic candidiasis."
+        }
+      ]
+    },
+    {
+      "Name": "Plasmodium falciparum",
+      "Tag": "Protozoa",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Sporozoans; intra-erythrocytic stages include ring forms (small, delicate, double chromatin dots), banana-shaped gametocytes (highly diagnostic)."
+        },
+        {
+          "title": "Culture",
+          "content": "Maintained in specialized erythrocyte cultures (in vitro) but not cultivated on standard agar."
+        },
+        {
+          "title": "Resistance",
+          "content": "Sensitive to antimalarial drugs, though drug-resistant strains (chloroquine-resistant) are highly prevalent."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Vector: female Anopheles mosquito. Infects RBCs, causing them to express sticky proteins (PfEMP-1) -> adherence to capillary endothelium -> microvascular occlusion."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Malaria (malignant tertian malaria): irregular cycles of high fever, shaking chills, profuse sweating, anemia, splenomegaly. Cerebral malaria (coma, death) due to microvascular occlusion."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Thick/thin blood smear stained with Giemsa. Artemisinin-based combination therapies (ACTs), Chloroquine, Primaquine. Mosquito control, bed nets."
+        }
+      ]
+    },
+    {
+      "Name": "Entamoeba histolytica",
+      "Tag": "Protozoa",
+      "details": [
+        {
+          "title": "Morphology",
+          "content": "Amoeba. Two stages: Trophozoite (10-40 μm, motile, active, typically contains ingested RBCs) and Cyst (10-20 μm, dormant, spherical, 1-4 nuclei, chromatoid bodies)."
+        },
+        {
+          "title": "Culture",
+          "content": "Can be cultured in specialized monoxenic/axenic liquid media."
+        },
+        {
+          "title": "Resistance",
+          "content": "Trophozoites are fragile and die in environment. Cysts are highly resistant, surviving chlorination and gastric acid."
+        },
+        {
+          "title": "Pathogenesis",
+          "content": "Fecal-oral route (ingesting cysts). Excystation in ileum -> trophozoites invade colonic mucosa using histolytic enzymes -> flask-shaped ulcers. Can enter blood to liver."
+        },
+        {
+          "title": "Clinical Findings",
+          "content": "Amoebic dysentery (abdominal pain, flatulence, bloody stools with mucus but little pus). Extra-intestinal: Amoebic liver abscess (jaundice, right upper quadrant pain, chocolate/anchovy-paste pus)."
+        },
+        {
+          "title": "Treatment & Prevention",
+          "content": "Saline smear (trophozoites) or iodine stain (cysts) of stool. Metronidazole (targets trophozoites) followed by paromomycin/diiodoquin (luminal amebicides for cysts)."
         }
       ]
     }

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const XLSX = require('xlsx');
 
 const EXCEL_FOLDER = './flash_cards_excel_files';
 const OUTPUT_FILE = './data.json';
@@ -90,41 +91,89 @@ function updateDashboardData() {
         return;
     }
 
-    const files = fs.readdirSync(DASHBOARD_EXCEL_FOLDER).filter(f => f.endsWith('.csv'));
+    const files = fs.readdirSync(DASHBOARD_EXCEL_FOLDER).filter(f => f.endsWith('.csv') || f.endsWith('.xlsx'));
     let dashboards = {};
 
     files.forEach(file => {
         const filePath = path.join(DASHBOARD_EXCEL_FOLDER, file);
-        const moduleName = file.replace('.csv', '');
-        const content = fs.readFileSync(filePath, 'utf-8');
-        const lines = content.split(/\r?\n/).filter(line => line.trim().length > 0);
-        
-        if (lines.length < 2) return; // Needs at least header and one row
-
-        const headers = parseCSVLine(lines[0]).map(h => h.replace(/^"|"$/g, '').trim());
-        
+        let rawModuleName = file.replace(/\.(csv|xlsx)$/i, '').replace(/[-_]/g, ' ');
+        const moduleName = rawModuleName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
         let moduleData = [];
 
-        for (let i = 1; i < lines.length; i++) {
-            const columns = parseCSVLine(lines[i]);
-            if (columns.length >= 2) {
-                let name = columns[0].replace(/^"|"$/g, '').trim();
-                let tag = columns[1].replace(/^"|"$/g, '').trim();
-                // If there are more columns than headers because of commas inside answer, wait, parseCSVLine handles commas.
-                // It's safe to just loop over headers.
-                
-                if (name) {
-                    let entry = { Name: name, Tag: tag, details: [] };
+        if (file.endsWith('.xlsx')) {
+            const workbook = XLSX.readFile(filePath);
+            const sheet = workbook.Sheets[workbook.SheetNames[0]];
+            const rawRows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+            let headerRowIndex = -1;
+            let headers = [];
+
+            for (let i = 0; i < rawRows.length; i++) {
+                const row = rawRows[i];
+                if (row && row[0] && row[0].toString().trim().toLowerCase() === 'name') {
+                    headerRowIndex = i;
+                    headers = row.map(h => h ? h.toString().trim() : '');
+                    break;
+                }
+            }
+
+            if (headerRowIndex !== -1) {
+                for (let i = headerRowIndex + 1; i < rawRows.length; i++) {
+                    const row = rawRows[i];
+                    if (!row || row.length < 2) continue;
+
+                    const name = row[0] ? row[0].toString().trim() : '';
+                    const tag = row[1] ? row[1].toString().trim() : '';
+
+                    if (!name || name.startsWith('Total ')) continue;
+
+                    let entry = { Name: name, Tag: tag || 'General', details: [] };
+
                     for (let j = 2; j < headers.length; j++) {
-                        let val = columns[j] ? columns[j].replace(/^"|"$/g, '').trim() : '';
+                        const headerTitle = headers[j];
+                        if (!headerTitle || headerTitle.toLowerCase().includes('database metrics')) continue;
+
+                        const val = row[j] ? row[j].toString().trim() : '';
                         if (val) {
                             entry.details.push({
-                                title: headers[j],
+                                title: headerTitle,
                                 content: val
                             });
                         }
                     }
-                    moduleData.push(entry);
+
+                    if (entry.details.length > 0) {
+                        moduleData.push(entry);
+                    }
+                }
+            }
+        } else {
+            const content = fs.readFileSync(filePath, 'utf-8');
+            const lines = content.split(/\r?\n/).filter(line => line.trim().length > 0);
+            
+            if (lines.length >= 2) {
+                const headers = parseCSVLine(lines[0]).map(h => h.replace(/^"|"$/g, '').trim());
+
+                for (let i = 1; i < lines.length; i++) {
+                    const columns = parseCSVLine(lines[i]);
+                    if (columns.length >= 2) {
+                        let name = columns[0].replace(/^"|"$/g, '').trim();
+                        let tag = columns[1].replace(/^"|"$/g, '').trim();
+                        
+                        if (name) {
+                            let entry = { Name: name, Tag: tag, details: [] };
+                            for (let j = 2; j < headers.length; j++) {
+                                let val = columns[j] ? columns[j].replace(/^"|"$/g, '').trim() : '';
+                                if (val) {
+                                    entry.details.push({
+                                        title: headers[j],
+                                        content: val
+                                    });
+                                }
+                            }
+                            moduleData.push(entry);
+                        }
+                    }
                 }
             }
         }
