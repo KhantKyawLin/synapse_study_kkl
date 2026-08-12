@@ -300,6 +300,10 @@ function renderDetailView() {
         </div>
     `).join('');
 
+    detailViewEl.classList.remove('smooth-fade');
+    void detailViewEl.offsetWidth;
+    detailViewEl.classList.add('smooth-fade');
+
     detailViewEl.innerHTML = `
         <div class="detail-header">
             <h1 class="detail-title" id="dash-title">${currentSelectedItem.Name}</h1>

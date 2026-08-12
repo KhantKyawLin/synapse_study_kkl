@@ -160,27 +160,52 @@ body {
     gap: 1rem;
 }
 
-.category-select {
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--text-main);
-    backdrop-filter: blur(5px);
-    border-radius: 8px;
-    padding: 0.6rem 2.5rem 0.6rem 1rem;
+.category-select,
+.item-select-dropdown,
+.form-select {
+    background-color: #1a1e24 !important;
+    border: 1px solid rgba(30, 161, 242, 0.3) !important;
+    color: var(--text-main) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 0.65rem 2.5rem 0.65rem 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%231ea1f2' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 0.75rem center !important;
+    background-size: 16px 12px !important;
 }
 
-.category-select:focus {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: var(--primary-cyan);
-    box-shadow: 0 0 0 0.25rem rgba(30, 161, 242, 0.25);
-    color: var(--text-main);
+.category-select:focus,
+.item-select-dropdown:focus,
+.form-select:focus {
+    background-color: #21262e !important;
+    border-color: var(--primary-cyan) !important;
+    box-shadow: 0 0 15px rgba(30, 161, 242, 0.4) !important;
+    color: #ffffff !important;
+    outline: none !important;
 }
 
-.category-select option {
-    background-color: var(--bg-color);
-    color: var(--text-main);
+.category-select option,
+.item-select-dropdown option,
+.form-select option {
+    background-color: #161a1f !important;
+    color: var(--text-main) !important;
+    padding: 0.6rem 1rem !important;
+}
+
+.category-select option:hover,
+.category-select option:focus,
+.category-select option:checked,
+.item-select-dropdown option:hover,
+.item-select-dropdown option:focus,
+.item-select-dropdown option:checked,
+.form-select option:hover,
+.form-select option:focus,
+.form-select option:checked {
+    background-color: #1ea1f2 !important;
+    color: #ffffff !important;
 }
 
 /* Main Content */
