@@ -105,14 +105,25 @@
             <div class="row h-100">
                 <!-- LEFT SIDEBAR -->
                 <div class="col-md-4 col-lg-3 dashboard-sidebar">
-                    <h2 class="sidebar-title">Items</h2>
-                    <div id="tagFilters" class="tag-filters"></div>
-                    <div class="item-select-container mb-3">
-                        <label for="itemSelect" class="form-label visually-hidden">Select Item</label>
+                    <h2 class="sidebar-title">Dashboard Select</h2>
+                    
+                    <!-- Main Category Dropdown -->
+                    <div class="filter-group mb-3">
+                        <label for="categorySelectDash" class="form-label text-muted small fw-bold">Main Category</label>
+                        <select id="categorySelectDash" class="form-select category-select item-select-dropdown">
+                            <!-- Dynamic category options -->
+                        </select>
+                    </div>
+
+                    <!-- Sub Category / Item Dropdown -->
+                    <div class="filter-group mb-3">
+                        <label for="itemSelect" class="form-label text-muted small fw-bold">Sub Category / Item</label>
                         <select id="itemSelect" class="form-select category-select item-select-dropdown">
                             <!-- Dynamic item options -->
                         </select>
                     </div>
+
+                    <div id="tagFilters" class="tag-filters d-none"></div>
                     <div class="item-list-container d-none">
                         <ul id="itemList" class="item-list"></ul>
                     </div>

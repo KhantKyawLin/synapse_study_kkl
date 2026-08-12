@@ -6,6 +6,7 @@ let currentFilter = 'All';
 
 // DOM Elements
 const moduleFilterEl = document.getElementById('moduleFilter');
+const categorySelectDashEl = document.getElementById('categorySelectDash');
 const tagFiltersEl = document.getElementById('tagFilters');
 const itemSelectEl = document.getElementById('itemSelect');
 const itemListEl = document.getElementById('itemList');
@@ -75,28 +76,38 @@ function loadModule(moduleName) {
 }
 
 function buildTagFilters() {
-    tagFiltersEl.innerHTML = '';
-    
-    // Get unique tags
-    const tags = [...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
-    
-    // Always add 'All'
-    tags.unshift('All');
+    if (categorySelectDashEl) {
+        categorySelectDashEl.innerHTML = '';
+        const tags = ['All Categories', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
+        
+        tags.forEach(tag => {
+            const opt = document.createElement('option');
+            opt.value = tag === 'All Categories' ? 'All' : tag;
+            opt.textContent = tag;
+            if (opt.value === currentFilter) opt.selected = true;
+            categorySelectDashEl.appendChild(opt);
+        });
 
-    tags.forEach(tag => {
-        const btn = document.createElement('button');
-        btn.className = `filter-btn ${tag === currentFilter ? 'active' : ''}`;
-        btn.textContent = tag;
-        btn.onclick = () => {
-            currentFilter = tag;
-            // Update active visually
-            Array.from(tagFiltersEl.children).forEach(c => c.classList.remove('active'));
-            btn.classList.add('active');
-            
+        categorySelectDashEl.onchange = (e) => {
+            currentFilter = e.target.value;
             filterData();
         };
-        tagFiltersEl.appendChild(btn);
-    });
+    }
+
+    if (tagFiltersEl && !tagFiltersEl.classList.contains('d-none')) {
+        tagFiltersEl.innerHTML = '';
+        const tags = ['All', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
+        tags.forEach(tag => {
+            const btn = document.createElement('button');
+            btn.className = `filter-btn ${tag === currentFilter ? 'active' : ''}`;
+            btn.textContent = tag;
+            btn.onclick = () => {
+                currentFilter = tag;
+                filterData();
+            };
+            tagFiltersEl.appendChild(btn);
+        });
+    }
 }
 
 function filterData() {

@@ -36,6 +36,7 @@ const totalCardsEl = document.getElementById('totalCards');
 
 // Dashboard
 const moduleFilterDashEl = document.getElementById('moduleFilterDash');
+const categorySelectDashEl = document.getElementById('categorySelectDash');
 const tagFiltersEl = document.getElementById('tagFilters');
 const itemSelectEl = document.getElementById('itemSelect');
 const itemListEl = document.getElementById('itemList');
@@ -200,20 +201,38 @@ function loadDashboardModule(moduleName) {
 }
 
 function buildTagFilters() {
-    tagFiltersEl.innerHTML = '';
-    const tags = ['All', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
-    tags.forEach(tag => {
-        const btn = document.createElement('button');
-        btn.className = `filter-btn ${tag === currentFilter ? 'active' : ''}`;
-        btn.textContent = tag;
-        btn.onclick = () => {
-            currentFilter = tag;
-            Array.from(tagFiltersEl.children).forEach(c => c.classList.remove('active'));
-            btn.classList.add('active');
+    if (categorySelectDashEl) {
+        categorySelectDashEl.innerHTML = '';
+        const tags = ['All Categories', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
+        
+        tags.forEach(tag => {
+            const opt = document.createElement('option');
+            opt.value = tag === 'All Categories' ? 'All' : tag;
+            opt.textContent = tag;
+            if (opt.value === currentFilter) opt.selected = true;
+            categorySelectDashEl.appendChild(opt);
+        });
+
+        categorySelectDashEl.onchange = (e) => {
+            currentFilter = e.target.value;
             filterDashboardData();
         };
-        tagFiltersEl.appendChild(btn);
-    });
+    }
+
+    if (tagFiltersEl && !tagFiltersEl.classList.contains('d-none')) {
+        tagFiltersEl.innerHTML = '';
+        const tags = ['All', ...new Set(currentModuleData.map(item => item.Tag).filter(t => t))];
+        tags.forEach(tag => {
+            const btn = document.createElement('button');
+            btn.className = `filter-btn ${tag === currentFilter ? 'active' : ''}`;
+            btn.textContent = tag;
+            btn.onclick = () => {
+                currentFilter = tag;
+                filterDashboardData();
+            };
+            tagFiltersEl.appendChild(btn);
+        });
+    }
 }
 
 function filterDashboardData() {
