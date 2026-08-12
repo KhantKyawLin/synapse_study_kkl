@@ -188,23 +188,23 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .detail-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #fff;
     margin: 0;
 }
 
 .detail-tag {
-    padding: 0.4rem 1rem;
+    padding: 0.35rem 0.9rem;
     border-radius: 50px;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     background: rgba(30, 161, 242, 0.2);
     color: var(--primary-glow);
     border: 1px solid rgba(30, 161, 242, 0.3);
@@ -212,31 +212,33 @@
 
 .blocks-grid {
     display: grid;
-    gap: 1.5rem;
-    grid-template-columns: 1fr;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .content-block {
     background: var(--card-bg);
     border: 1px solid var(--border-subtle);
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 1.15rem 1.25rem;
     backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
 }
 
 .content-block h3 {
     margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
     color: var(--primary-cyan);
     font-weight: 600;
 }
 
 .content-block p {
     margin: 0;
-    line-height: 1.6;
+    line-height: 1.5;
     color: var(--text-main);
-    font-size: 1.05rem;
+    font-size: 0.95rem;
 }
 
 /* Adding some color variations for specific blocks to make it look premium */
@@ -257,6 +259,12 @@
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+    .blocks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .dashboard-layout {
         height: auto;
@@ -279,5 +287,8 @@
         margin-top: 1rem;
         width: 100%;
         justify-content: center;
+    }
+    .blocks-grid {
+        grid-template-columns: 1fr;
     }
 }
