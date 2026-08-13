@@ -59,16 +59,6 @@
                         </select>
                     </div>
                 </div>
-
-                <!-- Dashboard Controls (Hidden by default) -->
-                <div id="dashboard-controls" class="header-controls d-none">
-                    <div class="filter-group">
-                        <label for="moduleFilterDash" class="form-label visually-hidden">Module</label>
-                        <select id="moduleFilterDash" class="form-select category-select">
-                            <!-- Options populated dynamically -->
-                        </select>
-                    </div>
-                </div>
             </div>
         </header>
 
@@ -102,40 +92,43 @@
 
         <!-- DASHBOARD CONTENT VIEW (Hidden by default) -->
         <main id="dashboard-view" class="dashboard-main container-fluid fade-in d-none">
-            <div class="row h-100">
-                <!-- LEFT SIDEBAR -->
-                <div class="col-md-4 col-lg-3 dashboard-sidebar">
-                    <h2 class="sidebar-title">Dashboard Select</h2>
-                    
+            <!-- INSIDE PAGE DASHBOARD CONTROLS TOOLBAR -->
+            <div class="dashboard-controls-bar mb-4 p-3">
+                <div class="row g-3 align-items-center">
+                    <!-- Module Dropdown -->
+                    <div class="col-md-4">
+                        <label for="moduleFilterDash" class="form-label text-muted small fw-bold mb-1">Module</label>
+                        <select id="moduleFilterDash" class="form-select category-select item-select-dropdown">
+                            <!-- Options populated dynamically -->
+                        </select>
+                    </div>
                     <!-- Main Category Dropdown -->
-                    <div class="filter-group mb-3">
-                        <label for="categorySelectDash" class="form-label text-muted small fw-bold">Main Category</label>
+                    <div class="col-md-4">
+                        <label for="categorySelectDash" class="form-label text-muted small fw-bold mb-1">Main Category</label>
                         <select id="categorySelectDash" class="form-select category-select item-select-dropdown">
-                            <!-- Dynamic category options -->
+                            <!-- Options populated dynamically -->
                         </select>
                     </div>
-
                     <!-- Sub Category / Item Dropdown -->
-                    <div class="filter-group mb-3">
-                        <label for="itemSelect" class="form-label text-muted small fw-bold">Sub Category / Item</label>
+                    <div class="col-md-4">
+                        <label for="itemSelect" class="form-label text-muted small fw-bold mb-1">Sub Category / Item</label>
                         <select id="itemSelect" class="form-select category-select item-select-dropdown">
-                            <!-- Dynamic item options -->
+                            <!-- Options populated dynamically -->
                         </select>
                     </div>
+                </div>
+            </div>
 
-                    <div id="tagFilters" class="tag-filters d-none"></div>
-                    <div class="item-list-container d-none">
-                        <ul id="itemList" class="item-list"></ul>
-                    </div>
+            <!-- FULL WIDTH DETAIL VIEW -->
+            <div id="detailView" class="detail-view">
+                <div class="empty-state text-center">
+                    <p>Select an item to view details.</p>
                 </div>
-                <!-- RIGHT CONTENT AREA -->
-                <div class="col-md-8 col-lg-9 dashboard-content">
-                    <div id="detailView" class="detail-view">
-                        <div class="empty-state text-center">
-                            <p>Select an item to view details.</p>
-                        </div>
-                    </div>
-                </div>
+            </div>
+
+            <div id="tagFilters" class="tag-filters d-none"></div>
+            <div class="item-list-container d-none">
+                <ul id="itemList" class="item-list"></ul>
             </div>
         </main>
     </div>

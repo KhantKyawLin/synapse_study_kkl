@@ -41,52 +41,47 @@
                 <a href="index.html" class="nav-link">Flashcards</a>
                 <a href="dashboard.html" class="nav-link active">Dashboards</a>
             </nav>
-
-            <div class="controls-container">
-                <label for="moduleFilter" class="form-label visually-hidden">Module</label>
-                <select id="moduleFilter" class="form-select category-select">
-                    <!-- Options populated dynamically -->
-                </select>
-            </div>
         </header>
 
         <!-- Main Content Area -->
         <main class="dashboard-main container-fluid">
-            <div class="row h-100">
-                <!-- LEFT SIDEBAR -->
-                <div class="col-md-4 col-lg-3 dashboard-sidebar">
-                    <h2 class="sidebar-title">Dashboard Select</h2>
-                    
+            <!-- INSIDE PAGE DASHBOARD CONTROLS TOOLBAR -->
+            <div class="dashboard-controls-bar mb-4 p-3">
+                <div class="row g-3 align-items-center">
+                    <!-- Module Dropdown -->
+                    <div class="col-md-4">
+                        <label for="moduleFilter" class="form-label text-muted small fw-bold mb-1">Module</label>
+                        <select id="moduleFilter" class="form-select category-select item-select-dropdown">
+                            <!-- Dynamic options -->
+                        </select>
+                    </div>
                     <!-- Main Category Dropdown -->
-                    <div class="filter-group mb-3">
-                        <label for="categorySelectDash" class="form-label text-muted small fw-bold">Main Category</label>
+                    <div class="col-md-4">
+                        <label for="categorySelectDash" class="form-label text-muted small fw-bold mb-1">Main Category</label>
                         <select id="categorySelectDash" class="form-select category-select item-select-dropdown">
-                            <!-- Dynamic category options -->
+                            <!-- Dynamic options -->
                         </select>
                     </div>
-
                     <!-- Sub Category / Item Dropdown -->
-                    <div class="filter-group mb-3">
-                        <label for="itemSelect" class="form-label text-muted small fw-bold">Sub Category / Item</label>
+                    <div class="col-md-4">
+                        <label for="itemSelect" class="form-label text-muted small fw-bold mb-1">Sub Category / Item</label>
                         <select id="itemSelect" class="form-select category-select item-select-dropdown">
-                            <!-- Dynamic item options -->
+                            <!-- Dynamic options -->
                         </select>
                     </div>
-
-                    <div id="tagFilters" class="tag-filters d-none"></div>
-                    <div class="item-list-container d-none">
-                        <ul id="itemList" class="item-list"></ul>
-                    </div>
                 </div>
+            </div>
 
-                <!-- RIGHT CONTENT AREA -->
-                <div class="col-md-8 col-lg-9 dashboard-content">
-                    <div id="detailView" class="detail-view">
-                        <div class="empty-state text-center">
-                            <p>Loading module data...</p>
-                        </div>
-                    </div>
+            <!-- FULL WIDTH DETAIL VIEW -->
+            <div id="detailView" class="detail-view">
+                <div class="empty-state text-center">
+                    <p>Loading module data...</p>
                 </div>
+            </div>
+
+            <div id="tagFilters" class="tag-filters d-none"></div>
+            <div class="item-list-container d-none">
+                <ul id="itemList" class="item-list"></ul>
             </div>
         </main>
     </div>

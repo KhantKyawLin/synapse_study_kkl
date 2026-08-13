@@ -8,9 +8,18 @@
 
 .dashboard-main {
     flex: 1;
-    overflow: hidden; /* CRITICAL: Parent of flex items must be hidden to allow children to scroll */
+    overflow-y: auto;
     padding: 1.5rem 2rem;
-    height: calc(100vh - 80px); /* Height minus header approx */
+    height: calc(100vh - 80px);
+}
+
+/* Inside Page Controls Toolbar */
+.dashboard-controls-bar {
+    background: rgba(30, 36, 45, 0.5);
+    border: 1px solid var(--border-subtle);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Sidebar */
@@ -168,7 +177,7 @@
 }
 
 .detail-view {
-    padding: 1rem;
+    padding: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 

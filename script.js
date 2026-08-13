@@ -72,19 +72,19 @@ function switchView(view) {
         navDashboards.classList.remove('active');
         
         flashcardView.classList.remove('d-none');
-        flashcardControls.classList.remove('d-none');
+        if (flashcardControls) flashcardControls.classList.remove('d-none');
         
         dashboardView.classList.add('d-none');
-        dashboardControls.classList.add('d-none');
+        if (dashboardControls) dashboardControls.classList.add('d-none');
     } else {
         navFlashcards.classList.remove('active');
         navDashboards.classList.add('active');
         
         flashcardView.classList.add('d-none');
-        flashcardControls.classList.add('d-none');
+        if (flashcardControls) flashcardControls.classList.add('d-none');
         
         dashboardView.classList.remove('d-none');
-        dashboardControls.classList.remove('d-none');
+        if (dashboardControls) dashboardControls.classList.remove('d-none');
     }
 }
 
