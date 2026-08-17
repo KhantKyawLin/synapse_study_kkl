@@ -4,8 +4,15 @@ const XLSX = require('xlsx');
 
 const EXCEL_FOLDER = './flash_cards_excel_files';
 const OUTPUT_FILE = './data.json';
+const SRC_DATA_DIR = './src/data';
+const SRC_OUTPUT_FILE = './src/data/data.json';
 const DASHBOARD_EXCEL_FOLDER = './dashboard_excel_files';
 const DASHBOARD_OUTPUT_FILE = './dashboards_data.json';
+const SRC_DASHBOARD_OUTPUT_FILE = './src/data/dashboards_data.json';
+
+if (!fs.existsSync(SRC_DATA_DIR)) {
+    fs.mkdirSync(SRC_DATA_DIR, { recursive: true });
+}
 
 // Helper to parse CSV lines correctly (handling quotes and commas)
 function parseCSVLine(text) {
@@ -79,7 +86,9 @@ function updateData() {
         console.log(`✅ Loaded ${lines.filter(l => l.trim()).length} lines from: ${file}`);
     });
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allCards, null, 2));
+    const jsonContent = JSON.stringify({ cards: allCards }, null, 2);
+    fs.writeFileSync(OUTPUT_FILE, jsonContent);
+    fs.writeFileSync(SRC_OUTPUT_FILE, jsonContent);
     console.log(`\n🎉 Success! data.json updated with ${allCards.length} total cards.`);
 }
 
@@ -182,7 +191,9 @@ function updateDashboardData() {
         console.log(`✅ Loaded ${moduleData.length} entries for dashboard module: ${moduleName}`);
     });
 
-    fs.writeFileSync(DASHBOARD_OUTPUT_FILE, JSON.stringify(dashboards, null, 2));
+    const dashContent = JSON.stringify(dashboards, null, 2);
+    fs.writeFileSync(DASHBOARD_OUTPUT_FILE, dashContent);
+    fs.writeFileSync(SRC_DASHBOARD_OUTPUT_FILE, dashContent);
     console.log(`🎉 Success! dashboards_data.json updated with ${Object.keys(dashboards).length} modules.`);
 }
 

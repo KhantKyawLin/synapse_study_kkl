@@ -1,0 +1,74 @@
+@import "katex/dist/katex.min.css";
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0f141c;
+    color: #f0f4f8;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom Color Tokens for Tailwind v4 */
+@theme {
+  --color-darkBg: #0f141c;
+  --color-darkCard: #1a1e24;
+  --color-darkOption: #161a1f;
+  --color-cyanPrimary: #1ea1f2;
+  --color-cyanGlow: #70c7ff;
+  --color-redAccent: #ff5e78;
+  --color-greenAccent: #4cd964;
+}
+
+/* 3D Card Flip CSS Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Custom Dropdown Styling */
+select.custom-select {
+  background-color: #1a1e24 !important;
+  border: 1px solid rgba(30, 161, 242, 0.3) !important;
+  color: #f0f4f8 !important;
+  border-radius: 0.75rem;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%231ea1f2' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 0.75rem center !important;
+  background-size: 14px 10px !important;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: all 0.2s ease;
+}
+
+select.custom-select:focus {
+  background-color: #21262e !important;
+  border-color: #1ea1f2 !important;
+  box-shadow: 0 0 12px rgba(30, 161, 242, 0.3) !important;
+  outline: none !important;
+}
+
+select.custom-select option {
+  background-color: #161a1f !important;
+  color: #f0f4f8 !important;
+}

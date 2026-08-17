@@ -1,142 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synapse Study - Medical Flashcards</title>
-    <meta name="description"
-        content="Study medical flashcards dynamically on Synapse Study. Master Immunology, Pathology, Surgery, Physiology, and more.">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synapse Study - Medical Flashcards & Dashboards</title>
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- KaTeX for Medical/Math Formulas -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
-
-    <!-- SweetAlert2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Custom CSS -->
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="dashboard.css">
-</head>
-
-<body>
-    <div class="app-container" id="app">
-        <!-- Sidebar / Header -->
-        <header class="app-header">
-            <div class="logo-container">
-                <div class="logo-wrapper">
-                    <img src="logo.jpg" alt="Synapse Study Logo" class="app-logo">
-                </div>
-                <h1 class="logo-text"><span>SYNAPSE</span> STUDY</h1>
-            </div>
-            
-            <!-- Navigation Links -->
-            <nav class="app-nav">
-                <button id="nav-flashcards" class="nav-link active">Flashcards</button>
-                <button id="nav-dashboards" class="nav-link">Dashboards</button>
-            </nav>
-
-            <div class="controls-container">
-                <!-- Flashcard Controls -->
-                <div id="flashcard-controls" class="header-controls">
-                    <div class="filter-group">
-                        <label for="moduleFilter" class="form-label visually-hidden">Module</label>
-                        <select id="moduleFilter" class="form-select category-select">
-                            <option value="All">All Modules</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label for="categoryFilter" class="form-label visually-hidden">Category</label>
-                        <select id="categoryFilter" class="form-select category-select">
-                            <option value="All">All Categories</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- FLASHCARD CONTENT VIEW -->
-        <main id="flashcard-view" class="main-content fade-in">
-            <div id="flashcard-container" class="flashcard-container">
-                <div id="flashcard" class="flashcard">
-                    <div class="flashcard-inner">
-                        <div class="flashcard-front">
-                            <span class="card-category" id="front-category">Category</span>
-                            <h2 class="card-text" id="front-text">Question goes here...</h2>
-                            <p class="click-hint">Click to reveal answer</p>
-                        </div>
-                        <div class="flashcard-back">
-                            <span class="card-category" id="back-category">Category</span>
-                            <h2 class="card-text" id="back-text">Answer goes here...</h2>
-                            <p class="click-hint">Click to flip back</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="navigation-controls">
-                <button id="prevBtn" class="btn btn-nav btn-outline-cyan">&leftarrow; Previous</button>
-                <div class="card-counter">
-                    Card <span id="currentIndex">0</span> of <span id="totalCards">0</span>
-                </div>
-                <button id="nextBtn" class="btn btn-nav btn-cyan">Next &rightarrow;</button>
-            </div>
-        </main>
-
-        <!-- DASHBOARD CONTENT VIEW (Hidden by default) -->
-        <main id="dashboard-view" class="dashboard-main container-fluid fade-in d-none">
-            <!-- INSIDE PAGE DASHBOARD CONTROLS TOOLBAR -->
-            <div class="dashboard-controls-bar mb-4 p-3">
-                <div class="row g-3 align-items-center">
-                    <!-- Module Dropdown -->
-                    <div class="col-md-4">
-                        <label for="moduleFilterDash" class="form-label text-muted small fw-bold mb-1">Module</label>
-                        <select id="moduleFilterDash" class="form-select category-select item-select-dropdown">
-                            <!-- Options populated dynamically -->
-                        </select>
-                    </div>
-                    <!-- Main Category Dropdown -->
-                    <div class="col-md-4">
-                        <label for="categorySelectDash" class="form-label text-muted small fw-bold mb-1">Main Category</label>
-                        <select id="categorySelectDash" class="form-select category-select item-select-dropdown">
-                            <!-- Options populated dynamically -->
-                        </select>
-                    </div>
-                    <!-- Sub Category / Item Dropdown -->
-                    <div class="col-md-4">
-                        <label for="itemSelect" class="form-label text-muted small fw-bold mb-1">Sub Category / Item</label>
-                        <select id="itemSelect" class="form-select category-select item-select-dropdown">
-                            <!-- Options populated dynamically -->
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FULL WIDTH DETAIL VIEW -->
-            <div id="detailView" class="detail-view">
-                <div class="empty-state text-center">
-                    <p>Select an item to view details.</p>
-                </div>
-            </div>
-
-            <div id="tagFilters" class="tag-filters d-none"></div>
-            <div class="item-list-container d-none">
-                <ul id="itemList" class="item-list"></ul>
-            </div>
-        </main>
-    </div>
-
-    <!-- Bootstrap JS Bundle-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Combined JS -->
-    <script src="script.js?v=4"></script>
-</body>
-
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-darkBg text-slate-100 font-sans antialiased min-h-screen selection:bg-cyanPrimary selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

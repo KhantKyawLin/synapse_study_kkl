@@ -2,11 +2,26 @@
   "name": "synapse-study",
   "version": "1.0.0",
   "description": "Medical Flashcards App",
+  "type": "module",
   "scripts": {
-    "update": "node update.js",
-    "start": "npx serve ."
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update": "node update.js"
   },
   "dependencies": {
+    "katex": "^0.18.4",
+    "lucide-react": "^1.32.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.2.1"
   }
 }
