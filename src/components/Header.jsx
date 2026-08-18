@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layers, LayoutDashboard } from 'lucide-react';
+import logoImg from '../assets/logo.jpg';
 
 export default function Header({ activeView, setActiveView }) {
   return (
@@ -8,7 +9,7 @@ export default function Header({ activeView, setActiveView }) {
         {/* Logo Container */}
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveView('flashcards')}>
           <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl overflow-hidden border border-cyanPrimary/40 shadow-lg shadow-cyanPrimary/10">
-            <img src="/logo.jpg" alt="Synapse Study" className="w-full h-full object-cover" />
+            <img src={logoImg} alt="Synapse Study" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
             <span className="text-cyanPrimary">SYNAPSE</span> STUDY
