@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, LayoutDashboard } from 'lucide-react';
+import { Layers, LayoutDashboard, HelpCircle } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 
 export default function Header({ activeView, setActiveView }) {
@@ -20,7 +20,7 @@ export default function Header({ activeView, setActiveView }) {
         <nav className="flex items-center bg-[#0d1117] p-1.5 rounded-xl border border-slate-800 shadow-inner">
           <button
             onClick={() => setActiveView('flashcards')}
-            className={`flex items-center gap-2 px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-200 ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-200 ${
               activeView === 'flashcards'
                 ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
@@ -32,7 +32,7 @@ export default function Header({ activeView, setActiveView }) {
 
           <button
             onClick={() => setActiveView('dashboards')}
-            className={`flex items-center gap-2 px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-200 ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-200 ${
               activeView === 'dashboards'
                 ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
@@ -40,6 +40,18 @@ export default function Header({ activeView, setActiveView }) {
           >
             <LayoutDashboard className="w-4 h-4" />
             <span>Dashboards</span>
+          </button>
+
+          <button
+            onClick={() => setActiveView('quiz')}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-200 ${
+              activeView === 'quiz'
+                ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            }`}
+          >
+            <HelpCircle className="w-4 h-4" />
+            <span>Quiz</span>
           </button>
         </nav>
       </div>

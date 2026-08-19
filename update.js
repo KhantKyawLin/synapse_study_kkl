@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const XLSX = require('xlsx');
+import fs from 'fs';
+import path from 'path';
+import XLSX from 'xlsx';
 
 const EXCEL_FOLDER = './flash_cards_excel_files';
 const OUTPUT_FILE = './data.json';
@@ -197,5 +197,101 @@ function updateDashboardData() {
     console.log(`🎉 Success! dashboards_data.json updated with ${Object.keys(dashboards).length} modules.`);
 }
 
+function updateQuizData() {
+    console.log('\n🔍 Scanning for quiz files...');
+    const quizFolders = ['./quiz_excel_files', './quizs_excel_files'];
+    const quizModules = {};
+
+    quizFolders.forEach(folder => {
+        if (!fs.existsSync(folder)) return;
+        const files = fs.readdirSync(folder);
+
+        files.forEach(file => {
+            const filePath = path.join(folder, file);
+            const ext = path.extname(file).toLowerCase();
+            if (ext !== '.xlsx' && ext !== '.xls' && ext !== '.csv') return;
+
+            let moduleName = path.basename(file, ext).replace(/_/g, ' ');
+            let questions = [];
+
+            if (ext === '.xlsx' || ext === '.xls') {
+                const workbook = XLSX.readFile(filePath);
+                const sheetName = workbook.SheetNames[0];
+                const sheet = workbook.Sheets[sheetName];
+                const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+                if (rows.length > 1) {
+                    const headers = rows[0].map(h => String(h || '').trim());
+                    
+                    const catIdx = headers.findIndex(h => /category|module/i.test(h));
+                    const qIdx = headers.findIndex(h => /question|prompt|stem/i.test(h));
+                    const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
+                    const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
+                    const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
+                    const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
+                    const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h));
+                    const ansIdx = headers.findIndex(h => /correct|answer|key|solution/i.test(h));
+                    const expIdx = headers.findIndex(h => /explanation|rationale|note/i.test(h));
+
+                    for (let i = 1; i < rows.length; i++) {
+                        const row = rows[i];
+                        if (!row || row.length === 0) continue;
+
+                        const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[1] || row[0] || '').trim();
+                        if (!questionText) continue;
+
+                        const category = catIdx !== -1 && row[catIdx] ? String(row[catIdx]).trim() : moduleName;
+                        
+                        const options = [
+                            optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[2] || ''),
+                            optBIdx !== -1 ? String(row[optBIdx] || '') : String(row[3] || ''),
+                            optCIdx !== -1 ? String(row[optCIdx] || '') : String(row[4] || ''),
+                            optDIdx !== -1 ? String(row[optDIdx] || '') : String(row[5] || ''),
+                            optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[6] || '')
+                        ].map(o => o.trim()).filter(Boolean);
+
+                        const rawAns = ansIdx !== -1 ? String(row[ansIdx] || '').trim() : String(row[7] || '').trim();
+                        let correctIndex = 0;
+
+                        if (/^a$|^option\s*a$|^1$/i.test(rawAns)) correctIndex = 0;
+                        else if (/^b$|^option\s*b$|^2$/i.test(rawAns)) correctIndex = 1;
+                        else if (/^c$|^option\s*c$|^3$/i.test(rawAns)) correctIndex = 2;
+                        else if (/^d$|^option\s*d$|^4$/i.test(rawAns)) correctIndex = 3;
+                        else if (/^e$|^option\s*e$|^5$/i.test(rawAns)) correctIndex = 4;
+                        else {
+                            const foundIdx = options.findIndex(opt => opt.toLowerCase() === rawAns.toLowerCase());
+                            if (foundIdx !== -1) correctIndex = foundIdx;
+                        }
+
+                        const explanation = expIdx !== -1 ? String(row[expIdx] || '').trim() : '';
+
+                        questions.push({
+                            id: i,
+                            category,
+                            question: questionText,
+                            options,
+                            correctIndex,
+                            explanation
+                        });
+                    }
+                }
+            }
+
+            if (questions.length > 0) {
+                quizModules[moduleName] = questions;
+                console.log(`✅ Loaded ${questions.length} quiz questions for: ${moduleName}`);
+            }
+        });
+    });
+
+    const QUIZ_OUTPUT_FILE = './quizzes_data.json';
+    const SRC_QUIZ_OUTPUT_FILE = './src/data/quizzes_data.json';
+    const quizContent = JSON.stringify(quizModules, null, 2);
+    fs.writeFileSync(QUIZ_OUTPUT_FILE, quizContent);
+    fs.writeFileSync(SRC_QUIZ_OUTPUT_FILE, quizContent);
+    console.log(`🎉 Success! quizzes_data.json updated with ${Object.keys(quizModules).length} quiz modules.`);
+}
+
 updateData();
 updateDashboardData();
+updateQuizData();
