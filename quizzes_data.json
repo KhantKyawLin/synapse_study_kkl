@@ -1,84 +1,458 @@
 {
   "Physiology Interactive Practice Exam": [
     {
-      "id": 1,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Physiology Course: Interactive Quiz",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "id": 2,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Interactive Excel Workbook Study Guide & Practice Exam",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "id": 4,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Workbook Sections:",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
       "id": 5,
       "category": "Physiology Interactive Practice Exam",
-      "question": "Table of Contents (This sheet)",
-      "options": [],
+      "question": "Questions Answered",
+      "options": [
+        "2. Select your answer (A, B, C, D, E) from the dropdown in the 'Your Answer' column (Col I)."
+      ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
       "id": 6,
       "category": "Physiology Interactive Practice Exam",
-      "question": "Test your knowledge. Select answers from dropdowns and get instant feedback!",
-      "options": [],
+      "question": "Correct Answers",
+      "options": [
+        "3. Check the feedback in the 'Result' column. Complete all questions to see your final score!"
+      ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
-      "id": 7,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Detailed explanations and notes for each of the 30 core exam questions.",
-      "options": [],
+      "id": 8,
+      "category": "Category",
+      "question": "Q#",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D",
+        "Option E"
+      ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Explanations & Must-Know Gists"
+    },
+    {
+      "id": 9,
+      "category": "Cell Physiology",
+      "question": "1",
+      "options": [
+        "Voltage-gated Na+ channel",
+        "Dihydropyridine (DHP) receptor",
+        "Ryanodine receptor channel",
+        "Nicotinic Acetylcholine receptor",
+        "Ca2+ ATPase Pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ryanodine receptor is the Ca2+ release channel on the SR membrane. The DHP receptor acts as the voltage sensor on the T-tubule membrane."
     },
     {
       "id": 10,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "COLOR CODE LEGEND",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
+      "category": "Cell Physiology",
+      "question": "2",
+      "options": [
+        "Simple Diffusion",
+        "Facilitated Diffusion",
+        "Exocytosis",
+        "Endocytosis (e.g., Pinocytosis)",
+        "Primary Active Transport"
+      ],
+      "correctIndex": 3,
+      "explanation": "Endocytosis involves infolding of the cell membrane to engulf large items or droplets. Pinocytosis is a subtype often called 'cell drinking'."
     },
     {
       "id": 11,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Your Answer selection columns. Select A, B, C, D, or E.",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
+      "category": "Cell Physiology",
+      "question": "3",
+      "options": [
+        "Polarization",
+        "Depolarization",
+        "Repolarization",
+        "Hyperpolarization",
+        "Overshoot"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hyperpolarization means the membrane potential becomes more negative than the resting potential (further from 0 mV)."
     },
     {
       "id": 12,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Displays when your selection is correct.",
-      "options": [],
-      "correctIndex": 0,
-      "explanation": ""
+      "category": "Blood & Hemostasis",
+      "question": "4",
+      "options": [
+        "Only Anti-A",
+        "Only Anti-B",
+        "No antibodies",
+        "Both Anti-A and Anti-B",
+        "Only Rh antibodies"
+      ],
+      "correctIndex": 3,
+      "explanation": "Type O individuals lack A and B antigens on their RBCs, so they produce both Anti-A and Anti-B antibodies in their plasma."
     },
     {
       "id": 13,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Displays when your selection is incorrect.",
-      "options": [],
+      "category": "Blood & Hemostasis",
+      "question": "5",
+      "options": [
+        "Blood coagulation",
+        "Platelet plug formation",
+        "Vascular constriction (vessel spasm)",
+        "Fibrinolysis",
+        "Clot retraction"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vascular constriction is the immediate first step to reduce blood flow. Platelet plug and coagulation follow."
+    },
+    {
+      "id": 14,
+      "category": "Blood & Hemostasis",
+      "question": "6",
+      "options": [
+        "They have a lifespan of 120 days",
+        "They are large biconcave cells",
+        "They are non-nucleated and irregularly shaped",
+        "They contain hemoglobin for O2 transport",
+        "They are the primary source of erythropoietin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Platelets are non-nucleated cell fragments with a short lifespan (7-14 days). RBCs have a 120-day lifespan."
+    },
+    {
+      "id": 15,
+      "category": "Blood & Hemostasis",
+      "question": "7",
+      "options": [
+        "Prevent blood cells from shrinking",
+        "Maintain water balance between blood and interstitial fluid (absorption)",
+        "Provide energy for secondary active transport",
+        "Determine the distribution of water between ICF and ECF",
+        "Kill bacteria in the bloodstream"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plasma colloid osmotic pressure (mostly from albumin) draws water back into capillaries, opposing filtration and preventing edema."
+    },
+    {
+      "id": 16,
+      "category": "Cardiovascular",
+      "question": "8",
+      "options": [
+        "Opening of the semilunar valves",
+        "Closure of the atrio-ventricular (AV) valves",
+        "Closure of the semilunar valves",
+        "Atrial contraction",
+        "Passive ventricular filling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ventricular systole begins with isovolumetric contraction. The closure of the AV valves produces the first heart sound (S1)."
+    },
+    {
+      "id": 17,
+      "category": "Cardiovascular",
+      "question": "9",
+      "options": [
+        "K+ efflux",
+        "Massive Na+ influx via fast channels",
+        "Na+ influx via 'Funny' channels (If) and T-type Ca2+ influx",
+        "Cl- influx",
+        "Activation of the Na+/K+ pump"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SA node's auto-rhythmicity is driven by funny sodium currents (If) and T-type Ca2+ channels during Phase 4."
+    },
+    {
+      "id": 18,
+      "category": "Cardiovascular",
+      "question": "10",
+      "options": [
+        "Capillary hydrostatic pressure & interstitial fluid colloid osmotic pressure",
+        "Plasma colloid osmotic pressure & interstitial fluid hydrostatic pressure",
+        "Capillary hydrostatic pressure & plasma colloid osmotic pressure",
+        "Interstitial fluid hydrostatic pressure & interstitial fluid colloid osmotic pressure",
+        "Osmotic pressure of red blood cells"
+      ],
       "correctIndex": 0,
-      "explanation": ""
+      "explanation": "Capillary hydrostatic pressure (pushes fluid out) and interstitial colloid osmotic pressure (pulls fluid out) promote filtration."
+    },
+    {
+      "id": 19,
+      "category": "Cardiovascular",
+      "question": "11",
+      "options": [
+        "Increased heart rate",
+        "Increased contractility",
+        "Decreased heart rate and contractility (negative chronotropic/inotropic)",
+        "Faster AV conduction",
+        "Opening of more Ca2+ channels"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vagal stimulation releases acetylcholine (ACh), which slows the heart rate and decreases contractility via muscarinic (M2) receptors."
+    },
+    {
+      "id": 20,
+      "category": "Cardiovascular",
+      "question": "12",
+      "options": [
+        "The SA node is damaged",
+        "The next normal sinus impulse arrives during the absolute refractory period",
+        "The ventricles need to rest after extra work",
+        "The AV node blocks the next 3 beats",
+        "The vagus nerve is temporarily overactive"
+      ],
+      "correctIndex": 1,
+      "explanation": "The premature contraction leaves the ventricles in their absolute refractory period when the next normal sinus impulse arrives, causing it to fail to excite."
+    },
+    {
+      "id": 21,
+      "category": "Cardiovascular",
+      "question": "13",
+      "options": [
+        "Aorta",
+        "Right Atrium",
+        "Vena Cava",
+        "Pulmonary Artery",
+        "Left Ventricle"
+      ],
+      "correctIndex": 3,
+      "explanation": "Afterload is the pressure against which the ventricle must pump. For the right ventricle, this is pulmonary arterial pressure."
+    },
+    {
+      "id": 22,
+      "category": "Cardiovascular",
+      "question": "14",
+      "options": [
+        "Alpha-1 receptors",
+        "Alpha-2 receptors",
+        "Beta-1 receptors",
+        "Beta-2 receptors",
+        "Nicotinic receptors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Beta-1 adrenergic receptors predominate in the heart and increase heart rate (chronotropy) and contractility (inotropy) when stimulated."
+    },
+    {
+      "id": 23,
+      "category": "Respiratory",
+      "question": "15",
+      "options": [
+        "Carotid bodies; sensitive to low blood PO2",
+        "Medulla oblongata; sensitive to high [H+] in cerebrospinal fluid (CSF)",
+        "Aortic bodies; sensitive to blood pH changes",
+        "Lungs; sensitive to stretch",
+        "Hypothalamus; sensitive to plasma osmolality"
+      ],
+      "correctIndex": 1,
+      "explanation": "Central chemoreceptors are in the medulla and are highly sensitive to H+ in the CSF. Carbon dioxide diffuses across the blood-brain barrier to generate this H+."
+    },
+    {
+      "id": 24,
+      "category": "Respiratory",
+      "question": "16",
+      "options": [
+        "VC includes Residual Volume (RV)",
+        "TLC is VC minus Tidal Volume",
+        "TLC is VC plus Residual Volume (RV)",
+        "VC is the volume of air in a normal quiet breath",
+        "There is no difference"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total Lung Capacity includes all air that can be held in the lungs, which is Vital Capacity plus the Residual Volume (air that cannot be forcefully exhaled)."
+    },
+    {
+      "id": 25,
+      "category": "Respiratory",
+      "question": "17",
+      "options": [
+        "Lowering surface tension in the alveoli",
+        "Decreasing the work of inspiration",
+        "Maintaining stability of alveoli of different sizes",
+        "Direct oxygenation of red blood cells",
+        "Preventing pulmonary edema"
+      ],
+      "correctIndex": 3,
+      "explanation": "Surfactant acts physically to lower surface tension. Gas exchange/oxygenation occurs via simple diffusion across the respiratory membrane."
+    },
+    {
+      "id": 26,
+      "category": "Respiratory",
+      "question": "18",
+      "options": [
+        "It is always larger",
+        "It accounts for anatomical dead space",
+        "It only measures oxygen",
+        "It does not include tidal volume",
+        "It is not affected by respiratory rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alveolar Ventilation = (Tidal Volume - Dead Space) x Respiratory Rate. It measures the actual volume of fresh air reaching the gas-exchange areas."
+    },
+    {
+      "id": 27,
+      "category": "Respiratory",
+      "question": "19",
+      "options": [
+        "Contraction of the diaphragm",
+        "Elastic recoil of the thoracic wall",
+        "Pressure difference between the atmosphere and the alveoli",
+        "Action of alveolar surfactants",
+        "Solubility of carbon dioxide"
+      ],
+      "correctIndex": 2,
+      "explanation": "The contraction of respiratory muscles is the primary force, but the direct force moving air is the pressure gradient between the atmosphere and alveoli."
+    },
+    {
+      "id": 28,
+      "category": "Gastrointestinal",
+      "question": "20",
+      "options": [
+        "Activation of pepsinogen into pepsin",
+        "Direct binding and absorption of Vitamin B12",
+        "Killing of ingested bacteria",
+        "Denaturation of dietary proteins",
+        "Promotion of pancreatic and biliary secretions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parietal cells secrete Intrinsic Factor to bind and absorb Vitamin B12. HCl is responsible for activation of pepsinogen, sterilization, and protein denaturation."
+    },
+    {
+      "id": 29,
+      "category": "Gastrointestinal",
+      "question": "21",
+      "options": [
+        "Gastrin",
+        "Trypsin",
+        "Hydrochloric Acid (HCl)",
+        "Bile salts",
+        "Intrinsic Factor"
+      ],
+      "correctIndex": 2,
+      "explanation": "HCl provides the acidic environment necessary for the auto-cleavage of pepsinogen into active pepsin."
+    },
+    {
+      "id": 30,
+      "category": "Gastrointestinal",
+      "question": "22",
+      "options": [
+        "Parietal cells",
+        "Chief cells",
+        "Interstitial Cells of Cajal (ICC)",
+        "G cells",
+        "Enterochromaffin-like (ECL) cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "Interstitial Cells of Cajal (ICC) generate spontaneous slow wave activity, setting the baseline rhythm of GI contractions."
+    },
+    {
+      "id": 31,
+      "category": "Energy & Temp",
+      "question": "23",
+      "options": [
+        "Specific dynamic action of food",
+        "Mental and emotional activity",
+        "Skeletal muscle activity",
+        "Environmental temperature",
+        "Gender and age"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muscle contraction increases energy expenditure dramatically (up to 10-20 times basal levels during intense exercise)."
+    },
+    {
+      "id": 32,
+      "category": "Renal Physiology",
+      "question": "24",
+      "options": [
+        "Glucose and Potassium",
+        "Sodium Chloride (NaCl) and Urea",
+        "Calcium and Bicarbonate",
+        "Albumin and Amino acids",
+        "Creatinine and Uric acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "NaCl (reabsorbed actively in the thick ascending limb) and Urea (recycled from the collecting duct) maintain the hyperosmotic medullary gradient."
+    },
+    {
+      "id": 33,
+      "category": "Renal Physiology",
+      "question": "25",
+      "options": [
+        "Increased arterial blood pressure",
+        "Decreased plasma glucose levels",
+        "Increased plasma osmolality",
+        "Decreased extracellular fluid sodium",
+        "High body temperature"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hypothalamic osmoreceptors detect a rise in plasma osmolality (as small as 1%) and trigger the release of ADH to retain water."
+    },
+    {
+      "id": 34,
+      "category": "Renal Physiology",
+      "question": "26",
+      "options": [
+        "10%-15%",
+        "30%-40%",
+        "65%-75%",
+        "90%-95%",
+        "100%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The proximal tubule is the workhorse of the nephron, obligatorily reabsorbing roughly 65%-75% of filtered water and solutes."
+    },
+    {
+      "id": 35,
+      "category": "Neurophysiology",
+      "question": "27",
+      "options": [
+        "Low-frequency sounds",
+        "High-frequency sounds",
+        "Middle-frequency sounds",
+        "Very quiet whispers",
+        "Sound localization"
+      ],
+      "correctIndex": 1,
+      "explanation": "The base of the cochlea near the oval window is stiff and narrow, responding to high frequencies. The apex is wide and flexible, responding to low frequencies."
+    },
+    {
+      "id": 36,
+      "category": "Neurophysiology",
+      "question": "28",
+      "options": [
+        "Medulla oblongata",
+        "Midbrain",
+        "Cerebral Cortex (occipital lobe)",
+        "Spinal cord (C8-T1)",
+        "Cerebellum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pupillary accommodation reflex (near response) is integrated in the midbrain (Edinger-Westphal nucleus)."
+    },
+    {
+      "id": 37,
+      "category": "Neurophysiology",
+      "question": "29",
+      "options": [
+        "Golgi Tendon Organ",
+        "Nociceptor",
+        "Muscle Spindle",
+        "Pacinian Corpuscle",
+        "Joint tactile receptor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muscle spindles detect changes in muscle length (stretch). Golgi tendon organs detect changes in muscle tension."
+    },
+    {
+      "id": 38,
+      "category": "Endocrine",
+      "question": "30",
+      "options": [
+        "Plasma amino acids",
+        "Increased plasma glucose concentration",
+        "Growth Hormone secretion",
+        "Sympathetic nervous system activity",
+        "Decreased blood pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "While amino acids and parasympathetic input stimulate insulin, a rise in plasma glucose is the primary and most powerful physiological trigger."
     }
   ]
 }

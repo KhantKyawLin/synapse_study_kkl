@@ -216,64 +216,97 @@ function updateQuizData() {
 
             if (ext === '.xlsx' || ext === '.xls') {
                 const workbook = XLSX.readFile(filePath);
-                const sheetName = workbook.SheetNames[0];
-                const sheet = workbook.Sheets[sheetName];
+                
+                // Find Answer Key sheet if available
+                let keySheetName = workbook.SheetNames.find(s => /answer|key|explanation/i.test(s));
+                const keysMap = {};
+                if (keySheetName) {
+                    const keyRows = XLSX.utils.sheet_to_json(workbook.Sheets[keySheetName], { header: 1 });
+                    const keyHeaderIdx = keyRows.findIndex(r => r && r.some(c => /correct|answer|key/i.test(String(c))));
+                    const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
+                    
+                    for (let i = startIdx; i < keyRows.length; i++) {
+                        const row = keyRows[i];
+                        if (row && row.length >= 4) {
+                            const qNum = row[0];
+                            const corrOpt = String(row[3] || row[2] || '').trim();
+                            const expl = String(row[4] || row[3] || '').trim();
+                            if (qNum !== undefined) {
+                                keysMap[qNum] = { correct: corrOpt, explanation: expl };
+                            }
+                        }
+                    }
+                }
+
+                // Find Main Quiz / Questions Sheet
+                let quizSheetName = workbook.SheetNames.find(s => /interactive\s*quiz|quiz|practice|questions|exam/i.test(s));
+                if (!quizSheetName) {
+                    quizSheetName = workbook.SheetNames.find(s => s !== keySheetName && !/toc|index|contents/i.test(s)) || workbook.SheetNames[0];
+                }
+
+                const sheet = workbook.Sheets[quizSheetName];
                 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
 
-                if (rows.length > 1) {
-                    const headers = rows[0].map(h => String(h || '').trim());
+                // Find header row with Question & Option columns
+                let headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question|prompt/i.test(String(c))));
+                if (headerRowIdx === -1) headerRowIdx = 0;
+
+                const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
+                
+                const catIdx = headers.findIndex(h => /category|module/i.test(h));
+                const qIdx = headers.findIndex(h => /question\s*text|question|prompt|stem/i.test(h));
+                const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
+                const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
+                const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
+                const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
+                const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h));
+                const ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h));
+                const expIdx = headers.findIndex(h => /explanation|rationale|note/i.test(h));
+
+                for (let i = headerRowIdx + 1; i < rows.length; i++) {
+                    const row = rows[i];
+                    if (!row || row.length === 0) continue;
+
+                    const qNum = row[0];
+                    const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[2] || row[1] || '').trim();
+                    if (!questionText || /score\s*card|instruction|total\s*question/i.test(questionText)) continue;
+
+                    const category = catIdx !== -1 && row[catIdx] ? String(row[catIdx]).trim() : (row[1] ? String(row[1]).trim() : moduleName);
                     
-                    const catIdx = headers.findIndex(h => /category|module/i.test(h));
-                    const qIdx = headers.findIndex(h => /question|prompt|stem/i.test(h));
-                    const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
-                    const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
-                    const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
-                    const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
-                    const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h));
-                    const ansIdx = headers.findIndex(h => /correct|answer|key|solution/i.test(h));
-                    const expIdx = headers.findIndex(h => /explanation|rationale|note/i.test(h));
+                    const options = [
+                        optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[3] || ''),
+                        optBIdx !== -1 ? String(row[optBIdx] || '') : String(row[4] || ''),
+                        optCIdx !== -1 ? String(row[optCIdx] || '') : String(row[5] || ''),
+                        optDIdx !== -1 ? String(row[optDIdx] || '') : String(row[6] || ''),
+                        optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[7] || '')
+                    ].map(o => o.replace(/^[A-E]\)\s*/i, '').trim()).filter(Boolean);
 
-                    for (let i = 1; i < rows.length; i++) {
-                        const row = rows[i];
-                        if (!row || row.length === 0) continue;
+                    if (options.length === 0) continue;
 
-                        const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[1] || row[0] || '').trim();
-                        if (!questionText) continue;
+                    const keyInfo = keysMap[qNum] || {};
+                    const rawAns = keyInfo.correct || (ansIdx !== -1 ? String(row[ansIdx] || '').trim() : String(row[8] || '').trim());
+                    let correctIndex = 0;
 
-                        const category = catIdx !== -1 && row[catIdx] ? String(row[catIdx]).trim() : moduleName;
-                        
-                        const options = [
-                            optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[2] || ''),
-                            optBIdx !== -1 ? String(row[optBIdx] || '') : String(row[3] || ''),
-                            optCIdx !== -1 ? String(row[optCIdx] || '') : String(row[4] || ''),
-                            optDIdx !== -1 ? String(row[optDIdx] || '') : String(row[5] || ''),
-                            optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[6] || '')
-                        ].map(o => o.trim()).filter(Boolean);
-
-                        const rawAns = ansIdx !== -1 ? String(row[ansIdx] || '').trim() : String(row[7] || '').trim();
-                        let correctIndex = 0;
-
-                        if (/^a$|^option\s*a$|^1$/i.test(rawAns)) correctIndex = 0;
-                        else if (/^b$|^option\s*b$|^2$/i.test(rawAns)) correctIndex = 1;
-                        else if (/^c$|^option\s*c$|^3$/i.test(rawAns)) correctIndex = 2;
-                        else if (/^d$|^option\s*d$|^4$/i.test(rawAns)) correctIndex = 3;
-                        else if (/^e$|^option\s*e$|^5$/i.test(rawAns)) correctIndex = 4;
-                        else {
-                            const foundIdx = options.findIndex(opt => opt.toLowerCase() === rawAns.toLowerCase());
-                            if (foundIdx !== -1) correctIndex = foundIdx;
-                        }
-
-                        const explanation = expIdx !== -1 ? String(row[expIdx] || '').trim() : '';
-
-                        questions.push({
-                            id: i,
-                            category,
-                            question: questionText,
-                            options,
-                            correctIndex,
-                            explanation
-                        });
+                    if (/^a$|^option\s*a$|^1$/i.test(rawAns)) correctIndex = 0;
+                    else if (/^b$|^option\s*b$|^2$/i.test(rawAns)) correctIndex = 1;
+                    else if (/^c$|^option\s*c$|^3$/i.test(rawAns)) correctIndex = 2;
+                    else if (/^d$|^option\s*d$|^4$/i.test(rawAns)) correctIndex = 3;
+                    else if (/^e$|^option\s*e$|^5$/i.test(rawAns)) correctIndex = 4;
+                    else {
+                        const foundIdx = options.findIndex(opt => opt.toLowerCase() === rawAns.toLowerCase());
+                        if (foundIdx !== -1) correctIndex = foundIdx;
                     }
+
+                    const explanation = keyInfo.explanation || (expIdx !== -1 ? String(row[expIdx] || '').trim() : '');
+
+                    questions.push({
+                        id: i,
+                        category,
+                        question: questionText,
+                        options,
+                        correctIndex,
+                        explanation
+                    });
                 }
             }
 
