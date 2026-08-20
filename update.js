@@ -248,13 +248,19 @@ function updateQuizData() {
                 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
 
                 // Find header row with Question & Option columns
-                let headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question|prompt/i.test(String(c))));
+                let headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question\s*stem/i.test(String(c))) && r.some(c => /option\s*a|option\s*b|^a$/i.test(String(c))));
+                if (headerRowIdx === -1) {
+                    headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question/i.test(String(c))) && r.some(c => /option|choice|answer/i.test(String(c))));
+                }
                 if (headerRowIdx === -1) headerRowIdx = 0;
 
                 const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
                 
                 const catIdx = headers.findIndex(h => /category|module/i.test(h));
-                const qIdx = headers.findIndex(h => /question\s*text|question|prompt|stem/i.test(h));
+                let qIdx = headers.findIndex(h => /question\s*text|question\s*stem|stem|prompt/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
+                if (qIdx === -1) {
+                    qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number/i.test(h));
+                }
                 const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
                 const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
                 const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));

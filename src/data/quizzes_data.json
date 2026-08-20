@@ -1,43 +1,9 @@
 {
   "Physiology Interactive Practice Exam": [
     {
-      "id": 5,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Questions Answered",
-      "options": [
-        "2. Select your answer (A, B, C, D, E) from the dropdown in the 'Your Answer' column (Col I)."
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "id": 6,
-      "category": "Physiology Interactive Practice Exam",
-      "question": "Correct Answers",
-      "options": [
-        "3. Check the feedback in the 'Result' column. Complete all questions to see your final score!"
-      ],
-      "correctIndex": 0,
-      "explanation": ""
-    },
-    {
-      "id": 8,
-      "category": "Category",
-      "question": "Q#",
-      "options": [
-        "Option A",
-        "Option B",
-        "Option C",
-        "Option D",
-        "Option E"
-      ],
-      "correctIndex": 0,
-      "explanation": "Explanations & Must-Know Gists"
-    },
-    {
       "id": 9,
       "category": "Cell Physiology",
-      "question": "1",
+      "question": "In skeletal muscle excitation-contraction coupling, what is the channel responsible for releasing Ca2+ from the sarcoplasmic reticulum?",
       "options": [
         "Voltage-gated Na+ channel",
         "Dihydropyridine (DHP) receptor",
@@ -51,7 +17,7 @@
     {
       "id": 10,
       "category": "Cell Physiology",
-      "question": "2",
+      "question": "Which transport process is utilized by a cell to take in large macromolecules or droplets of fluid by folding the membrane inward?",
       "options": [
         "Simple Diffusion",
         "Facilitated Diffusion",
@@ -65,7 +31,7 @@
     {
       "id": 11,
       "category": "Cell Physiology",
-      "question": "3",
+      "question": "If a cell's membrane potential shifts from its resting state of -70 mV to -90 mV, the cell is said to be in a state of:",
       "options": [
         "Polarization",
         "Depolarization",
@@ -79,7 +45,7 @@
     {
       "id": 12,
       "category": "Blood & Hemostasis",
-      "question": "4",
+      "question": "According to the ABO blood group classification, which antibodies are present in the plasma of an individual with Type O blood?",
       "options": [
         "Only Anti-A",
         "Only Anti-B",
@@ -93,7 +59,7 @@
     {
       "id": 13,
       "category": "Blood & Hemostasis",
-      "question": "5",
+      "question": "What is the immediate first step in the physiological hemostatic process following a small vessel injury?",
       "options": [
         "Blood coagulation",
         "Platelet plug formation",
@@ -107,7 +73,7 @@
     {
       "id": 14,
       "category": "Blood & Hemostasis",
-      "question": "6",
+      "question": "Which of the following is a true physiological characteristic of human platelets?",
       "options": [
         "They have a lifespan of 120 days",
         "They are large biconcave cells",
@@ -121,7 +87,7 @@
     {
       "id": 15,
       "category": "Blood & Hemostasis",
-      "question": "7",
+      "question": "What is the primary physiological function of plasma colloid osmotic pressure?",
       "options": [
         "Prevent blood cells from shrinking",
         "Maintain water balance between blood and interstitial fluid (absorption)",
@@ -135,7 +101,7 @@
     {
       "id": 16,
       "category": "Cardiovascular",
-      "question": "8",
+      "question": "Which event marks the onset of ventricular systole in the cardiac cycle?",
       "options": [
         "Opening of the semilunar valves",
         "Closure of the atrio-ventricular (AV) valves",
@@ -149,7 +115,7 @@
     {
       "id": 17,
       "category": "Cardiovascular",
-      "question": "9",
+      "question": "The spontaneous Phase 4 depolarization (pacemaker potential) of the SA node is primarily due to:",
       "options": [
         "K+ efflux",
         "Massive Na+ influx via fast channels",
@@ -163,7 +129,7 @@
     {
       "id": 18,
       "category": "Cardiovascular",
-      "question": "10",
+      "question": "What are the starling forces that promote tissue fluid formation (filtration) at the capillary bed?",
       "options": [
         "Capillary hydrostatic pressure & interstitial fluid colloid osmotic pressure",
         "Plasma colloid osmotic pressure & interstitial fluid hydrostatic pressure",
@@ -177,7 +143,7 @@
     {
       "id": 19,
       "category": "Cardiovascular",
-      "question": "11",
+      "question": "Stimulation of the parasympathetic vagus nerve results in which effect on the heart?",
       "options": [
         "Increased heart rate",
         "Increased contractility",
@@ -191,7 +157,7 @@
     {
       "id": 20,
       "category": "Cardiovascular",
-      "question": "12",
+      "question": "A long interval called a 'compensatory pause' follows a premature ventricular contraction because:",
       "options": [
         "The SA node is damaged",
         "The next normal sinus impulse arrives during the absolute refractory period",
@@ -205,7 +171,7 @@
     {
       "id": 21,
       "category": "Cardiovascular",
-      "question": "13",
+      "question": "For the right ventricle, 'afterload' specifically refers to the pressure found in the:",
       "options": [
         "Aorta",
         "Right Atrium",
@@ -219,7 +185,7 @@
     {
       "id": 22,
       "category": "Cardiovascular",
-      "question": "14",
+      "question": "Epinephrine (adrenaline) has a highly powerful stimulatory effect on the heart because it has high affinity for:",
       "options": [
         "Alpha-1 receptors",
         "Alpha-2 receptors",
@@ -233,7 +199,7 @@
     {
       "id": 23,
       "category": "Respiratory",
-      "question": "15",
+      "question": "Where are central chemoreceptors located and what is their primary stimulus?",
       "options": [
         "Carotid bodies; sensitive to low blood PO2",
         "Medulla oblongata; sensitive to high [H+] in cerebrospinal fluid (CSF)",
@@ -247,7 +213,7 @@
     {
       "id": 24,
       "category": "Respiratory",
-      "question": "16",
+      "question": "What is the difference between Vital Capacity (VC) and Total Lung Capacity (TLC)?",
       "options": [
         "VC includes Residual Volume (RV)",
         "TLC is VC minus Tidal Volume",
@@ -261,7 +227,7 @@
     {
       "id": 25,
       "category": "Respiratory",
-      "question": "17",
+      "question": "Which of the following is NOT a physiological function of alveolar surfactant?",
       "options": [
         "Lowering surface tension in the alveoli",
         "Decreasing the work of inspiration",
@@ -275,7 +241,7 @@
     {
       "id": 26,
       "category": "Respiratory",
-      "question": "18",
+      "question": "Why is alveolar ventilation a more accurate measure of effective breathing than pulmonary ventilation?",
       "options": [
         "It is always larger",
         "It accounts for anatomical dead space",
@@ -289,7 +255,7 @@
     {
       "id": 27,
       "category": "Respiratory",
-      "question": "19",
+      "question": "What is the direct driving force for pulmonary ventilation?",
       "options": [
         "Contraction of the diaphragm",
         "Elastic recoil of the thoracic wall",
@@ -303,7 +269,7 @@
     {
       "id": 28,
       "category": "Gastrointestinal",
-      "question": "20",
+      "question": "Which of the following is NOT a physiological function of gastric acid (HCl)?",
       "options": [
         "Activation of pepsinogen into pepsin",
         "Direct binding and absorption of Vitamin B12",
@@ -317,7 +283,7 @@
     {
       "id": 29,
       "category": "Gastrointestinal",
-      "question": "21",
+      "question": "What is the primary activator that converts pepsinogen to the active digestive enzyme pepsin in the stomach?",
       "options": [
         "Gastrin",
         "Trypsin",
@@ -331,7 +297,7 @@
     {
       "id": 30,
       "category": "Gastrointestinal",
-      "question": "22",
+      "question": "Which specialized cell type functions as the pacemaker for the basic electrical rhythm (BER/slow waves) in GI smooth muscle?",
       "options": [
         "Parietal cells",
         "Chief cells",
@@ -345,7 +311,7 @@
     {
       "id": 31,
       "category": "Energy & Temp",
-      "question": "23",
+      "question": "Which factor has the most powerful influence on the rate of total energy metabolism in the human body?",
       "options": [
         "Specific dynamic action of food",
         "Mental and emotional activity",
@@ -359,7 +325,7 @@
     {
       "id": 32,
       "category": "Renal Physiology",
-      "question": "24",
+      "question": "The high osmotic pressure gradient in the renal medulla is established and maintained by which two main solutes?",
       "options": [
         "Glucose and Potassium",
         "Sodium Chloride (NaCl) and Urea",
@@ -373,7 +339,7 @@
     {
       "id": 33,
       "category": "Renal Physiology",
-      "question": "25",
+      "question": "Which physiological change directly stimulates the release of Antidiuretic Hormone (ADH) from the posterior pituitary?",
       "options": [
         "Increased arterial blood pressure",
         "Decreased plasma glucose levels",
@@ -387,7 +353,7 @@
     {
       "id": 34,
       "category": "Renal Physiology",
-      "question": "26",
+      "question": "What percentage of filtered water and sodium is reabsorbed in the proximal convoluted tubule?",
       "options": [
         "10%-15%",
         "30%-40%",
@@ -401,7 +367,7 @@
     {
       "id": 35,
       "category": "Neurophysiology",
-      "question": "27",
+      "question": "Damage to the base (bottom) of the cochlear duct primarily impairs the hearing of:",
       "options": [
         "Low-frequency sounds",
         "High-frequency sounds",
@@ -415,7 +381,7 @@
     {
       "id": 36,
       "category": "Neurophysiology",
-      "question": "28",
+      "question": "Where is the integrating center for the pupillary accommodation reflex located?",
       "options": [
         "Medulla oblongata",
         "Midbrain",
@@ -429,7 +395,7 @@
     {
       "id": 37,
       "category": "Neurophysiology",
-      "question": "29",
+      "question": "What is the sensory receptor (sensor) for the stretch reflex?",
       "options": [
         "Golgi Tendon Organ",
         "Nociceptor",
@@ -443,7 +409,7 @@
     {
       "id": 38,
       "category": "Endocrine",
-      "question": "30",
+      "question": "What is the most important physiological factor stimulating insulin secretion from pancreatic beta cells?",
       "options": [
         "Plasma amino acids",
         "Increased plasma glucose concentration",
