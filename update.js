@@ -281,7 +281,16 @@ function updateQuizData() {
                     const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[2] || row[1] || '').trim();
                     if (!questionText || /score\s*card|instruction|total\s*question/i.test(questionText)) continue;
 
-                    const category = catIdx !== -1 && row[catIdx] ? String(row[catIdx]).trim() : (row[1] ? String(row[1]).trim() : moduleName);
+                    let category = moduleName;
+                    if (catIdx !== -1 && row[catIdx]) {
+                        const candidateCat = String(row[catIdx]).trim();
+                        if (candidateCat && candidateCat.toLowerCase() !== questionText.toLowerCase()) {
+                            category = candidateCat;
+                        }
+                    }
+                    if (category.toLowerCase() === 'endocrine-1' || category.toLowerCase() === 'endocrine 1') {
+                        category = 'Endocrine System Section 1';
+                    }
                     
                     const options = [
                         optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[3] || ''),

@@ -2,7 +2,7 @@
   "endocrine-1": [
     {
       "id": 8,
-      "category": "Which of the following characteristics correctly distinguishes endocrine communication from nervous system communication?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following characteristics correctly distinguishes endocrine communication from nervous system communication?",
       "options": [
         "utilizes high-speed electrical impulses to reach target cells.",
@@ -16,7 +16,7 @@
     },
     {
       "id": 9,
-      "category": "In the 'Endocrine Orchestra' analogy of hypothalamic-pituitary-target gland regulation, which of the following matches is correct?",
+      "category": "Endocrine System Section 1",
       "question": "In the 'Endocrine Orchestra' analogy of hypothalamic-pituitary-target gland regulation, which of the following matches is correct?",
       "options": [
         "Hypothalamus — The Musician",
@@ -30,7 +30,7 @@
     },
     {
       "id": 10,
-      "category": "A researcher is studying a lipophilic hormone (Group I). Which of the following properties is characteristic of this class of hormones?",
+      "category": "Endocrine System Section 1",
       "question": "A researcher is studying a lipophilic hormone (Group I). Which of the following properties is characteristic of this class of hormones?",
       "options": [
         "They circulate freely in the plasma without carrier proteins.",
@@ -44,7 +44,7 @@
     },
     {
       "id": 11,
-      "category": "Which of the following hormones is classified as Group II (hydrophilic) and circulates freely in the blood with a short plasma half-life?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following hormones is classified as Group II (hydrophilic) and circulates freely in the blood with a short plasma half-life?",
       "options": [
         "Cortisol",
@@ -58,7 +58,7 @@
     },
     {
       "id": 12,
-      "category": "When a lipophilic hormone (Group I) binds its nuclear receptor, the activated receptor-ligand complex recruits coactivators such as CBP/p300. What enzymatic activity does CBP/p300 possess to remodel chromatin and initiate gene transcription?",
+      "category": "Endocrine System Section 1",
       "question": "When a lipophilic hormone (Group I) binds its nuclear receptor, the activated receptor-ligand complex recruits coactivators such as CBP/p300. What enzymatic activity does CBP/p300 possess to remodel chromatin and initiate gene transcription?",
       "options": [
         "Histone deacetylase (HDAC) activity",
@@ -72,7 +72,7 @@
     },
     {
       "id": 13,
-      "category": "In the GPCR-cAMP signaling pathway, which of the following proteins is directly activated by the stimulatory G-protein alpha-subunit (Gs-alpha) to generate the second messenger cAMP?",
+      "category": "Endocrine System Section 1",
       "question": "In the GPCR-cAMP signaling pathway, which of the following proteins is directly activated by the stimulatory G-protein alpha-subunit (Gs-alpha) to generate the second messenger cAMP?",
       "options": [
         "Phospholipase C (PLC)",
@@ -86,7 +86,7 @@
     },
     {
       "id": 14,
-      "category": "Which class of enzymes is responsible for degrading the second messenger cyclic AMP (cAMP) into 5'-AMP, thereby terminating GPCR-Gs signaling?",
+      "category": "Endocrine System Section 1",
       "question": "Which class of enzymes is responsible for degrading the second messenger cyclic AMP (cAMP) into 5'-AMP, thereby terminating GPCR-Gs signaling?",
       "options": [
         "Adenylyl cyclases",
@@ -100,7 +100,7 @@
     },
     {
       "id": 15,
-      "category": "In the Gq-protein coupled signaling pathway (such as Angiotensin II), what is the direct action of Inositol Trisphosphate (IP3) after it is cleaved from PIP2 by Phospholipase C (PLC)?",
+      "category": "Endocrine System Section 1",
       "question": "In the Gq-protein coupled signaling pathway (such as Angiotensin II), what is the direct action of Inositol Trisphosphate (IP3) after it is cleaved from PIP2 by Phospholipase C (PLC)?",
       "options": [
         "It activates Protein Kinase C (PKC) directly in the cytosol.",
@@ -114,7 +114,7 @@
     },
     {
       "id": 16,
-      "category": "The insulin receptor is a heterotetrameric Receptor Tyrosine Kinase (RTK). Upon insulin binding, what is the immediate biochemical event that occurs within the receptor's cytoplasmic beta-subunits?",
+      "category": "Endocrine System Section 1",
       "question": "The insulin receptor is a heterotetrameric Receptor Tyrosine Kinase (RTK). Upon insulin binding, what is the immediate biochemical event that occurs within the receptor's cytoplasmic beta-subunits?",
       "options": [
         "Binding of Gs-alpha to initiate cAMP generation",
@@ -128,7 +128,7 @@
     },
     {
       "id": 17,
-      "category": "In insulin-dependent tissues (skeletal muscle and adipose tissue), which pathway is primarily activated by the PI3K/Akt signaling cascade to facilitate glucose entry into the cell?",
+      "category": "Endocrine System Section 1",
       "question": "In insulin-dependent tissues (skeletal muscle and adipose tissue), which pathway is primarily activated by the PI3K/Akt signaling cascade to facilitate glucose entry into the cell?",
       "options": [
         "Dimerization and nuclear translocation of STAT5",
@@ -142,7 +142,7 @@
     },
     {
       "id": 18,
-      "category": "Which of the following hormones utilizes a transmembrane receptor that lacks intrinsic kinase activity but recruits and activates cytoplasmic Janus Kinases (JAKs) to phosphorylate and dimerize STAT transcription factors?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following hormones utilizes a transmembrane receptor that lacks intrinsic kinase activity but recruits and activates cytoplasmic Janus Kinases (JAKs) to phosphorylate and dimerize STAT transcription factors?",
       "options": [
         "Cortisol",
@@ -156,7 +156,7 @@
     },
     {
       "id": 19,
-      "category": "An endocrine clinic is evaluating a patient with low circulating thyroid hormone (T4) but highly elevated Thyroid-Stimulating Hormone (TSH). Based on the endocrine axes feedback principles, what type of loop is responsible for this high TSH level?",
+      "category": "Endocrine System Section 1",
       "question": "An endocrine clinic is evaluating a patient with low circulating thyroid hormone (T4) but highly elevated Thyroid-Stimulating Hormone (TSH). Based on the endocrine axes feedback principles, what type of loop is responsible for this high TSH level?",
       "options": [
         "Positive feedback loop amplifying T4 release",
@@ -170,7 +170,7 @@
     },
     {
       "id": 20,
-      "category": "Which of the following endocrine processes is governed by positive feedback rather than the more common homeostatic negative feedback?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following endocrine processes is governed by positive feedback rather than the more common homeostatic negative feedback?",
       "options": [
         "Regulation of cortisol secretion by ACTH",
@@ -184,7 +184,7 @@
     },
     {
       "id": 21,
-      "category": "Which of the following statements correctly defines 'ultra-short-loop' feedback?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following statements correctly defines 'ultra-short-loop' feedback?",
       "options": [
         "A peripheral target gland hormone inhibits the pituitary gland.",
@@ -198,7 +198,7 @@
     },
     {
       "id": 22,
-      "category": "How are 'Primary' and 'Secondary' endocrine disorders defined and distinguished in clinical pathology?",
+      "category": "Endocrine System Section 1",
       "question": "How are 'Primary' and 'Secondary' endocrine disorders defined and distinguished in clinical pathology?",
       "options": [
         "Primary disorders originate in the pituitary; secondary disorders originate in the target gland.",
@@ -212,7 +212,7 @@
     },
     {
       "id": 23,
-      "category": "A patient presents with extreme fatigue, weight gain, and cold intolerance. Lab results reveal: Free T4 = 4 pmol/L (Normal 12-22) and TSH = 45 mIU/L (Normal 0.4-4.0). How would this endocrine dysfunction be localized and classified?",
+      "category": "Endocrine System Section 1",
       "question": "A patient presents with extreme fatigue, weight gain, and cold intolerance. Lab results reveal: Free T4 = 4 pmol/L (Normal 12-22) and TSH = 45 mIU/L (Normal 0.4-4.0). How would this endocrine dysfunction be localized and classified?",
       "options": [
         "Secondary Hypothyroidism",
@@ -226,7 +226,7 @@
     },
     {
       "id": 24,
-      "category": "Which of the following is the most common etiology of primary hormone deficiency, such as that seen in Type 1 Diabetes Mellitus and Addison's disease?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following is the most common etiology of primary hormone deficiency, such as that seen in Type 1 Diabetes Mellitus and Addison's disease?",
       "options": [
         "Ectopic hormone production by malignant tissues",
@@ -240,7 +240,7 @@
     },
     {
       "id": 25,
-      "category": "Graves' disease is a classic disorder of primary hormone excess. What is the molecular mechanism driving uncontrolled thyroid hormone hypersecretion in these patients?",
+      "category": "Endocrine System Section 1",
       "question": "Graves' disease is a classic disorder of primary hormone excess. What is the molecular mechanism driving uncontrolled thyroid hormone hypersecretion in these patients?",
       "options": [
         "An activating somatic mutation in the TSH receptor gene",
@@ -254,7 +254,7 @@
     },
     {
       "id": 26,
-      "category": "In Type 2 Diabetes Mellitus, tissue resistance to insulin represents a major pathophysiological mechanism. At a post-receptor molecular level, what specific modification of Insulin Receptor Substrate-1 (IRS-1) interferes with downstream insulin signaling?",
+      "category": "Endocrine System Section 1",
       "question": "In Type 2 Diabetes Mellitus, tissue resistance to insulin represents a major pathophysiological mechanism. At a post-receptor molecular level, what specific modification of Insulin Receptor Substrate-1 (IRS-1) interferes with downstream insulin signaling?",
       "options": [
         "Activating tyrosine phosphorylation",
@@ -268,7 +268,7 @@
     },
     {
       "id": 27,
-      "category": "Which of the following hormones is synthesized by the hypothalamus and functions to inhibit the secretion of growth hormone (GH) from the somatotropes of the anterior pituitary?",
+      "category": "Endocrine System Section 1",
       "question": "Which of the following hormones is synthesized by the hypothalamus and functions to inhibit the secretion of growth hormone (GH) from the somatotropes of the anterior pituitary?",
       "options": [
         "GHRH",
