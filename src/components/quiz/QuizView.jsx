@@ -75,7 +75,8 @@ export default function QuizView() {
         <QuizResult
           questions={activeQuestions}
           userAnswers={userAnswers}
-          onRestart={() => setQuizState('setup')}
+          onRestart={handleStartQuiz}
+          onChooseNewQuiz={() => setQuizState('setup')}
         />
       )}
     </div>

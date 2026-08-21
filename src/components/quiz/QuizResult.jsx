@@ -1,8 +1,8 @@
 import React from 'react';
 import KatexText from '../KatexText';
-import { Award, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
+import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft } from 'lucide-react';
 
-export default function QuizResult({ questions, userAnswers, onRestart }) {
+export default function QuizResult({ questions, userAnswers, onRestart, onChooseNewQuiz }) {
   let score = 0;
   questions.forEach((q, idx) => {
     if (userAnswers[idx] === q.correctIndex) score++;
@@ -27,12 +27,20 @@ export default function QuizResult({ questions, userAnswers, onRestart }) {
           You scored <span className="text-emerald-400 font-bold">{score}</span> out of <span className="text-white font-bold">{questions.length}</span> questions correctly
         </p>
 
-        <button
-          onClick={onRestart}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90"
-        >
-          <RotateCcw className="w-4 h-4" /> Retake Quiz
-        </button>
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          <button
+            onClick={onRestart}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+          >
+            <RotateCcw className="w-4 h-4" /> Retake Quiz
+          </button>
+          <button
+            onClick={onChooseNewQuiz}
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
+          >
+            <ArrowLeft className="w-4 h-4" /> Choose Another Quiz
+          </button>
+        </div>
       </div>
 
       {/* Itemized Answer Breakdown */}
