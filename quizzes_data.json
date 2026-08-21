@@ -1,4 +1,286 @@
 {
+  "endocrine-1": [
+    {
+      "id": 8,
+      "category": "Which of the following characteristics correctly distinguishes endocrine communication from nervous system communication?",
+      "question": "Which of the following characteristics correctly distinguishes endocrine communication from nervous system communication?",
+      "options": [
+        "utilizes high-speed electrical impulses to reach target cells.",
+        "results in highly localized and short-lived synaptic responses (milliseconds).",
+        "acts as a wireless 'broadcasting' network with circulatory, multi-organ effects.",
+        "targets only adjacent cells via gap junctions and local diffusion.",
+        "exhibits a rapid onset but extremely transient action of duration."
+      ],
+      "correctIndex": 2,
+      "explanation": "The endocrine system relies on blood circulation to broadcast chemical hormones wirelessly to multiple tissues simultaneously, providing slower but more sustained metabolic effects. The nervous system utilizes localized electrical impulses with millisecond-level speeds. (Passage 12, Slide 2)"
+    },
+    {
+      "id": 9,
+      "category": "In the 'Endocrine Orchestra' analogy of hypothalamic-pituitary-target gland regulation, which of the following matches is correct?",
+      "question": "In the 'Endocrine Orchestra' analogy of hypothalamic-pituitary-target gland regulation, which of the following matches is correct?",
+      "options": [
+        "Hypothalamus — The Musician",
+        "Pituitary Gland — The Audience",
+        "Target Glands — The Conductor",
+        "Peripheral Hormones — The Music & Feedback",
+        "Releasing Factors — The Instrument Case"
+      ],
+      "correctIndex": 3,
+      "explanation": "In the endocrine orchestra analogy, peripheral hormones act as the 'music' (producing the systemic metabolic effects) and the 'audience feedback' (circulating back to loop-regulate the conductor/hypothalamus and pituitary). (Passage 12, Slide 2)"
+    },
+    {
+      "id": 10,
+      "category": "A researcher is studying a lipophilic hormone (Group I). Which of the following properties is characteristic of this class of hormones?",
+      "question": "A researcher is studying a lipophilic hormone (Group I). Which of the following properties is characteristic of this class of hormones?",
+      "options": [
+        "They circulate freely in the plasma without carrier proteins.",
+        "They have a very short plasma half-life (seconds to minutes).",
+        "They bind exclusively to cell-surface G-protein-coupled receptors.",
+        "They readily cross the plasma membrane lipid bilayer and bind to intracellular receptors.",
+        "They are synthesized as preprohormones and stored in large intracellular secretory vesicles."
+      ],
+      "correctIndex": 3,
+      "explanation": "Group I lipophilic hormones (steroids and thyroid hormones) are hydrophobic, meaning they readily diffuse across the plasma membrane lipid bilayer to bind their specific nuclear or cytosolic intracellular receptors. (Passage 14, Slide 4)"
+    },
+    {
+      "id": 11,
+      "category": "Which of the following hormones is classified as Group II (hydrophilic) and circulates freely in the blood with a short plasma half-life?",
+      "question": "Which of the following hormones is classified as Group II (hydrophilic) and circulates freely in the blood with a short plasma half-life?",
+      "options": [
+        "Cortisol",
+        "Thyroxine (T4)",
+        "Aldosterone",
+        "Epinephrine",
+        "Progesterone"
+      ],
+      "correctIndex": 3,
+      "explanation": "Epinephrine is an amine-derived hydrophilic hormone (Group II) that circulates freely in the plasma without carrier proteins and exhibits a very short half-life. Cortisol, T4, aldosterone, and progesterone are lipophilic (Group I). (Passage 14, Slide 4)"
+    },
+    {
+      "id": 12,
+      "category": "When a lipophilic hormone (Group I) binds its nuclear receptor, the activated receptor-ligand complex recruits coactivators such as CBP/p300. What enzymatic activity does CBP/p300 possess to remodel chromatin and initiate gene transcription?",
+      "question": "When a lipophilic hormone (Group I) binds its nuclear receptor, the activated receptor-ligand complex recruits coactivators such as CBP/p300. What enzymatic activity does CBP/p300 possess to remodel chromatin and initiate gene transcription?",
+      "options": [
+        "Histone deacetylase (HDAC) activity",
+        "Protein kinase A (PKA) activity",
+        "Histone acetyltransferase (HAT) activity",
+        "Tyrosine kinase activity",
+        "Phosphodiesterase (PDE) activity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Active lipophilic ligand-receptor nuclear dimers bind to Hormone Response Elements (HREs) and recruit coactivators like CBP/p300, which have Histone Acetyltransferase (HAT) activity to acetylate chromatin histones, loosening their grip on DNA to allow transcription. (Passage 15 & 120, Slide 5)"
+    },
+    {
+      "id": 13,
+      "category": "In the GPCR-cAMP signaling pathway, which of the following proteins is directly activated by the stimulatory G-protein alpha-subunit (Gs-alpha) to generate the second messenger cAMP?",
+      "question": "In the GPCR-cAMP signaling pathway, which of the following proteins is directly activated by the stimulatory G-protein alpha-subunit (Gs-alpha) to generate the second messenger cAMP?",
+      "options": [
+        "Phospholipase C (PLC)",
+        "Adenylyl Cyclase",
+        "Protein Kinase A (PKA)",
+        "Phosphodiesterase (PDE)",
+        "Janus Kinase (JAK)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under Gs-coupled GPCR signaling (like glucagon or ACTH), the ligand-receptor binding activates the Gs stimulatory G-protein, whose alpha-subunit directly stimulates the integral membrane enzyme Adenylyl Cyclase to synthesize cAMP from ATP. (Passage 15, Slide 5)"
+    },
+    {
+      "id": 14,
+      "category": "Which class of enzymes is responsible for degrading the second messenger cyclic AMP (cAMP) into 5'-AMP, thereby terminating GPCR-Gs signaling?",
+      "question": "Which class of enzymes is responsible for degrading the second messenger cyclic AMP (cAMP) into 5'-AMP, thereby terminating GPCR-Gs signaling?",
+      "options": [
+        "Adenylyl cyclases",
+        "Phosphodiesterases (complex/PDEs)",
+        "Protein phosphatases",
+        "Phospholipases",
+        "G-protein-coupled receptor kinases (GRKs)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phosphodiesterases (PDEs) are the specific enzymes that cleave and degrade cyclic AMP (cAMP) into inactive 5'-AMP, effectively terminating the intracellular second-messenger cascade and switching off the hormonal signal. (Passage 15, Slide 5)"
+    },
+    {
+      "id": 15,
+      "category": "In the Gq-protein coupled signaling pathway (such as Angiotensin II), what is the direct action of Inositol Trisphosphate (IP3) after it is cleaved from PIP2 by Phospholipase C (PLC)?",
+      "question": "In the Gq-protein coupled signaling pathway (such as Angiotensin II), what is the direct action of Inositol Trisphosphate (IP3) after it is cleaved from PIP2 by Phospholipase C (PLC)?",
+      "options": [
+        "It activates Protein Kinase C (PKC) directly in the cytosol.",
+        "It binds to and opens calcium channels on the endoplasmic reticulum (ER), releasing Ca2+ into the cytoplasm.",
+        "It directly phosphorylates target enzymes in the nucleus.",
+        "It activates adenylyl cyclase to synthesize cAMP.",
+        "It recruits CBP/p300 to induce gene transcription."
+      ],
+      "correctIndex": 1,
+      "explanation": "Under Gq-protein coupled GPCR signaling, PLC cleaves PIP2 into IP3 and DAG. Hydrophilic IP3 rapidly diffuses to the endoplasmic reticulum, binding to IP3-receptor channels to trigger the release of stored intracellular calcium into the cytoplasm. (Passage 15-16, Slide 5)"
+    },
+    {
+      "id": 16,
+      "category": "The insulin receptor is a heterotetrameric Receptor Tyrosine Kinase (RTK). Upon insulin binding, what is the immediate biochemical event that occurs within the receptor's cytoplasmic beta-subunits?",
+      "question": "The insulin receptor is a heterotetrameric Receptor Tyrosine Kinase (RTK). Upon insulin binding, what is the immediate biochemical event that occurs within the receptor's cytoplasmic beta-subunits?",
+      "options": [
+        "Binding of Gs-alpha to initiate cAMP generation",
+        "Serine/threonine phosphorylation by JNK and PKC",
+        "Autophosphorylation on tyrosine residues",
+        "Cleavage of the receptor to release a nuclear transcription factor",
+        "Direct opening of GLUT-4 channel pores"
+      ],
+      "correctIndex": 2,
+      "explanation": "The insulin receptor is a tyrosine kinase heterotetramer. Insulin binding to the extracellular alpha-subunits triggers a conformational change that activates intrinsic tyrosine kinase activity in the cytosolic beta-subunits, driving receptor autophosphorylation. (Passage 16, 77, 119, Slide 5)"
+    },
+    {
+      "id": 17,
+      "category": "In insulin-dependent tissues (skeletal muscle and adipose tissue), which pathway is primarily activated by the PI3K/Akt signaling cascade to facilitate glucose entry into the cell?",
+      "question": "In insulin-dependent tissues (skeletal muscle and adipose tissue), which pathway is primarily activated by the PI3K/Akt signaling cascade to facilitate glucose entry into the cell?",
+      "options": [
+        "Dimerization and nuclear translocation of STAT5",
+        "Translocation of GLUT-4 storage vesicles to the plasma membrane",
+        "Serine phosphorylation of IRS-1 to block further insulin binding",
+        "Direct activation of Hormone-Sensitive Lipase (HSL)",
+        "Opening of ATP-sensitive potassium channels"
+      ],
+      "correctIndex": 1,
+      "explanation": "The PI3K/Akt pathway, activated downstream of IRS-1 tyrosine phosphorylation, stimulates the exocytic translocation of intracellular storage vesicles containing GLUT-4 glucose transporters to the cell membrane in muscle and adipose tissue to allow glucose entry. (Passage 16, 48, Slide 5)"
+    },
+    {
+      "id": 18,
+      "category": "Which of the following hormones utilizes a transmembrane receptor that lacks intrinsic kinase activity but recruits and activates cytoplasmic Janus Kinases (JAKs) to phosphorylate and dimerize STAT transcription factors?",
+      "question": "Which of the following hormones utilizes a transmembrane receptor that lacks intrinsic kinase activity but recruits and activates cytoplasmic Janus Kinases (JAKs) to phosphorylate and dimerize STAT transcription factors?",
+      "options": [
+        "Cortisol",
+        "Glucagon",
+        "Insulin",
+        "Growth Hormone (GH)",
+        "Epinephrine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Growth hormone (GH), prolactin, and many cytokine receptors belong to the Class I Cytokine Receptor superfamily. They lack intrinsic kinase activity but homodimerize to recruit and phosphorylate cytosolic JAK kinases, which subsequently activate STAT transcription factors. (Passage 16, 65, 93, Slide 5)"
+    },
+    {
+      "id": 19,
+      "category": "An endocrine clinic is evaluating a patient with low circulating thyroid hormone (T4) but highly elevated Thyroid-Stimulating Hormone (TSH). Based on the endocrine axes feedback principles, what type of loop is responsible for this high TSH level?",
+      "question": "An endocrine clinic is evaluating a patient with low circulating thyroid hormone (T4) but highly elevated Thyroid-Stimulating Hormone (TSH). Based on the endocrine axes feedback principles, what type of loop is responsible for this high TSH level?",
+      "options": [
+        "Positive feedback loop amplifying T4 release",
+        "Ultra-short-loop feedback of T4 on the thyroid gland",
+        "Loss of long-loop negative feedback due to thyroid gland failure",
+        "Short-loop feedback of TSH on the hypothalamus",
+        "Intracrine feedback within the thyrotrope cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "In primary thyroid gland failure (Primary Hypothyroidism), the loss of circulating thyroid hormone (T4) removes the normal tonic long-loop negative feedback on the anterior pituitary and hypothalamus, triggering a dramatic surge in pituitary TSH production. (Passage 17, 18, 41, 55, Slide 6)"
+    },
+    {
+      "id": 20,
+      "category": "Which of the following endocrine processes is governed by positive feedback rather than the more common homeostatic negative feedback?",
+      "question": "Which of the following endocrine processes is governed by positive feedback rather than the more common homeostatic negative feedback?",
+      "options": [
+        "Regulation of cortisol secretion by ACTH",
+        "Inhibition of insulin secretion by hypoglycemia",
+        "Suppression of TSH by rising thyroid hormone levels",
+        "The estrogen-triggered LH surge leading to ovulation",
+        "Regulation of blood osmolality by vasopressin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Unlike negative feedback which maintains a homeostatic steady state, positive feedback amplifies a stimulus until a critical event terminates it. An example is rising estrogen levels triggering the pituitary LH surge that drives ovulation. (Passage 17, 51-52, Slide 6)"
+    },
+    {
+      "id": 21,
+      "category": "Which of the following statements correctly defines 'ultra-short-loop' feedback?",
+      "question": "Which of the following statements correctly defines 'ultra-short-loop' feedback?",
+      "options": [
+        "A peripheral target gland hormone inhibits the pituitary gland.",
+        "A pituitary tropic hormone inhibits the hypothalamus.",
+        "A hypothalamic factor inhibits its own release from hypothalamic neurons.",
+        "A peripheral target gland hormone directly inhibits its own target tissues.",
+        "A peripheral hormone directly stimulates the hypothalamus."
+      ],
+      "correctIndex": 2,
+      "explanation": "Ultra-short-loop feedback occurs when a hypothalamic releasing factor directly acts on the hypothalamic peptidergic neurons that secreted it, inhibiting its own further synthesis and exocytosis. (Passage 17, Slide 6)"
+    },
+    {
+      "id": 22,
+      "category": "How are 'Primary' and 'Secondary' endocrine disorders defined and distinguished in clinical pathology?",
+      "question": "How are 'Primary' and 'Secondary' endocrine disorders defined and distinguished in clinical pathology?",
+      "options": [
+        "Primary disorders originate in the pituitary; secondary disorders originate in the target gland.",
+        "In primary disorders, the target and tropic hormones move in the same direction; in secondary, they move in opposite directions.",
+        "Primary disorders are always autoimmune; secondary disorders are always due to secretory adenomas.",
+        "Primary disorders originate in the target gland, causing target and tropic hormones to move in opposite directions; secondary disorders originate in the pituitary, causing them to move in the same direction.",
+        "Primary disorders are acute, whereas secondary disorders are chronic and permanent."
+      ],
+      "correctIndex": 3,
+      "explanation": "In primary disorders, the defect is in the target gland, causing target and tropic hormones to move in opposite directions due to feedback disruption. In secondary disorders, the defect is in the pituitary, causing both hormones to move in the same direction. (Passage 18, 54, Slide 7)"
+    },
+    {
+      "id": 23,
+      "category": "A patient presents with extreme fatigue, weight gain, and cold intolerance. Lab results reveal: Free T4 = 4 pmol/L (Normal 12-22) and TSH = 45 mIU/L (Normal 0.4-4.0). How would this endocrine dysfunction be localized and classified?",
+      "question": "A patient presents with extreme fatigue, weight gain, and cold intolerance. Lab results reveal: Free T4 = 4 pmol/L (Normal 12-22) and TSH = 45 mIU/L (Normal 0.4-4.0). How would this endocrine dysfunction be localized and classified?",
+      "options": [
+        "Secondary Hypothyroidism",
+        "Primary Hypothyroidism",
+        "Tertiary Hypothyroidism",
+        "Thyroid Hormone Resistance Syndrome",
+        "Primary Hyperthyroidism"
+      ],
+      "correctIndex": 1,
+      "explanation": "The patient has primary hypothyroidism. Low target thyroid hormone (Free T4 = 4 pmol/L) and highly elevated tropic hormone (TSH = 45 mIU/L) indicate that the failure resides inside the thyroid gland itself (opposite movement = primary defect). (Passage 18-19, 41, 55, Slide 7)"
+    },
+    {
+      "id": 24,
+      "category": "Which of the following is the most common etiology of primary hormone deficiency, such as that seen in Type 1 Diabetes Mellitus and Addison's disease?",
+      "question": "Which of the following is the most common etiology of primary hormone deficiency, such as that seen in Type 1 Diabetes Mellitus and Addison's disease?",
+      "options": [
+        "Ectopic hormone production by malignant tissues",
+        "Progressive T-cell and autoimmune-mediated destruction of endocrine glandular tissue",
+        "Gain-of-function somatic mutations in Gs-alpha proteins",
+        "Post-receptor signaling defects blocking hormone transduction",
+        "Activating autoantibodies stimulating receptor activity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hormone deficiencies are most commonly caused by progressive, immune-mediated destruction of endocrine tissue, with cytotoxic T-cells and autoantibodies destroying glandular mass (e.g. pancreatic beta-cells in T1D, adrenal cortex in Addison's). (Passage 18-19, 42, 56, Slide 7)"
+    },
+    {
+      "id": 25,
+      "category": "Graves' disease is a classic disorder of primary hormone excess. What is the molecular mechanism driving uncontrolled thyroid hormone hypersecretion in these patients?",
+      "question": "Graves' disease is a classic disorder of primary hormone excess. What is the molecular mechanism driving uncontrolled thyroid hormone hypersecretion in these patients?",
+      "options": [
+        "An activating somatic mutation in the TSH receptor gene",
+        "Autoimmune-mediated destruction of thyrotrope cells",
+        "Thyroid-Stimulating Immunoglobulins (TSIs) acting as agonist autoantibodies that bind and activate TSH receptors",
+        "Ectopic TSH production by small cell lung carcinoma",
+        "Downregulation of pituitary TSH receptors due to cortisol feedback"
+      ],
+      "correctIndex": 2,
+      "explanation": "In Graves' disease, patients produce pathological autoantibodies called Thyroid-Stimulating Immunoglobulins (TSIs) that mimic TSH by binding to and constitutively activating the TSH receptor, leading to primary thyrotoxicosis. (Passage 19-20, 46, 57, Slide 7)"
+    },
+    {
+      "id": 26,
+      "category": "In Type 2 Diabetes Mellitus, tissue resistance to insulin represents a major pathophysiological mechanism. At a post-receptor molecular level, what specific modification of Insulin Receptor Substrate-1 (IRS-1) interferes with downstream insulin signaling?",
+      "question": "In Type 2 Diabetes Mellitus, tissue resistance to insulin represents a major pathophysiological mechanism. At a post-receptor molecular level, what specific modification of Insulin Receptor Substrate-1 (IRS-1) interferes with downstream insulin signaling?",
+      "options": [
+        "Activating tyrosine phosphorylation",
+        "Inhibitory serine/threonine phosphorylation",
+        "Cleavage of the beta-subunit of the insulin receptor",
+        "Non-enzymatic glycation of the extracellular alpha-subunits",
+        "Hyper-acetylation of IRS-1 by CBP/p300"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Type 2 Diabetes, inflammatory cytokines (TNF-alpha, IL-6) and excess lipids activate stress kinases (JNK, IKK-beta, PKCs) that cause inhibitory serine/threonine phosphorylation of IRS-1, blocking the normal tyrosine phosphorylation required for insulin signaling. (Passage 18, 20, 43, 57, Slide 9)"
+    },
+    {
+      "id": 27,
+      "category": "Which of the following hormones is synthesized by the hypothalamus and functions to inhibit the secretion of growth hormone (GH) from the somatotropes of the anterior pituitary?",
+      "question": "Which of the following hormones is synthesized by the hypothalamus and functions to inhibit the secretion of growth hormone (GH) from the somatotropes of the anterior pituitary?",
+      "options": [
+        "GHRH",
+        "Somatostatin (GIH)",
+        "Dopamine",
+        "Cortisol",
+        "Prolactin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Somatostatin (also known as Growth Hormone-Inhibiting Hormone / GIH) is synthesized by periventricular hypothalamic neurons and secreted into the hypophyseal portal vessels to inhibit growth hormone release from somatotropes. (Passage 13, 58, 59, Slide 3)"
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,

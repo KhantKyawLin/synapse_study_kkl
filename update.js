@@ -222,16 +222,20 @@ function updateQuizData() {
                 const keysMap = {};
                 if (keySheetName) {
                     const keyRows = XLSX.utils.sheet_to_json(workbook.Sheets[keySheetName], { header: 1 });
-                    const keyHeaderIdx = keyRows.findIndex(r => r && r.some(c => /correct|answer|key/i.test(String(c))));
+                    const keyHeaderIdx = keyRows.findIndex(r => r && r.some(c => /correct\s*option|correct\s*answer|correct|^key$/i.test(String(c))));
                     const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
+                    const keyHeaders = keyHeaderIdx !== -1 ? keyRows[keyHeaderIdx].map(h => String(h || '').trim()) : [];
                     
+                    const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*answer|correct|^key$/i.test(c));
+                    const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note/i.test(c));
+
                     for (let i = startIdx; i < keyRows.length; i++) {
                         const row = keyRows[i];
-                        if (row && row.length >= 4) {
-                            const qNum = row[0];
-                            const corrOpt = String(row[3] || row[2] || '').trim();
-                            const expl = String(row[4] || row[3] || '').trim();
-                            if (qNum !== undefined) {
+                        if (row && row.length >= 3) {
+                            const qNum = String(row[0] || '').trim();
+                            const corrOpt = kCorrIdx !== -1 ? String(row[kCorrIdx] || '').trim() : String(row[2] || row[3] || '').trim();
+                            const expl = kExpIdx !== -1 ? String(row[kExpIdx] || '').trim() : String(row[3] || row[4] || '').trim();
+                            if (qNum) {
                                 keysMap[qNum] = { correct: corrOpt, explanation: expl };
                             }
                         }
