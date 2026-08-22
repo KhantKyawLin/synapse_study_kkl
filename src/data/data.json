@@ -102,11 +102,6 @@
     },
     {
       "category": "Microbiology - C.tetani",
-      "question": "Through what specific transport mechanism does tetanospasmin reach the Central Nervous System (CNS)?",
-      "answer": "It reaches the CNS via retrograde transport along axons."
-    },
-    {
-      "category": "Microbiology - C.tetani",
       "question": "Tetanospasmin blocks the release of which specific inhibitory neurotransmitters?",
       "answer": "It blocks the release of glycine and $\\gamma$-aminobutyric acid (GABA)."
     },
@@ -154,11 +149,6 @@
       "category": "Microbiology - C.tetani",
       "question": "What is the primary mechanism of action for Tetanus Antitoxin (TAT)?",
       "answer": "TAT works by neutralizing the circulating exotoxin before it binds to nerve cells."
-    },
-    {
-      "category": "Microbiology - C.tetani",
-      "question": "Can Tetanus Antitoxin (TAT) neutralize tetanospasmin that has already bound to Central Nervous System receptors?",
-      "answer": "No, TAT can only neutralize free toxin and cannot affect toxin already bound to nerve cells."
     },
     {
       "category": "Microbiology - C.tetani",
@@ -539,11 +529,6 @@
       "category": "Microbiology - C.perfringens",
       "question": "Which structure helps bacteria adhere to host cell surfaces?",
       "answer": "Pilus (pili)."
-    },
-    {
-      "category": "Microbiology - C.perfringens",
-      "question": "What term describes a localized systemic infection where bacteria multiply in the blood and cause high fever?",
-      "answer": "Septicemia."
     },
     {
       "category": "Microbiology - C.perfringens",
@@ -1027,11 +1012,6 @@
     },
     {
       "category": "Microbiology - Staphylococcus",
-      "question": "How does coagulase help Staphylococci resist the host immune system?",
-      "answer": "It induces plasma clotting around the bacteria to resist phagocytosis."
-    },
-    {
-      "category": "Microbiology - Staphylococcus",
       "question": "What effect does coagulase have on the localization of a Staphylococcal infection?",
       "answer": "It limits the infection and promotes tissue necrosis."
     },
@@ -1079,11 +1059,6 @@
       "category": "Microbiology - Staphylococcus",
       "question": "List three examples of local pyogenic skin infections caused by Staphylococcus.",
       "answer": "Furuncle (boil), carbuncle, and impetigo."
-    },
-    {
-      "category": "Microbiology - Staphylococcus",
-      "question": "What terms describe the systemic spread of Staphylococcus leading to abscesses in internal organs?",
-      "answer": "Bacteremia and Pyemia."
     },
     {
       "category": "Microbiology - Staphylococcus",
@@ -1269,11 +1244,6 @@
       "category": "Microbiology - Staphylococcus",
       "question": "What term describes a state where a pathogen persists in a host without causing clinical symptoms but can be shed?",
       "answer": "Carrier state."
-    },
-    {
-      "category": "Immunology - Antigen",
-      "question": "What is the definition of an antigen (Ag)?",
-      "answer": "Substances that stimulate the immune system to produce antibodies and effector lymphocytes."
     },
     {
       "category": "Immunology - Antigen",
@@ -1547,11 +1517,6 @@
     },
     {
       "category": "Immunology - Antigen",
-      "question": "What is the primary significance of the Rh system in clinical immunology?",
-      "answer": "Its role in hemolytic disease of the newborn."
-    },
-    {
-      "category": "Immunology - Antigen",
       "question": "Why are health workers and the elderly prioritized for annual influenza vaccinations?",
       "answer": "Practicality (limited resources) and risk (contact frequency and complication severity)."
     },
@@ -1569,11 +1534,6 @@
       "category": "Immunology - Antigen",
       "question": "Oral administration of an antigen primarily targets which lymphoid tissue?",
       "answer": "Gut-associated lymphoid tissue (GALT)."
-    },
-    {
-      "category": "Immunology - Antibody",
-      "question": "What is the primary function of an antigen (Ag)?",
-      "answer": "Antigens stimulate the immune system to produce specific antibodies."
     },
     {
       "category": "Immunology - Antibody",
@@ -1802,11 +1762,6 @@
     },
     {
       "category": "Immunology - Antibody",
-      "question": "What is the primary role of the complement system?",
-      "answer": "It is a group of serum proteins that work with antibodies to clear microbes and promote inflammation."
-    },
-    {
-      "category": "Immunology - Antibody",
       "question": "Where are most complement proteins synthesized in the body?",
       "answer": "In the liver"
     },
@@ -1819,11 +1774,6 @@
       "category": "Immunology - Antibody",
       "question": "Which complement protein is the exception to the 'a is smaller, b is larger' nomenclature rule?",
       "answer": "C2 (where C2a is the larger fragment and C2b is the smaller)"
-    },
-    {
-      "category": "Immunology - Antibody",
-      "question": "What temperature and duration are required to inactivate the heat-labile complement system in serum?",
-      "answer": "$56^{\\circ}C$ for 30 minutes"
     },
     {
       "category": "Immunology - Antibody",
@@ -1854,11 +1804,6 @@
       "category": "Immunology - Antibody",
       "question": "What activates the MBL (Lectin) pathway?",
       "answer": "The binding of Mannose-Binding Lectin to mannose residues on the surface of microorganisms."
-    },
-    {
-      "category": "Immunology - Antibody",
-      "question": "How does the complement system contribute to opsonization?",
-      "answer": "By depositing C3b on the surface of pathogens, which is then recognized by receptors on phagocytes."
     },
     {
       "category": "Immunology - Antibody",
@@ -1902,11 +1847,6 @@
     },
     {
       "category": "Immunology - Complement",
-      "question": "What is the collective name for the group of more than 30 serum proteins that cooperate to clear microbes and promote inflammation?",
-      "answer": "The complement system"
-    },
-    {
-      "category": "Immunology - Complement",
       "question": "Where are most complement proteins primarily synthesized in the body?",
       "answer": "The liver"
     },
@@ -1914,11 +1854,6 @@
       "category": "Immunology - Complement",
       "question": "Which specific complement protein is found in the highest concentration in human serum?",
       "answer": "$C3$"
-    },
-    {
-      "category": "Immunology - Complement",
-      "question": "How does heating immune serum at $56^{\\circ}C$ for 30 minutes affect the complement system?",
-      "answer": "It inactivates the heat-labile complement proteins."
     },
     {
       "category": "Immunology - Complement",
@@ -2022,11 +1957,6 @@
     },
     {
       "category": "Immunology - Complement",
-      "question": "What is the shared terminal sequence of the complement system that leads to cell lysis?",
-      "answer": "The Membrane Attack Complex ($MAC$)"
-    },
-    {
-      "category": "Immunology - Complement",
       "question": "Which complement fragment initiates the assembly of the Membrane Attack Complex ($MAC$)?",
       "answer": "$C5b$"
     },
@@ -2062,11 +1992,6 @@
     },
     {
       "category": "Immunology - Complement",
-      "question": "How does the complement system contribute to 'immune complex clearance'?",
-      "answer": "By solubilizing antigen-antibody complexes and facilitating their removal by the liver and spleen."
-    },
-    {
-      "category": "Immunology - Complement",
       "question": "What is the function of the $C1$ inhibitor ($C1\\text{ }INH$)?",
       "answer": "It prevents the excessive activation of the $C1$ complex in the Classical pathway."
     },
@@ -2079,11 +2004,6 @@
       "category": "Immunology - Complement",
       "question": "Which regulatory protein binds to $C3b$ or $C4b$ and acts as a cofactor for their cleavage by Factor $I$?",
       "answer": "Factor $H$ (for $C3b$) or $C4$-binding protein (for $C4b$)."
-    },
-    {
-      "category": "Immunology - Complement",
-      "question": "What is the function of Factor $I$ in the complement system?",
-      "answer": "It is a serine protease that cleaves and inactivates membrane-bound $C3b$ and $C4b$."
     },
     {
       "category": "Immunology - Complement",
@@ -2114,11 +2034,6 @@
       "category": "Immunology - Complement",
       "question": "Which complement fragment is responsible for 'the amplification loop' in the Alternative pathway?",
       "answer": "$C3b$"
-    },
-    {
-      "category": "Immunology - Complement",
-      "question": "How do human cells distinguish themselves from pathogens to avoid 'friendly fire' from the complement system?",
-      "answer": "They express regulatory proteins like $DAF$, $MCP$, and $CD59$ on their surfaces."
     },
     {
       "category": "Immunology - Complement",
@@ -2266,16 +2181,6 @@
       "answer": "Terminal pathway components ($C5-C9$) or Properdin."
     },
     {
-      "category": "Immunology - Complement",
-      "question": "What is the primary role of the complement system in the 'Disposal system' of the body?",
-      "answer": "Clearance of immune complexes and apoptotic cells."
-    },
-    {
-      "category": "Immunology - Complement",
-      "question": "The complement system is described as a 'cascade' because _____.",
-      "answer": "The activation of one protein leads to the sequential proteolytic activation of the next."
-    },
-    {
       "category": "Microbiology - Streptococcus",
       "question": "What is the typical shape and Gram stain reaction of Streptococcus?",
       "answer": "Gram-positive ($G+$) spherical cells."
@@ -2339,11 +2244,6 @@
       "category": "Microbiology - Streptococcus",
       "question": "Streptococci that produce no hemolysis are referred to as _____.",
       "answer": "$\\gamma$-hemolytic (Nonhemolytic) streptococci."
-    },
-    {
-      "category": "Microbiology - Streptococcus",
-      "question": "The Lancefield classification system divides streptococci into 20 groups based on which antigen?",
-      "answer": "Polysaccharide antigen (Group-specific C-substance)."
     },
     {
       "category": "Microbiology - Streptococcus",
@@ -2484,11 +2384,6 @@
       "category": "Microbiology - Streptococcus",
       "question": "Besides carbon and nitrogen, what are two additional growth factors needed by Streptococcus?",
       "answer": "Vitamins and purines/pyrimidines."
-    },
-    {
-      "category": "Microbiology - Streptococcus",
-      "question": "The M protein helps Streptococcus evade the host immune system by resisting _____.",
-      "answer": "Phagocytosis."
     },
     {
       "category": "Microbiology - Streptococcus",
@@ -3172,11 +3067,6 @@
     },
     {
       "category": "Microbiology - Shigella",
-      "question": "What is the name of the severe systemic disease caused by *Leishmania donovani*?",
-      "answer": "Kala-azar (Visceral Leishmaniasis)"
-    },
-    {
-      "category": "Microbiology - Shigella",
       "question": "In the human body, *Leishmania donovani* exists as an intracellular form called an _____.",
       "answer": "amastigote"
     },
@@ -3234,11 +3124,6 @@
       "category": "Microbiology - Shigella",
       "question": "What are the three main types of bacterial antigens?",
       "answer": "O (somatic), H (flagellar), and K (capsular)."
-    },
-    {
-      "category": "Microbiology - Shigella",
-      "question": "Which type of bacterial infection is characterized by the presence and multiplication of bacteria in the blood with systemic symptoms?",
-      "answer": "Septicemia"
     },
     {
       "category": "Microbiology - Shigella",
@@ -3374,11 +3259,6 @@
       "category": "Microbiology - Salmonella",
       "question": "Some $Salmonella$ strains produce an exotoxin with a mechanism similar to which other enteric pathogen?",
       "answer": "Enterotoxigenic $E. coli$ (ETEC)."
-    },
-    {
-      "category": "Microbiology - Salmonella",
-      "question": "Inside the host, where do $Salmonella$ bacteria primarily multiply to evade the immune system?",
-      "answer": "Inside macrophages."
     },
     {
       "category": "Microbiology - Salmonella",
@@ -3977,28 +3857,8 @@
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the primary function of the endocrine system regarding whole-body stability?",
-      "answer": "Maintaining homeostasis."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "The endocrine system uses _____ as chemical messengers to travel through circulating body fluids.",
-      "answer": "hormones"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
       "question": "Why do only certain cells respond to a specific circulating hormone?",
       "answer": "Only target cells expressing specific receptors can respond."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How does the speed of signal transmission in the nervous system compare to the endocrine system?",
-      "answer": "The nervous system uses fast electrical signaling, while the endocrine system is generally slower."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which system uses high-speed electrical impulses for communication?",
-      "answer": "Nervous system"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
@@ -4049,11 +3909,6 @@
       "category": "Pathophysiology - Endocrine Module 1",
       "question": "The pituitary gland responds to hypothalamic releasing hormones by secreting _____ hormones.",
       "answer": "tropic"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the most common control mechanism in the endocrine system used to maintain steady state?",
-      "answer": "Negative feedback"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
@@ -4499,11 +4354,6 @@
       "category": "Pathophysiology - Endocrine Module 2",
       "question": "What is the typical half-life of a pancreatic beta cell?",
       "answer": "Approximately 30 days."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does the immune system in Type 1 DM develop an autoimmune response against beta cells?",
-      "answer": "By recognizing altered beta cell antigens or molecules that resemble viral proteins."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",

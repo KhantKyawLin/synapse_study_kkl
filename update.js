@@ -50,40 +50,59 @@ function updateData() {
         const content = fs.readFileSync(filePath, 'utf-8');
         const lines = content.split(/\r?\n/).filter(line => line.trim().length > 0);
         
-        // Auto-determine category from filename
-        // Matches "2_antigen_flashcards_immunology.csv" -> "Immunology - Antigen"
-        // Matches "endocrine_1.csv" -> "Pathophysiology - Endocrine Module"
-        let category = "General";
-        const parts = file.replace('.csv', '').split('_');
+        // Auto-determine default category from filename
+        let defaultCategory = "General";
+        const cleanBase = file.replace(/\.csv$/i, '');
+        const parts = cleanBase.split('_');
         
-        if (file.startsWith('endocrine')) {
+        if (cleanBase.toLowerCase().startsWith('endocrine')) {
              const num = parts[1] ? ` ${parts[1]}` : '';
-             category = `Pathophysiology - Endocrine Module${num}`;
+             defaultCategory = `Pathophysiology - Endocrine Module${num}`;
         } else if (parts.length >= 4) {
              const topic = parts[1].charAt(0).toUpperCase() + parts[1].slice(1);
              const subject = parts[3].charAt(0).toUpperCase() + parts[3].slice(1);
-             category = `${subject} - ${topic}`;
+             defaultCategory = `${subject} - ${topic}`;
+        } else if (parts.length === 2) {
+             const subject = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+             const topic = parts[1].charAt(0).toUpperCase() + parts[1].slice(1);
+             defaultCategory = `${subject} - ${topic}`;
         } else {
-            // Fallback for simpler names like "Pathology_Basics.csv"
-            category = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+             defaultCategory = cleanBase.charAt(0).toUpperCase() + cleanBase.slice(1).replace(/_/g, ' ');
         }
 
-        lines.forEach((line) => {
-            const columns = parseCSVLine(line);
+        // Check if first line is a header row
+        const firstCols = lines.length > 0 ? parseCSVLine(lines[0]) : [];
+        const isHeader = firstCols.some(c => /category|question|answer|front|back|stem/i.test(c.trim()));
+        const startLineIdx = isHeader ? 1 : 0;
+
+        const hasCategoryCol = firstCols.length >= 3 && /category|module|subject/i.test(firstCols[0].trim());
+
+        for (let i = startLineIdx; i < lines.length; i++) {
+            const columns = parseCSVLine(lines[i]);
             if (columns.length >= 2) {
-                let question = columns[0].trim().replace(/^"|"$/g, '');
-                let answer = columns.slice(1).join(',').trim().replace(/^"|"$/g, '');
-                
-                if (question && answer) {
+                let cardCat = defaultCategory;
+                let question = '';
+                let answer = '';
+
+                if (hasCategoryCol && columns.length >= 3) {
+                    cardCat = columns[0].trim().replace(/^"|"$/g, '') || defaultCategory;
+                    question = columns[1].trim().replace(/^"|"$/g, '');
+                    answer = columns.slice(2).join(',').trim().replace(/^"|"$/g, '');
+                } else {
+                    question = columns[0].trim().replace(/^"|"$/g, '');
+                    answer = columns.slice(1).join(',').trim().replace(/^"|"$/g, '');
+                }
+
+                if (question && answer && !/question|front|stem/i.test(question)) {
                     allCards.push({
-                        category: category,
+                        category: cardCat,
                         question: question,
                         answer: answer
                     });
                 }
             }
-        });
-        console.log(`✅ Loaded ${lines.filter(l => l.trim()).length} lines from: ${file}`);
+        }
+        console.log(`✅ Loaded ${lines.length - startLineIdx} lines from: ${file}`);
     });
 
     const jsonContent = JSON.stringify({ cards: allCards }, null, 2);
