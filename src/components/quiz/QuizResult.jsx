@@ -1,8 +1,17 @@
 import React from 'react';
 import KatexText from '../KatexText';
-import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft } from 'lucide-react';
+import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check } from 'lucide-react';
 
-export default function QuizResult({ questions, userAnswers, onRestart, onChooseNewQuiz }) {
+export default function QuizResult({
+  questions,
+  userAnswers,
+  studentName,
+  timeSpent,
+  totalAllocatedSeconds,
+  isTimeExpired,
+  onRestart,
+  onChooseNewQuiz,
+}) {
   let score = 0;
   questions.forEach((q, idx) => {
     if (userAnswers[idx] === q.correctIndex) score++;
@@ -10,23 +19,72 @@ export default function QuizResult({ questions, userAnswers, onRestart, onChoose
 
   const percentage = Math.round((score / questions.length) * 100);
 
+  // Format seconds into MM:SS
+  const formatTime = (seconds) => {
+    if (seconds === undefined) return '00:00';
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+  };
+
+  const currentDate = new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col gap-6 animate-fadeIn pb-12">
-      {/* Score Header Card */}
-      <div className="bg-[#161b22]/90 border border-slate-800 rounded-2xl p-8 backdrop-blur-xl text-center shadow-2xl">
-        <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-cyanPrimary">
+      {/* Official Score Certificate Card */}
+      <div className="bg-[#161b22]/95 border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden">
+        {/* Top Decorative Banner */}
+        <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
+
+        <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-cyanPrimary shadow-lg shadow-cyanPrimary/10">
           <Award className="w-8 h-8" />
         </div>
-        <h2 className="text-3xl font-extrabold text-white mb-2">Quiz Completed!</h2>
-        <p className="text-slate-400 text-sm mb-6">Here is your score breakdown</p>
 
-        <div className="text-5xl font-black text-cyanPrimary mb-2">
+        {/* Certificate Title & Student Name */}
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-1 tracking-tight">
+          Quiz Assessment Certificate
+        </h2>
+
+        {/* Prominent Student Name Badge for Screenshot Verification */}
+        {studentName && (
+          <div className="inline-flex items-center gap-2 px-5 py-2 mt-2 mb-4 rounded-xl bg-cyanPrimary/15 border border-cyanPrimary/40 text-cyanGlow font-extrabold text-base sm:text-lg shadow-sm">
+            <User className="w-5 h-5 text-cyanPrimary" />
+            <span>Student: {studentName}</span>
+          </div>
+        )}
+
+        {isTimeExpired && (
+          <div className="mb-4 text-xs font-bold text-rose-400 bg-rose-500/15 border border-rose-500/30 px-3 py-1 rounded-full inline-block">
+            ⏱️ Time Expired — Auto Submitted
+          </div>
+        )}
+
+        {/* Score Percentage Display */}
+        <div className="text-5xl sm:text-6xl font-black text-cyanPrimary mb-2 tracking-tight">
           {percentage}%
         </div>
         <p className="text-sm font-semibold text-slate-300 mb-6">
-          You scored <span className="text-emerald-400 font-bold">{score}</span> out of <span className="text-white font-bold">{questions.length}</span> questions correctly
+          Scored <span className="text-emerald-400 font-extrabold text-base">{score}</span> out of <span className="text-white font-extrabold text-base">{questions.length}</span> questions correctly
         </p>
 
+        {/* Details Meta Bar (Time Spent, Completion Date) */}
+        <div className="flex flex-wrap items-center justify-center gap-4 py-3 px-4 bg-[#0f141c]/80 border border-slate-800 rounded-xl text-xs font-semibold text-slate-400 max-w-md mx-auto mb-6">
+          <span className="flex items-center gap-1.5">
+            <Clock className="w-3.5 h-3.5 text-cyanPrimary" /> Time: {formatTime(timeSpent)} / {formatTime(totalAllocatedSeconds)}
+          </span>
+          <span className="text-slate-600">•</span>
+          <span className="flex items-center gap-1.5 text-slate-300">
+            <Check className="w-3.5 h-3.5 text-emerald-400" /> Verified: {currentDate}
+          </span>
+        </div>
+
+        {/* Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-3">
           <button
             onClick={onRestart}

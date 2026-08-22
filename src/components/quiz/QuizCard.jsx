@@ -1,6 +1,6 @@
 import React from 'react';
 import KatexText from '../KatexText';
-import { CheckCircle2, Circle } from 'lucide-react';
+import { CheckCircle2, Circle, Clock, User } from 'lucide-react';
 
 export default function QuizCard({
   question,
@@ -10,19 +10,50 @@ export default function QuizCard({
   onSelectOption,
   onNext,
   onPrev,
+  studentName,
+  timeRemaining,
 }) {
   const optionLabels = ['A', 'B', 'C', 'D', 'E'];
 
+  // Format seconds into MM:SS
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+  };
+
+  const isLowTime = timeRemaining !== undefined && timeRemaining <= 120; // < 2 mins
+
   return (
-    <div className="w-full max-w-3xl mx-auto bg-[#161b22]/90 border border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-2xl">
-      {/* Question Header & Counter */}
-      <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-800">
-        <span className="px-3.5 py-1 rounded-full text-xs font-bold bg-cyanPrimary/20 text-cyanGlow border border-cyanPrimary/40">
-          {question.category || 'Practice Exam'}
-        </span>
-        <span className="text-xs font-bold text-slate-400">
-          Question <span className="text-cyanPrimary text-sm">{currentIndex + 1}</span> of {totalQuestions}
-        </span>
+    <div className="w-full max-w-3xl mx-auto bg-[#161b22]/90 border border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-2xl animate-fadeIn">
+      {/* Top Header Bar: Student Name, Category, Timer */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-800">
+        <div className="flex items-center gap-2 flex-wrap">
+          {studentName && (
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700">
+              <User className="w-3.5 h-3.5 text-cyanPrimary" /> {studentName}
+            </span>
+          )}
+          <span className="inline-block px-3 py-1 rounded-full text-xs font-bold bg-cyanPrimary/20 text-cyanGlow border border-cyanPrimary/40">
+            {question.category || 'Practice Exam'}
+          </span>
+        </div>
+
+        <div className="flex items-center justify-between sm:justify-end gap-4">
+          {timeRemaining !== undefined && (
+            <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-bold border transition-all ${
+              isLowTime
+                ? 'bg-rose-500/20 text-rose-400 border-rose-500/50 animate-pulse'
+                : 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30'
+            }`}>
+              <Clock className="w-3.5 h-3.5" />
+              <span>{formatTime(timeRemaining)}</span>
+            </div>
+          )}
+          <span className="text-xs font-bold text-slate-400">
+            Question <span className="text-cyanPrimary text-sm">{currentIndex + 1}</span> of {totalQuestions}
+          </span>
+        </div>
       </div>
 
       {/* Question Stem */}
