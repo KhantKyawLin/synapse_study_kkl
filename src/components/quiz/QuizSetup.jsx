@@ -1,5 +1,5 @@
-import React from 'react';
-import { User, Clock, Award, Filter } from 'lucide-react';
+import React, { useEffect } from 'react';
+import { User, Clock, Award, Filter, AlertCircle } from 'lucide-react';
 
 export default function QuizSetup({
   modules,
@@ -15,17 +15,24 @@ export default function QuizSetup({
   setStudentName,
   onStartQuiz,
 }) {
-  // Calculate allocated minutes based on question count
-  const getAllocatedMinutes = () => {
-    if (questionCount === '5') return 10;
-    if (questionCount === '10') return 20;
-    if (questionCount === '20') return 40;
-    if (questionCount === 'all') return Math.max(10, totalAvailable * 2);
-    const count = parseInt(questionCount, 10);
-    return isNaN(count) ? 10 : count * 2;
-  };
+  // If totalAvailable is smaller than currently selected questionCount (e.g. topic has 7, but 20 selected),
+  // auto-adjust or clamp to 'all' so student gets clean options
+  useEffect(() => {
+    if (questionCount !== 'all') {
+      const requested = parseInt(questionCount, 10);
+      if (!isNaN(requested) && requested > totalAvailable && totalAvailable > 0) {
+        setQuestionCount('all');
+      }
+    }
+  }, [totalAvailable, questionCount, setQuestionCount]);
 
-  const minutes = getAllocatedMinutes();
+  // Calculate actual questions that will be loaded
+  const actualCount = questionCount === 'all'
+    ? totalAvailable
+    : Math.min(parseInt(questionCount, 10) || totalAvailable, totalAvailable);
+
+  // Calculate allocated minutes (2 mins per question, min 10 mins)
+  const minutes = Math.max(10, actualCount * 2);
 
   return (
     <div className="w-full max-w-xl mx-auto bg-[#161b22]/90 border border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-2xl animate-fadeIn">
@@ -85,7 +92,7 @@ export default function QuizSetup({
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="custom-select w-full"
             >
-              <option value="All">All Sub-Topics ({totalAvailable} Questions)</option>
+              <option value="All">All Sub-Topics</option>
               {categories.map((cat) => (
                 <option key={cat} value={cat}>
                   {cat}
@@ -105,17 +112,27 @@ export default function QuizSetup({
             onChange={(e) => setQuestionCount(e.target.value)}
             className="custom-select w-full"
           >
-            <option value="5">5 Questions (10 Minutes)</option>
-            <option value="10">10 Questions (20 Minutes)</option>
-            <option value="20">20 Questions (40 Minutes)</option>
-            <option value="all">All Available ({totalAvailable} Questions - {Math.max(10, totalAvailable * 2)} Mins)</option>
+            {totalAvailable >= 5 && <option value="5">5 Questions (10 Minutes)</option>}
+            {totalAvailable >= 10 && <option value="10">10 Questions (20 Minutes)</option>}
+            {totalAvailable >= 20 && <option value="20">20 Questions (40 Minutes)</option>}
+            <option value="all">
+              All Available ({totalAvailable} Questions - {Math.max(10, totalAvailable * 2)} Mins)
+            </option>
           </select>
         </div>
+
+        {/* Info Note if Question Count Clamped */}
+        {questionCount !== 'all' && parseInt(questionCount, 10) > totalAvailable && totalAvailable > 0 && (
+          <div className="flex items-center gap-2 p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-xs text-amber-300 font-medium">
+            <AlertCircle className="w-4 h-4 shrink-0 text-amber-400" />
+            <span>This topic has {totalAvailable} questions. All {totalAvailable} questions will be loaded.</span>
+          </div>
+        )}
 
         {/* Timer Badge Preview */}
         <div className="flex items-center justify-between px-4 py-3 bg-[#13171f] border border-slate-800 rounded-xl text-xs font-semibold">
           <span className="text-slate-400 flex items-center gap-1.5">
-            <Clock className="w-4 h-4 text-cyanPrimary" /> Allocated Time:
+            <Clock className="w-4 h-4 text-cyanPrimary" /> Allocated Time ({actualCount} Questions):
           </span>
           <span className="text-cyanGlow font-bold">
             {minutes} Minutes ({minutes * 60} Seconds)
@@ -128,7 +145,7 @@ export default function QuizSetup({
           disabled={totalAvailable === 0 || !studentName.trim()}
           className="w-full mt-2 py-3.5 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.99] transition-all disabled:opacity-40 disabled:cursor-not-allowed"
         >
-          Start Timed Quiz
+          Start Timed Quiz ({actualCount} Questions)
         </button>
       </form>
     </div>
