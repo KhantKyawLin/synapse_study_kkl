@@ -1,5 +1,5 @@
 {
-  "Immunology Summary Database": [
+  "Immunology Database": [
     {
       "Name": "IgA Antibody",
       "Tag": "Immunoglobulins",
@@ -463,7 +463,7 @@
       ]
     }
   ],
-  "Pathogens Database": [
+  "Microbiology Database": [
     {
       "Name": "Staphylococcus aureus",
       "Tag": "G+ Coccus",
