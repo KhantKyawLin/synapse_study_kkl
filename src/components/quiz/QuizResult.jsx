@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import KatexText from '../KatexText';
-import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check } from 'lucide-react';
+import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check, Download, Copy } from 'lucide-react';
+import { toPng, toBlob } from 'html-to-image';
 
 export default function QuizResult({
   questions,
@@ -12,6 +13,10 @@ export default function QuizResult({
   onRestart,
   onChooseNewQuiz,
 }) {
+  const certRef = useRef(null);
+  const [isExporting, setIsExporting] = useState(false);
+  const [copiedSuccess, setCopiedSuccess] = useState(false);
+
   let score = 0;
   questions.forEach((q, idx) => {
     if (userAnswers[idx] === q.correctIndex) score++;
@@ -35,10 +40,56 @@ export default function QuizResult({
     minute: '2-digit',
   });
 
+  // Download Certificate PNG
+  const handleDownloadImage = async () => {
+    if (!certRef.current || isExporting) return;
+    try {
+      setIsExporting(true);
+      const dataUrl = await toPng(certRef.current, { cacheBust: true, pixelRatio: 2 });
+      const link = document.createElement('a');
+      const safeName = (studentName || 'Student').replace(/[^a-z0-9]/gi, '_');
+      link.download = `Quiz_Certificate_${safeName}.png`;
+      link.href = dataUrl;
+      link.click();
+    } catch (err) {
+      console.error('Failed to export certificate image:', err);
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
+  // Copy Certificate Image to Clipboard
+  const handleCopyImage = async () => {
+    if (!certRef.current || isExporting) return;
+    try {
+      setIsExporting(true);
+      const blob = await toBlob(certRef.current, { cacheBust: true, pixelRatio: 2 });
+      if (blob && navigator.clipboard && window.ClipboardItem) {
+        await navigator.clipboard.write([
+          new ClipboardItem({ 'image/png': blob })
+        ]);
+        setCopiedSuccess(true);
+        setTimeout(() => setCopiedSuccess(false), 2500);
+      } else {
+        // Fallback to downloading if clipboard API is not permitted
+        handleDownloadImage();
+      }
+    } catch (err) {
+      console.error('Failed to copy certificate image:', err);
+      // Fallback
+      handleDownloadImage();
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col gap-6 animate-fadeIn pb-12">
-      {/* Official Score Certificate Card */}
-      <div className="bg-[#161b22]/95 border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden">
+      {/* Exportable Official Score Certificate Card */}
+      <div
+        ref={certRef}
+        className="bg-[#161b22] border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden"
+      >
         {/* Top Decorative Banner */}
         <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
 
@@ -84,21 +135,51 @@ export default function QuizResult({
           </span>
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-3">
+        {/* Certificate Image Export Action Bar */}
+        <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4 border-t border-slate-800/80">
           <button
-            onClick={onRestart}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+            onClick={handleDownloadImage}
+            disabled={isExporting}
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 text-white shadow-lg shadow-emerald-600/25 hover:bg-emerald-500 active:scale-[0.98] transition-all disabled:opacity-50"
           >
-            <RotateCcw className="w-4 h-4" /> Retake Quiz
+            <Download className="w-4 h-4" />
+            <span>{isExporting ? 'Generating PNG...' : 'Save Certificate Image (PNG)'}</span>
           </button>
+
           <button
-            onClick={onChooseNewQuiz}
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
+            onClick={handleCopyImage}
+            disabled={isExporting}
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all disabled:opacity-50"
           >
-            <ArrowLeft className="w-4 h-4" /> Choose Another Quiz
+            {copiedSuccess ? (
+              <>
+                <Check className="w-4 h-4 text-emerald-400" />
+                <span className="text-emerald-300 font-bold">Copied Image to Clipboard!</span>
+              </>
+            ) : (
+              <>
+                <Copy className="w-4 h-4 text-cyanPrimary" />
+                <span>Copy Image</span>
+              </>
+            )}
           </button>
         </div>
+      </div>
+
+      {/* Navigation Bar */}
+      <div className="flex flex-wrap items-center justify-center gap-3">
+        <button
+          onClick={onRestart}
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+        >
+          <RotateCcw className="w-4 h-4" /> Retake Quiz
+        </button>
+        <button
+          onClick={onChooseNewQuiz}
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
+        >
+          <ArrowLeft className="w-4 h-4" /> Choose Another Quiz
+        </button>
       </div>
 
       {/* Itemized Answer Breakdown */}
