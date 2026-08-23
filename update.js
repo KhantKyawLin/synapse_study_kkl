@@ -186,11 +186,15 @@ function updateDashboardData() {
                     const columns = parseCSVLine(lines[i]);
                     if (columns.length >= 2) {
                         let name = columns[0].replace(/^"|"$/g, '').trim();
-                        let tag = columns[1].replace(/^"|"$/g, '').trim();
+                        let rawCategory = columns[1] ? columns[1].replace(/^"|"$/g, '').trim() : '';
+                        let rawSubCategory = columns[2] ? columns[2].replace(/^"|"$/g, '').trim() : '';
+                        
+                        let tag = (headers[2] && /sub-category|type|group/i.test(headers[2]) && rawSubCategory) ? rawSubCategory : (rawCategory || 'General');
                         
                         if (name) {
                             let entry = { Name: name, Tag: tag, details: [] };
-                            for (let j = 2; j < headers.length; j++) {
+                            const startJ = (headers[2] && /sub-category/i.test(headers[2])) ? 3 : 2;
+                            for (let j = startJ; j < headers.length; j++) {
                                 let val = columns[j] ? columns[j].replace(/^"|"$/g, '').trim() : '';
                                 if (val) {
                                     entry.details.push({
