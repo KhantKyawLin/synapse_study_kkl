@@ -23,50 +23,6 @@
       ]
     },
     {
-      "Name": "Systemic Lupus Erythematosus (SLE)",
-      "Tag": "Autoimmune Diseases",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Systemic autoimmune disease showing a strong female predominance (9:1); strongly associated with HLA-DR2 and HLA-DR3 alleles."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Mediates a Type III hypersensitivity reaction; autoantibodies bind to self-antigens (DNA/histones), forming immune complexes that deposit in small vessels and filters, activating complement and recruiting destructive neutrophils."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Malar 'butterfly' rash, discoid lupus, lupus nephritis (glomerulonephritis), arthritis, hematologic cytopenias, and neurological symptoms."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Positive ANA (sensitive screening); Anti-dsDNA and Anti-Smith autoantibodies (highly specific); decreased serum C3 and C4 complement levels."
-        }
-      ]
-    },
-    {
-      "Name": "Interleukin-2 (IL-2)",
-      "Tag": "Cytokines",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Produced primarily by activated CD4+ T helper (Th1) cells; acts as a crucial autocrine and paracrine T cell growth factor."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Binds to high-affinity IL-2 receptors (containing CD25) to trigger clonal expansion, proliferation, and survival of T cells, B cells, NK cells, and regulatory T cells (Tregs)."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Recombinant IL-2 (Aldesleukin) is used to treat metastatic renal cell carcinoma and melanoma; targeted by immunosuppressive drugs like Cyclosporine and Tacrolimus."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Serum cytokine assays; expression of CD25 (alpha chain of IL-2R) on the surface of T lymphocytes by flow cytometry."
-        }
-      ]
-    },
-    {
       "Name": "IgG Antibody",
       "Tag": "Immunoglobulins",
       "details": [
@@ -111,6 +67,28 @@
       ]
     },
     {
+      "Name": "IgD Antibody",
+      "Tag": "Immunoglobulins",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Monomeric structure; co-expressed with IgM on the surface of mature, naive B lymphocytes. Very low concentration in normal serum (~0.2%)."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Functions primarily as a membrane-bound antigen receptor (BCR partner) to assist in B cell activation, maturation, and survival signaling."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Hyper-IgD syndrome (a periodic fever syndrome marked by high IgD levels and recurrent inflammatory episodes); levels vary in chronic inflammatory diseases."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry showing surface IgD+ on mature naive B cells (CD19+ / CD20+ / IgM+ / IgD+); serum IgD levels measured by ELISA or nephelometry."
+        }
+      ]
+    },
+    {
       "Name": "IgE Antibody",
       "Tag": "Immunoglobulins",
       "details": [
@@ -129,6 +107,314 @@
         {
           "title": "Diagnostic Markers / Lab Tests",
           "content": "Elevated total serum IgE levels; allergen-specific IgE testing (RAST/ImmunoCAP); skin prick wheel-and-flare testing."
+        }
+      ]
+    },
+    {
+      "Name": "Monoclonal Antibody (mAb)",
+      "Tag": "Immunoglobulins",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Highly pure, monospecific antibodies manufactured in vitro. Produced by fusing a specific plasma B cell with an immortal myeloma cell to create a hybridoma."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds with absolute specificity to a single epitope on a target antigen, enabling targeted neutralisation, cell labeling, or receptor blocking."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Used as therapeutics: Rituximab (anti-CD20 for B cell lymphoma and RA), Infliximab (anti-TNF-α for Crohn's and RA), Trastuzumab (anti-HER2 for breast cancer)."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Purity checked via capillary electrophoresis; binding specificity validated via ELISA and Western blot."
+        }
+      ]
+    },
+    {
+      "Name": "Type I Hypersensitivity (Anaphylaxis)",
+      "Tag": "Hypersensitivity Reactions",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Rapid, IgE-mediated systemic or local allergic reaction occurring within minutes of re-exposure to an allergen in a sensitized individual."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Allergen cross-links IgE antibodies pre-bound to high-affinity FcεRI receptors on mast cells/basophils. Degranulation releases histamine (early phase) and stimulates leukotriene synthesis (late phase)."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Anaphylactic shock (marked by massive systemic vasodilation, bronchial smooth muscle contraction, and laryngeal edema); allergic asthma; food allergies."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Clinical diagnosis; elevated serum tryptase (marker of mast cell degranulation) measured shortly after the episode; skin prick testing."
+        }
+      ]
+    },
+    {
+      "Name": "Type II Hypersensitivity (Cytotoxic)",
+      "Tag": "Hypersensitivity Reactions",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Antibody-mediated cytotoxic reaction targeting antigens present on specific cell surfaces or within extracellular matrix tissues."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "IgG or IgM antibodies bind directly to target cells, triggering classical complement activation (MAC lysis), opsonization for phagocytosis, or NK cell-mediated ADCC."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Mismatched ABO blood transfusion reactions, Erythroblastosis Fetalis (hemolytic disease of the newborn), Myasthenia Gravis, Autoimmune Hemolytic Anemia, Goodpasture's syndrome."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Direct and Indirect Coombs tests; detection of tissue-specific autoantibodies (e.g., anti-AChR); immunofluorescence biopsy showing linear deposition."
+        }
+      ]
+    },
+    {
+      "Name": "Type III Hypersensitivity (Immune Complex)",
+      "Tag": "Hypersensitivity Reactions",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Immune complex-mediated inflammatory reaction caused by the deposition of circulating, medium-sized antigen-antibody complexes in filters and tissues."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Circulating complexes deposit in blood vessels, joint synovium, or glomeruli, where they activate complement and recruit neutrophils that release destructive lysosomal enzymes."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Systemic Lupus Erythematosus (SLE), Rheumatoid Arthritis (RA), Serum Sickness, Arthus reaction, Post-streptococcal glomerulonephritis."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Decreased serum C3 and C4 complement levels; presence of circulating immune complexes; tissue biopsies showing granular (lumpy) immune deposits under immunofluorescence."
+        }
+      ]
+    },
+    {
+      "Name": "Type IV Hypersensitivity (Contact Dermatitis)",
+      "Tag": "Hypersensitivity Reactions",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Delayed-type, cell-mediated (antibody-independent) inflammatory reaction; peaks 48-72 hours after physical skin contact with an active hapten."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Haptens (e.g., poison ivy pentadecacatechol, nickel, leather chemicals) bind self-proteins, becoming immunogenic. Dendritic cells present them to Th1 cells, which secrete IFN-γ to recruit and activate highly destructive macrophages."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Pruritic, vesicular, erythematous skin lesions localized to the area of contact; localized tissue injury and swelling; Tuberculin skin test; graft rejection."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Patch testing (application of suspected allergens to the skin for 48 hours to observe for a localized cell-mediated reaction); Tuberculin skin test (PPD measurement)."
+        }
+      ]
+    },
+    {
+      "Name": "Systemic Lupus Erythematosus (SLE)",
+      "Tag": "Autoimmune Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Systemic autoimmune disease showing a strong female predominance (9:1); strongly associated with HLA-DR2 and HLA-DR3 alleles."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Mediates a Type III hypersensitivity reaction; autoantibodies bind to self-antigens (DNA/histones), forming immune complexes that deposit in small vessels and filters, activating complement and recruiting destructive neutrophils."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Malar 'butterfly' rash, discoid lupus, lupus nephritis (glomerulonephritis), arthritis, hematologic cytopenias, and neurological symptoms."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Positive ANA (sensitive screening); Anti-dsDNA and Anti-Smith autoantibodies (highly specific); decreased serum C3 and C4 complement levels."
+        }
+      ]
+    },
+    {
+      "Name": "Rheumatoid Arthritis (RA)",
+      "Tag": "Autoimmune Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Systemic inflammatory disease affecting joints; strong association with HLA-DR4. Characterized by the presence of Rheumatoid Factor (RF)."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Mediates a mixed Type III/IV hypersensitivity. Autoreactive Th1 cells recruit macrophages that release destructive TNF-α in joint synovium. RF (IgM binding to IgG Fc tails) forms immune complexes that amplify inflammation."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Symmetrical polyarthritis (morning stiffness, joint erosions, pannus formation), subcutaneous nodules, systemic vasculitis, and pulmonary fibrosis."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Positive Rheumatoid Factor (RF); highly specific Anti-Cyclic Citrullinated Peptide (anti-CCP) antibodies; elevated ESR and CRP."
+        }
+      ]
+    },
+    {
+      "Name": "Myasthenia Gravis",
+      "Tag": "Autoimmune Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Type II (antibody-mediated) hypersensitivity; highly associated with HLA-DR3; often associated with thymic hyperplasia or thymoma."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Autoantibodies (IgG) bind to and block nicotinic acetylcholine receptors (AChR) at the neuromuscular junction, triggering receptor internalization, complement-mediated destruction, and impaired synaptic transmission."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Progressive muscle weakness and fatiguability (worse with exercise, improves with rest), ptosis, diplopia, dysphagia, and potentially fatal respiratory failure (myasthenic crisis)."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Anti-AChR antibodies (highly specific); Anti-Muscle-Specific Tyrosine Kinase (MuSK) antibodies; electromyography (EMG) decremental response."
+        }
+      ]
+    },
+    {
+      "Name": "Severe Combined Immunodeficiency (SCID)",
+      "Tag": "Primary Immunodeficiencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Group of genetic disorders; most common is X-linked (IL2RG mutation). Autosomal recessive forms include adenosine deaminase (ADA) deficiency and RAG1/RAG2 mutations."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Severe defect in both cellular and humoral immunity. RAG1/RAG2 mutations block the V(D)J recombination needed to build functional B and T cell receptors, leaving lymphocytes totally non-functional."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Infants present with severe, recurrent infections (bacterial, viral, fungal, protozoal), chronic diarrhea, failure to thrive, and absence of thymic shadow. Fatal in infancy without bone marrow transplant."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Absent or extremely low T and B cell counts on flow cytometry; absence of T-cell receptor excision circles (TRECs) on newborn screening."
+        }
+      ]
+    },
+    {
+      "Name": "Bruton's X-Linked Agammaglobulinemia (XLA)",
+      "Tag": "Primary Immunodeficiencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "X-linked recessive immunodeficiency caused by a loss-of-function mutation in the Bruton's Tyrosine Kinase (BTK) gene on chromosome Xq22."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "BTK is required for pre-B cell receptor signaling; its defect blocks pre-B cells from maturing into mature B cells in the bone marrow, causing a near-total absence of B cells and all immunoglobulin classes."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Male infants present after age 3-6 months (as maternal IgG wanes) with recurrent, severe pyogenic bacterial infections (e.g., S. pneumoniae, H. influenzae) of the respiratory tract."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Profound B-cell lymphopenia (<1% CD19+ B cells in peripheral blood) on flow cytometry; extremely low or undetectable levels of serum IgG, IgA, and IgM."
+        }
+      ]
+    },
+    {
+      "Name": "DiGeorge Syndrome",
+      "Tag": "Primary Immunodeficiencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Congenital immunodeficiency caused by a microdeletion on chromosome 22q11.2, resulting in defective development of the 3rd and 4th pharyngeal pouches."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Causes thymic hypoplasia or aplasia, resulting in deficient T cell maturation and impaired cell-mediated immunity. Also causes parathyroid hypoplasia, leading to low calcium."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Recurrent viral, fungal, and opportunistic infections; cleft palate; congenital heart defects (conotruncal anomalies); tetany due to severe hypocalcemia."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Absent or profoundly low CD3+ T cell counts with normal B cell counts; absence of thymic shadow on chest X-ray; FISH/microarray showing 22q11.2 microdeletion."
+        }
+      ]
+    },
+    {
+      "Name": "Paroxysmal Nocturnal Hemoglobinuria (PNH)",
+      "Tag": "Complement Proteins",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Acquired clonal stem cell disorder caused by a somatic mutation in the PIGA gene, leading to a deficiency of GPI-anchor proteins."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Loss of GPI anchors causes a complete deficiency of cell-surface complement regulators DAF (CD55) and CD59 (MIRL), leaving red blood cells highly vulnerable to uncontrolled bystander complement-mediated MAC lysis."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Intravascular hemolytic anemia, hemoglobinuria (dark morning urine), severe thrombosis (especially in atypical venous sites), and pancytopenia."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry analysis showing absence of CD55 and CD59 on red blood cells and granulocytes."
+        }
+      ]
+    },
+    {
+      "Name": "MHC Class I",
+      "Tag": "Major Histocompatibility Complex",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Encoded by classical HLA-A, B, and C genes. Composed of an alpha heavy chain and a non-polymorphic beta-2 microglobulin chain. Distributed on all nucleated cells."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds and displays endogenous peptide antigens (viral or mutated intracellular proteins processed by proteasomes) to CD8+ Cytotoxic T cells."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Crucial for viral clearance and tumor surveillance; down-regulated by many viruses to escape detection; HLA-B27 strongly associated with Ankylosing Spondylitis."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry for surface MHC Class I/HLA expression; DNA-based molecular HLA typing."
+        }
+      ]
+    },
+    {
+      "Name": "MHC Class II",
+      "Tag": "Major Histocompatibility Complex",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Encoded by classical HLA-DP, DQ, and DR genes. Composed of an alpha and beta heterodimer. Expressed primarily on professional Antigen Presenting Cells (APCs)."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds and displays exogenous peptide antigens (extracellular pathogens processed via the endosomal-lysosomal pathway) to CD4+ Helper T cells."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Key mediator of CD4+ T helper cell activation and immune collaboration; HLA-DR4 associated with Rheumatoid Arthritis; HLA-DR3/DR4 associated with Type 1 Diabetes."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry for HLA-DP, DQ, DR; PCR-based HLA typing."
         }
       ]
     },
@@ -177,6 +463,28 @@
       ]
     },
     {
+      "Name": "Natural Killer (NK) Cells",
+      "Tag": "Immune Cells",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Large granular lymphocytes originating from lymphoid progenitors but functioning as part of the innate immune system. No antigen-specific receptors."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Recognizes and destroys virus-infected and tumor cells. Employs the 'missing self' hypothesis to target cells lacking MHC Class I; also executes ADCC via Fc receptor CD16."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Involved in early defense against intracellular infections (especially herpesviruses) and cancers; defects lead to severe recurrent viral infections."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry markers CD3- and CD56+ / CD16+; functional NK cytotoxicity assays."
+        }
+      ]
+    },
+    {
       "Name": "Th1 Cell",
       "Tag": "Immune Cells",
       "details": [
@@ -217,6 +525,50 @@
         {
           "title": "Diagnostic Markers / Lab Tests",
           "content": "Intracellular cytokine staining for IL-4, IL-5, and IL-13; elevated serum IgE levels; peripheral blood eosinophilia."
+        }
+      ]
+    },
+    {
+      "Name": "Th17 Cell",
+      "Tag": "Immune Cells",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Differentiated CD4+ T helper cell subset. Differentiation is promoted by IL-6, TGF-β, and IL-23; driven by the RORγt transcription factor."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Recruits neutrophils and maintains mucosal/epithelial barriers against extracellular bacteria and fungi by secreting IL-17 and IL-22."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Autosomal dominant Hyper-IgE syndrome (Job's syndrome) has Th17 deficiency; overactivity is associated with psoriasis, rheumatoid arthritis, and inflammatory bowel disease."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Intracellular cytokine staining for IL-17 via flow cytometry; serum IL-17 assay."
+        }
+      ]
+    },
+    {
+      "Name": "Regulatory T Cell (Treg)",
+      "Tag": "Immune Cells",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Subclass of CD4+ T cells characterized by the expression of CD25 and the Foxp3 transcription factor. Originates in thymus (nTregs) or peripheral tissues (iTregs)."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Enforces peripheral self-tolerance by active suppression of self-reactive lymphocytes. Secretes anti-inflammatory cytokines IL-10 and TGF-β; utilizes CTLA-4 to downregulate co-stimulatory molecules on APCs."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "IPEX syndrome (severe autoimmune disease marked by enteropathy, dermatological lesions, and polyendocrinopathy) is caused by Foxp3 mutation. Cancers recruit Tregs to escape immune destruction."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry showing CD4+ CD25+ Foxp3+; Foxp3 gene analysis."
         }
       ]
     },
@@ -287,156 +639,46 @@
       ]
     },
     {
-      "Name": "Rheumatoid Arthritis (RA)",
-      "Tag": "Autoimmune Diseases",
+      "Name": "Interleukin-2 (IL-2)",
+      "Tag": "Cytokines",
       "details": [
         {
           "title": "Key Characteristics & Origin",
-          "content": "Systemic inflammatory disease affecting joints; strong association with HLA-DR4. Characterized by the presence of Rheumatoid Factor (RF)."
+          "content": "Produced primarily by activated CD4+ T helper (Th1) cells; acts as a crucial autocrine and paracrine T cell growth factor."
         },
         {
           "title": "Primary Function & Mechanism",
-          "content": "Mediates a mixed Type III/IV hypersensitivity. Autoreactive Th1 cells recruit macrophages that release destructive TNF-α in joint synovium. RF (IgM binding to IgG Fc tails) forms immune complexes that amplify inflammation."
+          "content": "Binds to high-affinity IL-2 receptors (containing CD25) to trigger clonal expansion, proliferation, and survival of T cells, B cells, NK cells, and regulatory T cells (Tregs)."
         },
         {
           "title": "Clinical & Disease Associations",
-          "content": "Symmetrical polyarthritis (morning stiffness, joint erosions, panus formation), subcutaneous nodules, systemic vasculitis, and pulmonary fibrosis."
+          "content": "Recombinant IL-2 (Aldesleukin) is used to treat metastatic renal cell carcinoma and melanoma; targeted by immunosuppressive drugs like Cyclosporine and Tacrolimus."
         },
         {
           "title": "Diagnostic Markers / Lab Tests",
-          "content": "Positive Rheumatoid Factor (RF); highly specific Anti-Cyclic Citrullinated Peptide (anti-CCP) antibodies; elevated ESR and CRP."
+          "content": "Serum cytokine assays; expression of CD25 (alpha chain of IL-2R) on the surface of T lymphocytes by flow cytometry."
         }
       ]
     },
     {
-      "Name": "Myasthenia Gravis",
-      "Tag": "Autoimmune Diseases",
+      "Name": "Interleukin-4 (IL-4)",
+      "Tag": "Cytokines",
       "details": [
         {
           "title": "Key Characteristics & Origin",
-          "content": "Type II (antibody-mediated) hypersensitivity; highly associated with HLA-DR3; often associated with thymic hyperplasia or thymoma."
+          "content": "Secreted by CD4+ Th2 cells, mast cells, and activated basophils. Classic pleiotropic cytokine."
         },
         {
           "title": "Primary Function & Mechanism",
-          "content": "Autoantibodies (IgG) bind to and block nicotinic acetylcholine receptors (AChR) at the neuromuscular junction, triggering receptor internalization, complement-mediated destruction, and impaired synaptic transmission."
+          "content": "Induces differentiation of naive CD4+ T cells into the Th2 helper phenotype. Directs B cell class-switching to IgE and IgG4, and promotes eosinophil tissue recruitment."
         },
         {
           "title": "Clinical & Disease Associations",
-          "content": "Progressive muscle weakness and fatiguability (worse with exercise, improves with rest), ptosis, diplopia, dysphagia, and potentially fatal respiratory failure (myasthenic crisis)."
+          "content": "Key driver of atopic allergic reactions (allergic rhinitis, asthma, atopic dermatitis); targeted by Dupilumab (anti-IL-4Rα)."
         },
         {
           "title": "Diagnostic Markers / Lab Tests",
-          "content": "Anti-AChR antibodies (highly specific); Anti-Muscle-Specific Tyrosine Kinase (MuSK) antibodies; electromyography (EMG) decremental response."
-        }
-      ]
-    },
-    {
-      "Name": "Severe Combined Immunodeficiency (SCID)",
-      "Tag": "Primary Immunodeficiencies",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Group of genetic disorders; most common is X-linked (IL2RG mutation). Autosomal recessive forms include adenosine deaminase (ADA) deficiency and RAG1/RAG2 mutations."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Severe defect in both cellular and humoral immunity. RAG1/RAG2 mutations block the V(D)J recombination needed to build functional B and T cell receptors, leaving lymphocytes totally non-functional."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Infants present with severe, recurrent infections (bacterial, viral, fungal, protozoal), chronic diarrhea, failure to thrive, and absence of thymic shadow. Fatal in infancy without bone marrow transplant."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Absent or extremely low T and B cell counts on flow cytometry; absence of T-cell receptor excision circles (TRECs) on newborn screening."
-        }
-      ]
-    },
-    {
-      "Name": "Paroxysmal Nocturnal Hemoglobinuria (PNH)",
-      "Tag": "Complement Proteins",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Acquired clonal stem cell disorder caused by a somatic mutation in the PIGA gene, leading to a deficiency of GPI-anchor proteins."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Loss of GPI anchors causes a complete deficiency of cell-surface complement regulators DAF (CD55) and CD59 (MIRL), leaving red blood cells highly vulnerable to uncontrolled bystander complement-mediated MAC lysis."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Intravascular hemolytic anemia, hemoglobinuria (dark morning urine), severe thrombosis (especially in atypical venous sites), and pancytopenia."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Flow cytometry analysis showing absence of CD55 and CD59 on red blood cells and granulocytes."
-        }
-      ]
-    },
-    {
-      "Name": "Bruton's X-Linked Agammaglobulinemia (XLA)",
-      "Tag": "Primary Immunodeficiencies",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "X-linked recessive immunodeficiency caused by a loss-of-function mutation in the Bruton's Tyrosine Kinase (BTK) gene on chromosome Xq22."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "BTK is required for pre-B cell receptor signaling; its defect blocks pre-B cells from maturing into mature B cells in the bone marrow, causing a near-total absence of B cells and all immunoglobulin classes."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Male infants present after age 3-6 months (as maternal IgG wanes) with recurrent, severe pyogenic bacterial infections (e.g., S. pneumoniae, H. influenzae) of the respiratory tract."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Profound B-cell lymphopenia (<1% CD19+ B cells in peripheral blood) on flow cytometry; extremely low or undetectable levels of serum IgG, IgA, and IgM."
-        }
-      ]
-    },
-    {
-      "Name": "Type I Hypersensitivity (Anaphylaxis)",
-      "Tag": "Hypersensitivity Reactions",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Rapid, IgE-mediated systemic or local allergic reaction occurring within minutes of re-exposure to an allergen in a sensitized individual."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Allergen cross-links IgE antibodies pre-bound to high-affinity FcεRI receptors on mast cells/basophils. Degranulation releases histamine (early phase) and stimulates leukotriene synthesis (late phase)."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Anaphylactic shock (marked by massive systemic vasodilation, bronchial smooth muscle contraction, and laryngeal edema); allergic asthma; food allergies."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Clinical diagnosis; elevated serum tryptase (marker of mast cell degranulation) measured shortly after the episode; skin prick testing."
-        }
-      ]
-    },
-    {
-      "Name": "Type IV Hypersensitivity (Contact Dermatitis)",
-      "Tag": "Hypersensitivity Reactions",
-      "details": [
-        {
-          "title": "Key Characteristics & Origin",
-          "content": "Delayed-type, cell-mediated (antibody-independent) inflammatory reaction; peaks 48-72 hours after physical skin contact with an active hapten."
-        },
-        {
-          "title": "Primary Function & Mechanism",
-          "content": "Haptens (e.g., poison ivy pentadecacatechol, nickel, leather chemicals) bind self-proteins, becoming immunogenic. Dendritic cells present them to Th1 cells, which secrete IFN-γ to recruit and activate highly destructive macrophages."
-        },
-        {
-          "title": "Clinical & Disease Associations",
-          "content": "Pruritic, vesicular, erythematous skin lesions localized to the area of contact; localized tissue injury and swelling."
-        },
-        {
-          "title": "Diagnostic Markers / Lab Tests",
-          "content": "Patch testing (application of suspected allergens to the skin for 48 hours to observe for a localized cell-mediated reaction)."
+          "content": "Serum IL-4 level by ELISA; intracellular cytokine staining on T cells."
         }
       ]
     },
@@ -459,6 +701,160 @@
         {
           "title": "Diagnostic Markers / Lab Tests",
           "content": "IFN-γ release assays (IGRA) for tuberculosis screening (e.g., QuantiFERON-TB Gold); intracellular cytokine flow cytometry."
+        }
+      ]
+    },
+    {
+      "Name": "Tumor Necrosis Factor-alpha (TNF-α)",
+      "Tag": "Cytokines",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Homotrimeric cytokine produced mainly by activated macrophages, T cells, and NK cells in response to PAMP/DAMP recognition."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Coordinates local and systemic inflammation. Induces vascular endothelium adhesion molecules, increases vascular permeability, recruits neutrophils, and triggers hepatocytes to release acute-phase proteins."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Central mediator of rheumatoid arthritis joint destruction, Crohn's disease inflammation, and septic shock; triggers cachexia (wasting syndrome) in chronic infections and malignancy."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Serum TNF-α concentration; acute-phase reactants (CRP and ESR) as surrogates."
+        }
+      ]
+    },
+    {
+      "Name": "Selectins",
+      "Tag": "Cell Adhesion Molecules",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Family of calcium-dependent carbohydrate-binding transmembrane proteins. L-selectin on leukocytes; E- and P-selectin on activated endothelial cells."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Interacts with mucin-like ligands (CD15s) to mediate the initial weak, transient 'rolling' phase of leukocyte extravasation along vessel walls."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Deficient selectin ligand expression causes Leukocyte Adhesion Deficiency Type 2 (LAD II), presenting with severe immune deficiencies, high leukocytosis, and developmental delay."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry evaluating CD15s (sialyl Lewis X) expression on neutrophils; genetic testing for SLC35C1 mutations."
+        }
+      ]
+    },
+    {
+      "Name": "Integrins",
+      "Tag": "Cell Adhesion Molecules",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Heterodimeric cell-surface glycoproteins composed of non-covalently associated alpha and beta subunits. Examples include LFA-1 (CD11a/CD18) and Mac-1."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds tightly to immunoglobulin-superfamily ligands (like ICAM-1) on endothelial cells, converting leukocyte 'rolling' into stable 'tight adhesion' during extravasation."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Loss-of-function mutation in the common beta-2 integrin chain CD18 gene causes Leukocyte Adhesion Deficiency Type 1 (LAD I), marked by recurrent infections without pus, delayed umbilical cord separation."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Flow cytometry confirming complete or partial absence of surface CD18/CD11b on peripheral blood granulocytes."
+        }
+      ]
+    },
+    {
+      "Name": "Hapten",
+      "Tag": "Antigens",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Small, non-proteinaceous chemical compound of low molecular weight (e.g., penicillin, urushiol in poison ivy). It is reactive but non-immunogenic on its own."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds covalently to a high-molecular-weight host carrier protein, creating a hapten-carrier complex that is recognized as foreign, stimulating antibody and T-cell responses."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Drug-induced autoimmune hemolytic anemia (Type II hypersensitivity); urushiol contact dermatitis (Type IV hypersensitivity)."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Clinical diagnosis; allergen patch testing; specific IgE or drug-induced antibody screening."
+        }
+      ]
+    },
+    {
+      "Name": "Superantigen",
+      "Tag": "Antigens",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Bacterial or viral proteins (e.g., S. aureus TSST-1, S. pyogenes exotoxins) that bypass normal MHC presentation rules."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Binds directly and simultaneously to the outer face of MHC Class II molecules on APCs and the Vβ domain of T-cell receptors (TCRs), cross-linking them without processing. Activates up to 20% of all T cells."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Triggers Toxic Shock Syndrome (TSS) and food poisoning, inducing a catastrophic 'cytokine storm' (massive release of TNF-α, IL-1, IFN-γ) leading to severe fever, hypotension, and shock."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Bacterial cultures from infection sites; TSST-1 toxin detection via PCR or immunological assays; multi-organ failure screening (CMP, lactate)."
+        }
+      ]
+    },
+    {
+      "Name": "ELISA",
+      "Tag": "Immunodiagnosis",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Enzyme-Linked Immunosorbent Assay. A highly sensitive, solid-phase in vitro serological diagnostic method using microtiter plates."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Combines antibody-antigen binding specificity with enzyme-catalyzed substrate reactions (e.g., using horseradish peroxidase) to produce a quantifiable color change."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Standard screening method for HIV antibodies, food allergies (specific IgE), autoimmune disease autoantibodies (e.g., anti-dsDNA), and circulating cytokines."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Spectrophotometric reading of optical density (OD) to quantify target concentrations."
+        }
+      ]
+    },
+    {
+      "Name": "Live Attenuated Vaccine",
+      "Tag": "Immunoprevention",
+      "details": [
+        {
+          "title": "Key Characteristics & Origin",
+          "content": "Vaccines made from weakened (attenuated) live pathogens that maintain their replication capacity but lose their pathogenicity."
+        },
+        {
+          "title": "Primary Function & Mechanism",
+          "content": "Replicates transiently inside host cells, delivering vaccine antigens to both MHC Class I and Class II pathways, generating highly durable humoral and cellular (memory CD8+ CTL) immunity."
+        },
+        {
+          "title": "Clinical & Disease Associations",
+          "content": "Examples: Measles, Mumps, Rubella (MMR), Varicella, Oral Polio (Sabin). Contraindicated in pregnant women and immunocompromised individuals due to safety/reversion risks."
+        },
+        {
+          "title": "Diagnostic Markers / Lab Tests",
+          "content": "Serological antibody titer screening (post-vaccination IgG levels) confirming immunity."
         }
       ]
     }
