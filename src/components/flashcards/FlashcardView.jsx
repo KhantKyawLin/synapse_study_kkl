@@ -3,12 +3,59 @@ import FilterBar from './FilterBar';
 import Flashcard from './Flashcard';
 import CardControls from './CardControls';
 import rawData from '../../data/data.json';
+import { Bookmark, CheckCircle2 } from 'lucide-react';
+
+const LOCAL_STORAGE_KEY = 'synapse_flashcard_status';
 
 export default function FlashcardView() {
   const [selectedModule, setSelectedModule] = useState('All');
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [statusFilter, setStatusFilter] = useState('all'); // 'all' | 'review' | 'mastered'
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+
+  // LocalStorage state for card statuses: { [cardId]: 'mastered' | 'review' }
+  const [cardStatusMap, setCardStatusMap] = useState(() => {
+    try {
+      const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
+      return saved ? JSON.parse(saved) : {};
+    } catch (e) {
+      console.error('Failed to load card status from localStorage:', e);
+      return {};
+    }
+  });
+
+  // Save to localStorage whenever cardStatusMap changes
+  useEffect(() => {
+    try {
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(cardStatusMap));
+    } catch (e) {
+      console.error('Failed to save card status to localStorage:', e);
+    }
+  }, [cardStatusMap]);
+
+  // Helper to generate unique ID for a card
+  const getCardId = useCallback((card) => {
+    if (!card) return '';
+    return `${card.category || 'General'}::${card.question}`;
+  }, []);
+
+  // Toggle card status (mastered | review)
+  const handleToggleStatus = useCallback((card, targetStatus) => {
+    const cardId = getCardId(card);
+    if (!cardId) return;
+
+    setCardStatusMap((prev) => {
+      const current = prev[cardId];
+      const nextMap = { ...prev };
+      if (current === targetStatus) {
+        delete nextMap[cardId]; // Toggle off if clicked again
+      } else {
+        nextMap[cardId] = targetStatus;
+      }
+      return nextMap;
+    });
+  }, [getCardId]);
 
   // Parse modules and categories from rawData
   const { modules, categoryMap } = useMemo(() => {
@@ -50,8 +97,8 @@ export default function FlashcardView() {
     setSelectedCategory('All');
   }, [selectedModule]);
 
-  // Filtered cards list
-  const filteredCards = useMemo(() => {
+  // Subject/Category Filtered Cards
+  const moduleCategoryFilteredCards = useMemo(() => {
     return rawData.cards.filter((card) => {
       const parts = card.category ? card.category.split(' - ') : ['General'];
       const mod = parts[0] ? parts[0].trim() : 'General';
@@ -63,6 +110,34 @@ export default function FlashcardView() {
       return matchModule && matchCategory;
     });
   }, [selectedModule, selectedCategory]);
+
+  // Compute Counts for Status Badges
+  const { totalCount, reviewCount, masteredCount } = useMemo(() => {
+    let review = 0;
+    let mastered = 0;
+
+    moduleCategoryFilteredCards.forEach((card) => {
+      const id = getCardId(card);
+      const st = cardStatusMap[id];
+      if (st === 'review') review++;
+      else if (st === 'mastered') mastered++;
+    });
+
+    return {
+      totalCount: moduleCategoryFilteredCards.length,
+      reviewCount: review,
+      masteredCount: mastered,
+    };
+  }, [moduleCategoryFilteredCards, cardStatusMap, getCardId]);
+
+  // Final Filtered Cards (Subject/Category + Status Filter)
+  const filteredCards = useMemo(() => {
+    return moduleCategoryFilteredCards.filter((card) => {
+      if (statusFilter === 'all') return true;
+      const id = getCardId(card);
+      return cardStatusMap[id] === statusFilter;
+    });
+  }, [moduleCategoryFilteredCards, statusFilter, cardStatusMap, getCardId]);
 
   // Reset index & flip state when filters change
   useEffect(() => {
@@ -103,6 +178,7 @@ export default function FlashcardView() {
   }, [handleNext, handlePrev]);
 
   const currentCard = filteredCards[currentIndex];
+  const currentCardStatus = currentCard ? cardStatusMap[getCardId(currentCard)] : undefined;
 
   return (
     <div className="w-full max-w-5xl mx-auto px-4 py-6 sm:py-8 flex flex-col justify-center min-h-[calc(100vh-100px)]">
@@ -113,6 +189,11 @@ export default function FlashcardView() {
         categories={categories}
         selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
+        statusFilter={statusFilter}
+        setStatusFilter={setStatusFilter}
+        totalCount={totalCount}
+        reviewCount={reviewCount}
+        masteredCount={masteredCount}
       />
 
       {filteredCards.length > 0 ? (
@@ -121,6 +202,8 @@ export default function FlashcardView() {
             card={currentCard}
             isFlipped={isFlipped}
             setIsFlipped={setIsFlipped}
+            cardStatus={currentCardStatus}
+            onToggleStatus={(status) => handleToggleStatus(currentCard, status)}
           />
 
           <CardControls
@@ -131,8 +214,42 @@ export default function FlashcardView() {
           />
         </>
       ) : (
-        <div className="text-center py-20 bg-[#161b22]/50 border border-slate-800 rounded-2xl">
-          <p className="text-slate-400 font-semibold text-lg">No cards found matching your selection.</p>
+        <div className="text-center py-16 px-6 bg-[#161b22]/90 border border-slate-800 rounded-2xl max-w-xl mx-auto shadow-2xl backdrop-blur-xl">
+          {statusFilter === 'review' ? (
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
+                <Bookmark className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-white">No Cards Marked for Review</h3>
+              <p className="text-slate-400 text-sm max-w-sm">
+                Click the <span className="text-amber-300 font-semibold">📌 Review</span> button on any flashcard to save it here for targeted revision!
+              </p>
+              <button
+                onClick={() => setStatusFilter('all')}
+                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700"
+              >
+                View All Cards ({totalCount})
+              </button>
+            </div>
+          ) : statusFilter === 'mastered' ? (
+            <div className="flex flex-col items-center gap-3">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+                <CheckCircle2 className="w-6 h-6" />
+              </div>
+              <h3 className="text-lg font-bold text-white">No Cards Marked as Mastered</h3>
+              <p className="text-slate-400 text-sm max-w-sm">
+                Click the <span className="text-emerald-300 font-semibold">💚 Know</span> button on cards you've mastered to track your progress!
+              </p>
+              <button
+                onClick={() => setStatusFilter('all')}
+                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700"
+              >
+                View All Cards ({totalCount})
+              </button>
+            </div>
+          ) : (
+            <p className="text-slate-400 font-semibold text-base">No cards found matching your selection.</p>
+          )}
         </div>
       )}
     </div>
