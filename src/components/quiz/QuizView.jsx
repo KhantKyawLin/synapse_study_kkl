@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import QuizSetup from './QuizSetup';
 import QuizCard from './QuizCard';
 import QuizResult from './QuizResult';
@@ -7,6 +7,7 @@ import rawQuizData from '../../data/quizzes_data.json';
 export default function QuizView() {
   const modules = useMemo(() => Object.keys(rawQuizData || {}), []);
   const [selectedModule, setSelectedModule] = useState(modules[0] || '');
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const [questionCount, setQuestionCount] = useState('10');
   const [studentName, setStudentName] = useState('');
 
@@ -20,9 +21,32 @@ export default function QuizView() {
   const [timeRemaining, setTimeRemaining] = useState(1200);
   const [isTimeExpired, setIsTimeExpired] = useState(false);
 
-  const availableQuestions = useMemo(() => {
+  // All questions in the selected module
+  const moduleQuestions = useMemo(() => {
     return rawQuizData[selectedModule] || [];
   }, [selectedModule]);
+
+  // Extract available sub-categories / topics for the selected module
+  const categories = useMemo(() => {
+    const cats = new Set();
+    moduleQuestions.forEach((q) => {
+      if (q.category && q.category !== selectedModule) {
+        cats.add(q.category);
+      }
+    });
+    return Array.from(cats).sort();
+  }, [moduleQuestions, selectedModule]);
+
+  // Reset selected category to 'All' when selected module changes
+  useEffect(() => {
+    setSelectedCategory('All');
+  }, [selectedModule]);
+
+  // Questions filtered by both module and sub-category
+  const filteredQuestions = useMemo(() => {
+    if (selectedCategory === 'All') return moduleQuestions;
+    return moduleQuestions.filter((q) => q.category === selectedCategory);
+  }, [moduleQuestions, selectedCategory]);
 
   // Handle quiz timer interval
   useEffect(() => {
@@ -46,9 +70,9 @@ export default function QuizView() {
   }, [quizState, timeRemaining]);
 
   const handleStartQuiz = () => {
-    if (availableQuestions.length === 0) return;
-    const count = questionCount === 'all' ? availableQuestions.length : Math.min(parseInt(questionCount, 10), availableQuestions.length);
-    const selected = availableQuestions.slice(0, count);
+    if (filteredQuestions.length === 0) return;
+    const count = questionCount === 'all' ? filteredQuestions.length : Math.min(parseInt(questionCount, 10), filteredQuestions.length);
+    const selected = filteredQuestions.slice(0, count);
 
     // Calculate time limit (5 -> 10m, 10 -> 20m, 20 -> 40m, etc.)
     let allocatedMinutes = 10;
@@ -95,9 +119,12 @@ export default function QuizView() {
           modules={modules}
           selectedModule={selectedModule}
           setSelectedModule={setSelectedModule}
+          categories={categories}
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
           questionCount={questionCount}
           setQuestionCount={setQuestionCount}
-          totalAvailable={availableQuestions.length}
+          totalAvailable={filteredQuestions.length}
           studentName={studentName}
           setStudentName={setStudentName}
           onStartQuiz={handleStartQuiz}

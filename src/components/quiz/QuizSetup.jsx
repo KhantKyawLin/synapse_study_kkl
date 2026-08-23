@@ -1,10 +1,13 @@
 import React from 'react';
-import { User, Clock, Award } from 'lucide-react';
+import { User, Clock, Award, Filter } from 'lucide-react';
 
 export default function QuizSetup({
   modules,
   selectedModule,
   setSelectedModule,
+  categories,
+  selectedCategory,
+  setSelectedCategory,
   questionCount,
   setQuestionCount,
   totalAvailable,
@@ -30,7 +33,7 @@ export default function QuizSetup({
         <Award className="w-6 h-6" />
       </div>
       <h2 className="text-2xl font-bold text-white mb-1 text-center">Interactive Quiz Setup</h2>
-      <p className="text-slate-400 text-sm text-center mb-6">Enter your name and choose module options to begin</p>
+      <p className="text-slate-400 text-sm text-center mb-6">Enter your name and select topic options to begin</p>
 
       <form onSubmit={(e) => { e.preventDefault(); if (studentName.trim()) onStartQuiz(); }} className="flex flex-col gap-5">
         {/* Student Name Input */}
@@ -71,7 +74,28 @@ export default function QuizSetup({
           </select>
         </div>
 
-        {/* Question Quantity & Timer Preview */}
+        {/* Sub-Category / Topic Selector */}
+        {categories && categories.length > 0 && (
+          <div>
+            <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1 flex items-center gap-1">
+              <Filter className="w-3.5 h-3.5 text-cyanPrimary" /> Filter by Sub-Topic / Category
+            </label>
+            <select
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+              className="custom-select w-full"
+            >
+              <option value="All">All Sub-Topics ({totalAvailable} Questions)</option>
+              {categories.map((cat) => (
+                <option key={cat} value={cat}>
+                  {cat}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+
+        {/* Question Quantity Selector */}
         <div>
           <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
             Number of Questions
