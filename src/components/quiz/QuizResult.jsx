@@ -233,7 +233,7 @@ export default function QuizResult({
               {q.explanation && (
                 <div className="mt-2 p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300">
                   <span className="font-bold text-cyanGlow">Explanation:</span>{' '}
-                  <KatexText text={q.explanation} />
+                  <KatexText text={q.explanation.replace(/\s*\(\s*(?:Passage|Slide|Page|Source)\b[^)]*\)/gi, '').trim()} />
                 </div>
               )}
             </div>

@@ -339,7 +339,10 @@ function updateQuizData() {
                         if (foundIdx !== -1) correctIndex = foundIdx;
                     }
 
-                    const explanation = keyInfo.explanation || (expIdx !== -1 ? String(row[expIdx] || '').trim() : '');
+                    let explanation = keyInfo.explanation || (expIdx !== -1 ? String(row[expIdx] || '').trim() : '');
+                    if (explanation) {
+                        explanation = explanation.replace(/\s*\(\s*(?:Passage|Slide|Page|Source)\b[^)]*\)/gi, '').trim();
+                    }
 
                     questions.push({
                         id: i,
