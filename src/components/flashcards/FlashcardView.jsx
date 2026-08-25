@@ -3,9 +3,8 @@ import FilterBar from './FilterBar';
 import Flashcard from './Flashcard';
 import CardControls from './CardControls';
 import rawData from '../../data/data.json';
-import { Bookmark, CheckCircle2 } from 'lucide-react';
-
-const LOCAL_STORAGE_KEY = 'synapse_flashcard_status';
+import { Bookmark, CheckCircle2, Cloud } from 'lucide-react';
+import { useFlashcardSync } from '../../hooks/useFlashcardSync';
 
 export default function FlashcardView() {
   const [selectedModule, setSelectedModule] = useState('All');
@@ -14,48 +13,8 @@ export default function FlashcardView() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
-  // LocalStorage state for card statuses: { [cardId]: 'mastered' | 'review' }
-  const [cardStatusMap, setCardStatusMap] = useState(() => {
-    try {
-      const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
-      return saved ? JSON.parse(saved) : {};
-    } catch (e) {
-      console.error('Failed to load card status from localStorage:', e);
-      return {};
-    }
-  });
-
-  // Save to localStorage whenever cardStatusMap changes
-  useEffect(() => {
-    try {
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(cardStatusMap));
-    } catch (e) {
-      console.error('Failed to save card status to localStorage:', e);
-    }
-  }, [cardStatusMap]);
-
-  // Helper to generate unique ID for a card
-  const getCardId = useCallback((card) => {
-    if (!card) return '';
-    return `${card.category || 'General'}::${card.question}`;
-  }, []);
-
-  // Toggle card status (mastered | review) without resetting current index
-  const handleToggleStatus = useCallback((card, targetStatus) => {
-    const cardId = getCardId(card);
-    if (!cardId) return;
-
-    setCardStatusMap((prev) => {
-      const current = prev[cardId];
-      const nextMap = { ...prev };
-      if (current === targetStatus) {
-        delete nextMap[cardId]; // Toggle off if clicked again
-      } else {
-        nextMap[cardId] = targetStatus;
-      }
-      return nextMap;
-    });
-  }, [getCardId]);
+  // Use the cloud-synced flashcard hook (with automatic localStorage fallback)
+  const { cardStatusMap, handleToggleStatus, getCardId, isSyncing, cloudSynced } = useFlashcardSync();
 
   // Parse modules and categories from rawData
   const { modules, categoryMap } = useMemo(() => {
