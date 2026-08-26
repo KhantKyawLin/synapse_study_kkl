@@ -20,7 +20,7 @@ export default function App() {
           {activeView === 'quiz' && <QuizView />}
         </main>
 
-        <AuthModal />
+        <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />
       </div>
     </AuthProvider>
   );

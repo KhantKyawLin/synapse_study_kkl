@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { X, Mail, Lock, User, Sparkles, AlertCircle, CheckCircle2, Loader2, Eye, EyeOff } from 'lucide-react';
 
-export default function AuthModal() {
+export default function AuthModal({ onAuthSuccess }) {
   const { isAuthModalOpen, setIsAuthModalOpen, signIn, signUp, resetPassword, isConfigured } = useAuth();
   const [mode, setMode] = useState('signin'); // 'signin' | 'signup' | 'forgot'
   const [fullName, setFullName] = useState('');
@@ -16,13 +16,20 @@ export default function AuthModal() {
 
   if (!isAuthModalOpen) return null;
 
+  const handleClose = () => {
+    setErrorMsg('');
+    setSuccessMsg('');
+    setPassword('');
+    setIsAuthModalOpen(false);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setErrorMsg('');
     setSuccessMsg('');
 
     if (!isConfigured) {
-      setErrorMsg('Supabase is not configured yet. Please add your VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY to your environment variables.');
+      setErrorMsg('Supabase is not configured yet. Please check your environment variables.');
       return;
     }
 
@@ -33,19 +40,34 @@ export default function AuthModal() {
           throw new Error('Please enter your full name');
         }
         await signUp(email.trim(), password, fullName.trim());
-        setSuccessMsg('Account created successfully! Check your email if confirmation is required.');
+        setSuccessMsg('Account created successfully! Redirecting to study homepage...');
+        
+        // Clear sensitive inputs immediately
+        setPassword('');
+        setEmail('');
+        setFullName('');
+
         setTimeout(() => {
           setIsAuthModalOpen(false);
-        }, 1500);
+          if (onAuthSuccess) onAuthSuccess();
+        }, 1000);
       } else if (mode === 'signin') {
         await signIn(email.trim(), password);
-        setSuccessMsg('Signed in successfully!');
+        setSuccessMsg('Signed in successfully! Redirecting to study homepage...');
+        
+        // Clear sensitive inputs immediately
+        setPassword('');
+        setEmail('');
+        setFullName('');
+
         setTimeout(() => {
           setIsAuthModalOpen(false);
+          if (onAuthSuccess) onAuthSuccess();
         }, 1000);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
         setSuccessMsg('Password reset link sent to your email address!');
+        setPassword('');
       }
     } catch (err) {
       setErrorMsg(err.message || 'An error occurred during authentication.');
@@ -55,7 +77,7 @@ export default function AuthModal() {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-md animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
       <div 
         className="w-full max-w-md bg-[#161b22] border border-cyanPrimary/40 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-cyanPrimary/10 relative overflow-hidden text-slate-200"
         onClick={(e) => e.stopPropagation()}
@@ -65,7 +87,7 @@ export default function AuthModal() {
 
         {/* Close Button */}
         <button
-          onClick={() => setIsAuthModalOpen(false)}
+          onClick={handleClose}
           className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-all"
         >
           <X className="w-5 h-5" />
@@ -93,7 +115,7 @@ export default function AuthModal() {
           <div className="grid grid-cols-2 p-1 bg-[#0d1117] border border-slate-800 rounded-xl mb-6 text-xs font-bold">
             <button
               type="button"
-              onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); }}
+              onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
               className={`py-2 rounded-lg transition-all ${
                 mode === 'signin'
                   ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
@@ -104,7 +126,7 @@ export default function AuthModal() {
             </button>
             <button
               type="button"
-              onClick={() => { setMode('signup'); setErrorMsg(''); setSuccessMsg(''); }}
+              onClick={() => { setMode('signup'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
               className={`py-2 rounded-lg transition-all ${
                 mode === 'signup'
                   ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
@@ -182,7 +204,7 @@ export default function AuthModal() {
                 {mode === 'signin' && (
                   <button
                     type="button"
-                    onClick={() => { setMode('forgot'); setErrorMsg(''); setSuccessMsg(''); }}
+                    onClick={() => { setMode('forgot'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
                     className="text-xs text-cyanGlow hover:underline"
                   >
                     Forgot?
@@ -243,7 +265,7 @@ export default function AuthModal() {
           <div className="mt-4 text-center">
             <button
               type="button"
-              onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); }}
+              onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
               className="text-xs text-slate-400 hover:text-white"
             >
               ← Back to Sign In
