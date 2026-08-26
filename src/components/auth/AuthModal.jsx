@@ -2,17 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { X, Mail, Lock, User, Sparkles, AlertCircle, CheckCircle2, Loader2, Eye, EyeOff, KeyRound } from 'lucide-react';
 
-export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
+export default function AuthModal({ onAuthSuccess }) {
   const { 
     isAuthModalOpen, 
     setIsAuthModalOpen, 
-    user,
+    authModalMode,
+    setAuthModalMode,
     signIn, 
     signUp, 
     resetPassword, 
     updatePassword, 
-    isRecoveryMode, 
-    setIsRecoveryMode, 
     isConfigured 
   } = useAuth();
   
@@ -26,21 +25,15 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
 
-  // Always reset messages and inputs whenever modal is opened
+  // Sync mode with authModalMode whenever modal opens
   useEffect(() => {
     if (isAuthModalOpen) {
       setErrorMsg('');
       setSuccessMsg('');
       setPassword('');
-      if (isRecoveryMode) {
-        setMode('newpassword');
-      } else if (!user) {
-        setMode(initialMode || 'signin');
-      } else {
-        setMode('newpassword');
-      }
+      setMode(authModalMode || 'signin');
     }
-  }, [isAuthModalOpen, isRecoveryMode, user, initialMode]);
+  }, [isAuthModalOpen, authModalMode]);
 
   if (!isAuthModalOpen) return null;
 
@@ -48,7 +41,6 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
     setErrorMsg('');
     setSuccessMsg('');
     setPassword('');
-    setIsRecoveryMode(false);
     setIsAuthModalOpen(false);
   };
 
@@ -108,7 +100,6 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
         setPassword('');
         setTimeout(() => {
           setIsAuthModalOpen(false);
-          setIsRecoveryMode(false);
           setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
         }, 1100);
@@ -177,12 +168,12 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
               </p>
             </div>
 
-            {/* Mode Tabs (only when logged out and in signin/signup) */}
-            {!user && (mode === 'signin' || mode === 'signup') && (
+            {/* Mode Tabs (only in signin/signup mode) */}
+            {(mode === 'signin' || mode === 'signup') && (
               <div className="grid grid-cols-2 p-1 bg-[#0d1117] border border-slate-800 rounded-xl mb-6 text-xs font-bold">
                 <button
                   type="button"
-                  onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
+                  onClick={() => { setMode('signin'); setAuthModalMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
                   className={`py-2 rounded-lg transition-all ${
                     mode === 'signin'
                       ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
@@ -193,7 +184,7 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
                 </button>
                 <button
                   type="button"
-                  onClick={() => { setMode('signup'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
+                  onClick={() => { setMode('signup'); setAuthModalMode('signup'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
                   className={`py-2 rounded-lg transition-all ${
                     mode === 'signup'
                       ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
@@ -266,7 +257,7 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
                     {mode === 'signin' && (
                       <button
                         type="button"
-                        onClick={() => { setMode('forgot'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
+                        onClick={() => { setMode('forgot'); setAuthModalMode('forgot'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
                         className="text-xs text-cyanGlow hover:underline"
                       >
                         Forgot?
@@ -329,7 +320,7 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
               <div className="mt-4 text-center">
                 <button
                   type="button"
-                  onClick={() => { setMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
+                  onClick={() => { setMode('signin'); setAuthModalMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
                   className="text-xs text-slate-400 hover:text-white"
                 >
                   ← Back to Sign In

@@ -8,7 +8,7 @@ export function AuthProvider({ children }) {
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
-  const [isRecoveryMode, setIsRecoveryMode] = useState(false);
+  const [authModalMode, setAuthModalMode] = useState('signin'); // 'signin' | 'signup' | 'forgot' | 'newpassword'
 
   useEffect(() => {
     if (!isSupabaseConfigured || !supabase) {
@@ -18,7 +18,7 @@ export function AuthProvider({ children }) {
 
     // Check if URL contains type=recovery
     if (window.location.hash && window.location.hash.includes('type=recovery')) {
-      setIsRecoveryMode(true);
+      setAuthModalMode('newpassword');
       setIsAuthModalOpen(true);
     }
 
@@ -36,7 +36,7 @@ export function AuthProvider({ children }) {
       setLoading(false);
 
       if (event === 'PASSWORD_RECOVERY') {
-        setIsRecoveryMode(true);
+        setAuthModalMode('newpassword');
         setIsAuthModalOpen(true);
       }
     });
@@ -45,6 +45,11 @@ export function AuthProvider({ children }) {
       subscription.unsubscribe();
     };
   }, []);
+
+  const openAuthModal = (mode = 'signin') => {
+    setAuthModalMode(mode);
+    setIsAuthModalOpen(true);
+  };
 
   // Sign up with email, password, and full name
   const signUp = async (email, password, fullName) => {
@@ -115,7 +120,6 @@ export function AuthProvider({ children }) {
       password: newPassword,
     });
     if (error) throw error;
-    setIsRecoveryMode(false);
     return data;
   };
 
@@ -126,8 +130,9 @@ export function AuthProvider({ children }) {
     isConfigured: isSupabaseConfigured,
     isAuthModalOpen,
     setIsAuthModalOpen,
-    isRecoveryMode,
-    setIsRecoveryMode,
+    authModalMode,
+    setAuthModalMode,
+    openAuthModal,
     signUp,
     signIn,
     signOut,

@@ -4,7 +4,7 @@ import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
 
 export default function Header({ activeView, setActiveView }) {
-  const { user, signOut, setIsAuthModalOpen } = useAuth();
+  const { user, signOut, openAuthModal } = useAuth();
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
   const [signOutLoading, setSignOutLoading] = useState(false);
   const [signOutSuccess, setSignOutSuccess] = useState(false);
@@ -30,7 +30,7 @@ export default function Header({ activeView, setActiveView }) {
   };
 
   const handleOpenChangePassword = () => {
-    setIsAuthModalOpen(true);
+    openAuthModal('newpassword');
   };
 
   return (
@@ -128,7 +128,7 @@ export default function Header({ activeView, setActiveView }) {
               </div>
             ) : (
               <button
-                onClick={() => setIsAuthModalOpen(true)}
+                onClick={() => openAuthModal('signin')}
                 className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/20 hover:brightness-110 active:scale-[0.98] transition-all"
               >
                 <Sparkles className="w-3.5 h-3.5" />
