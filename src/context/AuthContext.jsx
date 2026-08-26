@@ -9,6 +9,10 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalMode, setAuthModalMode] = useState('signin'); // 'signin' | 'signup' | 'forgot' | 'newpassword'
+  
+  // Account Settings Modal State
+  const [isAccountSettingsOpen, setIsAccountSettingsOpen] = useState(false);
+  const [accountSettingsTab, setAccountSettingsTab] = useState('profile'); // 'profile' | 'security' | 'history'
 
   useEffect(() => {
     if (!isSupabaseConfigured || !supabase) {
@@ -51,6 +55,11 @@ export function AuthProvider({ children }) {
     setIsAuthModalOpen(true);
   };
 
+  const openAccountSettings = (tab = 'profile') => {
+    setAccountSettingsTab(tab);
+    setIsAccountSettingsOpen(true);
+  };
+
   // Sign up with email, password, and full name
   const signUp = async (email, password, fullName) => {
     if (!supabase) throw new Error('Supabase is not configured yet');
@@ -61,6 +70,7 @@ export function AuthProvider({ children }) {
       options: {
         data: {
           full_name: fullName,
+          avatar_url: 'avatar_doctor_1',
         },
       },
     });
@@ -74,6 +84,7 @@ export function AuthProvider({ children }) {
           id: data.user.id,
           full_name: fullName,
           email: email,
+          avatar_url: 'avatar_doctor_1',
           updated_at: new Date().toISOString(),
         });
       } catch (err) {
@@ -123,6 +134,35 @@ export function AuthProvider({ children }) {
     return data;
   };
 
+  // Update Profile Details (Full Name and Avatar)
+  const updateProfile = async ({ fullName, avatarUrl }) => {
+    if (!supabase) throw new Error('Supabase is not configured yet');
+    const updateData = {};
+    if (fullName !== undefined) updateData.full_name = fullName;
+    if (avatarUrl !== undefined) updateData.avatar_url = avatarUrl;
+
+    const { data, error } = await supabase.auth.updateUser({
+      data: updateData,
+    });
+    if (error) throw error;
+
+    if (data?.user) {
+      setUser(data.user);
+      try {
+        await supabase.from('profiles').upsert({
+          id: data.user.id,
+          full_name: fullName || data.user.user_metadata?.full_name || '',
+          avatar_url: avatarUrl || data.user.user_metadata?.avatar_url || 'avatar_doctor_1',
+          email: data.user.email,
+          updated_at: new Date().toISOString(),
+        });
+      } catch (err) {
+        console.warn('Profile table sync note:', err);
+      }
+    }
+    return data;
+  };
+
   const value = {
     user,
     session,
@@ -133,11 +173,17 @@ export function AuthProvider({ children }) {
     authModalMode,
     setAuthModalMode,
     openAuthModal,
+    isAccountSettingsOpen,
+    setIsAccountSettingsOpen,
+    accountSettingsTab,
+    setAccountSettingsTab,
+    openAccountSettings,
     signUp,
     signIn,
     signOut,
     resetPassword,
     updatePassword,
+    updateProfile,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

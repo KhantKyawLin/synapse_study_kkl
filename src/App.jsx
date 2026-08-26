@@ -4,6 +4,7 @@ import FlashcardView from './components/flashcards/FlashcardView';
 import DashboardView from './components/dashboard/DashboardView';
 import QuizView from './components/quiz/QuizView';
 import AuthModal from './components/auth/AuthModal';
+import AccountSettingsModal from './components/auth/AccountSettingsModal';
 import { AuthProvider } from './context/AuthContext';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         </main>
 
         <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />
+        <AccountSettingsModal />
       </div>
     </AuthProvider>
   );

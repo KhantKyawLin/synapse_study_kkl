@@ -1,15 +1,29 @@
 import React, { useState } from 'react';
-import { Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, X } from 'lucide-react';
+import { 
+  Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, 
+  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award 
+} from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
 
+// Preset avatar emoji mapping
+const AVATAR_EMOJIS = {
+  avatar_doc_m: '👨‍⚕️',
+  avatar_doc_f: '👩‍⚕️',
+  avatar_neuro: '🧠',
+  avatar_surgeon: '🥼',
+  avatar_lab: '🔬',
+  avatar_pharma: '💊',
+};
+
 export default function Header({ activeView, setActiveView }) {
-  const { user, signOut, openAuthModal } = useAuth();
+  const { user, signOut, openAuthModal, openAccountSettings } = useAuth();
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
   const [signOutLoading, setSignOutLoading] = useState(false);
   const [signOutSuccess, setSignOutSuccess] = useState(false);
 
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
+  const avatarKey = user?.user_metadata?.avatar_url || 'avatar_doc_m';
 
   const handleConfirmSignOut = async () => {
     try {
@@ -29,34 +43,60 @@ export default function Header({ activeView, setActiveView }) {
     }
   };
 
-  const handleOpenChangePassword = () => {
-    openAuthModal('newpassword');
-  };
-
   return (
     <>
-      <header className="w-full bg-[#161b22]/80 backdrop-blur-md border-b border-sky-500/20 px-4 py-3 sm:px-8 sm:py-4 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          {/* Logo Container */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveView('flashcards')}>
-            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl overflow-hidden border border-cyanPrimary/40 shadow-lg shadow-cyanPrimary/10">
-              <img src={logoImg} alt="Synapse Study" className="w-full h-full object-cover" />
+      <header className="w-full bg-[#161b22]/90 backdrop-blur-xl border-b border-sky-500/20 px-3 sm:px-6 md:px-8 py-2.5 sm:py-3.5 sticky top-0 z-40">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
+          
+          {/* Top Row / Logo Container */}
+          <div className="w-full md:w-auto flex items-center justify-between">
+            <div 
+              className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group" 
+              onClick={() => setActiveView('flashcards')}
+            >
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl overflow-hidden border border-cyanPrimary/40 shadow-lg shadow-cyanPrimary/10 group-hover:border-cyanPrimary transition-all shrink-0">
+                <img src={logoImg} alt="Synapse Study" className="w-full h-full object-cover" />
+              </div>
+              <div>
+                <h1 className="text-lg sm:text-2xl font-extrabold tracking-tight text-white leading-none">
+                  <span className="text-cyanPrimary">SYNAPSE</span> STUDY
+                </h1>
+                <span className="text-[9px] sm:text-[10px] text-slate-400 font-semibold tracking-wider uppercase block mt-0.5">
+                  Medical Exam Prep Platform
+                </span>
+              </div>
             </div>
-            <div>
-              <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white leading-none">
-                <span className="text-cyanPrimary">SYNAPSE</span> STUDY
-              </h1>
-              <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase">Medical Exam Prep</span>
+
+            {/* Mobile-only Compact Auth Trigger */}
+            <div className="flex md:hidden items-center gap-1.5">
+              {user ? (
+                <button
+                  onClick={() => openAccountSettings('profile')}
+                  className="flex items-center gap-1.5 px-2.5 py-1 bg-[#0d1117] border border-cyanPrimary/40 rounded-xl text-xs font-bold text-white shadow-sm"
+                >
+                  <span className="text-sm">
+                    {avatarKey.startsWith('http') ? '👤' : (AVATAR_EMOJIS[avatarKey] || '👨‍⚕️')}
+                  </span>
+                  <span className="truncate max-w-[80px] text-[11px]">{displayName}</span>
+                </button>
+              ) : (
+                <button
+                  onClick={() => openAuthModal('signin')}
+                  className="px-2.5 py-1 text-[11px] font-bold bg-cyanPrimary text-white rounded-lg shadow-sm"
+                >
+                  Sign In
+                </button>
+              )}
             </div>
           </div>
 
-          {/* Right Navigation & User Bar */}
-          <div className="flex flex-wrap items-center justify-center gap-3">
+          {/* Navigation Tabs & Desktop User Profile */}
+          <div className="w-full md:w-auto flex flex-wrap items-center justify-center md:justify-end gap-2 sm:gap-3">
             {/* Navigation Tabs */}
             <nav className="flex items-center bg-[#0d1117] p-1 rounded-xl border border-slate-800 shadow-inner">
               <button
                 onClick={() => setActiveView('flashcards')}
-                className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'flashcards'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
@@ -68,7 +108,7 @@ export default function Header({ activeView, setActiveView }) {
 
               <button
                 onClick={() => setActiveView('dashboards')}
-                className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'dashboards'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
@@ -80,7 +120,7 @@ export default function Header({ activeView, setActiveView }) {
 
               <button
                 onClick={() => setActiveView('quiz')}
-                className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'quiz'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
@@ -91,30 +131,38 @@ export default function Header({ activeView, setActiveView }) {
               </button>
             </nav>
 
-            {/* User Profile / Auth Button */}
+            {/* Desktop User Profile Badge */}
             {user ? (
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-[#0d1117] border border-cyanPrimary/30 rounded-xl">
-                <div className="flex items-center gap-1.5">
-                  <div className="w-6 h-6 rounded-lg bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center text-cyanPrimary">
-                    <User className="w-3.5 h-3.5" />
+              <div className="hidden md:flex items-center gap-2 px-3 py-1.5 bg-[#0d1117] border border-cyanPrimary/30 hover:border-cyanPrimary/60 rounded-xl transition-all">
+                <button
+                  onClick={() => openAccountSettings('profile')}
+                  className="flex items-center gap-2 text-left group"
+                  title="Open Account Settings"
+                >
+                  <div className="w-7 h-7 rounded-lg overflow-hidden border border-cyanPrimary/40 flex items-center justify-center text-base shrink-0 bg-slate-800">
+                    {avatarKey.startsWith('http') ? (
+                      <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover" />
+                    ) : (
+                      <span>{AVATAR_EMOJIS[avatarKey] || '👨‍⚕️'}</span>
+                    )}
                   </div>
-                  <div className="flex flex-col text-left">
-                    <span className="text-xs font-bold text-white leading-tight truncate max-w-[110px]">
+                  <div className="flex flex-col">
+                    <span className="text-xs font-bold text-white leading-tight truncate max-w-[110px] group-hover:text-cyanGlow transition-colors">
                       {displayName}
                     </span>
                     <span className="text-[9px] text-emerald-400 flex items-center gap-0.5 font-medium leading-none">
                       <Cloud className="w-2.5 h-2.5" /> Synced
                     </span>
                   </div>
-                </div>
+                </button>
 
                 <div className="flex items-center gap-1 ml-1 border-l border-slate-800 pl-1.5">
                   <button
-                    onClick={handleOpenChangePassword}
-                    title="Change Password"
+                    onClick={() => openAccountSettings('profile')}
+                    title="Account Settings"
                     className="p-1 rounded-lg text-slate-400 hover:text-cyanGlow hover:bg-cyanPrimary/10 transition-colors"
                   >
-                    <KeyRound className="w-3.5 h-3.5" />
+                    <Settings className="w-3.5 h-3.5" />
                   </button>
 
                   <button
@@ -129,7 +177,7 @@ export default function Header({ activeView, setActiveView }) {
             ) : (
               <button
                 onClick={() => openAuthModal('signin')}
-                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/20 hover:brightness-110 active:scale-[0.98] transition-all"
+                className="hidden md:flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/20 hover:brightness-110 active:scale-[0.98] transition-all"
               >
                 <Sparkles className="w-3.5 h-3.5" />
                 <span>Sign In / Sync</span>

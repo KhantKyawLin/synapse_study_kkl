@@ -2,13 +2,13 @@ import React, { useState, useMemo, useEffect, useRef } from 'react';
 import QuizSetup from './QuizSetup';
 import QuizCard from './QuizCard';
 import QuizResult from './QuizResult';
-import QuizHistoryModal from './QuizHistoryModal';
 import { useQuizHistory } from '../../hooks/useQuizHistory';
+import { useAuth } from '../../context/AuthContext';
 import rawQuizData from '../../data/quizzes_data.json';
 
 export default function QuizView() {
-  const { history, stats, saveQuizAttempt } = useQuizHistory();
-  const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
+  const { history, saveQuizAttempt } = useQuizHistory();
+  const { openAccountSettings } = useAuth();
 
   const modules = useMemo(() => Object.keys(rawQuizData || {}), []);
   const [selectedModule, setSelectedModule] = useState(modules[0] || '');
@@ -149,7 +149,7 @@ export default function QuizView() {
   const timeSpent = totalAllocatedSeconds - timeRemaining;
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-6 sm:py-8">
+    <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 md:px-8 py-4 sm:py-8">
       {quizState === 'setup' && (
         <QuizSetup
           modules={modules}
@@ -164,7 +164,7 @@ export default function QuizView() {
           studentName={studentName}
           setStudentName={setStudentName}
           onStartQuiz={handleStartQuiz}
-          onOpenHistory={() => setIsHistoryModalOpen(true)}
+          onOpenHistory={() => openAccountSettings('history')}
           historyCount={history.length}
         />
       )}
@@ -193,17 +193,9 @@ export default function QuizView() {
           isTimeExpired={isTimeExpired}
           onRestart={handleStartQuiz}
           onChooseNewQuiz={() => setQuizState('setup')}
-          onOpenHistory={() => setIsHistoryModalOpen(true)}
+          onOpenHistory={() => openAccountSettings('history')}
         />
       )}
-
-      {/* Student Quiz History & Certificate Modal */}
-      <QuizHistoryModal
-        isOpen={isHistoryModalOpen}
-        onClose={() => setIsHistoryModalOpen(false)}
-        history={history}
-        stats={stats}
-      />
     </div>
   );
 }
