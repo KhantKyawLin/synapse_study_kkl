@@ -72,7 +72,7 @@ export default function AuthModal({ onAuthSuccess }) {
           setIsAuthModalOpen(false);
           setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1100);
+        }, 1200);
       } else if (mode === 'signin') {
         await signIn(email.trim(), password);
         setSuccessMsg('Signed In successfully!');
@@ -86,10 +86,10 @@ export default function AuthModal({ onAuthSuccess }) {
           setIsAuthModalOpen(false);
           setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1100);
+        }, 1200);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
-        setSuccessMsg('Password reset link sent to your email!');
+        setSuccessMsg('Password reset link sent!');
         setPassword('');
       } else if (mode === 'newpassword') {
         if (password.length < 6) {
@@ -102,7 +102,7 @@ export default function AuthModal({ onAuthSuccess }) {
           setIsAuthModalOpen(false);
           setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1100);
+        }, 1300);
       }
     } catch (err) {
       setErrorMsg(err.message || 'An error occurred during authentication.');
@@ -138,7 +138,11 @@ export default function AuthModal({ onAuthSuccess }) {
               {successMsg}
             </h2>
             <p className="text-xs text-slate-400">
-              {mode === 'forgot' ? 'Please check your inbox to reset your password.' : 'Directing to your flashcards...'}
+              {mode === 'forgot' 
+                ? 'Please check your email inbox to reset your password.' 
+                : mode === 'newpassword'
+                ? 'Your password has been updated securely.'
+                : 'Directing to your flashcards...'}
             </p>
           </div>
         ) : (
