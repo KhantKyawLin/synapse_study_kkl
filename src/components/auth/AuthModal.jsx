@@ -26,16 +26,21 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
 
-  // Switch to newpassword mode automatically if in recovery flow or user requested
+  // Always reset messages and inputs whenever modal is opened
   useEffect(() => {
-    if (isRecoveryMode) {
-      setMode('newpassword');
-    } else if (isAuthModalOpen && !user) {
-      setMode(initialMode || 'signin');
-    } else if (isAuthModalOpen && user) {
-      setMode('newpassword');
+    if (isAuthModalOpen) {
+      setErrorMsg('');
+      setSuccessMsg('');
+      setPassword('');
+      if (isRecoveryMode) {
+        setMode('newpassword');
+      } else if (!user) {
+        setMode(initialMode || 'signin');
+      } else {
+        setMode('newpassword');
+      }
     }
-  }, [isRecoveryMode, isAuthModalOpen, user, initialMode]);
+  }, [isAuthModalOpen, isRecoveryMode, user, initialMode]);
 
   if (!isAuthModalOpen) return null;
 
@@ -73,8 +78,9 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
 
         setTimeout(() => {
           setIsAuthModalOpen(false);
+          setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1200);
+        }, 1100);
       } else if (mode === 'signin') {
         await signIn(email.trim(), password);
         setSuccessMsg('Signed In successfully!');
@@ -86,8 +92,9 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
 
         setTimeout(() => {
           setIsAuthModalOpen(false);
+          setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1200);
+        }, 1100);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
         setSuccessMsg('Password reset link sent to your email!');
@@ -102,8 +109,9 @@ export default function AuthModal({ onAuthSuccess, initialMode = 'signin' }) {
         setTimeout(() => {
           setIsAuthModalOpen(false);
           setIsRecoveryMode(false);
+          setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1200);
+        }, 1100);
       }
     } catch (err) {
       setErrorMsg(err.message || 'An error occurred during authentication.');

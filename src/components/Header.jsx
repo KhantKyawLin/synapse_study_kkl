@@ -1,17 +1,32 @@
 import React, { useState } from 'react';
-import { Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, Sparkles, AlertTriangle, KeyRound, X } from 'lucide-react';
+import { Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, X } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
 
 export default function Header({ activeView, setActiveView }) {
   const { user, signOut, setIsAuthModalOpen } = useAuth();
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
+  const [signOutLoading, setSignOutLoading] = useState(false);
+  const [signOutSuccess, setSignOutSuccess] = useState(false);
+
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
 
   const handleConfirmSignOut = async () => {
-    setShowSignOutConfirm(false);
-    await signOut();
-    setActiveView('flashcards');
+    try {
+      setSignOutLoading(true);
+      await signOut();
+      setSignOutLoading(false);
+      setSignOutSuccess(true);
+      setTimeout(() => {
+        setSignOutSuccess(false);
+        setShowSignOutConfirm(false);
+        setActiveView('flashcards');
+      }, 1100);
+    } catch (err) {
+      console.error('Sign out error:', err);
+      setSignOutLoading(false);
+      setShowSignOutConfirm(false);
+    }
   };
 
   const handleOpenChangePassword = () => {
@@ -103,7 +118,7 @@ export default function Header({ activeView, setActiveView }) {
                   </button>
 
                   <button
-                    onClick={() => setShowSignOutConfirm(true)}
+                    onClick={() => { setSignOutSuccess(false); setShowSignOutConfirm(true); }}
                     title="Sign Out"
                     className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors"
                   >
@@ -124,36 +139,57 @@ export default function Header({ activeView, setActiveView }) {
         </div>
       </header>
 
-      {/* Sign Out Confirmation Modal */}
+      {/* Sign Out Confirmation & Success Modal */}
       {showSignOutConfirm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-md animate-fadeIn">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
           <div 
-            className="w-full max-w-sm bg-[#161b22] border border-rose-500/30 rounded-2xl p-6 shadow-2xl shadow-rose-500/10 relative text-slate-200 text-center animate-fadeIn"
+            className="w-full max-w-sm bg-[#161b22] border border-cyanPrimary/30 rounded-2xl p-6 shadow-2xl shadow-cyanPrimary/10 relative text-slate-200 text-center animate-fadeIn"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="w-12 h-12 rounded-xl bg-rose-500/20 border border-rose-500/40 flex items-center justify-center mx-auto mb-3 text-rose-400">
-              <AlertTriangle className="w-6 h-6" />
-            </div>
+            {signOutSuccess ? (
+              <div className="py-4 animate-fadeIn">
+                <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-3 text-emerald-400 shadow-lg shadow-emerald-500/20 animate-bounce">
+                  <CheckCircle2 className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-black text-white mb-1">Signed Out successfully!</h3>
+                <p className="text-xs text-slate-400">Your study progress will remain safely saved.</p>
+              </div>
+            ) : (
+              <>
+                <div className="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-3 text-amber-400">
+                  <AlertTriangle className="w-6 h-6" />
+                </div>
 
-            <h3 className="text-lg font-bold text-white mb-1">Sign Out Confirmation</h3>
-            <p className="text-xs text-slate-400 mb-6">
-              Are you sure you want to sign out? Your study progress will remain safely saved.
-            </p>
+                <h3 className="text-lg font-bold text-white mb-1">Sign Out Confirmation</h3>
+                <p className="text-xs text-slate-400 mb-6">
+                  Are you sure you want to sign out? Your study progress will remain safely saved.
+                </p>
 
-            <div className="grid grid-cols-2 gap-3">
-              <button
-                onClick={() => setShowSignOutConfirm(false)}
-                className="py-2.5 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition-colors"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={handleConfirmSignOut}
-                className="py-2.5 rounded-xl text-xs font-bold bg-rose-600 text-white hover:bg-rose-500 shadow-md shadow-rose-600/30 transition-colors"
-              >
-                Yes, Sign Out
-              </button>
-            </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    onClick={() => setShowSignOutConfirm(false)}
+                    disabled={signOutLoading}
+                    className="py-2.5 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition-colors disabled:opacity-50"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    onClick={handleConfirmSignOut}
+                    disabled={signOutLoading}
+                    className="py-2.5 rounded-xl text-xs font-bold bg-rose-600 text-white hover:bg-rose-500 shadow-md shadow-rose-600/30 transition-colors flex items-center justify-center gap-1.5 disabled:opacity-50"
+                  >
+                    {signOutLoading ? (
+                      <>
+                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                        <span>Signing out...</span>
+                      </>
+                    ) : (
+                      'Yes, Sign Out'
+                    )}
+                  </button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       )}
