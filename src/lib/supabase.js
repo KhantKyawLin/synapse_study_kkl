@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || '';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY || '';
 
 // Check if Supabase credentials are configured
 export const isSupabaseConfigured = Boolean(
@@ -11,7 +11,7 @@ export const isSupabaseConfigured = Boolean(
   supabaseAnonKey !== 'your-anon-key-here'
 );
 
-// Create Supabase client (or a dummy client if not configured)
+// Create Supabase client
 export const supabase = isSupabaseConfigured
   ? createClient(supabaseUrl, supabaseAnonKey, {
       auth: {
