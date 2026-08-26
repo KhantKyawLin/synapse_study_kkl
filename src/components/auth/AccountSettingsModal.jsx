@@ -4,12 +4,12 @@ import { useQuizHistory } from '../../hooks/useQuizHistory';
 import { 
   X, User, Mail, Lock, KeyRound, Award, CheckCircle2, AlertCircle, 
   Loader2, Eye, EyeOff, Camera, Sparkles, BookOpen, TrendingUp, Clock, 
-  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon, Crown, Shield 
+  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon, Crown, Upload, Image as ImageIcon 
 } from 'lucide-react';
 import { toPng, toBlob } from 'html-to-image';
 import logoImg from '../../assets/logo.jpg';
 
-// Preset Avatars
+// Preset Base Avatars
 export const BASE_AVATARS = [
   { id: 'student_freshman', label: 'Scholar 🧑‍🎓', emoji: '🧑‍🎓', bg: 'from-blue-600 to-cyan-500' },
   { id: 'avatar_doc_m', label: 'Doctor 🩺', emoji: '👨‍⚕️', bg: 'from-blue-600 to-cyan-500' },
@@ -120,6 +120,9 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
   const [successMsg, setSuccessMsg] = useState('');
   const [isProfileUpdatedSuccess, setIsProfileUpdatedSuccess] = useState(false);
 
+  // File Upload Ref
+  const fileInputRef = useRef(null);
+
   // Certificate Detail View in History
   const [selectedAttempt, setSelectedAttempt] = useState(null);
   const [isExporting, setIsExporting] = useState(false);
@@ -180,10 +183,10 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
         const frame = user.user_metadata?.avatar_frame || 'frame_bronze';
         setSelectedFrame(frame);
 
-        if (avatar.startsWith('http')) {
+        if (avatar.startsWith('http') || avatar.startsWith('data:image')) {
           setCustomAvatarUrl(avatar);
           setSelectedAvatar('custom');
-          setShowCustomUrlInput(true);
+          setShowCustomUrlInput(false);
         } else {
           setSelectedAvatar(avatar);
           setShowCustomUrlInput(false);
@@ -209,6 +212,65 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
     setErrorMsg('');
     setSuccessMsg('');
     setSelectedAttempt(null);
+  };
+
+  // Handle Local Device Image Upload with Automatic 256x256 Compression & 5MB Limit
+  const handleLocalImageUpload = (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Validate size (max 5MB)
+    const MAX_SIZE = 5 * 1024 * 1024; // 5MB
+    if (file.size > MAX_SIZE) {
+      setErrorMsg('Image size exceeds 5MB limit. Please choose a smaller photo.');
+      return;
+    }
+
+    if (!file.type.startsWith('image/')) {
+      setErrorMsg('Please select a valid image file (PNG, JPG, WebP, etc.)');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      const img = new Image();
+      img.onload = () => {
+        // Compress and scale to max 256x256 avatar canvas
+        const canvas = document.createElement('canvas');
+        const MAX_DIM = 256;
+        let width = img.width;
+        let height = img.height;
+
+        if (width > height) {
+          if (width > MAX_DIM) {
+            height = Math.round((height * MAX_DIM) / width);
+            width = MAX_DIM;
+          }
+        } else {
+          if (height > MAX_DIM) {
+            width = Math.round((width * MAX_DIM) / height);
+            height = MAX_DIM;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+
+        // Convert to lightweight JPEG dataURL (~25-40KB)
+        const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+
+        setCustomAvatarUrl(compressedDataUrl);
+        setSelectedAvatar('custom');
+        setErrorMsg('');
+      };
+      img.src = event.target.result;
+    };
+    reader.readAsDataURL(file);
+
+    // Reset file input so user can pick the same file again if desired
+    if (fileInputRef.current) fileInputRef.current.value = '';
   };
 
   // Save Profile Changes
@@ -334,7 +396,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
   // Render Base Avatar Inner
   const renderAvatarInner = (avatarKey) => {
-    if (avatarKey && avatarKey.startsWith('http')) {
+    if (avatarKey && (avatarKey.startsWith('http') || avatarKey.startsWith('data:image'))) {
       return (
         <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover rounded-xl" />
       );
@@ -351,6 +413,15 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-2.5 sm:p-4 md:p-6 bg-black/80 backdrop-blur-md animate-fadeIn">
+      {/* Hidden File Input for Device Photo Upload */}
+      <input
+        type="file"
+        ref={fileInputRef}
+        onChange={handleLocalImageUpload}
+        accept="image/*"
+        className="hidden"
+      />
+
       {/* Fixed Uniform Viewport Dimensions Across All Tabs */}
       <div 
         className="w-full max-w-4xl h-[650px] max-h-[92vh] bg-[#161b22] border border-cyanPrimary/40 rounded-2xl shadow-2xl shadow-cyanPrimary/10 flex flex-col overflow-hidden text-slate-200"
@@ -370,7 +441,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                 Student Account & Academic Hub
               </h2>
               <p className="text-[10px] sm:text-[11px] text-slate-400">
-                Customize profile, equip progression borders, and track study analytics
+                Upload device photo, equip prestige borders, and track study analytics
               </p>
             </div>
           </div>
@@ -516,8 +587,14 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                           >
                             <div className="flex items-start justify-between mb-2">
                               <div className={`${frame.frameClass} w-9 h-9 shrink-0 flex items-center justify-center`}>
-                                <div className="w-full h-full bg-[#161b22] rounded-lg flex items-center justify-center text-xs">
-                                  {selectedAvatar === 'custom' ? '📷' : (BASE_AVATARS.find(a => a.id === selectedAvatar)?.emoji || '🧑‍🎓')}
+                                <div className="w-full h-full bg-[#161b22] rounded-lg overflow-hidden flex items-center justify-center text-xs">
+                                  {selectedAvatar === 'custom' ? (
+                                    customAvatarUrl ? (
+                                      <img src={customAvatarUrl} alt="Avatar" className="w-full h-full object-cover" />
+                                    ) : '📷'
+                                  ) : (
+                                    BASE_AVATARS.find(a => a.id === selectedAvatar)?.emoji || '🧑‍🎓'
+                                  )}
                                 </div>
                               </div>
 
@@ -555,10 +632,10 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                     </div>
                   </div>
 
-                  {/* Base Avatar Selection */}
+                  {/* Profile Photo & Avatar Selection */}
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2 ml-1">
-                      Choose Avatar Icon / Photo
+                      Choose Avatar Icon or Upload Photo
                     </label>
 
                     <div className="flex flex-wrap items-center gap-2">
@@ -578,29 +655,44 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                         </button>
                       ))}
 
+                      {/* Device Photo Upload Button */}
+                      <button
+                        type="button"
+                        onClick={() => fileInputRef.current?.click()}
+                        className="px-3 py-2 rounded-xl text-xs font-bold bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20 hover:brightness-110 active:scale-95 flex items-center gap-1.5 transition-all"
+                      >
+                        <Upload className="w-3.5 h-3.5" />
+                        <span>Upload Device Photo</span>
+                      </button>
+
+                      {/* URL Toggle Button */}
                       <button
                         type="button"
                         onClick={() => setShowCustomUrlInput(!showCustomUrlInput)}
                         className={`px-3 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
                           showCustomUrlInput 
-                            ? 'bg-cyanPrimary text-white shadow-md' 
+                            ? 'bg-slate-700 text-white shadow-md' 
                             : 'bg-slate-800 text-slate-400 hover:text-white'
                         }`}
                       >
-                        <Camera className="w-3.5 h-3.5" />
-                        <span>Custom Photo URL</span>
+                        <ImageIcon className="w-3.5 h-3.5" />
+                        <span>Image URL</span>
                       </button>
                     </div>
+
+                    <p className="text-[10px] text-slate-400 mt-1.5 ml-1">
+                      📁 Max size 5MB • Automatically scaled & optimized for instant avatar loading
+                    </p>
 
                     {showCustomUrlInput && (
                       <div className="mt-2.5 p-3 bg-[#0d1117] border border-cyanPrimary/30 rounded-xl animate-fadeIn">
                         <label className="block text-[11px] font-bold uppercase text-slate-300 mb-1">
-                          Direct Image Link
+                          Direct Image Link (URL)
                         </label>
                         <input
                           type="url"
                           placeholder="https://example.com/my-photo.jpg"
-                          value={customAvatarUrl}
+                          value={customAvatarUrl.startsWith('data:') ? '' : customAvatarUrl}
                           onChange={(e) => { setCustomAvatarUrl(e.target.value); setSelectedAvatar('custom'); }}
                           className="w-full bg-[#161b22] border border-slate-700 text-white rounded-xl px-3.5 py-2 text-xs font-medium focus:outline-none focus:border-cyanPrimary"
                         />
