@@ -1,10 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { X, Mail, Lock, User, Sparkles, AlertCircle, CheckCircle2, Loader2, Eye, EyeOff } from 'lucide-react';
+import { X, Mail, Lock, User, Sparkles, AlertCircle, CheckCircle2, Loader2, Eye, EyeOff, KeyRound } from 'lucide-react';
 
 export default function AuthModal({ onAuthSuccess }) {
-  const { isAuthModalOpen, setIsAuthModalOpen, signIn, signUp, resetPassword, isConfigured } = useAuth();
-  const [mode, setMode] = useState('signin'); // 'signin' | 'signup' | 'forgot'
+  const { 
+    isAuthModalOpen, 
+    setIsAuthModalOpen, 
+    signIn, 
+    signUp, 
+    resetPassword, 
+    updatePassword, 
+    isRecoveryMode, 
+    setIsRecoveryMode, 
+    isConfigured 
+  } = useAuth();
+  
+  const [mode, setMode] = useState('signin'); // 'signin' | 'signup' | 'forgot' | 'newpassword'
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -14,12 +25,20 @@ export default function AuthModal({ onAuthSuccess }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
 
+  // Switch to newpassword mode automatically if in recovery flow
+  useEffect(() => {
+    if (isRecoveryMode) {
+      setMode('newpassword');
+    }
+  }, [isRecoveryMode]);
+
   if (!isAuthModalOpen) return null;
 
   const handleClose = () => {
     setErrorMsg('');
     setSuccessMsg('');
     setPassword('');
+    setIsRecoveryMode(false);
     setIsAuthModalOpen(false);
   };
 
@@ -40,7 +59,7 @@ export default function AuthModal({ onAuthSuccess }) {
           throw new Error('Please enter your full name');
         }
         await signUp(email.trim(), password, fullName.trim());
-        setSuccessMsg('Account created successfully! Redirecting to study homepage...');
+        setSuccessMsg('Account created successfully!');
         
         // Clear sensitive inputs immediately
         setPassword('');
@@ -53,7 +72,7 @@ export default function AuthModal({ onAuthSuccess }) {
         }, 1000);
       } else if (mode === 'signin') {
         await signIn(email.trim(), password);
-        setSuccessMsg('Signed in successfully! Redirecting to study homepage...');
+        setSuccessMsg('Signed In successfully!');
         
         // Clear sensitive inputs immediately
         setPassword('');
@@ -66,8 +85,20 @@ export default function AuthModal({ onAuthSuccess }) {
         }, 1000);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
-        setSuccessMsg('Password reset link sent to your email address!');
+        setSuccessMsg('Password reset link sent to your email!');
         setPassword('');
+      } else if (mode === 'newpassword') {
+        if (password.length < 6) {
+          throw new Error('Password must be at least 6 characters');
+        }
+        await updatePassword(password);
+        setSuccessMsg('Password updated successfully! You are now logged in.');
+        setPassword('');
+        setTimeout(() => {
+          setIsAuthModalOpen(false);
+          setIsRecoveryMode(false);
+          if (onAuthSuccess) onAuthSuccess();
+        }, 1200);
       }
     } catch (err) {
       setErrorMsg(err.message || 'An error occurred during authentication.');
@@ -96,22 +127,30 @@ export default function AuthModal({ onAuthSuccess }) {
         {/* Brand Header */}
         <div className="text-center mb-6">
           <div className="w-12 h-12 rounded-xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-3 text-cyanPrimary shadow-md">
-            <Sparkles className="w-6 h-6" />
+            {mode === 'newpassword' ? <KeyRound className="w-6 h-6" /> : <Sparkles className="w-6 h-6" />}
           </div>
           <h2 className="text-2xl font-black text-white tracking-tight">
-            {mode === 'signup' ? 'Create Student Account' : mode === 'signin' ? 'Sign In to Synapse Study' : 'Reset Password'}
+            {mode === 'signup' 
+              ? 'Create Student Account' 
+              : mode === 'signin' 
+              ? 'Sign In to Synapse Study' 
+              : mode === 'forgot'
+              ? 'Reset Your Password'
+              : 'Set New Password'}
           </h2>
           <p className="text-xs text-slate-400 mt-1">
             {mode === 'signup' 
               ? 'Save and sync your review flashcards & quiz certificates across all devices' 
               : mode === 'signin'
               ? 'Access your saved cards and verified certificates anywhere'
-              : 'Enter your email to receive a password reset link'}
+              : mode === 'forgot'
+              ? 'Enter your email and we will send you a secure password reset link'
+              : 'Enter your new password to secure your student account'}
           </p>
         </div>
 
-        {/* Mode Tabs */}
-        {mode !== 'forgot' && (
+        {/* Mode Tabs (only in signin/signup) */}
+        {(mode === 'signin' || mode === 'signup') && (
           <div className="grid grid-cols-2 p-1 bg-[#0d1117] border border-slate-800 rounded-xl mb-6 text-xs font-bold">
             <button
               type="button"
@@ -176,30 +215,32 @@ export default function AuthModal({ onAuthSuccess }) {
             </div>
           )}
 
-          <div>
-            <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
-              Email Address
-            </label>
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
-                <Mail className="w-4 h-4" />
+          {mode !== 'newpassword' && (
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
+                Email Address
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
+                  <Mail className="w-4 h-4" />
+                </div>
+                <input
+                  type="email"
+                  required
+                  placeholder="student@example.com"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="w-full bg-[#0d1117] border border-slate-700 text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
+                />
               </div>
-              <input
-                type="email"
-                required
-                placeholder="student@example.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full bg-[#0d1117] border border-slate-700 text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
-              />
             </div>
-          </div>
+          )}
 
           {mode !== 'forgot' && (
             <div>
               <div className="flex items-center justify-between mb-1.5 ml-1 mr-1">
                 <label className="block text-xs font-bold uppercase tracking-wider text-slate-300">
-                  Password
+                  {mode === 'newpassword' ? 'Enter New Password' : 'Password'}
                 </label>
                 {mode === 'signin' && (
                   <button
@@ -255,8 +296,10 @@ export default function AuthModal({ onAuthSuccess }) {
               'Create Free Account'
             ) : mode === 'signin' ? (
               'Sign In'
-            ) : (
+            ) : mode === 'forgot' ? (
               'Send Reset Link'
+            ) : (
+              'Save New Password'
             )}
           </button>
         </form>

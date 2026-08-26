@@ -123,7 +123,7 @@ export default function Header({ activeView, setActiveView }) {
 
             <h3 className="text-lg font-bold text-white mb-1">Sign Out Confirmation</h3>
             <p className="text-xs text-slate-400 mb-6">
-              Are you sure you want to sign out? Your cloud progress will remain safely saved.
+              Are you sure you want to sign out? Your study progress will remain safely saved.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
