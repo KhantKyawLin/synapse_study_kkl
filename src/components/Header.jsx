@@ -5,6 +5,7 @@ import {
 } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
+import { PRESTIGE_FRAMES } from './auth/AccountSettingsModal';
 
 // Preset avatar emoji mapping
 const AVATAR_EMOJIS = {
@@ -29,7 +30,10 @@ export default function Header({ activeView, setActiveView }) {
   const [signOutSuccess, setSignOutSuccess] = useState(false);
 
   const displayName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student';
-  const avatarKey = user?.user_metadata?.avatar_url || 'avatar_doc_m';
+  const avatarKey = user?.user_metadata?.avatar_url || 'student_freshman';
+  const frameKey = user?.user_metadata?.avatar_frame || 'frame_bronze';
+
+  const activeFrame = PRESTIGE_FRAMES.find(f => f.id === frameKey) || PRESTIGE_FRAMES[0];
 
   const handleConfirmSignOut = async () => {
     try {
@@ -73,16 +77,18 @@ export default function Header({ activeView, setActiveView }) {
               </div>
             </div>
 
-            {/* Mobile-only Compact Auth Trigger */}
+            {/* Mobile-only Compact Auth Trigger with Active Prestige Frame */}
             <div className="flex md:hidden items-center gap-1.5">
               {user ? (
                 <button
                   onClick={() => openAccountSettings('profile')}
                   className="flex items-center gap-1.5 px-2.5 py-1 bg-[#0d1117] border border-cyanPrimary/40 rounded-xl text-xs font-bold text-white shadow-sm"
                 >
-                  <span className="text-sm">
-                    {avatarKey.startsWith('http') ? '👤' : (AVATAR_EMOJIS[avatarKey] || '👨‍⚕️')}
-                  </span>
+                  <div className={`${activeFrame.headerClass} w-6 h-6 shrink-0 flex items-center justify-center`}>
+                    <span className="text-xs">
+                      {avatarKey.startsWith('http') ? '📷' : (AVATAR_EMOJIS[avatarKey] || '🧑‍🎓')}
+                    </span>
+                  </div>
                   <span className="truncate max-w-[80px] text-[11px]">{displayName}</span>
                 </button>
               ) : (
@@ -137,20 +143,22 @@ export default function Header({ activeView, setActiveView }) {
               </button>
             </nav>
 
-            {/* Desktop User Profile Badge */}
+            {/* Desktop User Profile Badge with Active Prestige Frame */}
             {user ? (
               <div className="hidden md:flex items-center gap-2 px-3 py-1.5 bg-[#0d1117] border border-cyanPrimary/30 hover:border-cyanPrimary/60 rounded-xl transition-all">
                 <button
                   onClick={() => openAccountSettings('profile')}
                   className="flex items-center gap-2 text-left group"
-                  title="Open Account Settings"
+                  title={`Open Account Settings (${activeFrame.title})`}
                 >
-                  <div className="w-7 h-7 rounded-lg overflow-hidden border border-cyanPrimary/40 flex items-center justify-center text-base shrink-0 bg-slate-800">
-                    {avatarKey.startsWith('http') ? (
-                      <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover" />
-                    ) : (
-                      <span>{AVATAR_EMOJIS[avatarKey] || '👨‍⚕️'}</span>
-                    )}
+                  <div className={`${activeFrame.headerClass} w-8 h-8 shrink-0 flex items-center justify-center transition-all duration-300`}>
+                    <div className="w-full h-full bg-[#161b22] rounded-md overflow-hidden flex items-center justify-center text-sm">
+                      {avatarKey.startsWith('http') ? (
+                        <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover" />
+                      ) : (
+                        <span>{AVATAR_EMOJIS[avatarKey] || '🧑‍🎓'}</span>
+                      )}
+                    </div>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-xs font-bold text-white leading-tight truncate max-w-[110px] group-hover:text-cyanGlow transition-colors">

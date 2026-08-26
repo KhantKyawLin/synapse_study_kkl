@@ -4,10 +4,85 @@ import { useQuizHistory } from '../../hooks/useQuizHistory';
 import { 
   X, User, Mail, Lock, KeyRound, Award, CheckCircle2, AlertCircle, 
   Loader2, Eye, EyeOff, Camera, Sparkles, BookOpen, TrendingUp, Clock, 
-  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon 
+  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon, Crown, Shield 
 } from 'lucide-react';
 import { toPng, toBlob } from 'html-to-image';
 import logoImg from '../../assets/logo.jpg';
+
+// Preset Avatars
+export const BASE_AVATARS = [
+  { id: 'student_freshman', label: 'Scholar 🧑‍🎓', emoji: '🧑‍🎓', bg: 'from-blue-600 to-cyan-500' },
+  { id: 'avatar_doc_m', label: 'Doctor 🩺', emoji: '👨‍⚕️', bg: 'from-blue-600 to-cyan-500' },
+  { id: 'avatar_doc_f', label: 'Physician 👩‍⚕️', emoji: '👩‍⚕️', bg: 'from-cyan-600 to-teal-500' },
+  { id: 'avatar_neuro', label: 'Neurologist 🧠', emoji: '🧠', bg: 'from-purple-600 to-indigo-500' },
+  { id: 'avatar_surgeon', label: 'Surgeon 🥼', emoji: '🥼', bg: 'from-emerald-600 to-teal-500' },
+  { id: 'avatar_lab', label: 'Researcher 🔬', emoji: '🔬', bg: 'from-amber-500 to-orange-500' },
+  { id: 'avatar_pharma', label: 'Pharmacist 💊', emoji: '💊', bg: 'from-rose-500 to-pink-500' },
+];
+
+// Unique Progression Frames & Borders
+export const PRESTIGE_FRAMES = [
+  {
+    id: 'frame_bronze',
+    title: 'Initiate Bronze Frame',
+    tier: 'Tier I',
+    badgeColor: 'text-amber-300 bg-amber-500/10 border-amber-500/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-amber-700 via-amber-900 to-slate-800 ring-2 ring-amber-600/70 shadow-md',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-amber-700 to-amber-900 ring-1 ring-amber-600/70',
+    description: 'Starting border for medical scholars',
+    requirement: 'Unlocked by default',
+  },
+  {
+    id: 'frame_silver',
+    title: 'Diligent Silver Frame',
+    tier: 'Tier II',
+    badgeColor: 'text-teal-300 bg-teal-500/10 border-teal-500/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-teal-300 via-slate-100 to-teal-600 ring-2 ring-teal-300 shadow-lg shadow-teal-500/30',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-teal-300 to-slate-200 ring-1 ring-teal-300',
+    description: 'Awarded for completing 1 assessment',
+    requirement: 'Complete 1 Quiz Assessment',
+  },
+  {
+    id: 'frame_gold',
+    title: 'Radiant Gold Frame',
+    tier: 'Tier III',
+    badgeColor: 'text-amber-300 bg-amber-400/10 border-amber-400/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-amber-300 via-yellow-400 to-amber-600 ring-2 ring-yellow-300 shadow-xl shadow-amber-500/40',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-amber-300 to-yellow-400 ring-1 ring-yellow-300',
+    description: 'Awarded for consistent exam testing',
+    requirement: 'Complete 3 Quiz Assessments',
+  },
+  {
+    id: 'frame_cyber',
+    title: 'Diamond Cyber Frame',
+    tier: 'Tier IV',
+    badgeColor: 'text-cyan-300 bg-cyan-500/10 border-cyan-500/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-cyan-400 via-sky-300 to-blue-600 ring-2 ring-cyan-300 shadow-xl shadow-cyan-500/40 animate-pulse',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-500 ring-1 ring-cyan-300',
+    description: 'Awarded for scoring 80%+ on any quiz',
+    requirement: 'Score 80%+ on any Quiz',
+  },
+  {
+    id: 'frame_cosmic',
+    title: 'Cosmic Synapse Frame',
+    tier: 'Tier V',
+    badgeColor: 'text-purple-300 bg-purple-500/10 border-purple-500/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-purple-500 via-fuchsia-400 to-indigo-600 ring-2 ring-fuchsia-400 shadow-xl shadow-purple-500/50',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-600 ring-1 ring-purple-300',
+    description: 'Awarded for dedicated study time',
+    requirement: '15+ Mins Study or 5 Quizzes',
+  },
+  {
+    id: 'frame_mythic',
+    title: 'Mythic Grandmaster Crown',
+    tier: 'Mythic',
+    badgeColor: 'text-rose-300 bg-rose-500/10 border-rose-500/30',
+    frameClass: 'p-1 rounded-2xl bg-gradient-to-r from-rose-500 via-amber-400 to-pink-600 ring-2 ring-amber-300 shadow-2xl shadow-rose-500/60',
+    headerClass: 'p-0.5 rounded-lg bg-gradient-to-r from-rose-500 via-amber-400 to-pink-600 ring-1 ring-amber-300',
+    description: 'Prestige crown for top medical achievers',
+    requirement: 'Pass 3 Exams (≥70%)',
+  },
+];
 
 export default function AccountSettingsModal({ onSaveSuccess }) {
   const { 
@@ -29,6 +104,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
   // Profile Form States
   const [fullName, setFullName] = useState('');
   const [selectedAvatar, setSelectedAvatar] = useState('student_freshman');
+  const [selectedFrame, setSelectedFrame] = useState('frame_bronze');
   const [customAvatarUrl, setCustomAvatarUrl] = useState('');
   const [showCustomUrlInput, setShowCustomUrlInput] = useState(false);
 
@@ -53,71 +129,39 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
   // Track previous open state to avoid tab jumping on window blur/focus
   const prevIsOpen = useRef(false);
 
-  // Student Journey Milestone Avatars
-  const JOURNEY_AVATARS = [
-    {
-      id: 'student_freshman',
-      title: 'Freshman Scholar',
-      emoji: '🧑‍🎓',
-      bg: 'from-blue-600 to-cyan-500',
-      description: 'Default Student Avatar',
-      isUnlocked: true,
-      requirement: 'Unlocked for all students',
-      progress: '100%',
-    },
-    {
-      id: 'student_reader',
-      title: 'Hardworking Student',
-      emoji: '📖',
-      bg: 'from-cyan-600 to-teal-500',
-      description: 'Takes study notes & tests',
-      isUnlocked: (stats.totalQuizzes || 0) >= 1,
-      requirement: 'Complete 1 Quiz Assessment',
-      progress: `${Math.min(1, stats.totalQuizzes || 0)}/1 Completed`,
-    },
-    {
-      id: 'student_dedicated',
-      title: 'Diligent Scholar',
-      emoji: '⚡',
-      bg: 'from-amber-500 to-orange-500',
-      description: 'Consistent study streak',
-      isUnlocked: (stats.totalQuizzes || 0) >= 3,
-      requirement: 'Complete 3 Quiz Assessments',
-      progress: `${Math.min(3, stats.totalQuizzes || 0)}/3 Completed`,
-    },
-    {
-      id: 'student_synapse',
-      title: 'High Achiever',
-      emoji: '🧠',
-      bg: 'from-purple-600 to-indigo-500',
-      description: 'Mastery over complex topics',
-      isUnlocked: (history || []).some((h) => (h.percentage || 0) >= 80),
-      requirement: 'Score 80%+ on any Quiz',
-      progress: (history || []).some((h) => (h.percentage || 0) >= 80) ? 'Unlocked!' : 'Best Score: ' + (history.length ? Math.max(...history.map(h => h.percentage || 0)) : 0) + '%',
-    },
-    {
-      id: 'student_clinical',
-      title: 'Clinical Prodigy',
-      emoji: '🩺',
-      bg: 'from-emerald-600 to-teal-500',
-      description: '15+ mins of active study',
-      isUnlocked: (stats.totalTimeSpentSeconds || 0) >= 900 || (stats.totalQuizzes || 0) >= 5,
-      requirement: 'Study for 15+ mins or 5 Quizzes',
-      progress: `${Math.min(15, Math.floor((stats.totalTimeSpentSeconds || 0) / 60))}/15 Mins`,
-    },
-    {
-      id: 'student_master',
-      title: 'Master Scholar',
-      emoji: '👑',
-      bg: 'from-rose-500 to-amber-500',
-      description: 'Pass 3+ exams with mastery',
-      isUnlocked: (stats.passedQuizzes || 0) >= 3 || (stats.totalQuizzes || 0) >= 10,
-      requirement: 'Pass 3 Exams (≥70%)',
-      progress: `${Math.min(3, stats.passedQuizzes || 0)}/3 Passed`,
-    },
-  ];
+  // Frame unlock checks
+  const getFrameStatus = (frameId) => {
+    switch (frameId) {
+      case 'frame_bronze':
+        return { isUnlocked: true, progress: 'Unlocked' };
+      case 'frame_silver': {
+        const unlocked = (stats.totalQuizzes || 0) >= 1;
+        return { isUnlocked: unlocked, progress: `${Math.min(1, stats.totalQuizzes || 0)}/1 Completed` };
+      }
+      case 'frame_gold': {
+        const unlocked = (stats.totalQuizzes || 0) >= 3;
+        return { isUnlocked: unlocked, progress: `${Math.min(3, stats.totalQuizzes || 0)}/3 Completed` };
+      }
+      case 'frame_cyber': {
+        const unlocked = (history || []).some((h) => (h.percentage || 0) >= 80);
+        const best = history.length ? Math.max(...history.map(h => h.percentage || 0)) : 0;
+        return { isUnlocked: unlocked, progress: unlocked ? 'Unlocked!' : `Best: ${best}%` };
+      }
+      case 'frame_cosmic': {
+        const unlocked = (stats.totalTimeSpentSeconds || 0) >= 900 || (stats.totalQuizzes || 0) >= 5;
+        const mins = Math.min(15, Math.floor((stats.totalTimeSpentSeconds || 0) / 60));
+        return { isUnlocked: unlocked, progress: `${mins}/15 Mins` };
+      }
+      case 'frame_mythic': {
+        const unlocked = (stats.passedQuizzes || 0) >= 3 || (stats.totalQuizzes || 0) >= 10;
+        return { isUnlocked: unlocked, progress: `${Math.min(3, stats.passedQuizzes || 0)}/3 Passed` };
+      }
+      default:
+        return { isUnlocked: true, progress: 'Unlocked' };
+    }
+  };
 
-  // Populate data when modal opens (ONLY on open transition to prevent tab reset on window switch)
+  // Populate data when modal opens
   useEffect(() => {
     if (isAccountSettingsOpen && !prevIsOpen.current) {
       setActiveTab(accountSettingsTab || 'profile');
@@ -133,6 +177,9 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
       if (user) {
         setFullName(user.user_metadata?.full_name || '');
         const avatar = user.user_metadata?.avatar_url || 'student_freshman';
+        const frame = user.user_metadata?.avatar_frame || 'frame_bronze';
+        setSelectedFrame(frame);
+
         if (avatar.startsWith('http')) {
           setCustomAvatarUrl(avatar);
           setSelectedAvatar('custom');
@@ -184,6 +231,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
       await updateProfile({
         fullName: fullName.trim(),
         avatarUrl: avatarToSave,
+        avatarFrame: selectedFrame,
       });
 
       setLoading(false);
@@ -284,22 +332,22 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
     }
   };
 
-  // Render Avatar Preview
-  const renderAvatarPreview = (avatarKey) => {
+  // Render Base Avatar Inner
+  const renderAvatarInner = (avatarKey) => {
     if (avatarKey && avatarKey.startsWith('http')) {
       return (
-        <img src={avatarKey} alt="Profile Avatar" className="w-full h-full object-cover rounded-2xl" />
+        <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover rounded-xl" />
       );
     }
-    const found = JOURNEY_AVATARS.find((a) => a.id === avatarKey) || JOURNEY_AVATARS[0];
+    const found = BASE_AVATARS.find((a) => a.id === avatarKey) || BASE_AVATARS[0];
     return (
-      <div className={`w-full h-full rounded-2xl bg-gradient-to-br ${found.bg} flex items-center justify-center text-4xl sm:text-5xl shadow-inner`}>
+      <div className={`w-full h-full rounded-xl bg-gradient-to-br ${found.bg} flex items-center justify-center text-3xl sm:text-4xl shadow-inner`}>
         <span>{found.emoji}</span>
       </div>
     );
   };
 
-  const activeAvatarObj = JOURNEY_AVATARS.find((a) => a.id === selectedAvatar) || JOURNEY_AVATARS[0];
+  const activeFrameObj = PRESTIGE_FRAMES.find((f) => f.id === selectedFrame) || PRESTIGE_FRAMES[0];
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-2.5 sm:p-4 md:p-6 bg-black/80 backdrop-blur-md animate-fadeIn">
@@ -322,7 +370,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                 Student Account & Academic Hub
               </h2>
               <p className="text-[10px] sm:text-[11px] text-slate-400">
-                Unlock journey avatars, manage security, and view verified certificates
+                Customize profile, equip progression borders, and track study analytics
               </p>
             </div>
           </div>
@@ -409,75 +457,80 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
               {/* TAB 1: PROFILE SECTION */}
               {activeTab === 'profile' && (
                 <form onSubmit={handleSaveProfile} className="flex flex-col gap-6 max-w-2xl mx-auto w-full animate-fadeIn">
-                  {/* Active Avatar Spotlight */}
+                  
+                  {/* Spotlight Card with Active Prestige Frame */}
                   <div className="flex flex-col sm:flex-row items-center gap-4 p-4 bg-[#0d1117] border border-slate-800 rounded-2xl">
-                    <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden border-2 border-cyanPrimary/50 shadow-xl shrink-0">
-                      {renderAvatarPreview(selectedAvatar === 'custom' ? customAvatarUrl : selectedAvatar)}
+                    <div className={`${activeFrameObj.frameClass} w-20 h-20 sm:w-24 sm:h-24 shrink-0 transition-all duration-300`}>
+                      {renderAvatarInner(selectedAvatar === 'custom' ? customAvatarUrl : selectedAvatar)}
                     </div>
 
                     <div className="text-center sm:text-left flex-1">
                       <div className="flex items-center justify-center sm:justify-start gap-2">
                         <span className="text-sm sm:text-base font-bold text-white">
-                          {selectedAvatar === 'custom' ? 'Custom Photo' : activeAvatarObj.title}
+                          {activeFrameObj.title}
                         </span>
-                        <span className="text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">
-                          Active Avatar
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${activeFrameObj.badgeColor}`}>
+                          {activeFrameObj.tier}
                         </span>
                       </div>
                       <p className="text-xs text-slate-400 mt-0.5">
-                        {selectedAvatar === 'custom' ? 'Using custom image link' : activeAvatarObj.description}
+                        {activeFrameObj.description}
                       </p>
                       <p className="text-[11px] text-cyanGlow mt-1 font-medium">
-                        Study and pass quizzes to unlock more advanced student journey avatars!
+                        Complete assessments and score high to unlock unique glowing prestige borders!
                       </p>
                     </div>
                   </div>
 
-                  {/* Unlockable Journey Avatars Grid */}
+                  {/* Prestige Borders Grid */}
                   <div>
                     <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2 ml-1 flex items-center justify-between">
-                      <span>Student Journey Avatars</span>
+                      <span className="flex items-center gap-1.5">
+                        <Crown className="w-3.5 h-3.5 text-amber-400" />
+                        <span>Unlockable Prestige Borders</span>
+                      </span>
                       <span className="text-[10px] text-slate-400 font-normal">
-                        {JOURNEY_AVATARS.filter(a => a.isUnlocked).length} / {JOURNEY_AVATARS.length} Unlocked
+                        {PRESTIGE_FRAMES.filter(f => getFrameStatus(f.id).isUnlocked).length} / {PRESTIGE_FRAMES.length} Unlocked
                       </span>
                     </label>
 
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-                      {JOURNEY_AVATARS.map((avatar) => {
-                        const isSelected = selectedAvatar === avatar.id && !showCustomUrlInput;
+                      {PRESTIGE_FRAMES.map((frame) => {
+                        const status = getFrameStatus(frame.id);
+                        const isEquipped = selectedFrame === frame.id;
                         return (
                           <button
-                            key={avatar.id}
+                            key={frame.id}
                             type="button"
                             onClick={() => {
-                              if (avatar.isUnlocked) {
-                                setSelectedAvatar(avatar.id);
-                                setShowCustomUrlInput(false);
-                              }
+                              if (status.isUnlocked) setSelectedFrame(frame.id);
                             }}
-                            disabled={!avatar.isUnlocked}
+                            disabled={!status.isUnlocked}
                             className={`p-3 rounded-xl border text-left transition-all relative flex flex-col justify-between ${
-                              isSelected
+                              isEquipped
                                 ? 'bg-cyanPrimary/10 border-cyanPrimary ring-1 ring-cyanPrimary shadow-md'
-                                : avatar.isUnlocked
+                                : status.isUnlocked
                                 ? 'bg-[#0d1117] border-slate-800 hover:border-slate-700 hover:bg-slate-800/40 cursor-pointer'
                                 : 'bg-[#0a0d12] border-slate-900 opacity-60 cursor-not-allowed'
                             }`}
                           >
                             <div className="flex items-start justify-between mb-2">
-                              <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${avatar.bg} flex items-center justify-center text-xl shadow-md ${!avatar.isUnlocked ? 'grayscale opacity-50' : ''}`}>
-                                {avatar.emoji}
+                              <div className={`${frame.frameClass} w-9 h-9 shrink-0 flex items-center justify-center`}>
+                                <div className="w-full h-full bg-[#161b22] rounded-lg flex items-center justify-center text-xs">
+                                  {selectedAvatar === 'custom' ? '📷' : (BASE_AVATARS.find(a => a.id === selectedAvatar)?.emoji || '🧑‍🎓')}
+                                </div>
                               </div>
-                              {!avatar.isUnlocked ? (
-                                <span className="flex items-center gap-1 text-[10px] font-bold text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/20">
+
+                              {!status.isUnlocked ? (
+                                <span className="flex items-center gap-0.5 text-[9px] font-bold text-amber-400 bg-amber-500/10 px-1.5 py-0.5 rounded border border-amber-500/20">
                                   <LockIcon className="w-2.5 h-2.5" /> Locked
                                 </span>
-                              ) : isSelected ? (
-                                <span className="flex items-center gap-0.5 text-[10px] font-bold text-cyanGlow bg-cyanPrimary/20 px-1.5 py-0.5 rounded">
-                                  <Check className="w-2.5 h-2.5" /> Selected
+                              ) : isEquipped ? (
+                                <span className="flex items-center gap-0.5 text-[9px] font-bold text-cyanGlow bg-cyanPrimary/20 px-1.5 py-0.5 rounded">
+                                  <Check className="w-2.5 h-2.5" /> Equipped
                                 </span>
                               ) : (
-                                <span className="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">
+                                <span className="text-[9px] font-bold text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded">
                                   Unlocked
                                 </span>
                               )}
@@ -485,14 +538,14 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
                             <div>
                               <span className="text-xs font-bold text-white block leading-tight">
-                                {avatar.title}
+                                {frame.title}
                               </span>
                               <span className="text-[10px] text-slate-400 block mt-0.5 leading-snug">
-                                {avatar.requirement}
+                                {frame.requirement}
                               </span>
-                              {!avatar.isUnlocked && (
+                              {!status.isUnlocked && (
                                 <span className="text-[9px] text-amber-400/90 font-medium block mt-1">
-                                  Progress: {avatar.progress}
+                                  Progress: {status.progress}
                                 </span>
                               )}
                             </div>
@@ -500,33 +553,59 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                         );
                       })}
                     </div>
+                  </div>
 
-                    {/* Custom Photo URL Toggle */}
-                    <div className="mt-3">
+                  {/* Base Avatar Selection */}
+                  <div>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2 ml-1">
+                      Choose Avatar Icon / Photo
+                    </label>
+
+                    <div className="flex flex-wrap items-center gap-2">
+                      {BASE_AVATARS.map((avatar) => (
+                        <button
+                          key={avatar.id}
+                          type="button"
+                          onClick={() => { setSelectedAvatar(avatar.id); setShowCustomUrlInput(false); }}
+                          className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg transition-all ${
+                            selectedAvatar === avatar.id && !showCustomUrlInput
+                              ? 'ring-2 ring-cyanPrimary scale-110 bg-slate-800'
+                              : 'bg-slate-800/80 hover:bg-slate-700 opacity-70 hover:opacity-100'
+                          }`}
+                          title={avatar.label}
+                        >
+                          {avatar.emoji}
+                        </button>
+                      ))}
+
                       <button
                         type="button"
                         onClick={() => setShowCustomUrlInput(!showCustomUrlInput)}
-                        className="flex items-center gap-1.5 text-xs font-semibold text-slate-400 hover:text-cyanGlow transition-colors"
+                        className={`px-3 py-2 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all ${
+                          showCustomUrlInput 
+                            ? 'bg-cyanPrimary text-white shadow-md' 
+                            : 'bg-slate-800 text-slate-400 hover:text-white'
+                        }`}
                       >
                         <Camera className="w-3.5 h-3.5" />
-                        <span>{showCustomUrlInput ? 'Hide Custom Image Link' : 'Or use a custom photo URL'}</span>
+                        <span>Custom Photo URL</span>
                       </button>
-
-                      {showCustomUrlInput && (
-                        <div className="mt-2 p-3 bg-[#0d1117] border border-cyanPrimary/30 rounded-xl animate-fadeIn">
-                          <label className="block text-[11px] font-bold uppercase text-slate-300 mb-1">
-                            Direct Image Link
-                          </label>
-                          <input
-                            type="url"
-                            placeholder="https://example.com/my-avatar.jpg"
-                            value={customAvatarUrl}
-                            onChange={(e) => { setCustomAvatarUrl(e.target.value); setSelectedAvatar('custom'); }}
-                            className="w-full bg-[#161b22] border border-slate-700 text-white rounded-xl px-3.5 py-2 text-xs font-medium focus:outline-none focus:border-cyanPrimary"
-                          />
-                        </div>
-                      )}
                     </div>
+
+                    {showCustomUrlInput && (
+                      <div className="mt-2.5 p-3 bg-[#0d1117] border border-cyanPrimary/30 rounded-xl animate-fadeIn">
+                        <label className="block text-[11px] font-bold uppercase text-slate-300 mb-1">
+                          Direct Image Link
+                        </label>
+                        <input
+                          type="url"
+                          placeholder="https://example.com/my-photo.jpg"
+                          value={customAvatarUrl}
+                          onChange={(e) => { setCustomAvatarUrl(e.target.value); setSelectedAvatar('custom'); }}
+                          className="w-full bg-[#161b22] border border-slate-700 text-white rounded-xl px-3.5 py-2 text-xs font-medium focus:outline-none focus:border-cyanPrimary"
+                        />
+                      </div>
+                    )}
                   </div>
 
                   {/* Student Full Name */}

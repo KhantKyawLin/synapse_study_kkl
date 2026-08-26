@@ -70,7 +70,8 @@ export function AuthProvider({ children }) {
       options: {
         data: {
           full_name: fullName,
-          avatar_url: 'avatar_doctor_1',
+          avatar_url: 'student_freshman',
+          avatar_frame: 'frame_bronze',
         },
       },
     });
@@ -84,7 +85,8 @@ export function AuthProvider({ children }) {
           id: data.user.id,
           full_name: fullName,
           email: email,
-          avatar_url: 'avatar_doctor_1',
+          avatar_url: 'student_freshman',
+          avatar_frame: 'frame_bronze',
           updated_at: new Date().toISOString(),
         });
       } catch (err) {
@@ -134,12 +136,13 @@ export function AuthProvider({ children }) {
     return data;
   };
 
-  // Update Profile Details (Full Name and Avatar)
-  const updateProfile = async ({ fullName, avatarUrl }) => {
+  // Update Profile Details (Full Name, Avatar, and Avatar Frame Border)
+  const updateProfile = async ({ fullName, avatarUrl, avatarFrame }) => {
     if (!supabase) throw new Error('Supabase is not configured yet');
     const updateData = {};
     if (fullName !== undefined) updateData.full_name = fullName;
     if (avatarUrl !== undefined) updateData.avatar_url = avatarUrl;
+    if (avatarFrame !== undefined) updateData.avatar_frame = avatarFrame;
 
     const { data, error } = await supabase.auth.updateUser({
       data: updateData,
@@ -152,7 +155,8 @@ export function AuthProvider({ children }) {
         await supabase.from('profiles').upsert({
           id: data.user.id,
           full_name: fullName || data.user.user_metadata?.full_name || '',
-          avatar_url: avatarUrl || data.user.user_metadata?.avatar_url || 'avatar_doctor_1',
+          avatar_url: avatarUrl || data.user.user_metadata?.avatar_url || 'student_freshman',
+          avatar_frame: avatarFrame || data.user.user_metadata?.avatar_frame || 'frame_bronze',
           email: data.user.email,
           updated_at: new Date().toISOString(),
         });
