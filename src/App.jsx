@@ -22,7 +22,7 @@ export default function App() {
         </main>
 
         <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />
-        <AccountSettingsModal />
+        <AccountSettingsModal onSaveSuccess={() => setActiveView('flashcards')} />
       </div>
     </AuthProvider>
   );
