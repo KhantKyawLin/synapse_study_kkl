@@ -8,6 +8,12 @@ import { useAuth } from '../context/AuthContext';
 
 // Preset avatar emoji mapping
 const AVATAR_EMOJIS = {
+  student_freshman: '🧑‍🎓',
+  student_reader: '📖',
+  student_dedicated: '⚡',
+  student_synapse: '🧠',
+  student_clinical: '🩺',
+  student_master: '👑',
   avatar_doc_m: '👨‍⚕️',
   avatar_doc_f: '👩‍⚕️',
   avatar_neuro: '🧠',
