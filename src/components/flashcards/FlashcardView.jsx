@@ -40,7 +40,7 @@ export default function FlashcardView() {
     return `${card.category || 'General'}::${card.question}`;
   }, []);
 
-  // Toggle card status (mastered | review)
+  // Toggle card status (mastered | review) without resetting current index
   const handleToggleStatus = useCallback((card, targetStatus) => {
     const cardId = getCardId(card);
     if (!cardId) return;
@@ -132,18 +132,27 @@ export default function FlashcardView() {
 
   // Final Filtered Cards (Subject/Category + Status Filter)
   const filteredCards = useMemo(() => {
+    if (statusFilter === 'all') {
+      return moduleCategoryFilteredCards;
+    }
     return moduleCategoryFilteredCards.filter((card) => {
-      if (statusFilter === 'all') return true;
       const id = getCardId(card);
       return cardStatusMap[id] === statusFilter;
     });
   }, [moduleCategoryFilteredCards, statusFilter, cardStatusMap, getCardId]);
 
-  // Reset index & flip state when filters change
+  // Reset index & flip state ONLY when dropdown filters or status tab changes
   useEffect(() => {
     setCurrentIndex(0);
     setIsFlipped(false);
-  }, [filteredCards]);
+  }, [selectedModule, selectedCategory, statusFilter]);
+
+  // Safely clamp index if cards leave filtered view (e.g., untoggling review status inside Review Tab)
+  useEffect(() => {
+    if (filteredCards.length > 0 && currentIndex >= filteredCards.length) {
+      setCurrentIndex(Math.max(0, filteredCards.length - 1));
+    }
+  }, [filteredCards.length, currentIndex]);
 
   const handleNext = useCallback(() => {
     if (filteredCards.length === 0) return;
