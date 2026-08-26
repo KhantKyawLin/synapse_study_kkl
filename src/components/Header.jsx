@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, Sparkles, AlertTriangle, X } from 'lucide-react';
+import { Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, Sparkles, AlertTriangle, KeyRound, X } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
 
@@ -12,6 +12,10 @@ export default function Header({ activeView, setActiveView }) {
     setShowSignOutConfirm(false);
     await signOut();
     setActiveView('flashcards');
+  };
+
+  const handleOpenChangePassword = () => {
+    setIsAuthModalOpen(true);
   };
 
   return (
@@ -89,13 +93,23 @@ export default function Header({ activeView, setActiveView }) {
                   </div>
                 </div>
 
-                <button
-                  onClick={() => setShowSignOutConfirm(true)}
-                  title="Sign Out"
-                  className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors ml-1"
-                >
-                  <LogOut className="w-3.5 h-3.5" />
-                </button>
+                <div className="flex items-center gap-1 ml-1 border-l border-slate-800 pl-1.5">
+                  <button
+                    onClick={handleOpenChangePassword}
+                    title="Change Password"
+                    className="p-1 rounded-lg text-slate-400 hover:text-cyanGlow hover:bg-cyanPrimary/10 transition-colors"
+                  >
+                    <KeyRound className="w-3.5 h-3.5" />
+                  </button>
+
+                  <button
+                    onClick={() => setShowSignOutConfirm(true)}
+                    title="Sign Out"
+                    className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors"
+                  >
+                    <LogOut className="w-3.5 h-3.5" />
+                  </button>
+                </div>
               </div>
             ) : (
               <button
