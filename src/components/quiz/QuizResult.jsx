@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import KatexText from '../KatexText';
-import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check, Download, Copy } from 'lucide-react';
+import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check, Download, Copy, History } from 'lucide-react';
 import { toPng, toBlob } from 'html-to-image';
 
 export default function QuizResult({
@@ -12,6 +12,7 @@ export default function QuizResult({
   isTimeExpired,
   onRestart,
   onChooseNewQuiz,
+  onOpenHistory,
 }) {
   const certRef = useRef(null);
   const [isExporting, setIsExporting] = useState(false);
@@ -170,16 +171,24 @@ export default function QuizResult({
       <div className="flex flex-wrap items-center justify-center gap-3">
         <button
           onClick={onRestart}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
         >
           <RotateCcw className="w-4 h-4" /> Retake Quiz
         </button>
         <button
           onClick={onChooseNewQuiz}
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-bold text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
         >
           <ArrowLeft className="w-4 h-4" /> Choose Another Quiz
         </button>
+        {onOpenHistory && (
+          <button
+            onClick={onOpenHistory}
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-[#0d1117] border border-cyanPrimary/40 text-cyanGlow hover:bg-cyanPrimary/10 active:scale-[0.98] transition-all"
+          >
+            <History className="w-4 h-4" /> Exam History
+          </button>
+        )}
       </div>
 
       {/* Itemized Answer Breakdown */}

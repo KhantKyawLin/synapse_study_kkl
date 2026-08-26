@@ -1,10 +1,15 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import QuizSetup from './QuizSetup';
 import QuizCard from './QuizCard';
 import QuizResult from './QuizResult';
+import QuizHistoryModal from './QuizHistoryModal';
+import { useQuizHistory } from '../../hooks/useQuizHistory';
 import rawQuizData from '../../data/quizzes_data.json';
 
 export default function QuizView() {
+  const { history, stats, saveQuizAttempt } = useQuizHistory();
+  const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
+
   const modules = useMemo(() => Object.keys(rawQuizData || {}), []);
   const [selectedModule, setSelectedModule] = useState(modules[0] || '');
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -20,6 +25,8 @@ export default function QuizView() {
   const [totalAllocatedSeconds, setTotalAllocatedSeconds] = useState(1200);
   const [timeRemaining, setTimeRemaining] = useState(1200);
   const [isTimeExpired, setIsTimeExpired] = useState(false);
+
+  const isAttemptSaved = useRef(false);
 
   // All questions in the selected module
   const moduleQuestions = useMemo(() => {
@@ -57,7 +64,7 @@ export default function QuizView() {
           if (prev <= 1) {
             clearInterval(timer);
             setIsTimeExpired(true);
-            setQuizState('result'); // Auto-submit when time expires
+            completeAndSubmitQuiz(); // Auto-submit when time expires
             return 0;
           }
           return prev - 1;
@@ -89,6 +96,7 @@ export default function QuizView() {
     setActiveQuestions(selected);
     setCurrentIndex(0);
     setUserAnswers({});
+    isAttemptSaved.current = false;
     setQuizState('active');
   };
 
@@ -96,11 +104,39 @@ export default function QuizView() {
     setUserAnswers((prev) => ({ ...prev, [currentIndex]: optIdx }));
   };
 
+  // Complete Quiz & Log attempt to Supabase / Local Storage
+  const completeAndSubmitQuiz = () => {
+    if (!isAttemptSaved.current && activeQuestions.length > 0) {
+      let score = 0;
+      activeQuestions.forEach((q, idx) => {
+        if (userAnswers[idx] === q.correctIndex) score++;
+      });
+
+      const percentage = Math.round((score / activeQuestions.length) * 100);
+      const timeSpentSecs = totalAllocatedSeconds - timeRemaining;
+
+      saveQuizAttempt({
+        student_name: studentName.trim() || 'Student',
+        module_name: selectedModule,
+        category: selectedCategory,
+        score: score,
+        total_questions: activeQuestions.length,
+        percentage: percentage,
+        time_spent_seconds: timeSpentSecs,
+        total_allocated_seconds: totalAllocatedSeconds,
+        completed_at: new Date().toISOString(),
+      });
+
+      isAttemptSaved.current = true;
+    }
+    setQuizState('result');
+  };
+
   const handleNext = () => {
     if (currentIndex < activeQuestions.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
-      setQuizState('result');
+      completeAndSubmitQuiz();
     }
   };
 
@@ -128,6 +164,8 @@ export default function QuizView() {
           studentName={studentName}
           setStudentName={setStudentName}
           onStartQuiz={handleStartQuiz}
+          onOpenHistory={() => setIsHistoryModalOpen(true)}
+          historyCount={history.length}
         />
       )}
 
@@ -155,8 +193,17 @@ export default function QuizView() {
           isTimeExpired={isTimeExpired}
           onRestart={handleStartQuiz}
           onChooseNewQuiz={() => setQuizState('setup')}
+          onOpenHistory={() => setIsHistoryModalOpen(true)}
         />
       )}
+
+      {/* Student Quiz History & Certificate Modal */}
+      <QuizHistoryModal
+        isOpen={isHistoryModalOpen}
+        onClose={() => setIsHistoryModalOpen(false)}
+        history={history}
+        stats={stats}
+      />
     </div>
   );
 }
