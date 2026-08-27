@@ -2,6 +2,11 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
+  }
+
   body {
     background-color: #0f141c;
     color: #f0f4f8;
@@ -11,6 +16,32 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Outfit', sans-serif;
   }
+}
+
+/* Custom Sleek Dark Scrollbar to prevent layout shifts across tabs */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f141c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21262d;
+  border-radius: 9999px;
+  border: 2px solid #0f141c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1ea1f2;
+}
+
+/* Firefox standard scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #21262d #0f141c;
 }
 
 /* Custom Color Tokens for Tailwind v4 */
