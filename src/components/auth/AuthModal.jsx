@@ -1,46 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
-import { X, Mail, Lock, User, Sparkles, AlertCircle, CheckCircle2, Loader2, Eye, EyeOff, KeyRound } from 'lucide-react';
+import { 
+  X, Mail, Lock, User, KeyRound, AlertCircle, CheckCircle2, 
+  Loader2, ArrowRight, Eye, EyeOff, ShieldCheck, Clock 
+} from 'lucide-react';
 
 export default function AuthModal({ onAuthSuccess }) {
   const { 
     isAuthModalOpen, 
     setIsAuthModalOpen, 
-    authModalMode,
+    authModalMode, 
     setAuthModalMode,
     signIn, 
     signUp, 
-    resetPassword, 
-    updatePassword, 
+    resetPassword,
+    updatePassword,
     isConfigured 
   } = useAuth();
-  
-  const [mode, setMode] = useState('signin'); // 'signin' | 'signup' | 'forgot' | 'newpassword'
-  const [fullName, setFullName] = useState('');
+
+  const [mode, setMode] = useState(authModalMode || 'signin');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [fullName, setFullName] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+  const [isPendingReviewScreen, setIsPendingReviewScreen] = useState(false);
 
-  // Sync mode with authModalMode whenever modal opens
   useEffect(() => {
-    if (isAuthModalOpen) {
-      setErrorMsg('');
-      setSuccessMsg('');
-      setPassword('');
-      setMode(authModalMode || 'signin');
-    }
-  }, [isAuthModalOpen, authModalMode]);
+    setMode(authModalMode);
+    setErrorMsg('');
+    setSuccessMsg('');
+    setIsPendingReviewScreen(false);
+  }, [authModalMode, isAuthModalOpen]);
 
   if (!isAuthModalOpen) return null;
 
   const handleClose = () => {
     setErrorMsg('');
     setSuccessMsg('');
-    setPassword('');
+    setIsPendingReviewScreen(false);
     setIsAuthModalOpen(false);
   };
 
@@ -49,21 +49,22 @@ export default function AuthModal({ onAuthSuccess }) {
     setErrorMsg('');
     setSuccessMsg('');
 
-    if (!isConfigured) {
-      setErrorMsg('Supabase is not configured yet. Please check your environment variables.');
-      return;
-    }
-
     try {
       setLoading(true);
+
       if (mode === 'signup') {
         if (!fullName.trim()) {
           throw new Error('Please enter your full name');
         }
-        await signUp(email.trim(), password, fullName.trim());
-        setSuccessMsg('Account created successfully!');
+        const res = await signUp(email.trim(), password, fullName.trim());
         
-        // Clear sensitive inputs
+        if (res?.isPending) {
+          setIsPendingReviewScreen(true);
+          setPassword('');
+          return;
+        }
+
+        setSuccessMsg('Account created successfully!');
         setPassword('');
         setEmail('');
         setFullName('');
@@ -77,7 +78,6 @@ export default function AuthModal({ onAuthSuccess }) {
         await signIn(email.trim(), password);
         setSuccessMsg('Signed In successfully!');
         
-        // Clear sensitive inputs
         setPassword('');
         setEmail('');
         setFullName('');
@@ -89,7 +89,7 @@ export default function AuthModal({ onAuthSuccess }) {
         }, 1200);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
-        setSuccessMsg('Password reset link sent!');
+        setSuccessMsg('Password reset link sent! Please check your email inbox.');
         setPassword('');
       } else if (mode === 'newpassword') {
         if (password.length < 6) {
@@ -118,89 +118,77 @@ export default function AuthModal({ onAuthSuccess }) {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Top Decorative Glow Line */}
-        <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
+        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
 
         {/* Close Button */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-all"
+          className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
         >
           <X className="w-5 h-5" />
         </button>
 
-        {/* Success View */}
-        {successMsg ? (
-          <div className="text-center py-8 animate-fadeIn">
-            <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-4 text-emerald-400 shadow-lg shadow-emerald-500/20 animate-bounce">
-              <CheckCircle2 className="w-10 h-10" />
+        {/* PENDING APPROVAL NOTICE SCREEN */}
+        {isPendingReviewScreen ? (
+          <div className="text-center py-4 animate-fadeIn">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-amber-400 shadow-xl shadow-amber-500/10 animate-pulse">
+              <Clock className="w-8 h-8" />
             </div>
-            <h2 className="text-2xl font-black text-white tracking-tight mb-2">
-              {successMsg}
-            </h2>
-            <p className="text-xs text-slate-400">
-              {mode === 'forgot' 
-                ? 'Please check your email inbox to reset your password.' 
-                : mode === 'newpassword'
-                ? 'Your password has been updated securely.'
-                : 'Directing to your flashcards...'}
+
+            <h3 className="text-xl font-bold text-white mb-2">
+              Registration Submitted!
+            </h3>
+
+            <p className="text-xs text-slate-300 leading-relaxed mb-4">
+              Your student account registration for <strong className="text-cyanGlow">{email}</strong> has been submitted for administrator review (Khant Kyaw Lin).
             </p>
-          </div>
-        ) : (
-          <>
-            {/* Brand Header */}
-            <div className="text-center mb-6">
-              <div className="w-12 h-12 rounded-xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-3 text-cyanPrimary shadow-md">
-                {mode === 'newpassword' ? <KeyRound className="w-6 h-6" /> : <Sparkles className="w-6 h-6" />}
+
+            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl text-left text-xs text-slate-400 mb-6 space-y-1.5">
+              <div className="flex items-center gap-2 text-emerald-400 font-semibold">
+                <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                <span>Verification Request Queued</span>
               </div>
-              <h2 className="text-2xl font-black text-white tracking-tight">
-                {mode === 'signup' 
-                  ? 'Create Student Account' 
-                  : mode === 'signin' 
-                  ? 'Sign In to Synapse Study' 
-                  : mode === 'forgot'
-                  ? 'Reset Your Password'
-                  : 'Change Account Password'}
-              </h2>
-              <p className="text-xs text-slate-400 mt-1">
-                {mode === 'signup' 
-                  ? 'Save and sync your review flashcards & quiz certificates across all devices' 
-                  : mode === 'signin'
-                  ? 'Access your saved cards and verified certificates anywhere'
-                  : mode === 'forgot'
-                  ? 'Enter your registered email to receive a password reset link'
-                  : 'Enter your new password below to update your account'}
+              <p className="text-[11px] text-slate-400 pl-5">
+                You will receive an automated approval confirmation email as soon as your account is reviewed and activated.
               </p>
             </div>
 
-            {/* Mode Tabs (only in signin/signup mode) */}
-            {(mode === 'signin' || mode === 'signup') && (
-              <div className="grid grid-cols-2 p-1 bg-[#0d1117] border border-slate-800 rounded-xl mb-6 text-xs font-bold">
-                <button
-                  type="button"
-                  onClick={() => { setMode('signin'); setAuthModalMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
-                  className={`py-2 rounded-lg transition-all ${
-                    mode === 'signin'
-                      ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  Sign In
-                </button>
-                <button
-                  type="button"
-                  onClick={() => { setMode('signup'); setAuthModalMode('signup'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
-                  className={`py-2 rounded-lg transition-all ${
-                    mode === 'signup'
-                      ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20'
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                >
-                  Create Account
-                </button>
+            <button
+              onClick={() => {
+                setIsPendingReviewScreen(false);
+                setMode('signin');
+              }}
+              className="w-full py-2.5 rounded-xl font-bold text-xs bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/20 hover:bg-cyanPrimary/90 transition-all"
+            >
+              Back to Sign In
+            </button>
+          </div>
+        ) : (
+          <>
+            {/* Header */}
+            <div className="text-center mb-6">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyanPrimary/10 border border-cyanPrimary/30 text-cyanPrimary mb-3">
+                {mode === 'newpassword' || mode === 'forgot' ? (
+                  <KeyRound className="w-6 h-6" />
+                ) : (
+                  <Lock className="w-6 h-6" />
+                )}
               </div>
-            )}
+              <h2 className="text-2xl font-bold text-white tracking-tight">
+                {mode === 'signin' && 'Welcome Back'}
+                {mode === 'signup' && 'Create Student Account'}
+                {mode === 'forgot' && 'Reset Password'}
+                {mode === 'newpassword' && 'Set New Password'}
+              </h2>
+              <p className="text-xs text-slate-400 mt-1">
+                {mode === 'signin' && 'Sign in to access quizzes and track your study analytics'}
+                {mode === 'signup' && 'Register for admin approval to unlock quizzes & certificates'}
+                {mode === 'forgot' && 'Enter your registered email to receive a password reset link'}
+                {mode === 'newpassword' && 'Enter your new secure account password below'}
+              </p>
+            </div>
 
-            {/* Error Message */}
+            {/* Error Notification */}
             {errorMsg && (
               <div className="flex items-start gap-2 p-3 mb-4 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-300 font-medium animate-fadeIn">
                 <AlertCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
@@ -208,15 +196,24 @@ export default function AuthModal({ onAuthSuccess }) {
               </div>
             )}
 
+            {/* Success Notification */}
+            {successMsg && (
+              <div className="flex items-start gap-2 p-3 mb-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-xs text-emerald-300 font-medium animate-fadeIn">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                <span>{successMsg}</span>
+              </div>
+            )}
+
             {/* Form */}
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <form onSubmit={handleSubmit} className="space-y-4">
+              {/* Full Name for Sign Up */}
               {mode === 'signup' && (
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
+                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
                     Student Full Name
                   </label>
                   <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
+                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                       <User className="w-4 h-4" />
                     </div>
                     <input
@@ -231,13 +228,14 @@ export default function AuthModal({ onAuthSuccess }) {
                 </div>
               )}
 
+              {/* Email (except for set new password) */}
               {mode !== 'newpassword' && (
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
-                    Email Address
+                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
+                    Student Email Address
                   </label>
                   <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
+                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                       <Mail className="w-4 h-4" />
                     </div>
                     <input
@@ -252,24 +250,29 @@ export default function AuthModal({ onAuthSuccess }) {
                 </div>
               )}
 
+              {/* Password (except for forgot password) */}
               {mode !== 'forgot' && (
                 <div>
-                  <div className="flex items-center justify-between mb-1.5 ml-1 mr-1">
-                    <label className="block text-xs font-bold uppercase tracking-wider text-slate-300">
-                      {mode === 'newpassword' ? 'Enter New Password' : 'Password'}
+                  <div className="flex items-center justify-between mb-1.5 ml-1">
+                    <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300">
+                      {mode === 'newpassword' ? 'New Password' : 'Password'}
                     </label>
                     {mode === 'signin' && (
                       <button
                         type="button"
-                        onClick={() => { setMode('forgot'); setAuthModalMode('forgot'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
-                        className="text-xs text-cyanGlow hover:underline"
+                        onClick={() => {
+                          setMode('forgot');
+                          setErrorMsg('');
+                          setSuccessMsg('');
+                        }}
+                        className="text-[11px] text-cyanGlow hover:underline"
                       >
-                        Forgot?
+                        Forgot password?
                       </button>
                     )}
                   </div>
                   <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500">
+                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                       <Lock className="w-4 h-4" />
                     </div>
                     <input
@@ -286,18 +289,14 @@ export default function AuthModal({ onAuthSuccess }) {
                       onClick={() => setShowPassword(!showPassword)}
                       className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-cyanGlow transition-colors"
                       tabIndex={-1}
-                      title={showPassword ? 'Hide password' : 'Show password'}
                     >
-                      {showPassword ? (
-                        <EyeOff className="w-4 h-4" />
-                      ) : (
-                        <Eye className="w-4 h-4" />
-                      )}
+                      {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                     </button>
                   </div>
                 </div>
               )}
 
+              {/* Submit Button */}
               <button
                 type="submit"
                 disabled={loading}
@@ -306,31 +305,72 @@ export default function AuthModal({ onAuthSuccess }) {
                 {loading ? (
                   <>
                     <Loader2 className="w-4 h-4 animate-spin" />
-                    <span>Processing...</span>
+                    <span>Please wait...</span>
                   </>
-                ) : mode === 'signup' ? (
-                  'Create Free Account'
-                ) : mode === 'signin' ? (
-                  'Sign In'
-                ) : mode === 'forgot' ? (
-                  'Send Reset Link'
                 ) : (
-                  'Save New Password'
+                  <>
+                    <span>
+                      {mode === 'signin' && 'Sign In'}
+                      {mode === 'signup' && 'Register Account for Review'}
+                      {mode === 'forgot' && 'Send Reset Link'}
+                      {mode === 'newpassword' && 'Update Password'}
+                    </span>
+                    <ArrowRight className="w-4 h-4" />
+                  </>
                 )}
               </button>
             </form>
 
-            {mode === 'forgot' && (
-              <div className="mt-4 text-center">
+            {/* Switch Mode Links */}
+            <div className="mt-6 pt-4 border-t border-slate-800 text-center text-xs text-slate-400">
+              {mode === 'signin' && (
+                <p>
+                  Need a student account?{' '}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMode('signup');
+                      setErrorMsg('');
+                      setSuccessMsg('');
+                    }}
+                    className="font-bold text-cyanGlow hover:underline"
+                  >
+                    Register here
+                  </button>
+                </p>
+              )}
+
+              {mode === 'signup' && (
+                <p>
+                  Already registered?{' '}
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMode('signin');
+                      setErrorMsg('');
+                      setSuccessMsg('');
+                    }}
+                    className="font-bold text-cyanGlow hover:underline"
+                  >
+                    Sign in here
+                  </button>
+                </p>
+              )}
+
+              {mode === 'forgot' && (
                 <button
                   type="button"
-                  onClick={() => { setMode('signin'); setAuthModalMode('signin'); setErrorMsg(''); setSuccessMsg(''); setPassword(''); }}
-                  className="text-xs text-slate-400 hover:text-white"
+                  onClick={() => {
+                    setMode('signin');
+                    setErrorMsg('');
+                    setSuccessMsg('');
+                  }}
+                  className="font-semibold text-slate-400 hover:text-white hover:underline"
                 >
                   ← Back to Sign In
                 </button>
-              </div>
-            )}
+              )}
+            </div>
           </>
         )}
       </div>

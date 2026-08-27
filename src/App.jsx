@@ -3,6 +3,7 @@ import Header from './components/Header';
 import FlashcardView from './components/flashcards/FlashcardView';
 import DashboardView from './components/dashboard/DashboardView';
 import QuizView from './components/quiz/QuizView';
+import AdminDashboardView from './components/admin/AdminDashboardView';
 import AuthModal from './components/auth/AuthModal';
 import AccountSettingsModal from './components/auth/AccountSettingsModal';
 import { AuthProvider } from './context/AuthContext';
@@ -19,6 +20,7 @@ export default function App() {
           {activeView === 'flashcards' && <FlashcardView />}
           {activeView === 'dashboards' && <DashboardView />}
           {activeView === 'quiz' && <QuizView />}
+          {activeView === 'admin' && <AdminDashboardView />}
         </main>
 
         <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />

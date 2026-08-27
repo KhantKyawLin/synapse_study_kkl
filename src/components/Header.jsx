@@ -142,6 +142,25 @@ export default function Header({ activeView, setActiveView }) {
                 <span>Quiz</span>
                 {!user && <Lock className="w-2.5 h-2.5 text-slate-400 opacity-80" />}
               </button>
+
+              {isAdmin && (
+                <button
+                  onClick={() => setActiveView('admin')}
+                  className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
+                    activeView === 'admin'
+                      ? 'bg-amber-500 text-white shadow-md shadow-amber-500/30'
+                      : 'text-amber-400/90 hover:text-amber-300 hover:bg-slate-800/50'
+                  }`}
+                >
+                  <ShieldCheck className="w-3.5 h-3.5" />
+                  <span>Admin</span>
+                  {pendingCount > 0 && (
+                    <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-rose-500 text-white font-black animate-pulse">
+                      {pendingCount}
+                    </span>
+                  )}
+                </button>
+              )}
             </nav>
 
             {/* Desktop User Profile Badge with Active Prestige Frame */}
