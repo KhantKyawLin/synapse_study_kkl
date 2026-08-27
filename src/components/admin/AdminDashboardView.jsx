@@ -447,10 +447,11 @@ export default function AdminDashboardView() {
                     {/* 1-Click Launch Email Client */}
                     <button
                       onClick={() => openMailClient({ studentEmail: profile.email, studentName: profile.full_name, type: isApproved ? 'approval' : 'rejection' })}
-                      title="Open in Gmail/Mail client"
-                      className="p-2 rounded-xl bg-[#0d1117] border border-slate-700 text-slate-400 hover:text-cyanGlow hover:border-cyanPrimary/50 transition-all"
+                      title="Send Email via Gmail / Mail Client"
+                      className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#0d1117] border border-cyanPrimary/40 text-cyanGlow hover:bg-cyanPrimary/10 active:scale-95 transition-all text-xs font-semibold"
                     >
-                      <ExternalLink className="w-3.5 h-3.5" />
+                      <Mail className="w-3.5 h-3.5" />
+                      <span>Email Student</span>
                     </button>
                   </div>
                 )}
