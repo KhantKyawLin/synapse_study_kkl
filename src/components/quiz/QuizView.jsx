@@ -115,6 +115,7 @@ export default function QuizView() {
 
       const percentage = Math.round((score / activeQuestions.length) * 100);
       const timeSpentSecs = totalAllocatedSeconds - timeRemaining;
+      const isFullQuiz = questionCount === 'all' || activeQuestions.length === filteredQuestions.length;
 
       saveQuizAttempt({
         student_name: studentName.trim() || user?.user_metadata?.full_name || 'Student',
@@ -123,6 +124,7 @@ export default function QuizView() {
         score: score,
         total_questions: activeQuestions.length,
         percentage: percentage,
+        is_full_quiz: isFullQuiz,
         time_spent_seconds: timeSpentSecs,
         total_allocated_seconds: totalAllocatedSeconds,
         completed_at: new Date().toISOString(),

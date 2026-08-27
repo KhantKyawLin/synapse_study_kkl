@@ -259,10 +259,10 @@ export default function QuizHistoryModal({ isOpen, onClose, history = [], stats 
 
                 <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
                   <div className="flex items-center gap-2 text-slate-400 text-xs font-semibold mb-1">
-                    <Clock className="w-3.5 h-3.5 text-amber-400" />
-                    <span>Study Time</span>
+                    <Layers className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Full Exams (100%)</span>
                   </div>
-                  <div className="text-xl sm:text-2xl font-black text-white">{formatTotalTime(stats.totalTimeSpentSeconds)}</div>
+                  <div className="text-xl sm:text-2xl font-black text-white">{stats.fullExamsCount || 0}</div>
                 </div>
               </div>
 

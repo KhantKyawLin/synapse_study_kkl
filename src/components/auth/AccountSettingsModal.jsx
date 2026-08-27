@@ -39,8 +39,8 @@ export const PRESTIGE_FRAMES = [
     badgeColor: 'text-teal-300 bg-teal-500/10 border-teal-500/30',
     frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-teal-300 via-slate-100 to-teal-600 ring-2 ring-teal-300 shadow-lg shadow-teal-500/30',
     headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-teal-300 to-slate-200 ring-1 ring-teal-300',
-    description: 'Awarded for completing 1 assessment',
-    requirement: 'Complete 1 Quiz Assessment',
+    description: 'Awarded for passing 1 Full Category Exam',
+    requirement: 'Pass 1 Full Category Exam (100% Questions, ≥70%)',
   },
   {
     id: 'frame_gold',
@@ -49,8 +49,8 @@ export const PRESTIGE_FRAMES = [
     badgeColor: 'text-amber-300 bg-amber-400/10 border-amber-400/30',
     frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-amber-300 via-yellow-400 to-amber-600 ring-2 ring-yellow-300 shadow-xl shadow-amber-500/40',
     headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-amber-300 to-yellow-400 ring-1 ring-yellow-300',
-    description: 'Awarded for consistent exam testing',
-    requirement: 'Complete 3 Quiz Assessments',
+    description: 'Awarded for passing 3 Full Category Exams',
+    requirement: 'Pass 3 Full Category Exams (≥70%)',
   },
   {
     id: 'frame_cyber',
@@ -59,8 +59,8 @@ export const PRESTIGE_FRAMES = [
     badgeColor: 'text-cyan-300 bg-cyan-500/10 border-cyan-500/30',
     frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-cyan-400 via-sky-300 to-blue-600 ring-2 ring-cyan-300 shadow-xl shadow-cyan-500/40 animate-pulse',
     headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-500 ring-1 ring-cyan-300',
-    description: 'Awarded for scoring 80%+ on any quiz',
-    requirement: 'Score 80%+ on any Quiz',
+    description: 'Awarded for high mastery on a Full Exam',
+    requirement: 'Score 80%+ on a Full Category Exam',
   },
   {
     id: 'frame_cosmic',
@@ -69,8 +69,8 @@ export const PRESTIGE_FRAMES = [
     badgeColor: 'text-purple-300 bg-purple-500/10 border-purple-500/30',
     frameClass: 'p-1 rounded-2xl bg-gradient-to-br from-purple-500 via-fuchsia-400 to-indigo-600 ring-2 ring-fuchsia-400 shadow-xl shadow-purple-500/50',
     headerClass: 'p-0.5 rounded-lg bg-gradient-to-br from-purple-500 to-indigo-600 ring-1 ring-purple-300',
-    description: 'Awarded for dedicated study time',
-    requirement: '15+ Mins Study or 5 Quizzes',
+    description: 'Awarded for completing 5 Full Category Exams',
+    requirement: 'Complete 5 Full Category Exams',
   },
   {
     id: 'frame_mythic',
@@ -80,7 +80,7 @@ export const PRESTIGE_FRAMES = [
     frameClass: 'p-1 rounded-2xl bg-gradient-to-r from-rose-500 via-amber-400 to-pink-600 ring-2 ring-amber-300 shadow-2xl shadow-rose-500/60',
     headerClass: 'p-0.5 rounded-lg bg-gradient-to-r from-rose-500 via-amber-400 to-pink-600 ring-1 ring-amber-300',
     description: 'Prestige crown for top medical achievers',
-    requirement: 'Pass 3 Exams (≥70%)',
+    requirement: 'Pass 3 Full Category Exams with ≥90%',
   },
 ];
 
@@ -132,32 +132,35 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
   // Track previous open state to avoid tab jumping on window blur/focus
   const prevIsOpen = useRef(false);
 
-  // Frame unlock checks
+  // Frame unlock checks based on Full Category Exams
   const getFrameStatus = (frameId) => {
+    const fullExams = (history || []).filter((h) => h.is_full_quiz || (h.total_questions >= 30));
+    const passedFull = fullExams.filter((h) => (h.percentage || 0) >= 70);
+
     switch (frameId) {
       case 'frame_bronze':
         return { isUnlocked: true, progress: 'Unlocked' };
       case 'frame_silver': {
-        const unlocked = (stats.totalQuizzes || 0) >= 1;
-        return { isUnlocked: unlocked, progress: `${Math.min(1, stats.totalQuizzes || 0)}/1 Completed` };
+        const unlocked = passedFull.length >= 1;
+        return { isUnlocked: unlocked, progress: `${Math.min(1, passedFull.length)}/1 Full Exams` };
       }
       case 'frame_gold': {
-        const unlocked = (stats.totalQuizzes || 0) >= 3;
-        return { isUnlocked: unlocked, progress: `${Math.min(3, stats.totalQuizzes || 0)}/3 Completed` };
+        const unlocked = passedFull.length >= 3;
+        return { isUnlocked: unlocked, progress: `${Math.min(3, passedFull.length)}/3 Full Exams` };
       }
       case 'frame_cyber': {
-        const unlocked = (history || []).some((h) => (h.percentage || 0) >= 80);
-        const best = history.length ? Math.max(...history.map(h => h.percentage || 0)) : 0;
-        return { isUnlocked: unlocked, progress: unlocked ? 'Unlocked!' : `Best: ${best}%` };
+        const unlocked = fullExams.some((h) => (h.percentage || 0) >= 80);
+        const best = fullExams.length ? Math.max(...fullExams.map(h => h.percentage || 0)) : 0;
+        return { isUnlocked: unlocked, progress: unlocked ? 'Unlocked!' : (fullExams.length ? `Best: ${best}%` : '0/1 Full Exams') };
       }
       case 'frame_cosmic': {
-        const unlocked = (stats.totalTimeSpentSeconds || 0) >= 900 || (stats.totalQuizzes || 0) >= 5;
-        const mins = Math.min(15, Math.floor((stats.totalTimeSpentSeconds || 0) / 60));
-        return { isUnlocked: unlocked, progress: `${mins}/15 Mins` };
+        const unlocked = fullExams.length >= 5;
+        return { isUnlocked: unlocked, progress: `${Math.min(5, fullExams.length)}/5 Full Exams` };
       }
       case 'frame_mythic': {
-        const unlocked = (stats.passedQuizzes || 0) >= 3 || (stats.totalQuizzes || 0) >= 10;
-        return { isUnlocked: unlocked, progress: `${Math.min(3, stats.passedQuizzes || 0)}/3 Passed` };
+        const count90 = fullExams.filter((h) => (h.percentage || 0) >= 90).length;
+        const unlocked = count90 >= 3;
+        return { isUnlocked: unlocked, progress: `${Math.min(3, count90)}/3 Passed (≥90%)` };
       }
       default:
         return { isUnlocked: true, progress: 'Unlocked' };
@@ -1010,10 +1013,10 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
                         <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl">
                           <div className="flex items-center gap-1.5 text-slate-400 text-xs font-semibold mb-1">
-                            <Clock className="w-3.5 h-3.5 text-amber-400" />
-                            <span>Study Time</span>
+                            <Layers className="w-3.5 h-3.5 text-amber-400" />
+                            <span>Full Exams (100%)</span>
                           </div>
-                          <div className="text-xl sm:text-2xl font-black text-white">{formatTotalTime(stats.totalTimeSpentSeconds)}</div>
+                          <div className="text-xl sm:text-2xl font-black text-white">{stats.fullExamsCount || 0}</div>
                         </div>
                       </div>
 
