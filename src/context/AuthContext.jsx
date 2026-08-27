@@ -110,9 +110,19 @@ export function AuthProvider({ children }) {
 
   // Sign out
   const signOut = async () => {
-    if (!supabase) return;
-    const { error } = await supabase.auth.signOut();
-    if (error) console.error('Error signing out:', error);
+    try {
+      localStorage.removeItem('synapse_flashcard_status');
+      localStorage.removeItem('synapse_quiz_history');
+    } catch (e) {
+      console.warn('Storage cleanup error:', e);
+    }
+    if (supabase) {
+      const { error } = await supabase.auth.signOut();
+      if (error) console.error('Error signing out:', error);
+    }
+    setUser(null);
+    setSession(null);
+    setIsAccountSettingsOpen(false);
   };
 
   // Send Password Reset Email

@@ -26,14 +26,32 @@ export function useFlashcardSync() {
     return `${card.category || 'General'}::${card.question}`;
   }, []);
 
-  // Save to localStorage whenever cardStatusMap changes
+  // Save to localStorage whenever cardStatusMap changes (or clean on empty)
   useEffect(() => {
     try {
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(cardStatusMap));
+      if (Object.keys(cardStatusMap).length > 0) {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(cardStatusMap));
+      } else {
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
+      }
     } catch (e) {
       console.error('Failed to save card status to localStorage:', e);
     }
   }, [cardStatusMap]);
+
+  // When user signs out, reset to clean guest state
+  useEffect(() => {
+    if (!user) {
+      setCardStatusMap({});
+      setCloudSynced(false);
+      isInitialSyncDone.current = false;
+      try {
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+  }, [user]);
 
   // Initial Sync from Supabase when user logs in
   useEffect(() => {
@@ -63,30 +81,8 @@ export function useFlashcardSync() {
             }
           });
 
-          // Merge: cloud map takes priority, but merge guest local cards if cloud is missing them
-          setCardStatusMap((localPrev) => {
-            const merged = { ...localPrev, ...cloudMap };
-            
-            // If local had unsynced cards, sync them up to cloud in background
-            const unsyncedCards = [];
-            Object.keys(localPrev).forEach((cardId) => {
-              if (!cloudMap[cardId]) {
-                unsyncedCards.push({
-                  user_id: user.id,
-                  card_id: cardId,
-                  status: localPrev[cardId],
-                  updated_at: new Date().toISOString(),
-                });
-              }
-            });
-
-            if (unsyncedCards.length > 0) {
-              supabase.from('flashcard_progress').upsert(unsyncedCards, { onConflict: 'user_id,card_id' }).then();
-            }
-
-            return merged;
-          });
-
+          // Set state to cloud map
+          setCardStatusMap(cloudMap);
           setCloudSynced(true);
           isInitialSyncDone.current = true;
         }

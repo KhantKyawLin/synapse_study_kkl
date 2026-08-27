@@ -17,14 +17,30 @@ export function useQuizHistory() {
   });
   const [loading, setLoading] = useState(false);
 
-  // Sync with localStorage
+  // Sync with localStorage (or clean when empty)
   useEffect(() => {
     try {
-      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(history));
+      if (history.length > 0) {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(history));
+      } else {
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
+      }
     } catch (e) {
       console.error('Failed to save quiz history locally:', e);
     }
   }, [history]);
+
+  // When user signs out, clear history state and remove localStorage for fresh guest mode
+  useEffect(() => {
+    if (!user) {
+      setHistory([]);
+      try {
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+  }, [user]);
 
   // Fetch attempts from Supabase when user is logged in
   useEffect(() => {
@@ -44,12 +60,7 @@ export function useQuizHistory() {
         if (error) throw error;
 
         if (isMounted && data) {
-          setHistory((prevLocal) => {
-            // Merge by unique id / timestamp
-            const cloudIds = new Set(data.map((d) => d.id));
-            const uniqueLocal = prevLocal.filter((item) => !cloudIds.has(item.id));
-            return [...data, ...uniqueLocal];
-          });
+          setHistory(data);
         }
       } catch (err) {
         console.error('Error fetching quiz history from cloud:', err);
