@@ -52,7 +52,7 @@ export function AuthProvider({ children }) {
         .from('profiles')
         .select('*')
         .eq('id', currentUser.id)
-        .single();
+        .maybeSingle();
 
       if (error && error.code !== 'PGRST116') {
         console.warn('Error fetching profile:', error);
@@ -223,7 +223,7 @@ export function AuthProvider({ children }) {
           .from('profiles')
           .select('status, role')
           .eq('id', data.user.id)
-          .single();
+          .maybeSingle();
 
         const status = profile?.status || data.user.user_metadata?.status || 'pending';
 

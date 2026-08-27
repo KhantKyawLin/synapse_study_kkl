@@ -8,26 +8,38 @@ import {
   ExternalLink, UserPlus, Copy, Terminal, ChevronDown, ChevronUp 
 } from 'lucide-react';
 
-const SQL_SETUP_SCRIPT = `-- 1. Ensure status and role columns exist on profiles table
+const SQL_SETUP_SCRIPT = `-- 1. Create profiles table if it does not exist yet
+CREATE TABLE IF NOT EXISTS public.profiles (
+  id UUID PRIMARY KEY,
+  full_name TEXT NOT NULL,
+  email TEXT,
+  avatar_url TEXT DEFAULT 'student_freshman',
+  avatar_frame TEXT DEFAULT 'frame_bronze',
+  status TEXT DEFAULT 'pending',
+  role TEXT DEFAULT 'student',
+  updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+);
+
+-- 2. Ensure columns exist if table was already created
 ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'pending';
 ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'student';
 
--- 2. Enable Row Level Security (RLS)
+-- 3. Enable Row Level Security (RLS)
 ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
 
--- 3. Drop any restrictive old policies
+-- 4. Drop any restrictive old policies
 DROP POLICY IF EXISTS "Public profiles are viewable by everyone" ON public.profiles;
 DROP POLICY IF EXISTS "Users can view own profile" ON public.profiles;
 DROP POLICY IF EXISTS "Allow all for authenticated users" ON public.profiles;
 DROP POLICY IF EXISTS "Allow full access" ON public.profiles;
 
--- 4. Allow full access so Admin can view and approve all student registrations
+-- 5. Allow full access so Admin can view and approve all student registrations
 CREATE POLICY "Allow full access" ON public.profiles
   FOR ALL
   USING (true)
   WITH CHECK (true);
 
--- 5. Guarantee Khant Kyaw Lin is set as approved admin
+-- 6. Guarantee Khant Kyaw Lin is set as approved admin
 UPDATE public.profiles 
 SET role = 'admin', status = 'approved' 
 WHERE email = 'khantkyawlinn.kkl@gmail.com';`;
