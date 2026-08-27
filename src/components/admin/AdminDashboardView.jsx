@@ -4,8 +4,33 @@ import { supabase } from '../../lib/supabase';
 import { sendApprovalEmail, sendRejectionEmail, openMailClient } from '../../lib/emailService';
 import { 
   ShieldCheck, Users, Clock, CheckCircle2, XCircle, Search, 
-  RefreshCw, Mail, Check, X, AlertCircle, Loader2, Award, Calendar, ExternalLink 
+  RefreshCw, Mail, Check, X, AlertCircle, Loader2, Award, Calendar, 
+  ExternalLink, UserPlus, Copy, Terminal, ChevronDown, ChevronUp 
 } from 'lucide-react';
+
+const SQL_SETUP_SCRIPT = `-- 1. Ensure status and role columns exist on profiles table
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS status TEXT DEFAULT 'pending';
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS role TEXT DEFAULT 'student';
+
+-- 2. Enable Row Level Security (RLS)
+ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
+
+-- 3. Drop any restrictive old policies
+DROP POLICY IF EXISTS "Public profiles are viewable by everyone" ON public.profiles;
+DROP POLICY IF EXISTS "Users can view own profile" ON public.profiles;
+DROP POLICY IF EXISTS "Allow all for authenticated users" ON public.profiles;
+DROP POLICY IF EXISTS "Allow full access" ON public.profiles;
+
+-- 4. Allow full access so Admin can view and approve all student registrations
+CREATE POLICY "Allow full access" ON public.profiles
+  FOR ALL
+  USING (true)
+  WITH CHECK (true);
+
+-- 5. Guarantee Khant Kyaw Lin is set as approved admin
+UPDATE public.profiles 
+SET role = 'admin', status = 'approved' 
+WHERE email = 'khantkyawlinn.kkl@gmail.com';`;
 
 export default function AdminDashboardView() {
   const { user, isAdmin, refreshPendingCount } = useAuth();
@@ -15,6 +40,13 @@ export default function AdminDashboardView() {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState('all'); // 'all' | 'pending' | 'approved' | 'rejected'
   const [toastMsg, setToastMsg] = useState(null);
+
+  // Quick Approve by Email Input
+  const [quickEmail, setQuickEmail] = useState('');
+  const [quickName, setQuickName] = useState('');
+  const [quickLoading, setQuickLoading] = useState(false);
+  const [showSqlGuide, setShowSqlGuide] = useState(false);
+  const [copiedSql, setCopiedSql] = useState(false);
 
   const fetchAllProfiles = useCallback(async () => {
     if (!supabase) return;
@@ -44,7 +76,71 @@ export default function AdminDashboardView() {
     setTimeout(() => setToastMsg(null), 3500);
   };
 
-  // Handle Approve
+  const handleCopySql = () => {
+    navigator.clipboard.writeText(SQL_SETUP_SCRIPT);
+    setCopiedSql(true);
+    setTimeout(() => setCopiedSql(false), 2500);
+  };
+
+  // Quick Approve / Add Student by Email Directly
+  const handleQuickApprove = async (e) => {
+    e.preventDefault();
+    if (!quickEmail.trim() || !supabase) return;
+
+    try {
+      setQuickLoading(true);
+      const targetEmail = quickEmail.trim().toLowerCase();
+      const targetName = quickName.trim() || targetEmail.split('@')[0];
+
+      // Update or Upsert in profiles table
+      const { data: existing } = await supabase
+        .from('profiles')
+        .select('id')
+        .eq('email', targetEmail)
+        .maybeSingle();
+
+      if (existing) {
+        await supabase
+          .from('profiles')
+          .update({
+            full_name: targetName,
+            status: 'approved',
+            updated_at: new Date().toISOString(),
+          })
+          .eq('id', existing.id);
+      } else {
+        await supabase.from('profiles').insert([
+          {
+            id: typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : undefined,
+            email: targetEmail,
+            full_name: targetName,
+            status: 'approved',
+            role: 'student',
+            avatar_url: 'student_freshman',
+            avatar_frame: 'frame_bronze',
+            updated_at: new Date().toISOString(),
+          },
+        ]);
+      }
+
+      // Send automated approval email
+      await sendApprovalEmail({
+        studentName: targetName,
+        studentEmail: targetEmail,
+      });
+
+      showToast(`✅ Approved ${targetEmail} & sent confirmation email!`);
+      setQuickEmail('');
+      setQuickName('');
+      fetchAllProfiles();
+    } catch (err) {
+      showToast(`Error: ${err.message}`, 'error');
+    } finally {
+      setQuickLoading(false);
+    }
+  };
+
+  // Handle Approve from List
   const handleApprove = async (profile) => {
     if (!supabase || actionLoadingId) return;
     try {
@@ -252,6 +348,92 @@ export default function AdminDashboardView() {
         </div>
       </div>
 
+      {/* Direct Quick Approve by Email Box */}
+      <div className="p-4 sm:p-5 bg-[#161b22] border border-cyanPrimary/30 rounded-2xl mb-6 shadow-lg shadow-cyanPrimary/5">
+        <h3 className="text-xs font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
+          <UserPlus className="w-4 h-4 text-cyanPrimary" />
+          <span>Quick Approve / Register Student by Email</span>
+        </h3>
+        <p className="text-[11px] text-slate-400 mb-3">
+          Approve any student email directly (e.g. <span className="text-cyanGlow font-mono">helium.7498@gmail.com</span>) and immediately dispatch their approval notification.
+        </p>
+
+        <form onSubmit={handleQuickApprove} className="flex flex-col sm:flex-row items-center gap-2.5">
+          <input
+            type="email"
+            required
+            placeholder="Student email (e.g. helium.7498@gmail.com)"
+            value={quickEmail}
+            onChange={(e) => setQuickEmail(e.target.value)}
+            className="flex-1 w-full bg-[#0d1117] border border-slate-700 text-white text-xs font-medium rounded-xl px-3.5 py-2.5 placeholder-slate-500 focus:outline-none focus:border-cyanPrimary"
+          />
+
+          <input
+            type="text"
+            placeholder="Student Full Name (optional)"
+            value={quickName}
+            onChange={(e) => setQuickName(e.target.value)}
+            className="w-full sm:w-56 bg-[#0d1117] border border-slate-700 text-white text-xs font-medium rounded-xl px-3.5 py-2.5 placeholder-slate-500 focus:outline-none focus:border-cyanPrimary"
+          />
+
+          <button
+            type="submit"
+            disabled={quickLoading || !quickEmail.trim()}
+            className="w-full sm:w-auto px-5 py-2.5 rounded-xl font-bold text-xs bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-95 transition-all flex items-center justify-center gap-1.5 disabled:opacity-50 shrink-0"
+          >
+            {quickLoading ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+            ) : (
+              <Check className="w-3.5 h-3.5" />
+            )}
+            <span>Direct Approve & Notify</span>
+          </button>
+        </form>
+      </div>
+
+      {/* Supabase RLS Permission Fix Accordion */}
+      <div className="mb-6 bg-[#0d1117] border border-slate-800 rounded-2xl overflow-hidden">
+        <button
+          onClick={() => setShowSqlGuide(!showSqlGuide)}
+          className="w-full px-4 py-3 flex items-center justify-between text-xs font-semibold text-slate-300 hover:text-white transition-colors"
+        >
+          <div className="flex items-center gap-2">
+            <Terminal className="w-4 h-4 text-cyanPrimary" />
+            <span>Supabase RLS Permissions Setup (Run Once in Supabase SQL Editor)</span>
+          </div>
+          {showSqlGuide ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+        </button>
+
+        {showSqlGuide && (
+          <div className="p-4 border-t border-slate-800 bg-[#0a0d12] animate-fadeIn">
+            <p className="text-[11px] text-slate-400 mb-2">
+              If registered users aren't showing in your list automatically, run this SQL script in your{' '}
+              <a 
+                href="https://supabase.com/dashboard/project/rfecpnaxoaetnjslccsb/sql" 
+                target="_blank" 
+                rel="noreferrer"
+                className="text-cyanGlow font-bold underline"
+              >
+                Supabase SQL Editor
+              </a>{' '}
+              to grant your admin account full visibility:
+            </p>
+
+            <div className="relative bg-[#161b22] border border-slate-800 rounded-xl p-3 mb-2 font-mono text-[11px] text-slate-300 overflow-x-auto">
+              <pre>{SQL_SETUP_SCRIPT}</pre>
+            </div>
+
+            <button
+              onClick={handleCopySql}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 text-cyanGlow hover:bg-slate-700 transition-all"
+            >
+              <Copy className="w-3.5 h-3.5" />
+              <span>{copiedSql ? 'Copied SQL Script!' : 'Copy SQL Script'}</span>
+            </button>
+          </div>
+        )}
+      </div>
+
       {/* Toolbar & Filter Tabs */}
       <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 p-4 bg-[#161b22] border border-slate-800 rounded-2xl mb-5">
         {/* Search Input */}
@@ -330,7 +512,9 @@ export default function AdminDashboardView() {
           <div className="text-center py-16 bg-[#161b22] border border-slate-800 rounded-2xl">
             <Users className="w-10 h-10 text-slate-600 mx-auto mb-2" />
             <p className="text-sm font-bold text-slate-300">No Student Registrations Found</p>
-            <p className="text-xs text-slate-500 mt-1">No profiles match your current search or status filter.</p>
+            <p className="text-xs text-slate-500 mt-1 max-w-md mx-auto">
+              Use the <strong>"Quick Approve by Email"</strong> box above to approve accounts directly, or run the SQL setup script in your Supabase SQL Editor.
+            </p>
           </div>
         ) : (
           filteredProfiles.map((profile) => {

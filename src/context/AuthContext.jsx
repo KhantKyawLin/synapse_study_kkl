@@ -25,11 +25,11 @@ export function AuthProvider({ children }) {
   const refreshPendingCount = useCallback(async () => {
     if (!supabase) return;
     try {
-      const { count, error } = await supabase
+      const { data, error } = await supabase
         .from('profiles')
-        .select('*', { count: 'exact', head: true })
-        .eq('status', 'pending');
-      if (!error && count !== null) {
+        .select('id, status');
+      if (!error && data) {
+        const count = data.filter((p) => p.status === 'pending').length;
         setPendingCount(count);
       }
     } catch (e) {
@@ -219,13 +219,29 @@ export function AuthProvider({ children }) {
 
       // If not system admin, check approval status from database
       if (!isSystemAdmin) {
-        const { data: profile } = await supabase
+        let { data: profile } = await supabase
           .from('profiles')
           .select('status, role')
           .eq('id', data.user.id)
           .single();
 
         const status = profile?.status || data.user.user_metadata?.status || 'pending';
+
+        // Auto ensure profile row exists
+        try {
+          await supabase.from('profiles').upsert({
+            id: data.user.id,
+            full_name: data.user.user_metadata?.full_name || email.split('@')[0],
+            email: data.user.email,
+            avatar_url: data.user.user_metadata?.avatar_url || 'student_freshman',
+            avatar_frame: data.user.user_metadata?.avatar_frame || 'frame_bronze',
+            status: status,
+            role: profile?.role || 'student',
+            updated_at: new Date().toISOString(),
+          });
+        } catch (syncErr) {
+          console.warn('Profile sync on signin note:', syncErr);
+        }
 
         if (status === 'pending') {
           await supabase.auth.signOut();
