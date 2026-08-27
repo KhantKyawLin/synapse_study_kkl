@@ -27,12 +27,14 @@ export default function AuthModal({ onAuthSuccess }) {
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
   const [isPendingReviewScreen, setIsPendingReviewScreen] = useState(false);
+  const [isSignInSuccess, setIsSignInSuccess] = useState(false);
 
   useEffect(() => {
     setMode(authModalMode);
     setErrorMsg('');
     setSuccessMsg('');
     setIsPendingReviewScreen(false);
+    setIsSignInSuccess(false);
   }, [authModalMode, isAuthModalOpen]);
 
   if (!isAuthModalOpen) return null;
@@ -41,6 +43,7 @@ export default function AuthModal({ onAuthSuccess }) {
     setErrorMsg('');
     setSuccessMsg('');
     setIsPendingReviewScreen(false);
+    setIsSignInSuccess(false);
     setIsAuthModalOpen(false);
   };
 
@@ -64,29 +67,29 @@ export default function AuthModal({ onAuthSuccess }) {
           return;
         }
 
-        setSuccessMsg('Account created successfully!');
+        setIsSignInSuccess(true);
         setPassword('');
         setEmail('');
         setFullName('');
 
         setTimeout(() => {
+          setIsSignInSuccess(false);
           setIsAuthModalOpen(false);
-          setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1200);
+        }, 1300);
       } else if (mode === 'signin') {
         await signIn(email.trim(), password);
-        setSuccessMsg('Signed In successfully!');
+        setIsSignInSuccess(true);
         
         setPassword('');
         setEmail('');
         setFullName('');
 
         setTimeout(() => {
+          setIsSignInSuccess(false);
           setIsAuthModalOpen(false);
-          setSuccessMsg('');
           if (onAuthSuccess) onAuthSuccess();
-        }, 1200);
+        }, 1300);
       } else if (mode === 'forgot') {
         await resetPassword(email.trim());
         setSuccessMsg('Password reset link sent! Please check your email inbox.');
@@ -121,15 +124,30 @@ export default function AuthModal({ onAuthSuccess }) {
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
 
         {/* Close Button */}
-        <button
-          onClick={handleClose}
-          className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
-        >
-          <X className="w-5 h-5" />
-        </button>
+        {!isSignInSuccess && (
+          <button
+            onClick={handleClose}
+            className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        )}
 
-        {/* PENDING APPROVAL NOTICE SCREEN */}
-        {isPendingReviewScreen ? (
+        {/* SIGN IN SUCCESS ANIMATION SCREEN */}
+        {isSignInSuccess ? (
+          <div className="py-6 text-center animate-fadeIn">
+            <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-4 text-emerald-400 shadow-xl shadow-emerald-500/20 animate-bounce">
+              <CheckCircle2 className="w-9 h-9" />
+            </div>
+            <h3 className="text-xl sm:text-2xl font-black text-white mb-1.5">
+              Signed In successfully!
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-400">
+              Welcome back! Loading your study dashboard...
+            </p>
+          </div>
+        ) : isPendingReviewScreen ? (
+          /* PENDING APPROVAL NOTICE SCREEN */
           <div className="text-center py-4 animate-fadeIn">
             <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-amber-400 shadow-xl shadow-amber-500/10 animate-pulse">
               <Clock className="w-8 h-8" />
