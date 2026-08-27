@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, 
-  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award 
+  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award, Lock 
 } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
@@ -140,6 +140,7 @@ export default function Header({ activeView, setActiveView }) {
               >
                 <HelpCircle className="w-3.5 h-3.5" />
                 <span>Quiz</span>
+                {!user && <Lock className="w-2.5 h-2.5 text-slate-400 opacity-80" />}
               </button>
             </nav>
 

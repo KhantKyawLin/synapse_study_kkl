@@ -4,11 +4,12 @@ import QuizCard from './QuizCard';
 import QuizResult from './QuizResult';
 import { useQuizHistory } from '../../hooks/useQuizHistory';
 import { useAuth } from '../../context/AuthContext';
+import { Lock, Award, Clock, Sparkles, ShieldCheck, CheckCircle2, UserPlus, LogIn } from 'lucide-react';
 import rawQuizData from '../../data/quizzes_data.json';
 
 export default function QuizView() {
+  const { user, openAuthModal, openAccountSettings } = useAuth();
   const { history, saveQuizAttempt } = useQuizHistory();
-  const { openAccountSettings } = useAuth();
 
   const modules = useMemo(() => Object.keys(rawQuizData || {}), []);
   const [selectedModule, setSelectedModule] = useState(modules[0] || '');
@@ -116,7 +117,7 @@ export default function QuizView() {
       const timeSpentSecs = totalAllocatedSeconds - timeRemaining;
 
       saveQuizAttempt({
-        student_name: studentName.trim() || 'Student',
+        student_name: studentName.trim() || user?.user_metadata?.full_name || 'Student',
         module_name: selectedModule,
         category: selectedCategory,
         score: score,
@@ -148,6 +149,74 @@ export default function QuizView() {
 
   const timeSpent = totalAllocatedSeconds - timeRemaining;
 
+  // GUEST LOCK SCREEN: If not logged in, restrict Quiz feature
+  if (!user) {
+    return (
+      <div className="w-full max-w-2xl mx-auto px-4 py-8 sm:py-12 animate-fadeIn">
+        <div className="bg-[#161b22]/90 border border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-2xl backdrop-blur-xl text-center relative overflow-hidden">
+          {/* Decorative Glow */}
+          <div className="absolute top-0 right-0 w-36 h-36 bg-cyanPrimary/10 rounded-full blur-2xl pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+          {/* Lock Icon Badge */}
+          <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-cyanPrimary shadow-lg shadow-cyanPrimary/20">
+            <Lock className="w-8 h-8" />
+          </div>
+
+          <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight mb-2">
+            Student Sign-In Required
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto leading-relaxed mb-6">
+            Timed exam assessments, verified completion certificates, and prestige frames require a student account to save your study scores and progress.
+          </p>
+
+          {/* Feature Highlights Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto mb-8 text-xs text-slate-300">
+            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
+              <Clock className="w-4 h-4 text-cyanPrimary shrink-0" />
+              <span>Timed Board Exam Countdown</span>
+            </div>
+
+            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
+              <Award className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span>Downloadable Verified Certificates</span>
+            </div>
+
+            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
+              <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+              <span>Unlockable Prestige Borders</span>
+            </div>
+
+            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
+              <ShieldCheck className="w-4 h-4 text-sky-400 shrink-0" />
+              <span>Cloud Sync Across All Devices</span>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
+            <button
+              onClick={() => openAuthModal('signin')}
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+            >
+              <LogIn className="w-4 h-4" />
+              <span>Sign In to Your Account</span>
+            </button>
+
+            <button
+              onClick={() => openAuthModal('signup')}
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-[#0d1117] border border-slate-700 text-slate-200 hover:text-white hover:border-slate-600 active:scale-[0.98] transition-all"
+            >
+              <UserPlus className="w-4 h-4" />
+              <span>Create Free Account</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // LOGGED IN VIEW: Full Quiz Experience
   return (
     <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 md:px-8 py-4 sm:py-8">
       {quizState === 'setup' && (
