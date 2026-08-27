@@ -201,38 +201,50 @@ export default function AdminDashboardView() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6">
         <div className="p-4 bg-[#161b22] border border-slate-800 rounded-xl flex items-center justify-between">
           <div>
-            <span className="text-slate-400 text-xs font-medium block">Total Students</span>
+            <span className="text-slate-400 text-xs font-medium block">Total Registered</span>
             <span className="text-2xl font-black text-white mt-1 block">{profiles.length}</span>
+            <span className="text-[10px] text-slate-500 block mt-0.5">All student accounts</span>
           </div>
           <div className="w-10 h-10 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300">
             <Users className="w-5 h-5" />
           </div>
         </div>
 
-        <div className="p-4 bg-[#161b22] border border-amber-500/30 rounded-xl flex items-center justify-between">
+        <div className="p-4 bg-[#161b22] border border-emerald-500/40 bg-emerald-500/5 rounded-xl flex items-center justify-between shadow-lg shadow-emerald-500/5">
           <div>
-            <span className="text-amber-400 text-xs font-medium block">Pending Review</span>
-            <span className="text-2xl font-black text-amber-300 mt-1 block">{pendingStudents.length}</span>
+            <span className="text-emerald-400 text-xs font-bold block flex items-center gap-1">
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span>Current Verified Users</span>
+            </span>
+            <span className="text-2xl font-black text-emerald-300 mt-1 block">{approvedStudents.length}</span>
+            <span className="text-[10px] text-emerald-400/80 font-medium block mt-0.5">
+              {profiles.length > 0 ? `${Math.round((approvedStudents.length / profiles.length) * 100)}% approved rate` : 'Active users'}
+            </span>
           </div>
-          <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-400">
-            <Clock className="w-5 h-5" />
+          <div className="w-10 h-10 rounded-xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
+            <CheckCircle2 className="w-5 h-5" />
           </div>
         </div>
 
-        <div className="p-4 bg-[#161b22] border border-emerald-500/30 rounded-xl flex items-center justify-between">
+        <div className="p-4 bg-[#161b22] border border-amber-500/40 bg-amber-500/5 rounded-xl flex items-center justify-between shadow-lg shadow-amber-500/5">
           <div>
-            <span className="text-emerald-400 text-xs font-medium block">Approved Active</span>
-            <span className="text-2xl font-black text-emerald-300 mt-1 block">{approvedStudents.length}</span>
+            <span className="text-amber-400 text-xs font-bold block flex items-center gap-1">
+              <Clock className="w-3.5 h-3.5" />
+              <span>Pending Review</span>
+            </span>
+            <span className="text-2xl font-black text-amber-300 mt-1 block">{pendingStudents.length}</span>
+            <span className="text-[10px] text-amber-400/80 font-medium block mt-0.5">Awaiting your approval</span>
           </div>
-          <div className="w-10 h-10 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400">
-            <CheckCircle2 className="w-5 h-5" />
+          <div className="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
+            <Clock className="w-5 h-5" />
           </div>
         </div>
 
         <div className="p-4 bg-[#161b22] border border-rose-500/30 rounded-xl flex items-center justify-between">
           <div>
-            <span className="text-rose-400 text-xs font-medium block">Rejected</span>
+            <span className="text-rose-400 text-xs font-medium block">Rejected Accounts</span>
             <span className="text-2xl font-black text-rose-300 mt-1 block">{rejectedStudents.length}</span>
+            <span className="text-[10px] text-rose-400/70 block mt-0.5">Declined access</span>
           </div>
           <div className="w-10 h-10 rounded-xl bg-rose-500/10 flex items-center justify-center text-rose-400">
             <XCircle className="w-5 h-5" />
