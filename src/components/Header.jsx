@@ -24,7 +24,7 @@ const AVATAR_EMOJIS = {
 };
 
 export default function Header({ activeView, setActiveView }) {
-  const { user, signOut, openAuthModal, openAccountSettings } = useAuth();
+  const { user, isAdmin, pendingCount, signOut, openAuthModal, openAccountSettings } = useAuth();
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
   const [signOutLoading, setSignOutLoading] = useState(false);
   const [signOutSuccess, setSignOutSuccess] = useState(false);
