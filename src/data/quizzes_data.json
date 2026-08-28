@@ -1,284 +1,866 @@
 {
-  "endocrine-1": [
+  "Endocrine System - Module 1": [
     {
       "id": 8,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following characteristics correctly distinguishes endocrine communication from nervous system communication?",
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following endocrine organs is situated at the base of the brain, acts as the master coordinating 'conductor' of the endocrine system, and secretes regulatory hypophysiotropic hormones?",
       "options": [
-        "utilizes high-speed electrical impulses to reach target cells.",
-        "results in highly localized and short-lived synaptic responses (milliseconds).",
-        "acts as a wireless 'broadcasting' network with circulatory, multi-organ effects.",
-        "targets only adjacent cells via gap junctions and local diffusion.",
-        "exhibits a rapid onset but extremely transient action of duration."
+        "Anterior Pituitary Gland\nB) Posterior Pituitary Gland\nC) Thalamus\nD) Hypothalamus\nE) Thyroid Gland"
       ],
-      "correctIndex": 2,
-      "explanation": "The endocrine system relies on blood circulation to broadcast chemical hormones wirelessly to multiple tissues simultaneously, providing slower but more sustained metabolic effects. The nervous system utilizes localized electrical impulses with millisecond-level speeds."
+      "correctIndex": 3,
+      "explanation": "The hypothalamus is situated at the base of the brain and acts as the master integrating center or 'conductor' of the endocrine system, regulating the anterior pituitary through hypophysiotropic releasing hormones (such as CRH, TRH, and GnRH)."
     },
     {
       "id": 9,
-      "category": "Endocrine System Section 1",
-      "question": "In the 'Endocrine Orchestra' analogy of hypothalamic-pituitary-target gland regulation, which of the following matches is correct?",
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary difference in transmission speed and spatial specificity between neural and endocrine communication?",
       "options": [
-        "Hypothalamus — The Musician",
-        "Pituitary Gland — The Audience",
-        "Target Glands — The Conductor",
-        "Peripheral Hormones — The Music & Feedback",
-        "Releasing Factors — The Instrument Case"
+        "Neural is rapid and highly targeted; endocrine is slower and broadcasted systemically through blood.\nB) Neural is slow and broadcasted; endocrine is rapid and highly localized.\nC) Neural operates over hours; endocrine operates in milliseconds.\nD) Both utilize identical electrical circuits with no difference in speed or distribution.\nE) Neural communication reaches all tissues simultaneously; endocrine is point-to-point."
       ],
-      "correctIndex": 3,
-      "explanation": "In the endocrine orchestra analogy, peripheral hormones act as the 'music' (producing the systemic metabolic effects) and the 'audience feedback' (circulating back to loop-regulate the conductor/hypothalamus and pituitary)."
+      "correctIndex": 0,
+      "explanation": "Neural communication is high-speed and spatially targeted (point-to-point electrical/chemical), whereas endocrine communication is slower, broader, and broadcasted systemically through the bloodstream."
     },
     {
       "id": 10,
-      "category": "Endocrine System Section 1",
-      "question": "A researcher is studying a lipophilic hormone (Group I). Which of the following properties is characteristic of this class of hormones?",
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following best describes the synthesis and storage characteristics of hydrophilic peptide hormones (Group II)?",
       "options": [
-        "They circulate freely in the plasma without carrier proteins.",
-        "They have a very short plasma half-life (seconds to minutes).",
-        "They bind exclusively to cell-surface G-protein-coupled receptors.",
-        "They readily cross the plasma membrane lipid bilayer and bind to intracellular receptors.",
-        "They are synthesized as preprohormones and stored in large intracellular secretory vesicles."
+        "Synthesized on demand from cholesterol and cannot be stored.\nB) Synthesized in the cytoplasm as active amines and stored in lipid droplets.\nC) Synthesized as inactive preprohormones, processed, and stored in membrane-bound secretory vesicles.\nD) Produced only in response to a drop in nuclear receptor transcription with zero storage capacity.\nE) Synthesized inside the mitochondria and released via simple passive diffusion instantly."
       ],
-      "correctIndex": 3,
-      "explanation": "Group I lipophilic hormones (steroids and thyroid hormones) are hydrophobic, meaning they readily diffuse across the plasma membrane lipid bilayer to bind their specific nuclear or cytosolic intracellular receptors."
+      "correctIndex": 2,
+      "explanation": "Peptide hormones are synthesized as inactive preprohormones in the ribosomes/RER, processed into prohormones and mature hormones in the Golgi, and stored in membrane-bound vesicles until calcium-triggered exocytosis."
     },
     {
       "id": 11,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following hormones is classified as Group II (hydrophilic) and circulates freely in the blood with a short plasma half-life?",
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following classifications correctly pairs hormone group with its solubility characteristics?",
       "options": [
-        "Cortisol",
-        "Thyroxine (T4)",
-        "Aldosterone",
-        "Epinephrine",
-        "Progesterone"
+        "Group I is hydrophilic (water-soluble); Group II is lipophilic (lipid-soluble).\nB) Group I is lipophilic (hydrophobic); Group II is hydrophilic (lipophobic).\nC) Both Group I and Group II are entirely insoluble in both water and organic solvents.\nD) Group I dissolves freely in blood plasma; Group II requires specialized transport carrier proteins.\nE) Group I hormones have cell-surface receptors; Group II hormones have nuclear receptors."
       ],
-      "correctIndex": 3,
-      "explanation": "Epinephrine is an amine-derived hydrophilic hormone (Group II) that circulates freely in the plasma without carrier proteins and exhibits a very short half-life. Cortisol, T4, aldosterone, and progesterone are lipophilic (Group I)."
+      "correctIndex": 1,
+      "explanation": "Group I hormones are lipophilic (hydrophobic/lipid-soluble) and include steroids and thyroid hormones. Group II hormones are hydrophilic (lipophobic/water-soluble) and include peptides and catecholamines."
     },
     {
       "id": 12,
-      "category": "Endocrine System Section 1",
-      "question": "When a lipophilic hormone (Group I) binds its nuclear receptor, the activated receptor-ligand complex recruits coactivators such as CBP/p300. What enzymatic activity does CBP/p300 possess to remodel chromatin and initiate gene transcription?",
+      "category": "Basic (Must-Know)",
+      "question": "In a classic negative feedback loop, such as the HPT axis, what is the 'long-loop' feedback effect?",
       "options": [
-        "Histone deacetylase (HDAC) activity",
-        "Protein kinase A (PKA) activity",
-        "Histone acetyltransferase (HAT) activity",
-        "Tyrosine kinase activity",
-        "Phosphodiesterase (PDE) activity"
+        "Hypothalamic releasing hormones acting locally to inhibit their own further release.\nB) Pituitary tropic hormones traveling back to inhibit hypothalamic releasing factor secretion.\nC) Target tissues upregulating cell-surface receptors to increase hormone clearance.\nD) Pituitary tropic hormones stimulating the target gland to overproduce hormones.\nE) The final peripheral target hormone traveling in the blood to inhibit releasing and tropic secretion from both the hypothalamus and pituitary."
       ],
-      "correctIndex": 2,
-      "explanation": "Active lipophilic ligand-receptor nuclear dimers bind to Hormone Response Elements (HREs) and recruit coactivators like CBP/p300, which have Histone Acetyltransferase (HAT) activity to acetylate chromatin histones, loosening their grip on DNA to allow transcription."
+      "correctIndex": 4,
+      "explanation": "Long-loop negative feedback occurs when the final peripheral target hormone (e.g., Thyroxine or Cortisol) travels in the systemic circulation to inhibit further secretion from both the master hypothalamus and pituitary gland."
     },
     {
       "id": 13,
-      "category": "Endocrine System Section 1",
-      "question": "In the GPCR-cAMP signaling pathway, which of the following proteins is directly activated by the stimulatory G-protein alpha-subunit (Gs-alpha) to generate the second messenger cAMP?",
+      "category": "Basic (Must-Know)",
+      "question": "Where are the posterior pituitary hormones, Vasopressin (ADH) and Oxytocin, originally synthesized?",
       "options": [
-        "Phospholipase C (PLC)",
-        "Adenylyl Cyclase",
-        "Protein Kinase A (PKA)",
-        "Phosphodiesterase (PDE)",
-        "Janus Kinase (JAK)"
+        "In the magnocellular neurons of the hypothalamus.\nB) In the chromophobe cells of the anterior pituitary.\nC) In the epithelial cells of Rathke's pouch.\nD) In the adrenal cortex glomerulosa cells.\nE) Inside the secretory granules of the posterior pituitary pituicytes."
       ],
-      "correctIndex": 1,
-      "explanation": "Under Gs-coupled GPCR signaling (like glucagon or ACTH), the ligand-receptor binding activates the Gs stimulatory G-protein, whose alpha-subunit directly stimulates the integral membrane enzyme Adenylyl Cyclase to synthesize cAMP from ATP."
+      "correctIndex": 0,
+      "explanation": "Vasopressin (ADH) and Oxytocin are synthesized in the cell bodies of magnocellular neurons located in the supraoptic (SON) and paraventricular (PVN) nuclei of the hypothalamus. They are then transported down unmyelinated axons and stored in Herring bodies in the posterior pituitary."
     },
     {
       "id": 14,
-      "category": "Endocrine System Section 1",
-      "question": "Which class of enzymes is responsible for degrading the second messenger cyclic AMP (cAMP) into 5'-AMP, thereby terminating GPCR-Gs signaling?",
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following is the primary plasma carrier protein for Thyroxine (T4) and Triiodothyronine (T3)?",
       "options": [
-        "Adenylyl cyclases",
-        "Phosphodiesterases (complex/PDEs)",
-        "Protein phosphatases",
-        "Phospholipases",
-        "G-protein-coupled receptor kinases (GRKs)"
+        "Corticosteroid-Binding Globulin (CBG)\nB) Thyroxine-Binding Globulin (TBG)\nC) Sex Hormone-Binding Globulin (SHBG)\nD) Lipoprotein Lipase (LPL)\nE) Transferrin"
       ],
       "correctIndex": 1,
-      "explanation": "Phosphodiesterases (PDEs) are the specific enzymes that cleave and degrade cyclic AMP (cAMP) into inactive 5'-AMP, effectively terminating the intracellular second-messenger cascade and switching off the hormonal signal."
+      "explanation": "Thyroid hormones (T3/T4) are lipophilic and poorly soluble in water; they are transported in the circulation bound primarily to Thyroxine-Binding Globulin (TBG), as well as albumin and transthyretin."
     },
     {
       "id": 15,
-      "category": "Endocrine System Section 1",
-      "question": "In the Gq-protein coupled signaling pathway (such as Angiotensin II), what is the direct action of Inositol Trisphosphate (IP3) after it is cleaved from PIP2 by Phospholipase C (PLC)?",
+      "category": "Basic (Must-Know)",
+      "question": "What is the absolute requirement for a cell to be considered a 'target cell' for a specific circulating hormone?",
       "options": [
-        "It activates Protein Kinase C (PKC) directly in the cytosol.",
-        "It binds to and opens calcium channels on the endoplasmic reticulum (ER), releasing Ca2+ into the cytoplasm.",
-        "It directly phosphorylates target enzymes in the nucleus.",
-        "It activates adenylyl cyclase to synthesize cAMP.",
-        "It recruits CBP/p300 to induce gene transcription."
+        "It must be located adjacent to the secreting endocrine gland.\nB) It must express specific GLUT-4 glucose transporters on its plasma membrane.\nC) It must express high-affinity, functional receptors specific to that hormone.\nD) It must be derived from neural crest ectoderm embryonic tissue.\nE) It must possess active Na+/K+ ATPase pumps on its nuclear membrane."
       ],
-      "correctIndex": 1,
-      "explanation": "Under Gq-protein coupled GPCR signaling, PLC cleaves PIP2 into IP3 and DAG. Hydrophilic IP3 rapidly diffuses to the endoplasmic reticulum, binding to IP3-receptor channels to trigger the release of stored intracellular calcium into the cytoplasm."
+      "correctIndex": 2,
+      "explanation": "Endocrine hormones are broadcasted systemically to all tissues. Specificity is dictated solely by whether a cell expresses a functional, high-affinity receptor that can bind and translate that specific hormone signal."
     },
     {
       "id": 16,
-      "category": "Endocrine System Section 1",
-      "question": "The insulin receptor is a heterotetrameric Receptor Tyrosine Kinase (RTK). Upon insulin binding, what is the immediate biochemical event that occurs within the receptor's cytoplasmic beta-subunits?",
+      "category": "Basic (Must-Know)",
+      "question": "In the secretion of peptide hormones, what intracellular event serves as the universal direct trigger for secretory vesicle exocytosis?",
       "options": [
-        "Binding of Gs-alpha to initiate cAMP generation",
-        "Serine/threonine phosphorylation by JNK and PKC",
-        "Autophosphorylation on tyrosine residues",
-        "Cleavage of the receptor to release a nuclear transcription factor",
-        "Direct opening of GLUT-4 channel pores"
+        "Activation of nuclear histone deacetylase (HDAC).\nB) Passive efflux of chloride ions across the cell membrane.\nC) Phosphorylation of the steroid hormone response element (HRE).\nD) Influx of extracellular Calcium ions (Ca2+) raising cytosolic levels.\nE) Nuclear translocation of unliganded receptor monomers."
       ],
-      "correctIndex": 2,
-      "explanation": "The insulin receptor is a tyrosine kinase heterotetramer. Insulin binding to the extracellular alpha-subunits triggers a conformational change that activates intrinsic tyrosine kinase activity in the cytosolic beta-subunits, driving receptor autophosphorylation."
+      "correctIndex": 3,
+      "explanation": "Exocytosis of stored peptide hormones and neurotransmitters is universally triggered by membrane depolarization opening voltage-gated Calcium channels, leading to a rapid influx of extracellular Ca2+ that drives vesicle fusion."
     },
     {
       "id": 17,
-      "category": "Endocrine System Section 1",
-      "question": "In insulin-dependent tissues (skeletal muscle and adipose tissue), which pathway is primarily activated by the PI3K/Akt signaling cascade to facilitate glucose entry into the cell?",
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following is considered the master anabolic hormone responsible for energy storage and fuel retention in the fed state?",
       "options": [
-        "Dimerization and nuclear translocation of STAT5",
-        "Translocation of GLUT-4 storage vesicles to the plasma membrane",
-        "Serine phosphorylation of IRS-1 to block further insulin binding",
-        "Direct activation of Hormone-Sensitive Lipase (HSL)",
-        "Opening of ATP-sensitive potassium channels"
+        "Insulin\nB) Glucagon\nC) Cortisol\nD) Growth Hormone\nE) Epinephrine"
       ],
-      "correctIndex": 1,
-      "explanation": "The PI3K/Akt pathway, activated downstream of IRS-1 tyrosine phosphorylation, stimulates the exocytic translocation of intracellular storage vesicles containing GLUT-4 glucose transporters to the cell membrane in muscle and adipose tissue to allow glucose entry."
+      "correctIndex": 0,
+      "explanation": "Insulin is the primary anabolic 'hormone of storage' released in response to postprandial hyperglycemia. It stimulates the storage of glucose as glycogen (glycogenesis) and fat as triglycerides (lipogenesis)."
     },
     {
       "id": 18,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following hormones utilizes a transmembrane receptor that lacks intrinsic kinase activity but recruits and activates cytoplasmic Janus Kinases (JAKs) to phosphorylate and dimerize STAT transcription factors?",
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary physiological function of Glucagon secreted by pancreatic alpha-cells?",
       "options": [
-        "Cortisol",
-        "Glucagon",
-        "Insulin",
-        "Growth Hormone (GH)",
-        "Epinephrine"
+        "To stimulate skeletal muscle GLUT-4 translocation to clear glucose.\nB) To promote fatty acid synthesis and lipogenesis in visceral fat cells.\nC) To mobilize stored glycogen and drive hepatic glucose output during hypoglycemia.\nD) To inhibit the HPT axis and slow down basal metabolic rate.\nE) To trigger protein synthesis and cellular mitosis across all systemic tissues."
       ],
-      "correctIndex": 3,
-      "explanation": "Growth hormone (GH), prolactin, and many cytokine receptors belong to the Class I Cytokine Receptor superfamily. They lack intrinsic kinase activity but homodimerize to recruit and phosphorylate cytosolic JAK kinases, which subsequently activate STAT transcription factors."
+      "correctIndex": 2,
+      "explanation": "Glucagon is released during hypoglycemia/fasting. It binds to GPCRs on hepatocytes to stimulate glycogen breakdown (glycogenolysis) and gluconeogenesis, releasing glucose into the blood to maintain glycemic balance."
     },
     {
       "id": 19,
-      "category": "Endocrine System Section 1",
-      "question": "An endocrine clinic is evaluating a patient with low circulating thyroid hormone (T4) but highly elevated Thyroid-Stimulating Hormone (TSH). Based on the endocrine axes feedback principles, what type of loop is responsible for this high TSH level?",
+      "category": "Basic (Must-Know)",
+      "question": "The selective autoimmune T-cell-mediated destruction of pancreatic beta-cells in Type 1 Diabetes is a classic clinical example of which mechanism of endocrine disease?",
       "options": [
-        "Positive feedback loop amplifying T4 release",
-        "Ultra-short-loop feedback of T4 on the thyroid gland",
-        "Loss of long-loop negative feedback due to thyroid gland failure",
-        "Short-loop feedback of TSH on the hypothalamus",
-        "Intracrine feedback within the thyrotrope cells"
+        "Hormone Excess (Hyperfunction)\nB) Hormone Deficiency (Hypofunction)\nC) Hormone Resistance (Insensitivity)\nD) Ectopic Hormone Production\nE) Target Cell Receptor Hypersensitivity"
       ],
-      "correctIndex": 2,
-      "explanation": "In primary thyroid gland failure (Primary Hypothyroidism), the loss of circulating thyroid hormone (T4) removes the normal tonic long-loop negative feedback on the anterior pituitary and hypothalamus, triggering a dramatic surge in pituitary TSH production."
+      "correctIndex": 1,
+      "explanation": "Type 1 Diabetes Mellitus involves a primary hormone deficiency (hypofunction) resulting from progressive, chronic autoimmune destruction of the insulin-producing pancreatic beta-cells."
     },
     {
       "id": 20,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following endocrine processes is governed by positive feedback rather than the more common homeostatic negative feedback?",
+      "category": "Basic (Must-Know)",
+      "question": "A patient presents with severe fatigue and weight gain. Laboratory tests reveal a primary thyroid gland failure (Hashimoto's). What is the expected hormone profile?",
       "options": [
-        "Regulation of cortisol secretion by ACTH",
-        "Inhibition of insulin secretion by hypoglycemia",
-        "Suppression of TSH by rising thyroid hormone levels",
-        "The estrogen-triggered LH surge leading to ovulation",
-        "Regulation of blood osmolality by vasopressin"
+        "High Free T4, High TSH\nB) High Free T4, Low TSH\nC) Normal Free T4, Normal TSH\nD) Low Free T4, Low TSH\nE) Low Free T4, High TSH"
       ],
-      "correctIndex": 3,
-      "explanation": "Unlike negative feedback which maintains a homeostatic steady state, positive feedback amplifies a stimulus until a critical event terminates it. An example is rising estrogen levels triggering the pituitary LH surge that drives ovulation."
+      "correctIndex": 4,
+      "explanation": "In primary hypothyroidism (Hashimoto's), the failing thyroid gland produces inadequate hormone (Low Free T4). The lack of negative feedback on the pituitary removes the brake system, driving a compensatory, massive rise in TSH (High TSH)."
     },
     {
       "id": 21,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following statements correctly defines 'ultra-short-loop' feedback?",
+      "category": "Basic (Must-Know)",
+      "question": "Which hormone class is secreted by the adrenal medulla, and what is its primary physiological trigger?",
       "options": [
-        "A peripheral target gland hormone inhibits the pituitary gland.",
-        "A pituitary tropic hormone inhibits the hypothalamus.",
-        "A hypothalamic factor inhibits its own release from hypothalamic neurons.",
-        "A peripheral target gland hormone directly inhibits its own target tissues.",
-        "A peripheral hormone directly stimulates the hypothalamus."
+        "Mineralocorticoids, triggered by high potassium levels.\nB) Glucocorticoids, triggered by ACTH pituitary surges.\nC) Thyroid hormones, triggered by cold environmental temperatures.\nD) Catecholamines (Epinephrine/Norepinephrine), triggered by preganglionic sympathetic neural stimulation.\nE) Gonadotropins, triggered by pulsatile GnRH hypothalamic releases."
       ],
-      "correctIndex": 2,
-      "explanation": "Ultra-short-loop feedback occurs when a hypothalamic releasing factor directly acts on the hypothalamic peptidergic neurons that secreted it, inhibiting its own further synthesis and exocytosis."
+      "correctIndex": 3,
+      "explanation": "The adrenal medulla contains chromaffin cells derived from neural crest ectoderm. They act as modified sympathetic neurons that synthesize and store catecholamines (mostly epinephrine), releasing them in response to sympathetic preganglionic splanchnic nerve stimulation."
     },
     {
       "id": 22,
-      "category": "Endocrine System Section 1",
-      "question": "How are 'Primary' and 'Secondary' endocrine disorders defined and distinguished in clinical pathology?",
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary distinction between 'short-loop' and 'long-loop' negative feedback in an endocrine axis?",
       "options": [
-        "Primary disorders originate in the pituitary; secondary disorders originate in the target gland.",
-        "In primary disorders, the target and tropic hormones move in the same direction; in secondary, they move in opposite directions.",
-        "Primary disorders are always autoimmune; secondary disorders are always due to secretory adenomas.",
-        "Primary disorders originate in the target gland, causing target and tropic hormones to move in opposite directions; secondary disorders originate in the pituitary, causing them to move in the same direction.",
-        "Primary disorders are acute, whereas secondary disorders are chronic and permanent."
+        "Short-loop involves pituitary tropic hormones inhibiting the hypothalamus; long-loop involves peripheral target hormones inhibiting both the hypothalamus and pituitary.\nB) Short-loop operates only inside the target cell; long-loop operates through the portal system.\nC) Short-loop feedback is positive; long-loop feedback is always negative.\nD) Short-loop involves neural circuits; long-loop involves lymphatic drainage.\nE) Short-loop operates over days; long-loop operates in milliseconds."
       ],
-      "correctIndex": 3,
-      "explanation": "In primary disorders, the defect is in the target gland, causing target and tropic hormones to move in opposite directions due to feedback disruption. In secondary disorders, the defect is in the pituitary, causing both hormones to move in the same direction."
+      "correctIndex": 0,
+      "explanation": "Short-loop negative feedback occurs when pituitary trophic hormones (like TSH or ACTH) travel back to directly inhibit hypothalamic releasing factor secretion. Long-loop feedback occurs when the final target hormone (like T4 or Cortisol) inhibits both."
     },
     {
       "id": 23,
-      "category": "Endocrine System Section 1",
-      "question": "A patient presents with extreme fatigue, weight gain, and cold intolerance. Lab results reveal: Free T4 = 4 pmol/L (Normal 12-22) and TSH = 45 mIU/L (Normal 0.4-4.0). How would this endocrine dysfunction be localized and classified?",
+      "category": "Intermediate (Should-Know)",
+      "question": "Under the Free Hormone Hypothesis, what is the clinical consequence if a pregnant patient experiences a doubling of Thyroxine-Binding Globulin (TBG) due to estrogen stimulation?",
       "options": [
-        "Secondary Hypothyroidism",
-        "Primary Hypothyroidism",
-        "Tertiary Hypothyroidism",
-        "Thyroid Hormone Resistance Syndrome",
-        "Primary Hyperthyroidism"
+        "She develops severe, symptomatic clinical hypothyroidism requiring high-dose treatment.\nB) Her Total T4 level doubles, but her Free T4 and TSH levels remain normal, keeping her clinically euthyroid.\nC) Her Free T4 doubles, triggering a life-threatening thyroid storm.\nD) Her TSH drops to zero and she develops graves-like exophthalmos.\nE) Her thyroid gland undergoes massive, acute lymphocytic infiltration."
       ],
       "correctIndex": 1,
-      "explanation": "The patient has primary hypothyroidism. Low target thyroid hormone (Free T4 = 4 pmol/L) and highly elevated tropic hormone (TSH = 45 mIU/L) indicate that the failure resides inside the thyroid gland itself (opposite movement = primary defect)."
+      "explanation": "Estrogen increases hepatic glycosylation of TBG, doubling its plasma concentration. While this temporarily binds more hormone (rising Total T4), feedback loops adjust until the free active hormone fraction (Free T4) and TSH return to normal baseline, keeping her euthyroid."
     },
     {
       "id": 24,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following is the most common etiology of primary hormone deficiency, such as that seen in Type 1 Diabetes Mellitus and Addison's disease?",
+      "category": "Intermediate (Should-Know)",
+      "question": "Why do Group I lipophilic hormones (like Cortisol) have a plasma half-life of hours to days, whereas Group II hydrophilic hormones (like Insulin) have a half-life of only minutes?",
       "options": [
-        "Ectopic hormone production by malignant tissues",
-        "Progressive T-cell and autoimmune-mediated destruction of endocrine glandular tissue",
-        "Gain-of-function somatic mutations in Gs-alpha proteins",
-        "Post-receptor signaling defects blocking hormone transduction",
-        "Activating autoantibodies stimulating receptor activity"
+        "Group I hormones are actively destroyed by red blood cell enzymes.\nB) Group II hormones are physically protected inside blood plasma carrier proteins.\nC) Group I hormones are highly bound to protective carrier proteins, shielding them from renal filtration and hepatic clearance.\nD) Group II hormones cross the blood-brain barrier instantly, removing them from circulation.\nE) Group I hormones are rapidly filtered out by the glomerulus due to their hydrophobic charge."
       ],
-      "correctIndex": 1,
-      "explanation": "Hormone deficiencies are most commonly caused by progressive, immune-mediated destruction of endocrine tissue, with cytotoxic T-cells and autoantibodies destroying glandular mass (e.g. pancreatic beta-cells in T1D, adrenal cortex in Addison's)."
+      "correctIndex": 2,
+      "explanation": "Group I lipophilic hormones are hydrophobic and poorly soluble; they circulate highly bound to specialized carrier proteins, which physically protects them from rapid glomerular filtration and enzymatic degradation, extending their half-life."
     },
     {
       "id": 25,
-      "category": "Endocrine System Section 1",
-      "question": "Graves' disease is a classic disorder of primary hormone excess. What is the molecular mechanism driving uncontrolled thyroid hormone hypersecretion in these patients?",
+      "category": "Intermediate (Should-Know)",
+      "question": "Which of the following intracellular signaling cascades is activated downstream of a stimulatory G-protein-coupled receptor (GPCR-Gs)?",
       "options": [
-        "An activating somatic mutation in the TSH receptor gene",
-        "Autoimmune-mediated destruction of thyrotrope cells",
-        "Thyroid-Stimulating Immunoglobulins (TSIs) acting as agonist autoantibodies that bind and activate TSH receptors",
-        "Ectopic TSH production by small cell lung carcinoma",
-        "Downregulation of pituitary TSH receptors due to cortisol feedback"
+        "Inactivation of adenylyl cyclase, lowering cytosolic cAMP, and shutting down PKA.\nB) Translocation of GLUT-4 transporters via the PI3K/Akt pathway.\nC) Autophosphorylation of tyrosine residues and JAK2 recruitment.\nD) Activation of Adenylyl Cyclase, converting ATP to cAMP, which binds to and activates Protein Kinase A (PKA).\nE) Cleavage of membrane-bound PIP2 into IP3 and diacylglycerol (DAG)."
       ],
-      "correctIndex": 2,
-      "explanation": "In Graves' disease, patients produce pathological autoantibodies called Thyroid-Stimulating Immunoglobulins (TSIs) that mimic TSH by binding to and constitutively activating the TSH receptor, leading to primary thyrotoxicosis."
+      "correctIndex": 3,
+      "explanation": "Ligand binding to a Gs-coupled receptor triggers the Gs-alpha subunit to exchange GDP for GTP, activate Adenylyl Cyclase, raise intracellular cAMP, and activate Protein Kinase A (PKA) to phosphorylate target metabolic enzymes."
     },
     {
       "id": 26,
-      "category": "Endocrine System Section 1",
-      "question": "In Type 2 Diabetes Mellitus, tissue resistance to insulin represents a major pathophysiological mechanism. At a post-receptor molecular level, what specific modification of Insulin Receptor Substrate-1 (IRS-1) interferes with downstream insulin signaling?",
+      "category": "Intermediate (Should-Know)",
+      "question": "In the GPCR Gq-coupled pathway, what are the direct signaling products generated by Phospholipase C (PLC) cleavage of membrane Phosphatidylinositol 4,5-bisphosphate (PIP2)?",
       "options": [
-        "Activating tyrosine phosphorylation",
-        "Inhibitory serine/threonine phosphorylation",
-        "Cleavage of the beta-subunit of the insulin receptor",
-        "Non-enzymatic glycation of the extracellular alpha-subunits",
-        "Hyper-acetylation of IRS-1 by CBP/p300"
+        "Inositol 1,4,5-trisphosphate (IP3) and Diacylglycerol (DAG)\nB) Cyclic AMP (cAMP) and Protein Kinase A (PKA)\nC) Adenosine Triphosphate (ATP) and Phosphodiesterase (PDE)\nD) Tyrosine kinase monomers and Janus Kinase (JAK)\nE) Histone acetyltransferase (HAT) and chromatin corepressors"
       ],
-      "correctIndex": 1,
-      "explanation": "In Type 2 Diabetes, inflammatory cytokines (TNF-alpha, IL-6) and excess lipids activate stress kinases (JNK, IKK-beta, PKCs) that cause inhibitory serine/threonine phosphorylation of IRS-1, blocking the normal tyrosine phosphorylation required for insulin signaling."
+      "correctIndex": 0,
+      "explanation": "Activated Gq-alpha stimulates Phospholipase C (PLC) to cleave the membrane phospholipid PIP2 into two potent second messengers: soluble IP3 (which diffuses to the ER to release Calcium) and membrane-bound DAG (which activates Protein Kinase C)."
     },
     {
       "id": 27,
-      "category": "Endocrine System Section 1",
-      "question": "Which of the following hormones is synthesized by the hypothalamus and functions to inhibit the secretion of growth hormone (GH) from the somatotropes of the anterior pituitary?",
+      "category": "Intermediate (Should-Know)",
+      "question": "Which of the following molecular cascades correctly describes the metabolic signaling of insulin through its Receptor Tyrosine Kinase (RTK)?",
       "options": [
-        "GHRH",
-        "Somatostatin (GIH)",
-        "Dopamine",
-        "Cortisol",
-        "Prolactin"
+        "Gs activation -> Adenylyl Cyclase -> cAMP surge -> PKA -> Phosphorylase Kinase.\nB) Receptor dimerization -> JAK2 activation -> STAT5 phosphorylation -> STAT5 nuclear translocation.\nC) Gq activation -> PLC -> IP3 and DAG -> cytosolic Calcium release.\nD) Direct binding to intracellular nuclear receptor -> recruitment of CBP/p300 with HAT activity.\nE) Ligand binding -> tyrosine autophosphorylation -> recruitment of Insulin Receptor Substrate-1 (IRS-1) -> PI3K/Akt pathway activation -> GLUT-4 transporter translocation."
+      ],
+      "correctIndex": 4,
+      "explanation": "The insulin receptor is a classic RTK. Binding triggers tyrosine autophosphorylation, docking and phosphorylation of IRS-1, activation of Phosphatidylinositol 3-Kinase (PI3K) and Akt/PKB, driving the translocation of GLUT-4 vesicles to the plasma membrane."
+    },
+    {
+      "id": 28,
+      "category": "Intermediate (Should-Know)",
+      "question": "Which of the following hormones utilizes the cytosolic JAK/STAT (Janus Kinase / Signal Transducer and Activator of Transcription) pathway to coordinate target cell signaling?",
+      "options": [
+        "Insulin\nB) Glucagon\nC) Growth Hormone (GH)\nD) Cortisol\nE) Epinephrine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Growth Hormone (GH) and Prolactin bind to Class I Cytokine receptors which lack intrinsic kinase activity. Instead, they recruit cytosolic Janus Kinase 2 (JAK2) to phosphorylate the receptor, recruiting and phosphorylating STAT transcription factors."
+    },
+    {
+      "id": 29,
+      "category": "Intermediate (Should-Know)",
+      "question": "During starvation or acute stress, catecholamines bind to adipocyte beta3-adrenergic receptors to stimulate lipolysis. What is the molecular mechanism of this activation?",
+      "options": [
+        "Gi activation -> Adenylyl Cyclase suppression -> decreased cAMP -> active HSL.\nB) Gs-GPCR activation -> elevated cAMP -> PKA activation -> phosphorylation and activation of Hormone-Sensitive Lipase (HSL).\nC) Gq-GPCR activation -> PLC cleavage -> IP3 and calcium-calmodulin activation of LPL.\nD) Passive diffusion -> binding nuclear GR -> genomic transcription of ACC.\nE) Tyrosine kinase autophosphorylation -> PI3K activation -> GLUT-4 vesicle insertion."
       ],
       "correctIndex": 1,
-      "explanation": "Somatostatin (also known as Growth Hormone-Inhibiting Hormone / GIH) is synthesized by periventricular hypothalamic neurons and secreted into the hypophyseal portal vessels to inhibit growth hormone release from somatotropes."
+      "explanation": "Adipocyte lipolysis is driven by catecholamines binding Gs-coupled beta3-receptors. This raises cAMP, activating PKA, which directly phosphorylates and activates Hormone-Sensitive Lipase (HSL) to hydrolyze triglycerides into free fatty acids and glycerol."
+    },
+    {
+      "id": 30,
+      "category": "Intermediate (Should-Know)",
+      "question": "During the fed state, insulin-induced glycogenesis is highly active, and mitochondrial beta-oxidation of fats is suppressed. What is the molecular 'gatekeeper' mechanism that blocks fat entry into the mitochondria during feeding?",
+      "options": [
+        "High levels of insulin-stimulated Malonyl-CoA, which directly inhibits Carnitine Palmitoyltransferase-I (CPT-I).\nB) The direct allosteric inactivation of Hormone-Sensitive Lipase by GLUT-4 transport.\nC) Dephosphorylation of PEPCK by Protein Phosphatase-1 (PP-1).\nD) Nuclear sequestration of the thyroid hormone receptor (TR) by GKRP.\nE) The accumulation of acetoacetate in the cytosolic compartment."
+      ],
+      "correctIndex": 0,
+      "explanation": "Feeding drives insulin release, activating Acetyl-CoA Carboxylase (ACC) to generate Malonyl-CoA (the first committed step of lipogenesis). Malonyl-CoA directly inhibits Carnitine Palmitoyltransferase-I (CPT-I), blocking fatty acid entry into mitochondria and preventing beta-oxidation."
+    },
+    {
+      "id": 31,
+      "category": "Intermediate (Should-Know)",
+      "question": "A patient is diagnosed with primary adrenal insufficiency (Addison's disease). Which of the following sets of biochemical serum abnormalities is most characteristic of this condition?",
+      "options": [
+        "Hypernatremia, hypokalemia, and metabolic alkalosis.\nB) Hyponatremia, hyperkalemia, and metabolic alkalosis.\nC) Normal sodium, normal potassium, and respiratory acidosis.\nD) Hyponatremia, hyperkalemia, and hyperchloremic metabolic acidosis.\nE) Hypernatremia, hyperkalemia, and lactic acidosis."
+      ],
+      "correctIndex": 3,
+      "explanation": "Addison's disease destroys the entire adrenal cortex, depleting both cortisol and aldosterone. The absolute loss of aldosterone impairs renal ENaC sodium reabsorption and blocks potassium and hydrogen ion excretion, causing hyponatremia, hyperkalemia, and metabolic acidosis (Type IV RTA)."
+    },
+    {
+      "id": 32,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "The nuclear receptor superfamily features highly conserved modular domains. Which domain is structurally characterized by highly specific zinc-finger motifs that physically latch onto double-stranded DNA?",
+      "options": [
+        "The AF-1 domain located at the amino-terminus.\nB) The Ligand-Binding Domain (LBD) located at the carboxy-terminus.\nC) The DNA-Binding Domain (DBD).\nD) The AF-2 domain within the hinge region.\nE) The heat shock protein binding pocket."
+      ],
+      "correctIndex": 2,
+      "explanation": "The DNA-Binding Domain (DBD) of nuclear receptors is highly conserved and contains specialized zinc-finger motifs (stabilized by a zinc atom coordinated to four cysteine residues) that physically bind to specific DNA sequences called Hormone Response Elements (HREs)."
+    },
+    {
+      "id": 33,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "Once an intracellular lipophilic hormone-receptor complex dimerizes and binds to a Hormone Response Element (HRE) on DNA, how do recruited coactivators like CBP/p300 physically initiate gene transcription?",
+      "options": [
+        "They use intrinsic methyltransferase activity to tightly condense chromatin.\nB) They phosphorylate DNA polymerase II to stall transcription elongation.\nC) They degrade neighboring histones via ubiquitin-proteasome targeting.\nD) They act as RNA-dependent RNA polymerases to bypass standard transcription.\nE) They exhibit Histone Acetyltransferase (HAT) activity, acetylating histones to neutralize their positive charges, causing chromatin to uncoil and relax (euchromatin)."
+      ],
+      "correctIndex": 4,
+      "explanation": "CBP/p300 acts as a transcriptional coactivator with intrinsic Histone Acetyltransferase (HAT) activity. By transferring acetyl groups to positively charged lysine residues on histone tails, it neutralizes their charge, reducing their affinity for negatively charged DNA. This uncoils and relaxes chromatin to allow transcription."
+    },
+    {
+      "id": 34,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "In the molecular pathogenesis of Type 2 Diabetes, how do accumulated intracellular lipid intermediates (like DAG and ceramides) and inflammatory cytokines (TNF-alpha/IL-6) drive insulin resistance?",
+      "options": [
+        "They physically bind and neutralize circulating insulin in the bloodstream.\nB) They activate stress kinases (such as JNK, IKK-beta, and novel PKCs) which phosphorylate IRS-1 on specific Serine/Threonine residues, blocking downstream PI3K/Akt signaling.\nC) They prevent the binding of insulin to the extracellular alpha-subunits of its receptor.\nD) They degrade skeletal muscle GLUT-4 proteins in the lysosome.\nE) They block the translation of Gs-alpha heterotrimeric G-protein subunits."
+      ],
+      "correctIndex": 1,
+      "explanation": "Lipotoxicity (via DAG/PKC) and inflammatory cytokines (via JNK/IKK-beta) activate stress-activated serine/threonine kinases. These kinases phosphorylate Insulin Receptor Substrate-1 (IRS-1) on Serine residues (e.g., Ser307). This serine phosphorylation causes a structural 'short circuit', blocking normal activating tyrosine phosphorylation and shutting down GLUT-4 translocation."
+    },
+    {
+      "id": 35,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "In obesity-induced adipose tissue inflammation, what is the exact molecular mechanism of transcription factor NF-kappaB activation downstream of inflammatory cytokine receptors?",
+      "options": [
+        "Activated IKK-beta phosphorylates the inhibitory protein IkappaB-alpha, driving its ubiquitination and proteasomal degradation, which releases free NF-kappaB to translocate into the nucleus.\nB) Active NF-kappaB is phosphorylated directly by adenylyl cyclase inside the cytoplasm.\nC) Extracellular TNF-alpha enters the cell and acts as a direct nuclear ligand for NF-kappaB monomers.\nD) Deacetylation of histones by CBP/p300 forces NF-kappaB to dissociate from DNA.\nE) NF-kappaB is phosphorylated on its tyrosine docking sites by Janus Kinase 2 (JAK2)."
+      ],
+      "correctIndex": 0,
+      "explanation": "Under basal conditions, the transcription factor NF-kappaB is kept sequestered and inactive in the cytoplasm bound to its inhibitor IkappaB-alpha. Pro-inflammatory signaling activates IKK-beta, which phosphorylates IkappaB-alpha, targeting it for rapid proteasomal degradation, releasing active NF-kappaB to translocate to the nucleus."
+    },
+    {
+      "id": 36,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "A pediatric patient presents with severe short stature and is diagnosed with Laron Dwarfism (Growth Hormone Insensitivity). Which of the following biochemical profiles is most consistent with this post-receptor defect?",
+      "options": [
+        "Low circulating GH, High circulating IGF-1, High GHBP.\nB) Low circulating GH, Low circulating IGF-1, Low GHBP.\nC) High circulating GH, High circulating IGF-1, Normal GHBP.\nD) High circulating GH, profoundly Low circulating IGF-1, and Low GHBP.\nE) Normal circulating GH, Normal circulating IGF-1, High GHBP."
+      ],
+      "correctIndex": 3,
+      "explanation": "Laron dwarfism is caused by a loss-of-function mutation in the Growth Hormone Receptor (GHR). Because tissues are completely blind to GH, there is no negative feedback, yielding extremely high circulating GH. However, because signaling is blocked, liver synthesis of IGF-1 and GHBP (the cleaved extracellular GHR domain) is profoundly reduced."
+    },
+    {
+      "id": 37,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "While negative feedback dominates endocrine regulation, positive feedback is utilized in rare, unstable cycles. What is the classic physiological trigger that initiates the LH surge prior to ovulation?",
+      "options": [
+        "A sudden, severe drop in progesterone levels from the corpus luteum.\nB) High, sustained levels of progesterone acting on the anterior pituitary.\nC) Rapid, pulsatile surges of somatostatin from the hypothalamus.\nD) High, sustained levels of estrogen (estradiol) secreted by the mature follicle, which temporarily switches pituitary feedback from negative to positive.\nE) Direct sympathetic electrical discharge from the splanchnic nerves."
+      ],
+      "correctIndex": 3,
+      "explanation": "During most of the menstrual cycle, estrogen exerts negative feedback. However, as the dominant follicle matures, it secretes extremely high, sustained levels of estradiol. Once estrogen exceeds a specific threshold for more than 36 hours, it triggers a brief positive feedback loop on the hypothalamus and pituitary, driving the massive LH surge that triggers ovulation."
+    }
+  ],
+  "Endocrine System - Module 2": [
+    {
+      "id": 9,
+      "category": "Basic (Must-Know)",
+      "question": "Which cell type in the endocrine pancreatic islets of Langerhans is responsible for secreting insulin?",
+      "options": [
+        "Alpha cells",
+        "Beta cells",
+        "Delta cells",
+        "F cells",
+        "Acinar cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta cells make up 60–75% of the islet core and secrete insulin. Alpha cells secrete glucagon, Delta cells secrete somatostatin, F cells secrete pancreatic polypeptide, and acinar cells are exocrine (secreting digestive enzymes)."
+    },
+    {
+      "id": 10,
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary metabolic role of insulin during the postprandial (fed) state?",
+      "options": [
+        "Stimulating glycogenolysis and HSL",
+        "Promoting energy storage and protein synthesis",
+        "Driving hepatic glucose output and gluconeogenesis",
+        "Inducing cellular protein and lipid catabolism",
+        "Inhibiting lipoprotein lipase activity in adipose tissue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin is the primary anabolic hormone. It promotes the clearance and storage of glucose as glycogen (glycogenesis) and lipids as triglycerides (lipogenesis), and stimulates protein synthesis while inhibiting catabolic pathways."
+    },
+    {
+      "id": 11,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following processes is directly stimulated by glucagon in hepatocytes during fasting?",
+      "options": [
+        "Glycogen synthesis (glycogenesis)",
+        "Fatty acid synthesis (lipogenesis)",
+        "Glucose breakdown (glycolysis)",
+        "Glycogen breakdown (glycogenolysis)",
+        "Protein transcription of GLUT-4 transporters"
+      ],
+      "correctIndex": 3,
+      "explanation": "Glucagon is a catabolic hormone. Under fasting/hypoglycemia, it activates Gs-coupled receptors in hepatocytes to raise cAMP and activate PKA, driving glycogenolysis and gluconeogenesis to maintain systemic glucose levels."
+    },
+    {
+      "id": 12,
+      "category": "Basic (Must-Know)",
+      "question": "Which pancreatic islet cell type synthesizes and secretes glucagon?",
+      "options": [
+        "Beta cells",
+        "F cells",
+        "Delta cells",
+        "Alpha cells",
+        "Acinar cells"
+      ],
+      "correctIndex": 3,
+      "explanation": "Alpha cells (comprising approximately 20% of the peripheral islet mantle) synthesize and secrete glucagon in response to hypoglycemia."
+    },
+    {
+      "id": 13,
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary biochemical mechanism behind the symptom of 'polyuria' (excessive urination) in a diabetic patient?",
+      "options": [
+        "Increased glomerular filtration rate due to severe hypovolemia",
+        "Osmotic diuresis triggered by glucose exceeding the renal threshold",
+        "Direct toxic destruction of the renal collecting ducts",
+        "Antagonistic blockade of ADH V2 receptors by circulating insulin",
+        "Increased aldosterone-mediated sodium wasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "When plasma glucose exceeds the renal threshold (approx. 180 mg/dL), SGLT-2 transporters saturate, leading to glucose in the urine (glycosuria). This glucose acts as an osmotically active solute, pulling water with it and driving osmotic diuresis (polyuria)."
+    },
+    {
+      "id": 14,
+      "category": "Basic (Must-Know)",
+      "question": "What direct physiological event triggers 'polydipsia' (excessive thirst) in patients with uncontrolled diabetes mellitus?",
+      "options": [
+        "Direct chemical stimulation of the hypothalamus by glucagon",
+        "Intracellular volume depletion of hypothalamic osmoreceptors due to osmotic fluid loss",
+        "Inhibition of the thirst center by highly elevated blood insulin",
+        "Accumulation of toxic ketones within salivary glands",
+        "A sudden, marked drop in systemic arterial blood pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osmotic water loss from polyuria increases extracellular fluid osmolality. This draws water out of intracellular compartments, shrinking hypothalamic osmoreceptors and triggering the conscious sensation of thirst (polydipsia)."
+    },
+    {
+      "id": 15,
+      "category": "Basic (Must-Know)",
+      "question": "Why do patients with untreated diabetes mellitus experience 'polyphagia' (increased appetite/hunger) despite high blood glucose?",
+      "options": [
+        "Intracellular glucose starvation within the central hypothalamic satiety centers",
+        "Direct central appetite-stimulating effects of high circulating insulin",
+        "Accelerated gastric emptying driven by high glucagon levels",
+        "Rapid non-enzymatic glycation of the stomach mucosa",
+        "Inhibition of satiety pathways due to high blood ketone bodies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because insulin deficiency or resistance blocks glucose uptake into insulin-dependent cells (like hypothalamic satiety centers), the brain perceives a state of starvation ('starvation in the midst of plenty'), triggering persistent hunger (polyphagia)."
+    },
+    {
+      "id": 16,
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary pathological hallmark that distinguishes Type 1 Diabetes Mellitus (T1DM) from Type 2 Diabetes Mellitus (T2DM)?",
+      "options": [
+        "Presence of severe systemic insulin resistance",
+        "Absolute deficiency of insulin due to autoimmune destruction of beta cells",
+        "Gradual deposition of islet amyloid polypeptide (IAPP) in islets",
+        "Upregulation of GLUT-4 expression on the cell surface of myocytes",
+        "Complete lack of glucagon secretion from alpha cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Type 1 Diabetes is characterized by an absolute insulin deficiency due to progressive, autoimmune (T-cell-mediated) destruction of the pancreatic beta-cells. Type 2 Diabetes is characterized by tissue insulin resistance combined with a relative insulin deficiency."
+    },
+    {
+      "id": 17,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following descriptions best fits the typical initial pathogenesis of Type 2 Diabetes Mellitus?",
+      "options": [
+        "Acute viral destruction of all pancreatic islet tissue",
+        "Selective autoimmune CD8+ T-cell lysis of beta-cells",
+        "Peripheral tissue insulin resistance combined with relative insulin secretory defects",
+        "An activating mutation in the pancreatic ATP-sensitive K+ channels",
+        "Ectopic secretion of insulin by a non-endocrine malignancy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Type 2 Diabetes arises from a combination of peripheral tissue insulin resistance (most commonly driven by obesity and lipid overload) and a relative (inadequate) insulin secretory response from beta-cells."
+    },
+    {
+      "id": 18,
+      "category": "Basic (Must-Know)",
+      "question": "Which hormone is secreted by the Delta cells of the pancreatic islets of Langerhans to locally inhibit both insulin and glucagon release?",
+      "options": [
+        "Pancreatic polypeptide (PP)",
+        "Somatostatin",
+        "Amylin (IAPP)",
+        "Gastrin-Releasing Peptide",
+        "Vasoactive Intestinal Peptide (VIP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Delta cells (about 5% of islet cells) secrete Somatostatin, which acts locally via paracrine pathways to inhibit both insulin and glucagon secretion."
+    },
+    {
+      "id": 19,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following antibodies is commonly tested to confirm an autoimmune etiology in a newly diagnosed Type 1 Diabetic patient?",
+      "options": [
+        "Anti-thyroglobulin antibodies (TgAb)",
+        "Glutamic acid decarboxylase 65 autoantibodies (GADA)",
+        "Anti-nuclear antibodies (ANA)",
+        "Anti-smooth muscle antibodies (ASMA)",
+        "Anti-centromere antibodies (ACA)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Autoimmune Type 1 Diabetes is characterized by the presence of autoantibodies against beta-cell components, most notably Glutamic Acid Decarboxylase 65 (GADA / GAD65), Insulin Autoantibodies (IAA), and Islet Cell Antibodies (ICA)."
+    },
+    {
+      "id": 20,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following groups of symptoms is most characteristic of acute, mild-to-moderate hypoglycemia?",
+      "options": [
+        "Sweating, tremors, and palpitations (adrenergic overdrive)",
+        "Severe polyuria, deep breathing, and abdominal pain",
+        "Dry skin, flushing, and high-pitched wheezing",
+        "Urinary retention, constipation, and extreme bradycardia",
+        "High-fever, velvety skin plaques, and rapid weight gain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hypoglycemia triggers an autonomic counterregulatory response. Adrenergic/autonomic symptoms include sweating (diaphoresis), tremors, anxiety, and palpitations (tachycardia) due to epinephrine release."
+    },
+    {
+      "id": 21,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following is the primary physiological stimulus driving the exocytosis of pre-formed insulin vesicles from beta-cells?",
+      "options": [
+        "A drop in blood pH below 7.35",
+        "Rising plasma glucose levels (hyperglycemia)",
+        "Infiltration of the islets by circulating neutrophils",
+        "Binding of glucagon to beta-cell nuclear receptors",
+        "Stimulation of beta-cells by thyroid hormone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin release is primarily triggered by rising plasma glucose levels, which enter beta-cells, accelerate metabolic ATP production, and drive the exocytosis pathway."
+    },
+    {
+      "id": 22,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following metabolic pathways is an anabolic process upregulated by insulin in hepatocytes during the fed state?",
+      "options": [
+        "Glycogenolysis",
+        "Gluconeogenesis",
+        "Glycogenesis (glycogen synthesis)",
+        "Beta-oxidation",
+        "Ketogenesis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Insulin stimulates glycogenesis (storing glucose as glycogen) by activating Protein Phosphatase-1 (PP-1), which switches on Glycogen Synthase."
+    },
+    {
+      "id": 23,
+      "category": "Basic (Must-Know)",
+      "question": "During the fasting state, which hormone acts as the principal regulator to promote glycogenolysis and maintain euglycemia?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Somatostatin",
+        "Prolactin",
+        "Calcitonin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glucagon is released by alpha cells during fasting. It acts on the liver to stimulate glycogenolysis and gluconeogenesis, releasing glucose into the systemic circulation."
+    },
+    {
+      "id": 24,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following tissues is insulin-dependent, requiring insulin to translocate GLUT-4 transporters to its membrane for glucose uptake?",
+      "options": [
+        "Brain tissues",
+        "Erythrocytes (red blood cells)",
+        "Skeletal muscle",
+        "Renal tubular epithelium",
+        "Pancreatic beta-cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skeletal muscle and adipose tissue are insulin-dependent, requiring insulin-stimulated GLUT-4 translocation. The brain, erythrocytes, and beta-cells utilize insulin-independent glucose transporters (GLUT-1, GLUT-3, GLUT-2)."
+    },
+    {
+      "id": 25,
+      "category": "Basic (Must-Know)",
+      "question": "What is the physiological basis of the 'honeymoon period' observed in some patients shortly after initiating insulin therapy for newly diagnosed Type 1 Diabetes?",
+      "options": [
+        "Complete permanent recovery of the patient's pancreatic islet beta-cells",
+        "Temporary functional recovery of remaining, undamaged beta-cells due to relieved glucotoxicity",
+        "Rapid downregulation of insulin receptors in peripheral muscle tissues",
+        "Spontaneous mutation of the T-cell receptor genes to stop autoimmunity",
+        "Acquired resistance of target tissues to the injected insulin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'honeymoon period' is a temporary phase in early T1DM where starting insulin therapy relieves metabolic strain and glucotoxicity on the remaining, undamaged beta-cells, allowing them to temporarily secrete enough insulin to normalize blood glucose with minimal exogenous therapy."
+    },
+    {
+      "id": 26,
+      "category": "Basic (Must-Know)",
+      "question": "Which of the following represents a direct clinical sign of brain glucose deprivation (neuroglycopenia) in a hypoglycemic patient?",
+      "options": [
+        "Sweating and moist hands",
+        "Pounding palpitations in the chest",
+        "Confusion, cognitive impairment, and lethargy",
+        "Severe abdominal cramping and vomiting",
+        "Generalized skin flushing and hyperpigmentation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neuroglycopenic symptoms arise from direct brain glucose deprivation and include confusion, headache, dizziness, lethargy, seizures, and ultimately coma. Sweating and palpitations are autonomic/adrenergic symptoms."
+    },
+    {
+      "id": 27,
+      "category": "Basic (Must-Know)",
+      "question": "What is the primary product synthesized and secreted by the exocrine acinar portion of the pancreas?",
+      "options": [
+        "Insulin and glucagon hormones",
+        "Somatostatin and amylin peptides",
+        "Digestive enzymes (trypsinogen, lipase, amylase)",
+        "Hydrochloric acid and pepsinogen",
+        "Gastrin and secretin trophic hormones"
+      ],
+      "correctIndex": 2,
+      "explanation": "The exocrine pancreas is composed of acinar cells that secrete digestive enzymes (lipase, amylase, trypsinogen) into the pancreatic duct. It must not be confused with the endocrine islets of Langerhans."
+    },
+    {
+      "id": 28,
+      "category": "Basic (Must-Know)",
+      "question": "A newly diagnosed Type 1 Diabetic patient presents to the emergency department in a state of deep, rapid breathing (Kussmaul respiration), dehydration, and a fruity odor to their breath. What acute crisis are they experiencing?",
+      "options": [
+        "Hyperosmolar Hyperglycemic State (HHS)",
+        "Thyroid Storm",
+        "Diabetic Ketoacidosis (DKA)",
+        "Hypoglycemic Coma",
+        "Acute Adrenal Crisis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diabetic Ketoacidosis (DKA) is a life-threatening acute complication of absolute insulin deficiency. It presents with severe hyperglycemia, metabolic anion-gap acidosis (Kussmaul breathing, fruity breath from acetone), and dehydration."
+    },
+    {
+      "id": 29,
+      "category": "Intermediate (Should-Know)",
+      "question": "According to established clinical guidelines, what is the diagnostic threshold for fasting venous plasma glucose (FPG) to confirm Diabetes Mellitus?",
+      "options": [
+        "Fasting plasma glucose >= 5.6 mmol/L",
+        "Fasting plasma glucose >= 6.1 mmol/L",
+        "Fasting plasma glucose >= 7.0 mmol/L",
+        "Fasting plasma glucose >= 11.1 mmol/L",
+        "Fasting plasma glucose >= 15.0 mmol/L"
+      ],
+      "correctIndex": 2,
+      "explanation": "A fasting venous plasma glucose level of >= 7.0 mmol/L (after an 8-hour fast) is diagnostic for Diabetes Mellitus on venous blood testing."
+    },
+    {
+      "id": 30,
+      "category": "Intermediate (Should-Know)",
+      "question": "What is the diagnostic threshold for Glycated Hemoglobin (HbA1c) to confirm Diabetes Mellitus?",
+      "options": [
+        "HbA1c >= 5.7%",
+        "HbA1c >= 6.0%",
+        "HbA1c >= 6.5%",
+        "HbA1c >= 7.0%",
+        "HbA1c >= 8.0%"
+      ],
+      "correctIndex": 2,
+      "explanation": "An HbA1c level of >= 6.5% (48 mmol/mol) is diagnostic of Diabetes Mellitus. HbA1c reflects the average plasma glucose concentration over the preceding 2-3 months."
+    },
+    {
+      "id": 31,
+      "category": "Intermediate (Should-Know)",
+      "question": "In a patient presenting with classic symptoms of hyperglycemia (polyuria, polydipsia, weight loss), what random venous plasma glucose level is sufficient to diagnose Diabetes Mellitus on a single test?",
+      "options": [
+        "Random plasma glucose >= 7.0 mmol/L",
+        "Random plasma glucose >= 8.5 mmol/L",
+        "Random plasma glucose >= 10.0 mmol/L",
+        "Random plasma glucose >= 11.1 mmol/L",
+        "Random plasma glucose >= 13.5 mmol/L"
+      ],
+      "correctIndex": 3,
+      "explanation": "In a symptomatic patient, a single random venous plasma glucose of >= 11.1 mmol/L is diagnostic. In asymptomatic patients, two abnormal tests on separate days are required."
+    },
+    {
+      "id": 32,
+      "category": "Intermediate (Should-Know)",
+      "question": "Which of the following kinetic comparisons between ubiquitous Hexokinase and pancreatic/hepatic Glucokinase is correct?",
+      "options": [
+        "Hexokinase has a much lower affinity (higher Km) for glucose than Glucokinase.",
+        "Glucokinase has a much lower affinity (higher Km) for glucose than Hexokinase.",
+        "Hexokinase is completely uninhibited by its metabolic product, G-6-P.",
+        "Glucokinase operates at its maximum velocity (Vmax) during fasting glucose levels.",
+        "Glucokinase is expressed ubiquitously across erythrocytes and brain cells."
+      ],
+      "correctIndex": 1,
+      "explanation": "Glucokinase has a high Km (approx. 10 mmol/L, low affinity), whereas Hexokinase has a low Km (approx. 0.05 mmol/L, high affinity). This low affinity prevents Glucokinase from saturating at physiological glucose ranges, making it an excellent sensor."
+    },
+    {
+      "id": 33,
+      "category": "Intermediate (Should-Know)",
+      "question": "Which glucose transporter (GLUT) is expressed on pancreatic beta-cells and hepatocytes to allow rapid, insulin-independent equilibration of intracellular and extracellular glucose?",
+      "options": [
+        "GLUT-1",
+        "GLUT-2",
+        "GLUT-3",
+        "GLUT-4",
+        "GLUT-5"
+      ],
+      "correctIndex": 1,
+      "explanation": "GLUT-2 is a high-capacity, low-affinity, insulin-independent transporter present on hepatocytes and beta-cells, allowing intracellular glucose to perfectly mirror blood glucose concentrations."
+    },
+    {
+      "id": 34,
+      "category": "Intermediate (Should-Know)",
+      "question": "During the Glucose-Stimulated Insulin Secretion (GSIS) cascade in a beta-cell, what is the direct molecular consequence of increased mitochondrial ATP production?",
+      "options": [
+        "Opening of voltage-gated potassium channels",
+        "Closure of ATP-sensitive potassium (K_ATP) channels",
+        "Inactivation of intracellular glucokinase",
+        "Activation of the sodium-calcium exchanger (NCX)",
+        "Exocytosis of GLUT-4 storage vesicles"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rise in intracellular ATP closes ATP-sensitive potassium channels (composed of Kir6.2 and SUR1 subunits). This traps K+ inside, depolarizing the cell membrane."
+    },
+    {
+      "id": 35,
+      "category": "Intermediate (Should-Know)",
+      "question": "During the GSIS cascade, what direct event is triggered by the depolarization of the beta-cell plasma membrane, leading directly to the exocytosis of insulin granules?",
+      "options": [
+        "Opening of voltage-gated calcium (Ca2+) channels and calcium influx",
+        "Activation of intracellular stress kinases JNK and IKK-beta",
+        "Binding of C-peptide to nuclear transcription factor complexes",
+        "Nuclear translocation of Glucokinase Regulatory Protein (GKRP)",
+        "Conversion of ATP to cyclic AMP (cAMP) via adenylyl cyclase"
+      ],
+      "correctIndex": 0,
+      "explanation": "Membrane depolarization opens voltage-gated L-type calcium channels. The resulting influx of extracellular calcium triggers microfilaments and SNARE proteins to drive exocytosis of stored insulin and C-peptide."
+    },
+    {
+      "id": 36,
+      "category": "Intermediate (Should-Know)",
+      "question": "What is the clinical value of measuring circulating C-peptide levels in a diabetic patient?",
+      "options": [
+        "It acts as a potent insulin receptor blocker to assess tissue sensitivity.",
+        "It is a reliable marker of endogenous insulin secretion because it is co-secreted in equimolar amounts and has a longer half-life.",
+        "It directly measures the rate of renal glucose filtration.",
+        "It indicates the presence of autoimmune anti-islet antibodies.",
+        "It measures the severity of hepatic glycogen storage depletion."
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin and C-peptide are cleaved from proinsulin in equimolar amounts and co-secreted. Because exogenous insulin lacks C-peptide, measuring C-peptide provides an accurate assessment of endogenous beta-cell function."
+    },
+    {
+      "id": 37,
+      "category": "Intermediate (Should-Know)",
+      "question": "What is the physiological mechanism behind the 'incretin effect' where oral glucose triggers a substantially larger insulin surge than an equivalent intravenous glucose dose?",
+      "options": [
+        "Oral glucose directly stimulates the vagus nerve to bypass beta-cell receptors.",
+        "Intestinal release of GIP and GLP-1 hormones which bind to Gs-coupled receptors on beta-cells to potentiate glucose-mediated insulin exocytosis.",
+        "First-pass hepatic extraction of intravenous glucose destroys the insulin signal.",
+        "Direct physical stimulation of pancreatic exocrine cells by passing food.",
+        "Activation of skeletal muscle GLUT-4 transporters during mastication."
+      ],
+      "correctIndex": 1,
+      "explanation": "The incretin effect is driven by gut hormones GLP-1 and GIP released upon eating. They bind to Gs-coupled receptors on beta-cells, activating cAMP/PKA to dramatically potentiate the GSIS exocytosis of insulin."
+    },
+    {
+      "id": 38,
+      "category": "Intermediate (Should-Know)",
+      "question": "What is the primary pathophysiological reason why patients with Hyperosmolar Hyperglycemic State (HHS) do not develop severe ketoacidosis like patients with Diabetic Ketoacidosis (DKA)?",
+      "options": [
+        "HHS patients have completely normal tissue insulin sensitivity.",
+        "HHS patients have a relative presence of insulin sufficient to suppress Hormone-Sensitive Lipase (HSL) and ketogenesis, but insufficient to drive muscle glucose uptake.",
+        "The kidneys in HHS are completely impermeable to ketone bodies.",
+        "HHS is caused by an acute hypersecretion of insulin that neutralizes ketones.",
+        "HHS patients have a genetic deletion of the HMG-CoA synthase enzyme."
+      ],
+      "correctIndex": 1,
+      "explanation": "Lipolysis (fat breakdown) in adipose tissue is suppressed by approximately 1/10th the concentration of insulin required to drive muscle glucose uptake. HHS (Type 2 DM) has enough relative insulin to suppress HSL and block ketogenesis, but not enough to clear glucose, leading to extreme hyperglycemia (>600 mg/dL) and hyperosmolality without ketoacidosis."
+    },
+    {
+      "id": 39,
+      "category": "Intermediate (Should-Know)",
+      "question": "In the sorbitol (polyol) pathway of chronic hyperglycemia, which cellular enzyme converts intracellular glucose to sorbitol, leading to osmotic tissue damage in insulin-independent tissues?",
+      "options": [
+        "Sorbitol Dehydrogenase",
+        "Glucokinase",
+        "Aldose Reductase",
+        "Glucose-6-Phosphatase",
+        "Glutamine:fructose-6-phosphate amidotransferase (GFAT)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aldose Reductase converts glucose to sorbitol utilizing NADPH. Sorbitol is a polar organic osmol that cannot easily cross membranes, accumulating and causing osmotic swelling and damage in insulin-independent tissues (lens, nerves, glomerulus)."
+    },
+    {
+      "id": 40,
+      "category": "Intermediate (Should-Know)",
+      "question": "What is the pathophysiological mechanism behind the development of Acanthosis Nigricans (velvety, hyperpigmented skin plaques) in patients with severe insulin resistance?",
+      "options": [
+        "Direct autoimmune destruction of dermal melanocytes by CD8+ T-cells",
+        "Severe hyperinsulinemia cross-activates Insulin-like Growth Factor Receptor 1 (IGFR-1) and Epidermal Growth Factor Receptor (EGFR) on keratinocytes, driving epidermal hyperplasia.",
+        "Deposition of toxic islet amyloid polypeptide (IAPP) in subcutaneous capillaries",
+        "Chronic local tissue ischemia driven by advanced glycation end-products (AGEs)",
+        "Loss of sympathetic vascular tone leading to epidermal melanocyte expansion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Severe insulin resistance drives compensatory hyperinsulinemia. Extremely high circulating insulin levels cross-bind to IGFR-1 and EGFR on dermal fibroblasts and keratinocytes, stimulating proliferation and resulting in hyperplastic, velvety skin plaques."
+    },
+    {
+      "id": 41,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "In the development of obesity-linked Type 2 Diabetes, how do intracellular lipid intermediates like diacylglycerols (DAG) and ceramides molecularly interfere with insulin signaling?",
+      "options": [
+        "By physically blocking the binding of insulin to its extracellular alpha-subunits.",
+        "By activating stress kinases (such as novel PKCs, JNK, and IKK-beta) that phosphorylate IRS-1 on specific serine/threonine residues, blocking its activating tyrosine phosphorylation.",
+        "By directly cleaving the GLUT-4 glucose transporters within the cytoplasm.",
+        "By inhibiting the nuclear transcription of the insulin receptor gene.",
+        "By causing covalent cross-linking of the Gs-alpha G-protein subunits."
+      ],
+      "correctIndex": 1,
+      "explanation": "Lipotoxicity triggers diacylglycerol (DAG) accumulation, activating novel PKCs and stress-activated kinases like JNK and IKK-beta. These kinases phosphorylate IRS-1 on specific serine/threonine residues (such as Ser307), which physically blocks the normal, activating tyrosine phosphorylation by the insulin receptor, short-circuiting downstream PI3K/Akt signaling and GLUT-4 translocation."
+    },
+    {
+      "id": 42,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "Which rate-limiting enzyme catalyzes the conversion of Fructose-6-Phosphate to Glucosamine-6-Phosphate, shunting glucose into the hexosamine pathway during chronic states of nutrient excess?",
+      "options": [
+        "Aldose Reductase",
+        "Glucokinase Regulatory Protein (GKRP)",
+        "Glutamine:fructose-6-phosphate amidotransferase (GFAT)",
+        "O-linked N-acetylglucosamine transferase (OGT)",
+        "HMG-CoA Synthase"
+      ],
+      "correctIndex": 2,
+      "explanation": "GFAT is the rate-limiting enzyme of the hexosamine pathway. It transfers an amino group from glutamine to Fructose-6-Phosphate, shunting it out of glycolysis to generate glucosamine-6-phosphate and ultimately UDP-GlcNAc."
+    },
+    {
+      "id": 43,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "During chronic glucotoxicity, how does the hexosamine pathway molecularly impair postprandial glycogen synthesis and storage in hepatocytes?",
+      "options": [
+        "By causing proteasomal degradation of GLUT-2 transporters.",
+        "By O-GlcNAcylating Glycogen Synthase via O-linked N-acetylglucosamine transferase (OGT), which physically blocks its normal regulatory phosphorylation/activation sites.",
+        "By directly phosphorylating and activating Glycogen Phosphorylase.",
+        "By cleaving the nuclear steroid hormone receptors in the cytoplasm.",
+        "By sequestering insulin in the golgi apparatus of liver cells."
+      ],
+      "correctIndex": 1,
+      "explanation": "High glucose drives the synthesis of UDP-GlcNAc, which stimulates OGT to O-GlcNAcylate Glycogen Synthase. This excessive O-glycosylation physically blocks the regulatory sites on Glycogen Synthase, preventing its activation in response to insulin and severely impairing postprandial glycogen storage."
+    },
+    {
+      "id": 44,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "In the progressive pathogenesis of Type 2 Diabetes, what is the role of Islet Amyloid Polypeptide (IAPP / Amylin) in the transition from compensatory hyperinsulinemia to absolute beta-cell secretory failure?",
+      "options": [
+        "It acts as a primary genetic cofactor that deletes the insulin gene.",
+        "It misfolds and polymerizes into insoluble, extracellular amyloid plaques that physically disrupt beta-cell membranes, inducing ER stress and driving apoptosis.",
+        "It acts as a potent local paracrine stimulator of beta-cell replication.",
+        "It binds to renal collecting ducts to accelerate water excretion, masking hyperglycemia.",
+        "It directly dephosphorylates the tyrosine kinase domain of the insulin receptor."
+      ],
+      "correctIndex": 1,
+      "explanation": "Amylin (IAPP) is co-secreted with insulin. During chronic hypersecretion, monomeric amylin misfolds and aggregates into oligomers and insoluble amyloid plaques within the islets, physically disrupting cell membranes, triggering ER stress/ROS, and driving progressive beta-cell apoptosis."
+    },
+    {
+      "id": 45,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "Why do standard nitroprusside urine ketone assays often yield a deceptively 'negative or trace' result in patients presenting with severe, life-threatening Diabetic Ketoacidosis (DKA) with high mitochondrial NADH levels?",
+      "options": [
+        "Nitroprusside is unstable in the presence of acidic pH below 7.1.",
+        "The high NADH/NAD+ ratio shifts the chemical equilibrium of ketone bodies away from acetoacetate and entirely into beta-hydroxybutyrate, which is biochemically invisible to the nitroprusside assay.",
+        "Mitochondria in DKA selectively degrade acetoacetate into inactive CO2.",
+        "High NADH levels physically bind and block the nitroprusside reagents.",
+        "Acetoacetate is filtered and completely reabsorbed in the proximal tubules during severe ketosis."
+      ],
+      "correctIndex": 1,
+      "explanation": "Severe insulin deficiency in DKA drives beta-oxidation and accumulates mitochondrial NADH. This high NADH/NAD+ ratio shifts the equilibrium of acetoacetate to beta-hydroxybutyrate. Because nitroprusside strips only react with acetoacetate, they fail to detect beta-hydroxybutyrate, creating a deceptively low/negative ketone reading despite severe ketoacidosis."
+    },
+    {
+      "id": 46,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "Under fasting (hypoglycemic) conditions, how is Glucokinase regulated in hepatocytes to prevent a futile glycolytic cycle while the liver is actively producing glucose?",
+      "options": [
+        "It is degraded by the ubiquitin-proteasome pathway.",
+        "It is bound to Glucokinase Regulatory Protein (GKRP) and physically sequestered in the nucleus in an inactive state.",
+        "It undergoes allosteric activation by high levels of intracellular G-6-P.",
+        "It is phosphorylated by Protein Kinase C on tyrosine residues to increase its Km.",
+        "It is exported from the cell via vesicular exocytosis into the bile duct."
+      ],
+      "correctIndex": 1,
+      "explanation": "During fasting, hepatic Glucokinase is kept inactive by being bound to Glucokinase Regulatory Protein (GKRP) and sequestered inside the nucleus. Upon feeding, rising intracellular glucose binds GKRP, prompting the release and translocation of Glucokinase back to the cytoplasm to phosphorylate incoming glucose."
+    },
+    {
+      "id": 47,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "Which of the following hormone surges is responsible for the 'Dawn Phenomenon'—the early morning increase in blood glucose and insulin resistance in diabetic patients?",
+      "options": [
+        "Nocturnal surges of glucagon and aldosterone",
+        "Early morning surges of growth hormone and cortisol",
+        "An acute drop in thyroid-stimulating hormone (TSH) secretion",
+        "A sudden nocturnal surge of insulin from pancreatic delta-cells",
+        "Early morning release of prolactin and oxytocin"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'Dawn Phenomenon' is caused by early morning surges of growth hormone and cortisol. These counterregulatory hormones transiently increase insulin resistance and hepatic gluconeogenesis, causing a rise in fasting blood glucose in the morning."
+    },
+    {
+      "id": 48,
+      "category": "Advanced (Nice-to-Know)",
+      "question": "In a patient presenting with DKA, why can a standard serum chemistry panel show a normal or elevated potassium level despite the patient having severe total-body potassium depletion?",
+      "options": [
+        "Acidosis and insulin deficiency cause a transcellular shift of potassium out of cells into the extracellular fluid, masking severe total-body urinary potassium loss.",
+        "The kidneys selectively reabsorb 100% of filtered potassium during ketoacidosis.",
+        "High levels of circulating acetoacetate complex with potassium to prevent its filtration.",
+        "Hyperventilatory respiratory alkalosis traps potassium inside the vascular space.",
+        "Insulin deficiency blocks the sodium-potassium ATPase pump in erythrocytes, driving cellular lysis."
+      ],
+      "correctIndex": 0,
+      "explanation": "In DKA, absolute insulin deficiency and intracellular buffering of excess H+ ions (acidosis) cause potassium to shift out of cells into the ECF. This transcellular shift can make serum potassium look normal or high, even though the patient has severe total-body potassium depletion due to urinary loss from osmotic diuresis."
     }
   ],
   "Physiology Interactive Practice Exam": [

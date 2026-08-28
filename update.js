@@ -234,7 +234,13 @@ function updateQuizData() {
             const ext = path.extname(file).toLowerCase();
             if (ext !== '.xlsx' && ext !== '.xls' && ext !== '.csv') return;
 
-            let moduleName = path.basename(file, ext).replace(/_/g, ' ');
+            let rawBase = path.basename(file, ext);
+            let moduleName = rawBase.replace(/_/g, ' ');
+            if (/^endocrine[_-]?1$/i.test(rawBase)) {
+                moduleName = 'Endocrine System - Module 1';
+            } else if (/^endocrine[_-]?2$/i.test(rawBase)) {
+                moduleName = 'Endocrine System - Module 2';
+            }
             let questions = [];
 
             if (ext === '.xlsx' || ext === '.xls') {
@@ -283,7 +289,7 @@ function updateQuizData() {
 
                 const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
                 
-                const catIdx = headers.findIndex(h => /category|module/i.test(h));
+                const catIdx = headers.findIndex(h => /category|module|tier|difficulty|level|topic/i.test(h) && !/question|stem|prompt/i.test(h));
                 let qIdx = headers.findIndex(h => /question\s*text|question\s*stem|stem|prompt/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
                 if (qIdx === -1) {
                     qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number/i.test(h));

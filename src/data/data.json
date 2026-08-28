@@ -3857,673 +3857,683 @@
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Why do only certain cells respond to a specific circulating hormone?",
-      "answer": "Only target cells expressing specific receptors can respond."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Group I hormones, such as steroids and $T_3/T_4$, are chemically classified as _____.",
-      "answer": "lipophilic (hydrophobic)"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the typical half-life duration of Group I lipophilic hormones?",
-      "answer": "Long (days)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Where are the receptors for lipophilic (Group I) hormones located within a target cell?",
-      "answer": "Intracellularly (cytoplasm or nucleus)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Group II hormones, including peptides and catecholamines, are chemically classified as _____.",
-      "answer": "hydrophilic (water-soluble)"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How do Group II hydrophilic hormones typically circulate in the bloodstream?",
-      "answer": "Freely circulating (not bound to carrier proteins)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the typical half-life duration of Group II hydrophilic hormones?",
-      "answer": "Short (minutes)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Where are the receptors for hydrophilic (Group II) hormones located on a target cell?",
-      "answer": "Cell-surface (plasma membrane)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which signaling mechanism do Group II hormones typically trigger after binding to a cell-surface receptor?",
-      "answer": "Second messenger cascade."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In an endocrine axis, which brain structure releases 'releasing hormones' to initiate the cascade?",
+      "question": "Which specific endocrine gland is responsible for secreting Corticotropin-Releasing Hormone (CRH)?",
       "answer": "Hypothalamus"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "The pituitary gland responds to hypothalamic releasing hormones by secreting _____ hormones.",
-      "answer": "tropic"
+      "question": "The _____ pituitary gland is the site of production for Growth Hormone (GH) and Prolactin.",
+      "answer": "Anterior"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Define 'Long-loop feedback' in the context of endocrine regulation.",
-      "answer": "A peripheral target hormone inhibits the hypothalamus and pituitary."
+      "question": "Which two hormones are stored and released by the posterior pituitary gland?",
+      "answer": "Vasopressin (ADH) and Oxytocin"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What occurs during 'Short-loop feedback'?",
-      "answer": "A pituitary hormone inhibits the hypothalamus."
+      "question": "The adrenal _____ is the specific site where aldosterone and cortisol are synthesized.",
+      "answer": "Cortex"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In 'Ultra-short-loop feedback,' what inhibits the release of a hypothalamic factor?",
-      "answer": "The hypothalamic factor itself."
+      "question": "Which gland produces the hormones $T_3$, $T_4$, and Calcitonin?",
+      "answer": "Thyroid Gland"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which rare form of feedback amplifies a biological process rather than stabilizing it?",
-      "answer": "Positive feedback"
+      "question": "The adrenal medulla primarily secretes which two catecholamines?",
+      "answer": "Epinephrine and Norepinephrine"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Name one physiological example where positive feedback is used to trigger a critical event.",
-      "answer": "Ovulation (or parturition)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "During the menstrual cycle, which hormone surge is triggered by rising estrogen via positive feedback?",
-      "answer": "Luteinizing Hormone (LH) surge."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Hormone _____ often results from secretory tumors or ectopic production.",
-      "answer": "excess (hypersecretion)"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the primary cause of hormone deficiency in Type 1 Diabetes Mellitus?",
-      "answer": "Autoimmune destruction of pancreatic $\\beta$ cells."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Hormone _____ occurs when target cells have receptor mutations or post-receptor signaling defects.",
-      "answer": "resistance"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Type 2 Diabetes Mellitus is primarily characterized by tissue _____ to insulin.",
-      "answer": "resistance"
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which pancreatic cells are responsible for secreting glucagon?",
+      "question": "Which pancreatic islet cells are responsible for the secretion of glucagon?",
       "answer": "Alpha cells"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which pancreatic cells are responsible for secreting insulin?",
-      "answer": "Beta cells"
+      "question": "In contrast to neural signaling, endocrine signaling acts as a 'broadcast' network that uses the _____ for hormone transport.",
+      "answer": "Circulatory system"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Approximately what percentage of pancreatic islet cells are Beta cells?",
-      "answer": "70%"
+      "question": "Neural signals are spatially delimited, whereas endocrine signals affect _____ tissues and organs simultaneously.",
+      "answer": "Multiple"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What peptide is co-secreted with insulin from pancreatic beta cells?",
-      "answer": "C-peptide"
+      "question": "Hormones classified as Group I (Lipophilic) are generally _____ in water.",
+      "answer": "Insoluble"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Insulin is a protein consisting of how many amino acids?",
-      "answer": "51"
+      "question": "Which group of hormones is hydrophilic and circulates freely in the plasma?",
+      "answer": "Group II"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which hormone is the primary regulator for lowering plasma glucose levels?",
+      "question": "Concept: Group I Hormones",
+      "answer": "Definition: Lipophilic hormones like steroids and thyroid hormones that bind to intracellular receptors."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Because they are lipophilic, Group I hormones require _____ for transport in the blood.",
+      "answer": "Carrier proteins"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Which group of hormones has a characteristically short plasma half-life, often measured in minutes?",
+      "answer": "Group II"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Group I hormones generally produce a cellular response by regulating gene _____.",
+      "answer": "Transcription"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Where are the receptors for Group II hormones (peptides and catecholamines) located?",
+      "answer": "The cell surface (plasma membrane)"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "What functional term describes a pituitary hormone that stimulates another endocrine gland to secrete hormones?",
+      "answer": "Tropic hormone"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "The _____ is often referred to as the 'conductor' of the endocrine orchestra.",
+      "answer": "Hypothalamus"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "What is the primary mechanism of beta-cell death in the pathogenesis of Type 1 Diabetes Mellitus?",
+      "answer": "Apoptosis"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Type 1 Diabetes Mellitus is characterized by an absolute deficiency of _____.",
       "answer": "Insulin"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Name one hormone that acts to increase plasma glucose levels.",
-      "answer": "Glucagon (or Epinephrine, Cortisol, Growth Hormone)."
+      "question": "Type 2 Diabetes Mellitus is characterized by a combination of tissue resistance and relative _____ deficiency.",
+      "answer": "Insulin"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How does insulin affect 'glycogenesis' in the liver and muscle?",
-      "answer": "It increases (stimulates) it."
+      "question": "Which glucose transporter is primarily involved in the glucose-sensing mechanism of the pancreatic beta cell?",
+      "answer": "GLUT 1"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How does insulin affect 'gluconeogenesis' in the liver?",
-      "answer": "It decreases (inhibits) it."
+      "question": "Insulin is a peptide hormone consisting of _____ amino acids.",
+      "answer": "51"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In the 'fed state,' what is the primary source of glucose entering the bloodstream?",
-      "answer": "The gastrointestinal tract."
+      "question": "The parathyroid gland releases Parathyroid Hormone (PTH) in response to a state of _____.",
+      "answer": "Hypocalcemia"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In the 'fasting state,' which organ performs glycogenolysis and gluconeogenesis to maintain blood glucose?",
-      "answer": "Liver"
+      "question": "Which hormone, produced by the thyroid gland, acts to lower blood calcium levels?",
+      "answer": "Calcitonin"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What are the two primary metabolic processes the liver uses to produce glucose during fasting?",
-      "answer": "Glycogenolysis and gluconeogenesis."
+      "question": "The portal vessels specifically transport regulatory factors from the hypothalamus to the _____ pituitary.",
+      "answer": "Anterior"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "During exercise, which tissue increases its uptake of glucose and free fatty acids (FFA)?",
-      "answer": "Muscle tissue"
+      "question": "Hormones that are derivatives of the amino acid _____ include both catecholamines and thyroid hormones.",
+      "answer": "Tyrosine"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which condition is characterized by a group of metabolic diseases resulting in chronic hyperglycemia?",
-      "answer": "Diabetes Mellitus"
+      "question": "According to the Free Hormone Hypothesis, only the _____ form of a hormone is biologically active.",
+      "answer": "Unbound (free)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the formerly used name for Type 1 Diabetes Mellitus (T1DM)?",
-      "answer": "Insulin Dependent Diabetes Mellitus (IDDM)."
+      "question": "Where are the vast majority of steroid-binding proteins (SBPs) synthesized in the body?",
+      "answer": "The liver"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Type 2 Diabetes Mellitus involves a combination of insulin resistance and _____ insulin secretion.",
-      "answer": "relative"
+      "question": "Which specific plasma glycoprotein is responsible for transporting testosterone and $17\\beta$-estradiol?",
+      "answer": "Sex Hormone-Binding Globulin (SHBG)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which type of Diabetes Mellitus is more strongly associated with a family history and obesity?",
-      "answer": "Type 2 DM"
+      "question": "Transcortin is the primary carrier protein for which class of hormones?",
+      "answer": "Corticosteroids (such as Cortisol)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In T1DM pathophysiology, the lack of insulin leads to the production of _____ in the liver.",
-      "answer": "ketoacids (KA)"
+      "question": "Binding to carrier proteins increases the circulating _____ of lipophilic hormones by protecting them from degradation.",
+      "answer": "Half-life"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Define the 'Incretin Effect'.",
-      "answer": "Oral glucose administration causes a higher insulin response than intravenous glucose."
+      "question": "Group I hormones like thyroid hormones have a circulating half-life typically measured in _____.",
+      "answer": "Days"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Name the two primary gut hormones (incretins) that stimulate insulin secretion.",
-      "answer": "GLP-1 and GIP."
+      "question": "The $G_s$ protein subunit is responsible for the _____ of the enzyme adenylyl cyclase.",
+      "answer": "Stimulation"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which enzyme is responsible for inactivating the incretin hormones GLP-1 and GIP?",
-      "answer": "DPP-4 enzyme"
+      "question": "Which G-protein subunit acts to inhibit adenylyl cyclase, thereby decreasing cAMP levels?",
+      "answer": "$G_i$"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How do incretins like GLP-1 affect glucagon secretion from alpha cells?",
-      "answer": "They decrease (inhibit) it."
+      "question": "The $G_q$ subunit activates the enzyme _____, leading to the generation of $IP_3$ and DAG.",
+      "answer": "Phospholipase C"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the clinical symptom 'polydipsia' commonly associated with hyperglycemia?",
-      "answer": "Excessive thirst."
+      "question": "In second messenger cascades, cAMP is a nucleotide derived from _____.",
+      "answer": "ATP"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the clinical symptom 'polyphagia' commonly associated with hyperglycemia?",
-      "answer": "Excessive hunger."
+      "question": "A _____ endocrine disorder is defined by a defect specifically located within the target gland itself.",
+      "answer": "Primary"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the clinical symptom 'polyuria' commonly associated with hyperglycemia?",
-      "answer": "Excessive urination."
+      "question": "If an endocrine deficiency is caused by a dysfunction in the anterior pituitary, it is classified as a _____ disorder.",
+      "answer": "Secondary"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which endocrine disorder is a likely cause of lethargy combined with weight gain?",
-      "answer": "Hypothyroidism"
+      "question": "A tertiary endocrine disorder is one where the pathology originates in the _____.",
+      "answer": "Hypothalamus"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Weight loss is a common presenting symptom of which two adrenal/metabolic conditions?",
-      "answer": "Adrenal insufficiency and Diabetes Mellitus (or Thyrotoxicosis)."
+      "question": "Which peptide is co-secreted with insulin and serves as a useful clinical marker for endogenous insulin production?",
+      "answer": "C-peptide"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the physiologic range for human blood osmolality?",
-      "answer": "$275-299\\text{ mOsm}$"
+      "question": "The 'Incretin Effect' describes the observation that _____ glucose administration yields a higher insulin response than intravenous administration.",
+      "answer": "Oral"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which hormone is be released from the posterior pituitary to increase water reabsorption in the kidneys?",
-      "answer": "Vasopressin (Antidiuretic hormone)."
+      "question": "GLP-1 and GIP are examples of _____ hormones that enhance glucose-dependent insulin secretion.",
+      "answer": "Incretin"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "How does vasopressin increase water permeability in the renal collecting duct?",
-      "answer": "By inserting aquaporin proteins into the apical membrane."
+      "question": "Which enzyme is responsible for the rapid inactivation of GLP-1 and GIP in the circulation?",
+      "answer": "DPP-4 (Dipeptidyl peptidase-4)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "The anterior pituitary is also known as the _____.",
-      "answer": "adenohypophysis (or anterior lobe)"
+      "question": "In the pancreatic beta cell, the closing of _____ channels leads to membrane depolarization.",
+      "answer": "ATP-sensitive Potassium ($K^+$)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which hormone secreted by the anterior pituitary stimulates the adrenal cortex?",
-      "answer": "Adrenocorticotropic hormone (ACTH)."
+      "question": "Which structural domain of the nuclear receptor superfamily is responsible for recognizing specific Hormone Response Elements (HREs)?",
+      "answer": "DNA-Binding Domain (DBD)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Which anterior pituitary hormone is responsible for stimulating the thyroid gland?",
-      "answer": "Thyroid-stimulating hormone (TSH)."
+      "question": "The DNA-binding domain of Group I hormone receptors typically contains _____ structural motifs.",
+      "answer": "Zinc finger"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Somatotropes in the anterior pituitary are responsible for secreting _____.",
-      "answer": "Growth Hormone (GH)"
+      "question": "Which domain of a nuclear receptor is responsible for ligand binding and receptor dimerization?",
+      "answer": "Ligand-Binding Domain (LBD)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Lactotropes in the anterior pituitary are responsible for secreting _____.",
-      "answer": "Prolactin"
+      "question": "The _____ domain of nuclear receptors provides ligand-independent transcriptional activation.",
+      "answer": "AF-1"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What is the standard daily pancreatic production of insulin in an adult individual?",
-      "answer": "Approximately 50 units ($0.7-1.3\\text{ mg}$)."
+      "question": "What is the function of the 'Hinge region' in the structure of a nuclear receptor?",
+      "answer": "It allows for receptor flexibility and contains nuclear localization signals."
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "What defines the specific 'target cells' for a given hormone?",
-      "answer": "The presence of a specific receptor."
+      "question": "CBP/p300 acts as a co-activator for nuclear receptors by exhibiting _____ activity to remodel chromatin.",
+      "answer": "Histone Acetyltransferase (HAT)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "Most lipid-soluble hormones circulate in the plasma bound to _____.",
-      "answer": "transport proteins"
+      "question": "How does Histone Acetyltransferase (HAT) activity facilitate gene transcription?",
+      "answer": "It acetylates histones, causing chromatin to relax and allowing transcription machinery access to DNA."
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
-      "question": "In the metabolic integration of energy, what does the brain primarily use as its energy source?",
-      "answer": "Glucose (G)."
+      "question": "Insulin resistance is often associated with the inhibitory _____ phosphorylation of Insulin Receptor Substrate-1 (IRS-1).",
+      "answer": "Serine"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "In a healthy state, insulin signaling requires the _____ phosphorylation of IRS-1 by the insulin receptor.",
+      "answer": "Tyrosine"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "Which specific second messenger is utilized by the Insulin receptor to exert its metabolic effects?",
+      "answer": "Phosphatidylinositides (and kinase cascades)"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "The dislodging of a transcriptional _____ from a nuclear receptor is a prerequisite for Group I hormone-induced gene activation.",
+      "answer": "Co-repressor"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "In the beta cell, the influx of _____ through voltage-gated channels is the final trigger for insulin exocytosis.",
+      "answer": "Calcium ($Ca^{2+}$)"
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which pancreatic islet cell type comprises approximately $60-75\\%$ of the total endocrine population?",
-      "answer": "Beta cells."
+      "question": "What is the clinical definition of Diabetes Mellitus?",
+      "answer": "A group of metabolic diseases characterized by chronic hyperglycemia due to defects in insulin secretion, action, or both."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the primary anatomical location of beta cells within a pancreatic islet of Langerhans?",
-      "answer": "The central region."
+      "question": "What are the three metabolic categories disturbed in Diabetes Mellitus?",
+      "answer": "Carbohydrate, fat, and protein metabolism."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which islet cell type makes up $\\sim 20\\%$ of the population and is located peripherally?",
-      "answer": "Alpha cells."
+      "question": "Identify the endocrine cell clusters within the pancreas.",
+      "answer": "Islets of Langerhans."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What hormone is secreted by pancreatic alpha cells to raise blood glucose levels?",
-      "answer": "Glucagon."
+      "question": "Which pancreatic islet cells are responsible for secreting insulin?",
+      "answer": "Beta ($\\beta$) cells."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Delta cells, which constitute $\\sim 5\\%$ of the islet, are responsible for producing which hormone?",
+      "question": "Which pancreatic islet cells are responsible for secreting glucagon?",
+      "answer": "Alpha ($\\alpha$) cells."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What hormone is produced by the Delta ($\\delta$) cells of the pancreas?",
       "answer": "Somatostatin."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the primary function of pancreatic polypeptide (PP) secreted by F cells?",
-      "answer": "Inhibition of exocrine pancreatic secretion."
+      "question": "What is the primary product of pancreatic F-cells (PP cells)?",
+      "answer": "Pancreatic polypeptide."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the paracrine network of the islet, what effect does insulin have on alpha cells?",
-      "answer": "It inhibits glucagon secretion."
+      "question": "Approximately what percentage of the pancreatic islet is composed of Beta cells?",
+      "answer": "$60\\%-75\\%$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does somatostatin affect the secretion of insulin and glucagon?",
-      "answer": "It inhibits both insulin and glucagon secretion."
+      "question": "Approximately what percentage of the pancreatic islet is composed of Alpha cells?",
+      "answer": "$20\\%$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What effect does glucagon have on beta cells and delta cells locally?",
-      "answer": "It stimulates both insulin and somatostatin secretion."
+      "question": "What is the approximate daily pancreatic production of insulin in a healthy adult?",
+      "answer": "$50$ units (or $0.7-1.3$ mg)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Why is the liver exposed to much higher concentrations of pancreatic hormones than the general circulation?",
-      "answer": "Venous drainage from the islets enters the hepatic portal vein directly."
+      "question": "Insulin is a peptide hormone composed of how many amino acids?",
+      "answer": "$51$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Contrast the glucose affinity ($K_m$) of hexokinase versus glucokinase.",
-      "answer": "Hexokinase has a very high affinity (low $K_m$), while glucokinase has a lower affinity (higher $K_m$)."
+      "question": "What is the primary biological effect of insulin on plasma glucose levels?",
+      "answer": "It lowers plasma glucose."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which of the two glucose-phosphorylating enzymes is inhibited by its product, Glucose-6-Phosphate (G-6-P)?",
-      "answer": "Hexokinase."
+      "question": "What is the primary biological effect of glucagon on plasma glucose levels?",
+      "answer": "It raises plasma glucose."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Where is glucokinase specifically expressed in the body?",
-      "answer": "In the liver and pancreatic beta cells."
+      "question": "Term: Polyuria",
+      "answer": "Definition: Increased or excessive urination."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Why is glucokinase considered the 'glucose sensor' for the pancreatic beta cell?",
-      "answer": "Its activity rises linearly with blood glucose concentrations within the physiological range."
+      "question": "Term: Polydipsia",
+      "answer": "Definition: Excessive or abnormal thirst."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the first step in the glucose-stimulated insulin secretion (GSIS) cascade?",
-      "answer": "Glucose enters the beta cell through the $GLUT-2$ transporter."
+      "question": "Term: Polyphagia",
+      "answer": "Definition: Excessive hunger or increased appetite."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the GSIS pathway, what molecule's increased production leads to the closure of $K_{ATP}$ channels?",
-      "answer": "$ATP$."
+      "question": "What is the fundamental cause of Type 1 Diabetes Mellitus?",
+      "answer": "Absolute insulin deficiency due to autoimmune destruction of pancreatic Beta cells."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "The closure of $ATP$-sensitive $K^+$ channels in beta cells directly results in which electrical event?",
-      "answer": "Membrane depolarization."
+      "question": "What is the dual defect characterizing Type 2 Diabetes Mellitus?",
+      "answer": "Peripheral insulin resistance and a relative deficiency in insulin secretion."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Membrane depolarization in beta cells triggers the opening of which specific ion channel?",
-      "answer": "Voltage-gated $Ca^{2+}$ channels."
+      "question": "Which type of Diabetes Mellitus accounts for $90\\%-95\\%$ of all cases?",
+      "answer": "Type 2 Diabetes Mellitus."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the final trigger for the exocytosis of insulin-containing secretory granules?",
-      "answer": "An increase in intracellular $Ca^{2+}$ concentration."
+      "question": "What is the most common age of onset for Type 1 Diabetes Mellitus?",
+      "answer": "Juvenile onset (childhood)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which peptide is co-secreted with insulin and can be used as a marker for endogenous insulin production?",
-      "answer": "C-peptide."
+      "question": "What is the most common age of onset for Type 2 Diabetes Mellitus?",
+      "answer": "Adult onset (typically after age $40$)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "According to the 'starvation in the midst of plenty' paradox, where is glucose deficient in a diabetic patient?",
-      "answer": "Intracellularly."
+      "question": "Which type of Diabetes Mellitus is most strongly linked to obesity and a sedentary lifestyle?",
+      "answer": "Type 2 Diabetes Mellitus."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which autoimmune mechanism is primarily responsible for the destruction of beta cells in Type 1 Diabetes?",
-      "answer": "Selective T-cell mediated destruction."
+      "question": "How is insulin classified based on its metabolic role in energy management?",
+      "answer": "Hormone of energy storage."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "The primary genetic susceptibility for Type 1 DM is linked to which chromosomal region?",
-      "answer": "The major histocompatibility complex (MHC) on chromosome 6."
+      "question": "How is glucagon classified based on its metabolic role in energy management?",
+      "answer": "Hormone of energy release."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which specific $HLA$ alleles are most commonly associated with Type 1 Diabetes?",
-      "answer": "$HLA-DR3$ and $HLA-DR4$."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the concordance rate for Type 1 Diabetes in identical twins?",
-      "answer": "Approximately $33\\%$."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Type 2 Diabetes is characterized by a combination of which two metabolic defects?",
-      "answer": "Insulin resistance and relative insulin secretory deficiency."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the early stages of Type 2 DM, how does the pancreas compensate for insulin resistance?",
-      "answer": "Through compensatory hyperinsulinemia (increased insulin production)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the primary driver of 'progressive beta-cell dysfunction' in the later stages of Type 2 DM?",
-      "answer": "Beta-cell exhaustion and failure (apoptosis)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Why does insulin deficiency lead to polyuria?",
-      "answer": "Hyperglycemia exceeds the renal threshold, causing glycosuria and osmotic diuresis."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does diabetes affect lipid metabolism in terms of ketone bodies?",
-      "answer": "Accelerated lipid catabolism leads to increased formation of ketone bodies (ketosis)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What causes weight loss in diabetic patients despite polyphagia (increased appetite)?",
-      "answer": "The catabolism of protein and fat stores to meet energy requirements."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the 'Incretin Effect' regarding insulin secretion?",
-      "answer": "The observation that oral glucose triggers a significantly higher insulin response than intravenous glucose."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which two gut hormones are responsible for the incretin effect?",
-      "answer": "$GLP-1$ (Glucagon-like peptide-1) and $GIP$ (Gastric inhibitory polypeptide)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does $GLP-1$ affect glucagon secretion?",
-      "answer": "It causes a glucose-dependent decrease in glucagon from alpha cells."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which enzyme is responsible for the rapid inactivation of incretin hormones like $GLP-1$?",
-      "answer": "$DPP-4$ enzyme."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "The maturation of the second phase of insulin secretion is believed to be primed by which intracellular messenger?",
-      "answer": "Glutamate."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What structural characteristic defines the insulin receptor's subunits?",
-      "answer": "It has two $\\alpha$ and two $\\beta$ subunits."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Binding of insulin to its receptor initiates signaling through the phosphorylation of which residues on the $\\beta$ subunits?",
-      "answer": "Tyrosine residues (autophosphorylation)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which pancreatic cells are responsible for secreting amylin?",
-      "answer": "Beta cells."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the typical half-life of a pancreatic beta cell?",
-      "answer": "Approximately 30 days."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What percentage of Type 1 DM patients typically have circulating islet cell antibodies at diagnosis?",
-      "answer": "Approximately $85\\%$."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Why does insulin deficiency result in metabolic acidosis?",
-      "answer": "Increased fat catabolism produces ketoacids like acetoacetate and $\\beta$-hydroxybutyrate."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the 'fed state,' which organ is the primary site for glycogenesis promoted by insulin?",
-      "answer": "The liver."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the 'fasting state,' which hormone dominates to promote glycogenolysis and gluconeogenesis in the liver?",
-      "answer": "Glucagon."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does insulin affect protein metabolism in muscle tissue?",
-      "answer": "It increases amino acid uptake and protein synthesis while decreasing proteolysis."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the effect of insulin on lipolysis in adipose tissue?",
-      "answer": "It inhibits (decreases) lipolysis."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "The 'cell starvation' in the hypothalamus during diabetes results in the failure to sense _____, leading to hyperphagia.",
-      "answer": "Satiety."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which glucose transporter is used by the brain and does not require insulin for glucose entry?",
-      "answer": "$GLUT-1$."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the approximate daily production of insulin in a healthy adult individual?",
-      "answer": "Approximately 50 units ($0.7-1.3$ mg)."
-    },
-    {
-      "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Normal humans typically have basal insulin values in which range?",
+      "question": "What is the range for normal basal insulin values in humans?",
       "answer": "$30-90$ pmol/L."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Under what condition does the liver increase the production of ketone bodies (ketogenesis)?",
-      "answer": "When insulin levels are low and free fatty acid (FFA) levels are high."
+      "question": "Which classic symptoms are common to both Type 1 and Type 2 Diabetes Mellitus?",
+      "answer": "Weight loss, polyuria, polydipsia, and polyphagia."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does insulin deficiency impact the resistance to infections?",
-      "answer": "Protein depletion and wasting associated with insulin deficiency impair the immune response."
+      "question": "Which type of Diabetes Mellitus is frequently associated with ketosis and ketoacidosis?",
+      "answer": "Type 1 Diabetes Mellitus."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which of the following is NOT a classic symptom of hyperglycemia: polydipsia, polyuria, polyphagia, or bradycardia?",
-      "answer": "Bradycardia."
+      "question": "What type of diabetes is specifically diagnosed during pregnancy?",
+      "answer": "Gestational diabetes."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Glycosuria occurs when the plasma glucose level exceeds approximately _____ mg/dL.",
-      "answer": "180 mg/dL (the renal threshold)."
+      "question": "What protein is co-secreted with insulin and serves as a marker for Beta cell function?",
+      "answer": "C-peptide."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What determines the 'physiological range' for glucokinase activity in the beta cell?",
-      "answer": "Glucose concentrations between fasting ($5$ mmol/L) and postprandial ($10$ mmol/L) levels."
+      "question": "Identify two tissues where insulin specifically increases glucose uptake.",
+      "answer": "Muscle and adipose tissue."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the GSIS cascade, the efflux of which ion is blocked to trigger depolarization?",
-      "answer": "Potassium ($K^+$)."
+      "question": "Does insulin promote or inhibit lipolysis?",
+      "answer": "It inhibits (stops) lipolysis."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which metabolic pathway in the mitochondria is crucial for raising the $ATP/ADP$ ratio in beta cells?",
-      "answer": "The TCA (Citric Acid) Cycle."
+      "question": "Does insulin promote or inhibit gluconeogenesis?",
+      "answer": "It inhibits (stops) gluconeogenesis."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Identify the primary mechanism of beta-cell death mentioned in the source material.",
-      "answer": "Apoptosis."
+      "question": "What is the effect of insulin on glycogenesis in the liver and muscle?",
+      "answer": "It promotes (increases) glycogenesis."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "New beta-cells can be generated through which two processes?",
-      "answer": "Replication and neogenesis."
+      "question": "What is the effect of insulin on protein synthesis?",
+      "answer": "It promotes (increases) protein synthesis."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In a healthy pancreatic islet, which cells are found mainly in the center?",
-      "answer": "Beta cells."
+      "question": "In identical twins, which type of diabetes has a higher concordance rate (stronger genetic component)?",
+      "answer": "Type 2 Diabetes Mellitus."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What constitutes the 'local insulin shield' in islet paracrine regulation?",
-      "answer": "High local concentrations of insulin that suppress glucagon secretion from neighboring alpha cells."
+      "question": "Where is the pancreas located in relation to the stomach?",
+      "answer": "Behind the stomach."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What happens to the paracrine regulation of the islet if beta cells fail?",
-      "answer": "The 'insulin shield' is removed, leading to dysregulated (often excess) glucagon secretion."
+      "question": "The islets represent approximately what percentage of total pancreatic volume?",
+      "answer": "$\\sim 2\\%$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does insulin promote energy storage in adipose tissue?",
-      "answer": "By increasing glucose uptake, glycerol phosphate synthesis, and fat esterification."
+      "question": "What are the exocrine cells of the pancreas called?",
+      "answer": "Acinar cells."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "In the context of hormone secretion, what is meant by 'basal' insulin?",
-      "answer": "The continuous, low-level secretion of insulin between meals."
+      "question": "What do exocrine acinar cells secrete into the duodenum?",
+      "answer": "Digestive enzymes (protease, lipase, amylase) and bicarbonate."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Why is C-peptide produced in a $1:1$ ratio with insulin?",
-      "answer": "It is cleaved from proinsulin during the maturation of insulin in secretory granules."
+      "question": "What occurs if insulin deficiency leads to 'starvation in the midst of plenty'?",
+      "answer": "Extracellular glucose excess exists alongside intracellular glucose deficiency."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which environmental factors are mentioned as potential triggers for T1DM autoimmunity?",
-      "answer": "Viral infections, dietary factors (e.g., cow's milk protein, gluten), and toxins."
+      "question": "What is the diagnostic threshold for Fasting Plasma Glucose (FPG) in Diabetes Mellitus?",
+      "answer": "$\\ge 126$ mg/dL ($7.0$ mmol/L)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the primary driver of insulin resistance in Type 2 Diabetes?",
-      "answer": "Obesity and excess visceral adipose tissue."
+      "question": "What HbA1c percentage is diagnostic for Diabetes Mellitus?",
+      "answer": "$\\ge 6.5\\%$ ($48$ mmol/mol)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Type 1 Diabetes was formerly known by what name based on its typical age of onset?",
-      "answer": "Juvenile onset Diabetes Mellitus."
+      "question": "What is the 2-hour plasma glucose threshold during an Oral Glucose Tolerance Test (OGTT) for diabetes?",
+      "answer": "$\\ge 200$ mg/dL ($11.1$ mmol/L)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What is the primary metabolic outcome of untreated Type 1 DM as shown in pathophysiology diagrams?",
-      "answer": "Absolute insulin deficiency leading to severe hyperglycemia and ketoacidosis."
+      "question": "Diagnosis of diabetes via Random Plasma Glucose requires a value of $\\ge 200$ mg/dL plus what?",
+      "answer": "Presence of classic symptoms (e.g., 3 Ps, unexplained weight loss)."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How does the 'Incretin Effect' change in patients with Type 2 Diabetes?",
-      "answer": "It is significantly reduced compared to healthy patients."
+      "question": "What is the normal range for HbA1c?",
+      "answer": "$< 5.7\\%$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "Which enzyme has a high capacity ($V_{max}$) for glucose, allowing it to process large amounts during hyperglycemia?",
+      "question": "What range of HbA1c values indicates Pre-diabetes?",
+      "answer": "$5.7\\%-6.4\\%$."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Which glucose-phosphorylating enzyme is found in most tissues and has a very high glucose affinity?",
+      "answer": "Hexokinase."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Which glucose-phosphorylating enzyme is found primarily in the liver and pancreatic Beta cells?",
       "answer": "Glucokinase."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "At what weeks of gestation do pancreatic islets start to develop?",
+      "question": "How does Glucose-6-Phosphate (G-6-P) affect Hexokinase activity?",
+      "answer": "It serves as an allosteric inhibitor."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Is Glucokinase inhibited by its product, Glucose-6-Phosphate?",
+      "answer": "No, it is not inhibited by G-6-P."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "In the Glucose-Stimulated Insulin Secretion (GSIS) cascade, what metabolite causes the closure of $K^+$ channels?",
+      "answer": "ATP."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Closure of $K^+$ channels in the Beta cell leads to what electrical change?",
+      "answer": "Cell membrane depolarization."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What ion channel opens in response to Beta cell depolarization to trigger insulin release?",
+      "answer": "Voltage-gated $Ca^{2+}$ channels."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "The 'Incretin Effect' describes the finding that insulin levels increase more after which route of glucose administration?",
+      "answer": "Oral administration (food intake)."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Identify the two primary incretin hormones released from the gut.",
+      "answer": "GLP-1 and GIP."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What enzyme is responsible for the inactivation of GLP-1 and GIP?",
+      "answer": "DPP-4 enzyme."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "How does insulin administration typically affect plasma potassium ($K^+$) levels?",
+      "answer": "It increases $K^+$ uptake into cells, lowering plasma levels."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "During exercise, what happens to muscle glucose uptake?",
+      "answer": "It increases."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What is the metabolic state of the liver during fasting?",
+      "answer": "Increased glycogenolysis and gluconeogenesis."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "In the 'fed state,' what is the primary destination for glucose entering from the GI tract?",
+      "answer": "Liver (for glycogenesis), muscle, adipose, and neural tissue."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What hormone inhibits both insulin and glucagon secretion?",
+      "answer": "Somatostatin."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Secondary diabetes can be caused by which endocrine disorder involving cortisol excess?",
+      "answer": "Cushing syndrome."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What refers to the passage of large volumes of urine, a hallmark of untreated diabetes?",
+      "answer": "Polyuria."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Why is the Glucokinase reaction considered the 'glucose sensor' for the Beta cell?",
+      "answer": "Its reaction rate directly tracks glucose availability within the physiological range."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What is the significance of the insulin-glucagon molar ratio?",
+      "answer": "It determines the net metabolic direction (storage vs. release) of nutrients."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "In Type 2 Diabetes, what characterizes the 'Initial Compensatory Phase'?",
+      "answer": "Beta cells increase insulin secretion to compensate for peripheral resistance."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What defines the 'Pancreatic' part of the dual defect in progressive T2DM?",
+      "answer": "Progressive Beta cell dysfunction, exhaustion, and cell death."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "How does insulin affect the urea cycle in the liver?",
+      "answer": "It decreases urea cycle activity."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "List four counter-regulatory hormones that increase plasma glucose.",
+      "answer": "Glucagon, Epinephrine, Cortisol, and Growth Hormone."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "At what weeks of gestation do pancreatic islets typically start to develop?",
       "answer": "Weeks $9-11$."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "How many islets of Langerhans are typically found in a normal human pancreas?",
-      "answer": "Approximately 1 million."
+      "question": "What is the major mechanism of cell death for Beta cells in diabetes?",
+      "answer": "Apoptosis."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",
-      "question": "What occurs to glucose in the kidney when plasma levels reach $300$ mg/dL?",
-      "answer": "Significant amounts are excreted in the urine (glycosuria)."
+      "question": "What is the approximate half-life of a pancreatic Beta cell?",
+      "answer": "$\\sim 30$ days."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Identify the two ways the body generates new Beta cells.",
+      "answer": "Replication and neogenesis."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "In the pathophysiology of Type 1 DM, what happens to the liver's production of ketoacids (KA)?",
+      "answer": "It increases due to absolute insulin deficiency."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "How does the glucose affinity ($K_m$) of Glucokinase compare to Hexokinase?",
+      "answer": "Glucokinase has a lower affinity ($K_m$ is higher)."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What effect does insulin have on hepatic ketogenesis?",
+      "answer": "It decreases ketogenesis."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What happens to glucose uptake in muscle and adipose tissue in Type 2 DM?",
+      "answer": "It is reduced due to insulin resistance."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "Which enzyme converts Free Fatty Acids (FFA) to Ketones in the absence of insulin?",
+      "answer": "Liver enzymes during gluconeogenesis/ketogenesis pathways."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What are the outcomes of 'Failed Regulation' in the diseased fuel state?",
+      "answer": "Sustained high blood glucose and inefficient fuel utilization."
     }
   ]
 }
