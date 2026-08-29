@@ -1,9 +1,10 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import qaData from '../../data/immunology_qa.json';
+import SpeedDrillModal from './SpeedDrillModal';
 import { 
   BookOpen, Search, Layers, Table, HelpCircle, ChevronDown, 
   ChevronUp, Sparkles, CheckCircle2, Bookmark, Copy, Check, 
-  Filter, Award, Eye, EyeOff, ShieldCheck, Zap 
+  Filter, Award, Eye, EyeOff, ShieldCheck, Zap, Volume2, VolumeX, Flame 
 } from 'lucide-react';
 
 export default function HighYieldQAView() {
@@ -11,12 +12,23 @@ export default function HighYieldQAView() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [questionTypeFilter, setQuestionTypeFilter] = useState('all'); // 'all' | 'comparison' | 'long' | 'short'
-  const [expandedQuestions, setExpandedQuestions] = useState({ qa_1: true, qa_2: true });
+  const [expandedQuestions, setExpandedQuestions] = useState({ sq_1: true, sq_2: true });
   const [copiedId, setCopiedId] = useState(null);
   const [selfTestMode, setSelfTestMode] = useState(false);
   const [revealedCards, setRevealedCards] = useState({});
+  const [isDrillOpen, setIsDrillOpen] = useState(false);
+  const [playingAudioId, setPlayingAudioId] = useState(null);
 
   const { metadata, definitions = [], questions = [] } = qaData;
+
+  // Clean up audio speech on unmount
+  useEffect(() => {
+    return () => {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   const toggleQuestion = (id) => {
     setExpandedQuestions((prev) => ({
@@ -36,6 +48,38 @@ export default function HighYieldQAView() {
     navigator.clipboard.writeText(text);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
+  };
+
+  // Text-To-Speech Pronunciation / Narration
+  const speakText = (text, id) => {
+    if (!('speechSynthesis' in window)) {
+      alert('Audio speech synthesis is not supported on this browser.');
+      return;
+    }
+
+    if (playingAudioId === id) {
+      window.speechSynthesis.cancel();
+      setPlayingAudioId(null);
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const cleanText = text.replace(/[*_#•]/g, ' ').replace(/\s+/g, ' ').trim();
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.rate = 0.95; // clear academic speed
+    utterance.pitch = 1.0;
+    utterance.onend = () => setPlayingAudioId(null);
+    utterance.onerror = () => setPlayingAudioId(null);
+
+    setPlayingAudioId(id);
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const stopAudio = () => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    setPlayingAudioId(null);
   };
 
   // Filtered Definitions
@@ -90,7 +134,7 @@ export default function HighYieldQAView() {
   return (
     <div className="w-full max-w-6xl mx-auto px-3 sm:px-6 md:px-8 py-4 sm:py-8 animate-fadeIn">
       {/* Top Header Banner */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-5 sm:p-6 bg-gradient-to-r from-[#161b22] to-[#0d1117] border border-cyanPrimary/40 rounded-2xl shadow-xl shadow-cyanPrimary/5 mb-6">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 p-5 sm:p-6 bg-gradient-to-r from-[#161b22] to-[#0d1117] border border-cyanPrimary/40 rounded-2xl shadow-xl shadow-cyanPrimary/5 mb-6">
         <div className="flex items-center gap-3.5">
           <div className="w-12 h-12 rounded-xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center text-cyanPrimary shadow-md shrink-0">
             <BookOpen className="w-6 h-6" />
@@ -101,27 +145,42 @@ export default function HighYieldQAView() {
                 Immunology High-Yield Q&A
               </h1>
               <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full bg-cyanPrimary/20 text-cyanGlow border border-cyanPrimary/30">
-                Study Guide
+                Study Center
               </span>
             </div>
             <p className="text-xs text-slate-400 mt-0.5">
-              Curated medical terminology, comparison tables, and short & long exam questions (SQ / LQ)
+              36 Medical Definitions • 27 Short & Long Exam Questions (SQs) • Audio Read-Aloud
             </p>
           </div>
         </div>
 
-        {/* Self-Test Mode Switch */}
-        <button
-          onClick={() => setSelfTestMode(!selfTestMode)}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all border ${
-            selfTestMode
-              ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-md shadow-amber-500/10'
-              : 'bg-[#0d1117] text-slate-300 border-slate-700 hover:border-cyanPrimary/40'
-          }`}
-        >
-          {selfTestMode ? <EyeOff className="w-4 h-4 text-amber-400" /> : <Eye className="w-4 h-4 text-cyanPrimary" />}
-          <span>{selfTestMode ? 'Self-Test Mode: Active' : 'Self-Test Mode'}</span>
-        </button>
+        {/* Action Controls (Speed Drill & Self-Test Mode) */}
+        <div className="flex items-center gap-2.5 flex-wrap">
+          {/* Speed-Drill Launcher Button */}
+          <button
+            onClick={() => {
+              stopAudio();
+              setIsDrillOpen(true);
+            }}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-black bg-gradient-to-r from-cyanPrimary to-sky-500 hover:from-cyanPrimary/90 hover:to-sky-400 text-white shadow-lg shadow-cyanPrimary/25 active:scale-95 transition-all"
+          >
+            <Zap className="w-4 h-4 fill-white" />
+            <span>⚡ Launch Speed-Drill Mode</span>
+          </button>
+
+          {/* Self-Test Mode Switch */}
+          <button
+            onClick={() => setSelfTestMode(!selfTestMode)}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold transition-all border ${
+              selfTestMode
+                ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-md shadow-amber-500/10'
+                : 'bg-[#0d1117] text-slate-300 border-slate-700 hover:border-cyanPrimary/40'
+            }`}
+          >
+            {selfTestMode ? <EyeOff className="w-4 h-4 text-amber-400" /> : <Eye className="w-4 h-4 text-cyanPrimary" />}
+            <span>{selfTestMode ? 'Self-Test: Active' : 'Self-Test Mode'}</span>
+          </button>
+        </div>
       </div>
 
       {/* Main Tab Switcher (Definitions vs SQ / LQ Questions) */}
@@ -131,6 +190,7 @@ export default function HighYieldQAView() {
             setActiveTab('definitions');
             setSelectedCategory('All');
             setSearchQuery('');
+            stopAudio();
           }}
           className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold transition-all ${
             activeTab === 'definitions'
@@ -147,6 +207,7 @@ export default function HighYieldQAView() {
             setActiveTab('questions');
             setSelectedCategory('All');
             setSearchQuery('');
+            stopAudio();
           }}
           className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold transition-all ${
             activeTab === 'questions'
@@ -217,7 +278,7 @@ export default function HighYieldQAView() {
                 questionTypeFilter === 'long' ? 'bg-emerald-600 text-white shadow-md' : 'bg-[#0d1117] text-emerald-300 hover:text-white'
               }`}
             >
-              Long Questions
+              Comprehensive SQs
             </button>
             <button
               onClick={() => setQuestionTypeFilter('short')}
@@ -225,7 +286,7 @@ export default function HighYieldQAView() {
                 questionTypeFilter === 'short' ? 'bg-amber-600 text-white shadow-md' : 'bg-[#0d1117] text-amber-300 hover:text-white'
               }`}
             >
-              Short Questions
+              Targeted SQs
             </button>
           </div>
         )}
@@ -243,10 +304,14 @@ export default function HighYieldQAView() {
           ) : (
             filteredDefinitions.map((def) => {
               const isRevealed = revealedCards[def.id] || !selfTestMode;
+              const isSpeaking = playingAudioId === def.id;
+
               return (
                 <div
                   key={def.id}
-                  className="p-5 bg-[#161b22] border border-slate-800 hover:border-cyanPrimary/40 rounded-2xl transition-all shadow-md flex flex-col justify-between"
+                  className={`p-5 bg-[#161b22] border rounded-2xl transition-all shadow-md flex flex-col justify-between ${
+                    isSpeaking ? 'border-cyanPrimary ring-1 ring-cyanPrimary/40' : 'border-slate-800 hover:border-cyanPrimary/40'
+                  }`}
                 >
                   <div>
                     <div className="flex items-start justify-between gap-3 mb-2.5">
@@ -259,13 +324,29 @@ export default function HighYieldQAView() {
                         </span>
                       </div>
 
-                      <button
-                        onClick={() => handleCopy(`${def.term}:\n${def.definition}\n${def.notes || ''}`, def.id)}
-                        title="Copy Definition"
-                        className="p-1.5 rounded-lg bg-[#0d1117] border border-slate-700 text-slate-400 hover:text-white hover:border-cyanPrimary/50 transition-all shrink-0"
-                      >
-                        {copiedId === def.id ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
-                      </button>
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {/* Audio Speak Button */}
+                        <button
+                          onClick={() => speakText(`${def.term}. Definition: ${def.definition}. ${def.notes ? 'High yield: ' + def.notes : ''}`, def.id)}
+                          title={isSpeaking ? 'Stop Audio' : 'Listen to Pronunciation'}
+                          className={`p-1.5 rounded-lg border transition-all ${
+                            isSpeaking
+                              ? 'bg-cyanPrimary text-white border-cyanPrimary animate-pulse'
+                              : 'bg-[#0d1117] border-slate-700 text-slate-400 hover:text-cyanGlow hover:border-cyanPrimary/50'
+                          }`}
+                        >
+                          {isSpeaking ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5 text-cyanPrimary" />}
+                        </button>
+
+                        {/* Copy Button */}
+                        <button
+                          onClick={() => handleCopy(`${def.term}:\n${def.definition}\n${def.notes || ''}`, def.id)}
+                          title="Copy Definition"
+                          className="p-1.5 rounded-lg bg-[#0d1117] border border-slate-700 text-slate-400 hover:text-white hover:border-cyanPrimary/50 transition-all"
+                        >
+                          {copiedId === def.id ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
+                        </button>
+                      </div>
                     </div>
 
                     {/* Self-Test Toggle Mask */}
@@ -318,7 +399,7 @@ export default function HighYieldQAView() {
         </div>
       )}
 
-      {/* QUESTIONS (SQ / LQ) TAB VIEW */}
+      {/* QUESTIONS (SQ) TAB VIEW */}
       {activeTab === 'questions' && (
         <div className="space-y-4">
           {filteredQuestions.length === 0 ? (
@@ -328,14 +409,17 @@ export default function HighYieldQAView() {
               <p className="text-xs text-slate-500 mt-1">Try changing your filter options.</p>
             </div>
           ) : (
-            filteredQuestions.map((q) => {
+            filteredQuestions.map((q, index) => {
               const isExpanded = expandedQuestions[q.id];
               const isComparison = q.type === 'comparison';
+              const isSpeaking = playingAudioId === q.id;
 
               return (
                 <div
                   key={q.id}
-                  className="bg-[#161b22] border border-slate-800 hover:border-cyanPrimary/30 rounded-2xl overflow-hidden transition-all shadow-lg shadow-black/20"
+                  className={`bg-[#161b22] border rounded-2xl overflow-hidden transition-all shadow-lg shadow-black/20 ${
+                    isSpeaking ? 'border-cyanPrimary ring-1 ring-cyanPrimary/40' : 'border-slate-800 hover:border-cyanPrimary/30'
+                  }`}
                 >
                   {/* Question Header Card */}
                   <div
@@ -377,7 +461,24 @@ export default function HighYieldQAView() {
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-2 shrink-0">
+                    <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                      {/* Audio Button */}
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          speakText(`${q.title}. ${q.question}. Summary: ${q.summary || ''}`, q.id);
+                        }}
+                        title={isSpeaking ? 'Stop Audio' : 'Listen to Question'}
+                        className={`p-2 rounded-xl border transition-all ${
+                          isSpeaking
+                            ? 'bg-cyanPrimary text-white border-cyanPrimary animate-pulse'
+                            : 'bg-[#0d1117] border-slate-700 text-slate-400 hover:text-cyanGlow hover:border-cyanPrimary/50'
+                        }`}
+                      >
+                        {isSpeaking ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4 text-cyanPrimary" />}
+                      </button>
+
+                      {/* Copy Button */}
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
@@ -463,6 +564,17 @@ export default function HighYieldQAView() {
           )}
         </div>
       )}
+
+      {/* SPEED DRILL ACTIVE RECALL MODAL */}
+      <SpeedDrillModal
+        isOpen={isDrillOpen}
+        onClose={() => setIsDrillOpen(false)}
+        definitions={definitions}
+        questions={questions}
+        playingAudioId={playingAudioId}
+        onSpeak={speakText}
+        onStopAudio={stopAudio}
+      />
     </div>
   );
 }
