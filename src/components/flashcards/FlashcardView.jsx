@@ -149,7 +149,7 @@ export default function FlashcardView() {
   const currentCardStatus = currentCard ? cardStatusMap[getCardId(currentCard)] : undefined;
 
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 py-6 sm:py-8 flex flex-col justify-center min-h-[calc(100vh-100px)]">
+    <div className="w-full max-w-5xl mx-auto px-4 py-4 sm:py-6 flex flex-col justify-start">
       <FilterBar
         modules={modules}
         selectedModule={selectedModule}
@@ -165,61 +165,71 @@ export default function FlashcardView() {
       />
 
       {filteredCards.length > 0 ? (
-        <>
-          <Flashcard
-            card={currentCard}
-            isFlipped={isFlipped}
-            setIsFlipped={setIsFlipped}
-            cardStatus={currentCardStatus}
-            onToggleStatus={(status) => handleToggleStatus(currentCard, status)}
-          />
-
-          <CardControls
-            currentIndex={currentIndex}
-            totalCards={filteredCards.length}
-            onPrev={handlePrev}
-            onNext={handleNext}
-          />
-        </>
+        <Flashcard
+          card={currentCard}
+          isFlipped={isFlipped}
+          setIsFlipped={setIsFlipped}
+          cardStatus={currentCardStatus}
+          onToggleStatus={(status) => handleToggleStatus(currentCard, status)}
+        />
       ) : (
-        <div className="text-center py-16 px-6 bg-[#161b22]/90 border border-slate-800 rounded-2xl max-w-xl mx-auto shadow-2xl backdrop-blur-xl">
+        <div className="w-full max-w-2xl h-[390px] sm:h-[430px] mx-auto bg-[#161b22]/90 border border-slate-700/60 rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-xl backdrop-blur-xl">
           {statusFilter === 'review' ? (
             <div className="flex flex-col items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
-                <Bookmark className="w-6 h-6" />
+              <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shadow-lg shadow-amber-500/10">
+                <Bookmark className="w-7 h-7" />
               </div>
-              <h3 className="text-lg font-bold text-white">No Cards Marked for Review</h3>
+              <h3 className="text-xl font-bold text-white">No Cards Marked for Review</h3>
               <p className="text-slate-400 text-sm max-w-sm">
                 Click the <span className="text-amber-300 font-semibold">📌 Review</span> button on any flashcard to save it here for targeted revision!
               </p>
               <button
                 onClick={() => setStatusFilter('all')}
-                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700"
+                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:border-amber-500/50 hover:bg-slate-800 transition-all shadow-md active:scale-95"
               >
                 View All Cards ({totalCount})
               </button>
             </div>
           ) : statusFilter === 'mastered' ? (
             <div className="flex flex-col items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400">
-                <CheckCircle2 className="w-6 h-6" />
+              <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-500/10">
+                <CheckCircle2 className="w-7 h-7" />
               </div>
-              <h3 className="text-lg font-bold text-white">No Cards Marked as Mastered</h3>
+              <h3 className="text-xl font-bold text-white">No Cards Marked as Mastered</h3>
               <p className="text-slate-400 text-sm max-w-sm">
                 Click the <span className="text-emerald-300 font-semibold">💚 Know</span> button on cards you've mastered to track your progress!
               </p>
               <button
                 onClick={() => setStatusFilter('all')}
-                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700"
+                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:border-emerald-500/50 hover:bg-slate-800 transition-all shadow-md active:scale-95"
               >
                 View All Cards ({totalCount})
               </button>
             </div>
           ) : (
-            <p className="text-slate-400 font-semibold text-base">No cards found matching your selection.</p>
+            <div className="flex flex-col items-center gap-3">
+              <p className="text-slate-400 font-semibold text-base">No cards found matching your selection.</p>
+              <button
+                onClick={() => {
+                  setSelectedModule('All');
+                  setSelectedCategory('All');
+                  setStatusFilter('all');
+                }}
+                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:bg-slate-800 transition-all"
+              >
+                Reset All Filters
+              </button>
+            </div>
           )}
         </div>
       )}
+
+      <CardControls
+        currentIndex={currentIndex}
+        totalCards={filteredCards.length}
+        onPrev={handlePrev}
+        onNext={handleNext}
+      />
     </div>
   );
 }
