@@ -256,25 +256,25 @@ export default function Header({ activeView, setActiveView }) {
       {showSignOutConfirm && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
           <div 
-            className="w-full max-w-sm bg-[#161b22] border border-cyanPrimary/30 rounded-2xl p-6 shadow-2xl shadow-cyanPrimary/10 relative text-slate-200 text-center animate-fadeIn"
+            className="w-full max-w-sm bg-white dark:bg-[#161b22] border border-slate-300 dark:border-cyanPrimary/30 rounded-2xl p-6 shadow-2xl shadow-slate-900/20 dark:shadow-cyanPrimary/10 relative text-slate-800 dark:text-slate-200 text-center animate-fadeIn transition-colors duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             {signOutSuccess ? (
               <div className="py-4 animate-fadeIn">
-                <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-3 text-emerald-400 shadow-lg shadow-emerald-500/20 animate-bounce">
+                <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-3 text-emerald-600 dark:text-emerald-400 shadow-lg shadow-emerald-500/20 animate-bounce">
                   <CheckCircle2 className="w-8 h-8" />
                 </div>
-                <h3 className="text-xl font-black text-white mb-1">Signed Out successfully!</h3>
-                <p className="text-xs text-slate-400">Your study progress will remain safely saved.</p>
+                <h3 className="text-xl font-black text-slate-900 dark:text-white mb-1">Signed Out successfully!</h3>
+                <p className="text-xs text-slate-500 dark:text-slate-400">Your study progress will remain safely saved.</p>
               </div>
             ) : (
               <>
-                <div className="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-3 text-amber-400">
+                <div className="w-12 h-12 rounded-xl bg-amber-500/15 dark:bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-3 text-amber-600 dark:text-amber-400">
                   <AlertTriangle className="w-6 h-6" />
                 </div>
 
-                <h3 className="text-lg font-bold text-white mb-1">Sign Out Confirmation</h3>
-                <p className="text-xs text-slate-400 mb-6">
+                <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-1">Sign Out Confirmation</h3>
+                <p className="text-xs text-slate-600 dark:text-slate-400 mb-6">
                   Are you sure you want to sign out? Your study progress will remain safely saved.
                 </p>
 
@@ -282,23 +282,22 @@ export default function Header({ activeView, setActiveView }) {
                   <button
                     onClick={() => setShowSignOutConfirm(false)}
                     disabled={signOutLoading}
-                    className="py-2.5 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition-colors disabled:opacity-50"
+                    className="py-2.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors disabled:opacity-50"
                   >
                     Cancel
                   </button>
+
                   <button
                     onClick={handleConfirmSignOut}
                     disabled={signOutLoading}
-                    className="py-2.5 rounded-xl text-xs font-bold bg-rose-600 text-white hover:bg-rose-500 shadow-md shadow-rose-600/30 transition-colors flex items-center justify-center gap-1.5 disabled:opacity-50"
+                    className="py-2.5 rounded-xl text-xs font-bold bg-rose-500 hover:bg-rose-600 text-white shadow-md shadow-rose-500/20 transition-all flex items-center justify-center gap-1.5 disabled:opacity-50"
                   >
                     {signOutLoading ? (
-                      <>
-                        <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                        <span>Signing out...</span>
-                      </>
+                      <Loader2 className="w-3.5 h-3.5 animate-spin" />
                     ) : (
-                      'Yes, Sign Out'
+                      <LogOut className="w-3.5 h-3.5" />
                     )}
+                    <span>Sign Out</span>
                   </button>
                 </div>
               </>

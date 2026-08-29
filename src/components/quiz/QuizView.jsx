@@ -155,42 +155,42 @@ export default function QuizView() {
   if (!user) {
     return (
       <div className="w-full max-w-2xl mx-auto px-4 py-8 sm:py-12 animate-fadeIn">
-        <div className="bg-[#161b22]/90 border border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-2xl backdrop-blur-xl text-center relative overflow-hidden">
+        <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-xl shadow-slate-200/60 dark:shadow-2xl backdrop-blur-xl text-center relative overflow-hidden transition-colors duration-200">
           {/* Decorative Glow */}
           <div className="absolute top-0 right-0 w-36 h-36 bg-cyanPrimary/10 rounded-full blur-2xl pointer-events-none"></div>
           <div className="absolute bottom-0 left-0 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
 
           {/* Lock Icon Badge */}
-          <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-cyanPrimary shadow-lg shadow-cyanPrimary/20">
+          <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/15 dark:bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-sky-700 dark:text-cyanPrimary shadow-lg shadow-cyanPrimary/20">
             <Lock className="w-8 h-8" />
           </div>
 
-          <h2 className="text-2xl sm:text-3xl font-black text-white tracking-tight mb-2">
+          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
             Student Sign-In Required
           </h2>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto leading-relaxed mb-6">
+          <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-lg mx-auto leading-relaxed mb-6">
             Timed exam assessments, verified completion certificates, and prestige frames require a student account to save your study scores and progress.
           </p>
 
           {/* Feature Highlights Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto mb-8 text-xs text-slate-300">
-            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
-              <Clock className="w-4 h-4 text-cyanPrimary shrink-0" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto mb-8 text-xs text-slate-800 dark:text-slate-300">
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Clock className="w-4 h-4 text-sky-700 dark:text-cyanPrimary shrink-0" />
               <span>Timed Board Exam Countdown</span>
             </div>
 
-            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
-              <Award className="w-4 h-4 text-emerald-400 shrink-0" />
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Award className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
               <span>Downloadable Verified Certificates</span>
             </div>
 
-            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
-              <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Sparkles className="w-4 h-4 text-amber-500 dark:text-amber-400 shrink-0" />
               <span>Unlockable Prestige Borders</span>
             </div>
 
-            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl flex items-center gap-2.5">
-              <ShieldCheck className="w-4 h-4 text-sky-400 shrink-0" />
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <ShieldCheck className="w-4 h-4 text-sky-600 dark:text-sky-400 shrink-0" />
               <span>Cloud Sync Across All Devices</span>
             </div>
           </div>
@@ -199,7 +199,7 @@ export default function QuizView() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
             <button
               onClick={() => openAuthModal('signin')}
-              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.98] transition-all"
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/25 hover:brightness-105 active:scale-[0.98] transition-all cursor-pointer"
             >
               <LogIn className="w-4 h-4" />
               <span>Sign In to Your Account</span>
@@ -207,7 +207,7 @@ export default function QuizView() {
 
             <button
               onClick={() => openAuthModal('signup')}
-              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-[#0d1117] border border-slate-700 text-slate-200 hover:text-white hover:border-slate-600 active:scale-[0.98] transition-all"
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-slate-100 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 hover:bg-slate-200 dark:hover:text-white hover:border-slate-400 dark:hover:border-slate-600 active:scale-[0.98] transition-all shadow-sm cursor-pointer"
             >
               <UserPlus className="w-4 h-4" />
               <span>Create Free Account</span>
