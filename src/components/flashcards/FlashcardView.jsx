@@ -173,49 +173,49 @@ export default function FlashcardView() {
           onToggleStatus={(status) => handleToggleStatus(currentCard, status)}
         />
       ) : (
-        <div className="w-full max-w-2xl h-[390px] sm:h-[430px] mx-auto bg-[#161b22]/90 border border-slate-700/60 rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-xl backdrop-blur-xl">
+        <div className="w-full max-w-2xl h-[390px] sm:h-[430px] mx-auto bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-slate-700/60 rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center text-center shadow-xl shadow-slate-200/60 dark:shadow-black/40 backdrop-blur-xl">
           {statusFilter === 'review' ? (
             <div className="flex flex-col items-center gap-3">
-              <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shadow-lg shadow-amber-500/10">
+              <div className="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/40 flex items-center justify-center text-amber-500 dark:text-amber-400 shadow-md shadow-amber-500/10">
                 <Bookmark className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-bold text-white">No Cards Marked for Review</h3>
-              <p className="text-slate-400 text-sm max-w-sm">
-                Click the <span className="text-amber-300 font-semibold">📌 Review</span> button on any flashcard to save it here for targeted revision!
+              <h3 className="text-xl font-bold text-slate-900 dark:text-white">No Cards Marked for Review</h3>
+              <p className="text-slate-600 dark:text-slate-400 text-sm max-w-sm">
+                Click the <span className="text-amber-600 dark:text-amber-300 font-semibold">📌 Review</span> button on any flashcard to save it here for targeted revision!
               </p>
               <button
                 onClick={() => setStatusFilter('all')}
-                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:border-amber-500/50 hover:bg-slate-800 transition-all shadow-md active:scale-95"
+                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-[#0d1117] text-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-700 hover:border-amber-500/50 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all shadow-sm active:scale-95"
               >
                 View All Cards ({totalCount})
               </button>
             </div>
           ) : statusFilter === 'mastered' ? (
             <div className="flex flex-col items-center gap-3">
-              <div className="w-14 h-14 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-500/10">
+              <div className="w-14 h-14 rounded-2xl bg-emerald-500/15 border border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shadow-md shadow-emerald-500/10">
                 <CheckCircle2 className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-bold text-white">No Cards Marked as Mastered</h3>
-              <p className="text-slate-400 text-sm max-w-sm">
-                Click the <span className="text-emerald-300 font-semibold">💚 Know</span> button on cards you've mastered to track your progress!
+              <h3 className="text-xl font-bold text-slate-900 dark:text-white">No Cards Marked as Mastered</h3>
+              <p className="text-slate-600 dark:text-slate-400 text-sm max-w-sm">
+                Click the <span className="text-emerald-600 dark:text-emerald-300 font-semibold">💚 Know</span> button on cards you've mastered to track your progress!
               </p>
               <button
                 onClick={() => setStatusFilter('all')}
-                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:border-emerald-500/50 hover:bg-slate-800 transition-all shadow-md active:scale-95"
+                className="mt-3 px-5 py-2.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-[#0d1117] text-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-700 hover:border-emerald-500/50 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all shadow-sm active:scale-95"
               >
                 View All Cards ({totalCount})
               </button>
             </div>
           ) : (
             <div className="flex flex-col items-center gap-3">
-              <p className="text-slate-400 font-semibold text-base">No cards found matching your selection.</p>
+              <p className="text-slate-600 dark:text-slate-400 font-semibold text-base">No cards found matching your selection.</p>
               <button
                 onClick={() => {
                   setSelectedModule('All');
                   setSelectedCategory('All');
                   setStatusFilter('all');
                 }}
-                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-[#0d1117] text-slate-200 border border-slate-700 hover:bg-slate-800 transition-all"
+                className="mt-2 px-5 py-2 rounded-xl text-xs font-bold bg-slate-100 dark:bg-[#0d1117] text-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all shadow-sm"
               >
                 Reset All Filters
               </button>

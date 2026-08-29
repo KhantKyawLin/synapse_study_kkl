@@ -117,7 +117,7 @@ export default function AuthModal({ onAuthSuccess }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
       <div 
-        className="w-full max-w-md bg-[#161b22] border border-cyanPrimary/40 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-cyanPrimary/10 relative overflow-hidden text-slate-200"
+        className="w-full max-w-md bg-white dark:bg-[#161b22] border border-slate-300 dark:border-cyanPrimary/40 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-slate-900/20 dark:shadow-cyanPrimary/10 relative overflow-hidden text-slate-800 dark:text-slate-200 transition-colors duration-200"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Top Decorative Glow Line */}
@@ -127,7 +127,7 @@ export default function AuthModal({ onAuthSuccess }) {
         {!isSignInSuccess && (
           <button
             onClick={handleClose}
-            className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+            className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
           >
             <X className="w-5 h-5" />
           </button>
@@ -136,37 +136,37 @@ export default function AuthModal({ onAuthSuccess }) {
         {/* SIGN IN SUCCESS ANIMATION SCREEN */}
         {isSignInSuccess ? (
           <div className="py-6 text-center animate-fadeIn">
-            <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-4 text-emerald-400 shadow-xl shadow-emerald-500/20 animate-bounce">
+            <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center mx-auto mb-4 text-emerald-600 dark:text-emerald-400 shadow-xl shadow-emerald-500/20 animate-bounce">
               <CheckCircle2 className="w-9 h-9" />
             </div>
-            <h3 className="text-xl sm:text-2xl font-black text-white mb-1.5">
+            <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white mb-1.5">
               Signed In successfully!
             </h3>
-            <p className="text-xs sm:text-sm text-slate-400">
+            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
               Welcome back! Loading your study dashboard...
             </p>
           </div>
         ) : isPendingReviewScreen ? (
           /* PENDING APPROVAL NOTICE SCREEN */
           <div className="text-center py-4 animate-fadeIn">
-            <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-amber-400 shadow-xl shadow-amber-500/10 animate-pulse">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-amber-500 dark:text-amber-400 shadow-xl shadow-amber-500/10 animate-pulse">
               <Clock className="w-8 h-8" />
             </div>
 
-            <h3 className="text-xl font-bold text-white mb-2">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
               Registration Submitted!
             </h3>
 
-            <p className="text-xs text-slate-300 leading-relaxed mb-4">
-              Your student account registration for <strong className="text-cyanGlow">{email}</strong> has been submitted for administrator review (Khant Kyaw Lin).
+            <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+              Your student account registration for <strong className="text-sky-700 dark:text-cyanGlow">{email}</strong> has been submitted for administrator review (Khant Kyaw Lin).
             </p>
 
-            <div className="p-3 bg-[#0d1117] border border-slate-800 rounded-xl text-left text-xs text-slate-400 mb-6 space-y-1.5">
-              <div className="flex items-center gap-2 text-emerald-400 font-semibold">
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl text-left text-xs text-slate-600 dark:text-slate-400 mb-6 space-y-1.5 shadow-inner">
+              <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-semibold">
                 <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
                 <span>Verification Request Queued</span>
               </div>
-              <p className="text-[11px] text-slate-400 pl-5">
+              <p className="text-[11px] text-slate-500 dark:text-slate-400 pl-5">
                 You will receive an automated approval confirmation email as soon as your account is reviewed and activated.
               </p>
             </div>
@@ -185,20 +185,20 @@ export default function AuthModal({ onAuthSuccess }) {
           <>
             {/* Header */}
             <div className="text-center mb-6">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyanPrimary/10 border border-cyanPrimary/30 text-cyanPrimary mb-3">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanPrimary mb-3">
                 {mode === 'newpassword' || mode === 'forgot' ? (
                   <KeyRound className="w-6 h-6" />
                 ) : (
                   <Lock className="w-6 h-6" />
                 )}
               </div>
-              <h2 className="text-2xl font-bold text-white tracking-tight">
+              <h2 className="text-2xl font-bold text-slate-900 dark:text-white tracking-tight">
                 {mode === 'signin' && 'Welcome Back'}
                 {mode === 'signup' && 'Create Student Account'}
                 {mode === 'forgot' && 'Reset Password'}
                 {mode === 'newpassword' && 'Set New Password'}
               </h2>
-              <p className="text-xs text-slate-400 mt-1">
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                 {mode === 'signin' && 'Sign in to access quizzes and track your study analytics'}
                 {mode === 'signup' && 'Register for admin approval to unlock quizzes & certificates'}
                 {mode === 'forgot' && 'Enter your registered email to receive a password reset link'}
@@ -208,16 +208,16 @@ export default function AuthModal({ onAuthSuccess }) {
 
             {/* Error Notification */}
             {errorMsg && (
-              <div className="flex items-start gap-2 p-3 mb-4 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-300 font-medium animate-fadeIn">
-                <AlertCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
+              <div className="flex items-start gap-2 p-3 mb-4 bg-rose-500/10 border border-rose-500/30 rounded-xl text-xs text-rose-600 dark:text-rose-300 font-medium animate-fadeIn">
+                <AlertCircle className="w-4 h-4 text-rose-500 dark:text-rose-400 shrink-0 mt-0.5" />
                 <span>{errorMsg}</span>
               </div>
             )}
 
             {/* Success Notification */}
             {successMsg && (
-              <div className="flex items-start gap-2 p-3 mb-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-xs text-emerald-300 font-medium animate-fadeIn">
-                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+              <div className="flex items-start gap-2 p-3 mb-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl text-xs text-emerald-700 dark:text-emerald-300 font-medium animate-fadeIn">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
                 <span>{successMsg}</span>
               </div>
             )}
@@ -227,7 +227,7 @@ export default function AuthModal({ onAuthSuccess }) {
               {/* Full Name for Sign Up */}
               {mode === 'signup' && (
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
+                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5 ml-1">
                     Student Full Name
                   </label>
                   <div className="relative">
@@ -240,7 +240,7 @@ export default function AuthModal({ onAuthSuccess }) {
                       placeholder="e.g. Khant Kyaw Lin"
                       value={fullName}
                       onChange={(e) => setFullName(e.target.value)}
-                      className="w-full bg-[#0d1117] border border-slate-700 text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
+                      className="w-full bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
                     />
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export default function AuthModal({ onAuthSuccess }) {
               {/* Email (except for set new password) */}
               {mode !== 'newpassword' && (
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1.5 ml-1">
+                  <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1.5 ml-1">
                     Student Email Address
                   </label>
                   <div className="relative">
@@ -262,7 +262,7 @@ export default function AuthModal({ onAuthSuccess }) {
                       placeholder="student@example.com"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="w-full bg-[#0d1117] border border-slate-700 text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
+                      className="w-full bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white rounded-xl pl-10 pr-4 py-2.5 text-sm font-medium placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
                     />
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default function AuthModal({ onAuthSuccess }) {
               {mode !== 'forgot' && (
                 <div>
                   <div className="flex items-center justify-between mb-1.5 ml-1">
-                    <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300">
+                    <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 dark:text-slate-300">
                       {mode === 'newpassword' ? 'New Password' : 'Password'}
                     </label>
                     {mode === 'signin' && (
@@ -283,7 +283,7 @@ export default function AuthModal({ onAuthSuccess }) {
                           setErrorMsg('');
                           setSuccessMsg('');
                         }}
-                        className="text-[11px] text-cyanGlow hover:underline"
+                        className="text-[11px] text-sky-600 dark:text-cyanGlow hover:underline font-semibold"
                       >
                         Forgot password?
                       </button>
@@ -300,12 +300,12 @@ export default function AuthModal({ onAuthSuccess }) {
                       minLength={6}
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      className="w-full bg-[#0d1117] border border-slate-700 text-white rounded-xl pl-10 pr-10 py-2.5 text-sm font-medium placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
+                      className="w-full bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white rounded-xl pl-10 pr-10 py-2.5 text-sm font-medium placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-cyanPrimary focus:ring-1 focus:ring-cyanPrimary transition-all"
                     />
                     <button
                       type="button"
                       onClick={() => setShowPassword(!showPassword)}
-                      className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-cyanGlow transition-colors"
+                      className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-sky-700 dark:hover:text-cyanGlow transition-colors"
                       tabIndex={-1}
                     >
                       {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
@@ -318,7 +318,7 @@ export default function AuthModal({ onAuthSuccess }) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full mt-2 py-3 rounded-xl font-bold text-sm bg-cyanPrimary text-white shadow-lg shadow-cyanPrimary/25 hover:bg-cyanPrimary/90 active:scale-[0.99] transition-all flex items-center justify-center gap-2 disabled:opacity-50"
+                className="w-full mt-2 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/25 hover:brightness-105 active:scale-[0.99] transition-all flex items-center justify-center gap-2 disabled:opacity-50 cursor-pointer"
               >
                 {loading ? (
                   <>
@@ -340,7 +340,7 @@ export default function AuthModal({ onAuthSuccess }) {
             </form>
 
             {/* Switch Mode Links */}
-            <div className="mt-6 pt-4 border-t border-slate-800 text-center text-xs text-slate-400">
+            <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-600 dark:text-slate-400">
               {mode === 'signin' && (
                 <p>
                   Need a student account?{' '}
@@ -351,7 +351,7 @@ export default function AuthModal({ onAuthSuccess }) {
                       setErrorMsg('');
                       setSuccessMsg('');
                     }}
-                    className="font-bold text-cyanGlow hover:underline"
+                    className="font-bold text-sky-600 dark:text-cyanGlow hover:underline"
                   >
                     Register here
                   </button>
@@ -368,7 +368,7 @@ export default function AuthModal({ onAuthSuccess }) {
                       setErrorMsg('');
                       setSuccessMsg('');
                     }}
-                    className="font-bold text-cyanGlow hover:underline"
+                    className="font-bold text-sky-600 dark:text-cyanGlow hover:underline"
                   >
                     Sign in here
                   </button>
@@ -383,7 +383,7 @@ export default function AuthModal({ onAuthSuccess }) {
                     setErrorMsg('');
                     setSuccessMsg('');
                   }}
-                  className="font-semibold text-slate-400 hover:text-white hover:underline"
+                  className="font-semibold text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:underline"
                 >
                   ← Back to Sign In
                 </button>

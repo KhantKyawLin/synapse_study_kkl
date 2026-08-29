@@ -8,9 +8,18 @@
   }
 
   body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  html.dark body {
     background-color: #0f141c;
     color: #f0f4f8;
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html.light body {
+    background-color: #f8fafc;
+    color: #0f172a;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -18,33 +27,58 @@
   }
 }
 
-/* Custom Sleek Dark Scrollbar to prevent layout shifts across tabs */
-::-webkit-scrollbar {
+/* Custom Scrollbar for Dark Mode */
+html.dark ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-::-webkit-scrollbar-track {
+html.dark ::-webkit-scrollbar-track {
   background: #0f141c;
 }
 
-::-webkit-scrollbar-thumb {
+html.dark ::-webkit-scrollbar-thumb {
   background: #21262d;
   border-radius: 9999px;
   border: 2px solid #0f141c;
 }
 
-::-webkit-scrollbar-thumb:hover {
+html.dark ::-webkit-scrollbar-thumb:hover {
   background: #1ea1f2;
 }
 
+/* Custom Scrollbar for Light Mode */
+html.light ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 2px solid #f1f5f9;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
 /* Firefox standard scrollbar */
-* {
+html.dark * {
   scrollbar-width: thin;
   scrollbar-color: #21262d #0f141c;
 }
 
-/* Custom Color Tokens for Tailwind v4 */
+html.light * {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+/* Custom Color Tokens for Tailwind */
 @theme {
   --color-darkBg: #0f141c;
   --color-darkCard: #1a1e24;
@@ -73,8 +107,8 @@
   transform: rotateY(180deg);
 }
 
-/* Custom Dropdown Styling */
-select.custom-select {
+/* Custom Dropdown Styling (Dark) */
+html.dark select.custom-select {
   background-color: #1a1e24 !important;
   border: 1px solid rgba(30, 161, 242, 0.3) !important;
   color: #f0f4f8 !important;
@@ -92,14 +126,36 @@ select.custom-select {
   transition: all 0.2s ease;
 }
 
-select.custom-select:focus {
+html.dark select.custom-select:focus {
   background-color: #21262e !important;
   border-color: #1ea1f2 !important;
   box-shadow: 0 0 12px rgba(30, 161, 242, 0.3) !important;
   outline: none !important;
 }
 
-select.custom-select option {
-  background-color: #161a1f !important;
-  color: #f0f4f8 !important;
+/* Custom Dropdown Styling (Light) */
+html.light select.custom-select {
+  background-color: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  color: #0f172a !important;
+  border-radius: 0.75rem;
+  padding: 0.6rem 2.5rem 0.6rem 1rem;
+  font-size: 0.925rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%230284c7' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 0.75rem center !important;
+  background-size: 14px 10px !important;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+html.light select.custom-select:focus {
+  background-color: #ffffff !important;
+  border-color: #0284c7 !important;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15) !important;
+  outline: none !important;
 }

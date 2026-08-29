@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { 
   Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, 
-  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award, Lock, BookOpen 
+  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award, Lock, BookOpen, Sun, Moon 
 } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
+import { useTheme } from '../context/ThemeContext';
 import { PRESTIGE_FRAMES } from './auth/AccountSettingsModal';
 
 // Preset avatar emoji mapping
@@ -25,6 +26,7 @@ const AVATAR_EMOJIS = {
 
 export default function Header({ activeView, setActiveView }) {
   const { user, isAdmin, pendingCount, signOut, openAuthModal, openAccountSettings } = useAuth();
+  const { toggleTheme, isDark } = useTheme();
   const [showSignOutConfirm, setShowSignOutConfirm] = useState(false);
   const [signOutLoading, setSignOutLoading] = useState(false);
   const [signOutSuccess, setSignOutSuccess] = useState(false);
@@ -55,7 +57,7 @@ export default function Header({ activeView, setActiveView }) {
 
   return (
     <>
-      <header className="w-full bg-[#161b22]/90 backdrop-blur-xl border-b border-sky-500/20 px-3 sm:px-6 md:px-8 py-2.5 sm:py-3.5 sticky top-0 z-40">
+      <header className="w-full bg-white/90 dark:bg-[#161b22]/90 backdrop-blur-xl border-b border-slate-200 dark:border-sky-500/20 px-3 sm:px-6 md:px-8 py-2.5 sm:py-3.5 sticky top-0 z-40 transition-colors duration-200 shadow-sm dark:shadow-none">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 sm:gap-4">
           
           {/* Top Row / Logo Container */}
@@ -68,21 +70,29 @@ export default function Header({ activeView, setActiveView }) {
                 <img src={logoImg} alt="Synapse Study" className="w-full h-full object-cover" />
               </div>
               <div>
-                <h1 className="text-lg sm:text-2xl font-extrabold tracking-tight text-white leading-none">
+                <h1 className="text-lg sm:text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-none">
                   <span className="text-cyanPrimary">SYNAPSE</span> STUDY
                 </h1>
-                <span className="text-[9px] sm:text-[10px] text-slate-400 font-semibold tracking-wider uppercase block mt-0.5">
+                <span className="text-[9px] sm:text-[10px] text-slate-500 dark:text-slate-400 font-semibold tracking-wider uppercase block mt-0.5">
                   Medical Exam Prep Platform
                 </span>
               </div>
             </div>
 
-            {/* Mobile-only Compact Auth Trigger with Active Prestige Frame */}
+            {/* Mobile-only Controls: Theme Toggle & Compact Auth */}
             <div className="flex md:hidden items-center gap-1.5">
+              <button
+                onClick={toggleTheme}
+                title={`Switch to ${isDark ? 'Light' : 'Dark'} Mode`}
+                className="p-1.5 rounded-xl bg-slate-100 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:text-cyanPrimary transition-all"
+              >
+                {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-sky-600" />}
+              </button>
+
               {user ? (
                 <button
                   onClick={() => openAccountSettings('profile')}
-                  className="flex items-center gap-1.5 px-2.5 py-1 bg-[#0d1117] border border-cyanPrimary/40 rounded-xl text-xs font-bold text-white shadow-sm"
+                  className="flex items-center gap-1.5 px-2.5 py-1 bg-slate-100 dark:bg-[#0d1117] border border-cyanPrimary/40 rounded-xl text-xs font-bold text-slate-900 dark:text-white shadow-sm"
                 >
                   <div className={`${activeFrame.headerClass} w-6 h-6 shrink-0 flex items-center justify-center`}>
                     <span className="text-xs">
@@ -105,13 +115,13 @@ export default function Header({ activeView, setActiveView }) {
           {/* Navigation Tabs & Desktop User Profile */}
           <div className="w-full md:w-auto flex flex-wrap items-center justify-center md:justify-end gap-2 sm:gap-3">
             {/* Navigation Tabs */}
-            <nav className="flex items-center bg-[#0d1117] p-1 rounded-xl border border-slate-800 shadow-inner">
+            <nav className="flex items-center bg-slate-100 dark:bg-[#0d1117] p-1 rounded-xl border border-slate-200 dark:border-slate-800 shadow-inner">
               <button
                 onClick={() => setActiveView('flashcards')}
                 className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'flashcards'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800/50'
                 }`}
               >
                 <Layers className="w-3.5 h-3.5" />
@@ -123,7 +133,7 @@ export default function Header({ activeView, setActiveView }) {
                 className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'dashboards'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800/50'
                 }`}
               >
                 <LayoutDashboard className="w-3.5 h-3.5" />
@@ -135,7 +145,7 @@ export default function Header({ activeView, setActiveView }) {
                 className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'qa'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800/50'
                 }`}
               >
                 <BookOpen className="w-3.5 h-3.5" />
@@ -147,7 +157,7 @@ export default function Header({ activeView, setActiveView }) {
                 className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                   activeView === 'quiz'
                     ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-200/60 dark:hover:bg-slate-800/50'
                 }`}
               >
                 <HelpCircle className="w-3.5 h-3.5" />
@@ -161,7 +171,7 @@ export default function Header({ activeView, setActiveView }) {
                   className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
                     activeView === 'admin'
                       ? 'bg-amber-500 text-white shadow-md shadow-amber-500/30'
-                      : 'text-amber-400/90 hover:text-amber-300 hover:bg-slate-800/50'
+                      : 'text-amber-600 dark:text-amber-400/90 hover:text-amber-700 dark:hover:text-amber-300 hover:bg-slate-200/60 dark:hover:bg-slate-800/50'
                   }`}
                 >
                   <ShieldCheck className="w-3.5 h-3.5" />
@@ -175,16 +185,25 @@ export default function Header({ activeView, setActiveView }) {
               )}
             </nav>
 
+            {/* Desktop Theme Switcher Button */}
+            <button
+              onClick={toggleTheme}
+              title={`Switch to ${isDark ? 'Light' : 'Dark'} Mode`}
+              className="hidden md:flex items-center justify-center p-2 rounded-xl bg-slate-100 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-cyanPrimary/50 transition-all shadow-sm"
+            >
+              {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-sky-600" />}
+            </button>
+
             {/* Desktop User Profile Badge with Active Prestige Frame */}
             {user ? (
-              <div className="hidden md:flex items-center gap-2 px-3 py-1.5 bg-[#0d1117] border border-cyanPrimary/30 hover:border-cyanPrimary/60 rounded-xl transition-all">
+              <div className="hidden md:flex items-center gap-2 px-3 py-1.5 bg-slate-100 dark:bg-[#0d1117] border border-slate-200 dark:border-cyanPrimary/30 hover:border-cyanPrimary/60 rounded-xl transition-all shadow-sm">
                 <button
                   onClick={() => openAccountSettings('profile')}
                   className="flex items-center gap-2 text-left group"
                   title={`Open Account Settings (${activeFrame.title})`}
                 >
                   <div className={`${activeFrame.headerClass} w-8 h-8 shrink-0 flex items-center justify-center transition-all duration-300`}>
-                    <div className="w-full h-full bg-[#161b22] rounded-md overflow-hidden flex items-center justify-center text-sm">
+                    <div className="w-full h-full bg-white dark:bg-[#161b22] rounded-md overflow-hidden flex items-center justify-center text-sm">
                       {avatarKey.startsWith('http') ? (
                         <img src={avatarKey} alt="Avatar" className="w-full h-full object-cover" />
                       ) : (
@@ -193,20 +212,20 @@ export default function Header({ activeView, setActiveView }) {
                     </div>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-xs font-bold text-white leading-tight truncate max-w-[110px] group-hover:text-cyanGlow transition-colors">
+                    <span className="text-xs font-bold text-slate-900 dark:text-white leading-tight truncate max-w-[110px] group-hover:text-cyanPrimary dark:group-hover:text-cyanGlow transition-colors">
                       {displayName}
                     </span>
-                    <span className="text-[9px] text-emerald-400 flex items-center gap-0.5 font-medium leading-none">
+                    <span className="text-[9px] text-emerald-600 dark:text-emerald-400 flex items-center gap-0.5 font-medium leading-none">
                       <Cloud className="w-2.5 h-2.5" /> Synced
                     </span>
                   </div>
                 </button>
 
-                <div className="flex items-center gap-1 ml-1 border-l border-slate-800 pl-1.5">
+                <div className="flex items-center gap-1 ml-1 border-l border-slate-300 dark:border-slate-800 pl-1.5">
                   <button
                     onClick={() => openAccountSettings('profile')}
                     title="Account Settings"
-                    className="p-1 rounded-lg text-slate-400 hover:text-cyanGlow hover:bg-cyanPrimary/10 transition-colors"
+                    className="p-1 rounded-lg text-slate-500 dark:text-slate-400 hover:text-cyanPrimary dark:hover:text-cyanGlow hover:bg-cyanPrimary/10 transition-colors"
                   >
                     <Settings className="w-3.5 h-3.5" />
                   </button>
@@ -214,7 +233,7 @@ export default function Header({ activeView, setActiveView }) {
                   <button
                     onClick={() => { setSignOutSuccess(false); setShowSignOutConfirm(true); }}
                     title="Sign Out"
-                    className="p-1 rounded-lg text-slate-400 hover:text-rose-400 hover:bg-rose-500/10 transition-colors"
+                    className="p-1 rounded-lg text-slate-500 dark:text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 transition-colors"
                   >
                     <LogOut className="w-3.5 h-3.5" />
                   </button>
@@ -223,9 +242,9 @@ export default function Header({ activeView, setActiveView }) {
             ) : (
               <button
                 onClick={() => openAuthModal('signin')}
-                className="hidden md:flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/20 hover:brightness-110 active:scale-[0.98] transition-all"
+                className="hidden md:flex items-center gap-1.5 px-4 py-2 text-xs font-bold bg-gradient-to-r from-cyanPrimary to-sky-600 hover:from-cyanPrimary/90 hover:to-sky-500 text-white rounded-xl shadow-md shadow-cyanPrimary/25 active:scale-95 transition-all"
               >
-                <Sparkles className="w-3.5 h-3.5" />
+                <KeyRound className="w-3.5 h-3.5" />
                 <span>Sign In / Sync</span>
               </button>
             )}

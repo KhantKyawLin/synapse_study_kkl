@@ -89,7 +89,7 @@ export default function QuizResult({
       {/* Exportable Official Score Certificate Card */}
       <div
         ref={certRef}
-        className="bg-[#161b22] border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden"
+        className="bg-[#161b22] border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden text-white"
       >
         {/* Top Decorative Banner */}
         <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
@@ -98,35 +98,52 @@ export default function QuizResult({
           <Award className="w-8 h-8" />
         </div>
 
-        {/* Certificate Title & Student Name */}
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-1 tracking-tight">
-          Quiz Assessment Certificate
+        <span className="text-[10px] font-extrabold uppercase tracking-widest text-cyanPrimary px-3 py-1 rounded-full bg-cyanPrimary/10 border border-cyanPrimary/30 inline-block mb-2">
+          Certificate of Completion
+        </span>
+
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-1">
+          {percentage >= 70 ? 'Congratulations, Assessment Passed!' : 'Assessment Completed'}
         </h2>
+        <p className="text-xs text-slate-400 mb-6">Verified Synapse Study Medical Examination</p>
 
-        {/* Prominent Student Name Badge for Screenshot Verification */}
-        {studentName && (
-          <div className="inline-flex items-center gap-2 px-5 py-2 mt-2 mb-4 rounded-xl bg-cyanPrimary/15 border border-cyanPrimary/40 text-cyanGlow font-extrabold text-base sm:text-lg shadow-sm">
-            <User className="w-5 h-5 text-cyanPrimary" />
-            <span>Student: {studentName}</span>
+        {/* Recipient Details */}
+        <div className="p-4 rounded-xl bg-[#0d1117]/80 border border-slate-800/80 inline-block min-w-[280px] mb-6">
+          <div className="flex items-center justify-center gap-2 text-cyanGlow text-sm font-bold">
+            <User className="w-4 h-4 text-cyanPrimary" />
+            <span className="text-base text-white">{studentName || 'Student'}</span>
           </div>
-        )}
-
-        {isTimeExpired && (
-          <div className="mb-4 text-xs font-bold text-rose-400 bg-rose-500/15 border border-rose-500/30 px-3 py-1 rounded-full inline-block">
-            ⏱️ Time Expired — Auto Submitted
-          </div>
-        )}
-
-        {/* Score Percentage Display */}
-        <div className="text-5xl sm:text-6xl font-black text-cyanPrimary mb-2 tracking-tight">
-          {percentage}%
+          <span className="text-[11px] text-slate-400 block mt-1">
+            Module: <strong className="text-slate-200">{questions[0]?.category || 'Clinical Module'}</strong>
+          </span>
         </div>
-        <p className="text-sm font-semibold text-slate-300 mb-6">
-          Scored <span className="text-emerald-400 font-extrabold text-base">{score}</span> out of <span className="text-white font-extrabold text-base">{questions.length}</span> questions correctly
-        </p>
 
-        {/* Details Meta Bar (Time Spent, Completion Date) */}
-        <div className="flex flex-wrap items-center justify-center gap-4 py-3 px-4 bg-[#0f141c]/80 border border-slate-800 rounded-xl text-xs font-semibold text-slate-400 max-w-md mx-auto mb-6">
+        {/* Score Radial Box */}
+        <div className="grid grid-cols-3 gap-3 max-w-md mx-auto mb-6">
+          <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
+            <span className="text-xs font-bold text-slate-400 block mb-1">Total Score</span>
+            <span className="text-xl font-black text-cyanPrimary">{score} / {questions.length}</span>
+          </div>
+          <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
+            <span className="text-xs font-bold text-slate-400 block mb-1">Percentage</span>
+            <span className={`text-xl font-black ${percentage >= 70 ? 'text-emerald-400' : 'text-amber-400'}`}>
+              {percentage}%
+            </span>
+          </div>
+          <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
+            <span className="text-xs font-bold text-slate-400 block mb-1">Status</span>
+            <span className={`text-xs font-black px-2 py-0.5 rounded-full inline-block mt-1 ${
+              percentage >= 70
+                ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
+                : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
+            }`}>
+              {percentage >= 70 ? 'PASSED' : 'RETRY'}
+            </span>
+          </div>
+        </div>
+
+        {/* Time and Verification Footer */}
+        <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 mb-6">
           <span className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5 text-cyanPrimary" /> Time: {formatTime(timeSpent)} / {formatTime(totalAllocatedSeconds)}
           </span>
@@ -177,14 +194,14 @@ export default function QuizResult({
         </button>
         <button
           onClick={onChooseNewQuiz}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 active:scale-[0.98] transition-all"
         >
           <ArrowLeft className="w-4 h-4" /> Choose Another Quiz
         </button>
         {onOpenHistory && (
           <button
             onClick={onOpenHistory}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-[#0d1117] border border-cyanPrimary/40 text-cyanGlow hover:bg-cyanPrimary/10 active:scale-[0.98] transition-all"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-white dark:bg-[#0d1117] border border-slate-300 dark:border-cyanPrimary/40 text-sky-700 dark:text-cyanGlow hover:bg-sky-50 dark:hover:bg-cyanPrimary/10 active:scale-[0.98] transition-all shadow-sm"
           >
             <History className="w-4 h-4" /> Exam History
           </button>
@@ -192,7 +209,7 @@ export default function QuizResult({
       </div>
 
       {/* Itemized Answer Breakdown */}
-      <h3 className="text-xl font-bold text-white mt-4">Detailed Answer Review</h3>
+      <h3 className="text-xl font-bold text-slate-900 dark:text-white mt-4">Detailed Answer Review</h3>
 
       <div className="flex flex-col gap-4">
         {questions.map((q, idx) => {
@@ -202,37 +219,39 @@ export default function QuizResult({
             <div
               key={idx}
               className={`p-6 rounded-2xl border ${
-                isCorrect ? 'bg-[#16221c]/70 border-emerald-500/30' : 'bg-[#221618]/70 border-rose-500/30'
-              } backdrop-blur-md flex flex-col gap-3`}
+                isCorrect 
+                  ? 'bg-emerald-50/80 dark:bg-[#16221c]/70 border-emerald-300 dark:border-emerald-500/30' 
+                  : 'bg-rose-50/80 dark:bg-[#221618]/70 border-rose-300 dark:border-rose-500/30'
+              } backdrop-blur-md flex flex-col gap-3 shadow-sm`}
             >
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-slate-400">Question {idx + 1}</span>
+                <span className="text-xs font-bold text-slate-500 dark:text-slate-400">Question {idx + 1}</span>
                 {isCorrect ? (
-                  <span className="flex items-center gap-1 text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/30">
+                  <span className="flex items-center gap-1 text-xs font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/30">
                     <CheckCircle className="w-3.5 h-3.5" /> Correct
                   </span>
                 ) : (
-                  <span className="flex items-center gap-1 text-xs font-bold text-rose-400 bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/30">
+                  <span className="flex items-center gap-1 text-xs font-bold text-rose-700 dark:text-rose-400 bg-rose-500/10 px-3 py-1 rounded-full border border-rose-500/30">
                     <XCircle className="w-3.5 h-3.5" /> Incorrect
                   </span>
                 )}
               </div>
 
-              <h4 className="text-base font-bold text-white leading-relaxed">
+              <h4 className="text-base font-bold text-slate-900 dark:text-white leading-relaxed">
                 <KatexText text={q.question} />
               </h4>
 
               <div className="text-xs font-medium space-y-1">
-                <p className="text-slate-300">
-                  <span className="text-slate-400">Your Answer:</span>{' '}
-                  <span className={isCorrect ? 'text-emerald-400 font-bold' : 'text-rose-400 font-bold'}>
+                <p className="text-slate-700 dark:text-slate-300">
+                  <span className="text-slate-500 dark:text-slate-400">Your Answer:</span>{' '}
+                  <span className={isCorrect ? 'text-emerald-700 dark:text-emerald-400 font-bold' : 'text-rose-700 dark:text-rose-400 font-bold'}>
                     <KatexText text={q.options[userAns] !== undefined ? q.options[userAns] : 'Not answered'} />
                   </span>
                 </p>
                 {!isCorrect && (
-                  <p className="text-slate-300">
-                    <span className="text-slate-400">Correct Answer:</span>{' '}
-                    <span className="text-emerald-400 font-bold">
+                  <p className="text-slate-700 dark:text-slate-300">
+                    <span className="text-slate-500 dark:text-slate-400">Correct Answer:</span>{' '}
+                    <span className="text-emerald-700 dark:text-emerald-400 font-bold">
                       <KatexText text={q.options[q.correctIndex]} />
                     </span>
                   </p>
@@ -240,8 +259,8 @@ export default function QuizResult({
               </div>
 
               {q.explanation && (
-                <div className="mt-2 p-3 rounded-xl bg-slate-900/60 border border-slate-800 text-xs text-slate-300">
-                  <span className="font-bold text-cyanGlow">Explanation:</span>{' '}
+                <div className="mt-2 p-3 rounded-xl bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 text-xs text-slate-800 dark:text-slate-300 shadow-sm">
+                  <span className="font-bold text-sky-700 dark:text-cyanGlow">Explanation:</span>{' '}
                   <KatexText text={q.explanation.replace(/\s*\(\s*(?:Passage|Slide|Page|Source)\b[^)]*\)/gi, '').trim()} />
                 </div>
               )}

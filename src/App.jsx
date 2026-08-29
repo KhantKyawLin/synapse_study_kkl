@@ -8,26 +8,29 @@ import AdminDashboardView from './components/admin/AdminDashboardView';
 import AuthModal from './components/auth/AuthModal';
 import AccountSettingsModal from './components/auth/AccountSettingsModal';
 import { AuthProvider } from './context/AuthContext';
+import { ThemeProvider } from './context/ThemeContext';
 
 export default function App() {
   const [activeView, setActiveView] = useState('flashcards');
 
   return (
-    <AuthProvider>
-      <div className="min-h-screen bg-darkBg text-slate-100 flex flex-col font-sans">
-        <Header activeView={activeView} setActiveView={setActiveView} />
+    <ThemeProvider>
+      <AuthProvider>
+        <div className="min-h-screen bg-[#f8fafc] text-slate-900 dark:bg-[#0f141c] dark:text-slate-100 flex flex-col font-sans transition-colors duration-200">
+          <Header activeView={activeView} setActiveView={setActiveView} />
 
-        <main className="flex-1">
-          {activeView === 'flashcards' && <FlashcardView />}
-          {activeView === 'dashboards' && <DashboardView />}
-          {activeView === 'qa' && <HighYieldQAView />}
-          {activeView === 'quiz' && <QuizView />}
-          {activeView === 'admin' && <AdminDashboardView />}
-        </main>
+          <main className="flex-1">
+            {activeView === 'flashcards' && <FlashcardView />}
+            {activeView === 'dashboards' && <DashboardView />}
+            {activeView === 'qa' && <HighYieldQAView />}
+            {activeView === 'quiz' && <QuizView />}
+            {activeView === 'admin' && <AdminDashboardView />}
+          </main>
 
-        <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />
-        <AccountSettingsModal onSaveSuccess={() => setActiveView('flashcards')} />
-      </div>
-    </AuthProvider>
+          <AuthModal onAuthSuccess={() => setActiveView('flashcards')} />
+          <AccountSettingsModal onSaveSuccess={() => setActiveView('flashcards')} />
+        </div>
+      </AuthProvider>
+    </ThemeProvider>
   );
 }

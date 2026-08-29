@@ -12,11 +12,11 @@ export default function DashboardToolbar({
   setSelectedItem,
 }) {
   return (
-    <div className="w-full bg-[#161b22]/70 border border-slate-800 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-xl mb-6">
+    <div className="w-full bg-white dark:bg-[#161b22]/70 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-sm dark:shadow-xl mb-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
         {/* Module Select */}
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5 ml-1">
+          <label className="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1.5 ml-1">
             Module
           </label>
           <select
@@ -34,7 +34,7 @@ export default function DashboardToolbar({
 
         {/* Main Category Select */}
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5 ml-1">
+          <label className="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1.5 ml-1">
             Main Category
           </label>
           <select
@@ -53,7 +53,7 @@ export default function DashboardToolbar({
 
         {/* Sub Category / Item Select */}
         <div>
-          <label className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-1.5 ml-1">
+          <label className="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-1.5 ml-1">
             Sub Category / Item
           </label>
           <select
