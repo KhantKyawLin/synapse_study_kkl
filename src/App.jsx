@@ -3,6 +3,7 @@ import Header from './components/Header';
 import FlashcardView from './components/flashcards/FlashcardView';
 import DashboardView from './components/dashboard/DashboardView';
 import QuizView from './components/quiz/QuizView';
+import HighYieldQAView from './components/qa/HighYieldQAView';
 import AdminDashboardView from './components/admin/AdminDashboardView';
 import AuthModal from './components/auth/AuthModal';
 import AccountSettingsModal from './components/auth/AccountSettingsModal';
@@ -19,6 +20,7 @@ export default function App() {
         <main className="flex-1">
           {activeView === 'flashcards' && <FlashcardView />}
           {activeView === 'dashboards' && <DashboardView />}
+          {activeView === 'qa' && <HighYieldQAView />}
           {activeView === 'quiz' && <QuizView />}
           {activeView === 'admin' && <AdminDashboardView />}
         </main>

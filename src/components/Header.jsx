@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Layers, LayoutDashboard, HelpCircle, User, LogOut, Cloud, 
-  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award, Lock 
+  Sparkles, AlertTriangle, KeyRound, CheckCircle2, Loader2, Settings, ShieldCheck, Award, Lock, BookOpen 
 } from 'lucide-react';
 import logoImg from '../assets/logo.jpg';
 import { useAuth } from '../context/AuthContext';
@@ -128,6 +128,18 @@ export default function Header({ activeView, setActiveView }) {
               >
                 <LayoutDashboard className="w-3.5 h-3.5" />
                 <span>Dashboards</span>
+              </button>
+
+              <button
+                onClick={() => setActiveView('qa')}
+                className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-lg font-bold text-xs sm:text-sm transition-all duration-200 ${
+                  activeView === 'qa'
+                    ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/30'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                }`}
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>Definitions & SQ</span>
               </button>
 
               <button
