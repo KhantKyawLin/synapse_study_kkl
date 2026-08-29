@@ -189,10 +189,10 @@ export default function SpeedDrillModal({
 
   return (
     <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
-      <div className="w-full max-w-3xl bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-cyanPrimary/40 rounded-3xl shadow-2xl shadow-slate-900/20 dark:shadow-cyanPrimary/10 overflow-hidden flex flex-col max-h-[90vh] transition-colors duration-200">
+      <div className="w-full max-w-3xl h-[620px] max-h-[92vh] bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-cyanPrimary/40 rounded-3xl shadow-2xl shadow-slate-900/20 dark:shadow-cyanPrimary/10 overflow-hidden flex flex-col transition-colors duration-200">
         
         {/* Modal Top Header */}
-        <div className="px-5 sm:px-6 py-4 bg-white dark:bg-[#161b22] border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-4">
+        <div className="px-5 sm:px-6 py-3.5 bg-white dark:bg-[#161b22] border-b border-slate-200 dark:border-slate-800 flex items-center justify-between gap-4 shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-cyanPrimary/15 dark:bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center text-sky-700 dark:text-cyanPrimary shadow-md shrink-0">
               <Zap className="w-5 h-5 fill-current" />
@@ -224,7 +224,7 @@ export default function SpeedDrillModal({
         </div>
 
         {/* Deck Mode Selector & Progress Bar */}
-        <div className="px-5 py-3 bg-slate-100 dark:bg-[#12161c] border-b border-slate-200 dark:border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="px-5 py-2.5 bg-slate-100 dark:bg-[#12161c] border-b border-slate-200 dark:border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shrink-0">
           {/* Deck Filters */}
           <div className="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
             <button
@@ -280,7 +280,7 @@ export default function SpeedDrillModal({
         </div>
 
         {/* Progress Bar Track */}
-        <div className="w-full h-1 bg-slate-200 dark:bg-slate-800">
+        <div className="w-full h-1 bg-slate-200 dark:bg-slate-800 shrink-0">
           <div
             className="h-full bg-gradient-to-r from-cyanPrimary to-sky-400 transition-all duration-300"
             style={{ width: `${progressPercent}%` }}
@@ -288,11 +288,11 @@ export default function SpeedDrillModal({
         </div>
 
         {/* Main Body */}
-        <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-4">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 flex flex-col">
           {isFinished ? (
             /* Session Completed Screen */
-            <div className="py-8 px-4 text-center flex flex-col items-center justify-center animate-fadeIn">
-              <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mb-4 shadow-xl shadow-emerald-500/10">
+            <div className="my-auto py-6 px-4 text-center flex flex-col items-center justify-center animate-fadeIn">
+              <div className="w-16 h-16 rounded-2xl bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mb-3 shadow-xl shadow-emerald-500/10">
                 <CheckCircle2 className="w-8 h-8" />
               </div>
 
@@ -302,7 +302,7 @@ export default function SpeedDrillModal({
               </p>
 
               {/* Stats Summary Card */}
-              <div className="grid grid-cols-3 gap-3 w-full max-w-md my-6">
+              <div className="grid grid-cols-3 gap-3 w-full max-w-md my-5">
                 <div className="p-3.5 bg-white dark:bg-[#161b22] border border-emerald-500/40 rounded-xl text-center shadow-sm">
                   <span className="text-emerald-700 dark:text-emerald-400 text-xs font-bold block mb-1">Easy 🟢</span>
                   <span className="text-2xl font-black text-slate-900 dark:text-white">{sessionResults.easy}</span>
@@ -349,10 +349,10 @@ export default function SpeedDrillModal({
             </div>
           ) : currentCard ? (
             /* Active Card */
-            <div className="flex flex-col justify-between min-h-[380px] bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-xl shadow-slate-200/50 dark:shadow-none relative">
-              <div>
+            <div className="flex-1 flex flex-col justify-between min-h-[420px] bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-md dark:shadow-none relative">
+              <div className="flex-1 flex flex-col">
                 {/* Card Badges & Audio Action */}
-                <div className="flex items-center justify-between gap-3 mb-4">
+                <div className="flex items-center justify-between gap-3 mb-3 shrink-0">
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="px-2.5 py-0.5 rounded-md text-xs font-black bg-cyanPrimary/15 dark:bg-cyanPrimary/20 text-sky-700 dark:text-cyanGlow border border-cyanPrimary/40">
                       {currentCard.badge}
@@ -389,7 +389,7 @@ export default function SpeedDrillModal({
                 <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
                   {currentCard.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 mb-6 font-medium">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 mb-4 font-medium">
                   {currentCard.questionText}
                 </p>
 
@@ -397,14 +397,14 @@ export default function SpeedDrillModal({
                 {!isRevealed ? (
                   <button
                     onClick={() => setIsRevealed(true)}
-                    className="w-full py-12 px-6 bg-slate-50 hover:bg-slate-100 dark:bg-[#0d1117]/80 dark:hover:bg-[#0d1117] border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-cyanPrimary rounded-2xl text-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-sky-700 dark:hover:text-cyanGlow transition-all flex flex-col items-center justify-center gap-2 group cursor-pointer shadow-inner"
+                    className="w-full flex-1 min-h-[180px] py-8 px-6 bg-slate-50 hover:bg-slate-100 dark:bg-[#0d1117]/80 dark:hover:bg-[#0d1117] border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-cyanPrimary rounded-2xl text-center text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-sky-700 dark:hover:text-cyanGlow transition-all flex flex-col items-center justify-center gap-2 group cursor-pointer shadow-inner my-auto"
                   >
                     <Sparkles className="w-6 h-6 text-sky-600 dark:text-cyanPrimary group-hover:scale-110 transition-transform" />
                     <span>Click to Reveal Answer & Key Points</span>
                     <span className="text-[10px] text-slate-500 font-normal">or press Space / Enter</span>
                   </button>
                 ) : (
-                  <div className="p-4 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl animate-fadeIn space-y-3">
+                  <div className="flex-1 p-4 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl animate-fadeIn space-y-3 overflow-y-auto max-h-[220px]">
                     {/* Summary / Definition */}
                     {currentCard.answerText && (
                       <p className="text-xs text-slate-800 dark:text-slate-200 leading-relaxed">
@@ -464,15 +464,15 @@ export default function SpeedDrillModal({
 
               {/* Bottom Self-Rating Controls (Shown when revealed) */}
               {isRevealed && (
-                <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-800/80 animate-fadeIn">
-                  <div className="text-center text-[11px] font-bold text-slate-600 dark:text-slate-400 mb-2.5">
+                <div className="mt-4 pt-3 border-t border-slate-200 dark:border-slate-800/80 animate-fadeIn shrink-0">
+                  <div className="text-center text-[11px] font-bold text-slate-600 dark:text-slate-400 mb-2">
                     How well did you recall this topic?
                   </div>
 
                   <div className="grid grid-cols-3 gap-2 sm:gap-3">
                     <button
                       onClick={() => handleRate('hard')}
-                      className="py-2.5 px-3 rounded-xl font-bold text-xs bg-rose-500/15 border border-rose-500/40 text-rose-700 dark:text-rose-300 hover:bg-rose-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm"
+                      className="py-2 px-3 rounded-xl font-bold text-xs bg-rose-500/15 border border-rose-500/40 text-rose-700 dark:text-rose-300 hover:bg-rose-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
                     >
                       <span>🔴 Hard</span>
                       <span className="hidden sm:inline text-[10px] opacity-75">(1)</span>
@@ -480,7 +480,7 @@ export default function SpeedDrillModal({
 
                     <button
                       onClick={() => handleRate('practice')}
-                      className="py-2.5 px-3 rounded-xl font-bold text-xs bg-amber-500/15 border border-amber-500/40 text-amber-700 dark:text-amber-300 hover:bg-amber-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm"
+                      className="py-2 px-3 rounded-xl font-bold text-xs bg-amber-500/15 border border-amber-500/40 text-amber-700 dark:text-amber-300 hover:bg-amber-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
                     >
                       <span>🟡 Practice</span>
                       <span className="hidden sm:inline text-[10px] opacity-75">(2)</span>
@@ -488,7 +488,7 @@ export default function SpeedDrillModal({
 
                     <button
                       onClick={() => handleRate('easy')}
-                      className="py-2.5 px-3 rounded-xl font-bold text-xs bg-emerald-500/15 border border-emerald-500/40 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm"
+                      className="py-2 px-3 rounded-xl font-bold text-xs bg-emerald-500/15 border border-emerald-500/40 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-500/25 active:scale-95 transition-all flex items-center justify-center gap-1.5 shadow-sm cursor-pointer"
                     >
                       <span>🟢 Easy</span>
                       <span className="hidden sm:inline text-[10px] opacity-75">(3)</span>
@@ -498,14 +498,31 @@ export default function SpeedDrillModal({
               )}
             </div>
           ) : (
-            <div className="text-center py-16 text-slate-500 dark:text-slate-400">
-              No cards in this deck selection.
+            /* Empty Deck State - Consistent Height & Clear Guidance */
+            <div className="flex-1 min-h-[420px] flex flex-col items-center justify-center text-center p-8 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm my-auto">
+              <div className="w-16 h-16 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-600 dark:text-amber-400 mb-3 shadow-md">
+                <Flame className="w-8 h-8" />
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-1">
+                No Cards in this Deck Selection
+              </h3>
+              <p className="text-xs text-slate-600 dark:text-slate-400 max-w-sm mb-6 leading-relaxed">
+                {drillDeckType === 'hard'
+                  ? "You haven't marked any cards as 'Hard' yet! Practice Definitions or Short Questions and rate cards to build your revision queue."
+                  : "No study items found for this selection."}
+              </p>
+              <button
+                onClick={() => setDrillDeckType('all')}
+                className="px-5 py-2.5 rounded-xl font-bold text-xs bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/25 hover:brightness-105 active:scale-95 transition-all cursor-pointer"
+              >
+                <span>Practice All 63 Items</span>
+              </button>
             </div>
           )}
         </div>
 
         {/* Modal Footer Shortcuts Tip */}
-        <div className="px-5 py-3 bg-white dark:bg-[#161b22] border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-600 dark:text-slate-400 font-medium">
+        <div className="px-5 py-3 bg-white dark:bg-[#161b22] border-t border-slate-200 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-600 dark:text-slate-400 font-medium shrink-0">
           <div className="flex items-center gap-2">
             <span>Shortcuts:</span>
             <kbd className="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-mono">Space</kbd>
