@@ -413,6 +413,7 @@ export default function HighYieldQAView() {
               const isExpanded = expandedQuestions[q.id];
               const isComparison = q.type === 'comparison';
               const isSpeaking = playingAudioId === q.id;
+              const isRevealed = revealedCards[q.id] || !selfTestMode;
 
               return (
                 <div
@@ -454,6 +455,11 @@ export default function HighYieldQAView() {
                           }`}>
                             {isComparison ? 'Comparison Table' : q.type === 'long' ? 'Comprehensive SQ' : 'Targeted SQ'}
                           </span>
+                          {selfTestMode && (
+                            <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-700 dark:text-amber-400 border border-amber-500/30 flex items-center gap-1">
+                              <EyeOff className="w-2.5 h-2.5" /> Self-Test
+                            </span>
+                          )}
                         </div>
                         <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
                           {q.question}
@@ -499,61 +505,92 @@ export default function HighYieldQAView() {
                   {/* Collapsible Answer Body */}
                   {isExpanded && (
                     <div className="p-5 border-t border-slate-200 dark:border-slate-800 bg-slate-50/80 dark:bg-[#0d1117]/80 animate-fadeIn">
-                      {/* Summary Banner */}
-                      {q.summary && (
-                        <div className="p-3 bg-sky-50 dark:bg-cyanPrimary/10 border border-sky-200 dark:border-cyanPrimary/30 rounded-xl text-xs text-sky-900 dark:text-cyanGlow mb-4 flex items-start gap-2">
-                          <Sparkles className="w-4 h-4 text-sky-600 dark:text-cyanPrimary shrink-0 mt-0.5" />
-                          <span><strong>Key Concept:</strong> {q.summary}</span>
-                        </div>
-                      )}
-
-                      {/* Comparison Table View */}
-                      {q.table && (
-                        <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#161b22] mb-4 shadow-sm">
-                          <table className="w-full text-left text-xs">
-                            <thead className="bg-slate-100 dark:bg-[#0d1117] text-slate-800 dark:text-slate-300 font-bold border-b border-slate-200 dark:border-slate-800 uppercase tracking-wider text-[11px]">
-                              <tr>
-                                {q.table.headers.map((h, hIdx) => (
-                                  <th key={hIdx} className="px-4 py-3 border-r border-slate-200 dark:border-slate-800/80 last:border-none">
-                                    {h}
-                                  </th>
-                                ))}
-                              </tr>
-                            </thead>
-                            <tbody className="divide-y divide-slate-200 dark:divide-slate-800/70">
-                              {q.table.rows.map((row, rIdx) => (
-                                <tr key={rIdx} className="hover:bg-slate-100/60 dark:hover:bg-slate-800/30 transition-colors">
-                                  {row.map((cell, cIdx) => (
-                                    <td
-                                      key={cIdx}
-                                      className={`px-4 py-3 border-r border-slate-200 dark:border-slate-800/70 last:border-none ${
-                                        cIdx === 0 ? 'font-bold text-slate-900 dark:text-white bg-slate-50 dark:bg-[#0d1117]/40' : 'text-slate-700 dark:text-slate-300'
-                                      }`}
-                                    >
-                                      {cell}
-                                    </td>
-                                  ))}
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      )}
-
-                      {/* Structured Sections & Mechanisms */}
-                      {q.sections && (
-                        <div className="space-y-3">
-                          {q.sections.map((sec, sIdx) => (
-                            <div key={sIdx} className="p-3.5 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800/90 rounded-xl shadow-sm">
-                              <h4 className="text-xs font-bold text-slate-900 dark:text-white mb-1.5 flex items-center gap-1.5">
-                                <span className="w-2 h-2 rounded-full bg-cyanPrimary"></span>
-                                <span>{sec.heading}</span>
-                              </h4>
-                              <p className="text-xs text-slate-700 dark:text-slate-300 whitespace-pre-line leading-relaxed pl-3.5">
-                                {sec.content}
-                              </p>
+                      {/* Self-Test Toggle Mask */}
+                      {selfTestMode && !isRevealed ? (
+                        <button
+                          onClick={() => toggleReveal(q.id)}
+                          className="w-full py-8 px-4 bg-white dark:bg-[#0d1117] border-2 border-dashed border-cyanPrimary/40 rounded-xl text-center text-xs font-bold text-slate-700 dark:text-slate-300 hover:text-sky-700 dark:hover:text-cyanGlow hover:border-cyanPrimary hover:bg-sky-50/50 dark:hover:bg-cyanPrimary/5 transition-all flex flex-col items-center justify-center gap-2 my-1 cursor-pointer shadow-sm"
+                        >
+                          <Eye className="w-5 h-5 text-sky-600 dark:text-cyanPrimary animate-bounce" />
+                          <span className="text-sm font-bold text-slate-900 dark:text-white">Self-Test Mode Active</span>
+                          <span className="text-[11px] text-slate-500 dark:text-slate-400 font-normal max-w-sm">
+                            Test your recall on this Short Question, then click here to reveal the key concepts, tables & mechanisms!
+                          </span>
+                        </button>
+                      ) : (
+                        <div className="animate-fadeIn">
+                          {/* Summary Banner */}
+                          {q.summary && (
+                            <div className="p-3 bg-sky-50 dark:bg-cyanPrimary/10 border border-sky-200 dark:border-cyanPrimary/30 rounded-xl text-xs text-sky-900 dark:text-cyanGlow mb-4 flex items-start gap-2">
+                              <Sparkles className="w-4 h-4 text-sky-600 dark:text-cyanPrimary shrink-0 mt-0.5" />
+                              <span><strong>Key Concept:</strong> {q.summary}</span>
                             </div>
-                          ))}
+                          )}
+
+                          {/* Comparison Table View */}
+                          {q.table && (
+                            <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#161b22] mb-4 shadow-sm">
+                              <table className="w-full text-left text-xs">
+                                <thead className="bg-slate-100 dark:bg-[#0d1117] text-slate-800 dark:text-slate-300 font-bold border-b border-slate-200 dark:border-slate-800 uppercase tracking-wider text-[11px]">
+                                  <tr>
+                                    {q.table.headers.map((h, hIdx) => (
+                                      <th key={hIdx} className="px-4 py-3 border-r border-slate-200 dark:border-slate-800/80 last:border-none">
+                                        {h}
+                                      </th>
+                                    ))}
+                                  </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-200 dark:divide-slate-800/70">
+                                  {q.table.rows.map((row, rIdx) => (
+                                    <tr key={rIdx} className="hover:bg-slate-100/60 dark:hover:bg-slate-800/30 transition-colors">
+                                      {row.map((cell, cIdx) => (
+                                        <td
+                                          key={cIdx}
+                                          className={`px-4 py-3 border-r border-slate-200 dark:border-slate-800/70 last:border-none ${
+                                            cIdx === 0 ? 'font-bold text-slate-900 dark:text-white bg-slate-50 dark:bg-[#0d1117]/40' : 'text-slate-700 dark:text-slate-300'
+                                          }`}
+                                        >
+                                          {cell}
+                                        </td>
+                                      ))}
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          )}
+
+                          {/* Structured Sections & Mechanisms */}
+                          {q.sections && (
+                            <div className="space-y-3">
+                              {q.sections.map((sec, sIdx) => (
+                                <div key={sIdx} className="p-3.5 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800/90 rounded-xl shadow-sm">
+                                  <h4 className="text-xs font-bold text-slate-900 dark:text-white mb-1.5 flex items-center gap-1.5">
+                                    <span className="w-2 h-2 rounded-full bg-cyanPrimary"></span>
+                                    <span>{sec.heading}</span>
+                                  </h4>
+                                  <p className="text-xs text-slate-700 dark:text-slate-300 whitespace-pre-line leading-relaxed pl-3.5">
+                                    {sec.content}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          {/* Self-Test Hide Button */}
+                          {selfTestMode && (
+                            <div className="flex items-center justify-between pt-3 mt-4 border-t border-slate-200 dark:border-slate-800 text-xs">
+                              <span className="text-[11px] text-emerald-600 dark:text-emerald-400 font-semibold flex items-center gap-1">
+                                <Check className="w-3.5 h-3.5" /> Answer & Mechanisms Revealed
+                              </span>
+                              <button
+                                onClick={() => toggleReveal(q.id)}
+                                className="text-[11px] font-bold text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-white px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-[#161b22] border border-slate-200 dark:border-slate-700 transition-all cursor-pointer shadow-sm"
+                              >
+                                Hide Answer 🔒
+                              </button>
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>
