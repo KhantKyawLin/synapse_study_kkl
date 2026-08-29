@@ -155,7 +155,7 @@ export default function HighYieldQAView() {
           }`}
         >
           <Layers className="w-4 h-4" />
-          <span>SQ & Long Questions ({questions.length})</span>
+          <span>Short Questions ({questions.length})</span>
         </button>
       </div>
 
@@ -355,6 +355,9 @@ export default function HighYieldQAView() {
 
                       <div>
                         <div className="flex items-center gap-2 flex-wrap">
+                          <span className="px-2 py-0.5 rounded-md text-[11px] font-black bg-cyanPrimary/20 text-cyanGlow border border-cyanPrimary/40">
+                            SQ {q.num || index + 1}
+                          </span>
                           <h3 className="text-sm sm:text-base font-bold text-white tracking-tight">
                             {q.title}
                           </h3>
@@ -365,7 +368,7 @@ export default function HighYieldQAView() {
                               ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30'
                               : 'bg-amber-500/10 text-amber-300 border-amber-500/30'
                           }`}>
-                            {isComparison ? 'Comparison Table' : q.type === 'long' ? 'Long Question' : 'Short Question'}
+                            {isComparison ? 'Comparison Table' : q.type === 'long' ? 'Comprehensive SQ' : 'Targeted SQ'}
                           </span>
                         </div>
                         <p className="text-xs text-slate-400 mt-1">

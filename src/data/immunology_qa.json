@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Synapse Study - Medical Immunology High-Yield Definitions & Questions",
     "total_definitions": 36,
-    "total_questions": 12,
+    "total_questions": 27,
     "categories": [
       "All",
       "Core Immunology",
@@ -279,37 +279,39 @@
   ],
   "questions": [
     {
-      "id": "qa_1",
+      "id": "sq_1",
+      "num": 1,
       "title": "Functions of the Immune System",
       "category": "Core Immunology",
       "type": "long",
       "question": "What are the core physiological functions of the human immune system?",
-      "summary": "The immune system maintains homeostasis through 4 fundamental physiological pillars: Defense, Clearance, Surveillance, and Self-Tolerance.",
+      "summary": "The immune system maintains homeostasis through 4 fundamental pillars: Defense, Clearance, Surveillance, and Immune Tolerance.",
       "sections": [
         {
           "heading": "1. Defense Against Pathogens (Immune Defense)",
-          "content": "Identifies, neutralizes, and destroys foreign disease-causing invaders (bacteria, viruses, fungi, and parasites) that breach the body's physical and chemical barriers. Deficiency causes recurrent infectious diseases; hyper-reactivity causes hypersensitivity."
+          "content": "Identifies and destroys disease-causing foreign invaders (bacteria, viruses, fungi, parasites). Hyperactivity causes hypersensitivity/allergy; deficiency causes immunodeficiency and recurrent infections."
         },
         {
-          "heading": "2. Clearance and Tissue Homeostasis (Immune Homeostasis)",
-          "content": "Removes aging, damaged, or apoptotic host cells and circulating immune complexes. Initiates controlled inflammation to clear debris and support tissue repair. Failure leads to chronic autoimmune inflammation or immune complex deposition."
+          "heading": "2. Clearance and Tissue Repair (Immune Homeostasis)",
+          "content": "Initiates controlled inflammation to remove aging, damaged, or apoptotic host cells and eliminates circulating immune complexes to begin tissue healing."
         },
         {
           "heading": "3. Immune Surveillance",
-          "content": "Continuously scans and destroys abnormal endogenous cells, particularly malignant mutated tumor cells and virus-infected host cells. Failure results in tumor development and persistent viral infections."
+          "content": "Continuously monitors the body to detect and directly destroy mutated, abnormal endogenous cells such as virus-infected cells and tumor cells."
         },
         {
           "heading": "4. Immune Tolerance",
-          "content": "Actively discriminates between 'self' and 'non-self' antigens. Mounts aggressive attacks against foreign threats while remaining strictly unresponsive to healthy host tissues. Breakdown leads to autoimmune diseases."
+          "content": "Actively distinguishes 'self' from 'non-self', mounting strong attacks against foreign threats while remaining strictly unresponsive to healthy host tissues. Breakdown leads to autoimmune diseases."
         }
       ]
     },
     {
-      "id": "qa_2",
-      "title": "Differences between T-Cell Epitopes and B-Cell Epitopes",
+      "id": "sq_2",
+      "num": 2,
+      "title": "Differences between T-Cell and B-Cell Epitopes",
       "category": "Antigens & Epitopes",
       "type": "comparison",
-      "question": "Compare the structural and functional differences between T-cell epitopes and B-cell epitopes.",
+      "question": "Compare the key differences between T-cell epitopes and B-cell epitopes.",
       "summary": "T-cell epitopes are internal linear peptides presented on MHC molecules, whereas B-cell epitopes are accessible surface conformational structures recognized in their native state.",
       "table": {
         "headers": [
@@ -319,40 +321,36 @@
         ],
         "rows": [
           [
-            "Receptor Specificity",
-            "Binds specifically to TCR on T lymphocytes",
-            "Binds specifically to BCR on B cells or free antibodies"
+            "Receptor",
+            "Binds to TCR on T-cells",
+            "Binds to BCR on B-cells or soluble antibodies"
           ],
           [
             "Location in Antigen",
-            "Internal (hidden within antigen macromolecule)",
-            "Surface-exposed (on the external perimeter of antigen)"
+            "Internal (hidden inside antigen molecule)",
+            "Surface-exposed (on the outside of antigen)"
           ],
           [
-            "Chemical Structure",
+            "Structure",
             "Linear peptide sequence (8–24 amino acids)",
             "Conformational (discontinuous) or linear groups"
           ],
           [
-            "MHC Restriction",
-            "Yes — Requires processing by APC and presentation on MHC I or MHC II",
-            "No — Recognizes native, intact antigens without MHC restriction"
-          ],
-          [
-            "Antigen Type",
-            "Almost exclusively proteins / polypeptides",
-            "Proteins, polysaccharides, lipids, nucleic acids, haptens"
+            "Processing & MHC Restriction",
+            "Requires APC processing and presentation on MHC I or II",
+            "No APC processing or MHC presentation required"
           ]
         ]
       }
     },
     {
-      "id": "qa_3",
-      "title": "Differences between TD-Ag (Thymus-Dependent) and TI-Ag (Thymus-Independent)",
+      "id": "sq_3",
+      "num": 3,
+      "title": "Differences between Thymus-Dependent (TD-Ag) and Thymus-Independent (TI-Ag) Antigens",
       "category": "Antigens & Epitopes",
       "type": "comparison",
       "question": "Differentiate between Thymus-Dependent Antigens (TD-Ag) and Thymus-Independent Antigens (TI-Ag).",
-      "summary": "TD antigens require T-cell help to activate B cells and induce class switching & high-affinity memory, while TI antigens activate B cells directly through multivalent BCR cross-linking without T-cell help.",
+      "summary": "TD antigens require T-cell help to activate B cells and induce class switching & high-affinity memory, while TI antigens activate B cells directly without T-cell help.",
       "table": {
         "headers": [
           "Feature",
@@ -361,242 +359,245 @@
         ],
         "rows": [
           [
-            "Chemical Nature",
+            "Chemical Composition",
             "Proteins / Polypeptides",
             "Polysaccharides, lipopolysaccharides, polymeric flagellin"
           ],
           [
             "Epitope Structure",
-            "Multiple distinct epitopes on the same molecule",
-            "Repeating identical polymer subunits"
+            "Many different kinds of epitopes",
+            "Repeating identical polymer epitopes"
           ],
           [
             "T-Cell Help (Th)",
-            "Essential (Requires CD40-CD40L & cytokines from Th cells)",
-            "Not Required (Activates B cells independently)"
+            "Required (Yes)",
+            "Not Required (No)"
           ],
           [
-            "Immune Response Type",
-            "Both Humoral (HI) and Cell-Mediated (CMI)",
-            "Humoral Immunity only (HI)"
+            "Immune Response",
+            "Humoral (HI) and Cell-Mediated (CMI)",
+            "Humoral only (HI)"
           ],
           [
-            "Antibody Classes Produced",
-            "Multiple classes via class switching: IgG, IgA, IgE, IgM",
-            "Predominantly IgM (minimal class switching)"
+            "Antibody Class Produced",
+            "Multiple classes (mainly IgG, IgA, IgE)",
+            "Mainly IgM"
           ],
           [
             "Antibody Affinity",
-            "High affinity (undergoes somatic hypermutation / affinity maturation)",
+            "High affinity (undergoes somatic hypermutation)",
             "Low to moderate affinity"
           ],
           [
-            "Immunological Memory",
-            "Long-lasting memory B and T cells generated",
-            "No significant immunological memory generated"
+            "Immune Memory",
+            "Yes (Generates long-lasting memory B cells)",
+            "No (No significant memory formed)"
           ]
         ]
       }
     },
     {
-      "id": "qa_4",
+      "id": "sq_4",
+      "num": 4,
       "title": "Molecular Structure and Biological Functions of Immunoglobulins (Antibodies)",
       "category": "Antibodies & Immunoglobulins",
       "type": "long",
-      "question": "Describe the four-chain basic structure and fundamental biological functions of Immunoglobulin (antibody) molecules.",
+      "question": "Describe the four-chain basic structure and biological functions of Immunoglobulin (antibody) molecules.",
       "summary": "Antibodies consist of 2 Heavy (H) and 2 Light (L) chains with variable (Fab) and constant (Fc) regions performing antigen neutralization, opsonization, complement activation, and ADCC.",
       "sections": [
         {
           "heading": "1. Molecular Structure",
-          "content": "• Core Structure: Monomeric Y-shaped unit composed of 4 polypeptide chains: 2 identical Heavy (H) chains (γ, α, μ, δ, ε) and 2 identical Light (L) chains (κ or λ) linked by interchain disulfide bonds.\n• Variable (V) Region / Fab: Located at the N-terminal tips of the Y-arms. Contains 3 Hypervariable Regions (HVR) / Complementarity-Determining Regions (CDR1, CDR2, CDR3) that form the specific antigen-binding site.\n• Constant (C) Region / Fc: Forms the stem of the Y. Determines the antibody isotype (IgG, IgA, IgM, IgD, IgE) and contains effector binding sites for Fc receptors (FcR) and complement component C1q."
+          "content": "• Basic Core: Y-shaped molecule made of 4 polypeptide chains: 2 identical Heavy (H) chains and 2 identical Light (L) chains joined by disulfide bonds.\n• Variable (V) Region / Fab: The tips of the arms. Contains Hypervariable Regions (HVR) / CDRs that determine specific antigen binding.\n• Constant (C) Region / Fc: The stem. Determines antibody class (IgG, IgA, IgM, IgD, IgE) and contains binding sites for complement C1q and Fc receptors on phagocytes/NK cells."
         },
         {
-          "heading": "2. Biological Effector Functions",
-          "content": "• Neutralization: High-affinity binding to viral attachment proteins or bacterial exotoxins, blocking host receptor binding.\n• Opsonization: Fc regions of IgG1 and IgG3 bind to FcγR on macrophages and neutrophils, stimulating phagocytosis.\n• Complement Activation: Antigen-bound IgG and IgM bind C1q, triggering the classical complement cascade to generate the MAC (lytic pore).\n• ADCC: Target-bound IgG recruits NK cells via CD16 (FcγRIII) to trigger perforin/granzyme degranulation.\n• Transmucosal & Transplacental Transport: IgG actively crosses placenta via neonatal Fc receptor (FcRn); sIgA is transported into mucosal secretions via the secretory component (SC)."
+          "heading": "2. Biological Functions",
+          "content": "• Neutralization: Binds directly to pathogens or toxins, physically blocking host cell entry.\n• Opsonization: Coats pathogens to enhance phagocytosis by macrophages and neutrophils.\n• Complement Activation: Antigen-bound IgG/IgM activates C1 to assemble the Membrane Attack Complex (MAC).\n• ADCC: Recruits NK cells via CD16/FcγR to lyse antibody-coated infected/tumor cells.\n• Specialized Class Roles: IgG crosses placenta (fetal immunity), sIgA protects mucosal surfaces, and IgE mediates allergic/parasitic defense."
         }
       ]
     },
     {
-      "id": "qa_5",
+      "id": "sq_5",
+      "num": 5,
       "title": "Hydrolytic Fragments of Immunoglobulins (Papain vs. Pepsin Cleavage)",
       "category": "Antibodies & Immunoglobulins",
       "type": "short",
-      "question": "State the cleavage sites and resulting hydrolytic fragments obtained when IgG is treated with Papain versus Pepsin.",
-      "summary": "Papain cleaves above the hinge yielding 2 monovalent Fab + 1 Fc, while Pepsin cleaves below the hinge yielding 1 bivalent F(ab')2 + degraded pFc' fragments.",
+      "question": "Please state the cleavage sites and hydrolytic fragments of Immunoglobulins (Ig).",
+      "summary": "Papain cleaves above the hinge yielding 2 Fab + 1 Fc; Pepsin cleaves below the hinge yielding 1 F(ab')2 + degraded pFc' fragments.",
       "sections": [
         {
-          "heading": "1. Papain Digestion",
-          "content": "• Cleavage Site: Cleaves heavy chains above the interchain disulfide bonds in the hinge region.\n• Resulting Fragments: Yields 3 separate fragments: 2 identical Fab (Fragment antigen-binding) fragments (each monovalent, binds 1 epitope without precipitation) and 1 Fc (Fragment crystallizable) fragment (mediates complement binding and effector functions)."
+          "heading": "1. Papain Hydrolysis",
+          "content": "• Mechanism: Cleaves the antibody molecule above the hinge region.\n• Resulting Fragments: Yields 3 fragments: Two Fab (Fragment antigen-binding) fragments (each monovalent) and one Fc (Fragment crystallizable) fragment."
         },
         {
-          "heading": "2. Pepsin Digestion",
-          "content": "• Cleavage Site: Cleaves heavy chains below the interchain disulfide bonds in the hinge region.\n• Resulting Fragments: Yields 1 large F(ab')2 fragment (bivalent, retains both antigen-binding arms linked together; can agglutinate and precipitate antigens) and multiple small pFc' peptide fragments (degraded Fc region, loses effector binding)."
+          "heading": "2. Pepsin Hydrolysis",
+          "content": "• Mechanism: Cleaves the antibody molecule below the disulfide bonds in the heavy chain hinge region.\n• Resulting Fragments: Yields one large F(ab')2 fragment (bivalent, keeps two antigen-binding sites connected) and smaller pFc' peptide fragments."
         }
       ]
     },
     {
-      "id": "qa_6",
+      "id": "sq_6",
+      "num": 6,
       "title": "Three Activation Pathways of the Complement System",
       "category": "Complement Cascade",
       "type": "comparison",
-      "question": "Compare the three activation pathways of the complement system: Classical, Alternative, and MBL (Lectin) pathways.",
-      "summary": "All three pathways converge at C3 convertase to generate C5 convertase and assemble the Membrane Attack Complex (C5b-9).",
+      "question": "Compare the three activation pathways of the complement system.",
+      "summary": "Classical, Alternative, and Lectin pathways differ in activators and convertases but converge to form the Membrane Attack Complex (MAC).",
       "table": {
         "headers": [
           "Feature",
           "Classical Pathway",
           "Alternative Pathway",
-          "MBL (Lectin) Pathway"
+          "MBL (Lectin Pathway)"
         ],
         "rows": [
           [
-            "Initiating Activator",
-            "Antigen-Antibody (Ag-Ab) complexes (IgM or IgG)",
-            "Microbial surface molecules (LPS, zymosan, cell walls)",
-            "Mannose-Binding Lectin (MBL) binding terminal mannose on microbes"
+            "Activators",
+            "Antigen-Antibody (Ag-Ab) complexes (IgM/IgG)",
+            "Pathogen surfaces (Bacteria / Fungi / LPS)",
+            "MBL binding to mannose via MASP"
           ],
           [
-            "Initial Recognition Molecule",
-            "C1 complex (C1q, C1r, C1s)",
-            "Spontaneous hydrolysis of C3 (tickover) + Factor B/D",
-            "MBL associated with MASP-1 and MASP-2 proteases"
+            "Initiating Molecules",
+            "C1q, C1r, C1s",
+            "C3 tickover, Factor B, Factor D",
+            "MBL, MASP-1, MASP-2, C4, C2"
           ],
           [
-            "C3 Convertase Enzyme",
+            "C3 Convertase",
             "C4b2a",
             "C3bBb",
             "C4b2a"
           ],
           [
-            "C5 Convertase Enzyme",
+            "C5 Convertase",
             "C4b2a3b",
-            "C3bBb3b (C3bnBb)",
+            "C3bnBb (C3bBb3b)",
             "C4b2a3b"
           ],
           [
-            "Immune Defense Role",
-            "Specific Adaptive Immunity (Secondary & late stages)",
-            "Innate First Line (Immediate, antibody-independent)",
-            "Innate First Line (Immediate, antibody-independent)"
+            "Immune Role",
+            "Specific adaptive immune response (late infection)",
+            "Non-specific innate response (early infection)",
+            "Non-specific innate response (early infection)"
           ]
         ]
       }
     },
     {
-      "id": "qa_7",
+      "id": "sq_7",
+      "num": 7,
       "title": "Biological Functions of the Complement System",
       "category": "Complement Cascade",
       "type": "long",
-      "question": "What are the major biological effector functions mediated by the complement system?",
-      "summary": "Complement mediates targeted cytolysis (MAC), opsonization (C3b), inflammatory chemotaxis (anaphylatoxins C3a/C5a), and immune complex clearance.",
+      "question": "What are the major biological functions of the complement system?",
+      "summary": "Complement executes cytolysis via MAC pore formation, opsonization for phagocytes, inflammatory recruitment via anaphylatoxins, and immune complex clearance.",
       "sections": [
         {
-          "heading": "1. Microbial Lysis (Cytolysis / MAC Formation)",
-          "content": "Terminal cascade assembly of C5b, C6, C7, C8, and poly-C9 forms the Membrane Attack Complex (MAC), punching 10-nm cylindrical pores in target bacterial and cellular membranes, inducing rapid osmotic lysis."
+          "heading": "1. Cell Lysis (Cytolysis / MAC Formation)",
+          "content": "The cascade ends in assembly of the Membrane Attack Complex (C5b-9), puncturing 10-nm pores in target bacterial and cellular membranes, causing osmotic swelling and burst."
         },
         {
-          "heading": "2. Opsonization & Enhanced Phagocytosis",
-          "content": "Activation fragments C3b, iC3b, and C4b deposit covalently on pathogen surfaces and bind complement receptors (CR1 / CD35) on macrophages and neutrophils, vastly enhancing phagocytic engulfment."
+          "heading": "2. Opsonization",
+          "content": "Fragments C3b and C4b coat pathogen surfaces, binding CR1 receptors on macrophages and neutrophils to massively enhance phagocytosis."
         },
         {
-          "heading": "3. Anaphylatoxin Activity & Chemotaxis (Inflammation)",
-          "content": "Cleavage peptides C3a and C5a act as potent anaphylatoxins that trigger mast cell and basophil degranulation (histamine release, vasodilation, vascular permeability). C5a is an exceptionally powerful chemotactic factor recruiting neutrophils to infection sites."
+          "heading": "3. Inflammation & Chemotaxis (Anaphylatoxins)",
+          "content": "Cleavage peptides C3a, C4a, and C5a act as anaphylatoxins, triggering mast cell degranulation (histamine release, vasodilation). C5a is a potent chemoattractant for neutrophils."
         },
         {
-          "heading": "4. Clearance of Immune Complexes & Apoptotic Debris",
-          "content": "C3b binding to circulating Ag-Ab complexes allows red blood cells (expressing CR1) to transport them to the spleen and liver for safe destruction by resident macrophages, preventing tissue deposition."
+          "heading": "4. Clearance of Immune Complexes",
+          "content": "C3b binding to circulating Ag-Ab complexes allows RBCs to carry them to the spleen and liver for destruction by macrophages."
         }
       ]
     },
     {
-      "id": "qa_8",
-      "title": "General Characteristics and Biological Functions of Cytokines",
+      "id": "sq_8",
+      "num": 8,
+      "title": "General Properties and Biological Functions of Cytokines",
       "category": "Cytokines & Signaling",
       "type": "long",
-      "question": "Describe the general properties, action modes, and major biological functions of cytokines.",
-      "summary": "Cytokines are potent low-molecular-weight proteins that regulate innate and adaptive immunity, hematopoiesis, and inflammation through receptor-mediated signaling.",
+      "question": "Describe the general properties, action characteristics, and biological functions of cytokines.",
+      "summary": "Cytokines are potent, low-molecular-weight proteins that regulate innate and adaptive immunity, hematopoiesis, and inflammation.",
       "sections": [
         {
-          "heading": "1. General Properties & Modes of Action",
-          "content": "• High Potency: Active at picomolar concentrations (10^-12 M).\n• Short Half-life: Rapid induction and brief duration of action.\n• Action Modes: Autocrine (acts on self), Paracrine (acts on adjacent cells), Endocrine (acts systemically via circulation).\n• Receptor-Mediated: Functions by binding high-affinity cell surface receptors.\n• Key Action Features:\n  - Pleiotropy: One cytokine exerts multiple different effects on different target cells (e.g. IL-4 activates B cells, T cells, mast cells).\n  - Redundancy: Multiple different cytokines mediate the same effect (e.g. IL-2, IL-4, IL-5 all induce B cell proliferation).\n  - Synergy: Two cytokines work together to amplify an effect (e.g. IL-4 + IL-5 promote IgE switching).\n  - Antagonism: One cytokine blocks the action of another (e.g. IFN-γ inhibits IL-4-induced IgE synthesis)."
+          "heading": "1. General Properties & Characteristics",
+          "content": "• Structure: Soluble proteins or polypeptides (8–30 kDa) secreted by immune cells.\n• Potency & Range: Extremely potent at picomolar levels; short half-life.\n• Modes of Action: Autocrine (self), Paracrine (nearby), Endocrine (distant).\n• Action Features: Pleiotropy (one cytokine -> multiple cell types), Redundancy (multiple cytokines -> same effect), Synergy (cooperation), Antagonism (mutual inhibition)."
         },
         {
-          "heading": "2. Major Biological Functions",
-          "content": "• Innate Defense: Early activation of macrophages, neutrophils, and NK cells (IFN-α/β, IL-12, TNF-α).\n• Adaptive Regulation: Promotes T and B cell activation, proliferation, and polarization (IL-2, IL-4, IFN-γ, TGF-β).\n• Inflammation Mediation: Pro-inflammatory cytokines (IL-1β, IL-6, TNF-α) induce fever, acute phase proteins, and leukocyte recruitment.\n• Hematopoiesis Stimulation: Colony-stimulating factors (G-CSF, GM-CSF, IL-3, EPO) drive stem cell differentiation in bone marrow."
+          "heading": "2. Biological Functions",
+          "content": "• Regulate Innate Immunity: Activates macrophages, neutrophils, and NK cells (IFN-α/β, IL-12, TNF-α).\n• Regulate Adaptive Immunity: Stimulates T and B cell proliferation and differentiation (IL-2, IL-4, IFN-γ).\n• Mediate Inflammation: Pro-inflammatory cytokines (IL-1, IL-6, TNF-α) induce fever and tissue inflammation.\n• Stimulate Hematopoiesis: Drives bone marrow stem cell differentiation (CSFs, IL-3, EPO).\n• Anti-Infection & Anti-Tumor: IFNs block viral replication; TNF induces tumor apoptosis."
         }
       ]
     },
     {
-      "id": "qa_9",
-      "title": "Mechanisms of Cytotoxic T Lymphocyte (CTL / CD8+) Mediated Target Cell Killing",
+      "id": "sq_9",
+      "num": 9,
+      "title": "Mechanism of CTL-Mediated Killing of Target Cells",
       "category": "Cell-Mediated & Humoral",
       "type": "long",
-      "question": "Explain the two primary apoptotic killing mechanisms executed by CD8+ Cytotoxic T Lymphocytes against infected or tumor target cells.",
-      "summary": "CTLs kill target cells via the Granule Exocytosis pathway (Perforin + Granzyme) and the Death Receptor pathway (FasL-Fas).",
+      "question": "Explain the mechanisms by which CD8+ Cytotoxic T Lymphocytes (CTLs) kill infected or abnormal target cells.",
+      "summary": "CTLs kill target cells via the Perforin/Granzyme pathway and the Fas/FasL death receptor pathway.",
       "sections": [
         {
-          "heading": "1. Granule Exocytosis Pathway (Perforin & Granzyme)",
-          "content": "• Contact & Recognition: TCR on CD8+ CTL specifically recognizes viral peptide-MHC Class I complex on target cell.\n• Directional Degranulation: CTL polarizes its microtubule cytoskeleton and releases cytotoxic granule contents into the immunological synapse.\n• Perforin: Polymerizes in the presence of calcium to form transmembrane pores in the target membrane.\n• Granzyme B: Enters the target cytoplasm through perforin pores, cleaving pro-caspase-3 and Bid, triggering mitochondrial cytochrome c release and caspase cascade activation, resulting in apoptotic DNA fragmentation."
+          "heading": "1. Perforin and Granzyme Pathway",
+          "content": "• Perforin: Drills physical pores into the target cell membrane.\n• Granzymes: Enter the target cell through perforin pores, cleaving and activating caspases (caspase cascade) to directly trigger apoptotic cell death."
         },
         {
-          "heading": "2. Death Receptor Pathway (Fas / FasL Induction)",
-          "content": "• Activated CTLs upregulate Fas Ligand (FasL / CD95L) on their surface.\n• FasL binds to Fas (CD95 / Death Receptor) expressed on target cells.\n• Trimerization of Fas recruits FADD (Fas-Associated Death Domain) and activates pro-caspase-8, which directly initiates downstream caspase-3 execution of target cell apoptosis."
+          "heading": "2. Fas and FasL Pathway",
+          "content": "• Activated CTLs express Fas Ligand (FasL / CD95L) on their surface.\n• FasL binds to the Fas receptor (CD95) on the target cell, activating intracellular death domains and caspases, inducing target cell apoptosis."
         }
       ]
     },
     {
-      "id": "qa_10",
-      "title": "Comparison between MHC Class I and MHC Class II Molecules",
-      "category": "MHC & Antigen Presentation",
+      "id": "sq_10",
+      "num": 10,
+      "title": "Biological Functions of CD4+ Th1 Cells and CD4+ Th2 Cells",
+      "category": "Cell-Mediated & Humoral",
       "type": "comparison",
-      "question": "Compare MHC Class I and MHC Class II molecules in terms of polypeptide structure, tissue distribution, peptide source, and T cell presentation.",
-      "summary": "MHC I presents endogenous peptides to CD8+ T cells across all nucleated cells; MHC II presents exogenous peptides to CD4+ T cells on professional APCs.",
+      "question": "Compare the differentiating cytokines, secreted effector molecules, and biological functions of CD4+ Th1 and CD4+ Th2 cells.",
+      "summary": "Th1 cells drive cellular immunity against intracellular pathogens, whereas Th2 cells drive humoral immunity, eosinophil activation, and allergy against extracellular parasites.",
       "table": {
         "headers": [
           "Feature",
-          "MHC Class I Molecule",
-          "MHC Class II Molecule"
+          "Th1 Helper T Cells",
+          "Th2 Helper T Cells"
         ],
         "rows": [
           [
-            "Polypeptide Chain Composition",
-            "α chain (45 kDa, with α1, α2, α3 domains) + non-covalent β2-microglobulin (12 kDa)",
-            "α chain (34 kDa) + β chain (29 kDa), both transmembrane glycoproteins"
+            "Key Inducing Cytokine",
+            "IL-12, IFN-γ",
+            "IL-4"
           ],
           [
-            "Peptide-Binding Groove",
-            "Formed by α1 and α2 domains (closed ends, accommodates 8–10 amino acids)",
-            "Formed by α1 and β1 domains (open ends, accommodates 13–18+ amino acids)"
+            "Secreted Cytokines",
+            "IFN-γ, IL-2, TNF-β",
+            "IL-4, IL-5, IL-6, IL-10, IL-13"
           ],
           [
-            "Tissue Cellular Distribution",
-            "All nucleated cells and platelets (ubiquitous)",
-            "Professional APCs only (Dendritic cells, Macrophages, B cells) and activated T cells"
+            "Primary Function",
+            "Cell-Mediated Immunity (CMI)",
+            "Humoral Immunity (HI) & Allergy"
           ],
           [
-            "Source of Presented Antigen",
-            "Endogenous antigens (cytoplasmic viral proteins, tumor antigens)",
-            "Exogenous antigens (extracellular bacteria, internalized toxins)"
+            "Target Pathogens",
+            "Intracellular bacteria (Mycobacteria), viruses, tumors",
+            "Extracellular parasites (Helminths), allergens"
           ],
           [
-            "Antigen Processing Pathway",
-            "Proteasome degradation -> TAP transporter -> Endoplasmic Reticulum (ER)",
-            "Endosomal/Lysosomal acidification -> Invariant chain (CLIP) displacement by HLA-DM"
-          ],
-          [
-            "Responding T-Cell Population",
-            "CD8+ Cytotoxic T Lymphocytes (CTLs)",
-            "CD4+ Helper T Lymphocytes (Th1, Th2, Th17)"
+            "Effector Action",
+            "Activates macrophages & CD8+ CTL killing",
+            "Stimulates B-cell class switching to IgG/IgA/IgE"
           ]
         ]
       }
     },
     {
-      "id": "qa_11",
-      "title": "Primary vs. Secondary Humoral Immune Response",
+      "id": "sq_11",
+      "num": 11,
+      "title": "Characteristics of Primary and Secondary Humoral Immune Response",
       "category": "Cell-Mediated & Humoral",
       "type": "comparison",
-      "question": "Compare the characteristics of primary and secondary humoral antibody responses following antigen exposure.",
+      "question": "Compare the primary and secondary antibody responses following antigen exposure.",
       "summary": "Secondary immune responses feature a shorter lag phase, higher antibody titer, predominantly IgG isotype, higher affinity, and longer duration due to memory B cells.",
       "table": {
         "headers": [
@@ -606,56 +607,516 @@
         ],
         "rows": [
           [
-            "Lag Phase (Latent Period)",
-            "Longer (4–7 to 10–14 days before antibody detectable)",
-            "Much shorter (1–3 days due to memory B cell pool)"
+            "Lag Phase",
+            "Longer (4–7 to 10–14 days)",
+            "Much shorter (1–3 days)"
           ],
           [
-            "Predominant Antibody Isotype",
+            "Predominant Antibody",
             "Predominantly IgM first, followed by IgG",
-            "Predominantly high-affinity IgG (or IgA/IgE)"
+            "Predominantly IgG (or IgA/IgE)"
           ],
           [
-            "Peak Antibody Titer",
+            "Peak Titer",
             "Lower peak titer",
-            "Much higher peak titer (10- to 1000-fold increase)"
+            "Much higher peak titer (10–1000x increase)"
           ],
           [
             "Antibody Affinity",
-            "Lower affinity (germline configuration)",
-            "High affinity (undergoes somatic hypermutation & affinity maturation)"
+            "Lower affinity",
+            "High affinity (affinity maturation)"
           ],
           [
             "Duration of Persistence",
-            "Short duration (declines rapidly over weeks)",
-            "Persists for extended periods (months to years)"
+            "Short duration (weeks)",
+            "Long duration (months to years)"
           ]
         ]
       }
     },
     {
-      "id": "qa_12",
-      "title": "Classification and Mechanisms of Hypersensitivity Reactions (Types I – IV)",
-      "category": "Immune Tolerance & Pathology",
+      "id": "sq_12",
+      "num": 12,
+      "title": "Antigen Presenting Pathways (Endogenous vs. Exogenous Pathways)",
+      "category": "MHC & Antigen Presentation",
+      "type": "comparison",
+      "question": "Compare the Endogenous (MHC-I) and Exogenous (MHC-II) antigen presentation pathways.",
+      "summary": "Endogenous pathway processes cytosolic viral/tumor antigens via proteasomes to MHC-I for CD8+ T cells; Exogenous pathway processes engulfed extracellular antigens via endosomes to MHC-II for CD4+ T cells.",
+      "table": {
+        "headers": [
+          "Feature",
+          "Endogenous Pathway (MHC Class I)",
+          "Exogenous Pathway (MHC Class II)"
+        ],
+        "rows": [
+          [
+            "Antigen Source",
+            "Intracellular (viral proteins, tumor antigens)",
+            "Extracellular (phagocytosed bacteria, toxins)"
+          ],
+          [
+            "Processing Organelle",
+            "Proteasome degradation in cytosol",
+            "Endosomes / Lysosomes (acidic degradation)"
+          ],
+          [
+            "Peptide Transporter",
+            "TAP (Transporter associated with Antigen Processing)",
+            "Invariant chain (Ii) and HLA-DM displacement"
+          ],
+          [
+            "Loading Location",
+            "Endoplasmic Reticulum (ER)",
+            "MIIC (MHC Class II Compartment / Endolysosome)"
+          ],
+          [
+            "Presenting Molecule & Target",
+            "MHC Class I -> CD8+ Cytotoxic T Cells",
+            "MHC Class II -> CD4+ Helper T Cells"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sq_13",
+      "num": 13,
+      "title": "Differences between MHC-I and MHC-II Molecules",
+      "category": "MHC & Antigen Presentation",
+      "type": "comparison",
+      "question": "Compare MHC Class I and MHC Class II molecules.",
+      "summary": "MHC I is found on all nucleated cells presenting to CD8+ CTLs; MHC II is restricted to professional APCs presenting to CD4+ Th cells.",
+      "table": {
+        "headers": [
+          "Feature",
+          "MHC Class I Molecule",
+          "MHC Class II Molecule"
+        ],
+        "rows": [
+          [
+            "Polypeptide Structure",
+            "α chain (45 kDa, 3 domains) + β2-microglobulin (12 kDa)",
+            "α chain (34 kDa) + β chain (29 kDa)"
+          ],
+          [
+            "Peptide Binding Groove",
+            "Formed by α1 and α2 domains (closed ends, 8–10 aa)",
+            "Formed by α1 and β1 domains (open ends, 13–18+ aa)"
+          ],
+          [
+            "Tissue Distribution",
+            "All nucleated cells and platelets (ubiquitous)",
+            "Professional APCs (Dendritic cells, Macrophages, B cells)"
+          ],
+          [
+            "Antigen Source",
+            "Endogenous intracellular antigens",
+            "Exogenous extracellular antigens"
+          ],
+          [
+            "Recognizing T Cell",
+            "CD8+ Cytotoxic T Lymphocytes",
+            "CD4+ Helper T Lymphocytes"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sq_14",
+      "num": 14,
+      "title": "Biological Functions of MHC Molecules",
+      "category": "MHC & Antigen Presentation",
       "type": "long",
-      "question": "Describe the immunological mechanisms, mediators, and classic clinical examples for Gell and Coombs Type I, II, III, and IV hypersensitivity reactions.",
-      "summary": "Types I-III are antibody-mediated (IgE, IgG/IgM cytotoxic, immune complex), while Type IV is delayed cell-mediated (T cells and macrophages).",
+      "question": "What are the primary biological and clinical functions of MHC molecules?",
+      "summary": "MHC molecules control antigen presentation, guide T cell maturation in thymus, restrict immune responses, and determine graft histocompatibility.",
       "sections": [
         {
-          "heading": "Type I: Immediate / Anaphylactic Hypersensitivity",
-          "content": "• Mechanism: Allergen cross-links allergen-specific IgE bound to high-affinity FcεRI receptors on mast cells and basophils, inducing rapid degranulation.\n• Primary Mediators: Histamine, leukotrienes (LTC4, LTD4), prostaglandins (PGD2), PAF.\n• Clinical Manifestations: Anaphylactic shock, allergic asthma, allergic rhinitis (hay fever), acute urticaria, food allergies."
+          "heading": "1. Antigen Presentation & T-Cell Activation",
+          "content": "MHC molecules bind peptide fragments and display them on cell surfaces. TCRs can only recognize antigens when presented bound to self-MHC (MHC Restriction)."
         },
         {
-          "heading": "Type II: Cytotoxic / Antibody-Dependent Hypersensitivity",
-          "content": "• Mechanism: IgG or IgM antibodies bind to cell-surface or extracellular matrix antigens, directing complement-mediated lysis (MAC), opsonization/phagocytosis, or ADCC.\n• Clinical Manifestations: ABO mismatch hemolytic transfusion reactions, Hemolytic Disease of the Newborn (Rh incompatibility), Autoimmune Hemolytic Anemia, Goodpasture syndrome, Myasthenia gravis, Graves' disease."
+          "heading": "2. Regulation of Thymic T-Cell Maturation",
+          "content": "MHC molecules in the thymus mediate Positive Selection (ensuring self-MHC recognition) and Negative Selection (deleting autoreactive clones for central tolerance)."
         },
         {
-          "heading": "Type III: Immune Complex-Mediated Hypersensitivity",
-          "content": "• Mechanism: Moderate-sized soluble antigen-antibody (Ag-Ab) complexes deposit in small blood vessel walls, activating complement (C3a, C5a) and attracting neutrophils that release lysosomal enzymes causing vasculitis and tissue necrosis.\n• Clinical Manifestations: Serum sickness, Arthus reaction, Systemic Lupus Erythematosus (SLE glomerulonephritis), Post-streptococcal glomerulonephritis, Rheumatoid arthritis."
+          "heading": "3. Determining Genetic Susceptibility to Diseases",
+          "content": "Certain HLA alleles are strongly associated with specific autoimmune disorders (e.g. HLA-B27 with Ankylosing Spondylitis, HLA-DR4 with Rheumatoid Arthritis)."
         },
         {
-          "heading": "Type IV: Delayed-Type Cell-Mediated Hypersensitivity (DTH)",
-          "content": "• Mechanism: CD4+ Th1 cells (and CD8+ T cells) primed to antigen release cytokines (IFN-γ, TNF-α, IL-2) that recruit and activate macrophages, causing chronic granulomatous inflammation (onset 24–72 hours).\n• Clinical Manifestations: Tuberculin PPD skin test, allergic contact dermatitis (poison ivy, nickel allergy), chronic transplant graft rejection, granulomas in Tuberculosis and Leprosy."
+          "heading": "4. Regulating Allograft Rejection",
+          "content": "MHC differences between donor and recipient are the primary antigens that trigger allograft transplant rejection."
+        }
+      ]
+    },
+    {
+      "id": "sq_15",
+      "num": 15,
+      "title": "Role of Primary vs. Secondary Lymphoid Organs",
+      "category": "Core Immunology",
+      "type": "comparison",
+      "question": "Compare the anatomical roles of Primary (Central) and Secondary (Peripheral) Lymphoid Organs.",
+      "summary": "Primary organs (Bone Marrow, Thymus) generate and educate immune cells; Secondary organs (Lymph Nodes, Spleen, MALT) trap antigens and initiate adaptive immune responses.",
+      "table": {
+        "headers": [
+          "Feature",
+          "Primary (Central) Lymphoid Organs",
+          "Secondary (Peripheral) Lymphoid Organs"
+        ],
+        "rows": [
+          [
+            "Anatomical Organs",
+            "Bone Marrow, Thymus",
+            "Lymph Nodes, Spleen, Mucosa-Associated Lymphoid Tissue (MALT)"
+          ],
+          [
+            "Primary Function",
+            "Origin, differentiation, and maturation of B and T lymphocytes",
+            "Antigen capture, lymphocyte activation, and immune response execution"
+          ],
+          [
+            "Antigen Dependence",
+            "Antigen-independent (occurs without foreign antigens)",
+            "Antigen-dependent (triggered by foreign antigen exposure)"
+          ],
+          [
+            "Tolerance Induction",
+            "Establishes Central Immune Tolerance",
+            "Establishes Peripheral Immune Responses"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sq_16",
+      "num": 16,
+      "title": "Dual Signal Model of T-Cell Activation",
+      "category": "Cell-Mediated & Humoral",
+      "type": "short",
+      "question": "Explain the activation signals required for full activation of naive T lymphocytes.",
+      "summary": "T-cell activation strictly requires 2 signals: Signal 1 (Antigen recognition) and Signal 2 (Co-stimulation); without Signal 2, the cell enters anergy.",
+      "sections": [
+        {
+          "heading": "1. Signal 1 (Specific Antigen Signal)",
+          "content": "TCR binds specifically to peptide-MHC complex on APC, assisted by CD4 or CD8 co-receptors and transduced via CD3 complex."
+        },
+        {
+          "heading": "2. Signal 2 (Co-stimulatory Signal)",
+          "content": "CD28 on T cell binds to CD80 (B7-1) or CD86 (B7-2) on APC. Essential for IL-2 secretion and clonal expansion. (Signal 1 alone without Signal 2 induces T-cell anergy/inactivation)."
+        },
+        {
+          "heading": "3. Signal 3 (Cytokine Differentiation Signal)",
+          "content": "Cytokines secreted by APCs (such as IL-12 for Th1, IL-4 for Th2, IL-6/TGF-β for Th17) direct the differentiation into specific effector T-cell lineages."
+        }
+      ]
+    },
+    {
+      "id": "sq_17",
+      "num": 17,
+      "title": "Activation Signals Required for B-Cell Activation",
+      "category": "Cell-Mediated & Humoral",
+      "type": "short",
+      "question": "Explain the activation signals required for full activation and antibody production by B lymphocytes.",
+      "summary": "B-cell activation for TD antigens requires BCR antigen cross-linking (Signal 1), CD40-CD40L interaction with helper T cells (Signal 2), and cytokines (IL-4, IL-5) for class switching.",
+      "sections": [
+        {
+          "heading": "1. Signal 1 (Antigen Recognition)",
+          "content": "Membrane-bound BCR (mIgM/mIgD) binds directly to intact conformational epitope on antigen, transducing signals via Igα/Igβ (CD79a/CD79b)."
+        },
+        {
+          "heading": "2. Signal 2 (T-Cell Help / Co-stimulation)",
+          "content": "CD40 on B cell binds to CD40 Ligand (CD40L / CD154) on activated CD4+ Helper T cells. Essential for germinal center formation and somatic hypermutation."
+        },
+        {
+          "heading": "3. Signal 3 (Cytokines)",
+          "content": "Helper T-cell cytokines (IL-4, IL-5, IL-6, IL-10, IL-21) drive B-cell proliferation, isotype class switching (IgM -> IgG/IgA/IgE), and differentiation into plasma and memory cells."
+        }
+      ]
+    },
+    {
+      "id": "sq_18",
+      "num": 18,
+      "title": "Biological Functions of Natural Killer (NK) Cells",
+      "category": "Innate & Adaptive Immunity",
+      "type": "long",
+      "question": "What are the biological functions and target cell recognition mechanisms of Natural Killer (NK) cells?",
+      "summary": "NK cells provide rapid innate surveillance against virus-infected and tumor cells via 'Missing-Self' recognition and ADCC without prior sensitization.",
+      "sections": [
+        {
+          "heading": "1. Direct Cytotoxicity (Missing-Self Recognition)",
+          "content": "• Killer Activation Receptors (KAR) recognize stress ligands on abnormal cells.\n• Killer Inhibitory Receptors (KIR) bind normal self-MHC Class I.\n• If target cell downregulates MHC-I (viral evasion or tumor mutation), KIR is not engaged, and NK cells release perforin/granzymes to kill the target ('Missing-Self' hypothesis)."
+        },
+        {
+          "heading": "2. Antibody-Dependent Cellular Cytotoxicity (ADCC)",
+          "content": "NK cells express CD16 (FcγRIII) which binds to IgG antibodies coating target cells, triggering targeted cytotoxic degranulation."
+        },
+        {
+          "heading": "3. Immunoregulatory Cytokine Production",
+          "content": "NK cells rapidly secrete large amounts of IFN-γ and TNF-α upon activation, promoting macrophage activation and Th1 polarization."
+        }
+      ]
+    },
+    {
+      "id": "sq_19",
+      "num": 19,
+      "title": "Main Characteristics and Biological Functions of Macrophages",
+      "category": "Innate & Adaptive Immunity",
+      "type": "long",
+      "question": "Describe the major biological functions and immune roles of Macrophages.",
+      "summary": "Macrophages act as professional phagocytes, antigen-presenting cells, inflammatory cytokine producers, and tissue repair coordinators.",
+      "sections": [
+        {
+          "heading": "1. Phagocytosis & Pathogen Destruction",
+          "content": "Engulfs bacteria and debris using PRRs, opsonins (C3b, IgG), and destroys invaders via Oxygen-Dependent (Respiratory Burst, ROS, NO) and Oxygen-Independent (lysosomal enzymes, defensins) pathways."
+        },
+        {
+          "heading": "2. Professional Antigen Presentation (APC)",
+          "content": "Degrades exogenous protein antigens in endolysosomes and presents peptide fragments on MHC Class II molecules with co-stimulatory molecules (CD80/CD86) to activate CD4+ T cells."
+        },
+        {
+          "heading": "3. Cytokine & Inflammatory Mediator Secretion",
+          "content": "Produces pro-inflammatory cytokines (IL-1, IL-6, TNF-α, IL-12) and chemokines (IL-8) to recruit leukocytes and initiate systemic acute-phase responses."
+        },
+        {
+          "heading": "4. Tissue Repair and Remodeling",
+          "content": "Clears apoptotic cells and secretes growth factors (VEGF, TGF-β, FGF) that stimulate angiogenesis and wound healing."
+        }
+      ]
+    },
+    {
+      "id": "sq_20",
+      "num": 20,
+      "title": "Classification and Distinct Characteristics of the 5 Immunoglobulin Classes",
+      "category": "Antibodies & Immunoglobulins",
+      "type": "comparison",
+      "question": "Describe the structure, distribution, and clinical significance of the 5 immunoglobulin isotypes (IgG, IgA, IgM, IgD, IgE).",
+      "summary": "IgG is the main serum antibody crossing placenta; IgA protects mucosa; IgM is the primary pentameric responder; IgE mediates allergies; IgD is a naive B-cell receptor.",
+      "table": {
+        "headers": [
+          "Isotype",
+          "Structure",
+          "Serum %",
+          "Key Characteristic & Clinical Role"
+        ],
+        "rows": [
+          [
+            "IgG",
+            "Monomer",
+            "75–80%",
+            "Predominant antibody in secondary response; only isotype that crosses the placenta; fixes complement, opsonizes, and mediates ADCC."
+          ],
+          [
+            "IgA",
+            "Monomer (serum) / Dimer + SC (secretory sIgA)",
+            "10–15%",
+            "Main antibody in external mucosal secretions (colostrum, saliva, gut, tears); prevents mucosal microbial adhesion."
+          ],
+          [
+            "IgM",
+            "Pentamer with J-chain (or monomer on naive B cell)",
+            "5–10%",
+            "First antibody produced in primary immune response; most efficient complement activator (due to 10 antigen-binding sites); natural isohemagglutinins (anti-A, anti-B)."
+          ],
+          [
+            "IgD",
+            "Monomer",
+            "< 1%",
+            "Expressed with IgM on mature naive B cells; serves as a membrane antigen receptor for B-cell differentiation."
+          ],
+          [
+            "IgE",
+            "Monomer",
+            "< 0.002%",
+            "Binds high-affinity FcεRI on mast cells and basophils; mediates Type I immediate hypersensitivity (allergy) and defense against parasitic helminths."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sq_21",
+      "num": 21,
+      "title": "Mechanisms of Immune Tolerance (Central vs. Peripheral Tolerance)",
+      "category": "Immune Tolerance & Pathology",
+      "type": "long",
+      "question": "Explain the central and peripheral mechanisms that maintain immunological self-tolerance.",
+      "summary": "Central tolerance eliminates autoreactive clones in primary organs (thymus/bone marrow); peripheral tolerance controls escaped autoreactive cells via anergy, suppression, and deletion.",
+      "sections": [
+        {
+          "heading": "1. Central Tolerance (Thymus & Bone Marrow)",
+          "content": "• Clonal Deletion (Negative Selection): Developing T cells in thymic medulla and B cells in bone marrow that bind strongly to self-antigens undergo apoptosis.\n• Receptor Editing: Autoreactive immature B cells can rearrange light chain genes (κ/λ) to generate non-autoreactive BCRs.\n• AIRE Gene Function: Autoimmune Regulator (AIRE) drives expression of tissue-restricted peripheral self-antigens in thymic medullary epithelial cells."
+        },
+        {
+          "heading": "2. Peripheral Tolerance (Secondary Organs & Tissues)",
+          "content": "• Clonal Anergy: Functional inactivation of autoreactive T cells when recognizing antigen without co-stimulation (Signal 1 without Signal 2).\n• Regulatory T Cells (Tregs / CD4+CD25+FoxP3+): Actively suppress autoreactive T cells via inhibitory cytokines (IL-10, TGF-β) and CTLA-4.\n• Immune Privileged Sites: Blood-brain barrier, eye, testis, and placenta limit immune entry and express FasL to induce apoptosis in attacking lymphocytes."
+        }
+      ]
+    },
+    {
+      "id": "sq_22",
+      "num": 22,
+      "title": "Types of Vaccines and Artificial Immunization",
+      "category": "Vaccines & Immunization",
+      "type": "long",
+      "question": "Classify the major types of vaccines used in clinical immunization, citing examples and advantages/disadvantages.",
+      "summary": "Vaccines simulate infection to establish immunological memory; categories include live-attenuated, inactivated, toxoid, subunit, and mRNA vaccines.",
+      "sections": [
+        {
+          "heading": "1. Live-Attenuated Vaccines",
+          "content": "• Characteristics: Microbes weakened so they replicate without causing severe illness. Induces strong cellular (CTL) and humoral immunity with lifelong protection.\n• Examples: MMR (Measles, Mumps, Rubella), BCG (Tuberculosis), Oral Polio (Sabin), Yellow fever, Varicella.\n• Caution: Contraindicated in immunocompromised individuals and pregnant women."
+        },
+        {
+          "heading": "2. Inactivated (Killed) Vaccines",
+          "content": "• Characteristics: Microbes killed by chemicals or heat. Cannot replicate; extremely safe but usually requires booster doses and adjuvants to maintain immunity.\n• Examples: Inactivated Polio (Salk), Rabies, Hepatitis A, Whole-cell Pertussis."
+        },
+        {
+          "heading": "3. Toxoids",
+          "content": "• Characteristics: Inactivated bacterial exotoxins that retain immunogenicity but lose toxicity.\n• Examples: Tetanus toxoid (TT), Diphtheria toxoid (DT)."
+        },
+        {
+          "heading": "4. Subunit & Recombinant Vaccines",
+          "content": "• Characteristics: Purified specific antigenic fragments (capsular polysaccharides or recombinant viral surface proteins).\n• Examples: Hepatitis B vaccine (HBsAg produced in yeast), HPV vaccine (virus-like particles), Pneumococcal conjugate."
+        }
+      ]
+    },
+    {
+      "id": "sq_23",
+      "num": 23,
+      "title": "Classification of Antigens (By Source, T-Dependence, and Immunogenicity)",
+      "category": "Antigens & Epitopes",
+      "type": "long",
+      "question": "How are antigens classified based on their relationship with the host, dependence on T cells, and immunogenicity?",
+      "summary": "Antigens are classified by T-cell dependence (TD vs TI), origin/relationship (Xeno-, Allo-, Auto-, Heterophilic), and immunogenicity (Complete vs Hapten).",
+      "sections": [
+        {
+          "heading": "1. Based on Dependence on T Cells",
+          "content": "• Thymus-Dependent Antigens (TD-Ag): Proteins requiring T-cell help for B-cell activation, class switching, and memory.\n• Thymus-Independent Antigens (TI-Ag): Polysaccharides with repeating units that activate B cells directly without T-cell help (mostly IgM, no memory)."
+        },
+        {
+          "heading": "2. Based on Relationship with the Host (Source)",
+          "content": "• Xenogenic Antigen (Xenoantigen): Antigens originating from an entirely different species.\n• Allogenic Antigen (Alloantigen): Antigens from genetically different individuals of the same species (ABO blood groups, HLA).\n• Autoantigen: Host's own normal tissue antigens that mistakenly induce an autoimmune response.\n• Heterophilic Antigen (Forssman Ag): Common antigens shared across unrelated species (human, sheep RBCs, microbes)."
+        },
+        {
+          "heading": "3. Based on Immunogenicity",
+          "content": "• Complete Antigen: Possesses both immunogenicity and immunoreactivity.\n• Incomplete Antigen (Hapten): Has immunoreactivity alone; becomes immunogenic only when conjugated to a carrier protein."
+        }
+      ]
+    },
+    {
+      "id": "sq_24",
+      "num": 24,
+      "title": "Definition and Classification of Hypersensitivity Reactions",
+      "category": "Immune Tolerance & Pathology",
+      "type": "short",
+      "question": "Define Hypersensitivity and list the Gell and Coombs classification of hypersensitivity reactions.",
+      "summary": "Hypersensitivity is an exaggerated, tissue-damaging immune response upon re-exposure to antigen; classified into Types I, II, III, and IV.",
+      "sections": [
+        {
+          "heading": "Definition of Hypersensitivity",
+          "content": "A harmful immune response that occurs when a sensitized (primed) host encounters the exact same antigen for a second time, resulting in exaggerated reactivity that causes tissue injury, inflammation, or functional disorder."
+        },
+        {
+          "heading": "Four-Type Classification (Gell & Coombs)",
+          "content": "• Type I: Immediate (IgE-mediated) Hypersensitivity\n• Type II: Cytotoxic / Antibody-mediated (IgG/IgM) Hypersensitivity\n• Type III: Immune Complex-mediated (Ag-Ab complexes) Hypersensitivity\n• Type IV: Cell-mediated or Delayed-Type (T-cell mediated) Hypersensitivity (DTH)"
+        }
+      ]
+    },
+    {
+      "id": "sq_25",
+      "num": 25,
+      "title": "Main Features of the Four Types of Hypersensitivity Reactions",
+      "category": "Immune Tolerance & Pathology",
+      "type": "comparison",
+      "question": "What are the distinguishing features (mediators, targets, timing, hallmarks) of the four types of hypersensitivity?",
+      "summary": "Type I is rapid IgE functional disorder; Type II is IgG/IgM cell lysis; Type III is immune complex vasculitis; Type IV is delayed T-cell macrophage inflammation.",
+      "table": {
+        "headers": [
+          "Type",
+          "Primary Mediators",
+          "Antigen Target",
+          "Response Onset",
+          "Key Pathological Hallmark"
+        ],
+        "rows": [
+          [
+            "Type I (Immediate)",
+            "IgE antibodies, Mast cells, Basophils, Histamine",
+            "Exogenous allergens (pollen, drugs, food)",
+            "15–30 minutes (Immediate)",
+            "Intense functional disorder (vasodilation, bronchospasm) with minimal tissue injury"
+          ],
+          [
+            "Type II (Cytotoxic)",
+            "IgG or IgM antibodies, Complement (MAC), Phagocytes, NK cells",
+            "Cell surface or matrix-bound antigens",
+            "Minutes to hours",
+            "Direct cell lysis, phagocytosis, or tissue destruction"
+          ],
+          [
+            "Type III (Immune Complex)",
+            "IgG, IgM, Soluble Ag-Ab complexes, Complement (C3a/C5a), Neutrophils",
+            "Soluble circulating antigens",
+            "3–8 hours",
+            "Immune complex deposition in vessel walls causing acute necrotizing vasculitis"
+          ],
+          [
+            "Type IV (Delayed-Type)",
+            "Sensitized CD4+ Th1 & CD8+ T cells, Macrophages (No antibodies)",
+            "Cellular or intracellular antigens, haptens",
+            "48–72 hours (Delayed)",
+            "Mononuclear infiltration, granuloma formation, and chronic tissue necrosis"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sq_26",
+      "num": 26,
+      "title": "Mechanisms Involved in Each Type of Hypersensitivity Reaction",
+      "category": "Immune Tolerance & Pathology",
+      "type": "long",
+      "question": "Describe the step-by-step immunological mechanisms for each type of hypersensitivity reaction.",
+      "summary": "Type I crosslinks IgE; Type II activates complement/opsonization/ADCC; Type III deposits complexes recruiting neutrophils; Type IV releases Th1 cytokines activating macrophages.",
+      "sections": [
+        {
+          "heading": "1. Type I (Immediate) Mechanism",
+          "content": "• Initial Exposure: Allergen induces B cells to produce IgE, which binds via Fc to FcεRI on mast cells and basophils (sensitization).\n• Re-exposure: Allergen cross-links bound IgE, triggering rapid degranulation: preformed mediators (histamine, ECF-A) in early phase (minutes) and synthesized mediators (leukotrienes, PGD2) in late phase (hours)."
+        },
+        {
+          "heading": "2. Type II (Cytotoxic) Mechanism",
+          "content": "• IgG/IgM binds directly to antigens on target cell surfaces.\n• Cell destruction occurs via 3 pathways: (1) Complement activation (MAC lysis), (2) Opsonization (C3b/IgG binding phagocyte receptors), and (3) ADCC (NK cells releasing perforin/granzyme via FcγRIII)."
+        },
+        {
+          "heading": "3. Type III (Immune Complex) Mechanism",
+          "content": "• Soluble antigens bind antibodies forming medium-sized circulating complexes that escape phagocytic clearance and deposit on vascular basement membranes.\n• Complexes activate complement (C3a, C5a), recruiting neutrophils that release lysosomal enzymes and reactive oxygen species, destroying blood vessel walls (vasculitis)."
+        },
+        {
+          "heading": "4. Type IV (Cell-Mediated) Mechanism",
+          "content": "• Sensitized CD4+ Th1 cells recognize antigen presented on APCs and secrete cytokines (IFN-γ, TNF-α, IL-2).\n• Cytokines recruit and hyperactivate macrophages and CTLs, which release lysosomal proteases and perforin causing delayed, chronic tissue damage (24–72h peak)."
+        }
+      ]
+    },
+    {
+      "id": "sq_27",
+      "num": 27,
+      "title": "Common Clinical Diseases Associated with the Four Types of Hypersensitivity",
+      "category": "Immune Tolerance & Pathology",
+      "type": "long",
+      "question": "List the common clinical diseases associated with each of the four types of hypersensitivity reactions.",
+      "summary": "Type I includes anaphylaxis and asthma; Type II includes hemolytic anemia and transfusion reactions; Type III includes SLE and serum sickness; Type IV includes contact dermatitis and TB granulomas.",
+      "sections": [
+        {
+          "heading": "1. Type I (Immediate) Clinical Diseases",
+          "content": "• Systemic Anaphylaxis: Anaphylactic shock from penicillin, bee stings, or foreign serums.\n• Respiratory: Allergic rhinitis (hay fever) and allergic extrinsic asthma.\n• Gastrointestinal: Food allergies (peanuts, shellfish, milk, eggs).\n• Cutaneous: Acute urticaria (hives) and atopic eczema."
+        },
+        {
+          "heading": "2. Type II (Cytotoxic) Clinical Diseases",
+          "content": "• Transfusion Reactions: ABO incompatibility acute hemolytic transfusion reactions.\n• Hemolytic Disease of the Newborn: Erythroblastosis fetalis (Rh incompatibility).\n• Drug-Induced Hemolytic Anemia: Penicillin/quinidine coating RBCs.\n• Autoimmune Conditions: Autoimmune hemolytic anemia, Goodpasture syndrome, Myasthenia gravis, Graves' disease, Pemphigus vulgaris."
+        },
+        {
+          "heading": "3. Type III (Immune Complex) Clinical Diseases",
+          "content": "• Localized: Arthus reaction (localized cutaneous vasculitis and necrosis).\n• Systemic: Serum sickness (fever, rash, arthritis following foreign serum/antivenom injection).\n• Autoimmune & Post-Infectious: Systemic Lupus Erythematosus (SLE lupus nephritis), Rheumatoid Arthritis (RA), Post-streptococcal glomerulonephritis (PSGN), Polyarteritis nodosa (PAN)."
+        },
+        {
+          "heading": "4. Type IV (Delayed-Type) Clinical Diseases",
+          "content": "• Contact Dermatitis: Poison ivy (urushiol), nickel jewelry, cosmetics, topical medications.\n• Diagnostic Tests: Tuberculin PPD skin test reaction (Mantoux test for TB exposure).\n• Granulomatous Infections: Caseating granulomas in Tuberculosis (TB) and Leprosy.\n• Transplant Pathology: Acute and chronic cellular allograft rejection."
         }
       ]
     }
