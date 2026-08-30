@@ -150,6 +150,7 @@ export default function Header({ activeView, setActiveView }) {
               >
                 <BookOpen className="w-3.5 h-3.5" />
                 <span>Definitions & SQ</span>
+                {!user && <Lock className="w-2.5 h-2.5 text-slate-400 opacity-80" />}
               </button>
 
               <button

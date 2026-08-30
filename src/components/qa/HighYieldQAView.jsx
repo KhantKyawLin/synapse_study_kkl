@@ -1,13 +1,16 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import qaData from '../../data/immunology_qa.json';
 import SpeedDrillModal from './SpeedDrillModal';
+import { useAuth } from '../../context/AuthContext';
 import { 
   BookOpen, Search, Layers, Table, HelpCircle, ChevronDown, 
   ChevronUp, Sparkles, CheckCircle2, Bookmark, Copy, Check, 
-  Filter, Award, Eye, EyeOff, ShieldCheck, Zap, Volume2, VolumeX, Flame 
+  Filter, Award, Eye, EyeOff, ShieldCheck, Zap, Volume2, VolumeX, Flame,
+  Lock, LogIn, UserPlus
 } from 'lucide-react';
 
 export default function HighYieldQAView() {
+  const { user, openAuthModal } = useAuth();
   const [activeTab, setActiveTab] = useState('definitions'); // 'definitions' | 'questions'
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -130,6 +133,73 @@ export default function HighYieldQAView() {
     }
     return ['All', ...Array.from(set).sort()];
   }, [activeTab, definitions, questions]);
+
+  // GUEST LOCK SCREEN: If not logged in, restrict Definitions & SQ section
+  if (!user) {
+    return (
+      <div className="w-full max-w-2xl mx-auto px-4 py-8 sm:py-12 animate-fadeIn">
+        <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-xl shadow-slate-200/60 dark:shadow-2xl backdrop-blur-xl text-center relative overflow-hidden transition-colors duration-200">
+          {/* Decorative Glow */}
+          <div className="absolute top-0 right-0 w-36 h-36 bg-cyanPrimary/10 rounded-full blur-2xl pointer-events-none"></div>
+          <div className="absolute bottom-0 left-0 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+          {/* Lock Icon Badge */}
+          <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/15 dark:bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-sky-700 dark:text-cyanPrimary shadow-lg shadow-cyanPrimary/20">
+            <Lock className="w-8 h-8" />
+          </div>
+
+          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight mb-2">
+            Student Sign-In Required
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-lg mx-auto leading-relaxed mb-6">
+            The High-Yield Definitions and Short Questions (SQ) section is exclusive to registered students. Create a free account or sign in to access full term breakdowns, rapid speed drills, and audio pronunciations.
+          </p>
+
+          {/* Feature Highlights Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto mb-8 text-xs text-slate-800 dark:text-slate-300">
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Zap className="w-4 h-4 text-sky-700 dark:text-cyanPrimary shrink-0" />
+              <span>⚡ Rapid Speed-Drill Recall (63 items)</span>
+            </div>
+
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Volume2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 shrink-0" />
+              <span>🔊 1-Click Audio Pronunciation</span>
+            </div>
+
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Eye className="w-4 h-4 text-amber-500 dark:text-amber-400 shrink-0" />
+              <span>👁️ Active Recall Self-Test Mode</span>
+            </div>
+
+            <div className="p-3 bg-slate-50 dark:bg-[#0d1117] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center gap-2.5 font-semibold shadow-sm">
+              <Table className="w-4 h-4 text-purple-600 dark:text-purple-400 shrink-0" />
+              <span>📊 High-Yield Comparison Tables</span>
+            </div>
+          </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
+            <button
+              onClick={() => openAuthModal('signin')}
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-md shadow-cyanPrimary/25 hover:brightness-105 active:scale-[0.98] transition-all cursor-pointer"
+            >
+              <LogIn className="w-4 h-4" />
+              <span>Sign In to Your Account</span>
+            </button>
+
+            <button
+              onClick={() => openAuthModal('signup')}
+              className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 py-3 px-6 rounded-xl font-bold text-sm bg-slate-100 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-slate-200 hover:bg-slate-200 dark:hover:text-white hover:border-slate-400 dark:hover:border-slate-600 active:scale-[0.98] transition-all shadow-sm cursor-pointer"
+            >
+              <UserPlus className="w-4 h-4" />
+              <span>Create Free Account</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full max-w-6xl mx-auto px-3 sm:px-6 md:px-8 py-4 sm:py-8 animate-fadeIn">
