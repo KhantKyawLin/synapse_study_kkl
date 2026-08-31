@@ -69,7 +69,7 @@ export default function QuizSetup({
         </button>
       </div>
 
-      <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-xl shadow-slate-200/50 dark:shadow-2xl animate-fadeIn">
+      <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-xl shadow-slate-200/50 dark:shadow-2xl dark:shadow-black/70 animate-fadeIn">
         <div className="w-12 h-12 rounded-xl bg-cyanPrimary/15 dark:bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-3 text-sky-700 dark:text-cyanPrimary">
           <Sparkles className="w-6 h-6" />
         </div>

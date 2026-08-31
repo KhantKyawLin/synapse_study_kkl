@@ -25,7 +25,7 @@ export default function QuizCard({
   const isLowTime = timeRemaining !== undefined && timeRemaining <= 120; // < 2 mins
 
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-xl shadow-slate-200/50 dark:shadow-2xl animate-fadeIn">
+    <div className="w-full max-w-3xl mx-auto bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-8 backdrop-blur-xl shadow-xl shadow-slate-200/50 dark:shadow-2xl dark:shadow-black/70 animate-fadeIn">
       {/* Top Header Bar: Student Name, Category, Timer */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-200 dark:border-slate-800">
         <div className="flex items-center gap-2 flex-wrap">

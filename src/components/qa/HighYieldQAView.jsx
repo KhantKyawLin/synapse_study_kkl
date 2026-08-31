@@ -138,7 +138,7 @@ export default function HighYieldQAView() {
   if (!user) {
     return (
       <div className="w-full max-w-2xl mx-auto px-4 py-8 sm:py-12 animate-fadeIn">
-        <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-xl shadow-slate-200/60 dark:shadow-2xl backdrop-blur-xl text-center relative overflow-hidden transition-colors duration-200">
+        <div className="bg-white dark:bg-[#161b22]/90 border border-slate-200 dark:border-cyanPrimary/30 rounded-2xl p-6 sm:p-10 shadow-xl shadow-slate-200/60 dark:shadow-2xl dark:shadow-black/70 backdrop-blur-xl text-center relative overflow-hidden transition-colors duration-200">
           {/* Decorative Glow */}
           <div className="absolute top-0 right-0 w-36 h-36 bg-cyanPrimary/10 rounded-full blur-2xl pointer-events-none"></div>
           <div className="absolute bottom-0 left-0 w-36 h-36 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
