@@ -102,6 +102,11 @@
     },
     {
       "category": "Microbiology - C.tetani",
+      "question": "Through what specific transport mechanism does tetanospasmin reach the Central Nervous System (CNS)?",
+      "answer": "It reaches the CNS via retrograde transport along axons."
+    },
+    {
+      "category": "Microbiology - C.tetani",
       "question": "Tetanospasmin blocks the release of which specific inhibitory neurotransmitters?",
       "answer": "It blocks the release of glycine and $\\gamma$-aminobutyric acid (GABA)."
     },
@@ -149,6 +154,11 @@
       "category": "Microbiology - C.tetani",
       "question": "What is the primary mechanism of action for Tetanus Antitoxin (TAT)?",
       "answer": "TAT works by neutralizing the circulating exotoxin before it binds to nerve cells."
+    },
+    {
+      "category": "Microbiology - C.tetani",
+      "question": "Can Tetanus Antitoxin (TAT) neutralize tetanospasmin that has already bound to Central Nervous System receptors?",
+      "answer": "No, TAT can only neutralize free toxin and cannot affect toxin already bound to nerve cells."
     },
     {
       "category": "Microbiology - C.tetani",
@@ -529,6 +539,11 @@
       "category": "Microbiology - C.perfringens",
       "question": "Which structure helps bacteria adhere to host cell surfaces?",
       "answer": "Pilus (pili)."
+    },
+    {
+      "category": "Microbiology - C.perfringens",
+      "question": "What term describes a localized systemic infection where bacteria multiply in the blood and cause high fever?",
+      "answer": "Septicemia."
     },
     {
       "category": "Microbiology - C.perfringens",
@@ -956,6 +971,306 @@
       "answer": "Pink."
     },
     {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How is dehydration defined in terms of body fluid volume?",
+      "answer": "An abnormal reduction of the total body water."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What percentage of lean body mass in humans is typically composed of water?",
+      "answer": "Approximately $60\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which fluid compartment constitutes approximately two-thirds of the total body water?",
+      "answer": "Intracellular Fluid (ICF)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What fraction of total body water is found in the Extracellular Fluid (ECF) compartment?",
+      "answer": "One-third."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "In a healthy adult male, what percentage of total body weight is contributed by Intracellular Fluid (ICF)?",
+      "answer": "Approximately $40\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "In a healthy adult male, what percentage of total body weight is contributed by Extracellular Fluid (ECF)?",
+      "answer": "Approximately $20\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What are the two primary sub-compartments of the Extracellular Fluid (ECF)?",
+      "answer": "Plasma and Interstitial fluid."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What percentage of total body weight is accounted for by blood plasma?",
+      "answer": "Approximately $5\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What percentage of total body weight is accounted for by interstitial fluid?",
+      "answer": "Approximately $15\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the serum sodium threshold for a diagnosis of hypotonic dehydration?",
+      "answer": "Less than $130$ $mmol/L$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the expected serum sodium range in a patient with isotonic dehydration?",
+      "answer": "Between $130$ and $150$ $mmol/L$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the serum sodium threshold for a diagnosis of hypertonic dehydration?",
+      "answer": "Greater than $150$ $mmol/L$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What are the three classifications of dehydration based on the osmotic pressure of the ECF?",
+      "answer": "Hypotonic, hypertonic, and isotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is a universal clinical sign of dehydration related to skin and eyes?",
+      "answer": "Loss of skin turgor and sunken eyeballs."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How is hypotonic dehydration defined regarding the ratio of solute to solvent loss?",
+      "answer": "Sodium loss is greater than water loss."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How is hypertonic dehydration defined regarding the ratio of solute to solvent loss?",
+      "answer": "Water loss is greater than sodium loss."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How is isotonic dehydration defined regarding the ratio of solute to solvent loss?",
+      "answer": "Sodium and water are lost in equal proportions."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which dehydration type results in a plasma osmotic pressure of less than $280$ $mmol/L$?",
+      "answer": "Hypotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Under what condition does water shift from the ECF to the ICF, causing cell swelling?",
+      "answer": "When ECF osmolality decreases (hypotonic dehydration)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Under what condition does water shift from the ICF to the ECF, causing cell shrinkage?",
+      "answer": "When ECF osmolality increases (hypertonic dehydration)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the primary cellular consequence of hypertonic dehydration on brain cells?",
+      "answer": "Cerebral cell shrinkage."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the primary cellular consequence of hypotonic dehydration on brain cells?",
+      "answer": "Cerebral cell swelling."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which medication class, including furosemide, is a common renal cause of hypotonic dehydration?",
+      "answer": "Diuretics."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How does Addison's disease contribute to hypotonic dehydration?",
+      "answer": "Adrenocortical insufficiency leads to decreased aldosterone (ADS) and sodium wasting."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is considered the commonest reason for hypotonic dehydration in clinical medicine?",
+      "answer": "Extrarenal factors (e.g., GI loss, sweating)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What are three examples of gastrointestinal tract pathways that lead to isotonic fluid loss?",
+      "answer": "Diarrhea, vomiting, and gastric suction."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Why are patients with hypotonic dehydration highly susceptible to hypovolemic shock?",
+      "answer": "The ECF volume decreases markedly as water moves into the cells."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the typical etiology for hypertonic dehydration involving intake?",
+      "answer": "Inadequate water gain (e.g., no water to drink)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the effect of insensible evaporation from the skin and lungs on dehydration type?",
+      "answer": "It primarily causes hypertonic dehydration due to pure water loss."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which dehydration type is most commonly associated with hemorrhage or extensive burns?",
+      "answer": "Isotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What happens to the ICF volume in hypertonic dehydration?",
+      "answer": "It decreases markedly."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "In the early stages of hypotonic dehydration, what happens to the circulating blood volume?",
+      "answer": "It decreases, leading to susceptibility to shock."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the most appropriate fluid replacement for a patient with hypertonic dehydration?",
+      "answer": "Pure water or hypotonic solutions."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Why does renal tubular acidosis lead to sodium loss?",
+      "answer": "Due to the retention of $H^{+}$ and impaired sodium reabsorption in the collecting ducts."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which dehydration type is characterized by a significant decrease in both ECF osmolality and ECF volume?",
+      "answer": "Hypotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What clinical manifestation is specifically associated with the high ECF osmolality of hypertonic dehydration?",
+      "answer": "Thirst."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How does chronic inflammation or genetic defects typically lead to endocrine-related fluid issues?",
+      "answer": "By causing hormone hyposecretion, such as reduced aldosterone."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Identify one extrarenal factor that leads to hypotonic dehydration via the skin.",
+      "answer": "Sensible perspiration (sweating)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the effect of acute renal failure (polyuria state) on sodium balance?",
+      "answer": "It causes damage to the renal parenchyma leading to sodium wasting."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What determines if water will shift between the ECF and ICF compartments?",
+      "answer": "A change in the osmolality (osmotic pressure) of the ECF."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the urinary sodium concentration in hypotonic dehydration if the loss is extrarenal?",
+      "answer": "Less than $10$ $mmol/L$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the urinary sodium concentration in hypotonic dehydration if the loss occurs via the kidney?",
+      "answer": "Greater than $20$ $mmol/L$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which specific clinical sign is often seen in hypertonic dehydration due to interference with thermoregulation?",
+      "answer": "Dehydration fever."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How do hypothalamic osmoreceptors respond to volume depletion and rising osmolality?",
+      "answer": "They detect the change and trigger thirst and ADH release."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the primary purpose of ADH (Antidiuretic Hormone) release during dehydration?",
+      "answer": "To increase water conservation by the kidneys."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the concept of 'third space' accumulation in the context of dehydration?",
+      "answer": "Fluid accumulating in areas like the peritoneum (peritonitis) where it is not physiologically functional."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the approximate total blood volume as a percentage of body weight?",
+      "answer": "Approximately $8\\%$."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "In hypertonic dehydration, what is the status of the ECF osmolality?",
+      "answer": "It is significantly increased."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the primary mechanism of cell death for beta-cells mentioned in the context of turnover?",
+      "answer": "Apoptosis."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How does the body normally replace apoptotic cells according to the source?",
+      "answer": "Through replication and neogenesis."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which dehydration type is colloquially referred to as 'hypovolemic hyponatremia'?",
+      "answer": "Hypotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which dehydration type is colloquially referred to as 'hypovolemic hypernatremia'?",
+      "answer": "Hypertonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the effect of 'osmotic diuresis' on body fluid compartments?",
+      "answer": "It causes volume depletion and a rise in extracellular osmolality."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Name the condition where ECF volume decreases and the patient is highly susceptible to shock with more sodium lost than water.",
+      "answer": "Hypotonic dehydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What is the urinary volume status typically found in hypotonic dehydration?",
+      "answer": "Urine volume may be 'more or less' depending on the exact etiology (renal vs extrarenal)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "According to the summary, what are the two broad divisions of water metabolism disorders based on fluid volume change?",
+      "answer": "Dehydration and overhydration."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "Which compartment contains the 'bidirectional delivery system' for nutrients and regulatory molecules?",
+      "answer": "Extracellular Fluid (ECF)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "The 'internal environment' for making, storing, and utilizing energy is provided by which compartment?",
+      "answer": "Intracellular Fluid (ICF)."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "How does the osmolality change in ECF affect the ICF in hypertonic dehydration?",
+      "answer": "High ECF osmolality draws water out of the ICF, causing cell shrinkage."
+    },
+    {
+      "category": "Pathophysiology - Dehydration & Fluid Balance",
+      "question": "What specific physiological measurements are preferred over simple weight per unit volume in fluid dynamics?",
+      "answer": "Moles, equivalents, or osmoles."
+    },
+    {
       "category": "Microbiology - Staphylococcus",
       "question": "What is the Gram stain result and typical arrangement of Staphylococcus?",
       "answer": "Gram-positive spherical cells arranged in grape-like clusters."
@@ -1012,6 +1327,11 @@
     },
     {
       "category": "Microbiology - Staphylococcus",
+      "question": "How does coagulase help Staphylococci resist the host immune system?",
+      "answer": "It induces plasma clotting around the bacteria to resist phagocytosis."
+    },
+    {
+      "category": "Microbiology - Staphylococcus",
       "question": "What effect does coagulase have on the localization of a Staphylococcal infection?",
       "answer": "It limits the infection and promotes tissue necrosis."
     },
@@ -1059,6 +1379,11 @@
       "category": "Microbiology - Staphylococcus",
       "question": "List three examples of local pyogenic skin infections caused by Staphylococcus.",
       "answer": "Furuncle (boil), carbuncle, and impetigo."
+    },
+    {
+      "category": "Microbiology - Staphylococcus",
+      "question": "What terms describe the systemic spread of Staphylococcus leading to abscesses in internal organs?",
+      "answer": "Bacteremia and Pyemia."
     },
     {
       "category": "Microbiology - Staphylococcus",
@@ -1517,6 +1842,11 @@
     },
     {
       "category": "Immunology - Antigen",
+      "question": "What is the primary significance of the Rh system in clinical immunology?",
+      "answer": "Its role in hemolytic disease of the newborn."
+    },
+    {
+      "category": "Immunology - Antigen",
       "question": "Why are health workers and the elderly prioritized for annual influenza vaccinations?",
       "answer": "Practicality (limited resources) and risk (contact frequency and complication severity)."
     },
@@ -1762,6 +2092,11 @@
     },
     {
       "category": "Immunology - Antibody",
+      "question": "What is the primary role of the complement system?",
+      "answer": "It is a group of serum proteins that work with antibodies to clear microbes and promote inflammation."
+    },
+    {
+      "category": "Immunology - Antibody",
       "question": "Where are most complement proteins synthesized in the body?",
       "answer": "In the liver"
     },
@@ -1774,6 +2109,11 @@
       "category": "Immunology - Antibody",
       "question": "Which complement protein is the exception to the 'a is smaller, b is larger' nomenclature rule?",
       "answer": "C2 (where C2a is the larger fragment and C2b is the smaller)"
+    },
+    {
+      "category": "Immunology - Antibody",
+      "question": "What temperature and duration are required to inactivate the heat-labile complement system in serum?",
+      "answer": "$56^{\\circ}C$ for 30 minutes"
     },
     {
       "category": "Immunology - Antibody",
@@ -1804,6 +2144,11 @@
       "category": "Immunology - Antibody",
       "question": "What activates the MBL (Lectin) pathway?",
       "answer": "The binding of Mannose-Binding Lectin to mannose residues on the surface of microorganisms."
+    },
+    {
+      "category": "Immunology - Antibody",
+      "question": "How does the complement system contribute to opsonization?",
+      "answer": "By depositing C3b on the surface of pathogens, which is then recognized by receptors on phagocytes."
     },
     {
       "category": "Immunology - Antibody",
@@ -1854,6 +2199,11 @@
       "category": "Immunology - Complement",
       "question": "Which specific complement protein is found in the highest concentration in human serum?",
       "answer": "$C3$"
+    },
+    {
+      "category": "Immunology - Complement",
+      "question": "How does heating immune serum at $56^{\\circ}C$ for 30 minutes affect the complement system?",
+      "answer": "It inactivates the heat-labile complement proteins."
     },
     {
       "category": "Immunology - Complement",
@@ -1957,6 +2307,11 @@
     },
     {
       "category": "Immunology - Complement",
+      "question": "What is the shared terminal sequence of the complement system that leads to cell lysis?",
+      "answer": "The Membrane Attack Complex ($MAC$)"
+    },
+    {
+      "category": "Immunology - Complement",
       "question": "Which complement fragment initiates the assembly of the Membrane Attack Complex ($MAC$)?",
       "answer": "$C5b$"
     },
@@ -1992,6 +2347,11 @@
     },
     {
       "category": "Immunology - Complement",
+      "question": "How does the complement system contribute to 'immune complex clearance'?",
+      "answer": "By solubilizing antigen-antibody complexes and facilitating their removal by the liver and spleen."
+    },
+    {
+      "category": "Immunology - Complement",
       "question": "What is the function of the $C1$ inhibitor ($C1\\text{ }INH$)?",
       "answer": "It prevents the excessive activation of the $C1$ complex in the Classical pathway."
     },
@@ -2004,6 +2364,11 @@
       "category": "Immunology - Complement",
       "question": "Which regulatory protein binds to $C3b$ or $C4b$ and acts as a cofactor for their cleavage by Factor $I$?",
       "answer": "Factor $H$ (for $C3b$) or $C4$-binding protein (for $C4b$)."
+    },
+    {
+      "category": "Immunology - Complement",
+      "question": "What is the function of Factor $I$ in the complement system?",
+      "answer": "It is a serine protease that cleaves and inactivates membrane-bound $C3b$ and $C4b$."
     },
     {
       "category": "Immunology - Complement",
@@ -2034,6 +2399,11 @@
       "category": "Immunology - Complement",
       "question": "Which complement fragment is responsible for 'the amplification loop' in the Alternative pathway?",
       "answer": "$C3b$"
+    },
+    {
+      "category": "Immunology - Complement",
+      "question": "How do human cells distinguish themselves from pathogens to avoid 'friendly fire' from the complement system?",
+      "answer": "They express regulatory proteins like $DAF$, $MCP$, and $CD59$ on their surfaces."
     },
     {
       "category": "Immunology - Complement",
@@ -2181,6 +2551,16 @@
       "answer": "Terminal pathway components ($C5-C9$) or Properdin."
     },
     {
+      "category": "Immunology - Complement",
+      "question": "What is the primary role of the complement system in the 'Disposal system' of the body?",
+      "answer": "Clearance of immune complexes and apoptotic cells."
+    },
+    {
+      "category": "Immunology - Complement",
+      "question": "The complement system is described as a 'cascade' because _____.",
+      "answer": "The activation of one protein leads to the sequential proteolytic activation of the next."
+    },
+    {
       "category": "Microbiology - Streptococcus",
       "question": "What is the typical shape and Gram stain reaction of Streptococcus?",
       "answer": "Gram-positive ($G+$) spherical cells."
@@ -2244,6 +2624,11 @@
       "category": "Microbiology - Streptococcus",
       "question": "Streptococci that produce no hemolysis are referred to as _____.",
       "answer": "$\\gamma$-hemolytic (Nonhemolytic) streptococci."
+    },
+    {
+      "category": "Microbiology - Streptococcus",
+      "question": "The Lancefield classification system divides streptococci into 20 groups based on which antigen?",
+      "answer": "Polysaccharide antigen (Group-specific C-substance)."
     },
     {
       "category": "Microbiology - Streptococcus",
@@ -2384,6 +2769,11 @@
       "category": "Microbiology - Streptococcus",
       "question": "Besides carbon and nitrogen, what are two additional growth factors needed by Streptococcus?",
       "answer": "Vitamins and purines/pyrimidines."
+    },
+    {
+      "category": "Microbiology - Streptococcus",
+      "question": "The M protein helps Streptococcus evade the host immune system by resisting _____.",
+      "answer": "Phagocytosis."
     },
     {
       "category": "Microbiology - Streptococcus",
@@ -3067,6 +3457,11 @@
     },
     {
       "category": "Microbiology - Shigella",
+      "question": "What is the name of the severe systemic disease caused by *Leishmania donovani*?",
+      "answer": "Kala-azar (Visceral Leishmaniasis)"
+    },
+    {
+      "category": "Microbiology - Shigella",
       "question": "In the human body, *Leishmania donovani* exists as an intracellular form called an _____.",
       "answer": "amastigote"
     },
@@ -3124,6 +3519,11 @@
       "category": "Microbiology - Shigella",
       "question": "What are the three main types of bacterial antigens?",
       "answer": "O (somatic), H (flagellar), and K (capsular)."
+    },
+    {
+      "category": "Microbiology - Shigella",
+      "question": "Which type of bacterial infection is characterized by the presence and multiplication of bacteria in the blood with systemic symptoms?",
+      "answer": "Septicemia"
     },
     {
       "category": "Microbiology - Shigella",
@@ -3259,6 +3659,11 @@
       "category": "Microbiology - Salmonella",
       "question": "Some $Salmonella$ strains produce an exotoxin with a mechanism similar to which other enteric pathogen?",
       "answer": "Enterotoxigenic $E. coli$ (ETEC)."
+    },
+    {
+      "category": "Microbiology - Salmonella",
+      "question": "Inside the host, where do $Salmonella$ bacteria primarily multiply to evade the immune system?",
+      "answer": "Inside macrophages."
     },
     {
       "category": "Microbiology - Salmonella",
@@ -3897,6 +4302,11 @@
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
+      "question": "How does the onset of action for the endocrine system compare to that of the nervous system?",
+      "answer": "It has a slower onset but a more sustained action."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
       "question": "Neural signals are spatially delimited, whereas endocrine signals affect _____ tissues and organs simultaneously.",
       "answer": "Multiple"
     },
@@ -3934,6 +4344,16 @@
       "category": "Pathophysiology - Endocrine Module 1",
       "question": "Where are the receptors for Group II hormones (peptides and catecholamines) located?",
       "answer": "The cell surface (plasma membrane)"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "What is the most common form of feedback control used by the endocrine system to maintain homeostasis?",
+      "answer": "Negative feedback"
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 1",
+      "question": "_____ feedback is rare in endocrine systems and is typically used for processes that need to gather momentum, such as childbirth.",
+      "answer": "Positive"
     },
     {
       "category": "Pathophysiology - Endocrine Module 1",
@@ -4424,6 +4844,11 @@
       "category": "Pathophysiology - Endocrine Module 2",
       "question": "How does insulin administration typically affect plasma potassium ($K^+$) levels?",
       "answer": "It increases $K^+$ uptake into cells, lowering plasma levels."
+    },
+    {
+      "category": "Pathophysiology - Endocrine Module 2",
+      "question": "What is the primary metabolic fuel for the central nervous system?",
+      "answer": "Glucose."
     },
     {
       "category": "Pathophysiology - Endocrine Module 2",

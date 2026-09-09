@@ -55,7 +55,9 @@ function updateData() {
         const cleanBase = file.replace(/\.csv$/i, '');
         const parts = cleanBase.split('_');
         
-        if (cleanBase.toLowerCase().startsWith('endocrine')) {
+        if (cleanBase.toLowerCase().includes('dehydration')) {
+             defaultCategory = 'Pathophysiology - Dehydration & Fluid Balance';
+        } else if (cleanBase.toLowerCase().startsWith('endocrine')) {
              const num = parts[1] ? ` ${parts[1]}` : '';
              defaultCategory = `Pathophysiology - Endocrine Module${num}`;
         } else if (parts.length >= 4) {
@@ -93,7 +95,7 @@ function updateData() {
                     answer = columns.slice(1).join(',').trim().replace(/^"|"$/g, '');
                 }
 
-                if (question && answer && !/question|front|stem/i.test(question)) {
+                if (question && answer && !/^(?:question|front|stem)$|\b(?:question\s*stem|card\s*front)\b/i.test(question.trim())) {
                     allCards.push({
                         category: cardCat,
                         question: question,
@@ -240,6 +242,8 @@ function updateQuizData() {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 2';
+            } else if (rawBase.toLowerCase().includes('dehydration')) {
+                moduleName = 'Pathophysiology - Dehydration & Fluid Balance';
             }
             let questions = [];
 
@@ -251,11 +255,11 @@ function updateQuizData() {
                 const keysMap = {};
                 if (keySheetName) {
                     const keyRows = XLSX.utils.sheet_to_json(workbook.Sheets[keySheetName], { header: 1 });
-                    const keyHeaderIdx = keyRows.findIndex(r => r && r.some(c => /correct\s*option|correct\s*answer|correct|^key$/i.test(String(c))));
+                    const keyHeaderIdx = keyRows.findIndex(r => r && r.some(c => /correct\s*option|correct\s*choice|correct\s*answer|correct|^key$/i.test(String(c))));
                     const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
                     const keyHeaders = keyHeaderIdx !== -1 ? keyRows[keyHeaderIdx].map(h => String(h || '').trim()) : [];
                     
-                    const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*answer|correct|^key$/i.test(c));
+                    const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*choice|correct\s*answer|correct|^key$/i.test(c));
                     const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note/i.test(c));
 
                     for (let i = startIdx; i < keyRows.length; i++) {
@@ -281,9 +285,15 @@ function updateQuizData() {
                 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
 
                 // Find header row with Question & Option columns
-                let headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question\s*stem/i.test(String(c))) && r.some(c => /option\s*a|option\s*b|^a$/i.test(String(c))));
+                let headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question\s*stem/i.test(String(c).trim())) && r.some(c => /option\s*a|option\s*b|^a$/i.test(String(c).trim())));
                 if (headerRowIdx === -1) {
-                    headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question/i.test(String(c))) && r.some(c => /option|choice|answer/i.test(String(c))));
+                    headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*stem|question\s*text/i.test(String(c))));
+                }
+                if (headerRowIdx === -1) {
+                    headerRowIdx = rows.findIndex(r => r && r.some(c => /^q#$|^q\s*number$|^id$/i.test(String(c).trim())) && r.some(c => /question|stem/i.test(String(c))));
+                }
+                if (headerRowIdx === -1) {
+                    headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question/i.test(String(c))) && r.some(c => /option|choice|answer/i.test(String(c)) && !/attempted|count/i.test(String(c))));
                 }
                 if (headerRowIdx === -1) headerRowIdx = 0;
 
@@ -308,7 +318,7 @@ function updateQuizData() {
 
                     const qNum = row[0];
                     const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[2] || row[1] || '').trim();
-                    if (!questionText || /score\s*card|instruction|total\s*question/i.test(questionText)) continue;
+                    if (!questionText || /score\s*card|instruction|total\s*question|performance\s*summary/i.test(questionText)) continue;
 
                     let category = moduleName;
                     if (catIdx !== -1 && row[catIdx]) {
@@ -321,13 +331,22 @@ function updateQuizData() {
                         category = 'Endocrine System Section 1';
                     }
                     
-                    const options = [
+                    let finalStem = questionText;
+                    let options = [
                         optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[3] || ''),
                         optBIdx !== -1 ? String(row[optBIdx] || '') : String(row[4] || ''),
                         optCIdx !== -1 ? String(row[optCIdx] || '') : String(row[5] || ''),
                         optDIdx !== -1 ? String(row[optDIdx] || '') : String(row[6] || ''),
                         optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[7] || '')
                     ].map(o => o.replace(/^[A-E]\)\s*/i, '').trim()).filter(Boolean);
+
+                    if (options.length === 0 && /[A-E]\)/i.test(questionText)) {
+                        const parts = questionText.split(/\n?(?=[A-E]\))/);
+                        finalStem = parts[0].trim();
+                        const optPart = parts.slice(1).join('\n');
+                        const rawOptions = optPart.split(/\||\n/).map(o => o.trim()).filter(o => /^[A-E]\)/i.test(o));
+                        options = rawOptions.map(o => o.replace(/^[A-E]\)\s*/i, '').trim());
+                    }
 
                     if (options.length === 0) continue;
 
@@ -353,7 +372,7 @@ function updateQuizData() {
                     questions.push({
                         id: i,
                         category,
-                        question: questionText,
+                        question: finalStem,
                         options,
                         correctIndex,
                         explanation

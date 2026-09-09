@@ -1,4 +1,427 @@
 {
+  "Pathophysiology - Dehydration & Fluid Balance": [
+    {
+      "id": 7,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "In a healthy adult with average body composition, what approximate percentage of total body weight is made up of Total Body Water (TBW)?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "75%",
+        "85%"
+      ],
+      "correctIndex": 2,
+      "explanation": "In a normal adult, total body water (TBW) accounts for approximately 60% of body weight. This percentage varies with age, sex, and body fat content (higher in infants, lower in females and obese individuals)."
+    },
+    {
+      "id": 8,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "Which of the following electrolyte pairs correctly identifies the dominant cation in the Extracellular Fluid (ECF) and Intracellular Fluid (ICF), respectively?",
+      "options": [
+        "ECF: Potassium (K+)",
+        "ECF: Sodium (Na+)",
+        "ECF: Calcium (Ca2+)",
+        "ECF: Chloride (Cl-)",
+        "ECF: Phosphate (PO43-)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sodium (Na+) is the primary cation in the extracellular fluid (ECF) responsible for maintaining ECF volume, whereas potassium (K+) is the dominant cation in the intracellular fluid (ICF)."
+    },
+    {
+      "id": 9,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "How is Total Body Water (TBW) distributed between the Extracellular Fluid (ECF) and Intracellular Fluid (ICF) compartments?",
+      "options": [
+        "ECF: 1/3 of TBW (20% body weight)",
+        "ECF: 2/3 of TBW (40% body weight)",
+        "ECF: 1/2 of TBW (30% body weight)",
+        "ECF: 1/4 of TBW (15% body weight)",
+        "ECF: 1/10 of TBW (6% body weight)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Total body water is divided into ICF (2/3 of TBW, or 40% of total body weight) and ECF (1/3 of TBW, or 20% of total body weight)."
+    },
+    {
+      "id": 10,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "A patient with severe acute diarrhea presents with a serum sodium concentration of 122 mmol/L and plasma osmolality of 260 mOsm/L. How is this type of dehydration classified?",
+      "options": [
+        "Isotonic dehydration",
+        "Hypertonic dehydration",
+        "Hypotonic dehydration (hypovolemic hyponatremia)",
+        "Normonatremic dehydration",
+        "Hypervolemic hyponatremia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hypotonic dehydration occurs when sodium loss exceeds water loss, characterized by serum sodium <130 mmol/L and plasma osmolality <280 mOsm/L."
+    },
+    {
+      "id": 11,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "What is the serum sodium concentration range that defines Isotonic Dehydration?",
+      "options": [
+        "< 120 mmol/L",
+        "< 130 mmol/L",
+        "130 to 150 mmol/L",
+        "150 to 165 mmol/L",
+        "> 165 mmol/L"
+      ],
+      "correctIndex": 2,
+      "explanation": "Isotonic dehydration involves proportionate losses of water and sodium, maintaining serum sodium within the normal physiological range of 130–150 mmol/L and plasma osmolality between 280–310 mOsm/L."
+    },
+    {
+      "id": 12,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "A patient who was trapped in a hot desert without water for 3 days presents with severe thirst, fever, and confusion. Laboratory results show a serum sodium of 158 mmol/L and osmolality of 330 mOsm/L. What is the diagnosis?",
+      "options": [
+        "Hypotonic dehydration",
+        "Isotonic dehydration",
+        "Hypertonic dehydration (hypovolemic hypernatremia)",
+        "Iso-osmolar fluid overload",
+        "Hypovolemic hyponatremia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hypertonic dehydration occurs when water loss exceeds sodium loss, resulting in serum sodium >150 mmol/L and plasma osmolality >310 mOsm/L."
+    },
+    {
+      "id": 13,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "Which of the following physical examination findings is a universal sign of extracellular fluid (ECF) volume depletion?",
+      "options": [
+        "Pitting peripheral edema",
+        "Decreased skin turgor (skin tenting) and sunken eyes",
+        "Jugular venous distension (JV",
+        "",
+        "Pulmonary rales/crackles",
+        "High blood pressure with bounding pulse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extracellular fluid volume deficit manifests as decreased skin turgor, sunken fontanelles in infants, sunken eyeballs, dry mucous membranes, and postural hypotension."
+    },
+    {
+      "id": 14,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "What is the primary organ responsible for regulated physiological water excretion in the human body?",
+      "options": [
+        "Lungs (insensible evaporation)",
+        "Skin (sweat glands)",
+        "Gastrointestinal tract (feces)",
+        "Kidneys (urine output)",
+        "Salivary glands"
+      ],
+      "correctIndex": 3,
+      "explanation": "While lungs, skin, and GI tract contribute to water loss, the kidneys are the primary regulatory organs that dynamically adjust urine volume and osmolality to maintain fluid homeostasis."
+    },
+    {
+      "id": 15,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "How does an increased body fat content (obesity) affect the percentage of Total Body Water (TBW) relative to body weight?",
+      "options": [
+        "Increases TBW percentage because fat tissue stores abundant water.",
+        "Decreases TBW percentage because adipose tissue has very low water content.",
+        "Has no effect on TBW percentage.",
+        "Doubles TBW percentage in both males and females.",
+        "Increases ICF water volume while eliminating ECF volume."
+      ],
+      "correctIndex": 1,
+      "explanation": "Adipose tissue is essentially water-free (~10% water) compared to lean muscle tissue (~75% water). Therefore, obese individuals have a significantly lower TBW percentage compared to lean individuals."
+    },
+    {
+      "id": 16,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "Which fluid sub-compartment constitutes approximately 1/4 of the Extracellular Fluid (ECF) volume (or ~5% of body weight)?",
+      "options": [
+        "Intracellular fluid (ICF)",
+        "Interstitial fluid",
+        "Intravascular plasma volume",
+        "Transcellular fluid (CSF/synovial)",
+        "Lymphatic fluid"
+      ],
+      "correctIndex": 2,
+      "explanation": "ECF is divided into Interstitial Fluid (3/4 of ECF, ~15% of body weight) and Intravascular Plasma (1/4 of ECF, ~5% of body weight)."
+    },
+    {
+      "id": 17,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "In an infant with severe gastroenteritis, loss of equal proportions of water and sodium results in which type of fluid disturbance?",
+      "options": [
+        "Isotonic dehydration",
+        "Hypotonic dehydration",
+        "Hypertonic dehydration",
+        "Pure water excess",
+        "Hypernatremic dehydration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Balanced loss of solute and water maintains normal serum sodium concentrations (130–150 mmol/L), producing isotonic dehydration."
+    },
+    {
+      "id": 18,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "What is the normal physiological range for serum/plasma osmolality in humans?",
+      "options": [
+        "100 – 150 mOsm/kg",
+        "200 – 250 mOsm/kg",
+        "280 – 310 mOsm/kg",
+        "350 – 400 mOsm/kg",
+        "450 – 500 mOsm/kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Normal plasma osmolality is strictly maintained between 280 and 310 mOsm/kg (or mOsm/L), primarily governed by sodium, glucose, and urea concentrations."
+    },
+    {
+      "id": 19,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "Which of the following conditions is a primary cause of pure water loss leading to Hypertonic Dehydration?",
+      "options": [
+        "Profuse sweating without fluid replacement in a hot environment",
+        "Overuse of thiazide diuretics",
+        "Addison's disease (aldosterone deficiency)",
+        "Severe secretory diarrhea",
+        "Acute salt-wasting nephropathy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excessive sweating or inadequate water intake in high temperatures causes evaporative water loss exceeding solute loss, leading to hypertonic dehydration."
+    },
+    {
+      "id": 20,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "When a patient experiences fluid loss from vomiting or diarrhea, from which fluid compartment is the water directly withdrawn first?",
+      "options": [
+        "Intracellular Fluid (ICF)",
+        "Extracellular Fluid (ECF)",
+        "Transcellular Fluid",
+        "Cerebrospinal Fluid",
+        "Nuclear matrix fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "All external fluid losses (GI tract, skin, kidneys) directly tap into and deplete the Extracellular Fluid (ECF) compartment first."
+    },
+    {
+      "id": 21,
+      "category": "Level 1: Must-Know (Basic)",
+      "question": "What clinical manifestation is specifically characteristic of severe pediatric dehydration during physical examination?",
+      "options": [
+        "Depressed/sunken anterior fontanelle",
+        "Bulging anterior fontanelle",
+        "Hepatosplenomegaly",
+        "Ascites",
+        "Periorbital puffiness"
+      ],
+      "correctIndex": 0,
+      "explanation": "A sunken anterior fontanelle in infants is a classic physical sign of significant ECF volume depletion and dehydration."
+    },
+    {
+      "id": 22,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "What specific fluid shift occurs between compartments in Hypotonic Dehydration (hypovolemic hyponatremia)?",
+      "options": [
+        "Water shifts from ICF into ECF, causing cellular shrinkage.",
+        "Water shifts from ECF into ICF, causing cellular swelling (edema).",
+        "Sodium shifts from ECF into ICF without water movement.",
+        "Proteins move from plasma into interstitial space.",
+        "No fluid movement occurs across the cell membrane."
+      ],
+      "correctIndex": 1,
+      "explanation": "Because ECF osmolality drops below ICF osmolality (<280 mOsm/L), water moves along the osmotic gradient from ECF into cells (ICF), causing intracellular swelling and further depleting ECF volume."
+    },
+    {
+      "id": 23,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "What fluid movement occurs across cell membranes in Hypertonic Dehydration?",
+      "options": [
+        "Water shifts from ECF into ICF, swelling brain cells.",
+        "Water shifts from ICF into ECF, causing cellular shrinkage (desiccation).",
+        "Sodium moves from ICF into ECF.",
+        "Fluid moves equally in both directions with zero net change.",
+        "Potassium enters the ECF to balance osmotic pressure."
+      ],
+      "correctIndex": 1,
+      "explanation": "Elevated ECF osmolality (>310 mOsm/L) exerts an osmotic pull, drawing water out of the intracellular space (ICF) into the ECF, resulting in cellular dehydration and neuronal shrinkage."
+    },
+    {
+      "id": 24,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "Why are patients with Hypotonic Dehydration significantly more prone to early hypovolemic shock compared to patients with Hypertonic Dehydration?",
+      "options": [
+        "High sodium levels paralyze vascular smooth muscle.",
+        "ECF volume is double-depleted: lost externally AND shifted internally into cells.",
+        "Hypertonic dehydration causes immediate cardiac arrest before shock develops.",
+        "Hypotonic dehydration increases blood viscosity, stopping circulation.",
+        "Water shifts out of cells into circulation, depleting blood volume."
+      ],
+      "correctIndex": 1,
+      "explanation": "In hypotonic dehydration, ECF volume suffers a 'double hit': fluid is lost to the environment AND remaining water shifts into cells due to low ECF osmolality, precipitating rapid vascular collapse and early shock."
+    },
+    {
+      "id": 25,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "How does chronic Loop or Thiazide Diuretic therapy lead to Hypotonic Dehydration if water intake is maintained?",
+      "options": [
+        "Diuretics selectively block water reabsorption without affecting sodium.",
+        "Diuretics inhibit renal tubular sodium reabsorption, causing sodium loss to exceed water loss.",
+        "Diuretics stimulate aldosterone release, causing massive potassium retention.",
+        "Diuretics shut down aquaporin-2 channels in the collecting duct.",
+        "Diuretics cause excessive thirst, diluting the ICF exclusively."
+      ],
+      "correctIndex": 1,
+      "explanation": "Diuretics inhibit renal sodium reabsorption in the nephron, forcing excessive urinary sodium excretion relative to water, driving hypotonic dehydration."
+    },
+    {
+      "id": 26,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "Why does Addison's Disease (primary adrenal insufficiency) cause Hypotonic Dehydration?",
+      "options": [
+        "Deficiency of aldosterone prevents renal sodium reabsorption, causing urinary sodium wasting.",
+        "Excess cortisol triggers massive free water excretion in renal tubules.",
+        "High ACTH levels directly inhibit thirst centers in the hypothalamus.",
+        "Absence of epinephrine causes peripheral vasodilation and sweating.",
+        "Aldosterone deficiency blocks intestinal glucose absorption."
+      ],
+      "correctIndex": 0,
+      "explanation": "Aldosterone stimulates renal sodium reabsorption (via ENaC/Na+-K+ ATPase). In Addison's disease, lack of aldosterone leads to uncompensated renal sodium wasting, resulting in hypotonic dehydration."
+    },
+    {
+      "id": 27,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "In Central Diabetes Insipidus, what is the underlying mechanism responsible for causing severe Hypertonic Dehydration?",
+      "options": [
+        "Insufficient ADH (Vasopressin) secretion leads to uncompensated excretion of dilute urine.",
+        "Overproduction of ADH causes massive renal sodium retention.",
+        "Renal insensitivity to aldosterone leads to salt wasting.",
+        "Destruction of renal principal cells prevents potassium excretion.",
+        "Excess thirst leads to water intoxication and hypernatremia."
+      ],
+      "correctIndex": 0,
+      "explanation": "Central DI is caused by lack of ADH release from the posterior pituitary, preventing aquaporin-2 insertion in collecting ducts, causing massive hypotonic polyuria and hypertonic dehydration."
+    },
+    {
+      "id": 28,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "What is the intravenous fluid of choice for acute emergency volume resuscitation in a hypotonic or isotonic hypovolemic shock state?",
+      "options": [
+        "5% Dextrose in Water (D5W)",
+        "0.9% Normal Saline (Isotonic NaCl)",
+        "3% Hypertonic Saline",
+        "Sterile Distilled Water",
+        "0.45% Half-Normal Saline"
+      ],
+      "correctIndex": 1,
+      "explanation": "0.9% Normal Saline is an isotonic crystalloid that remains within the ECF compartment, rapidly restoring intravascular volume and blood pressure without causing sudden osmotic fluid shifts."
+    },
+    {
+      "id": 29,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "Why must severe hypertonic dehydration be corrected SLOWLY over 24–48 hours rather than rapidly with hypotonic fluids?",
+      "options": [
+        "Rapid rehydration triggers acute renal failure via vasoconstriction.",
+        "Rapid drop in ECF osmolality causes water to rush into idiogenic-osmole-loaded brain cells, causing fatal cerebral edema.",
+        "Slow rehydration causes severe cardiac arrhythmias.",
+        "Hypotonic fluids trigger acute systemic hemolysis of red blood cells.",
+        "Rapid glucose administration induces severe metabolic alkalosis."
+      ],
+      "correctIndex": 1,
+      "explanation": "Brain cells adapt to hypertonicity by producing intracellular idiogenic osmoles. Rapidly lowering ECF osmolality causes massive water influx into brain cells, leading to cerebral edema, seizures, and herniation."
+    },
+    {
+      "id": 30,
+      "category": "Level 2: Should-Know (Intermediate)",
+      "question": "Which clinical sign is uniquely prominent in severe Hypertonic Dehydration due to central nervous system cellular shrinkage?",
+      "options": [
+        "Muscle flaccidity and hyporeflexia",
+        "CNS irritability, muscle twitching, hyperreflexia, and somnolence",
+        "Early circulatory shock with warm flushed skin",
+        "Massive pitting peripheral edema",
+        "Bradycardia and hypothermia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cellular desiccation and shrinkage of brain neurons in hypertonic dehydration manifest as CNS hyperexcitability, twitching, hyperreflexia, disorientation, and lethargy."
+    },
+    {
+      "id": 31,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "A patient with hypotonic dehydration has a spot urinary sodium level of 6 mmol/L (<10 mmol/L). What does this laboratory value indicate regarding the etiology?",
+      "options": [
+        "Renal sodium wasting (e.g., diuretic overuse or Addison's disease)",
+        "Extrarenal sodium loss (e.g., severe vomiting, diarrhea, or burns) with intact renal conservation",
+        "Acute tubular necrosis causing inability to reabsorb sodium",
+        "Syndrome of Inappropriate ADH secretion (SIADH)",
+        "High dietary sodium intake exceeding renal threshold"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urinary Na+ <10 mmol/L confirms that the kidneys are responding normally to hypovolemia by maximally reabsorbing sodium, pointing to extrarenal sodium loss (GI tract or skin)."
+    },
+    {
+      "id": 32,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "A spot urinary sodium level >20 mmol/L in a patient with hypotonic dehydration points to which underlying pathological mechanism?",
+      "options": [
+        "Extrarenal fluid loss from profuse sweating",
+        "Renal sodium wasting due to kidney damage, diuretics, or adrenal insufficiency",
+        "Maximum renal renin and aldosterone activation",
+        "Severe water intoxication with normal kidneys",
+        "Normal response to extrarenal severe diarrhea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urinary Na+ >20 mmol/L during hypovolemic hypotonic dehydration indicates renal sodium wasting (the kidney itself is failing to conserve sodium, e.g. due to diuretics, renal disease, or lack of aldosterone)."
+    },
+    {
+      "id": 33,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "What is the underlying physiological mechanism responsible for 'Dehydration Fever' in infants with hypertonic dehydration?",
+      "options": [
+        "Direct stimulation of hypothalamic thermoregulatory set-point by elevated sodium.",
+        "Severe volume depletion impairs sweating and cutaneous heat dissipation.",
+        "Endogenous pyrogen release from shrunken brain astrocytes.",
+        "Bacterial translocation across the ischemic intestinal barrier.",
+        "Inhibition of thyroid hormone clearance in liver tissue."
+      ],
+      "correctIndex": 1,
+      "explanation": "Dehydration fever occurs because profound water deficit causes extreme peripheral vasoconstriction and suppresses perspiration, disabling the body's evaporative heat dissipation mechanisms."
+    },
+    {
+      "id": 34,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "In severe hypovolemic hypotonic dehydration, how does the body's homeostatic system respond to the conflicting signals of low osmolality vs. severe blood volume depletion?",
+      "options": [
+        "Osmoreceptors completely suppress ADH, causing massive diuresis.",
+        "Non-osmotic baroreceptor signals override osmoreceptors, triggering massive ADH release to defend blood volume.",
+        "ANP secretion surges to excrete remaining sodium.",
+        "RAAS shuts down completely to preserve intracellular volume.",
+        "Thirst centers are inhibited to prevent hyponatremia."
+      ],
+      "correctIndex": 1,
+      "explanation": "When ECF volume depletion exceeds 10–15%, hemodynamic baroreceptors trigger non-osmotic ADH release that overrides osmoreceptor inhibition, defending intravascular volume at the expense of osmolality."
+    },
+    {
+      "id": 35,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "How do plasma colloidal osmotic pressure (oncotic pressure) and crystalloid osmotic pressure differ in their functional role across fluid compartments?",
+      "options": [
+        "Crystalloid pressure acts across capillary walls; oncotic pressure acts across cell membranes.",
+        "Plasma proteins (albumin) generate oncotic pressure holding fluid in capillaries; sodium drives crystalloid pressure moving water across cell membranes.",
+        "Oncotic pressure is governed by sodium; crystalloid pressure is governed by potassium.",
+        "Both pressures act identically across cell membranes without distinction.",
+        "Crystalloid pressure is present only in ICF; oncotic pressure is present only in transcellular fluid."
+      ],
+      "correctIndex": 1,
+      "explanation": "Colloid oncotic pressure (generated by plasma albumin) governs fluid exchange across capillary endothelium (Starling forces), whereas crystalloid osmotic pressure (driven by sodium) governs fluid shifts across cell membranes."
+    },
+    {
+      "id": 36,
+      "category": "Level 3: Advanced (Nice-to-Know)",
+      "question": "During physiological compensation for isotonic dehydration, how does the Renin-Angiotensin-Aldosterone System (RAAS) act to restore volume balance?",
+      "options": [
+        "Angiotensin II causes renal vasodilation and aldosterone inhibits sodium reabsorption.",
+        "Renin cleavage of angiotensinogen leads to Angiotensin II vasoconstriction and Aldosterone insertion of ENaC channels in collecting ducts.",
+        "RAAS suppresses proximal tubule bicarbonate reabsorption.",
+        "Aldosterone stimulates renal excretion of both sodium and water.",
+        "Renin directly inserts aquaporin-4 channels into vascular endothelium."
+      ],
+      "correctIndex": 1,
+      "explanation": "Renal hypoperfusion activates RAAS: Angiotensin II causes systemic vasoconstriction and stimulates aldosterone, which upregulates apical ENaC channels and basolateral Na+-K+ ATPase in principal cells to maximize renal sodium and water retention."
+    }
+  ],
   "Endocrine System - Module 1": [
     {
       "id": 8,
