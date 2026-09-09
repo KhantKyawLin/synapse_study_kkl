@@ -100,6 +100,11 @@ export function AuthProvider({ children }) {
       return;
     }
 
+    // Safety timeout: Never keep the app waiting longer than 2.5 seconds for initial session check
+    const timeoutId = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+
     // Check if URL contains type=recovery
     if (window.location.hash && window.location.hash.includes('type=recovery')) {
       setAuthModalMode('newpassword');
@@ -107,25 +112,36 @@ export function AuthProvider({ children }) {
     }
 
     // Get initial session
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      const currentUser = session?.user ?? null;
-      setUser(currentUser);
-      if (currentUser) {
-        fetchProfile(currentUser);
-      }
-      setLoading(false);
-    });
+    supabase.auth.getSession()
+      .then(({ data: { session } = {} }) => {
+        setSession(session || null);
+        const currentUser = session?.user ?? null;
+        setUser(currentUser);
+        if (currentUser) {
+          fetchProfile(currentUser).catch((err) => console.warn('fetchProfile error:', err));
+        }
+      })
+      .catch((err) => {
+        console.warn('Initial session check note (offline or network stall):', err);
+      })
+      .finally(() => {
+        clearTimeout(timeoutId);
+        setLoading(false);
+      });
 
     // Listen to auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      setSession(session);
+      setSession(session || null);
       const currentUser = session?.user ?? null;
       setUser(currentUser);
       setLoading(false);
 
       if (currentUser) {
-        await fetchProfile(currentUser);
+        try {
+          await fetchProfile(currentUser);
+        } catch (err) {
+          console.warn('Auth change profile fetch note:', err);
+        }
       } else {
         setUserProfile(null);
         setIsAdmin(false);
@@ -138,6 +154,7 @@ export function AuthProvider({ children }) {
     });
 
     return () => {
+      clearTimeout(timeoutId);
       subscription.unsubscribe();
     };
   }, [fetchProfile]);
