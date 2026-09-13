@@ -340,12 +340,23 @@ function updateQuizData() {
                         optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[7] || '')
                     ].map(o => o.replace(/^[A-E]\)\s*/i, '').trim()).filter(Boolean);
 
-                    if (options.length === 0 && /[A-E]\)/i.test(questionText)) {
-                        const parts = questionText.split(/\n?(?=[A-E]\))/);
-                        finalStem = parts[0].trim();
-                        const optPart = parts.slice(1).join('\n');
-                        const rawOptions = optPart.split(/\||\n/).map(o => o.trim()).filter(o => /^[A-E]\)/i.test(o));
-                        options = rawOptions.map(o => o.replace(/^[A-E]\)\s*/i, '').trim());
+                    if (options.length <= 1) {
+                        const candidateText = (options.length === 1 && /[B-E]\)/i.test(options[0])) 
+                            ? options[0] 
+                            : (/[A-E]\)/i.test(questionText) ? questionText : '');
+
+                        if (candidateText) {
+                            if (candidateText === questionText) {
+                                const parts = questionText.split(/\n?(?=[A-E]\))/);
+                                finalStem = parts[0].trim();
+                                const optPart = parts.slice(1).join('\n');
+                                const rawOptions = optPart.split(/\||\n/).map(o => o.trim()).filter(o => /^[A-E]\)/i.test(o));
+                                options = rawOptions.map(o => o.replace(/^[A-E]\)\s*/i, '').trim());
+                            } else {
+                                const parts = candidateText.split(/\r?\n(?=[A-E]\)|\([A-E]\)|[A-E]\.)|\s+(?=[B-E]\)|\([B-E]\)|[B-E]\.)/i);
+                                options = parts.map(p => p.replace(/^(?:[A-E]\)|\([A-E]\)|[A-E]\.)\s*/i, '').trim()).filter(Boolean);
+                            }
+                        }
                     }
 
                     if (options.length === 0) continue;

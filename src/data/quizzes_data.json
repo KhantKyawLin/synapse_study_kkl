@@ -428,7 +428,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which of the following endocrine organs is situated at the base of the brain, acts as the master coordinating 'conductor' of the endocrine system, and secretes regulatory hypophysiotropic hormones?",
       "options": [
-        "Anterior Pituitary Gland\nB) Posterior Pituitary Gland\nC) Thalamus\nD) Hypothalamus\nE) Thyroid Gland"
+        "Anterior Pituitary Gland",
+        "Posterior Pituitary Gland",
+        "Thalamus",
+        "Hypothalamus",
+        "Thyroid Gland"
       ],
       "correctIndex": 3,
       "explanation": "The hypothalamus is situated at the base of the brain and acts as the master integrating center or 'conductor' of the endocrine system, regulating the anterior pituitary through hypophysiotropic releasing hormones (such as CRH, TRH, and GnRH)."
@@ -438,7 +442,11 @@
       "category": "Basic (Must-Know)",
       "question": "What is the primary difference in transmission speed and spatial specificity between neural and endocrine communication?",
       "options": [
-        "Neural is rapid and highly targeted; endocrine is slower and broadcasted systemically through blood.\nB) Neural is slow and broadcasted; endocrine is rapid and highly localized.\nC) Neural operates over hours; endocrine operates in milliseconds.\nD) Both utilize identical electrical circuits with no difference in speed or distribution.\nE) Neural communication reaches all tissues simultaneously; endocrine is point-to-point."
+        "Neural is rapid and highly targeted; endocrine is slower and broadcasted systemically through blood.",
+        "Neural is slow and broadcasted; endocrine is rapid and highly localized.",
+        "Neural operates over hours; endocrine operates in milliseconds.",
+        "Both utilize identical electrical circuits with no difference in speed or distribution.",
+        "Neural communication reaches all tissues simultaneously; endocrine is point-to-point."
       ],
       "correctIndex": 0,
       "explanation": "Neural communication is high-speed and spatially targeted (point-to-point electrical/chemical), whereas endocrine communication is slower, broader, and broadcasted systemically through the bloodstream."
@@ -448,7 +456,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which of the following best describes the synthesis and storage characteristics of hydrophilic peptide hormones (Group II)?",
       "options": [
-        "Synthesized on demand from cholesterol and cannot be stored.\nB) Synthesized in the cytoplasm as active amines and stored in lipid droplets.\nC) Synthesized as inactive preprohormones, processed, and stored in membrane-bound secretory vesicles.\nD) Produced only in response to a drop in nuclear receptor transcription with zero storage capacity.\nE) Synthesized inside the mitochondria and released via simple passive diffusion instantly."
+        "Synthesized on demand from cholesterol and cannot be stored.",
+        "Synthesized in the cytoplasm as active amines and stored in lipid droplets.",
+        "Synthesized as inactive preprohormones, processed, and stored in membrane-bound secretory vesicles.",
+        "Produced only in response to a drop in nuclear receptor transcription with zero storage capacity.",
+        "Synthesized inside the mitochondria and released via simple passive diffusion instantly."
       ],
       "correctIndex": 2,
       "explanation": "Peptide hormones are synthesized as inactive preprohormones in the ribosomes/RER, processed into prohormones and mature hormones in the Golgi, and stored in membrane-bound vesicles until calcium-triggered exocytosis."
@@ -458,7 +470,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which of the following classifications correctly pairs hormone group with its solubility characteristics?",
       "options": [
-        "Group I is hydrophilic (water-soluble); Group II is lipophilic (lipid-soluble).\nB) Group I is lipophilic (hydrophobic); Group II is hydrophilic (lipophobic).\nC) Both Group I and Group II are entirely insoluble in both water and organic solvents.\nD) Group I dissolves freely in blood plasma; Group II requires specialized transport carrier proteins.\nE) Group I hormones have cell-surface receptors; Group II hormones have nuclear receptors."
+        "Group I is hydrophilic (water-soluble); Group II is lipophilic (lipid-soluble).",
+        "Group I is lipophilic (hydrophobic); Group II is hydrophilic (lipophobic).",
+        "Both Group I and Group II are entirely insoluble in both water and organic solvents.",
+        "Group I dissolves freely in blood plasma; Group II requires specialized transport carrier proteins.",
+        "Group I hormones have cell-surface receptors; Group II hormones have nuclear receptors."
       ],
       "correctIndex": 1,
       "explanation": "Group I hormones are lipophilic (hydrophobic/lipid-soluble) and include steroids and thyroid hormones. Group II hormones are hydrophilic (lipophobic/water-soluble) and include peptides and catecholamines."
@@ -468,7 +484,11 @@
       "category": "Basic (Must-Know)",
       "question": "In a classic negative feedback loop, such as the HPT axis, what is the 'long-loop' feedback effect?",
       "options": [
-        "Hypothalamic releasing hormones acting locally to inhibit their own further release.\nB) Pituitary tropic hormones traveling back to inhibit hypothalamic releasing factor secretion.\nC) Target tissues upregulating cell-surface receptors to increase hormone clearance.\nD) Pituitary tropic hormones stimulating the target gland to overproduce hormones.\nE) The final peripheral target hormone traveling in the blood to inhibit releasing and tropic secretion from both the hypothalamus and pituitary."
+        "Hypothalamic releasing hormones acting locally to inhibit their own further release.",
+        "Pituitary tropic hormones traveling back to inhibit hypothalamic releasing factor secretion.",
+        "Target tissues upregulating cell-surface receptors to increase hormone clearance.",
+        "Pituitary tropic hormones stimulating the target gland to overproduce hormones.",
+        "The final peripheral target hormone traveling in the blood to inhibit releasing and tropic secretion from both the hypothalamus and pituitary."
       ],
       "correctIndex": 4,
       "explanation": "Long-loop negative feedback occurs when the final peripheral target hormone (e.g., Thyroxine or Cortisol) travels in the systemic circulation to inhibit further secretion from both the master hypothalamus and pituitary gland."
@@ -478,7 +498,11 @@
       "category": "Basic (Must-Know)",
       "question": "Where are the posterior pituitary hormones, Vasopressin (ADH) and Oxytocin, originally synthesized?",
       "options": [
-        "In the magnocellular neurons of the hypothalamus.\nB) In the chromophobe cells of the anterior pituitary.\nC) In the epithelial cells of Rathke's pouch.\nD) In the adrenal cortex glomerulosa cells.\nE) Inside the secretory granules of the posterior pituitary pituicytes."
+        "In the magnocellular neurons of the hypothalamus.",
+        "In the chromophobe cells of the anterior pituitary.",
+        "In the epithelial cells of Rathke's pouch.",
+        "In the adrenal cortex glomerulosa cells.",
+        "Inside the secretory granules of the posterior pituitary pituicytes."
       ],
       "correctIndex": 0,
       "explanation": "Vasopressin (ADH) and Oxytocin are synthesized in the cell bodies of magnocellular neurons located in the supraoptic (SON) and paraventricular (PVN) nuclei of the hypothalamus. They are then transported down unmyelinated axons and stored in Herring bodies in the posterior pituitary."
@@ -488,7 +512,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which of the following is the primary plasma carrier protein for Thyroxine (T4) and Triiodothyronine (T3)?",
       "options": [
-        "Corticosteroid-Binding Globulin (CBG)\nB) Thyroxine-Binding Globulin (TBG)\nC) Sex Hormone-Binding Globulin (SHBG)\nD) Lipoprotein Lipase (LPL)\nE) Transferrin"
+        "Corticosteroid-Binding Globulin (CBG)",
+        "Thyroxine-Binding Globulin (TBG)",
+        "Sex Hormone-Binding Globulin (SHBG)",
+        "Lipoprotein Lipase (LPL)",
+        "Transferrin"
       ],
       "correctIndex": 1,
       "explanation": "Thyroid hormones (T3/T4) are lipophilic and poorly soluble in water; they are transported in the circulation bound primarily to Thyroxine-Binding Globulin (TBG), as well as albumin and transthyretin."
@@ -498,7 +526,11 @@
       "category": "Basic (Must-Know)",
       "question": "What is the absolute requirement for a cell to be considered a 'target cell' for a specific circulating hormone?",
       "options": [
-        "It must be located adjacent to the secreting endocrine gland.\nB) It must express specific GLUT-4 glucose transporters on its plasma membrane.\nC) It must express high-affinity, functional receptors specific to that hormone.\nD) It must be derived from neural crest ectoderm embryonic tissue.\nE) It must possess active Na+/K+ ATPase pumps on its nuclear membrane."
+        "It must be located adjacent to the secreting endocrine gland.",
+        "It must express specific GLUT-4 glucose transporters on its plasma membrane.",
+        "It must express high-affinity, functional receptors specific to that hormone.",
+        "It must be derived from neural crest ectoderm embryonic tissue.",
+        "It must possess active Na+/K+ ATPase pumps on its nuclear membrane."
       ],
       "correctIndex": 2,
       "explanation": "Endocrine hormones are broadcasted systemically to all tissues. Specificity is dictated solely by whether a cell expresses a functional, high-affinity receptor that can bind and translate that specific hormone signal."
@@ -508,7 +540,11 @@
       "category": "Basic (Must-Know)",
       "question": "In the secretion of peptide hormones, what intracellular event serves as the universal direct trigger for secretory vesicle exocytosis?",
       "options": [
-        "Activation of nuclear histone deacetylase (HDAC).\nB) Passive efflux of chloride ions across the cell membrane.\nC) Phosphorylation of the steroid hormone response element (HRE).\nD) Influx of extracellular Calcium ions (Ca2+) raising cytosolic levels.\nE) Nuclear translocation of unliganded receptor monomers."
+        "Activation of nuclear histone deacetylase (HDAC).",
+        "Passive efflux of chloride ions across the cell membrane.",
+        "Phosphorylation of the steroid hormone response element (HRE).",
+        "Influx of extracellular Calcium ions (Ca2+) raising cytosolic levels.",
+        "Nuclear translocation of unliganded receptor monomers."
       ],
       "correctIndex": 3,
       "explanation": "Exocytosis of stored peptide hormones and neurotransmitters is universally triggered by membrane depolarization opening voltage-gated Calcium channels, leading to a rapid influx of extracellular Ca2+ that drives vesicle fusion."
@@ -518,7 +554,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which of the following is considered the master anabolic hormone responsible for energy storage and fuel retention in the fed state?",
       "options": [
-        "Insulin\nB) Glucagon\nC) Cortisol\nD) Growth Hormone\nE) Epinephrine"
+        "Insulin",
+        "Glucagon",
+        "Cortisol",
+        "Growth Hormone",
+        "Epinephrine"
       ],
       "correctIndex": 0,
       "explanation": "Insulin is the primary anabolic 'hormone of storage' released in response to postprandial hyperglycemia. It stimulates the storage of glucose as glycogen (glycogenesis) and fat as triglycerides (lipogenesis)."
@@ -528,7 +568,11 @@
       "category": "Basic (Must-Know)",
       "question": "What is the primary physiological function of Glucagon secreted by pancreatic alpha-cells?",
       "options": [
-        "To stimulate skeletal muscle GLUT-4 translocation to clear glucose.\nB) To promote fatty acid synthesis and lipogenesis in visceral fat cells.\nC) To mobilize stored glycogen and drive hepatic glucose output during hypoglycemia.\nD) To inhibit the HPT axis and slow down basal metabolic rate.\nE) To trigger protein synthesis and cellular mitosis across all systemic tissues."
+        "To stimulate skeletal muscle GLUT-4 translocation to clear glucose.",
+        "To promote fatty acid synthesis and lipogenesis in visceral fat cells.",
+        "To mobilize stored glycogen and drive hepatic glucose output during hypoglycemia.",
+        "To inhibit the HPT axis and slow down basal metabolic rate.",
+        "To trigger protein synthesis and cellular mitosis across all systemic tissues."
       ],
       "correctIndex": 2,
       "explanation": "Glucagon is released during hypoglycemia/fasting. It binds to GPCRs on hepatocytes to stimulate glycogen breakdown (glycogenolysis) and gluconeogenesis, releasing glucose into the blood to maintain glycemic balance."
@@ -538,7 +582,11 @@
       "category": "Basic (Must-Know)",
       "question": "The selective autoimmune T-cell-mediated destruction of pancreatic beta-cells in Type 1 Diabetes is a classic clinical example of which mechanism of endocrine disease?",
       "options": [
-        "Hormone Excess (Hyperfunction)\nB) Hormone Deficiency (Hypofunction)\nC) Hormone Resistance (Insensitivity)\nD) Ectopic Hormone Production\nE) Target Cell Receptor Hypersensitivity"
+        "Hormone Excess (Hyperfunction)",
+        "Hormone Deficiency (Hypofunction)",
+        "Hormone Resistance (Insensitivity)",
+        "Ectopic Hormone Production",
+        "Target Cell Receptor Hypersensitivity"
       ],
       "correctIndex": 1,
       "explanation": "Type 1 Diabetes Mellitus involves a primary hormone deficiency (hypofunction) resulting from progressive, chronic autoimmune destruction of the insulin-producing pancreatic beta-cells."
@@ -548,7 +596,11 @@
       "category": "Basic (Must-Know)",
       "question": "A patient presents with severe fatigue and weight gain. Laboratory tests reveal a primary thyroid gland failure (Hashimoto's). What is the expected hormone profile?",
       "options": [
-        "High Free T4, High TSH\nB) High Free T4, Low TSH\nC) Normal Free T4, Normal TSH\nD) Low Free T4, Low TSH\nE) Low Free T4, High TSH"
+        "High Free T4, High TSH",
+        "High Free T4, Low TSH",
+        "Normal Free T4, Normal TSH",
+        "Low Free T4, Low TSH",
+        "Low Free T4, High TSH"
       ],
       "correctIndex": 4,
       "explanation": "In primary hypothyroidism (Hashimoto's), the failing thyroid gland produces inadequate hormone (Low Free T4). The lack of negative feedback on the pituitary removes the brake system, driving a compensatory, massive rise in TSH (High TSH)."
@@ -558,7 +610,11 @@
       "category": "Basic (Must-Know)",
       "question": "Which hormone class is secreted by the adrenal medulla, and what is its primary physiological trigger?",
       "options": [
-        "Mineralocorticoids, triggered by high potassium levels.\nB) Glucocorticoids, triggered by ACTH pituitary surges.\nC) Thyroid hormones, triggered by cold environmental temperatures.\nD) Catecholamines (Epinephrine/Norepinephrine), triggered by preganglionic sympathetic neural stimulation.\nE) Gonadotropins, triggered by pulsatile GnRH hypothalamic releases."
+        "Mineralocorticoids, triggered by high potassium levels.",
+        "Glucocorticoids, triggered by ACTH pituitary surges.",
+        "Thyroid hormones, triggered by cold environmental temperatures.",
+        "Catecholamines (Epinephrine/Norepinephrine), triggered by preganglionic sympathetic neural stimulation.",
+        "Gonadotropins, triggered by pulsatile GnRH hypothalamic releases."
       ],
       "correctIndex": 3,
       "explanation": "The adrenal medulla contains chromaffin cells derived from neural crest ectoderm. They act as modified sympathetic neurons that synthesize and store catecholamines (mostly epinephrine), releasing them in response to sympathetic preganglionic splanchnic nerve stimulation."
@@ -568,7 +624,11 @@
       "category": "Basic (Must-Know)",
       "question": "What is the primary distinction between 'short-loop' and 'long-loop' negative feedback in an endocrine axis?",
       "options": [
-        "Short-loop involves pituitary tropic hormones inhibiting the hypothalamus; long-loop involves peripheral target hormones inhibiting both the hypothalamus and pituitary.\nB) Short-loop operates only inside the target cell; long-loop operates through the portal system.\nC) Short-loop feedback is positive; long-loop feedback is always negative.\nD) Short-loop involves neural circuits; long-loop involves lymphatic drainage.\nE) Short-loop operates over days; long-loop operates in milliseconds."
+        "Short-loop involves pituitary tropic hormones inhibiting the hypothalamus; long-loop involves peripheral target hormones inhibiting both the hypothalamus and pituitary.",
+        "Short-loop operates only inside the target cell; long-loop operates through the portal system.",
+        "Short-loop feedback is positive; long-loop feedback is always negative.",
+        "Short-loop involves neural circuits; long-loop involves lymphatic drainage.",
+        "Short-loop operates over days; long-loop operates in milliseconds."
       ],
       "correctIndex": 0,
       "explanation": "Short-loop negative feedback occurs when pituitary trophic hormones (like TSH or ACTH) travel back to directly inhibit hypothalamic releasing factor secretion. Long-loop feedback occurs when the final target hormone (like T4 or Cortisol) inhibits both."
@@ -578,7 +638,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "Under the Free Hormone Hypothesis, what is the clinical consequence if a pregnant patient experiences a doubling of Thyroxine-Binding Globulin (TBG) due to estrogen stimulation?",
       "options": [
-        "She develops severe, symptomatic clinical hypothyroidism requiring high-dose treatment.\nB) Her Total T4 level doubles, but her Free T4 and TSH levels remain normal, keeping her clinically euthyroid.\nC) Her Free T4 doubles, triggering a life-threatening thyroid storm.\nD) Her TSH drops to zero and she develops graves-like exophthalmos.\nE) Her thyroid gland undergoes massive, acute lymphocytic infiltration."
+        "She develops severe, symptomatic clinical hypothyroidism requiring high-dose treatment.",
+        "Her Total T4 level doubles, but her Free T4 and TSH levels remain normal, keeping her clinically euthyroid.",
+        "Her Free T4 doubles, triggering a life-threatening thyroid storm.",
+        "Her TSH drops to zero and she develops graves-like exophthalmos.",
+        "Her thyroid gland undergoes massive, acute lymphocytic infiltration."
       ],
       "correctIndex": 1,
       "explanation": "Estrogen increases hepatic glycosylation of TBG, doubling its plasma concentration. While this temporarily binds more hormone (rising Total T4), feedback loops adjust until the free active hormone fraction (Free T4) and TSH return to normal baseline, keeping her euthyroid."
@@ -588,7 +652,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "Why do Group I lipophilic hormones (like Cortisol) have a plasma half-life of hours to days, whereas Group II hydrophilic hormones (like Insulin) have a half-life of only minutes?",
       "options": [
-        "Group I hormones are actively destroyed by red blood cell enzymes.\nB) Group II hormones are physically protected inside blood plasma carrier proteins.\nC) Group I hormones are highly bound to protective carrier proteins, shielding them from renal filtration and hepatic clearance.\nD) Group II hormones cross the blood-brain barrier instantly, removing them from circulation.\nE) Group I hormones are rapidly filtered out by the glomerulus due to their hydrophobic charge."
+        "Group I hormones are actively destroyed by red blood cell enzymes.",
+        "Group II hormones are physically protected inside blood plasma carrier proteins.",
+        "Group I hormones are highly bound to protective carrier proteins, shielding them from renal filtration and hepatic clearance.",
+        "Group II hormones cross the blood-brain barrier instantly, removing them from circulation.",
+        "Group I hormones are rapidly filtered out by the glomerulus due to their hydrophobic charge."
       ],
       "correctIndex": 2,
       "explanation": "Group I lipophilic hormones are hydrophobic and poorly soluble; they circulate highly bound to specialized carrier proteins, which physically protects them from rapid glomerular filtration and enzymatic degradation, extending their half-life."
@@ -598,7 +666,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "Which of the following intracellular signaling cascades is activated downstream of a stimulatory G-protein-coupled receptor (GPCR-Gs)?",
       "options": [
-        "Inactivation of adenylyl cyclase, lowering cytosolic cAMP, and shutting down PKA.\nB) Translocation of GLUT-4 transporters via the PI3K/Akt pathway.\nC) Autophosphorylation of tyrosine residues and JAK2 recruitment.\nD) Activation of Adenylyl Cyclase, converting ATP to cAMP, which binds to and activates Protein Kinase A (PKA).\nE) Cleavage of membrane-bound PIP2 into IP3 and diacylglycerol (DAG)."
+        "Inactivation of adenylyl cyclase, lowering cytosolic cAMP, and shutting down PKA.",
+        "Translocation of GLUT-4 transporters via the PI3K/Akt pathway.",
+        "Autophosphorylation of tyrosine residues and JAK2 recruitment.",
+        "Activation of Adenylyl Cyclase, converting ATP to cAMP, which binds to and activates Protein Kinase A (PKA).",
+        "Cleavage of membrane-bound PIP2 into IP3 and diacylglycerol (DAG)."
       ],
       "correctIndex": 3,
       "explanation": "Ligand binding to a Gs-coupled receptor triggers the Gs-alpha subunit to exchange GDP for GTP, activate Adenylyl Cyclase, raise intracellular cAMP, and activate Protein Kinase A (PKA) to phosphorylate target metabolic enzymes."
@@ -608,7 +680,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "In the GPCR Gq-coupled pathway, what are the direct signaling products generated by Phospholipase C (PLC) cleavage of membrane Phosphatidylinositol 4,5-bisphosphate (PIP2)?",
       "options": [
-        "Inositol 1,4,5-trisphosphate (IP3) and Diacylglycerol (DAG)\nB) Cyclic AMP (cAMP) and Protein Kinase A (PKA)\nC) Adenosine Triphosphate (ATP) and Phosphodiesterase (PDE)\nD) Tyrosine kinase monomers and Janus Kinase (JAK)\nE) Histone acetyltransferase (HAT) and chromatin corepressors"
+        "Inositol 1,4,5-trisphosphate (IP3) and Diacylglycerol (DAG)",
+        "Cyclic AMP (cAMP) and Protein Kinase A (PKA)",
+        "Adenosine Triphosphate (ATP) and Phosphodiesterase (PDE)",
+        "Tyrosine kinase monomers and Janus Kinase (JAK)",
+        "Histone acetyltransferase (HAT) and chromatin corepressors"
       ],
       "correctIndex": 0,
       "explanation": "Activated Gq-alpha stimulates Phospholipase C (PLC) to cleave the membrane phospholipid PIP2 into two potent second messengers: soluble IP3 (which diffuses to the ER to release Calcium) and membrane-bound DAG (which activates Protein Kinase C)."
@@ -618,7 +694,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "Which of the following molecular cascades correctly describes the metabolic signaling of insulin through its Receptor Tyrosine Kinase (RTK)?",
       "options": [
-        "Gs activation -> Adenylyl Cyclase -> cAMP surge -> PKA -> Phosphorylase Kinase.\nB) Receptor dimerization -> JAK2 activation -> STAT5 phosphorylation -> STAT5 nuclear translocation.\nC) Gq activation -> PLC -> IP3 and DAG -> cytosolic Calcium release.\nD) Direct binding to intracellular nuclear receptor -> recruitment of CBP/p300 with HAT activity.\nE) Ligand binding -> tyrosine autophosphorylation -> recruitment of Insulin Receptor Substrate-1 (IRS-1) -> PI3K/Akt pathway activation -> GLUT-4 transporter translocation."
+        "Gs activation -> Adenylyl Cyclase -> cAMP surge -> PKA -> Phosphorylase Kinase.",
+        "Receptor dimerization -> JAK2 activation -> STAT5 phosphorylation -> STAT5 nuclear translocation.",
+        "Gq activation -> PLC -> IP3 and DAG -> cytosolic Calcium release.",
+        "Direct binding to intracellular nuclear receptor -> recruitment of CBP/p300 with HAT activity.",
+        "Ligand binding -> tyrosine autophosphorylation -> recruitment of Insulin Receptor Substrate-1 (IRS-1) -> PI3K/Akt pathway activation -> GLUT-4 transporter translocation."
       ],
       "correctIndex": 4,
       "explanation": "The insulin receptor is a classic RTK. Binding triggers tyrosine autophosphorylation, docking and phosphorylation of IRS-1, activation of Phosphatidylinositol 3-Kinase (PI3K) and Akt/PKB, driving the translocation of GLUT-4 vesicles to the plasma membrane."
@@ -628,7 +708,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "Which of the following hormones utilizes the cytosolic JAK/STAT (Janus Kinase / Signal Transducer and Activator of Transcription) pathway to coordinate target cell signaling?",
       "options": [
-        "Insulin\nB) Glucagon\nC) Growth Hormone (GH)\nD) Cortisol\nE) Epinephrine"
+        "Insulin",
+        "Glucagon",
+        "Growth Hormone (GH)",
+        "Cortisol",
+        "Epinephrine"
       ],
       "correctIndex": 2,
       "explanation": "Growth Hormone (GH) and Prolactin bind to Class I Cytokine receptors which lack intrinsic kinase activity. Instead, they recruit cytosolic Janus Kinase 2 (JAK2) to phosphorylate the receptor, recruiting and phosphorylating STAT transcription factors."
@@ -638,7 +722,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "During starvation or acute stress, catecholamines bind to adipocyte beta3-adrenergic receptors to stimulate lipolysis. What is the molecular mechanism of this activation?",
       "options": [
-        "Gi activation -> Adenylyl Cyclase suppression -> decreased cAMP -> active HSL.\nB) Gs-GPCR activation -> elevated cAMP -> PKA activation -> phosphorylation and activation of Hormone-Sensitive Lipase (HSL).\nC) Gq-GPCR activation -> PLC cleavage -> IP3 and calcium-calmodulin activation of LPL.\nD) Passive diffusion -> binding nuclear GR -> genomic transcription of ACC.\nE) Tyrosine kinase autophosphorylation -> PI3K activation -> GLUT-4 vesicle insertion."
+        "Gi activation -> Adenylyl Cyclase suppression -> decreased cAMP -> active HSL.",
+        "Gs-GPCR activation -> elevated cAMP -> PKA activation -> phosphorylation and activation of Hormone-Sensitive Lipase (HSL).",
+        "Gq-GPCR activation -> PLC cleavage -> IP3 and calcium-calmodulin activation of LPL.",
+        "Passive diffusion -> binding nuclear GR -> genomic transcription of ACC.",
+        "Tyrosine kinase autophosphorylation -> PI3K activation -> GLUT-4 vesicle insertion."
       ],
       "correctIndex": 1,
       "explanation": "Adipocyte lipolysis is driven by catecholamines binding Gs-coupled beta3-receptors. This raises cAMP, activating PKA, which directly phosphorylates and activates Hormone-Sensitive Lipase (HSL) to hydrolyze triglycerides into free fatty acids and glycerol."
@@ -648,7 +736,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "During the fed state, insulin-induced glycogenesis is highly active, and mitochondrial beta-oxidation of fats is suppressed. What is the molecular 'gatekeeper' mechanism that blocks fat entry into the mitochondria during feeding?",
       "options": [
-        "High levels of insulin-stimulated Malonyl-CoA, which directly inhibits Carnitine Palmitoyltransferase-I (CPT-I).\nB) The direct allosteric inactivation of Hormone-Sensitive Lipase by GLUT-4 transport.\nC) Dephosphorylation of PEPCK by Protein Phosphatase-1 (PP-1).\nD) Nuclear sequestration of the thyroid hormone receptor (TR) by GKRP.\nE) The accumulation of acetoacetate in the cytosolic compartment."
+        "High levels of insulin-stimulated Malonyl-CoA, which directly inhibits Carnitine Palmitoyltransferase-I (CPT-I).",
+        "The direct allosteric inactivation of Hormone-Sensitive Lipase by GLUT-4 transport.",
+        "Dephosphorylation of PEPCK by Protein Phosphatase-1 (PP-1).",
+        "Nuclear sequestration of the thyroid hormone receptor (TR) by GKRP.",
+        "The accumulation of acetoacetate in the cytosolic compartment."
       ],
       "correctIndex": 0,
       "explanation": "Feeding drives insulin release, activating Acetyl-CoA Carboxylase (ACC) to generate Malonyl-CoA (the first committed step of lipogenesis). Malonyl-CoA directly inhibits Carnitine Palmitoyltransferase-I (CPT-I), blocking fatty acid entry into mitochondria and preventing beta-oxidation."
@@ -658,7 +750,11 @@
       "category": "Intermediate (Should-Know)",
       "question": "A patient is diagnosed with primary adrenal insufficiency (Addison's disease). Which of the following sets of biochemical serum abnormalities is most characteristic of this condition?",
       "options": [
-        "Hypernatremia, hypokalemia, and metabolic alkalosis.\nB) Hyponatremia, hyperkalemia, and metabolic alkalosis.\nC) Normal sodium, normal potassium, and respiratory acidosis.\nD) Hyponatremia, hyperkalemia, and hyperchloremic metabolic acidosis.\nE) Hypernatremia, hyperkalemia, and lactic acidosis."
+        "Hypernatremia, hypokalemia, and metabolic alkalosis.",
+        "Hyponatremia, hyperkalemia, and metabolic alkalosis.",
+        "Normal sodium, normal potassium, and respiratory acidosis.",
+        "Hyponatremia, hyperkalemia, and hyperchloremic metabolic acidosis.",
+        "Hypernatremia, hyperkalemia, and lactic acidosis."
       ],
       "correctIndex": 3,
       "explanation": "Addison's disease destroys the entire adrenal cortex, depleting both cortisol and aldosterone. The absolute loss of aldosterone impairs renal ENaC sodium reabsorption and blocks potassium and hydrogen ion excretion, causing hyponatremia, hyperkalemia, and metabolic acidosis (Type IV RTA)."
@@ -668,7 +764,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "The nuclear receptor superfamily features highly conserved modular domains. Which domain is structurally characterized by highly specific zinc-finger motifs that physically latch onto double-stranded DNA?",
       "options": [
-        "The AF-1 domain located at the amino-terminus.\nB) The Ligand-Binding Domain (LBD) located at the carboxy-terminus.\nC) The DNA-Binding Domain (DBD).\nD) The AF-2 domain within the hinge region.\nE) The heat shock protein binding pocket."
+        "The AF-1 domain located at the amino-terminus.",
+        "The Ligand-Binding Domain (LBD) located at the carboxy-terminus.",
+        "The DNA-Binding Domain (DBD).",
+        "The AF-2 domain within the hinge region.",
+        "The heat shock protein binding pocket."
       ],
       "correctIndex": 2,
       "explanation": "The DNA-Binding Domain (DBD) of nuclear receptors is highly conserved and contains specialized zinc-finger motifs (stabilized by a zinc atom coordinated to four cysteine residues) that physically bind to specific DNA sequences called Hormone Response Elements (HREs)."
@@ -678,7 +778,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "Once an intracellular lipophilic hormone-receptor complex dimerizes and binds to a Hormone Response Element (HRE) on DNA, how do recruited coactivators like CBP/p300 physically initiate gene transcription?",
       "options": [
-        "They use intrinsic methyltransferase activity to tightly condense chromatin.\nB) They phosphorylate DNA polymerase II to stall transcription elongation.\nC) They degrade neighboring histones via ubiquitin-proteasome targeting.\nD) They act as RNA-dependent RNA polymerases to bypass standard transcription.\nE) They exhibit Histone Acetyltransferase (HAT) activity, acetylating histones to neutralize their positive charges, causing chromatin to uncoil and relax (euchromatin)."
+        "They use intrinsic methyltransferase activity to tightly condense chromatin.",
+        "They phosphorylate DNA polymerase II to stall transcription elongation.",
+        "They degrade neighboring histones via ubiquitin-proteasome targeting.",
+        "They act as RNA-dependent RNA polymerases to bypass standard transcription.",
+        "They exhibit Histone Acetyltransferase (HAT) activity, acetylating histones to neutralize their positive charges, causing chromatin to uncoil and relax (euchromatin)."
       ],
       "correctIndex": 4,
       "explanation": "CBP/p300 acts as a transcriptional coactivator with intrinsic Histone Acetyltransferase (HAT) activity. By transferring acetyl groups to positively charged lysine residues on histone tails, it neutralizes their charge, reducing their affinity for negatively charged DNA. This uncoils and relaxes chromatin to allow transcription."
@@ -688,7 +792,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "In the molecular pathogenesis of Type 2 Diabetes, how do accumulated intracellular lipid intermediates (like DAG and ceramides) and inflammatory cytokines (TNF-alpha/IL-6) drive insulin resistance?",
       "options": [
-        "They physically bind and neutralize circulating insulin in the bloodstream.\nB) They activate stress kinases (such as JNK, IKK-beta, and novel PKCs) which phosphorylate IRS-1 on specific Serine/Threonine residues, blocking downstream PI3K/Akt signaling.\nC) They prevent the binding of insulin to the extracellular alpha-subunits of its receptor.\nD) They degrade skeletal muscle GLUT-4 proteins in the lysosome.\nE) They block the translation of Gs-alpha heterotrimeric G-protein subunits."
+        "They physically bind and neutralize circulating insulin in the bloodstream.",
+        "They activate stress kinases (such as JNK, IKK-beta, and novel PKCs) which phosphorylate IRS-1 on specific Serine/Threonine residues, blocking downstream PI3K/Akt signaling.",
+        "They prevent the binding of insulin to the extracellular alpha-subunits of its receptor.",
+        "They degrade skeletal muscle GLUT-4 proteins in the lysosome.",
+        "They block the translation of Gs-alpha heterotrimeric G-protein subunits."
       ],
       "correctIndex": 1,
       "explanation": "Lipotoxicity (via DAG/PKC) and inflammatory cytokines (via JNK/IKK-beta) activate stress-activated serine/threonine kinases. These kinases phosphorylate Insulin Receptor Substrate-1 (IRS-1) on Serine residues (e.g., Ser307). This serine phosphorylation causes a structural 'short circuit', blocking normal activating tyrosine phosphorylation and shutting down GLUT-4 translocation."
@@ -698,7 +806,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "In obesity-induced adipose tissue inflammation, what is the exact molecular mechanism of transcription factor NF-kappaB activation downstream of inflammatory cytokine receptors?",
       "options": [
-        "Activated IKK-beta phosphorylates the inhibitory protein IkappaB-alpha, driving its ubiquitination and proteasomal degradation, which releases free NF-kappaB to translocate into the nucleus.\nB) Active NF-kappaB is phosphorylated directly by adenylyl cyclase inside the cytoplasm.\nC) Extracellular TNF-alpha enters the cell and acts as a direct nuclear ligand for NF-kappaB monomers.\nD) Deacetylation of histones by CBP/p300 forces NF-kappaB to dissociate from DNA.\nE) NF-kappaB is phosphorylated on its tyrosine docking sites by Janus Kinase 2 (JAK2)."
+        "Activated IKK-beta phosphorylates the inhibitory protein IkappaB-alpha, driving its ubiquitination and proteasomal degradation, which releases free NF-kappaB to translocate into the nucleus.",
+        "Active NF-kappaB is phosphorylated directly by adenylyl cyclase inside the cytoplasm.",
+        "Extracellular TNF-alpha enters the cell and acts as a direct nuclear ligand for NF-kappaB monomers.",
+        "Deacetylation of histones by CBP/p300 forces NF-kappaB to dissociate from DNA.",
+        "NF-kappaB is phosphorylated on its tyrosine docking sites by Janus Kinase 2 (JAK2)."
       ],
       "correctIndex": 0,
       "explanation": "Under basal conditions, the transcription factor NF-kappaB is kept sequestered and inactive in the cytoplasm bound to its inhibitor IkappaB-alpha. Pro-inflammatory signaling activates IKK-beta, which phosphorylates IkappaB-alpha, targeting it for rapid proteasomal degradation, releasing active NF-kappaB to translocate to the nucleus."
@@ -708,7 +820,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "A pediatric patient presents with severe short stature and is diagnosed with Laron Dwarfism (Growth Hormone Insensitivity). Which of the following biochemical profiles is most consistent with this post-receptor defect?",
       "options": [
-        "Low circulating GH, High circulating IGF-1, High GHBP.\nB) Low circulating GH, Low circulating IGF-1, Low GHBP.\nC) High circulating GH, High circulating IGF-1, Normal GHBP.\nD) High circulating GH, profoundly Low circulating IGF-1, and Low GHBP.\nE) Normal circulating GH, Normal circulating IGF-1, High GHBP."
+        "Low circulating GH, High circulating IGF-1, High GHBP.",
+        "Low circulating GH, Low circulating IGF-1, Low GHBP.",
+        "High circulating GH, High circulating IGF-1, Normal GHBP.",
+        "High circulating GH, profoundly Low circulating IGF-1, and Low GHBP.",
+        "Normal circulating GH, Normal circulating IGF-1, High GHBP."
       ],
       "correctIndex": 3,
       "explanation": "Laron dwarfism is caused by a loss-of-function mutation in the Growth Hormone Receptor (GHR). Because tissues are completely blind to GH, there is no negative feedback, yielding extremely high circulating GH. However, because signaling is blocked, liver synthesis of IGF-1 and GHBP (the cleaved extracellular GHR domain) is profoundly reduced."
@@ -718,7 +834,11 @@
       "category": "Advanced (Nice-to-Know)",
       "question": "While negative feedback dominates endocrine regulation, positive feedback is utilized in rare, unstable cycles. What is the classic physiological trigger that initiates the LH surge prior to ovulation?",
       "options": [
-        "A sudden, severe drop in progesterone levels from the corpus luteum.\nB) High, sustained levels of progesterone acting on the anterior pituitary.\nC) Rapid, pulsatile surges of somatostatin from the hypothalamus.\nD) High, sustained levels of estrogen (estradiol) secreted by the mature follicle, which temporarily switches pituitary feedback from negative to positive.\nE) Direct sympathetic electrical discharge from the splanchnic nerves."
+        "A sudden, severe drop in progesterone levels from the corpus luteum.",
+        "High, sustained levels of progesterone acting on the anterior pituitary.",
+        "Rapid, pulsatile surges of somatostatin from the hypothalamus.",
+        "High, sustained levels of estrogen (estradiol) secreted by the mature follicle, which temporarily switches pituitary feedback from negative to positive.",
+        "Direct sympathetic electrical discharge from the splanchnic nerves."
       ],
       "correctIndex": 3,
       "explanation": "During most of the menstrual cycle, estrogen exerts negative feedback. However, as the dominant follicle matures, it secretes extremely high, sustained levels of estradiol. Once estrogen exceeds a specific threshold for more than 36 hours, it triggers a brief positive feedback loop on the hypothalamus and pituitary, driving the massive LH surge that triggers ovulation."
