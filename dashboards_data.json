@@ -1,4 +1,446 @@
 {
+  "Final Part 2 - Endocrinology Database": [
+    {
+      "Name": "Type 1 Diabetes Mellitus (T1DM)",
+      "Tag": "Glucose & Pancreatic Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Autoimmune destruction of pancreatic beta cells; absolute insulin deficiency; strong HLA-DR3 / HLA-DR4 association; typical onset in children and young adults."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Loss of beta cells eliminates endogenously secreted insulin, preventing cellular glucose uptake via GLUT4 and removing inhibition on gluconeogenesis, glycogenolysis, and lipolysis."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Polyuria, polydipsia, polyphagia, rapid weight loss, lethargy, ketoacidosis propensity, microvascular (retinopathy, nephropathy, neuropathy) and macrovascular complications."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Fasting Plasma Glucose >= 7.0 mmol/L (126 mg/dL); Random Glucose >= 11.1 mmol/L (200 mg/dL) + symptoms; HbA1c >= 6.5%; undetectable/low C-peptide; positive Anti-GAD, IA-2, or ICA autoantibodies."
+        }
+      ]
+    },
+    {
+      "Name": "Type 2 Diabetes Mellitus (T2DM)",
+      "Tag": "Glucose & Pancreatic Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Progressive combination of insulin resistance in peripheral tissues (skeletal muscle, liver, adipose) and relative insulin secretory defect; strongly linked to obesity and metabolic syndrome."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Insulin receptor signaling impairment reduces GLUT4 translocation; compensatory hyperinsulinemia initially maintains euglycemia until beta cell exhaustion occurs."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Insidious onset, acanthosis nigricans, central obesity, fatigue, frequent infections, microvascular and macrovascular complications, hyperosmolar hyperglycemic propensity."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Fasting Plasma Glucose >= 7.0 mmol/L; 2-hour OGTT >= 11.1 mmol/L; HbA1c >= 6.5%; preserved or elevated C-peptide; negative islet autoantibodies."
+        }
+      ]
+    },
+    {
+      "Name": "Diabetic Ketoacidosis (DKA)",
+      "Tag": "Acute Endocrine Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Life-threatening emergency predominantly in T1DM; triggered by infection (pneumonia, UTI), insulin omission, or new-onset diabetes; characterized by absolute insulin lack and excess counter-regulatory hormones."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Unopposed lipolysis releases free fatty acids into circulation, which undergo hepatic beta-oxidation into ketone bodies (acetoacetate, beta-hydroxybutyrate), causing anion gap metabolic acidosis."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Abdominal pain, nausea, vomiting, profound dehydration, Kussmaul (deep/acidotic) respirations, acetone (fruity) breath odor, hypotension, altered mental status/coma."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Random blood glucose >= 11 mmol/L (> 200-250 mg/dL); arterial/venous pH < 7.3; serum HCO3 < 15 mmol/L; elevated blood/urine ketones (>= 2+); high anion gap (> 12 mEq/L)."
+        }
+      ]
+    },
+    {
+      "Name": "Hyperglycaemic Hyperosmolar State (HHS)",
+      "Tag": "Acute Endocrine Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe metabolic emergency primarily in elderly T2DM patients; triggered by acute illness, infection, MI, stroke, or inadequate fluid intake; extreme dehydration and hyperosmolality."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Residual endogenous insulin suppresses lipolysis and ketogenesis, preventing DKA, but is insufficient to suppress hepatic glucose production, causing profound osmotic diuresis."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Insidious onset over days to weeks, severe lethargy, confusion, focal neurological deficits, seizures, coma, extreme dehydration (dry mucous membranes, delayed turgor), high thrombotic risk."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Severe hyperglycemia (blood glucose > 30 mmol/L / > 600 mg/dL); serum osmolality > 320 mOsm/kg; arterial pH > 7.3; serum HCO3 > 15 mmol/L; absent or minimal ketonemia."
+        }
+      ]
+    },
+    {
+      "Name": "Hypoglycemia & Hypoglycemic Coma",
+      "Tag": "Acute Endocrine Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Plasma glucose level low enough to cause brain energy deprivation; caused by sulfonylureas, insulin overdose, missed meals, strenuous exercise, or renal impairment."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Neuroglycopenia impairs CNS function while falling glucose triggers autonomic (sympathetic) counter-regulatory release of epinephrine, glucagon, cortisol, and growth hormone."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Autonomic signs: diaphoresis, tremors, tachycardia, anxiety, hunger. Neuroglycopenic signs: confusion, dizziness, visual disturbances, seizures, coma."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Plasma glucose < 3.0-3.9 mmol/L (< 55-70 mg/dL); Whipple's triad (symptoms of hypoglycemia, documented low blood glucose, relief of symptoms upon glucose administration)."
+        }
+      ]
+    },
+    {
+      "Name": "Graves' Disease (Thyrotoxicosis)",
+      "Tag": "Thyroid Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common cause of hyperthyroidism; autoimmune disorder with female predominance (8:1); linked to HLA-DR3 and HLA-B8."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Thyroid-stimulating hormone receptor autoantibodies (TRAb / TSH-R-Ab) continuously bind to and activate TSH receptors on thyroid follicular cells, stimulating unregulated T3/T4 synthesis and release."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Heat intolerance, weight loss despite increased appetite, palpitations, fine resting tremor, frequent bowel movements, diffuse smooth goiter with bruit, exophthalmos/pretibial myxedema."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Suppressed TSH (< 0.05 mIU/L); elevated Free T4 and Free T3; positive TRAb (TSH receptor antibodies); diffuse increased radionuclide uptake on iodine-131 scan."
+        }
+      ]
+    },
+    {
+      "Name": "Thyroid Storm (Thyrotoxic Crisis)",
+      "Tag": "Acute Endocrine Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Extreme, life-threatening hypermetabolic manifestation of thyrotoxicosis; triggered by trauma, infection, surgery, parturition, or abrupt discontinuation of antithyroid medications."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Massive, acute surge in free thyroid hormone availability combined with heightened target tissue sensitivity to catecholamines causes hyperadrenergic collapse."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Hyperpyrexia (fever > 38.5-40 C), severe tachycardia or atrial fibrillation, delirium, agitation, nausea, vomiting, jaundice, high-output heart failure, shock."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Markedly suppressed TSH with dramatically elevated Free T4/T3; clinical scoring via Burch-Wartofsky scale; leucocytosis; elevated liver function tests."
+        }
+      ]
+    },
+    {
+      "Name": "Primary Hypothyroidism (Hashimoto's Thyroiditis)",
+      "Tag": "Thyroid Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common cause of hypothyroidism in iodine-sufficient regions; chronic autoimmune thyroiditis marked by lymphocytic infiltration and follicular destruction."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Autoimmune destruction of thyroid gland parenchyma leads to reduced thyroid hormone synthesis, triggering compensatory increase in anterior pituitary TSH secretion via negative feedback."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Cold intolerance, weight gain, fatigue, constipation, dry skin, coarse hair, periorbital puffiness, voice hoarseness, delayed relaxation of deep tendon reflexes, menorrhagia."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Elevated serum TSH (> 4.5-10 mIU/L); reduced Free T4; positive anti-thyroperoxidase (anti-TPO) and anti-thyroglobulin (anti-Tg) autoantibodies; diffuse heterogeneous echo on ultrasound."
+        }
+      ]
+    },
+    {
+      "Name": "Myxedema Coma",
+      "Tag": "Acute Endocrine Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "End-stage, severe, life-threatening complication of uncorrected hypothyroidism; triggered by cold exposure, systemic infection, sedatives, stroke, or MI in hypothyroid patients."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Profound thyroid hormone deficit leads to failure of cell thermogenesis, generalized hypometabolism, cellular edema (mucopolysaccharide deposition), and cardiovascular depression."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Hypothermia (< 35 C), profound bradycardia, hypoventilation (hypercapnia), altered mental status/coma, hypotension, generalized non-pitting periorbital and pretibial edema."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Dramatically elevated TSH with undetectable or near-zero Free T4; arterial blood gas showing respiratory acidosis (high PaCO2, low PaO2); severe hyponatremia; hypoglycemia."
+        }
+      ]
+    },
+    {
+      "Name": "Subacute (de Quervain's) Thyroiditis",
+      "Tag": "Thyroid Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Post-viral inflammatory thyroid disorder; typically follows upper respiratory tract viral infection (Coxsackievirus, influenza, adenovirus); HLA-B35 association."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Viral-induced granulomatous inflammation damages thyroid follicles, releasing preformed stored colloid into circulation (transient thyrotoxicosis), followed by transient hypothyroidism."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Painful, tender thyroid goiter radiating to jaw or ears, fever, fatigue, transient thyrotoxic symptoms followed by self-limiting hypothyroid phase."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Markedly elevated ESR (> 50-100 mm/hr) and CRP; transient high Free T4 with suppressed TSH; low/suppressed radioiodine (I-131) uptake (< 1-2%)."
+        }
+      ]
+    },
+    {
+      "Name": "Cushing's Syndrome & Disease",
+      "Tag": "Adrenal & Pituitary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "State of chronic hypercortisolism. Cushing's Disease refers specifically to ACTH-secreting pituitary microadenoma; ACTH-independent causes include adrenal adenomas and exogenous steroids."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Excess glucocorticoids bind to glucocorticoid receptors, stimulating gluconeogenesis, muscle catabolism, subcutaneous fat redistribution, mineralocorticoid cross-reactivity, and immune suppression."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Truncal obesity, moon face, buffalo hump, purple abdominal striae, proximal muscle weakness, hypertension, hyperglycemia, osteoporosis, easy bruising, hirsutism."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Elevated 24-hr urinary free cortisol; unsuppressed cortisol after 1 mg Overnight Low-Dose Dexamethasone Suppression Test (LDDST); High-Dose Dexamethasone test suppresses pituitary ACTH (Cushing's Disease)."
+        }
+      ]
+    },
+    {
+      "Name": "Primary Hyperaldosteronism (Conn's Syndrome)",
+      "Tag": "Adrenal & Pituitary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Autonomous, unregulated excess secretion of aldosterone from adrenal cortex (solitary adrenal adenoma or bilateral adrenal hyperplasia)."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Aldosterone activates mineralocorticoid receptors in renal cortical collecting duct principal cells, upregulating ENaC channels and Na+/K+-ATPase, causing Na+ retention, volume expansion, and K+/H+ wasting."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Refractory hypertension, muscle weakness, cramps, fatigue, paresthesias, polyuria/polydipsia (due to hypokalemia-induced nephrogenic diabetes insipidus); absence of peripheral edema due to aldosterone escape."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Hypokalemia (< 3.5 mmol/L); elevated plasma aldosterone concentration (PAC) with suppressed plasma renin activity (PRA); Aldosterone-to-Renin Ratio (ARR) > 20-30; high urinary aldosterone after saline load."
+        }
+      ]
+    },
+    {
+      "Name": "Adrenal Insufficiency & Addisonian Crisis",
+      "Tag": "Adrenal & Pituitary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary adrenal insufficiency (Addison's) involves autoimmune destruction of all adrenal cortical zones; Addisonian Crisis is an acute, life-threatening decompensation triggered by stress, infection, or trauma."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Deficiency of cortisol (impaired vascular tone and gluconeogenesis) and aldosterone (renal Na+ wasting and K+ retention); elevated POMC cleavage yields excess ACTH and MSH."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Addison's: fatigue, weight loss, postural hypotension, hyperpigmentation (skin creases, buccal mucosa). Crisis: hypovolemic shock, severe abdominal pain, high fever, vomiting, confusion."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Hyponatremia, hyperkalemia, hypoglycemia, elevated BUN/creatinine; morning cortisol < 3 ug/dL; unsuppressed plasma ACTH (> 100 pg/mL in primary); failed short Synacthen (cosyntropin) stimulation test."
+        }
+      ]
+    },
+    {
+      "Name": "Pheochromocytoma",
+      "Tag": "Adrenal & Pituitary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Rare catecholamine-secreting tumor derived from chromaffin cells of the adrenal medulla (10% rule: 10% bilateral, 10% extra-adrenal, 10% malignant); associated with MEN2, VHL, NF1."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Episodic or continuous secretion of norepinephrine and epinephrine activates vascular alpha-1 receptors (intense vasoconstriction) and cardiac beta-1 receptors (positive inotropy/chronotropy)."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Classic triad: paroxysmal severe headache, profuse diaphoresis, and tachycardia/palpitations; accompanied by paroxysmal or sustained severe hypertension, tremor, anxiety."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Elevated 24-hour urinary fractionated metanephrines and normetanephrines; elevated plasma free metanephrines; CT/MRI abdomen demonstrating adrenal mass; MIBG scan for extra-adrenal localization."
+        }
+      ]
+    },
+    {
+      "Name": "Acromegaly",
+      "Tag": "Adrenal & Pituitary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic hypersecretion of Growth Hormone (GH) occurring post-epiphyseal plate closure, almost exclusively caused by a somatotroph pituitary macroadenoma."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Excess pituitary GH stimulates hepatic synthesis and secretion of Insulin-like Growth Factor-1 (IGF-1), driving somatic growth, soft tissue proliferation, cartilage growth, and insulin resistance."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Enlargement of hands and feet (increased shoe/ring size), coarsening of facial features, prognathism, macroglossia, deep voice, carpel tunnel syndrome, bitemporal hemianopia, secondary diabetes."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Elevated serum IGF-1 (initial screening test of choice); failure to suppress serum GH to < 1 ug/L following a 75g Oral Glucose Tolerance Test (OGTT); pituitary MRI demonstrating adenoma."
+        }
+      ]
+    },
+    {
+      "Name": "Metformin (Biguanide)",
+      "Tag": "Endocrine Pharmacology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "First-line oral antidiabetic drug for Type 2 Diabetes Mellitus; non-hypoglycemic agent; weight-neutral or promotes modest weight loss."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Activates AMP-activated protein kinase (AMPK), decreasing hepatic gluconeogenesis and glycogenolysis, increasing intestinal glucose absorption, and enhancing peripheral insulin sensitivity."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "First-line T2DM therapy; reduces cardiovascular risk; common side effects include GI upset (diarrhea, nausea, bloating) and Vitamin B12 deficiency; rare risk of lactic acidosis."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "eGFR monitoring required (contraindicated or dose-reduced if eGFR < 30 mL/min/1.73m2); periodic plasma Vitamin B12 levels and renal function testing."
+        }
+      ]
+    },
+    {
+      "Name": "Sulfonylureas (e.g. Gliclazide, Glimepiride)",
+      "Tag": "Endocrine Pharmacology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Insulin secretagogue class of antidiabetic agents used in Type 2 Diabetes Mellitus."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Binds to and closes ATP-sensitive potassium channels (SUR1 subunit) on pancreatic beta cell membranes, causing cell depolarization, influx of voltage-gated calcium, and exocytosis of preformed insulin vesicles."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Used as second-line or dual therapy in T2DM; key adverse effects include hypoglycemia and weight gain; cautious use in elderly and renal impairment."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Requires blood glucose monitoring; serum creatinine/eGFR check (risk of prolonged drug accumulation in renal insufficiency)."
+        }
+      ]
+    },
+    {
+      "Name": "Carbimazole & Propylthiouracil (PTU)",
+      "Tag": "Endocrine Pharmacology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thionamide antithyroid medications used in hyperthyroidism, Graves' disease, and thyroid storm."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Inhibits thyroid peroxidase (TPO) enzyme, preventing oxidation of iodide, organification of iodine into tyrosine residues, and coupling of iodotyrosines (MIT/DIT). PTU also blocks peripheral T4-to-T3 conversion."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Used for medical management of Graves' disease and toxic nodular goiter; PTU preferred in 1st trimester pregnancy and thyroid storm; risk of agranulocytosis and PTU hepatotoxicity."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Serial TFTs (TSH, Free T4/T3); baseline and urgent Complete Blood Count (WBC count for agranulocytosis if fever/sore throat occurs); LFTs."
+        }
+      ]
+    },
+    {
+      "Name": "Levothyroxine (L-T4)",
+      "Tag": "Endocrine Pharmacology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Synthetic form of thyroxine (T4); mainstay of hormone replacement therapy for hypothyroidism."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "Converted peripherally by deiodinase enzymes into active triiodothyronine (T3), which binds to nuclear thyroid hormone receptors to regulate gene expression, metabolic rate, and protein synthesis."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Treatment of primary, secondary, and congenital hypothyroidism; myxedema coma (IV form); suppression therapy in thyroid carcinoma; adverse effects of overtreatment include atrial fibrillation and osteoporosis."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Targeted monitoring via serum TSH (aiming for 0.5-2.5 mIU/L in primary hypothyroidism); Free T4 monitoring in central/secondary hypothyroidism."
+        }
+      ]
+    },
+    {
+      "Name": "Lugol's Iodine Solution",
+      "Tag": "Endocrine Pharmacology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Aqueous solution of elemental iodine and potassium iodide used in acute thyrotoxic crisis and pre-thyroidectomy preparation."
+        },
+        {
+          "title": "Primary Mechanism & Pathogenesis",
+          "content": "High concentration of inorganic iodide transiently inhibits thyroid hormone synthesis and release via the Wolff-Chaikoff effect and decreases thyroid gland vascularity."
+        },
+        {
+          "title": "Clinical Manifestations & Associations",
+          "content": "Administered in Thyroid Storm (always given at least 1 hour after antithyroid drug administration) and pre-operatively 10-14 days prior to thyroidectomy to reduce operative bleeding."
+        },
+        {
+          "title": "Diagnostic Markers & Lab Tests",
+          "content": "Serum Free T4/T3 tracking; pulse rate and cardiac rhythm monitoring."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

@@ -57,6 +57,8 @@ function updateData() {
         
         if (cleanBase.toLowerCase().includes('dehydration')) {
              defaultCategory = 'Pathophysiology - Dehydration & Fluid Balance';
+        } else if (cleanBase.toLowerCase().includes('fp2') || cleanBase.toLowerCase().startsWith('fp2_medicine_endocrine')) {
+             defaultCategory = 'Final Part 2 Medicine - Endocrinology';
         } else if (cleanBase.toLowerCase().startsWith('endocrine')) {
              const num = parts[1] ? ` ${parts[1]}` : '';
              defaultCategory = `Pathophysiology - Endocrine Module${num}`;
@@ -127,7 +129,10 @@ function updateDashboardData() {
     files.forEach(file => {
         const filePath = path.join(DASHBOARD_EXCEL_FOLDER, file);
         let rawModuleName = file.replace(/\.(csv|xlsx)$/i, '').replace(/[-_]/g, ' ');
-        const moduleName = rawModuleName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        let moduleName = rawModuleName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        if (/fp2.*endocrine/i.test(file) || file.toLowerCase().includes('fp2')) {
+            moduleName = 'Final Part 2 - Endocrinology Database';
+        }
         let moduleData = [];
 
         if (file.endsWith('.xlsx')) {
@@ -238,7 +243,9 @@ function updateQuizData() {
 
             let rawBase = path.basename(file, ext);
             let moduleName = rawBase.replace(/_/g, ' ');
-            if (/^endocrine[_-]?1$/i.test(rawBase)) {
+            if (/^fp2.*endocrine/i.test(rawBase) || rawBase.toLowerCase().includes('fp2')) {
+                moduleName = 'Final Part 2 Medicine - Endocrinology';
+            } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 2';

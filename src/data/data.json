@@ -4959,6 +4959,406 @@
       "category": "Pathophysiology - Endocrine Module 2",
       "question": "What are the outcomes of 'Failed Regulation' in the diseased fuel state?",
       "answer": "Sustained high blood glucose and inefficient fuel utilization."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the diagnostic threshold for random blood glucose concentration in Diabetes Mellitus?",
+      "answer": "$> 11 \\text{ mmol/L}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "True or False: Complications of Type 2 Diabetes Mellitus are often present at the time of diagnosis.",
+      "answer": "True"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Is the absence of glycosuria sufficient to exclude a diagnosis of Diabetes Mellitus?",
+      "answer": "No"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the hallmark physiological deficit in Type 1 Diabetes Mellitus?",
+      "answer": "Absent or near-absent beta cell function."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which laboratory finding regarding C-peptide is characteristic of Type 1 Diabetes Mellitus?",
+      "answer": "Absence of C-peptide in the blood."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What are the three essential curative treatment options for Type 1 Diabetes Mellitus?",
+      "answer": "Whole pancreas transplantation, islet transplantation, or lifelong insulin treatment."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Under what condition is Metformin recommended for patients with prediabetes?",
+      "answer": "BMI $\\ge 35 \\text{ kg/m}^2$, age $< 60$ years, or women with prior gestational DM."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In the stepwise management of Type 2 Diabetes Mellitus, what is the standard initial monotherapy?",
+      "answer": "Metformin"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which medication class does Metformin belong to?",
+      "answer": "Biguanides"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Concept: Thiazolidinediones",
+      "answer": "Definition: Drugs that overcome insulin resistance (sensitizers). Example: Pioglitazone."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "List two examples of Sulfonylureas used to enhance insulin secretion.",
+      "answer": "Glipizide and Gliclazide."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "To which class of insulin secretagogues does Repaglinide belong?",
+      "answer": "Meglitinides"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Name two GLP-1 receptor agonists used in the treatment of Type 2 Diabetes Mellitus.",
+      "answer": "Exenatide and Liraglutide."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the mechanism of action for Sitagliptin and Vildagliptin?",
+      "answer": "DPP-4 inhibition to enhance insulin secretion."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which class of drugs lowers glucose by inhibiting alpha-glucosidase in the gut?",
+      "answer": "Alpha glucosidase inhibitors (e.g., Acarbose, Voglibose)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Name two examples of SGLT2 inhibitors.",
+      "answer": "Empagliflozin and Dapagliflozin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "When managing Diabetic Ketoacidosis (DKA), what is the target level for blood ketones by 24 hours?",
+      "answer": "$< 0.3 \\text{ mmol/L}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the target venous bicarbonate level indicating resolution of DKA within 24 hours?",
+      "answer": "$> 18 \\text{ mmol/L}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "If a patient with DKA is not eating or drinking, at what rate should the IV insulin infusion be continued?",
+      "answer": "$2-3 \\text{ U/hr}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "When transitioning from IV to subcutaneous (SC) insulin, how long should the IV infusion overlap with the first SC injection?",
+      "answer": "30 minutes to 1 hour."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "How is the total daily dose for SC insulin calculated when transitioning from an IV infusion?",
+      "answer": "Insulin requirement in last 6 hours of infusion $\\times$ 4."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the typical insulin regimen used for ongoing management after DKA resolution?",
+      "answer": "Basal-bolus regime."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Hyperglycaemic Hyperosmolar State (HHS) is characterized by severe hyperglycaemia typically exceeding _____.",
+      "answer": "$30 \\text{ mmol/L}$ ($600 \\text{ mg/dL}$)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the diagnostic threshold for serum osmolality in Hyperglycaemic Hyperosmolar State (HHS)?",
+      "answer": "$> 320 \\text{ mOsmol/kg}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In HHS, what is the threshold for significant ketonaemia that must NOT be exceeded?",
+      "answer": "$< 3 \\text{ mmol/L}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What are the typical arterial pH and bicarbonate levels found in Hyperglycaemic Hyperosmolar State (HHS)?",
+      "answer": "$\\text{pH} > 7.3$ and bicarbonate $> 15 \\text{ mmol/L}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Compare the onset speed of HHS to that of DKA.",
+      "answer": "HHS has a subacute onset, developing over more than 1 day."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "List three physical signs of severe dehydration found in patients with HHS.",
+      "answer": "Dry tongue, reduced skin turgor, and sunken eyes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the characteristic Jugular Venous Pressure (JVP) finding in a patient with HHS?",
+      "answer": "JVP is not raised."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the onset time for Rapid-acting insulin analogues (e.g., lispro, aspart)?",
+      "answer": "$< 0.5 \\text{ hours}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the peak duration of Short-acting (soluble/regular) insulin?",
+      "answer": "$1-4 \\text{ hours}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which type of insulin has a duration of action lasting $12-30 \\text{ hours}$ but possesses a peak at $6-12 \\text{ hours}$?",
+      "answer": "Long-acting bovine ultralente."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which long-acting insulin analogues are noted for having no peak in their duration of action?",
+      "answer": "Glargine, detemir, and degludec."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In a 'Healthy Diet' for diabetics, what proportion of the plate should consist of non-starchy vegetables?",
+      "answer": "One-half of the plate."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What are the 'ABCs' of diabetes management?",
+      "answer": "Regular A1C test, Blood pressure below $140/90 \\text{ mm Hg}$, and Cholesterol control."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the typical pattern of Thyroid Stimulating Hormone (TSH) and Free $\\text{T}_4$ in thyrotoxicosis?",
+      "answer": "Low TSH and high Free $\\text{T}_4$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the most common cause of primary thyrotoxicosis characterized by infiltrative ophthalmopathy?",
+      "answer": "Graves' disease"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In Graves' disease, what is the typical shape and size of the thyroid gland enlargement?",
+      "answer": "Butterfly-shaped and two to three times its normal size."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What cardiovascular physical sign may be heard or felt over the thyroid in Graves' disease?",
+      "answer": "A bruit or a thrill."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the term for the infiltrative dermopathy typically found in Graves' disease?",
+      "answer": "Pretibial myxedema"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What are the three components of infiltrative ophthalmopathy in Graves' disease?",
+      "answer": "Proptosis, periorbital swelling, and ophthalmoplegia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "How does subacute thyroiditis typically present on physical examination of the neck?",
+      "answer": "The thyroid is exquisitely tender and enlarged."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "To which areas of the body is pain from subacute thyroiditis often referred?",
+      "answer": "The jaw or the ear."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What often precedes the onset of subacute thyroiditis symptoms?",
+      "answer": "An upper respiratory tract infection."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which laboratory marker is characteristically elevated in subacute thyroiditis but not typically in Graves' disease?",
+      "answer": "Erythrocyte Sedimentation Rate (ESR)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What are the common causes of toxic nodular hyperthyroidism?",
+      "answer": "Toxic adenoma or toxic Multinodular Goiter (MNG)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Thyroid storm is a life-threatening exacerbation of hyperthyroidism that can lead to which central nervous system symptoms?",
+      "answer": "Delirium, seizures, or coma."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "List three gastrointestinal/systemic manifestations of a thyroid crisis.",
+      "answer": "Vomiting, diarrhea, and jaundice."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the initial pharmacological step in treating a thyroid storm?",
+      "answer": "Propylthiouracil (PTU) loading dose."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In the management of a thyroid storm, why is a saturated solution of Potassium Iodide (SSKI) administered after PTU?",
+      "answer": "To inhibit the release of preformed thyroid hormones."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which beta-blocker is used in the maintenance treatment of a thyroid storm?",
+      "answer": "Propranolol"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What steroid is included in the treatment protocol for a thyroid storm?",
+      "answer": "Dexamethasone"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which diagnostic test can distinguish between hyperthyroidism and destructive thyroiditis by measuring blood flow?",
+      "answer": "Color-flow Doppler ultrasonography."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the pathophysiological cause of suppressed TSH in Graves' disease?",
+      "answer": "Decreased expression of the thyrotropin $\\beta$ subunit in the pituitary."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "How does Graves' disease affect bone metabolism according to Table 5.3?",
+      "answer": "It increases bone turnover and leads to osteoporosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What effect does Graves' disease have on male genital function?",
+      "answer": "Decreased libido and erectile dysfunction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the metabolic effect of Graves' disease regarding oxygen use?",
+      "answer": "Increased thermogenesis and increased $O_2$ use."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Proximal myopathy in Graves' disease is caused by the upregulation of which enzyme in muscle tissue?",
+      "answer": "Sarcoplasmic reticulum $Ca^{2+}$-activated ATPase."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which antibody measurement is specific for diagnosing Graves' disease?",
+      "answer": "TSH receptor antibody (TRAb)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In the evaluation of thyrotoxicosis, what is the next diagnostic step if TSH is low but unbound $\\text{T}_4$ is normal?",
+      "answer": "Measure unbound $\\text{T}_3$ to check for $\\text{T}_3$ toxicosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What diagnosis is suspected if TSH is normal or increased while unbound $\\text{T}_4$ is high?",
+      "answer": "TSH-secreting pituitary adenoma or thyroid hormone resistance syndrome."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "If a patient has thyrotoxicosis with low radioiodine uptake, what potential causes should be ruled out?",
+      "answer": "Destructive thyroiditis, iodine excess, or excess exogenous thyroid hormone."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the hallmark finding on an isotope scan for toxic nodular hyperthyroidism?",
+      "answer": "Increased uptake in solitary or multiple nodules."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Name three thyroid autoantibodies that can be tested in thyrotoxicosis evaluation.",
+      "answer": "TSH receptor Ab, anti-thyroglobulin Ab, and Anti-thyroperoxidase (TPO)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In the context of Graves' disease pathophysiology, what happens to fat mass?",
+      "answer": "Fat mass decreases due to adrenergic-mediated lipolysis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the primary mechanism by which Graves' disease increases heart rate and contractility?",
+      "answer": "Increase in serum atrial natriuretic peptide."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "True or False: Glycated haemoglobin (HbA1c) is considered a sensitive screening test for Diabetes Mellitus.",
+      "answer": "True"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the clinical significance of finding glycosuria in a pregnant woman?",
+      "answer": "It is significant and requires further investigation for gestational diabetes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "A 35-year-old patient with recent rapid weight loss and polyphagia has no blood C-peptide. What is the most likely diagnosis?",
+      "answer": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Do autoimmune factors play a larger role in the pathogenesis of Type 1 or Type 2 Diabetes Mellitus?",
+      "answer": "Type 1 Diabetes Mellitus"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Hereditary factors play a _____ role in Type 2 Diabetes compared to Type 1 Diabetes.",
+      "answer": "larger"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Can persons with Type 1 Diabetes increase endogenous insulin by taking oral hypoglycemic agents?",
+      "answer": "No, because they have absent or near-absent beta cell function."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Why might a person with Type 2 Diabetes require higher doses of insulin than a person with Type 1 Diabetes?",
+      "answer": "Due to significant insulin resistance in Type 2 Diabetes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Which condition is suggested by a patient with RBS $25.1 \\text{ mmol/l}$, breathless, thirsty, and losing weight over 3 months?",
+      "answer": "Diabetic Ketoacidosis (DKA)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In the management of Type 1 DM, what is considered the curative treatment that avoids lifelong insulin but requires immunosuppression?",
+      "answer": "Whole Pancreas transplantation or islet transplantation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What is the characteristic duration of action for Long-acting insulin analogues like glargine?",
+      "answer": "$18-26 \\text{ hours}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "At what HbA1C level is 'Stepwise addition' of medications typically initiated in Type 2 DM?",
+      "answer": "When the patient is above their target HbA1C while on monotherapy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "In thyroid storm treatment, what is the recommended frequency for saturated solution of KI (SSKI) administration?",
+      "answer": "Every 6 hours (q6h)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "Concept: Subclinical Hyperthyroidism",
+      "answer": "Definition: A state with low TSH and normal unbound $\\text{T}_4$ and $\\text{T}_3$ levels."
+    },
+    {
+      "category": "Final Part 2 Medicine - Endocrinology",
+      "question": "What follow-up time is recommended for a patient diagnosed with subclinical hyperthyroidism?",
+      "answer": "6 to 12 weeks."
     }
   ]
 }

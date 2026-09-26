@@ -1406,6 +1406,428 @@
       "explanation": "In DKA, absolute insulin deficiency and intracellular buffering of excess H+ ions (acidosis) cause potassium to shift out of cells into the ECF. This transcellular shift can make serum potassium look normal or high, even though the patient has severe total-body potassium depletion due to urinary loss from osmotic diuresis."
     }
   ],
+  "Final Part 2 Medicine - Endocrinology": [
+    {
+      "id": 8,
+      "category": "Systemic Communication",
+      "question": "Which statement best distinguishes endocrine hormonal communication from neural synaptic signaling?",
+      "options": [
+        "Hormones act rapidly over micrometer distances via electrical gradients.",
+        "Endocrine signaling relies on blood-borne broadcast to widely distributed target tissues possessing specific receptors.",
+        "Neural signaling has a much longer half-life and broader systemic reach than hormonal communication.",
+        "Hormones act exclusively via local paracrine diffusion without entering systemic circulation.",
+        "Neural signals depend entirely on nuclear receptor protein expression."
+      ],
+      "correctIndex": 1,
+      "explanation": "Endocrine signaling relies on blood-borne broadcasting of chemical messengers that travel systemically to engage distant, specific receptors. Neural communication is localized, rapid, and synaptic."
+    },
+    {
+      "id": 9,
+      "category": "Hormone Chemistry",
+      "question": "A 45-year-old female presents with signs of severe thyrotoxicosis. Which biochemical property is characteristic of Group I (lipophilic) hormones like Thyroid Hormone (T3/T4)?",
+      "options": [
+        "Hydrophilic nature and free plasma transport without carrier proteins.",
+        "Plasma half-life measured in minutes requiring rapid degradation.",
+        "High solubility in plasma requiring specific transport proteins (e.g., TBG) and intracellular/nuclear receptors.",
+        "Exclusive binding to cell-surface G-protein coupled receptors.",
+        "Generation of second messengers like cAMP and IP3 upon target cell binding."
+      ],
+      "correctIndex": 2,
+      "explanation": "Group I lipophilic hormones (steroids, thyroid hormones) are hydrophobic, require plasma carrier proteins (such as TBG, albumin), have long plasma half-lives (hours to days), and bind to intracellular/nuclear receptors."
+    },
+    {
+      "id": 10,
+      "category": "Genomic Mechanisms",
+      "question": "What is the primary nuclear mechanism by which the ligand-bound glucocorticoid receptor activates target gene transcription?",
+      "options": [
+        "Direct cleavage of cell membrane phospholipids via Phospholipase C.",
+        "Dimerization, translocation to the nucleus, binding to Hormone Response Elements (HREs), and recruitment of HAT coactivators like CBP/p300.",
+        "Rapid intracellular cAMP accumulation activating Protein Kinase A.",
+        "Opening of ligand-gated calcium channels causing immediate cell depolarization.",
+        "Phosphorylation of JAK2 tyrosine kinase subunits."
+      ],
+      "correctIndex": 1,
+      "explanation": "Steroid receptors upon ligand binding dissociate from heat shock proteins (Hsp90), dimerize, translocate to the nucleus, bind to DNA Hormone Response Elements (HREs), and recruit Histone Acetyltransferase (HAT) coactivators (CBP/p300) to remodel chromatin."
+    },
+    {
+      "id": 11,
+      "category": "Transmembrane Signaling",
+      "question": "In the Gs-cAMP/PKA second messenger cascade triggered by TSH or Glucagon, what step immediately follows Gs-alpha activation of Adenylyl Cyclase?",
+      "options": [
+        "Direct phosphorylation of Nuclear Factor kappa-B.",
+        "Conversion of ATP into cyclic AMP (cAMP) and subsequent activation of Protein Kinase A (PKA).",
+        "Cleavage of PIP2 into IP3 and DAG.",
+        "Activation of the Ras-Raf-MEK-ERK MAPK kinase pathway.",
+        "Influx of extracellular calcium through L-type voltage channels."
+      ],
+      "correctIndex": 1,
+      "explanation": "Activated Gs-alpha stimulates adenylyl cyclase, converting ATP to cyclic AMP (cAMP). Rising cAMP binds to the regulatory subunits of Protein Kinase A (PKA), releasing active catalytic subunits to phosphorylate cellular target proteins."
+    },
+    {
+      "id": 12,
+      "category": "Pathophysiology & Diagnostics",
+      "question": "A patient is found to have elevated serum Free T4 alongside a suppressed serum TSH (< 0.05 mIU/L). What physiological feedback mechanism explains the suppressed TSH?",
+      "options": [
+        "Positive feedback loop where high Free T4 stimulates anterior pituitary TSH release.",
+        "Ultra-short loop negative feedback by TSH on hypothalamic TRH neurons.",
+        "Long-loop negative feedback exerted by high circulating Free T4/T3 on both hypothalamic TRH and anterior pituitary thyrotrophs.",
+        "Primary pituitary resistance to circulating thyroid hormones.",
+        "Secondary hyperthyroidism due to a TSH-secreting pituitary macroadenoma."
+      ],
+      "correctIndex": 2,
+      "explanation": "Elevated thyroid hormones (Free T4/T3) exert long-loop negative feedback on thyrotroph cells in the anterior pituitary (suppression of TSH) and TRH neurons in the hypothalamus."
+    },
+    {
+      "id": 13,
+      "category": "Diabetes Diagnostics",
+      "question": "Which set of lab criteria fulfills the formal diagnosis of Diabetes Mellitus in an asymptomatic patient on routine health screening?",
+      "options": [
+        "Fasting Plasma Glucose >= 6.1 mmol/L on one occasion.",
+        "Fasting Plasma Glucose >= 7.0 mmol/L (126 mg/dL) or HbA1c >= 6.5% confirmed on repeat testing.",
+        "Random Plasma Glucose of 9.0 mmol/L with mild fatigue.",
+        "2-hour OGTT glucose of 8.5 mmol/L.",
+        "HbA1c of 6.0% with positive family history."
+      ],
+      "correctIndex": 1,
+      "explanation": "Diagnostic criteria for DM: Fasting Plasma Glucose >= 7.0 mmol/L (126 mg/dL), 2-hr OGTT >= 11.1 mmol/L (200 mg/dL), or HbA1c >= 6.5%. In an asymptomatic patient, confirmation with a repeat test is required."
+    },
+    {
+      "id": 14,
+      "category": "Diabetic Ketoacidosis (DKA)",
+      "question": "A 22-year-old Type 1 Diabetic presents with abdominal pain, Kussmaul breathing, blood glucose 22 mmol/L, arterial pH 7.18, and positive serum ketones. What is the most crucial initial fluid resuscitation step?",
+      "options": [
+        "Immediate administration of 5% Dextrose infusion at 500 mL/hr.",
+        "100 mmol Sodium Bicarbonate push stat.",
+        "Rapid infusion of IV 0.9% Normal Saline to restore intravascular volume.",
+        "Subcutaneous NPH insulin 20 units immediately.",
+        "Restricting fluids to prevent cerebral edema."
+      ],
+      "correctIndex": 2,
+      "explanation": "The primary priority in acute DKA resuscitation is aggressive volume restoration using IV 0.9% Normal Saline (typically 1–1.5 L in the first hour) to restore tissue perfusion and clear circulating ketones."
+    },
+    {
+      "id": 15,
+      "category": "Hyperglycaemic Hyperosmolar State",
+      "question": "Why is severe metabolic ketoacidosis absent in elderly patients presenting with Hyperglycaemic Hyperosmolar State (HHS)?",
+      "options": [
+        "Absolute absence of all counter-regulatory stress hormones.",
+        "Small amounts of residual endogenous insulin are sufficient to inhibit lipolysis and hepatic ketogenesis, but insufficient to prevent severe hyperglycemia.",
+        "Complete renal clearance of acetoacetate and beta-hydroxybutyrate.",
+        "Hyperosmolality directly neutralizes ketoacids in the systemic circulation.",
+        "Accelerated hepatic conversion of ketone bodies into glycogen."
+      ],
+      "correctIndex": 1,
+      "explanation": "In HHS (typically Type 2 DM), residual pancreatic insulin levels are sufficient to inhibit adipose tissue lipolysis and hepatic ketone body formation, preventing severe ketoacidosis, even while severe hyperglycemia (> 30 mmol/L) develops."
+    },
+    {
+      "id": 16,
+      "category": "Thyroid Synthesis",
+      "question": "Which enzyme catalyzes the oxidation of iodide, organification of iodine into tyrosine residues on thyroglobulin, and the coupling of iodotyrosines (MIT and DIT)?",
+      "options": [
+        "Deiodinase Type 1",
+        "Thyroid Peroxidase (TPO)",
+        "Thyroid-Stimulating Hormone Receptor (TSHR)",
+        "Thyroglobulin Synthase",
+        "Sodium-Iodide Symporter (NIS)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thyroid Peroxidase (TPO), located on the luminal apical membrane of thyroid follicular cells, catalyzes iodide oxidation, iodination of tyrosine residues on thyroglobulin (organification), and coupling of MIT/DIT to form T3 and T4."
+    },
+    {
+      "id": 17,
+      "category": "Graves' Disease",
+      "question": "A 32-year-old woman presents with anxiety, palpitations, exophthalmos, and pretibial myxedema. What is the underlying pathogenesis of her condition?",
+      "options": [
+        "Cytotoxic T-cell destruction of thyroid follicular cells.",
+        "Autoantibody-mediated stimulation of TSH receptors by Thyroid-Stimulating Immunoglobulins (TRAb).",
+        "Pituitary adenoma hypersecreting ACTH.",
+        "Post-viral granulomatous inflammation of the thyroid gland.",
+        "Ingestion of high doses of exogenous levothyroxine."
+      ],
+      "correctIndex": 1,
+      "explanation": "Graves' disease is an autoimmune hyperthyroidism caused by Thyroid-Stimulating Hormone Receptor Antibodies (TRAb/TSI) that bind to and activate TSH receptors on thyroid follicular cells, stimulating continuous hormone synthesis."
+    },
+    {
+      "id": 18,
+      "category": "Thyroid Storm Protocol",
+      "question": "A patient in Thyroid Storm is being managed in the ICU. What is the rationale for administering Lugol's iodine solution at least 1 hour AFTER the initial dose of antithyroid medication (PTU/Carbimazole)?",
+      "options": [
+        "To prevent Lugol's iodine from causing severe acute kidney injury.",
+        "Giving iodine before thionamides provides additional substrate for new thyroid hormone synthesis (organification) before TPO is inhibited.",
+        "Antithyroid drugs increase the absorption of iodine in the gastrointestinal tract.",
+        "Iodine neutralizes the beta-blocking action of propranolol if given simultaneously.",
+        "To prevent immediate systemic anaphylaxis."
+      ],
+      "correctIndex": 1,
+      "explanation": "Thionamides (PTU/Carbimazole) must be administered at least 1 hour before iodine solutions so that TPO is blocked. Giving iodine first can supply substrate for accelerated hormone synthesis (Wolff-Chaikoff escape)."
+    },
+    {
+      "id": 19,
+      "category": "Myxedema Coma",
+      "question": "In a patient presenting with Myxedema Coma (hypothermia, bradycardia, hypoventilation), why MUST systemic corticosteroids (IV Hydrocortisone) be administered prior to IV Thyroid Hormone replacement?",
+      "options": [
+        "Thyroid hormone replacement accelerates metabolic clearance of cortisol and may precipitate acute adrenal crisis in co-existing adrenal insufficiency.",
+        "Hydrocortisone directly converts T4 into T3 in the central nervous system.",
+        "Thyroid hormone causes immediate severe hyperkalemia if given alone.",
+        "Corticosteroids reduce the risk of severe thyroid-induced thyrotoxicosis.",
+        "Hydrocortisone prevents acute respiratory alkalosis."
+      ],
+      "correctIndex": 0,
+      "explanation": "Thyroid hormone replacement increases metabolic rate and hepatic steroid clearance. If underlying primary adrenal insufficiency or hypopituitarism is present, giving thyroid hormone alone can precipitate fatal acute adrenal crisis."
+    },
+    {
+      "id": 20,
+      "category": "Antithyroid Pharmacology",
+      "question": "Why is Propylthiouracil (PTU) preferred over Carbimazole during the 1st trimester of pregnancy?",
+      "options": [
+        "PTU does not cause any risk of agranulocytosis.",
+        "Carbimazole is associated with embryopathy, including aplasia cutis and choanal atresia, whereas PTU is strongly protein-bound and crosses the placenta less readily.",
+        "PTU is an oral liquid while Carbimazole is an injectable formulation.",
+        "PTU completely cures Graves' disease within 4 weeks.",
+        "Carbimazole causes maternal gestational diabetes."
+      ],
+      "correctIndex": 1,
+      "explanation": "Carbimazole/Methimazole carries a risk of congenital malformations (aplasia cutis, choanal atresia) during organogenesis in the 1st trimester. PTU is preferred in the 1st trimester due to high protein binding, switching back to Carbimazole in 2nd/3rd trimesters due to PTU hepatotoxicity risk."
+    },
+    {
+      "id": 21,
+      "category": "Cushing's Diagnostic Algorithm",
+      "question": "A patient with clinical Cushing's syndrome exhibits high baseline morning cortisol and elevated ACTH. A High-Dose (8 mg) Dexamethasone Suppression Test results in > 50% suppression of plasma cortisol. What is the diagnosis?",
+      "options": [
+        "Ectopic ACTH-secreting small cell lung carcinoma.",
+        "Primary adrenal cortisol-secreting adenoma.",
+        "Pituitary ACTH-secreting adenoma (Cushing's Disease).",
+        "Exogenous steroid administration.",
+        "Primary hyperaldosteronism."
+      ],
+      "correctIndex": 2,
+      "explanation": "Pituitary ACTH-secreting microadenomas (Cushing's Disease) retain partial negative feedback sensitivity, suppressing cortisol secretion by > 50% during a High-Dose Dexamethasone test, whereas ectopic ACTH tumors and adrenal tumors do not suppress."
+    },
+    {
+      "id": 22,
+      "category": "Primary Hyperaldosteronism",
+      "question": "A 38-year-old male presents with refractory hypertension (BP 175/105 mmHg) and muscle weakness with serum Potassium 2.9 mmol/L. What initial screening test confirms Primary Hyperaldosteronism (Conn's Syndrome)?",
+      "options": [
+        "24-hour urinary free cortisol.",
+        "Plasma Aldosterone-to-Renin Ratio (ARR) showing high Aldosterone with suppressed Renin.",
+        "Overnight 1 mg Low-Dose Dexamethasone test.",
+        "Plasma fractionated metanephrines.",
+        "Serum TSH and Free T4."
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary screening test for Conn's syndrome (adrenal adenoma or bilateral hyperplasia) is the Plasma Aldosterone-to-Renin Ratio (ARR). Autonomous aldosterone release suppresses renin activity, resulting in a high ARR (> 20–30)."
+    },
+    {
+      "id": 23,
+      "category": "Addisonian Crisis",
+      "question": "A patient with known Addison's disease presents to the ED following a motor vehicle collision in hypovolemic shock (BP 70/40 mmHg), severe abdominal pain, hyponatremia (122 mmol/L), and hyperkalemia (6.2 mmol/L). What is the immediate treatment?",
+      "options": [
+        "IV Insulin with 50% Dextrose bolus stat.",
+        "Rapid IV 0.9% Normal Saline fluid boluses and IV Hydrocortisone 100 mg stat.",
+        "Oral Fludrocortisone 100 mcg daily.",
+        "Immediate bilateral adrenalectomy.",
+        "Administration of spironolactone 100 mg."
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Addisonian (adrenal) crisis is a life-threatening emergency requiring immediate volume expansion with IV 0.9% Normal Saline and rapid replacement of glucocorticoids via IV Hydrocortisone (100 mg stat, followed by 100 mg Q6H)."
+    },
+    {
+      "id": 24,
+      "category": "Pheochromocytoma",
+      "question": "Prior to surgical resection of a confirmed Pheochromocytoma, why MUST an alpha-blocker (e.g., Phenoxybenzamine) be initiated BEFORE starting a beta-blocker?",
+      "options": [
+        "Beta-blockers cause severe immediate hypoglycemia in pheochromocytoma.",
+        "Administering a beta-blocker first leaves alpha-1 vasoconstrictor receptors unopposed, precipitating a catastrophic, lethal hypertensive crisis.",
+        "Alpha-blockers prevent postoperative adrenal insufficiency.",
+        "Beta-blockers completely block the hepatic metabolism of metanephrines.",
+        "Phenoxybenzamine is required to shrink the tumor mass preoperatively."
+      ],
+      "correctIndex": 1,
+      "explanation": "Starting beta-blockers alone removes beta-2 mediated vasodilatation while catecholamines continue to stimulate alpha-1 receptors, causing unopposed vasoconstriction and severe hypertensive crisis. Alpha-blockade MUST precede beta-blockade."
+    },
+    {
+      "id": 25,
+      "category": "Acromegaly Diagnostics",
+      "question": "A 48-year-old male presents with enlarging ring size, prominent supraorbital ridges, and coarse facial features. What is the most sensitive initial screening test, and what test confirms the diagnosis?",
+      "options": [
+        "Serum GH level (screening); Serum prolactin (confirmation).",
+        "Serum IGF-1 level (screening); failure of serum GH suppression during a 75g Oral Glucose Tolerance Test (OGTT) (confirmation).",
+        "24-hour urinary cortisol (screening); Pituitary CT scan (confirmation).",
+        "Fasting plasma glucose (screening); HbA1c (confirmation).",
+        "Serum TSH (screening); Thyroid ultrasound (confirmation)."
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum IGF-1 integrates GH secretion over 24 hours and is the single best screening test for acromegaly. Confirmation requires an OGTT: in normal subjects, glucose suppresses GH to < 1 mcg/L, whereas acromegaly patients fail to suppress."
+    },
+    {
+      "id": 26,
+      "category": "Metformin Mechanism",
+      "question": "Which cellular enzyme pathway is activated by Metformin to suppress hepatic gluconeogenesis in patients with Type 2 Diabetes Mellitus?",
+      "options": [
+        "Adenylyl Cyclase",
+        "AMP-activated Protein Kinase (AMPK)",
+        "Cyclooxygenase-2 (COX-2)",
+        "Dipeptidyl Peptidase-4 (DPP-4)",
+        "Sodium-Glucose Cotransporter-2 (SGLT2)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metformin activates hepatic AMP-activated Protein Kinase (AMPK), leading to inhibition of key gluconeogenic enzymes, reduced hepatic glucose output, increased intestinal glucose absorption, and enhanced insulin sensitivity."
+    },
+    {
+      "id": 27,
+      "category": "Sulfonylurea Pharmacology",
+      "question": "What is the cellular molecular target of Sulfonylureas (e.g., Gliclazide, Glimepiride) on pancreatic beta cell membranes?",
+      "options": [
+        "GLP-1 Receptors",
+        "ATP-sensitive Potassium (K-ATP) Channels (SUR1 subunit)",
+        "SGLT2 Cotransporters",
+        "Voltage-gated Sodium Channels",
+        "PPAR-gamma nuclear receptors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sulfonylureas bind to and close the SUR1 subunit of ATP-sensitive potassium (K-ATP) channels on beta cells, causing membrane depolarization, influx of voltage-gated calcium, and exocytosis of preformed insulin storage granules."
+    },
+    {
+      "id": 28,
+      "category": "Hypoglycemia & Whipple's Triad",
+      "question": "Which 3 clinical features constitute Whipple's Triad for establishing a formal clinical diagnosis of hypoglycemia?",
+      "options": [
+        "Hypertension, bradycardia, and irregular respirations.",
+        "Symptoms consistent with hypoglycemia, documented low blood glucose level (< 3.0 mmol/L), and prompt relief of symptoms upon glucose administration.",
+        "Fever, jaundice, and right upper quadrant abdominal pain.",
+        "Polyuria, polydipsia, and unexplained weight loss.",
+        "Hyponatremia, hyperkalemia, and hypotension."
+      ],
+      "correctIndex": 1,
+      "explanation": "Whipple's Triad requires: (1) Symptoms/signs of hypoglycemia (autonomic/neuroglycopenic), (2) Documented low plasma glucose at the time of symptoms, and (3) Prompt recovery/symptom resolution following glucose administration."
+    },
+    {
+      "id": 29,
+      "category": "Subacute Thyroiditis",
+      "question": "A 35-year-old female presents with a painful, exquisitely tender thyroid gland, low-grade fever, and palpitations following a viral upper respiratory tract infection. Lab shows elevated Free T4, suppressed TSH, and ESR 85 mm/hr. What is the expected Radioactive Iodine (I-131) uptake scan result?",
+      "options": [
+        "Diffusely elevated uptake (> 50%).",
+        "Unilaterally focal hot nodule with suppression of remaining gland.",
+        "Markedly suppressed/low radionuclide uptake (< 1-2%).",
+        "Multiple patchy areas of hyperactive uptake.",
+        "Normal symmetrical uptake pattern."
+      ],
+      "correctIndex": 2,
+      "explanation": "Subacute (de Quervain's) thyroiditis is a granulomatous inflammation caused by viral infection. Follicular rupture releases stored thyroid hormone (transient thyrotoxicosis), but damaged follicular cells cannot uptake iodine, resulting in classic suppressed radioiodine uptake (< 1–2%)."
+    },
+    {
+      "id": 30,
+      "category": "Secondary Endocrine Hypertension",
+      "question": "A 28-year-old female presents with severe episodic headaches, profuse sweating, and palpitations. Her BP is 190/110 mmHg. What 24-hour urinary biochemical test confirms the diagnosis?",
+      "options": [
+        "24-hour urinary free cortisol",
+        "24-hour urinary fractionated metanephrines and normetanephrines",
+        "24-hour urinary sodium and potassium",
+        "24-hour urinary 5-HIAA",
+        "24-hour urinary protein"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pheochromocytoma is a catecholamine-secreting chromaffin cell tumor. The most sensitive diagnostic test is measuring 24-hour urinary fractionated metanephrines/normetanephrines or plasma free metanephrines."
+    },
+    {
+      "id": 31,
+      "category": "Radioactive Iodine Contraindications",
+      "question": "A 26-year-old female with Graves' disease is considering definitive therapy with Radioactive Iodine (I-131). What is an ABSOLUTE contraindication to I-131 therapy?",
+      "options": [
+        "History of bronchial asthma",
+        "Pregnancy or breastfeeding",
+        "Age under 40 years",
+        "Concurrent use of propranolol",
+        "Mild pretibial myxedema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radioactive Iodine (I-131) is absolutely contraindicated during pregnancy (causes fetal thyroid ablation and congenital hypothyroidism) and breastfeeding. Pregnancy must be ruled out before administration."
+    },
+    {
+      "id": 32,
+      "category": "Post-Thyroidectomy Complications",
+      "question": "Six hours following a total thyroidectomy for toxic multinodular goiter, a patient develops perioral tingling, numbness in fingers, and carpal spasm upon inflation of the BP cuff (Trousseau's sign). What is the underlying cause?",
+      "options": [
+        "Recurrent laryngeal nerve injury",
+        "Acute surgical hemorrhage / neck hematoma",
+        "Accidental excision or vascular compromise of parathyroid glands causing acute hypocalcemia",
+        "Postoperative thyroid storm",
+        "Systemic lidocaine toxicity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Accidental removal or ischemic trauma to parathyroid glands during thyroidectomy leads to acute hypoparathyroidism and rapid hypocalcemia, manifesting as neuromuscular excitability (perioral numbness, Trousseau's sign, Chvostek's sign)."
+    },
+    {
+      "id": 33,
+      "category": "Insulin Signaling Pathway",
+      "question": "Upon binding of insulin to the alpha subunits of the transmembrane insulin receptor, what intracellular step initiates GLUT4 glucose transporter translocation?",
+      "options": [
+        "Direct cleavage of cAMP by Phosphodiesterase-3",
+        "Autophosphorylation of beta-subunit tyrosine residues, recruitment of Insulin Receptor Substrates (IRS-1/2), and activation of the PI3K / Akt pathway",
+        "Activation of Gq-protein and Phospholipase C",
+        "Phosphorylation of JAK-2 tyrosine kinases",
+        "Direct nuclear translocation of Hsp90 proteins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin binding induces receptor beta-subunit autophosphorylation on tyrosine residues, recruiting IRS-1/2, activating Phosphoinositide 3-kinase (PI3K) and Akt/Protein Kinase B, which triggers movement of GLUT4 storage vesicles to the cell membrane in skeletal muscle and adipose tissue."
+    },
+    {
+      "id": 34,
+      "category": "Pseudohypoparathyroidism Type 1A",
+      "question": "A 14-year-old girl with short stature, round face, and short 4th/5th metacarpals (Albright Hereditary Osteodystrophy) exhibits hypocalcemia, hyperphosphatemia, but markedly ELEVATED serum Parathyroid Hormone (PTH). What is the genetic cause?",
+      "options": [
+        "Autoimmune destruction of parathyroid glands",
+        "Inactivating mutation in the GNAS1 gene encoding the Gs-alpha protein subunit, causing target organ PTH resistance",
+        "Activating mutation in the Calcium-Sensing Receptor (CaSR)",
+        "Vitamin D 1-alpha-hydroxylase deficiency",
+        "Activating mutation in RET proto-oncogene"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pseudohypoparathyroidism Type 1A is caused by a maternal loss-of-function mutation in GNAS1 (encoding Gs-alpha), leading to target tissue resistance to PTH in the kidney and bone, producing hypocalcemia with high circulating PTH."
+    },
+    {
+      "id": 35,
+      "category": "Diabetic Microvascular Complications",
+      "question": "Microalbuminuria (30–300 mg/24hr or urine albumin-to-creatinine ratio 3–30 mg/mmol) is the earliest clinical marker of diabetic nephropathy. Which drug class slows progression by reducing intraglomerular pressure?",
+      "options": [
+        "Loop diuretics (Furosemide)",
+        "Angiotensin-Converting Enzyme Inhibitors (ACEi, e.g., Enalapril) or ARBs",
+        "Beta-blockers (Atenolol)",
+        "Sulfonylureas (Gliclazide)",
+        "Calcium channel blockers (Amlodipine)"
+      ],
+      "correctIndex": 1,
+      "explanation": "ACE Inhibitors and ARBs preferentially dilate the efferent renal arteriole, reducing intraglomerular capillary pressure and hyperfiltration, thereby slowing the progression of diabetic microalbuminuria to overt nephropathy."
+    },
+    {
+      "id": 36,
+      "category": "Diabetic Neuropathy Pharmacology",
+      "question": "A 58-year-old patient with T2DM presents with burning, shooting pain in both feet worsening at night. Which medication is recommended as first-line pharmacological treatment for painful diabetic peripheral neuropathy?",
+      "options": [
+        "Morphine sulphate oral solution",
+        "Duloxetine (SNRI) or Pregabalin / Gabapentin",
+        "High-dose Ibuprofen",
+        "Metformin",
+        "Paracetamol"
+      ],
+      "correctIndex": 1,
+      "explanation": "First-line agents for painful diabetic neuropathy include Duloxetine (SNRI), Pregabalin/Gabapentin (gabapentinoids), or Tricyclic Antidepressants (Amitriptyline). Opioids like morphine are avoided for chronic neuropathic pain."
+    },
+    {
+      "id": 37,
+      "category": "DKA Glucose & Dextrose Protocol",
+      "question": "During continuous IV soluble insulin treatment for acute DKA, when blood glucose drops below 13.8 mmol/L (250 mg/dL), why is IV 10% Dextrose added to the saline fluid regimen?",
+      "options": [
+        "Because insulin is stopped completely once glucose reaches 13.8 mmol/L.",
+        "To allow continued IV insulin infusion to clear blood ketones and ketoacidosis without causing hypoglycemia.",
+        "To increase urine output and accelerate potassium excretion.",
+        "To treat acute hypokalemia caused by insulin.",
+        "To prevent rapid elevation of blood urea nitrogen."
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin infusion must be continued until ketoacidosis resolves (pH > 7.3, HCO3 > 18, ketones cleared). When glucose falls below 13.8 mmol/L (250 mg/dL), 5-10% Dextrose is added to IV fluids to prevent hypoglycemia while maintaining insulin administration."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,
