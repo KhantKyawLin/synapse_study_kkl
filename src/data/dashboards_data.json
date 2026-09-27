@@ -1,4 +1,226 @@
 {
+  "Final Part 2 - Cardiology Database": [
+    {
+      "Name": "ST-Elevation Myocardial Infarction (STEMI)",
+      "Tag": "Acute Coronary Syndromes",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Transmural myocardial ischemia/necrosis caused by complete, acute thrombotic occlusion of a coronary artery following vulnerable atherosclerotic plaque rupture."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Plaque rupture exposes subendothelial collagen, causing platelet activation, aggregation, and fibrin clot formation, completely occluding coronary blood flow and producing ischemic cell death."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe, crushing retrosternal chest pain radiating to left arm/jaw, diaphoresis, dyspnea, nausea, anxiety, S4 gallop, hypotension/shock in massive MI."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "ST-segment elevation >= 1 mm in >= 2 contiguous leads (or new LBBB); elevated high-sensitivity Cardiac Troponin I/T; emergency Primary PCI (< 90 mins) or Thrombolysis (< 12 hrs if PCI unavailable); MONAC (Morphine, Oxygen, Nitrates, Aspirin 300mg, Clopidogrel/Ticagrelor)."
+        }
+      ]
+    },
+    {
+      "Name": "Non-ST-Elevation Myocardial Infarction (NSTEMI)",
+      "Tag": "Acute Coronary Syndromes",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Subendocardial myocardial necrosis resulting from subtotal or transient coronary arterial occlusion without persistent ST-segment elevation."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Partial thrombotic occlusion or severe demand supply mismatch leads to ischemia confined to the subendocardium, causing cellular death and cardiac biomarker release."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Anginal chest pain at rest or minimal exertion, radiating to jaw/arm, diaphoresis, shortness of breath, autonomic symptoms."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated Troponin I/T (serial testing at 0 and 1-3 hrs); ECG shows ST-segment depression, T-wave inversion, or normal ECG; dual antiplatelet therapy (Aspirin + P2Y12 inhibitor), LMWH/Fondaparinux, early invasive risk-stratified coronary angiography."
+        }
+      ]
+    },
+    {
+      "Name": "Unstable Angina (UA)",
+      "Tag": "Acute Coronary Syndromes",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Myocardial ischemia at rest or with minimal exertion without detectable myocardial necrosis or enzyme release."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transient coronary arterial plaque instability or vasospasm causing temporary ischemia without permanent cardiomyocyte death."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "New-onset severe angina, crescendo angina (increasing frequency/intensity), or angina at rest lasting > 20 mins; relieved poorly by rest/nitrates."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Normal cardiac Troponin levels (distinguishes UA from NSTEMI); transient ST depression or T wave inversion on ECG; Aspirin, P2Y12 inhibitor, LMWH, beta-blockers, anti-ischemic therapy, risk stratification."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Heart Failure & Acute Pulmonary Edema",
+      "Tag": "Heart Failure",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Rapid onset or worsening of heart failure symptoms requiring urgent medical evaluation and resuscitation; high acute mortality."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sudden elevation in left ventricular end-diastolic pressure (LVEDP) causes acute back-pressure into pulmonary capillaries, driving fluid transudation into alveoli and severely impairing gas exchange."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe acute dyspnea, orthopnea, paroxysmal nocturnal dyspnea (PND), pink frothy sputum, diaphoresis, bilateral pulmonary crackles/rales, S3 gallop, elevated JVP."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated BNP / NT-proBNP; CXR showing cardiomegaly, pulmonary edema, Kerley B lines, bat-wing shadowing; LMNOP protocol: Loop diuretics (IV Furosemide), Morphine (for anxiety/preload reduction), Nitrates (IV/SL if SBP >= 100 mmHg), Oxygen/NIV, Position upright."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Heart Failure (HFrEF vs HFpEF)",
+      "Tag": "Heart Failure",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Complex clinical syndrome characterized by structural/functional cardiac impairment resulting in inadequate cardiac output or elevated intracardiac pressures."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "HFrEF (LVEF <= 40%): impaired myocardial contractility (post-MI, dilated cardiomyopathy). HFpEF (LVEF >= 50%): impaired diastolic relaxation and compliance (hypertension, LVH). Neurohormonal activation (RAAS, SNS) drives adverse ventricular remodeling."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Exertional dyspnea, fatigue, orthopnea, PND, peripheral edema, elevated JVP, displaced apex beat, S3 (HFrEF) or S4 (HFpEF) gallop, hepatomegaly."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Echocardiogram (LVEF measurement); elevated BNP/NT-proBNP; NYHA functional class I-IV grading; HFrEF disease-modifying therapy: ACEi/ARNI, Beta-blockers (Bisoprolol/Carvedilol), MRA (Spironolactone/Eplerenone), SGLT2 inhibitors."
+        }
+      ]
+    },
+    {
+      "Name": "Rheumatic Fever & Rheumatic Heart Disease",
+      "Tag": "Valvular & Inflammatory Heart Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Systemic immune-mediated inflammatory sequela occurring 2-4 weeks following Group A Beta-Hemolytic Streptococcal (GABHS) pharyngitis; predominantly affects children/young adults in developing regions."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Molecular mimicry between streptococcal M-protein and human cardiac tissue epitopes leads to cross-reactive antibody and T-cell mediated autoimmune destruction of endocardium, myocardium, and pericardium (pancarditis)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Major Jones Criteria: Carditis, Polyarthritis (migratory), Sydenham Chorea, Erythema Marginatum, Subcutaneous Nodules. Chronic RHD leads to progressive valve deformity (Mitral Stenosis > Mitral Regurgitation > Aortic valve disease)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Revised Jones Criteria (2 Major OR 1 Major + 2 Minor plus evidence of preceding GABHS infection: elevated ASO titer or positive throat swab/culture); anti-inflammatory therapy (Aspirin/corticosteroids); long-term secondary penicillin prophylaxis (benzathine penicillin G every 3-4 weeks)."
+        }
+      ]
+    },
+    {
+      "Name": "Mitral Stenosis (MS)",
+      "Tag": "Valvular Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Narrowing of the mitral valve orifice, almost exclusively secondary to chronic Rheumatic Heart Disease (RHD)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Restricted mitral leaflet mobility and fusion of commissures obstruct left atrial emptying into LV, leading to elevated LA pressure, LA enlargement (atrial fibrillation, thrombus formation), and secondary pulmonary arterial hypertension."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dyspnea on exertion, orthopnea, hemoptysis (bronchial vein rupture), malar flush (pink-purple patches on cheeks), systemic embolic events (stroke), signs of RV failure in late stages."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Auscultation: Loud S1, opening snap (OS) following S2, low-pitched mid-diastolic rumbling murmur at apex heard best in left lateral decubitus position; Echocardiogram (planimetry, pressure half-time, Wilkins score); Percutaneous Mitral Balloon Commissurotomy (PMBC) or valve replacement."
+        }
+      ]
+    },
+    {
+      "Name": "Infective Endocarditis (IE)",
+      "Tag": "Valvular & Inflammatory Heart Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection of the endocardial surface of the heart, most commonly affecting native or prosthetic heart valves; Staphylococcus aureus (acute/IVDU) and Streptococcus viridans (subacute/dental procedures)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bacteremia leads to bacterial adherence on pre-existing sterile fibrin-platelet vegetations or damaged valvular endothelium, causing progressive valve destruction, regurgitation, abscess formation, and septic embolization."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fever, night sweats, weight loss, new or changing heart murmur, peripheral vascular/immunologic stigmata: Janeway lesions (painless erythematous macules on palms/soles), Osler nodes (painful subcutaneous nodules on digits), Roth spots (retinal hemorrhages), splinter hemorrhages."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Modified Duke Criteria (Major: >=2 positive blood cultures for typical organisms, Echocardiogram showing vegetation/abscess/dehiscence; Minor: predisposing heart condition/IVDU, fever, vascular phenomena, immunologic phenomena); prolonged IV bactericidal antibiotics (4-6 weeks); surgical intervention if severe valve failure or persistent bacteremia."
+        }
+      ]
+    },
+    {
+      "Name": "Hypertensive Urgency & Emergency",
+      "Tag": "Hypertension",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe acute elevation of blood pressure (typically SBP > 180 mmHg or DBP > 120 mmHg). Differentiated strictly by the presence of acute target organ damage."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Failure of vascular autoregulation under severe pressure load causes endothelial injury, fibrinoid necrosis of arterioles, intravascular coagulation, and acute target organ ischemia."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hypertensive Urgency: severe headache, epistaxis, anxiety, but NO acute organ damage. Hypertensive Emergency: BP > 180/120 with acute encephalopathy, aortic dissection, acute coronary syndrome, acute pulmonary edema, eclampsia, or AKI."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Fundoscopy (papilledema, flame hemorrhages, soft exudates); serum creatinine, urinalysis, CT head, ECG, CXR. Urgency: oral antihypertensives (Labetalol, Captopril) over 24-48 hrs. Emergency: ICU admission, IV labetalol/nicardipine/sodium nitroprusside (reduce MAP by <= 25% in 1st hour)."
+        }
+      ]
+    },
+    {
+      "Name": "Essential (Primary) Hypertension",
+      "Tag": "Hypertension",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Sustained elevation of systemic arterial blood pressure (SBP >= 140 mmHg or DBP >= 90 mmHg) without an identifiable secondary cause; accounts for 90-95% of adult hypertension cases."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Multifactorial interplay of genetic susceptibility, excessive sodium intake, sympathetic nervous system overactivity, RAAS dysfunction, vascular remodeling, and decreased endothelial nitric oxide availability."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Usually asymptomatic ('silent killer'); long-term unmanaged HTN leads to target organ damage: LV hypertrophy, coronary artery disease, stroke, hypertensive nephrosclerosis, retinopathy."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Repeated BP measurements or 24-hr Ambulatory Blood Pressure Monitoring (ABPM average >= 130/80 mmHg); screening for target organ damage (ECG for LVH, urinalysis for microalbuminuria, U&Es); 1st line pharmacological management: ACEi/ARB, Calcium Channel Blockers (Amlodipine), Thiazide-like diuretics (Indapamide)."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Endocrinology Database": [
     {
       "Name": "Type 1 Diabetes Mellitus (T1DM)",

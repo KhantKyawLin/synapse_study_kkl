@@ -4961,6 +4961,381 @@
       "answer": "Sustained high blood glucose and inefficient fuel utilization."
     },
     {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the clinical syndrome characterized by the heart's inability to maintain adequate output without elevated ventricular filling pressure?",
+      "answer": "Heart failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Within the context of cardiac output, _____ is defined as the volume and pressure of blood in the ventricles at the end of diastole.",
+      "answer": "Preload"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Within the context of cardiac output, _____ is defined as the volume and pressure of blood in the ventricles during systole.",
+      "answer": "Afterload"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the primary characteristic of systolic heart failure regarding ejection fraction (EF)?",
+      "answer": "An ejection fraction of $< 40\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the ejection fraction (EF) threshold for heart failure with preserved ejection fraction (HFpEF)?",
+      "answer": "$\\ge 50\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Name three physiological or metabolic conditions that can lead to high-output heart failure.",
+      "answer": "Pregnancy, severe anaemia, and thyrotoxicosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What classification of heart failure involves both the left and right ventricles?",
+      "answer": "Biventricular heart failure (Congestive cardiac failure)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which specific mechanism of heart failure is caused by hypertension or aortic stenosis?",
+      "answer": "Ventricular outflow obstruction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Ventricular volume overload in heart failure is typically caused by which type of valvular dysfunction?",
+      "answer": "Mitral or aortic regurgitation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which cardiac arrhythmia is a frequent precipitating factor for acute heart failure?",
+      "answer": "Atrial fibrillation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "List two pharmacological agents that can precipitate or worsen heart failure by causing fluid retention.",
+      "answer": "NSAIDs and glucocorticoids."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which type of heart failure presents with symptoms such as orthopnea, paroxysmal nocturnal dyspnoea (PND), and a nocturnal cough?",
+      "answer": "Left ventricular failure (LVF)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What clinical finding is characterized by pink frothy sputum in a patient with severe dyspnoea?",
+      "answer": "Acute pulmonary oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Systemic findings such as peripheral pitting oedema, ascites, and hepatomegaly are characteristic of _____ heart failure.",
+      "answer": "Right ventricular"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the diagnostic significance of a raised JVP in a patient with ankle oedema?",
+      "answer": "It indicates systemic venous congestion secondary to right heart failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Name the four recognized electrolyte imbalances that occur as complications of heart failure.",
+      "answer": "Hypokalaemia, hyperkalaemia, hyponatraemia, and renal failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What do Kerley B lines on a chest X-ray represent in a patient with heart failure?",
+      "answer": "Interstitial oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "The 'Bat's wings' appearance on a chest X-ray is diagnostic for which condition?",
+      "answer": "Alveolar oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which cardiac investigation is used to determine ejection fraction and detect underlying valvular causes of failure?",
+      "answer": "Echocardiography."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the primary role of loop diuretics like furosemide in the treatment of chronic heart failure?",
+      "answer": "To reduce preload and relieve symptoms of fluid overload."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which medication class is specifically known to reduce both preload and afterload while prolonging life in heart failure patients?",
+      "answer": "ACE inhibitors (ACEI)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the most common side effect that causes patients to discontinue ACE inhibitors?",
+      "answer": "A dry, non-productive cough."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Name two absolute contraindications to the administration of ACE inhibitors.",
+      "answer": "Pregnancy and bilateral renal artery stenosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Why are beta-blockers like Bisoprolol started at a very low dose in heart failure management?",
+      "answer": "To avoid initial worsening of failure while slowly counteracting sympathetic stimulation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which drug is used for heart rate control in heart failure patients who also have atrial fibrillation?",
+      "answer": "Digoxin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "List the four classes of medications that reduce mortality in patients with heart failure and reduced ejection fraction (HFrEF).",
+      "answer": "ACEI/ARB, Beta-blockers, Spironolactone, and Isosorbide dinitrate + Hydralazine."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "According to NYHA classification, a patient who is comfortable at rest but symptomatic with less than ordinary activity is in Class _____.",
+      "answer": "III"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What are two poor prognostic features in heart failure related to blood chemistry?",
+      "answer": "Hyponatraemia and renal impairment."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the immediate pharmacological intervention for an acute medical emergency of pulmonary oedema?",
+      "answer": "IV Furosemide $40-80$ mg stat."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "In acute pulmonary oedema management, high-flow oxygen should be avoided if the patient has a history of _____.",
+      "answer": "COPD"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Nitrate infusions are indicated in acute pulmonary oedema only if the systolic blood pressure is $\\ge$ _____.",
+      "answer": "$100$ mmHg."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What physical sign is described as alternating strong and weak peripheral pulses, signifying severe left ventricular failure?",
+      "answer": "Pulsus alternans."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "The clinical condition requiring immediate reduction in pericardial pressure by pericardiocentesis is _____.",
+      "answer": "Cardiac tamponade."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What are the three clinical entities included in Acute Coronary Syndrome (ACS)?",
+      "answer": "STEMI, NSTEMI, and unstable angina pectoris."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "How do troponin levels differ between unstable angina and NSTEMI?",
+      "answer": "Troponin levels are normal in unstable angina but raised in NSTEMI."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the defining ECG criteria for STEMI in two adjacent precordial leads?",
+      "answer": "ST elevation $\\ge 2$ mm."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Describe the classic pain presentation of pericarditis.",
+      "answer": "Sharp anterior chest pain made worse by inspiration or lying supine and relieved by sitting forward."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "A discrepancy in systolic blood pressure of $>20$ mmHg between the right and left upper extremities is a classic sign of _____.",
+      "answer": "Aortic dissection."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What are the five components of the HEART score used to assess chest pain in the emergency department?",
+      "answer": "History, ECG, Age, Risk factors, and Troponin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "In the context of AMI, what mechanical complication leads to acute mitral regurgitation?",
+      "answer": "Papillary muscle rupture."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What physical finding is characterized by a 'crunching' sound heard over the mediastinum during systole in esophageal rupture?",
+      "answer": "Hamman's crunch."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which diagnostic score variables include ST-segment changes and elevated cardiac markers to predict NSTEMI outcomes?",
+      "answer": "TIMI risk score."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Heart failure prognosis is generally poor, with approximately what percentage of patients dying within 5 years?",
+      "answer": "$25-50\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which non-pharmacological treatment for heart failure utilizes pacing to coordinate ventricular contraction?",
+      "answer": "Cardiac resynchronization therapy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the primary electrolyte monitoring requirement 1-2 weeks after starting spironolactone?",
+      "answer": "Serum potassium (due to risk of hyperkalaemia)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which medication is an absolute contraindication for a patient with heart failure and a history of severe asthma?",
+      "answer": "Beta-blockers."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "A patient presenting with acute dyspnoea, pulsus paradoxus, and jugular venous distension most likely has _____.",
+      "answer": "Pericardial tamponade."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What clinical feature differentiates unstable angina from stable angina?",
+      "answer": "Unstable angina occurs at rest or with increasing frequency/severity."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "In heart failure, the 'gallop rhythm' refers to the presence of which extra heart sound?",
+      "answer": "The third heart sound ($S_{3}$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which diagnostic marker is used to 'rule in' or 'rule out' myocardial infarction within 1-3 hours of presentation?",
+      "answer": "Troponin change (delta)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the immediate medical management for a suspected aortic dissection prior to surgery?",
+      "answer": "Control of blood pressure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "True or False: Beta-blockers are used as first-line treatment for acute decompensated heart failure.",
+      "answer": "False (they are generally avoided until the patient is stable)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What term describes the mobilization of fluid from the limbs into the circulation when a patient lies down?",
+      "answer": "Nocturia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "In the management of heart failure, which class of diuretics is primarily used for symptom relief rather than mortality reduction?",
+      "answer": "Loop diuretics (e.g., furosemide)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which valvular heart disease is typically characterized by an 'early diastolic murmur'?",
+      "answer": "Aortic regurgitation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What term describes the presence of fine lung crackles and wheeze in a patient with left heart failure?",
+      "answer": "Cardiac asthma."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which neurohumoral system activation leads to the 'vicious circle' of sodium and water retention in heart failure?",
+      "answer": "Renin-angiotensin system."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Explain the role of CPAP in treating acute pulmonary oedema.",
+      "answer": "It drives fluid out of alveolar spaces and improves ventilation by recruiting more alveoli."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the recommended dietary modification regarding salt for patients with severe congestive heart failure?",
+      "answer": "Avoidance of high-salt foods and added salt."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which side of the heart is failing if a patient presents with sacral oedema and epigastric discomfort?",
+      "answer": "The right side (Right Ventricular Failure)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which pharmacological agent is indicated for heart failure patients who cannot tolerate ACE inhibitors or ARBs?",
+      "answer": "Vasodilators (Hydralazine + Isosorbide dinitrate)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "In ACS diagnosis, what is the significance of 'pathological Q waves'?",
+      "answer": "They indicate previous or established myocardial infarction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What complication of AMI is suspected in a patient who develops a new pansystolic murmur $2-7$ days after the event?",
+      "answer": "Ventricular septal rupture or papillary muscle rupture."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which NYHA class includes patients with heart disease but no undue dyspnoea from ordinary activity?",
+      "answer": "Class I."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the significance of the 'delta' troponin level at 0 and 3 hours in the emergency room?",
+      "answer": "It differentiates acute myocardial injury from chronic elevations."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "List three common arrhythmias that can complicate an acute myocardial infarction.",
+      "answer": "Atrial fibrillation, ventricular tachycardia, and complete heart block."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the most common cause of cardiogenic shock in the clinical setting?",
+      "answer": "Acute myocardial infarction with extensive loss of viable myocardium."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which electrolyte imbalance is frequently associated with the use of loop diuretics and can trigger arrhythmias?",
+      "answer": "Hypokalaemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the treatment of choice for a patient with STEMI presenting within 12 hours of symptom onset?",
+      "answer": "Percutaneous coronary intervention (PCI) or thrombolysis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "A 'triple rhythm' on heart auscultation in an elderly patient with dyspnoea is most likely an _____ sound.",
+      "answer": "$S_{3}$ (third heart)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What is the prognostic significance of hyponatraemia in a heart failure patient?",
+      "answer": "It is a feature associated with a poor prognosis and severe disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Why is alcohol abstinence required for patients with alcohol-induced cardiomyopathy?",
+      "answer": "To prevent further direct myocardial damage and allow for potential recovery."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Which cardiac investigation can identify regional wall motion abnormalities following an AMI?",
+      "answer": "Echocardiography."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "What are the three main objectives in the general management of chronic heart failure?",
+      "answer": "Identify/treat the underlying cause, treat/avoid precipitating factors, and apply pharmacological/non-pharmacological therapy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Cardiology",
+      "question": "Isosorbide dinitrate acts as a _____ to reduce preload.",
+      "answer": "Venodilator"
+    },
+    {
       "category": "Final Part 2 Medicine - Endocrinology",
       "question": "What is the diagnostic threshold for random blood glucose concentration in Diabetes Mellitus?",
       "answer": "$> 11 \\text{ mmol/L}$"

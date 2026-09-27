@@ -1406,6 +1406,428 @@
       "explanation": "In DKA, absolute insulin deficiency and intracellular buffering of excess H+ ions (acidosis) cause potassium to shift out of cells into the ECF. This transcellular shift can make serum potassium look normal or high, even though the patient has severe total-body potassium depletion due to urinary loss from osmotic diuresis."
     }
   ],
+  "Final Part 2 Medicine - Cardiology": [
+    {
+      "id": 8,
+      "category": "Primary PCI door-to-balloon timing",
+      "question": "A 58-year-old male presents to the emergency department with 2 hours of crushing retrosternal chest pain and diaphoresis. ECG demonstrates 2.5 mm ST-segment elevation in leads V1 to V4. What is the immediate target for door-to-balloon time if Primary PCI is available?",
+      "options": [
+        "< 60 minutes",
+        "< 90 minutes",
+        "< 120 minutes",
+        "< 180 minutes",
+        "< 12 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to ACS management guidelines, the target door-to-balloon time for primary percutaneous coronary intervention (PCI) in STEMI is < 90 minutes. If PCI is unavailable within 120 minutes of diagnosis, fibrinolytic therapy should be administered within 30 minutes of presentation (door-to-needle < 30 mins)."
+    },
+    {
+      "id": 9,
+      "category": "High-sensitivity Troponin sampling algorithm",
+      "question": "Which high-sensitivity Cardiac Troponin (hs-cTn) protocol is recommended by current guidelines to rapidly rule-in or rule-out acute NSTEMI in the emergency department?",
+      "options": [
+        "Baseline and 12-hour repeat sampling",
+        "Baseline and 6-hour repeat sampling",
+        "Baseline and 1-3 hour serial sampling",
+        "Single baseline measurement upon ED arrival",
+        "Daily sampling for 3 consecutive days"
+      ],
+      "correctIndex": 2,
+      "explanation": "With high-sensitivity cardiac troponin (hs-cTn) assays, a rapid 0/1-hour or 0/3-hour sampling algorithm is recommended to evaluate acute myocardial injury. This allows early discharge or prompt invasive risk-stratification compared to older conventional troponin assays."
+    },
+    {
+      "id": 10,
+      "category": "Acute Pulmonary Edema LMNOP protocol",
+      "question": "A 65-year-old female with chronic ischemic cardiomyopathy presents with acute shortness of breath, orthopnea, and pink frothy sputum. BP is 160/95 mmHg, HR is 110 bpm, and bilateral pulmonary crackles extend to the mid-zones. Which initial medical regimen is indicated?",
+      "options": [
+        "IV Furosemide, IV Nitroglycerin, Oxygen, and upright positioning",
+        "IV Digoxin, IV Beta-blocker, and flat supine positioning",
+        "Oral Spironolactone, IV Normal Saline 1000 mL bolus, and Trendelenburg position",
+        "Immediate IV Hydrocortisone, IV Salbutamol nebulization, and IV Adrenaline",
+        "Oral Diltiazem and fluid loading with 5% Dextrose"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acute pulmonary edema with elevated BP (SBP >= 100 mmHg) is treated with the emergency LMNOP protocol: Loop diuretics (IV Furosemide), Morphine (optional for severe anxiety/preload reduction), Nitrates (IV/SL Nitroglycerin to reduce preload/afterload), Oxygen/NIV, and upright Position to reduce venous return."
+    },
+    {
+      "id": 11,
+      "category": "NYHA Functional Classification Class III",
+      "question": "According to the New York Heart Association (NYHA) functional classification, how is a heart failure patient classified if comfortable at rest but experiences dyspnea and fatigue during less than ordinary physical activity (e.g., walking 20 meters on level ground)?",
+      "options": [
+        "NYHA Class I",
+        "NYHA Class II",
+        "NYHA Class III",
+        "NYHA Class IV",
+        "NYHA Class V"
+      ],
+      "correctIndex": 2,
+      "explanation": "NYHA Class III is defined as marked limitation of physical activity. Patients are comfortable at rest, but less than ordinary physical activity causes dyspnea, fatigue, or palpitations. Class I has no limitation; Class II has slight limitation; Class IV has symptoms even at rest."
+    },
+    {
+      "id": 12,
+      "category": "Right vs. Left Ventricular Failure signs",
+      "question": "Which physical examination finding is most specific for Right Ventricular Failure (RVF) rather than Left Ventricular Failure (LVF)?",
+      "options": [
+        "Bilateral basal lung crackles/rales",
+        "Paroxysmal nocturnal dyspnea (PND)",
+        "Hepatomegaly and elevated JVP with positive hepatojugular reflux",
+        "S3 gallop rhythm heard best at the cardiac apex",
+        "Cheyne-Stokes breathing pattern"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elevated JVP, hepatojugular reflux, tender hepatomegaly, ascites, and dependent peripheral edema reflect systemic venous congestion characteristic of RVF. Pulmonary crackles, PND, orthopnea, and apical S3 gallop reflect pulmonary venous congestion characteristic of LVF."
+    },
+    {
+      "id": 13,
+      "category": "Beta-blocker contraindication in acute decompensation",
+      "question": "Which medication is an absolute contraindication for initiation in a patient presenting with acute decompensated heart failure with severe fluid retention and pulmonary congestion?",
+      "options": [
+        "IV Furosemide",
+        "High-dose oral Beta-blocker initiation or rapid dose up-titration",
+        "Sublingual Nitroglycerin",
+        "Low-dose Spironolactone",
+        "Supplemental nasal cannula Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta-blockers (Bisoprolol, Carvedilol, Metoprolol succinate) have negative inotropic properties. Initiating or rapidly escalating beta-blockers during acute decompensated heart failure with pulmonary edema can precipitate worsening cardiac shock. They should be initiated slowly only after acute euvolemia is achieved."
+    },
+    {
+      "id": 14,
+      "category": "Rheumatic Fever Revised Jones Criteria",
+      "question": "A 12-year-old boy presents with migratory polyarthritis affecting his knees and ankles 3 weeks following a sore throat. On examination, a new pansystolic murmur is heard at the apex. Which diagnostic criteria set is used to establish Rheumatic Fever?",
+      "options": [
+        "Modified Duke Criteria",
+        "Revised Jones Criteria",
+        "Light's Criteria",
+        "Burch-Wartofsky Score",
+        "CURB-65 Criteria"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rheumatic Fever is diagnosed using the Revised Jones Criteria, requiring evidence of preceding Group A Streptococcal infection plus either 2 Major criteria (Carditis, Polyarthritis, Chorea, Erythema marginatum, Subcutaneous nodules) or 1 Major + 2 Minor criteria."
+    },
+    {
+      "id": 15,
+      "category": "Mitral Stenosis auscultatory findings",
+      "question": "A 45-year-old female with a history of childhood rheumatic fever presents with exertional dyspnea, orthopnea, and hemoptysis. Auscultation reveals a loud S1, an opening snap following S2, and a low-pitched mid-diastolic rumbling murmur at the apex. What is the diagnosis?",
+      "options": [
+        "Mitral Stenosis",
+        "Mitral Regurgitation",
+        "Aortic Stenosis",
+        "Aortic Regurgitation",
+        "Tricuspid Regurgitation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loud S1, opening snap (OS), and mid-diastolic rumbling murmur at the apex in left lateral decubitus position are pathognomonic for Mitral Stenosis (MS), almost universally caused by chronic Rheumatic Heart Disease."
+    },
+    {
+      "id": 16,
+      "category": "Aortic Stenosis classic SAD triad & pulse",
+      "question": "A 72-year-old male presents with angina, exertional syncope, and heart failure symptoms. Physical exam reveals a slow-rising carotid pulse (pulsus parvus et tardus) and a harsh crescendo-decrescendo ejection systolic murmur radiating to the carotids. What is the diagnosis?",
+      "options": [
+        "Mitral Valve Prolapse",
+        "Aortic Stenosis",
+        "Hypertrophic Cardiomyopathy",
+        "Tricuspid Stenosis",
+        "Pulmonary Regurgitation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic triad of Aortic Stenosis (AS) is SAD: Syncope, Angina, and Dyspnea (heart failure). Physical findings include pulsus parvus et tardus (weak and delayed carotid pulse), harsh ejection systolic murmur radiating to the carotids, and soft/absent S2."
+    },
+    {
+      "id": 17,
+      "category": "Modified Duke Criteria immunologic phenomena",
+      "question": "Which minor criterion in the Modified Duke Criteria for Infective Endocarditis represents immunological phenomena?",
+      "options": [
+        "Janeway lesions",
+        "Osler nodes and Roth spots",
+        "Splinter hemorrhages",
+        "Intravenous drug use",
+        "Fever > 38.0°C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osler nodes (painful subcutaneous nodules on digits), Roth spots (retinal hemorrhages), and glomerulonephritis are immunological phenomena in Duke Criteria. Janeway lesions (painless erythematous macules), splinter hemorrhages, and septic emboli represent vascular phenomena."
+    },
+    {
+      "id": 18,
+      "category": "Infective Endocarditis in IVDU (Tricuspid)",
+      "question": "A 32-year-old intravenous drug user presents with fever, chills, and pleuritic chest pain. Blood cultures grow Staphylococcus aureus. Chest X-ray reveals multiple septic pulmonary emboli. Which heart valve is most frequently affected?",
+      "options": [
+        "Mitral valve",
+        "Aortic valve",
+        "Tricuspid valve",
+        "Pulmonary valve",
+        "Eustachian valve"
+      ],
+      "correctIndex": 2,
+      "explanation": "In intravenous drug users (IVDU), infective endocarditis predominantly affects the right side of the heart, with the Tricuspid Valve being involved in > 60-70% of cases, most commonly caused by Staphylococcus aureus."
+    },
+    {
+      "id": 19,
+      "category": "Stage 2 Essential Hypertension target organ damage",
+      "question": "A 50-year-old male with long-standing poorly controlled hypertension presents to the clinic. BP is 175/105 mmHg. Urinalysis shows microalbuminuria and ECG shows voltage criteria for LV hypertrophy. How is his condition categorized?",
+      "options": [
+        "Hypertensive Urgency",
+        "Hypertensive Emergency",
+        "Essential Stage 2 Hypertension with target organ damage",
+        "White-coat Hypertension",
+        "Malignant Hypertensive Crisis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sustained high BP with evidence of chronic subclinical organ damage (LVH, microalbuminuria) in an asymptomatic outpatient represents Stage 2 Essential Hypertension with target organ involvement. Hypertensive Emergency requires acute, immediate life-threatening organ breakdown (e.g., aortic dissection, encephalopathy)."
+    },
+    {
+      "id": 20,
+      "category": "Acute Aortic Dissection target SBP & Labetalol",
+      "question": "A 55-year-old male presents with severe tearing chest pain radiating to his back between the scapulae. BP is 210/120 mmHg in the right arm and 175/95 mmHg in the left arm. What is the immediate target SBP and first-line IV drug class?",
+      "options": [
+        "Target SBP < 160 mmHg; IV Furosemide",
+        "Target SBP < 120 mmHg within 20 mins; IV Beta-blocker (e.g., Labetalol or Esmolol)",
+        "Target SBP < 140 mmHg over 24 hours; Oral Hydralazine",
+        "Target SBP < 90 mmHg; IV Sublingual Nitroglycerin alone",
+        "Target SBP < 180 mmHg; Oral Captopril"
+      ],
+      "correctIndex": 1,
+      "explanation": "In acute aortic dissection (a hypertensive emergency), rapid shear stress reduction is critical. Target SBP is < 120 mmHg and heart rate < 60 bpm within 20 minutes using IV beta-blockers (Labetalol or Esmolol) prior to or alongside vasodilators to prevent reflex tachycardia."
+    },
+    {
+      "id": 21,
+      "category": "ACEi/ARB contraindication in bilateral RAS",
+      "question": "Which class of antihypertensive medications is strictly contraindicated in patients with bilateral renal artery stenosis due to the risk of precipitating acute renal failure?",
+      "options": [
+        "Loop Diuretics",
+        "Calcium Channel Blockers (Dihydropyridines)",
+        "ACE Inhibitors / Angiotensin Receptor Blockers (ARBs)",
+        "Beta-1 Selective Blockers",
+        "Alpha-1 Antagonists"
+      ],
+      "correctIndex": 2,
+      "explanation": "In bilateral renal artery stenosis, renal perfusion depends heavily on Angiotensin II-mediated vasoconstriction of the efferent arteriole to maintain glomerular filtration pressure. ACEi/ARBs block this mechanism, causing acute loss of GFR and precipitating AKI."
+    },
+    {
+      "id": 22,
+      "category": "Cardiac Troponin I/T kinetics & specificity",
+      "question": "Which cardiac biomarker is the most specific and sensitive indicator of acute myocardial necrosis, exhibiting elevation within 3-4 hours and remaining elevated for up to 10-14 days?",
+      "options": [
+        "CK-MB",
+        "Myoglobin",
+        "Cardiac Troponin I / T",
+        "LDH (Lactate Dehydrogenase)",
+        "AST (Aspartate Aminotransferase)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cardiac Troponins (cTnI and cTnT) are highly specific and sensitive for myocardial necrosis. They rise in 3-4 hours, peak at 24 hours, and stay elevated for 10-14 days. CK-MB returns to baseline in 48-72 hours, making CK-MB useful specifically for detecting re-infarction."
+    },
+    {
+      "id": 23,
+      "category": "Nitroglycerin venodilation & preload reduction",
+      "question": "What is the primary mechanism of action of Nitroglycerin in relieving anginal chest pain?",
+      "options": [
+        "Direct coronary artery stenting effect",
+        "Venodilation leading to reduced venous return (preload) and reduced myocardial oxygen demand",
+        "Potent arterial constriction increasing coronary perfusion pressure",
+        "Inhibition of platelet aggregation via COX-1 blockade",
+        "Direct positive inotropic effect on ventricular cardiomyocytes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nitrates are converted to nitric oxide (NO) in vascular smooth muscle, stimulating cGMP to cause potent venodilation. Venodilation decreases venous return (preload), reducing end-diastolic wall stress and myocardial oxygen consumption."
+    },
+    {
+      "id": 24,
+      "category": "ACE inhibitor induced hyperkalemia mechanism",
+      "question": "A patient with heart failure and Reduced Ejection Fraction (HFrEF) is started on an ACE inhibitor. Which electrolyte abnormality must be closely monitored during therapy?",
+      "options": [
+        "Severe Hyponatremia",
+        "Hyperkalemia",
+        "Hypocalcemia",
+        "Hypermagnesemia",
+        "Hypouricemia"
+      ],
+      "correctIndex": 1,
+      "explanation": "ACE inhibitors reduce aldosterone secretion from the adrenal cortex. Lower aldosterone levels impair renal potassium excretion in the cortical collecting duct, leading to a risk of hyperkalemia (especially when combined with K-sparing diuretics)."
+    },
+    {
+      "id": 25,
+      "category": "Hyperacute T waves in acute STEMI",
+      "question": "Which electrocardiographic change is the earliest finding in hyperacute ST-elevation myocardial infarction, occurring within minutes of complete coronary arterial occlusion?",
+      "options": [
+        "Pathologic Q waves (> 0.04s duration)",
+        "Hyperacute tall, symmetric, peaked T waves",
+        "ST-segment depression in all lead groups",
+        "T-wave inversion",
+        "Atrioventricular block"
+      ],
+      "correctIndex": 1,
+      "explanation": "The earliest ECG changes in acute transmural STEMI are hyperacute T waves (tall, symmetrical, broad-based T waves), followed rapidly within minutes to hours by convex ST-segment elevation and later pathologic Q wave formation."
+    },
+    {
+      "id": 26,
+      "category": "Ventricular Septal Rupture post-MI murmur",
+      "question": "A 60-year-old male post-MI develops acute sudden dyspnea, hypotension, and a new harsh holosystolic murmur heard best at the lower left sternal border with a palpable thrill on post-MI day 4. What mechanical complication has occurred?",
+      "options": [
+        "Acute Papillary Muscle Rupture causing severe MR",
+        "Ventricular Septal Rupture (VSR)",
+        "Free Ventricular Wall Rupture with cardiac tamponade",
+        "Post-infarction Dressler Syndrome",
+        "Left Ventricular Aneurysm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ventricular Septal Rupture (VSR) presents 3-5 days post-MI with acute heart failure, hypotension, and a new loud holosystolic murmur with thrill at the left lower sternal border. Papillary muscle rupture causes acute severe MR without a thrill at LLSB."
+    },
+    {
+      "id": 27,
+      "category": "Post-MI secondary prevention 4 pillars",
+      "question": "Which medication regimen forms the core of post-MI secondary prevention for all patients without contraindications?",
+      "options": [
+        "Dual Antiplatelet Therapy (Aspirin + P2Y12 inhibitor), High-intensity Statin, ACEi/ARB, and Beta-blocker",
+        "Warfarin monotherapy + Low-dose Aspirin",
+        "Digoxin + Furosemide + Sublingual Nitrates as needed",
+        "Amlodipine + Spironolactone + Vitamin E",
+        "Clopidogrel monotherapy + Oral Corticosteroids"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'fantastic four' secondary prevention pillars post-MI are: 1) Dual Antiplatelet Therapy (Aspirin + Ticagrelor/Clopidogrel), 2) High-intensity Statin (Atorvastatin 80mg), 3) ACE inhibitor or ARB, and 4) Beta-blocker."
+    },
+    {
+      "id": 28,
+      "category": "Liebman-Sacks endocarditis in SLE",
+      "question": "A 28-year-old female presents with fever, joint pains, and a malar rash. On cardiac auscultation, a friction rub is heard. Echocardiogram reveals small, sterile, verrucous endocarditis vegetations on both sides of the mitral valve leaflets. What is this condition called?",
+      "options": [
+        "Infective Endocarditis",
+        "Liebman-Sacks Endocarditis (LUPUS endocarditis)",
+        "Non-bacterial Thrombotic Endocarditis (Marantic)",
+        "Rheumatic Endocarditis",
+        "Carcinoid Heart Disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liebman-Sacks endocarditis is a sterile, immune-complex-mediated endocarditis associated with Systemic Lupus Erythematosus (SLE). It is characterized by small sterile vegetations on both upper and lower surfaces of valve leaflets."
+    },
+    {
+      "id": 29,
+      "category": "Major Duke Criteria echocardiogram & blood cultures",
+      "question": "Which clinical feature or test result represents a Major Duke Criterion for the diagnosis of Infective Endocarditis?",
+      "options": [
+        "Fever > 38.0°C",
+        "Janeway lesions on the soles of feet",
+        "New valvular regurgitation murmur or echocardiographic evidence of endocardial vegetation/abscess",
+        "Single positive blood culture for Staphylococcus epidermidis",
+        "Glomerulonephritis and Osler nodes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Major Duke Criteria include: 1) Positive blood cultures from 2 separate sets for typical organisms (e.g., Viridans streptococci, S. aureus), and 2) Evidence of endocardial involvement on Echocardiogram (vegetation, abscess, new partial dehiscence of prosthetic valve) or NEW valvular regurgitation."
+    },
+    {
+      "id": 30,
+      "category": "Hypertension 3rd line combination therapy",
+      "question": "A patient with long-standing primary hypertension presents with a blood pressure of 150/95 mmHg despite taking maximum doses of Amlodipine and Indapamide. What is the recommended 3rd line antihypertensive medication to add?",
+      "options": [
+        "ACE Inhibitor or Angiotensin Receptor Blocker (ARB)",
+        "Loop diuretic (Furosemide)",
+        "Alpha-blocker (Doxazosin)",
+        "Direct vasodilator (Hydralazine)",
+        "Beta-blocker (Atenolol)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard combination therapy for hypertension follows A + C + D: A (ACEi/ARB) + C (Calcium Channel Blocker) + D (Thiazide-like diuretic). If a patient is on C + D, adding an ACEi/ARB provides synergistic blood pressure control and renal protection."
+    },
+    {
+      "id": 31,
+      "category": "Acute Pericarditis widespread ST elevation & PR depression",
+      "question": "Which electrocardiographic finding is pathognomonic for Acute Pericarditis, distinguishing it from acute STEMI?",
+      "options": [
+        "Widespread concave ST-elevation with PR-segment depression across multiple lead territories",
+        "Convex ST elevation in localized vascular territory with reciprocal ST depression",
+        "Deep pathologic Q waves in inferior leads",
+        "New Left Bundle Branch Block",
+        "Isolated T-wave inversion in lead V1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acute pericarditis characteristically causes diffuse/widespread concave ('saddle-backed') ST-segment elevation across almost all leads accompanied by PR-segment depression (and PR elevation in lead aVR). It lacks reciprocal ST depression seen in acute localized STEMI."
+    },
+    {
+      "id": 32,
+      "category": "Fibrinolytic successful reperfusion markers",
+      "question": "In patients with acute STEMI who are ineligible for Primary PCI and receive Fibrinolytic therapy (e.g., Alteplase/Tenecteplase), what is the key clinical marker indicating successful reperfusion?",
+      "options": [
+        "Complete disappearance of troponin elevation within 2 hours",
+        "Greater than 50% resolution of ST-segment elevation on ECG at 60-90 minutes alongside relief of chest pain",
+        "Development of hypertension and sinus bradycardia",
+        "Persistent T-wave elevation for > 24 hours",
+        "Normal serum potassium levels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Successful fibrinolytic reperfusion is clinically indicated by > 50% resolution of ST-segment elevation on 60-90 minute post-thrombolysis ECG, rapid relief of chest pain, and reperfusion arrhythmias (e.g., Accelerated Idioventricular Rhythm / AIVR)."
+    },
+    {
+      "id": 33,
+      "category": "Digoxin toxicity potentiated by hypokalemia",
+      "question": "A 68-year-old male with chronic heart failure presents with nausea, yellow-green visual halos, and cardiac bigeminy on ECG. He takes Digoxin, Furosemide, and Enalapril. Which electrolyte derangement significantly potentiates Digoxin toxicity?",
+      "options": [
+        "Hypernatremia",
+        "Hypokalemia",
+        "Hypercalcemia",
+        "Hypophosphatemia",
+        "Hypermagnesemia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Digoxin binds to the Na+/K+-ATPase pump at the extracellular potassium-binding site. Hypokalemia (frequently induced by non-K-sparing loop diuretics like Furosemide) decreases competition for this site, markedly increasing Digoxin binding and precipitating severe cardiac toxicity."
+    },
+    {
+      "id": 34,
+      "category": "Loss of JVP 'a' wave in Atrial Fibrillation",
+      "question": "Which physical sign on JVP waveform inspection corresponds to the loss of coordinated atrial contraction in a patient with Atrial Fibrillation?",
+      "options": [
+        "Prominent cannon 'a' wave",
+        "Absence of the 'a' wave",
+        "Giant 'v' wave",
+        "Steep 'x' descent",
+        "Slow 'y' descent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'a' wave in JVP waveform represents right atrial contraction. In Atrial Fibrillation, effective atrial contraction is lost, leading to the complete absence of the 'a' wave on JVP examination."
+    },
+    {
+      "id": 35,
+      "category": "Primary Hyperaldosteronism (Conn's ARR ratio)",
+      "question": "A 52-year-old male with severe hypertension is evaluated for secondary causes. Blood pressure is 185/110 mmHg. Labs reveal serum Potassium of 2.8 mmol/L. Plasma Aldosterone-to-Renin Ratio (ARR) is elevated. What is the most likely diagnosis?",
+      "options": [
+        "Renrenal Artery Stenosis",
+        "Primary Hyperaldosteronism (Conn's Syndrome)",
+        "Cushing's Disease",
+        "Pheochromocytoma",
+        "Coarctation of the Aorta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypertension accompanied by unprovoked hypokalemia and a high Aldosterone-to-Renin Ratio (ARR) is diagnostic of Primary Hyperaldosteronism (Conn's syndrome, most commonly caused by an aldosterone-producing adrenal adenoma)."
+    },
+    {
+      "id": 36,
+      "category": "Carvallo's sign inspiration right-sided murmurs",
+      "question": "Which Auscultatory maneuver increases the intensity of right-sided heart murmurs (e.g., Tricuspid Regurgitation), distinguishing them from left-sided heart murmurs?",
+      "options": [
+        "Valsalva maneuver",
+        "Inspiration (Carvallo's sign)",
+        "Expiration",
+        "Isometric handgrip",
+        "Sudden standing from squatting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inspiration increases intrathoracic negative pressure, venous return to the right atrium/ventricle, and right-sided stroke volume. This increases the intensity of right-sided murmurs (Carvallo's sign). Expiration increases left-sided murmurs."
+    },
+    {
+      "id": 37,
+      "category": "SGLT2 inhibitors mechanism in HFrEF",
+      "question": "What is the primary mechanism by which SGLT2 Inhibitors (e.g., Dapagliflozin, Empagliflozin) reduce mortality and heart failure hospitalizations in HFrEF patients?",
+      "options": [
+        "Direct cardiac muscle sodium channel blockade",
+        "Osmotic diuresis, natriuresis, intraglomerular pressure reduction, and favorable cardiac metabolic shifting",
+        "Potent systemic arterial vasodilation via calcitonin gene-related peptide",
+        "Direct beta-1 adrenergic receptor stimulation",
+        "Inhibition of neprylisin degradation of natriuretic peptides"
+      ],
+      "correctIndex": 1,
+      "explanation": "SGLT2 inhibitors act on the renal proximal tubule to promote glucosuria and natriuresis, reducing preload/afterload, improving endothelial function, decreasing intraglomerular pressure, and optimizing myocardial ketone metabolism, providing major mortality benefits in HFrEF."
+    }
+  ],
   "Final Part 2 Medicine - Endocrinology": [
     {
       "id": 8,

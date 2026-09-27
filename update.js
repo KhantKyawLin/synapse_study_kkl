@@ -57,11 +57,15 @@ function updateData() {
         
         if (cleanBase.toLowerCase().includes('dehydration')) {
              defaultCategory = 'Pathophysiology - Dehydration & Fluid Balance';
-        } else if (cleanBase.toLowerCase().includes('fp2') || cleanBase.toLowerCase().startsWith('fp2_medicine_endocrine')) {
-             defaultCategory = 'Final Part 2 Medicine - Endocrinology';
-        } else if (cleanBase.toLowerCase().startsWith('endocrine')) {
-             const num = parts[1] ? ` ${parts[1]}` : '';
-             defaultCategory = `Pathophysiology - Endocrine Module${num}`;
+        } else if (cleanBase.toLowerCase().includes('cvs') || cleanBase.toLowerCase().includes('cardio')) {
+             defaultCategory = 'Final Part 2 Medicine - Cardiology';
+        } else if (cleanBase.toLowerCase().includes('endocrin')) {
+             if (cleanBase.toLowerCase().includes('fp2')) {
+                 defaultCategory = 'Final Part 2 Medicine - Endocrinology';
+             } else {
+                 const num = parts[1] ? ` ${parts[1]}` : '';
+                 defaultCategory = `Pathophysiology - Endocrine Module${num}`;
+             }
         } else if (parts.length >= 4) {
              const topic = parts[1].charAt(0).toUpperCase() + parts[1].slice(1);
              const subject = parts[3].charAt(0).toUpperCase() + parts[3].slice(1);
@@ -130,7 +134,9 @@ function updateDashboardData() {
         const filePath = path.join(DASHBOARD_EXCEL_FOLDER, file);
         let rawModuleName = file.replace(/\.(csv|xlsx)$/i, '').replace(/[-_]/g, ' ');
         let moduleName = rawModuleName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-        if (/fp2.*endocrine/i.test(file) || file.toLowerCase().includes('fp2')) {
+        if (/cvs|cardio/i.test(file)) {
+            moduleName = 'Final Part 2 - Cardiology Database';
+        } else if (/endocrin/i.test(file)) {
             moduleName = 'Final Part 2 - Endocrinology Database';
         }
         let moduleData = [];
@@ -243,7 +249,9 @@ function updateQuizData() {
 
             let rawBase = path.basename(file, ext);
             let moduleName = rawBase.replace(/_/g, ' ');
-            if (/^fp2.*endocrine/i.test(rawBase) || rawBase.toLowerCase().includes('fp2')) {
+            if (/cvs|cardio/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Cardiology';
+            } else if (/endocrin/i.test(rawBase) && /fp2/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Endocrinology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
@@ -266,17 +274,19 @@ function updateQuizData() {
                     const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
                     const keyHeaders = keyHeaderIdx !== -1 ? keyRows[keyHeaderIdx].map(h => String(h || '').trim()) : [];
                     
+                    const kTopicIdx = keyHeaders.findIndex(c => /topic|category|sub-topic/i.test(c));
                     const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*choice|correct\s*answer|correct|^key$/i.test(c));
-                    const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note/i.test(c));
+                    const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note|pearl/i.test(c));
 
                     for (let i = startIdx; i < keyRows.length; i++) {
                         const row = keyRows[i];
                         if (row && row.length >= 3) {
                             const qNum = String(row[0] || '').trim();
+                            const topic = kTopicIdx !== -1 ? String(row[kTopicIdx] || '').trim() : '';
                             const corrOpt = kCorrIdx !== -1 ? String(row[kCorrIdx] || '').trim() : String(row[2] || row[3] || '').trim();
                             const expl = kExpIdx !== -1 ? String(row[kExpIdx] || '').trim() : String(row[3] || row[4] || '').trim();
                             if (qNum) {
-                                keysMap[qNum] = { correct: corrOpt, explanation: expl };
+                                keysMap[qNum] = { topic, correct: corrOpt, explanation: expl };
                             }
                         }
                     }
@@ -324,6 +334,7 @@ function updateQuizData() {
                     if (!row || row.length === 0) continue;
 
                     const qNum = row[0];
+                    const keyInfo = keysMap[qNum] || {};
                     const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[2] || row[1] || '').trim();
                     if (!questionText || /score\s*card|instruction|total\s*question|performance\s*summary/i.test(questionText)) continue;
 
@@ -333,6 +344,8 @@ function updateQuizData() {
                         if (candidateCat && candidateCat.toLowerCase() !== questionText.toLowerCase()) {
                             category = candidateCat;
                         }
+                    } else if (keyInfo.topic) {
+                        category = keyInfo.topic;
                     }
                     if (category.toLowerCase() === 'endocrine-1' || category.toLowerCase() === 'endocrine 1') {
                         category = 'Endocrine System Section 1';
@@ -367,8 +380,6 @@ function updateQuizData() {
                     }
 
                     if (options.length === 0) continue;
-
-                    const keyInfo = keysMap[qNum] || {};
                     const rawAns = keyInfo.correct || (ansIdx !== -1 ? String(row[ansIdx] || '').trim() : String(row[8] || '').trim());
                     let correctIndex = 0;
 
