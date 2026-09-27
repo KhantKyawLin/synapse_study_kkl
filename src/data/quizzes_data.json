@@ -2250,6 +2250,428 @@
       "explanation": "Insulin infusion must be continued until ketoacidosis resolves (pH > 7.3, HCO3 > 18, ketones cleared). When glucose falls below 13.8 mmol/L (250 mg/dL), 5-10% Dextrose is added to IV fluids to prevent hypoglycemia while maintaining insulin administration."
     }
   ],
+  "Final Part 2 Medicine - Respiratory Medicine": [
+    {
+      "id": 8,
+      "category": "Acute Severe Asthma - Red Flags",
+      "question": "A 24-year-old asthmatic presents to the ER with severe breathlessness. On exam: HR 128 bpm, RR 32/min, PEFR 40% of predicted, unable to complete sentences in one breath. Which finding represents a life-threatening feature requiring immediate ICU consultation?",
+      "options": [
+        "Pulsus paradoxus > 15 mmHg",
+        "Silent chest with absence of wheeze and cyanosis",
+        "PEFR of 40% predicted",
+        "Tachycardia of 128 bpm",
+        "Use of accessory neck muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 'silent chest' indicates near-complete airflow obstruction with critical reduction in ventilation, signaling impending respiratory arrest and life-threatening severe asthma."
+    },
+    {
+      "id": 9,
+      "category": "Acute Severe Asthma - Emergency Tx",
+      "question": "In the immediate emergency management of acute severe asthma unresponsive to initial nebulized SABA, which pharmacological agent should be added NEXT to inhaled therapy?",
+      "options": [
+        "Oral Montelukast",
+        "Inhaled SAMA (Ipratropium bromide)",
+        "IV Aminophylline infusion",
+        "Subcutaneous Epinephrine",
+        "Inhaled Fluticasone high dose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inhaled SAMA (Ipratropium bromide) provides additive bronchodilation by blocking M3 muscarinic receptors and should be combined with SABA in acute severe asthma."
+    },
+    {
+      "id": 10,
+      "category": "Asthma vs COPD - Spirometry",
+      "question": "Which spirometric parameter best distinguishes Bronchial Asthma from COPD in a patient presenting with chronic dyspnea and wheezing?",
+      "options": [
+        "FEV1/FVC < 0.70 pre-bronchodilator",
+        "Reversibility with > 12% and > 200 mL increase in FEV1 post-SABA",
+        "Decreased Forced Vital Capacity (FVC)",
+        "Elevated Total Lung Capacity (TLC)",
+        "Reduced Diffusing Capacity (DLCO)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Significant post-bronchodilator reversibility (> 12% and > 200 mL improvement in FEV1) is characteristic of bronchial asthma, whereas COPD demonstrates fixed/irreversible obstruction."
+    },
+    {
+      "id": 11,
+      "category": "COPD Exacerbation - Oxygen Target",
+      "question": "A 68-year-old long-term smoker with severe COPD presents with an acute exacerbation and drowsy mental status. ABG shows PaO2 52 mmHg, PaCO2 62 mmHg, pH 7.28. What is the target SpO2 for oxygen therapy?",
+      "options": [
+        "95 - 100%",
+        "88 - 92%",
+        "92 - 96%",
+        "> 98%",
+        "80 - 85%"
+      ],
+      "correctIndex": 1,
+      "explanation": "In hypercapnic respiratory failure (Type 2) secondary to COPD, oxygen therapy must be titrated via Venturi mask to a target SpO2 of 88-92% to prevent loss of hypoxic respiratory drive."
+    },
+    {
+      "id": 12,
+      "category": "COPD Exacerbation - NIV Indications",
+      "question": "In an acute exacerbation of COPD with hypercapnic respiratory failure, which finding is the primary indication for initiating Non-Invasive Ventilation (NIV / BiPAP)?",
+      "options": [
+        "PaO2 < 60 mmHg despite low-flow O2",
+        "Persistent respiratory acidosis (pH < 7.35, PaCO2 > 45 mmHg) despite optimal medical therapy",
+        "Sputum purulence and high fever",
+        "FEV1 < 30% of predicted",
+        "Presence of bilateral ankle edema"
+      ],
+      "correctIndex": 1,
+      "explanation": "NIV (BiPAP) is indicated in COPD acute exacerbation when persistent acidotic hypercapnic respiratory failure (pH < 7.35 and PaCO2 > 45 mmHg) persists despite maximal medical therapy."
+    },
+    {
+      "id": 13,
+      "category": "Pneumonia - CURB-65 Scoring",
+      "question": "A 72-year-old man presents with fever, productive cough, and confusion. Labs: Urea 9.2 mmol/L, RR 34/min, BP 85/50 mmHg. What is his CURB-65 score and recommended site of care?",
+      "options": [
+        "Score 2 - Outpatient oral antibiotics",
+        "Score 3 - Inpatient hospital admission (consider ICU)",
+        "Score 4 - Immediate ICU admission",
+        "Score 1 - Outpatient oral antibiotics",
+        "Score 5 - Immediate ICU admission"
+      ],
+      "correctIndex": 2,
+      "explanation": "Points: Age >= 65 (+1), Confusion (+1), Urea > 7 (+1), RR >= 30 (+1), BP < 90/60 (+1) = Total Score 5 (or 4 depending on criteria), indicating severe CAP requiring urgent hospital/ICU admission."
+    },
+    {
+      "id": 14,
+      "category": "Community-Acquired Pneumonia - Organisms",
+      "question": "What is the single most common bacterial pathogen causing Community-Acquired Pneumonia (CAP) across all age groups?",
+      "options": [
+        "Haemophilus influenzae",
+        "Mycoplasma pneumoniae",
+        "Streptococcus pneumoniae",
+        "Legionella pneumophila",
+        "Staphylococcus aureus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Streptococcus pneumoniae (pneumococcus) remains the predominant bacterial cause of community-acquired pneumonia worldwide."
+    },
+    {
+      "id": 15,
+      "category": "Atypical Pneumonia - Features",
+      "question": "A 22-year-old college student presents with dry cough, low-grade fever, headache, myalgias, and hemolytic anemia (cold agglutinins). CXR reveals patchy bilateral interstitial infiltrates. What is the most likely pathogen?",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Mycoplasma pneumoniae",
+        "Klebsiella pneumoniae",
+        "Pseudomonas aeruginosa",
+        "Mycobacterium tuberculosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mycoplasma pneumoniae presents as 'walking pneumonia' in young adults with extrapulmonary features like IgM cold agglutinin hemolytic anemia and interstitial infiltrates."
+    },
+    {
+      "id": 16,
+      "category": "Tuberculosis - Primary Diagnosis",
+      "question": "Which initial rapid diagnostic test recommended by WHO directly detects Mycobacterium tuberculosis DNA and Rifampicin resistance within 2 hours?",
+      "options": [
+        "Sputum Acid-Fast Bacilli (AFB) smear",
+        "Tuberculin Skin Test (Mantoux)",
+        "GeneXpert MTB/RIF assay",
+        "Interferon-Gamma Release Assay (IGRA)",
+        "Sputum Lowenstein-Jensen culture"
+      ],
+      "correctIndex": 2,
+      "explanation": "GeneXpert MTB/RIF is a rapid automated nucleic acid amplification test that identifies M. tuberculosis DNA and detects rpoB gene mutations conferring Rifampicin resistance in under 2 hours."
+    },
+    {
+      "id": 17,
+      "category": "Tuberculosis - Anti-TB Toxicity",
+      "question": "A patient on anti-tuberculous therapy (RHZE) complains of tingling, numbness, and burning pain in both feet (peripheral neuropathy). Which medication is responsible and how is it prevented?",
+      "options": [
+        "Rifampicin; prevent with Vitamin B12",
+        "Isoniazid; prevent with Pyridoxine (Vitamin B6)",
+        "Ethambutol; prevent with Vitamin C",
+        "Pyrazinamide; prevent with Allopurinol",
+        "Streptomycin; prevent with Calcium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isoniazid inhibits pyridoxine (Vitamin B6) phosphorylation, causing peripheral neuropathy. Co-administration of Pyridoxine (10-25 mg/day) prevents this complication."
+    },
+    {
+      "id": 18,
+      "category": "Tuberculosis - Side Effect Profile",
+      "question": "Which anti-TB medication is specifically associated with optic neuritis presenting as decreased visual acuity and red-green color blindness?",
+      "options": [
+        "Rifampicin",
+        "Isoniazid",
+        "Ethambutol",
+        "Pyrazinamide",
+        "Streptomycin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ethambutol can cause dose-dependent retrobulbar optic neuritis, manifesting as decreased visual acuity and red-green color discrimination loss; visual acuity checks are required."
+    },
+    {
+      "id": 19,
+      "category": "Pleural Effusion - Light's Criteria",
+      "question": "Pleural fluid analysis reveals: Pleural/Serum Protein ratio 0.65, Pleural/Serum LDH ratio 0.80. How is this fluid classified and what is the most likely etiology?",
+      "options": [
+        "Transudate; Congestive Heart Failure",
+        "Exudate; Bacterial Pneumonia or Tuberculosis",
+        "Transudate; Cirrhosis with hydrothorax",
+        "Transudate; Nephrotic Syndrome",
+        "Exudate; Hypothyroidism"
+      ],
+      "correctIndex": 1,
+      "explanation": "By Light's criteria (Pleural/Serum Protein > 0.5, Pleural/Serum LDH > 0.6), this fluid meets criteria for an EXUDATE, commonly caused by infection (pneumonia, TB) or malignancy."
+    },
+    {
+      "id": 20,
+      "category": "Pleural Effusion - Physical Exam",
+      "question": "On physical examination of the chest, which combination of signs is pathognomonic for a large pleural effusion on the affected side?",
+      "options": [
+        "Hyper-resonant percussion, elevated breath sounds, increased vocal fremitus",
+        "Stony dull percussion, absent breath sounds, reduced vocal resonance",
+        "Dull percussion, bronchial breathing, increased vocal resonance",
+        "Tympanitic percussion, vesicular breathing, crepitations",
+        "Resonant percussion, wheezing, friction rub"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pleural fluid attenuates sound transmission, producing stony dullness on percussion, absent or markably diminished breath sounds, and decreased vocal resonance over the effusion."
+    },
+    {
+      "id": 21,
+      "category": "Tension Pneumothorax - Emergency Tx",
+      "question": "A 30-year-old trauma victim develops severe respiratory distress, cyanosis, tracheal deviation to the left, and hyper-resonance with absent breath sounds on the right. BP is 70/40 mmHg. What is the immediate life-saving intervention?",
+      "options": [
+        "Urgent CT scan of the chest",
+        "Immediate needle decompression with 14G cannula in 2nd ICS anterior mid-clavicular line",
+        "Order an urgent portable chest X-ray",
+        "Endotracheal intubation and positive pressure ventilation",
+        "Administer high-dose IV methylprednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tension pneumothorax is a clinical diagnosis requiring immediate needle decompression (14G cannula in 2nd ICS MCL or 5th ICS AAL) prior to any chest X-ray to relieve intrathoracic pressure."
+    },
+    {
+      "id": 22,
+      "category": "Spontaneous Pneumothorax - Management",
+      "question": "A tall, thin 21-year-old male presents with sudden right-sided pleuritic chest pain. CXR shows a 1.5 cm rim of air (small pneumothorax) without mediastinal shift or respiratory distress. What is the appropriate initial management?",
+      "options": [
+        "Immediate intercostal chest tube insertion",
+        "Needle aspiration of pleural air",
+        "Conservative management with observation and supplemental oxygen",
+        "Surgical pleurodesis",
+        "Thoracotomy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Small primary spontaneous pneumothoraces (< 2 cm rim) in asymptomatic patients without respiratory distress can be managed conservatively with observation and high-flow oxygen."
+    },
+    {
+      "id": 23,
+      "category": "Haemoptysis - Massive Definition & Tx",
+      "question": "Massive hemoptysis is clinically defined by bleeding volume exceeding 100 - 600 mL in 24 hours. What is the primary cause of death in massive hemoptysis?",
+      "options": [
+        "Exsanguination and hemorrhagic shock",
+        "Asphyxiation due to airway flooding and blood clot obstruction",
+        "Myocardial infarction",
+        "Septic shock",
+        "Systemic air embolism"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary threat to life in massive hemoptysis is asphyxiation and suffocation caused by blood filling the respiratory dead space, rather than hypovolemic exsanguination."
+    },
+    {
+      "id": 24,
+      "category": "Massive Haemoptysis - Patient Positioning",
+      "question": "When managing a conscious patient with massive hemoptysis from a localized right lung lesion, how should the patient be positioned to protect the contralateral lung?",
+      "options": [
+        "Left lateral decubitus position (bleeding lung up)",
+        "Right lateral decubitus position (bleeding lung down)",
+        "Supine position with legs elevated",
+        "Trendelenburg position",
+        "Prone position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Positioning the bleeding lung dependent (down) prevents blood from spilling into the non-bleeding healthy lung, preserving gas exchange in the uninjured lung."
+    },
+    {
+      "id": 25,
+      "category": "Type 1 vs Type 2 Respiratory Failure",
+      "question": "An Arterial Blood Gas (ABG) demonstrates PaO2 50 mmHg, PaCO2 32 mmHg, pH 7.48. Which type of respiratory failure is present and what is a classic underlying cause?",
+      "options": [
+        "Type 2 Hypercapnic; COPD exacerbation",
+        "Type 1 Hypoxemic; Pulmonary Embolism or Pneumonia",
+        "Type 2 Hypercapnic; Opioid overdose",
+        "Type 1 Hypoxemic; Guillain-Barre Syndrome",
+        "Normal ABG"
+      ],
+      "correctIndex": 1,
+      "explanation": "Type 1 respiratory failure features hypoxemia (PaO2 < 60 mmHg) with normal or low PaCO2 (< 45 mmHg) due to V/Q mismatch, seen in pneumonia, PE, ARDS, and acute asthma."
+    },
+    {
+      "id": 26,
+      "category": "Type 2 Respiratory Failure - Clinical Signs",
+      "question": "Which clinical sign is specifically indicative of severe CO2 retention (hypercapnia) in a patient with Type 2 respiratory failure?",
+      "options": [
+        "Central cyanosis of the tongue",
+        "Coarse flapping tremor (asterixis) and bounding pulse",
+        "Clubbing of the fingernails",
+        "Pulsus paradoxus",
+        "Fine inspiratory crackles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypercapnia causes cerebral vasodilation and peripheral vasodilation, producing a bounding pulse, warm peripheries, flapping tremor (asterixis), drowsiness, and papilledema."
+    },
+    {
+      "id": 27,
+      "category": "Pulmonary Embolism - Wells Score & Dx",
+      "question": "A 55-year-old female 5 days post-total hip replacement presents with sudden dyspnea, pleuritic chest pain, and HR 115 bpm. Wells score is 6.5 (high probability). What is the definitive diagnostic imaging test of choice?",
+      "options": [
+        "D-dimer assay",
+        "CT Pulmonary Angiography (CTPA)",
+        "Chest X-ray",
+        "Transthoracic Echocardiogram",
+        "Venous Doppler Ultrasound of lower limbs"
+      ],
+      "correctIndex": 1,
+      "explanation": "In patients with high clinical probability (Wells score > 4), CT Pulmonary Angiography (CTPA) is the definitive gold-standard diagnostic imaging test for acute pulmonary embolism."
+    },
+    {
+      "id": 28,
+      "category": "Pulmonary Embolism - D-Dimer Utility",
+      "question": "In a patient suspected of pulmonary embolism with a LOW clinical probability (Wells score <= 4), what is the role of a negative high-sensitivity D-Dimer test?",
+      "options": [
+        "Confirms diagnosis of PE requiring full anticoagulation",
+        "Rules out PE with high negative predictive value, avoiding unnecessary imaging",
+        "Indicates immediate thrombolytic therapy",
+        "Requires follow-up CTPA in 24 hours",
+        "Indicates need for IVC filter placement"
+      ],
+      "correctIndex": 1,
+      "explanation": "A negative high-sensitivity D-dimer in a low-probability patient has a very high negative predictive value (> 99%), safely ruling out PE without need for CTPA imaging."
+    },
+    {
+      "id": 29,
+      "category": "Bronchiectasis - Etiology & Findings",
+      "question": "A 35-year-old patient with a history of recurrent childhood pulmonary infections presents with chronic daily cough producing copious foul-smelling purulent sputum and coarse crackles. CXR shows 'tram-track' sign. What is the diagnosis?",
+      "options": [
+        "Chronic Bronchitis",
+        "Bronchiectasis",
+        "Idiopathic Pulmonary Fibrosis",
+        "Asthma",
+        "Sarcoidosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bronchiectasis is irreversible bronchial dilation from chronic infection/inflammation, presenting with voluminous purulent sputum, clubbing, and 'tram-track' bronchial wall thickening on imaging."
+    },
+    {
+      "id": 30,
+      "category": "Idiopathic Pulmonary Fibrosis - Features",
+      "question": "A 65-year-old male presents with progressive dry cough and exertional dyspnea. Exam: bilateral fine end-inspiratory 'Velcro-like' crackles and digital clubbing. HRCT shows bibasilar honeycombing. What is the diagnosis?",
+      "options": [
+        "Chronic Bronchitis",
+        "Idiopathic Pulmonary Fibrosis (IPF)",
+        "Bronchial Asthma",
+        "Hypersensitivity Pneumonitis",
+        "Pulmonary Tuberculosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Idiopathic Pulmonary Fibrosis (IPF) is a restrictive lung disease presenting with dry cough, clubbing, fine end-inspiratory Velcro crackles, and HRCT subpleural honeycombing."
+    },
+    {
+      "id": 31,
+      "category": "Acute Severe Asthma - IV Magnesium",
+      "question": "What is the mechanism and role of IV Magnesium Sulfate (1.2 - 2.0 g IV over 20 mins) in acute severe asthma?",
+      "options": [
+        "Inhibits leukotriene synthesis in pulmonary tissues",
+        "Induces vascular and bronchial smooth muscle relaxation by blocking calcium influx",
+        "Suppresses systemic corticosteroid clearance",
+        "Directly neutralizes IgE antibodies",
+        "Stimulates beta-2 adrenergic receptor expression"
+      ],
+      "correctIndex": 1,
+      "explanation": "IV Magnesium sulfate causes bronchial smooth muscle relaxation by inhibiting calcium uptake into myocytes and is indicated in acute severe asthma refractory to initial nebulizers."
+    },
+    {
+      "id": 32,
+      "category": "Restricted vs Obstructive Spirometry",
+      "question": "A patient's spirometry reveals FEV1 55% predicted, FVC 50% predicted, and FEV1/FVC ratio 0.82 (82%). How is this ventilatory defect classified?",
+      "options": [
+        "Obstructive ventilatory defect",
+        "Restrictive ventilatory defect",
+        "Mixed obstructive-restrictive defect",
+        "Normal spirometry",
+        "Small airway disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "A normal or elevated FEV1/FVC ratio (>= 0.70) combined with a reduced FVC (< 80% predicted) is characteristic of a RESTRICTIVE ventilatory defect (e.g., ILD, chest wall deformities)."
+    },
+    {
+      "id": 33,
+      "category": "Rifampicin - Patient Counseling",
+      "question": "When initiating Rifampicin for pulmonary TB, what essential harmless side effect must the physician counsel the patient about to avoid panic?",
+      "options": [
+        "Temporary hair loss",
+        "Orange-red discoloration of body fluids (urine, sweat, tears, saliva)",
+        "Blue-green skin pigmentation",
+        "Metallic taste in mouth",
+        "Transient hearing impairment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rifampicin causes benign orange-red discoloration of bodily secretions (urine, sweat, tears), which can permanently stain soft contact lenses; patients must be forewarned."
+    },
+    {
+      "id": 34,
+      "category": "Anaphylaxis - Airway Management",
+      "question": "A patient develops acute stridor, lip edema, widespread urticaria, and hypotension 10 minutes after receiving IV penicillin. What is the immediate first-line drug of choice?",
+      "options": [
+        "IV Hydrocortisone 200 mg",
+        "IM Epinephrine (Adrenaline) 1:1000 (0.5 mg)",
+        "Nebulized Salbutamol",
+        "IV Chlorpheniramine 10 mg",
+        "IV Normal Saline 1 Liter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intramuscular Epinephrine (Adrenaline) 1:1000 (0.5 mg in adults) in the anterolateral thigh is the immediate first-line life-saving treatment for anaphylaxis."
+    },
+    {
+      "id": 35,
+      "category": "CXR - Pneumoperitoneum vs Pneumothorax",
+      "question": "On an erect CXR of a breathless patient with acute abdominal pain, a crescent-shaped radiolucency is seen beneath the right hemidiaphragm. What does this represent?",
+      "options": [
+        "Right-sided tension pneumothorax",
+        "Pneumoperitoneum (perforated abdominal viscus)",
+        "Subphrenic abscess",
+        "Normal stomach bubble",
+        "Diaphragmatic hernia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Free air under the diaphragm (pneumoperitoneum) on erect CXR indicates a perforated hollow abdominal organ (e.g., peptic ulcer perforation), a surgical emergency."
+    },
+    {
+      "id": 36,
+      "category": "Oxygen Toxicity - Absorption Atelectasis",
+      "question": "Giving 100% unmonitored oxygen over prolonged periods can wash out alveolar nitrogen, leading to collapse of alveoli. What is this phenomenon called?",
+      "options": [
+        "Hypercapnic narcosis",
+        "Absorption atelectasis",
+        "Oxygen-induced hyperventilation",
+        "Pulmonary barotrauma",
+        "Hypoxic pulmonary vasoconstriction"
+      ],
+      "correctIndex": 1,
+      "explanation": "High FIO2 washes out inert alveolar nitrogen (which maintains alveolar stability), leading to rapid diffusion of oxygen into blood and subsequent alveolar collapse (absorption atelectasis)."
+    },
+    {
+      "id": 37,
+      "category": "Miliary Tuberculosis - CXR Pattern",
+      "question": "A 40-year-old immunocompromised patient presents with prolonged pyrexia of unknown origin (PUO) and weight loss. CXR demonstrates tiny 1-2 mm millet-seed-like nodular opacities distributed uniformly throughout both lung fields. What is the diagnosis?",
+      "options": [
+        "Bronchopneumonia",
+        "Miliary Tuberculosis",
+        "Sarcoidosis Stage III",
+        "Coal Workers Pneumoconiosis",
+        "Pulmonary Metastases"
+      ],
+      "correctIndex": 1,
+      "explanation": "Miliary Tuberculosis results from hematogenous dissemination of M. tuberculosis, producing classic 1-2 mm 'millet seed' nodular lesions diffusely scattered throughout both lungs."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,

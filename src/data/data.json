@@ -5734,6 +5734,281 @@
       "category": "Final Part 2 Medicine - Endocrinology",
       "question": "What follow-up time is recommended for a patient diagnosed with subclinical hyperthyroidism?",
       "answer": "6 to 12 weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What are the three primary factors that contribute to airway narrowing in bronchial asthma?",
+      "answer": "Bronchial muscle contraction, mucosal swelling/inflammation, and increased mucus production."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Common precipitants of asthma include cold air, exercise, and allergens such as house dust mites or _____.",
+      "answer": "pets"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which two classes of medications are specifically noted as common precipitants for asthma attacks?",
+      "answer": "NSAIDs and beta-blockers."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "The diagnosis of asthma is strongly supported by a history of _____ and diurnal variation in symptoms.",
+      "answer": "atopy"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "When are asthma symptoms typically at their worst during a 24-hour cycle?",
+      "answer": "At night or in the early morning."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "An obstructive pattern on lung function tests is defined by an $FEV_{1}/FVC$ ratio of less than _____.",
+      "answer": "$0.7$ (or $70\\%$)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What specific increase in $FEV_{1}$ is required following a bronchodilator trial to define 'reversibility' in asthma?",
+      "answer": "An improvement of $>15\\%$ and $200\\text{ mL}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Asthma is likely if the Peak Expiratory Flow (PEF) shows a diurnal variation of more than _____.",
+      "answer": "$20\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "For an asthma attack to be graded as 'Acute Severe', the Peak Expiratory Flow (PEF) must be between _____ of the predicted value.",
+      "answer": "$33\\text{--}50\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the heart rate threshold for grading an asthma attack as 'Acute Severe'?",
+      "answer": "$\\ge 110\\text{ beats/min}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What respiratory rate threshold is used to classify 'Acute Severe' asthma?",
+      "answer": "$\\ge 25\\text{ breaths/min}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "A patient unable to complete _____ in one breath meets a physical criterion for Acute Severe asthma.",
+      "answer": "sentences"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "In the context of an asthma attack, a Peak Expiratory Flow (PEF) of less than _____ is a life-threatening feature.",
+      "answer": "$33\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What oxygen saturation ($SpO_{2}$) level is classified as a life-threatening feature in acute asthma?",
+      "answer": "$< 92\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "During an acute asthma attack, what does a normal or raised $PaCO_{2}$ indicate?",
+      "answer": "Respiratory muscle fatigue."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "List three life-threatening clinical signs of an asthma attack (excluding $PaCO_{2}$ and PEF).",
+      "answer": "Cyanosis, silent chest, and hypotension (or exhaustion)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the target oxygen saturation range for immediate management of acute severe asthma?",
+      "answer": "$94\\text{--}98\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the standard dose of nebulized salbutamol for immediate treatment of acute severe asthma?",
+      "answer": "$5\\text{ mg}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Identify the recommended dose for oral prednisolone in the acute management of asthma.",
+      "answer": "$40\\text{ mg}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Identify the recommended dose for intravenous hydrocortisone in the acute management of asthma.",
+      "answer": "$200\\text{ mg}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Why is an urgent chest X-ray performed during an acute asthma or COPD exacerbation?",
+      "answer": "To exclude complications like infection or pneumothorax."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the primary cause of Chronic Obstructive Pulmonary Disease (COPD) in most populations?",
+      "answer": "Tobacco smoking."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Besides smoking, what are two other recognized causes or risk factors for COPD?",
+      "answer": "Biomass fuel exposure and Alpha-1 antitrypsin deficiency."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "How is 'chronic bronchitis' clinically defined?",
+      "answer": "Chronic cough and sputum for at least 3 months in 2 consecutive years."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "How is 'emphysema' defined histologically?",
+      "answer": "Enlarged air spaces distal to terminal bronchioles with destruction of alveolar walls."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Chronic hypoxia in COPD can lead to pulmonary hypertension and subsequent _____.",
+      "answer": "right ventricular failure (cor pulmonale)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What hematological condition develops as a compensation for chronic hypoxia in COPD patients?",
+      "answer": "Secondary polycythemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "If finger clubbing is found in a patient suspected of having COPD, what should be investigated?",
+      "answer": "Lung cancer or lung fibrosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which single intervention is most critical to reduce the rate of decline in $FEV_{1}$ in COPD?",
+      "answer": "Smoking cessation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Inhaled corticosteroids are added to COPD therapy if there are repeated exacerbations or a rise in $FEV_{1}$ of _____ during a steroid trial.",
+      "answer": "$>15\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Under what $PaO_{2}$ threshold is Long-Term Oxygen Therapy (LTOT) indicated for COPD patients?",
+      "answer": "$< 7.3\\text{ kPa}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "To improve survival in COPD, Long-Term Oxygen Therapy (LTOT) must be used for at least _____ hours per day.",
+      "answer": "$15$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "During an acute exacerbation of COPD, what is the initial target oxygen saturation ($SpO_{2}$)?",
+      "answer": "$88\\text{--}92\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the primary risk of using high-flow oxygen in an acute exacerbation of COPD?",
+      "answer": "Worsening hypercapnia (carbon dioxide retention)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "For acute COPD management, oxygen is typically started at _____ via a Venturi mask.",
+      "answer": "$24\\text{--}28\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which intravenous medication should be considered if an acute COPD exacerbation does not respond to nebulizers and steroids?",
+      "answer": "Aminophylline"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Cigarette smoking is a significant risk factor for Primary Spontaneous Pneumothorax (PSP) due to airway inflammation and _____.",
+      "answer": "respiratory bronchiolitis"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Compared to non-smokers, how many times higher is the risk of PSP for a male heavy smoker ($>22$ cigarettes/day)?",
+      "answer": "$102$ times higher."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Compared to non-smokers, how many times higher is the risk of PSP for a female heavy smoker?",
+      "answer": "$68$ times higher."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What are the characteristic chest X-ray findings for advanced COPD?",
+      "answer": "Hyper-inflated lung fields, hyper-translucency, and flattened hemidiaphragms."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What ECG finding represents right atrial hypertrophy often seen in chronic respiratory disease?",
+      "answer": "P pulmonale"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "According to COPD management guidelines, air travel is considered risky if $FEV_{1}$ is less than _____.",
+      "answer": "$50\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the recommended dose and duration for a 'steroid trial' in stable COPD patients?",
+      "answer": "$30\\text{ mg}$ prednisolone daily for $2$ weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "In COPD patients with good left ventricular function, why do they rely on vertical chest expansion and diaphragmatic excursion?",
+      "answer": "Due to a hyper-inflated chest placing respiratory muscles at a mechanical disadvantage."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which diagnostic test is essential to exclude a pneumothorax in an acutely dyspneic patient?",
+      "answer": "Chest X-ray (CXR)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Patients with a depressed mental status from carbon dioxide ($CO_{2}$) retention may paradoxically look _____.",
+      "answer": "comfortable and lackadaisical"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which anticholinergic bronchodilator is explicitly listed for both chronic COPD management and acute exacerbations?",
+      "answer": "Ipratropium bromide."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Why is it important to use a spacer when administering inhaled corticosteroids like beclometasone?",
+      "answer": "To ensure the dose reaches the lungs and minimize local side effects like oral candidiasis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "A 'silent chest' during an acute asthma attack is a sign of _____.",
+      "answer": "life-threatening severity (indicating very little air movement)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What is the significance of $TL_{CO}$ (transfer factor) in the investigation of COPD?",
+      "answer": "It is typically reduced due to alveolar destruction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Identify the two most common pathogens mentioned that trigger acute exacerbations of COPD.",
+      "answer": "Viruses and bacteria."
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Which respiratory stimulant drug may be used as a short-term measure for COPD if NIV is unavailable?",
+      "answer": "Doxapram"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "Non-invasive positive pressure ventilation (NIPPV) is considered in acute COPD if the respiratory rate is greater than _____.",
+      "answer": "$30\\text{ breaths/min}$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "What pH threshold in an acute COPD patient indicates the need to consider intubation and mechanical ventilation?",
+      "answer": "$< 7.26$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Respiratory Medicine",
+      "question": "The aim of Long-Term Oxygen Therapy is to increase the $PaO_{2}$ to at least _____.",
+      "answer": "$8\\text{ kPa}$ (or $60\\text{ mmHg}$)"
     }
   ]
 }

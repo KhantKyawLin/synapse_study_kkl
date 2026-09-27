@@ -59,6 +59,8 @@ function updateData() {
              defaultCategory = 'Pathophysiology - Dehydration & Fluid Balance';
         } else if (cleanBase.toLowerCase().includes('cvs') || cleanBase.toLowerCase().includes('cardio')) {
              defaultCategory = 'Final Part 2 Medicine - Cardiology';
+        } else if (cleanBase.toLowerCase().includes('respirat')) {
+             defaultCategory = 'Final Part 2 Medicine - Respiratory Medicine';
         } else if (cleanBase.toLowerCase().includes('endocrin')) {
              if (cleanBase.toLowerCase().includes('fp2')) {
                  defaultCategory = 'Final Part 2 Medicine - Endocrinology';
@@ -136,6 +138,8 @@ function updateDashboardData() {
         let moduleName = rawModuleName.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
         if (/cvs|cardio/i.test(file)) {
             moduleName = 'Final Part 2 - Cardiology Database';
+        } else if (/respirat/i.test(file)) {
+            moduleName = 'Final Part 2 - Respiratory Database';
         } else if (/endocrin/i.test(file)) {
             moduleName = 'Final Part 2 - Endocrinology Database';
         }
@@ -251,6 +255,8 @@ function updateQuizData() {
             let moduleName = rawBase.replace(/_/g, ' ');
             if (/cvs|cardio/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Cardiology';
+            } else if (/respirat/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Respiratory Medicine';
             } else if (/endocrin/i.test(rawBase) && /fp2/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Endocrinology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
@@ -307,7 +313,7 @@ function updateQuizData() {
                     headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*stem|question\s*text/i.test(String(c))));
                 }
                 if (headerRowIdx === -1) {
-                    headerRowIdx = rows.findIndex(r => r && r.some(c => /^q#$|^q\s*number$|^id$/i.test(String(c).trim())) && r.some(c => /question|stem/i.test(String(c))));
+                    headerRowIdx = rows.findIndex(r => r && r.some(c => /^q#$|^q\s*number$|^id$/i.test(String(c).trim())) && r.some(c => /question|\bstem\b/i.test(String(c))));
                 }
                 if (headerRowIdx === -1) {
                     headerRowIdx = rows.findIndex(r => r && r.some(c => /question\s*text|question/i.test(String(c))) && r.some(c => /option|choice|answer/i.test(String(c)) && !/attempted|count/i.test(String(c))));
@@ -316,10 +322,10 @@ function updateQuizData() {
 
                 const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
                 
-                const catIdx = headers.findIndex(h => /category|module|tier|difficulty|level|topic/i.test(h) && !/question|stem|prompt/i.test(h));
-                let qIdx = headers.findIndex(h => /question\s*text|question\s*stem|stem|prompt/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
+                const catIdx = headers.findIndex(h => /category|module|tier|difficulty|level|topic/i.test(h) && !/question|\bstem\b|prompt|vignette/i.test(h));
+                let qIdx = headers.findIndex(h => /clinical\s*case|vignette|question\s*text|question\s*stem|\bstem\b/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
                 if (qIdx === -1) {
-                    qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number/i.test(h));
+                    qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number|topic/i.test(h));
                 }
                 const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
                 const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));

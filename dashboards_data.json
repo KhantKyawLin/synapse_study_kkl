@@ -663,6 +663,184 @@
       ]
     }
   ],
+  "Final Part 2 - Respiratory Database": [
+    {
+      "Name": "Bronchial Asthma (Acute Severe)",
+      "Tag": "Obstructive Airway Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic inflammatory disorder of airways; hyper-responsiveness triggered by allergens, viral infections, exercise, or NSAIDs; reversible airflow limitation."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "IgE-mediated Type I hypersensitivity causing mast cell degranulation, bronchial smooth muscle constriction, airway mucosal edema, and mucous plugging."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Biphasic dyspnea, wheezing, cough, chest tightness. Red flags in acute severe asthma: inability to complete sentences in one breath, RR >= 25/min, pulse >= 110/min, PEFR 33-50% best/predicted. Silent chest = life-threatening."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Spirometry: FEV1/FVC < 0.70 with > 12% and 200mL bronchodilator reversibility. Peak Flow (PEFR) tracking. Emergency Tx: High-flow O2, inhaled SABA (Salbutamol) + SAMA (Ipratropium) nebulization, systemic corticosteroids (IV Hydrocortisone or oral Prednisolone), IV Magnesium sulfate if refractory."
+        }
+      ]
+    },
+    {
+      "Name": "COPD (Acute Exacerbation)",
+      "Tag": "Obstructive Airway Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Progressive, non-fully reversible airflow limitation caused by toxic gas/particle exposure (cigarette smoking > 90%). Comprises chronic bronchitis and emphysema."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Chronic inflammation destroys alveolar walls (loss of elastic recoil) and causes goblet cell hyperplasia with mucus hypersecretion. Exacerbations triggered by bacterial/viral infections."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Chronic cough, sputum production, progressive exertional dyspnea, barrel chest, pursed-lip breathing. Exacerbation red flags: increased dyspnea, sputum volume, and sputum purulence; cyanosis, drowsiness (hypercapnia)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Post-bronchodilator Spirometry: FEV1/FVC < 0.70 with minimal reversibility. ABG: Type 2 respiratory failure (hypoxemia + hypercapnia). Tx: Controlled O2 (Venturi mask 24-28% aiming SpO2 88-92%), nebulized bronchodilators, oral Prednisolone 30mg daily x 5 days, antibiotics (Amoxicillin/Doxycycline/Co-amoxiclav if purulent sputum), NIV if acidotic (pH < 7.35)."
+        }
+      ]
+    },
+    {
+      "Name": "Community-Acquired Pneumonia (CAP)",
+      "Tag": "Infectious Respiratory Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute infection of pulmonary parenchyma acquired outside healthcare settings. Most common pathogen: Streptococcus pneumoniae; atypical: Mycoplasma pneumoniae, Legionella."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pathogens breach lower respiratory mucosal defenses, replicating in alveoli and eliciting an acute inflammatory exudate that fills alveolar spaces (consolidation), impairing gas exchange."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fever, rigors, productive cough with rusty/purulent sputum, pleuritic chest pain, dyspnea. Physical findings: bronchial breathing, increased vocal resonance, dullness to percussion, crackles."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR: Lobar consolidation or patchy infiltrates. CURB-65 Score (Confusion, Urea > 7 mmol/L, RR >= 30, BP < 90/60, Age >= 65) guides admission/ICU. Tx: Low risk (CURB 0-1) oral Amoxicillin; Moderate/High risk (CURB 2+) IV Co-amoxiclav + oral Clarithromycin."
+        }
+      ]
+    },
+    {
+      "Name": "Pulmonary Tuberculosis (TB)",
+      "Tag": "Infectious Respiratory Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infectious disease caused by Mycobacterium tuberculosis (acid-fast bacillus). Transmitted via airborne droplets. Primary vs post-primary (reactivation) TB."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inhaled bacilli engulfed by alveolar macrophages, forming caseating granulomas (Ghon focus/complex). Cell-mediated immunity (CD4+ T cells and INF-gamma) contains bacilli; reactivation occurs with immunosuppression."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Chronic cough > 2-3 weeks, hemoptysis, low-grade fever with evening rise, night sweats, weight loss, anorexia. Apical crackles on auscultation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Sputum AFB stain (Ziegler-Neelsen) x 3, GeneXpert MTB/RIF (rapid DNA + Rifampicin resistance), CXR (upper lobe infiltrates, cavitation, miliary mottling). Tx: 2 months RHZE (Rifampicin, Isoniazid, Pyrazinamide, Ethambutol) + 4 months RH. Pyridoxine (Vit B6) added to prevent Isoniazid neuropathy."
+        }
+      ]
+    },
+    {
+      "Name": "Pleural Effusion (Exudate vs Transudate)",
+      "Tag": "Pleural Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Pathological accumulation of fluid in pleural space. Transudative (systemic factors e.g., Heart Failure, Cirrhosis, Nephrotic) vs Exudative (local factors e.g., Pneumonia, TB, Malignancy)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transudates arise from increased hydrostatic pressure or decreased oncotic pressure. Exudates arise from increased pleural capillary permeability or lymphatic obstruction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dyspnea, pleuritic chest pain, dry cough. Examination findings: Stony dull percussion note, decreased or absent breath sounds, reduced vocal resonance, tracheal deviation away from effusion (if large)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR: Blunting of costophrenic angle (> 175mL), dense opacification with meniscus sign. Diagnostic Pleural Tap analyzed using Light's Criteria (Exudate if: Pleural/Serum Protein > 0.5, Pleural/Serum LDH > 0.6, or Pleural LDH > 2/3 upper limit normal). Tx: Treat underlying cause; therapeutic thoracocentesis or chest drain."
+        }
+      ]
+    },
+    {
+      "Name": "Pneumothorax (Tension vs Spontaneous)",
+      "Tag": "Pleural Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Air in pleural space causing lung collapse. Primary spontaneous (rupture of subpleural blebs in tall, thin young men) vs Secondary (COPD/TB) vs Tension pneumothorax."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Tension pneumothorax: One-way valve mechanism allows air to enter pleural space during inspiration but prevents escape during expiration, increasing intrathoracic pressure, collapsing lung, and shifting mediastinum, compromising venous return."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden onset severe pleuritic chest pain and breathlessness. Physical findings: Hyper-resonant percussion, absent breath sounds, reduced chest expansion. Tension features: Hypotension, severe cyanosis, tracheal deviation away from affected side, JVP elevation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR (spontaneous): Visceral pleural line visible with absence of lung markings peripherally. (Tension is a CLINICAL DIAGNOSIS - DO NOT DELAY Tx FOR CXR!). Tx Tension: Immediate needle decompression (14G cannula in 2nd ICS anterior mid-clavicular line or 5th ICS anterior axillary line), followed by Intercostal Chest Drain (ICD)."
+        }
+      ]
+    },
+    {
+      "Name": "Haemoptysis",
+      "Tag": "Symptom Approach & Pulmonary Vascular",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Coughing up of blood originating from respiratory tract below vocal cords. Major causes: Bronchiectasis, Tuberculosis, Bronchogenic Carcinoma, Pneumonia, Aspergilloma, Pulmonary Embolism."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bleeding typically arises from hypervascular bronchial circulation (high pressure) damaged by chronic inflammation, erosion, necrotizing infection, or tumor invasion."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Expectoration of bright red frothy blood mixed with sputum. Massive hemoptysis (> 100-600 mL in 24 hrs) threatens airway occlusion and asphyxiation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR, Sputum AFB and cytology, CT Chest (high resolution), Bronchoscopy. Tx Massive: Maintain airway (position bleeding side down), high-flow O2, rigid/flexible bronchoscopy, Bronchial Artery Embolization (BAE), surgical resection if refractory."
+        }
+      ]
+    },
+    {
+      "Name": "Respiratory Failure (Type 1 vs Type 2)",
+      "Tag": "Emergency Respiratory Physiology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Inability of respiratory system to maintain adequate gas exchange. Type 1 (Hypoxemic) vs Type 2 (Hypercapnic)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Type 1: V/Q mismatch or diffusion impairment causes hypoxemia (PaO2 < 60 mmHg / 8 kPa) with normal or low PaCO2 (< 45 mmHg / 6 kPa). Type 2: Alveolar hypoventilation causes hypoxemia with hypercapnia (PaCO2 > 45 mmHg / 6 kPa)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Type 1 features: Cyanosis, tachypnea, tachycardia, confusion. Type 2 features: Bounding pulse, flapping tremor (asterixis), warm peripheries, papilledema, drowsiness, acidotic breath."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Arterial Blood Gas (ABG) analysis. Type 1 causes: Pneumonia, Pulmonary Edema, PE, ARDS, Asthma. Type 2 causes: COPD, Severe Asthma, Narcotics overdose, Myasthenia Gravis, Guillain-Barre syndrome. Tx: High-flow O2 for Type 1; Controlled O2 + NIV/mechanical ventilation for Type 2."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",
