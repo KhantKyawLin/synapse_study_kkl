@@ -68,6 +68,8 @@ function updateData() {
                  const num = parts[1] ? ` ${parts[1]}` : '';
                  defaultCategory = `Pathophysiology - Endocrine Module${num}`;
              }
+        } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(cleanBase)) {
+             defaultCategory = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
         } else if (parts.length >= 4) {
              const topic = parts[1].charAt(0).toUpperCase() + parts[1].slice(1);
              const subject = parts[3].charAt(0).toUpperCase() + parts[3].slice(1);
@@ -142,6 +144,8 @@ function updateDashboardData() {
             moduleName = 'Final Part 2 - Respiratory Database';
         } else if (/endocrin/i.test(file)) {
             moduleName = 'Final Part 2 - Endocrinology Database';
+        } else if (/(?:^|_)gi(?:_|\.)|gastro/i.test(file)) {
+            moduleName = 'Final Part 2 - Gastroenterology & Hepatology Database';
         }
         let moduleData = [];
 
@@ -259,6 +263,8 @@ function updateQuizData() {
                 moduleName = 'Final Part 2 Medicine - Respiratory Medicine';
             } else if (/endocrin/i.test(rawBase) && /fp2/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Endocrinology';
+            } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {
@@ -323,7 +329,7 @@ function updateQuizData() {
                 const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
                 
                 const catIdx = headers.findIndex(h => /category|module|tier|difficulty|level|topic/i.test(h) && !/question|\bstem\b|prompt|vignette/i.test(h));
-                let qIdx = headers.findIndex(h => /clinical\s*case|vignette|question\s*text|question\s*stem|\bstem\b/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
+                let qIdx = headers.findIndex(h => /clinical\s*case|clinical\s*question|vignette|question\s*text|question\s*stem|question\s*prompt|\bstem\b/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
                 if (qIdx === -1) {
                     qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number|topic/i.test(h));
                 }

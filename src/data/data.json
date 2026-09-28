@@ -5736,6 +5736,281 @@
       "answer": "6 to 12 weeks."
     },
     {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "How is a peptic 'ulcer' defined regarding its depth in the mucosa?",
+      "answer": "It is a break with appreciable depth or histologic evidence of submucosa involvement."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the definition of GI 'erosions' compared to ulcers?",
+      "answer": "Breaks in the surface epithelium that do not have perceptible depth."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Infection with $H. pylori$ is responsible for approximately what percentage of duodenal ulcers?",
+      "answer": "$\\ge 90\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Regular use of NSAIDs increases the risk of gastrointestinal bleeding by how many fold compared to non-users?",
+      "answer": "$5$ to $6$ fold."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What anatomical landmark separates Upper GI bleeding from Lower GI bleeding?",
+      "answer": "The Ligament of Treitz."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "According to the UCLA CURE database, what is the most frequent cause of severe Upper GI bleeding?",
+      "answer": "Peptic ulcer ($38\\%$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which condition causes UGI bleeding through mucosal tearing due to forceful retching?",
+      "answer": "Mallory-Weiss tear."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the estimated frequency of gastric or esophageal varices as a cause of severe UGI bleeding?",
+      "answer": "$16\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Gastric erosions, a common cause of UGI bleeding, are primarily associated with the use of NSAIDs and _____.",
+      "answer": "Alcohol."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the rarest cause of acute upper gastrointestinal hemorrhage listed in the source material?",
+      "answer": "Aorto-duodenal fistula ($0.2\\%$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "The ligament of Treitz is a suspensory muscle that connects the end of the _____ and the beginning of the jejunum.",
+      "answer": "Duodenum."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the quantitative definition of diarrhea based on daily stool weight?",
+      "answer": "Passage of more than $200$ g of stool daily."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "How long must a decrease in stool consistency persist to be classified as 'chronic' diarrhea?",
+      "answer": "More than $4$ weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "On the Bristol Stool Form Scale, which type is described as 'watery, no solid pieces; entirely liquid'?",
+      "answer": "Type $7$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Bristol Stool Form Scale Type $1$ is described as separate hard lumps resembling _____.",
+      "answer": "Nuts."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which clinical feature is characteristic of chronic diarrhea originating from the colon?",
+      "answer": "Blood and mucus in the stool."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "A patient presenting with steatorrhea and weight loss likely has diarrhea caused by _____.",
+      "answer": "Malabsorption."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Chronic diarrhea characterized by large-volume, watery stool and mid-abdominal pain typically suggests a _____ origin.",
+      "answer": "Small bowel."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which inflammatory bowel disease is characterized by 'skip lesions' and a patchy distribution throughout the GI tract?",
+      "answer": "Crohn's disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Where does Ulcerative colitis typically begin before extending proximally?",
+      "answer": "The anorectal margin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "In Ulcerative colitis, inflammation is histologically limited to which layer of the bowel wall?",
+      "answer": "The mucosa."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which type of IBD is associated with transmural inflammation and deep fissuring ulcers?",
+      "answer": "Crohn's disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the effect of an appendicectomy on the risk of developing Ulcerative colitis?",
+      "answer": "Appendicectomy protects against it."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which ethnic group has a higher prevalence of Crohn's disease?",
+      "answer": "Ashkenazi Jews."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which medication class used for IBD is generally effective for Ulcerative colitis but not for Crohn's disease?",
+      "answer": "$5$-ASA (Aminosalicylates)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which specific skin manifestation is shown as a complication of Ulcerative colitis?",
+      "answer": "Pyoderma gangrenosum."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Clubbing of the fingernails is a physical sign associated with which GI condition?",
+      "answer": "Malabsorption."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the significance of finding 'Virchow's gland' during a neck examination?",
+      "answer": "It is a sign of gastric cancer."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Atrophic glossitis and angular stomatitis are physical signs of which nutritional deficiency?",
+      "answer": "Vitamin $B_{12}$ deficiency."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which specific investigation is used to diagnose pancreatic malabsorption by measuring enzyme levels in the stool?",
+      "answer": "Faecal elastase."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Acute pancreatitis is characterized by abdominal pain and elevated levels of _____ in the blood.",
+      "answer": "Pancreatic enzymes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "In the pancreas, which cells are responsible for secreting alkaline fluid ($HCO_3^-$ + water)?",
+      "answer": "Ductular cells."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Pancreatic acinar cells secrete digestive enzymes in response to which hormone?",
+      "answer": "Cholecystokinin (CCK)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the primary substrate for the pancreatic enzyme Amylase?",
+      "answer": "Starch and glycogen."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which pancreatic enzyme is responsible for breaking down triglycerides into monoglycerides and free fatty acids?",
+      "answer": "Lipase."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "List three proteolytic enzymes produced by the pancreas.",
+      "answer": "Trypsinogen, Chymotrypsinogen, and Pro-elastase."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Abdominal pain located in the epigastric region is common in Peptic Ulcer Disease, Pancreatitis, and _____.",
+      "answer": "Biliary tract disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Pain in the Right Upper Quadrant (RUQ) that is aggravated by fatty foods and radiates to the right shoulder suggests _____.",
+      "answer": "Biliary colic or Cholecystitis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What clinical triad (Charcot triad) suggests Ascending Cholangitis?",
+      "answer": "RUQ pain, fever/chills, and jaundice."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Abdominal pain that is described as 'burning' and 'aching' is most characteristic of which condition?",
+      "answer": "Peptic ulcer."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Biliary colic typically presents with pain that lasts for which duration?",
+      "answer": "Hours to days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What physical exam finding is defined as periumbilical ecchymosis indicating hemoperitoneum?",
+      "answer": "Cullen's sign."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What physical exam finding is defined as flank ecchymosis, often associated with pancreatitis?",
+      "answer": "Turner's sign."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "An 'inspiratory arrest' during RUQ palpation is known as a positive _____ sign.",
+      "answer": "Murphy's."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "In Acute Liver Failure, what adverse prognostic criteria for mortality is specified?",
+      "answer": "A predicted mortality rate of $\\ge 90\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What INR value is a criterion for referral to a specialized unit for acute liver injury?",
+      "answer": "INR $> 3.0$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "List the four criteria for transferring a patient with acute liver injury to a specialized unit.",
+      "answer": "INR $> 3.0$, hepatic encephalopathy, hypotension after fluid resuscitation, and metabolic acidosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "For paracetamol overdose, what specific measurement relationship indicates a need for specialized unit transfer?",
+      "answer": "Prothrombin time (seconds) $>$ interval (hours) from overdose."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What is the recommended head tilt for nursing a patient with Acute Liver Failure in the ITU?",
+      "answer": "$20^{\\circ}$ head-up tilt."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "What intervention is required to protect the airway in severe Acute Liver Failure?",
+      "answer": "Intubation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which diagnostic imaging technique is specifically mentioned for visualizing a normal pancreatic duct?",
+      "answer": "MRCP (Magnetic resonance cholangiopancreatography)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Sudden onset of abdominal pain is often associated with perforation, rupture, torsion, or _____.",
+      "answer": "Bleeding into the peritoneum."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Pain in the Left Lower Quadrant (LLQ) associated with a history of diverticulosis suggests _____.",
+      "answer": "Sigmoid diverticulitis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which condition presents with alternating constipation and diarrhea associated with bloating?",
+      "answer": "Irritable Bowel Syndrome (IBS)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Gastroenterology & Hepatology",
+      "question": "Which GI condition is associated with weight loss, older age, and a change in stool caliber?",
+      "answer": "Colorectal cancer."
+    },
+    {
       "category": "Final Part 2 Medicine - Respiratory Medicine",
       "question": "What are the three primary factors that contribute to airway narrowing in bronchial asthma?",
       "answer": "Bronchial muscle contraction, mucosal swelling/inflammation, and increased mucus production."

@@ -663,6 +663,228 @@
       ]
     }
   ],
+  "Final Part 2 - Gastroenterology & Hepatology Database": [
+    {
+      "Name": "Peptic Ulcer Disease (PUD)",
+      "Tag": "Luminal GI Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Mucosal erosion in stomach or duodenum (> 5 mm) extending into submucosa; primary causes are Helicobacter pylori infection (~85-90% duodenal, ~70-80% gastric) and NSAID/Aspirin use."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Disruption of mucosal defense mechanisms (bicarbonate barrier, prostaglandins) by H. pylori (cytotoxin-associated gene A/CagA, vacuolating cytotoxin/VacA) or NSAIDs (COX-1 inhibition reducing protective prostaglandins), leading to acid-peptic mucosal necrosis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Epigastric pain (duodenal: relieved by food/antacids, pain 2-3 hrs post-meal; gastric: aggravated by food, weight loss), postprandial fullness, early satiety. Red flags: hematemesis, melena, persistent vomiting, anemia, sudden acute abdomen (perforation)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "EGD (gold standard biopsy/ulcer visualization); H. pylori testing (urea breath test, stool antigen test, rapid urease biopsy test). Treatment: Triple therapy (PPI + Amoxicillin 1g BD + Clarithromycin 500mg BD for 14 days) or Bismuth quadruple therapy; stop NSAIDs."
+        }
+      ]
+    },
+    {
+      "Name": "Upper Gastrointestinal Bleeding (UGIB)",
+      "Tag": "GI Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bleeding originating proximal to the ligament of Treitz; non-variceal (PUD, Mallory-Weiss tear, erosive gastritis, Dieulafoy lesion) vs. variceal (portal hypertension secondary to cirrhosis)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Erosion of mucosal arteries by acid-peptic ulceration or acute rupture of high-pressure submucosal esophageal/gastric varices secondary to portal venous hypertension."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hematemesis ('coffee-ground' emesis or bright red blood), melena (black tarry stool), hematochezia (if massive rapid transit), postural hypotension, tachycardia, syncope, pallor, hypovolemic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Immediate resuscitation: IV wide-bore access, IV 0.9% Normal Saline, blood transfusion (target Hb 7-8 g/dL). Variceal: IV Terlipressin/Octreotide + prophylactic IV Ceftriaxone + urgent EGD with Band Ligation (EVL) within 12h. Non-variceal: high-dose IV PPI drip + EGD dual therapy (adrenaline + clip/cautery)."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Pancreatitis",
+      "Tag": "Pancreatic Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute inflammatory disease of the pancreas; most common causes are gallstones (cholelithiasis ~40%) and heavy alcohol consumption (~30%); other causes include hypertriglyceridemia, ERCP, drugs, hypercalcemia."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Premature intra-acinar activation of zymogens (trypsinogen into trypsin), initiating autodigestion of pancreatic parenchyma, microvascular injury, fat necrosis, systemic inflammatory response syndrome (SIRS), and multiorgan dysfunction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe, constant epigastric pain radiating directly to the back, relieved by leaning forward; nausea, vomiting, fever, paralytic ileus. Severe cases: Cullen sign (periumbilical ecchymosis), Grey Turner sign (flank ecchymosis), hypotension, ARDS."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum amylase and lipase >= 3x upper limit of normal (lipase more specific); abdominal ultrasound (gallstones); contrast-enhanced CT abdomen at 72h (necrosis/pseudocyst). Management: aggressive IV fluid resuscitation (Ringer's lactate), analgesia, enteral nutrition, ERCP if cholangitis."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Pancreatitis",
+      "Tag": "Pancreatic Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Progressive, irreversible inflammatory and fibrotic disease of the pancreas leading to loss of endocrine and exocrine function; chronic alcohol abuse (> 70-80%), hereditary, tropical, or idiopathic causes."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Repeated acute injury drives pancreatic stellate cell activation, dense acinar parenchyma fibrosis, ductal strictures, intraductal stone formation, and progressive irreversible destruction of acinar and islet cells."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Recurrent or persistent severe epigastric pain radiating to the back, exocrine insufficiency (steatorrhea, foul-smelling bulky floating stools, fat-soluble vitamin A/D/E/K deficiencies), endocrine insufficiency (pancreatogenic/type 3c diabetes mellitus), weight loss."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Fecal elastase-1 (< 200 ug/g indicates exocrine insufficiency); CT/MRI/EUS showing pancreatic calcifications, ductal dilation ('chain of lakes' pattern). Treatment: Pancreatic enzyme replacement therapy (PERT/Creon taken with meals), pain management, low-fat diet, insulin for diabetes."
+        }
+      ]
+    },
+    {
+      "Name": "Jaundice & Cholestasis",
+      "Tag": "Hepatobiliary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Yellowish discoloration of skin and sclera due to serum total bilirubin > 35-50 umol/L (2-3 mg/dL); classified into pre-hepatic (unconjugated), hepatic (mixed), and post-hepatic/cholestatic (conjugated)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pre-hepatic: excess heme breakdown (hemolysis, ineffective erythropoiesis). Hepatic: impaired hepatic uptake, conjugation (Gilbert/Crigler-Najjar), or hepatocellular secretion (hepatitis, cirrhosis). Post-hepatic: mechanical biliary tree obstruction (choledocholithiasis, pancreatic head carcinoma)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Scleral icterus, jaundice. Cholestatic hallmarks: dark tea-colored urine, pale/clay-colored stools, intense pruritus, xanthelasma. Red flags: fever + rigor + jaundice + RUQ pain (Charcot triad for acute cholangitis; add hypotension + confusion = Reynolds pentad)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "LFTs: Cholestatic pattern (marked ALP/GGT elevation > AST/ALT); Hepatocellular pattern (marked AST/ALT elevation > ALP). Abdominal ultrasound (biliary dilation); MRCP / ERCP for obstructive ductal lesions."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Liver Failure (ALF)",
+      "Tag": "Hepatic Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Rapid-onset severe liver injury in a patient WITHOUT pre-existing cirrhosis, characterized by coagulopathy (INR > 1.5) and hepatic encephalopathy within 24 weeks of onset; paracetamol toxicity (most common), viral hepatitis (A, B, E), idiosyncratic drug reactions."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Massive hepatocyte necrosis causes acute loss of synthetic function (clotting factors, albumin), metabolic clearance failure (ammonia accumulation), systemic vasodilation, cerebral edema, hyperammonemia-mediated astrocyte swelling, and multiorgan failure."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Jaundice, hepatic encephalopathy (Grade I: confusion/mood change; Grade II: lethargy/flapping tremor/asterixis; Grade III: stupor; Grade IV: coma), cerebral edema (increased ICP, sluggish pupils), mucosal bleeding, hypoglycemia, lactic acidosis."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Coagulopathy (INR > 1.5, prolonged PT); elevated serum ammonia, bilirubin, transaminases; arterial lactate; hypoglycemia. Management: ICU support, N-acetylcysteine (NAC for paracetamol and non-paracetamol ALF), Lactulose/Rifaximin, mannitol/3% hypertonic saline for cerebral edema; urgent liver transplant evaluation (King's College Criteria)."
+        }
+      ]
+    },
+    {
+      "Name": "Viral Hepatitis (A, B, C, D, E)",
+      "Tag": "Hepatobiliary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Systemic viral infection primarily targeting hepatocytes; HAV/HEV (fecal-oral, acute only except HEV in pregnancy/immunocompromised); HBV/HCV/HDV (parenteral/sexual/vertical transmission, risk of chronicity)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune-mediated hepatocyte destruction (cytotoxic CD8+ T-cell attack against viral antigens on hepatocytes) leading to lobular inflammation, ballooning degeneration, Councilman bodies (apoptotic hepatocytes), and potential chronic fibrosis/cirrhosis (HBV/HCV)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Prodrome: malaise, low-grade fever, anorexia, nausea, vomiting, myalgia, RUQ discomfort; icteric phase: jaundice, dark urine, pale stools, hepatomegaly. Chronic HBV/HCV: often asymptomatic until cirrhosis, portal hypertension, or Hepatocellular Carcinoma (HCC) develops."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Acute HAV/HEV: IgM anti-HAV / IgM anti-HEV. HBV serology panel: HBsAg (active infection), Anti-HBs (immunity), IgM Anti-HBc (acute infection), IgG Anti-HBc (past/chronic infection), HBeAg (high replicative state/infectivity), HBV DNA. HCV: Anti-HCV screening + HCV RNA PCR. Treatment: Nucleos(t)ide analogs (Tenofovir, Entecavir) for HBV; Direct-Acting Antivirals (DAAs like Sofosbuvir/Velpatasvir) for HCV (> 95% cure)."
+        }
+      ]
+    },
+    {
+      "Name": "Cirrhosis & Portal Hypertension",
+      "Tag": "Hepatobiliary Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "End-stage chronic liver disease defined histologically by diffuse hepatic fibrosis and conversion of normal architecture into structurally abnormal regenerative nodules; major causes: chronic alcohol abuse, chronic HBV/HCV, MASLD/MASH."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Disruption of hepatic architecture increases intrahepatic vascular resistance, causing portal venous pressure > 10-12 mmHg (portal hypertension), splanchnic vasodilation, arterial underfilling, RAAS/ADH activation, fluid retention (ascites), and portosystemic collateral formation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Stigmata of chronic liver disease: spider naevi, palmar erythema, gynecomastia, testicular atrophy, Dupuytren contracture, caput medusae. Complications: ascites, spontaneous bacterial peritonitis (SBP), esophageal variceal bleeding, hepatic encephalopathy, hepatorenal syndrome (HRS)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum albumin < 35 g/L, prolonged PT/INR, thrombocytopenia (splenomegaly/hypersplenism); liver USG (nodular surface, splenomegaly, ascites); transient elastography (FibroScan). Ascites paracentesis: SAAG >= 11 g/L indicates portal hypertension; neutrophil count >= 250/mm3 diagnoses SBP (treat with IV Cefotaxime/Ceftriaxone)."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Diarrhoea & Malabsorption",
+      "Tag": "Luminal GI Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Diarrhea lasting > 4 weeks; malabsorption syndromes characterized by impaired nutrient absorption across intestinal mucosa. Key causes: Celiac Disease (autoimmune gluten sensitivity), Tropical Sprue, Inflammatory Bowel Disease (Crohn's, Ulcerative Colitis), Chronic Pancreatitis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Celiac: immune response against gliadin triggers villous atrophy, crypt hyperplasia, and intraepithelial lymphocytosis in duodenum/jejunum. Crohn's: transmural, skip lesions, non-caseating granulomas anywhere from mouth to anus. Ulcerative Colitis: continuous mucosal inflammation starting at rectum extending proximally."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Chronic watery/fatty stools (steatorrhea: bulky, pale, foul-smelling floating stools), weight loss, muscle wasting, anemia (iron deficiency in duodenal disease, B12/folate in ileal disease), metabolic bone disease (osteomalacia/osteoporosis due to vitamin D malabsorption), peripheral edema (hypoalbuminemia)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Celiac: anti-tissue transglutaminase (anti-tTG) IgA + total IgA; duodenal biopsy (gold standard). IBD: fecal calprotectin (elevated), colonoscopy with biopsies (Crohn's: cobblestoning, linear ulcers, skip lesions; UC: continuous mucosal ulceration, pseudopolyps). Stool microscopy, fat quantification."
+        }
+      ]
+    },
+    {
+      "Name": "Infectious Diarrhoea & Dysentery (Cholera, Amoebic, Bacillary)",
+      "Tag": "Infectious GI Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute infectious enteritis/colitis; Cholera (Vibrio cholerae, non-invasive secretory diarrhea); Bacillary Dysentery (Shigella spp.); Amoebic Dysentery (Entamoeba histolytica)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "V. cholerae: cholera toxin increases mucosal intracellular cAMP, driving massive active secretion of Cl- and water into gut lumen. Shigella: Shiga toxin + mucosal invasion causing acute hemorrhagic colitis. E. histolytica: trophozoite tissue invasion forming characteristic 'flask-shaped' mucosal ulcers."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Cholera: painless, massive, profuse 'rice-water' watery diarrhea (up to 1L/hr), rapid severe dehydration, hypovolemic shock, sunken eyes, muscle cramps. Dysentery: painful frequent small-volume bloody mucoid stools, severe tenesmus, high fever (Shigella), or right lobe liver abscess (Amoebic)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Stool dark-field microscopy / culture (V. cholerae); stool microscopy for E. histolytica trophozoites containing ingested RBCs or Shigella WBCs/blood. Treatment: Cholera: aggressive oral rehydration solution (ORS) or IV Ringer's lactate + Doxycycline/Azithromycin; Amoebic: Metronidazole/Tinidazole followed by luminal agent (Diloxanide furoate or Paromomycin); Shigella: Ciprofloxacin or Azithromycin."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Respiratory Database": [
     {
       "Name": "Bronchial Asthma (Acute Severe)",

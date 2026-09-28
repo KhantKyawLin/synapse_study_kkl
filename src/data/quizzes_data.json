@@ -2250,6 +2250,428 @@
       "explanation": "Insulin infusion must be continued until ketoacidosis resolves (pH > 7.3, HCO3 > 18, ketones cleared). When glucose falls below 13.8 mmol/L (250 mg/dL), 5-10% Dextrose is added to IV fluids to prevent hypoglycemia while maintaining insulin administration."
     }
   ],
+  "Final Part 2 Medicine - Gastroenterology & Hepatology": [
+    {
+      "id": 8,
+      "category": "Peptic Ulcer Disease",
+      "question": "Which of the following is the single most common cause of duodenal ulcers worldwide?",
+      "options": [
+        "Helicobacter pylori infection",
+        "NSAID chronic use",
+        "Zollinger-Ellison syndrome",
+        "Gastrinoma",
+        "Severe physiological stress"
+      ],
+      "correctIndex": 0,
+      "explanation": "Helicobacter pylori infection causes ~85-90% of duodenal ulcers and ~70-80% of gastric ulcers by producing cytotoxins (CagA, VacA) and urease, disrupting the mucosal bicarbonate barrier."
+    },
+    {
+      "id": 9,
+      "category": "Peptic Ulcer Disease",
+      "question": "A 45-year-old man presents with epigastric pain that occurs 2-3 hours after meals and often awakens him at night. Pain is characteristically relieved by food. What is the most likely diagnosis?",
+      "options": [
+        "Gastric ulcer",
+        "Duodenal ulcer",
+        "Acute pancreatitis",
+        "Gastroesophageal reflux disease",
+        "Cholecystitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duodenal ulcer pain typically occurs 2-3 hours postprandially when acid enters the duodenum without food buffer, and is relieved by food intake. Gastric ulcer pain is typically aggravated by food."
+    },
+    {
+      "id": 10,
+      "category": "Peptic Ulcer Disease",
+      "question": "Which first-line triple therapy regimen is recommended for Helicobacter pylori eradication?",
+      "options": [
+        "PPI + Metronidazole + Tetracycline",
+        "PPI + Amoxicillin 1g BD + Clarithromycin 500mg BD",
+        "PPI + Bismuth + Doxycycline",
+        "H2RA + Amoxicillin + Ciprofloxacin",
+        "PPI + Levofloxacin + Azithromycin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard first-line triple therapy for H. pylori eradication consists of a Proton Pump Inhibitor (PPI) BD + Amoxicillin 1g BD + Clarithromycin 500mg BD for 14 days (or Bismuth quadruple therapy if local clarithromycin resistance > 15%)."
+    },
+    {
+      "id": 11,
+      "category": "Upper GI Bleeding",
+      "question": "Which initial resuscitation measure is the absolute highest priority in a patient presenting with acute massive hematemesis and hypovolemic shock?",
+      "options": [
+        "Immediate diagnostic upper GI endoscopy",
+        "Securing two wide-bore IV cannulae (14-16G) and IV fluid resuscitation",
+        "Administration of oral tranexamic acid",
+        "Immediate insertion of a Sengstaken-Blakemore tube",
+        "Intravenous bolus of pantoprazole"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airway, Breathing, and Circulation (ABC) resuscitation takes immediate priority. Establishing two wide-bore peripheral IV access lines (14-16G) for rapid fluid resuscitation and blood transfusion precedes diagnostic endoscopy."
+    },
+    {
+      "id": 12,
+      "category": "Upper GI Bleeding",
+      "question": "In a cirrhotic patient presenting with acute variceal hemorrhage, which pharmacological intervention should be initiated immediately alongside resuscitation before endoscopy?",
+      "options": [
+        "Intravenous Omeprazole drip only",
+        "Intravenous Terlipressin (or Octreotide) plus prophylactic IV Ceftriaxone",
+        "Oral Propranolol",
+        "Intravenous Vitamin K",
+        "Intravenous Tranexamic acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vasoactive drugs (Terlipressin or Octreotide) reduce portal venous pressure and acute bleeding, while prophylactic IV antibiotics (Ceftriaxone) significantly reduce bacterial infection, rebleeding rates, and mortality in cirrhotic variceal bleeding."
+    },
+    {
+      "id": 13,
+      "category": "Upper GI Bleeding",
+      "question": "What is the primary definitive endoscopic treatment of choice for acute bleeding esophageal varices?",
+      "options": [
+        "Endoscopic sclerotherapy",
+        "Endoscopic Variceal Ligation (EVL / Banding)",
+        "Endoscopic clip placement",
+        "Argon plasma coagulation",
+        "Endoscopic thermal cautery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endoscopic Variceal Ligation (EVL or rubber band ligation) is the definitive endoscopic therapy of choice for esophageal varices, associated with higher bleeding control rates and lower complication rates than sclerotherapy."
+    },
+    {
+      "id": 14,
+      "category": "Acute Pancreatitis",
+      "question": "Which two etiologies account for over 70-80% of all cases of acute pancreatitis?",
+      "options": [
+        "Hypertriglyceridemia and Trauma",
+        "Gallstones and Alcohol consumption",
+        "Drugs (Azathioprine) and ERCP",
+        "Hypercalcemia and Infections",
+        "Autoimmune and Hereditary factors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gallstones (biliary obstruction ~40%) and chronic heavy alcohol abuse (~30%) together account for the vast majority (70-80%) of acute pancreatitis cases."
+    },
+    {
+      "id": 15,
+      "category": "Acute Pancreatitis",
+      "question": "A 38-year-old man presents with severe, constant epigastric pain radiating directly to his back, accompanied by persistent vomiting. Pain is partially relieved by leaning forward. Which lab marker is most specific for acute pancreatitis?",
+      "options": [
+        "Serum Amylase",
+        "Serum Lipase",
+        "Alanine Aminotransferase (ALT)",
+        "Serum Bilirubin",
+        "Lactate Dehydrogenase (LDH)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum lipase is more specific and remains elevated longer (8-14 days) than serum amylase (which drops in 3-5 days). A 3-fold elevation above upper limit of normal confirms diagnosis."
+    },
+    {
+      "id": 16,
+      "category": "Acute Pancreatitis",
+      "question": "What clinical physical examination sign is characterized by ecchymosis around the umbilicus, indicating severe necrotizing pancreatitis with retroperitoneal hemorrhage?",
+      "options": [
+        "Grey Turner sign",
+        "Cullen sign",
+        "Murphy sign",
+        "Fox sign",
+        "Rovsing sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cullen sign is periumbilical ecchymosis resulting from retroperitoneal hemorrhage diffusing along the falciform ligament. Grey Turner sign is ecchymosis of the flanks."
+    },
+    {
+      "id": 17,
+      "category": "Chronic Pancreatitis",
+      "question": "A 52-year-old chronic alcoholic presents with persistent abdominal pain, weight loss, and bulky, foul-smelling, greasy stools that float in the toilet. What non-invasive stool test is most sensitive for detecting exocrine pancreatic insufficiency?",
+      "options": [
+        "Stool culture for ova and parasites",
+        "Fecal Elastase-1 concentration",
+        "Fecal occult blood test",
+        "Stool pH testing",
+        "Qualitative stool reduction test"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fecal elastase-1 concentration < 200 ug/g (and severe < 100 ug/g) is the most sensitive and specific non-invasive stool biomarker for exocrine pancreatic insufficiency."
+    },
+    {
+      "id": 18,
+      "category": "Chronic Pancreatitis",
+      "question": "What classic triad characterizes advanced chronic pancreatitis?",
+      "options": [
+        "Jaundice, fever, and RUQ pain",
+        "Pancreatic calcifications, Steatorrhea, and Diabetes Mellitus",
+        "Ascites, splenomegaly, and spider naevi",
+        "Epigastric pain, anemia, and palpable mass",
+        "Fever, chills, and vomiting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic diagnostic triad of advanced chronic pancreatitis consists of pancreatic calcifications (on abdominal X-ray/CT), steatorrhea (exocrine failure), and diabetes mellitus (type 3c / endocrine failure)."
+    },
+    {
+      "id": 19,
+      "category": "Jaundice & Hepatology",
+      "question": "Which pattern of LFTs is characteristic of cholestatic (post-hepatic / obstructive) jaundice?",
+      "options": [
+        "Marked AST and ALT elevation (> 10x) with normal ALP",
+        "Marked Alkaline Phosphatase (ALP) and GGT elevation out of proportion to AST/ALT",
+        "Isolated elevation of unconjugated bilirubin with normal LFTs",
+        "Severe elevation of LDH with normal bilirubin",
+        "Marked isolated ALT elevation"
+      ],
+      "correctIndex": 1,
+      "explanation": "A cholestatic pattern features predominant elevation of Alkaline Phosphatase (ALP) and Gamma-Glutamyl Transferase (GGT), reflecting biliary epithelial injury or mechanical ductal obstruction."
+    },
+    {
+      "id": 20,
+      "category": "Jaundice & Hepatology",
+      "question": "A 22-year-old medical student notes mild scleral icterus during exam week. LFTs show isolated unconjugated hyperbilirubinemia (total bilirubin 2.8 mg/dL, direct 0.3 mg/dL) with completely normal AST, ALT, ALP, CBC, and reticulocyte count. What is the diagnosis?",
+      "options": [
+        "Crigler-Najjar syndrome Type I",
+        "Gilbert syndrome",
+        "Dubin-Johnson syndrome",
+        "Rotor syndrome",
+        "Acute viral hepatitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gilbert syndrome is a benign autosomal recessive condition with reduced UDP-glucuronosyltransferase activity (~30% normal), presenting with mild unconjugated hyperbilirubinemia triggered by fasting, stress, or infection with normal liver enzymes."
+    },
+    {
+      "id": 21,
+      "category": "Jaundice & Hepatology",
+      "question": "Charcot triad for acute cholangitis consists of which three clinical features?",
+      "options": [
+        "Jaundice, ascites, and encephalopathy",
+        "Fever/chills, Right Upper Quadrant pain, and Jaundice",
+        "Hypotension, confusion, and abdominal distension",
+        "Splenomegaly, palmar erythema, and gynecomastia",
+        "Fever, cough, and dyspnea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charcot triad for acute bacterial cholangitis consists of Fever/chills + RUQ abdominal pain + Jaundice. Adding hypotension and altered mental status forms Reynolds pentad."
+    },
+    {
+      "id": 22,
+      "category": "Acute Liver Failure",
+      "question": "Which definition correctly criteria-defines Acute Liver Failure (ALF)?",
+      "options": [
+        "Onset of cirrhosis within 6 months of alcohol intake",
+        "Acute onset of liver dysfunction with coagulopathy (INR > 1.5) and hepatic encephalopathy in a patient without pre-existing liver disease",
+        "Jaundice lasting > 12 weeks with elevated transaminases",
+        "Presence of ascites and esophageal varices after acute hepatitis B",
+        "Isolated transaminase elevation without encephalopathy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Liver Failure (ALF) is defined as acute hepatic dysfunction with coagulopathy (INR > 1.5) and any degree of hepatic encephalopathy developing within 24 weeks in a patient without pre-existing chronic liver disease."
+    },
+    {
+      "id": 23,
+      "category": "Acute Liver Failure",
+      "question": "What is the single most common cause of Acute Liver Failure in developed countries, and what is its specific antidote?",
+      "options": [
+        "Acute Hepatitis B; Entecavir",
+        "Paracetamol (Acetaminophen) toxicity; N-Acetylcysteine (NAC)",
+        "Amanita phalloides poisoning; Penicillin G",
+        "Acute Hepatitis A; Ribavirin",
+        "Autoimmune hepatitis; Prednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paracetamol toxicity is the leading cause of ALF. N-Acetylcysteine (NAC) replenishes intracellular glutathione, detoxifying the toxic metabolite NAPQI. NAC is beneficial even in late-presenting ALF."
+    },
+    {
+      "id": 24,
+      "category": "Viral Hepatitis",
+      "question": "Interpretation of Hepatitis B serology: A patient has positive HBsAg, positive IgG Anti-HBc, negative IgM Anti-HBc, positive HBeAg, and high HBV DNA. What is the clinical status?",
+      "options": [
+        "Acute Hepatitis B infection",
+        "Chronic Hepatitis B with high viral replication and high infectivity",
+        "Past resolved Hepatitis B infection with immunity",
+        "Vaccine-induced immunity to Hepatitis B",
+        "Chronic Hepatitis B in immune control (inactive carrier)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Positive HBsAg (> 6 months) indicates chronic infection; positive IgG Anti-HBc confirms past/chronic exposure; positive HBeAg and high HBV DNA indicate high viral replication and high infectivity."
+    },
+    {
+      "id": 25,
+      "category": "Viral Hepatitis",
+      "question": "Which Hepatitis B serological marker is the single marker present in an individual who has received the recombinant Hepatitis B vaccine?",
+      "options": [
+        "Anti-HBc IgG",
+        "Anti-HBs only",
+        "HBsAg",
+        "Anti-HBe",
+        "IgM Anti-HBc"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recombinant Hepatitis B vaccine contains purified HBsAg, inducing production of Anti-HBs antibodies ONLY. Anti-HBc is only positive following exposure to native HBcAg during natural HBV infection."
+    },
+    {
+      "id": 26,
+      "category": "Viral Hepatitis",
+      "question": "Which Hepatitis virus is a defective RNA virus that requires the presence of Hepatitis B surface antigen (HBsAg) to complete its replication cycle?",
+      "options": [
+        "Hepatitis A virus",
+        "Hepatitis C virus",
+        "Hepatitis D virus (Delta agent)",
+        "Hepatitis E virus",
+        "Hepatitis G virus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hepatitis D virus (HDV) is a defective single-stranded RNA virus that requires HBsAg coat protein encapsulation to infect hepatocytes. HDV superinfection in chronic HBV accelerates cirrhosis."
+    },
+    {
+      "id": 27,
+      "category": "Viral Hepatitis",
+      "question": "Which hepatitis virus infection has a particularly high mortality rate (~20-25%) due to fulminant hepatic failure specifically in pregnant women?",
+      "options": [
+        "Hepatitis A virus",
+        "Hepatitis B virus",
+        "Hepatitis C virus",
+        "Hepatitis E virus",
+        "Hepatitis D virus"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hepatitis E virus (HEV), transmitted via the fecal-oral route, typically causes mild acute hepatitis but causes high rates of fulminant hepatic failure (~20-25% mortality) in pregnant women, particularly in the 3rd trimester."
+    },
+    {
+      "id": 28,
+      "category": "Cirrhosis & Complications",
+      "question": "Which clinical diagnostic finding in ascites fluid paracentesis confirms Portal Hypertension as the underlying etiology?",
+      "options": [
+        "Serum-Ascites Albumin Gradient (SAAG) < 1.1 g/dL",
+        "Serum-Ascites Albumin Gradient (SAAG) >= 1.1 g/dL (11 g/L)",
+        "Ascites fluid total protein > 3.0 g/dL",
+        "Ascites fluid white blood cell count > 500/mm3",
+        "Ascites LDH > 200 U/L"
+      ],
+      "correctIndex": 1,
+      "explanation": "SAAG >= 1.1 g/dL (>= 11 g/L) indicates transudative ascites driven by increased portal hydrostatic pressure (portal hypertension: cirrhosis, cardiac failure, Budd-Chiari). SAAG < 1.1 indicates non-portal cause (carcinomatosis, TB)."
+    },
+    {
+      "id": 29,
+      "category": "Cirrhosis & Complications",
+      "question": "What diagnostic cutoff in ascitic fluid analysis establishes the diagnosis of Spontaneous Bacterial Peritonitis (SBP)?",
+      "options": [
+        "Ascitic fluid polymorphonuclear (PMN) neutrophil count >= 250 cells/mm3",
+        "Positive ascitic fluid gram stain only",
+        "Ascitic fluid total protein > 2.5 g/dL",
+        "Ascitic fluid glucose < 50 mg/dL",
+        "Ascitic RBC count > 100,000/mm3"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ascitic fluid polymorphonuclear (PMN) neutrophil count >= 250 cells/mm3 (0.25 x 10^9/L) is diagnostic of SBP, indicating immediate empirical IV antibiotic therapy (Cefotaxime/Ceftriaxone)."
+    },
+    {
+      "id": 30,
+      "category": "Cirrhosis & Complications",
+      "question": "A cirrhotic patient with ascites presents with progressive drowsiness, reversal of sleep-wake cycle, and flapping tremor of outstretched hands (asterixis). What first-line pharmacological agent reduces blood ammonia levels?",
+      "options": [
+        "Spironolactone",
+        "Lactulose",
+        "Furosemide",
+        "Propranolol",
+        "Terlipressin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lactulose is metabolized by colonic bacteria into lactic and acetic acid, acidifying the gut lumen (converting NH3 to non-absorbable NH4+) and producing an osmotic laxative effect to lower blood ammonia in hepatic encephalopathy."
+    },
+    {
+      "id": 31,
+      "category": "Cirrhosis & Complications",
+      "question": "What physical sign of chronic liver disease is caused by hyperestrogenism due to impaired hepatic metabolism of circulating steroid hormones?",
+      "options": [
+        "Caput medusae",
+        "Spider naevi (angiomas) and Palmar erythema",
+        "Dupuytren contracture",
+        "Ascites",
+        "Jaundice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spider naevi, palmar erythema, gynecomastia, and testicular atrophy in cirrhosis result from hyperestrogenism caused by decreased hepatic breakdown of estrogens and peripheral conversion of androgens."
+    },
+    {
+      "id": 32,
+      "category": "Chronic Diarrhoea",
+      "question": "Which serological test is the single most sensitive and specific initial screening test for Celiac Disease?",
+      "options": [
+        "Serum IgA Anti-Tissue Transglutaminase (anti-tTG) + Total IgA",
+        "Anti-Nuclear Antibody (ANA)",
+        "Anti-Saccharomyces cerevisiae antibody (ASCA)",
+        "Serum IgE level",
+        "Stool alpha-1 antitrypsin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Serum IgA anti-tissue transglutaminase (anti-tTG) combined with total serum IgA level (to exclude selective IgA deficiency) is the initial screening test of choice for Celiac Disease."
+    },
+    {
+      "id": 33,
+      "category": "Chronic Diarrhoea",
+      "question": "What small intestinal histopathological finding on duodenal biopsy is characteristic of Celiac Disease?",
+      "options": [
+        "Transmural inflammation with non-caseating granulomas",
+        "Villous atrophy, crypt hyperplasia, and intraepithelial lymphocytosis",
+        "PAS-positive macrophage infiltration in lamina propria",
+        "Continuous mucosal inflammation restricted to rectum",
+        "Microscopic colitis with lymphocytic infiltrate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duodenal mucosal biopsy in Celiac disease classically reveals subtotal/total villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes (Marsh classification)."
+    },
+    {
+      "id": 34,
+      "category": "Inflammatory Bowel Disease",
+      "question": "Which set of features strongly distinguishes Crohn's Disease from Ulcerative Colitis?",
+      "options": [
+        "Continuous rectal inflammation, mucosal ulceration, pseudopolyps, bloody stool",
+        "Transmural inflammation, skip lesions, non-caseating granulomas, aphthous/linear ulcers, and perianal fistulae",
+        "Surface mucosal inflammation limited strictly to colon",
+        "Crypt abscesses without granulomas",
+        "Toxic megacolon predominance without small bowel disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crohn's Disease is characterized by transmural involvement anywhere along the GI tract (mouth to anus), skip lesions (normal bowel between inflamed areas), cobblestoning, linear deep ulcers, non-caseating granulomas, and perianal fistulae/abscesses."
+    },
+    {
+      "id": 35,
+      "category": "Infectious Diarrhoea",
+      "question": "A 30-year-old traveler returning from an endemic region presents with massive, painless, watery diarrhea resembling 'rice-water', rapid severe dehydration, and leg cramps. What is the pathogen and mechanism?",
+      "options": [
+        "Shigella dysenteriae; Shiga cytotoxin mucosal destruction",
+        "Vibrio cholerae; Cholera enterotoxin activating mucosal adenylate cyclase (elevated intracellular cAMP)",
+        "Entamoeba histolytica; Tissue invasion producing flask ulcers",
+        "Giardia lamblia; Microvillus destruction",
+        "Rotavirus; Villous tip destruction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vibrio cholerae produces cholera toxin which ADP-ribosylates Gs protein, permanently activating adenylate cyclase, raising intracellular cAMP, driving massive isotonic hypersecretion of Cl- and water into the lumen."
+    },
+    {
+      "id": 36,
+      "category": "Infectious Diarrhoea",
+      "question": "Microscopic examination of fresh stool from a patient with bloody mucoid diarrhea and tenesmus reveals motile trophozoites with ingested red blood cells (erythrophagocytosis). What is the pathogen and treatment?",
+      "options": [
+        "Shigella flexneri; Ciprofloxacin",
+        "Entamoeba histolytica; Oral Metronidazole followed by a luminal agent (e.g., Paromomycin / Diloxanide furoate)",
+        "Giardia lamblia; Nitazoxanide",
+        "Campylobacter jejuni; Azithromycin",
+        "Salmonella enteritidis; Supportive care"
+      ],
+      "correctIndex": 1,
+      "explanation": "Entamoeba histolytica trophozoites demonstrating erythrophagocytosis in stool are diagnostic of amoebic dysentery. Treatment requires Metronidazole/Tinidazole (tissue amebicide) followed by a luminal agent (Paromomycin/Diloxanide) to eradicate cysts."
+    },
+    {
+      "id": 37,
+      "category": "Infectious Diarrhoea",
+      "question": "What is the single most critical immediate treatment intervention to reduce mortality in patients with Cholera?",
+      "options": [
+        "Immediate IV Doxycycline therapy",
+        "Rapid rehydration with Oral Rehydration Solution (ORS) or IV Ringer's Lactate",
+        "Intravenous metronidazole",
+        "Administering antimotility agents (Loperamide)",
+        "Intravenous ciprofloxacin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aggressive fluid resuscitation with Oral Rehydration Solution (ORS) for mild/moderate cases or IV Ringer's Lactate for severe hypovolemic shock is the paramount life-saving measure in Cholera, reducing mortality from > 50% to < 1%."
+    }
+  ],
   "Final Part 2 Medicine - Respiratory Medicine": [
     {
       "id": 8,
