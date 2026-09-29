@@ -885,6 +885,228 @@
       ]
     }
   ],
+  "Final Part 2 - Haematology Database": [
+    {
+      "Name": "Iron Deficiency Anemia (IDA)",
+      "Tag": "Microcytic Anemias",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common cause of anemia worldwide; microcytic hypochromic; caused by chronic blood loss (GI bleeding, menorrhagia), poor dietary intake, malabsorption (Celiac), or increased demand (pregnancy)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Depletion of body iron stores leads to impaired heme synthesis, resulting in small, pale erythrocytes with reduced hemoglobin content and reduced oxygen-carrying capacity."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fatigue, pallor, weakness, dyspnea on exertion, pica (pagophagia - ice craving), koilonychia (spoon-shaped nails), angular stomatitis, glossitis, dysphagia (Plummer-Vinson syndrome)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Low Hb, low MCV (< 80 fL), low MCH; low serum ferritin (most specific test, < 30 ug/L), high TIBC, low serum iron, low transferrin saturation; Management: Oral Ferrous Sulfate (200 mg tid) with Vitamin C, treat underlying cause."
+        }
+      ]
+    },
+    {
+      "Name": "Thalassemia (Alpha & Beta)",
+      "Tag": "Microcytic Anemias",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Inherited autosomal recessive hemoglobinopathy; Beta-thalassemia major (Cooley anemia) caused by beta-globin gene mutations; Alpha-thalassemia caused by alpha-globin gene deletions."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Imbalance in globin chain synthesis leads to precipitation of unpaired globin chains, causing intramedullary hemolysis (ineffective erythropoiesis) and peripheral hemolysis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe anemia starting in infancy, failure to thrive, hepatosplenomegaly, frontal bossing and maxillary reexpansion ('chipmunk' facies, crew-cut skull on X-ray), iron overload (hemochromatosis)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Microcytic target cells, basophilic stippling; Hb electrophoresis showing elevated HbF and HbA2 in Beta-thalassemia major; Management: Regular blood transfusions with iron chelation therapy (Deferasirox/Deferoxamine), splenectomy."
+        }
+      ]
+    },
+    {
+      "Name": "Megaloblastic Anemia (B12 & Folate Deficiency)",
+      "Tag": "Macrocytic Anemias",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Macrocytic anemia caused by Vitamin B12 (cobalamin) deficiency (Pernicious anemia - anti-intrinsic factor antibodies, ileal resection) or Folate deficiency (poor diet, alcoholism, antifolate drugs like MTX)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Impaired DNA synthesis disrupts nuclear maturation while cytoplasmic development proceeds normally, leading to megaloblastic erythroblasts, hypersegmented neutrophils, and ineffective hematopoiesis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Anemia symptoms, lemon-yellow skin jaundice, smooth beefy red tongue (glossitis). B12 specific: Subacute Combined Degeneration of Spinal Cord (loss of vibration/position sense, spastic paraparesis)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "High MCV (> 100-110 fL), hypersegmented neutrophils (>= 5 lobes) on blood film; low serum B12 or serum folate; anti-IF/anti-parietal cell antibodies; Management: IM Hydroxocobalamin for B12; oral Folic Acid (5 mg daily) AFTER B12 rule-in."
+        }
+      ]
+    },
+    {
+      "Name": "Immune Hemolytic Anemia & G6PD Deficiency",
+      "Tag": "Hemolytic Anemias",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Hemolytic anemias divided into immune-mediated (Warm IgG vs Cold IgM Autoimmune Hemolytic Anemia) and enzymopathies (X-linked G6PD deficiency triggered by fava beans, infections, oxidative drugs)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune: IgG/IgM coating of RBCs causes splenic macrophages (extravascular) or complement-mediated membrane attack complex (intravascular) clearance. G6PD: NADPH lack causes Heinz body formation and intravascular/extravascular hemolysis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Anemia, jaundice, dark urine (hemoglobinuria), splenomegaly, back/flank pain during acute hemolytic crises."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated reticulocyte count, elevated indirect bilirubin, high LDH, low haptoglobin; positive Direct Antiglobulin (Coombs) Test in AIHA; G6PD enzyme assay (after acute crisis); Management: Corticosteroids/Rituximab for AIHA; avoid triggers in G6PD."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Leukaemias (AML & ALL)",
+      "Tag": "Hematological Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant proliferation of immature hematopoietic progenitor cells (blasts) in bone marrow; ALL most common in children; AML most common in adults (linked to t(15;17) APML)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Clonal expansion of blast cells (> 20% in marrow) causes bone marrow failure (suppression of normal erythropoiesis, thrombopoiesis, and granulopoiesis) and tissue infiltration."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Abrupt onset of fever, severe fatigue, pallor, petechiae, purpura, bleeding, recurrent severe infections, bone pain, hepatosplenomegaly, lymphadenopathy (more in ALL), DIC in APML."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CBC showing anemia, thrombocytopenia, variable WBC count; Peripheral film and marrow biopsy showing > 20% blasts; Auer rods in AML; TdT positive in ALL; Management: Induction chemotherapy (e.g. 7+3 for AML; ATRA for APML; multi-drug regimen for ALL)."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Leukaemias (CML & CLL)",
+      "Tag": "Hematological Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Clonal myeloproliferative (CML) or lymphoproliferative (CLL) disorders. CML defined by t(9;22) Philadelphia chromosome (BCR-ABL1 fusion); CLL defined by mature-appearing CD5+/CD19+ B-cells."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "CML: BCR-ABL1 constitutively active tyrosine kinase drives excessive granulocyte proliferation. CLL: Apoptosis failure leads to accumulation of incompetent mature CD5+ B lymphocytes."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "CML: Massive splenomegaly, weight loss, night sweats, gout, fatigue; risk of blast crisis. CLL: Asymptomatic lymphocytosis, generalized painless lymphadenopathy, hepatosplenomegaly, B-symptoms, autoimmune hemolytic anemia."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CML: Marked leukocytosis with left shift (myelocytes, metamyelocytes), cytogenetics t(9;22); Management: Imatinib (TKI). CLL: Absolute lymphocytosis (> 5x10^9/L), 'smudge/smear cells' on blood film; Management: Fludarabine/Ibrutinib/Venetoclax."
+        }
+      ]
+    },
+    {
+      "Name": "Lymphomas (Hodgkin vs. Non-Hodgkin)",
+      "Tag": "Hematological Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant neoplasms of lymphoid tissue; Hodgkin Lymphoma (HL) characterized by Reed-Sternberg cells; Non-Hodgkin Lymphoma (NHL) includes B-cell (DLBCL, Follicular, Burkitt) and T-cell neoplasms."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant transformation of lymphocytes within lymph nodes leading to nodular expansion, disruption of normal architecture, systemic B-symptoms, and extranodal dissemination."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painless, rubbery lymphadenopathy (cervical, supraclavicular), alcohol-induced lymph node pain (in HL), B-symptoms (fever > 38C, drenching night sweats, weight loss > 10% in 6 months), hepatosplenomegaly."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Lymph node excisional biopsy: Reed-Sternberg cells (CD15+, CD30+ 'owl-eye' nuclei) in HL; Immunophenotyping for NHL; Ann Arbor staging with PET/CT; Management: ABVD chemotherapy + radiotherapy for HL; R-CHOP for B-cell NHL."
+        }
+      ]
+    },
+    {
+      "Name": "Multiple Myeloma",
+      "Tag": "Plasma Cell Dyscrasias",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant proliferation of monoclonal plasma cells in bone marrow producing monoclonal immunoglobulin (M-protein), most commonly IgG or IgA."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Neoplastic plasma cells secrete osteoclast-activating factors (RANKL) causing lytic bone lesions, synthesize excess monoclonal immunoglobulin causing hyperviscosity and renal tubule damage (cast nephropathy)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "CRAB criteria: HyperCalcemia, Renal impairment, Anemia, Bone pain (especially back/ribs, pathological fractures), recurrent infections."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum and urine protein electrophoresis (SPEP/UPEP) showing monoclonal M-spike; Bence Jones proteinuria; 'punched-out' lytic lesions on skeletal survey; marrow biopsy >= 10% plasma cells; Management: Bortezomib, Lenalidomide, Dexamethasone, autologous stem cell transplant."
+        }
+      ]
+    },
+    {
+      "Name": "Immune Thrombocytopenic Purpura (ITP) & DIC",
+      "Tag": "Bleeding & Platelet Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "ITP: Autoimmune anti-GPIIb/IIIa destruction of platelets; DIC: Widespread systemic activation of coagulation cascade triggered by sepsis, trauma, malignancy, or obstetric emergencies."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "ITP: Opsonized platelets destroyed in spleen. DIC: Microvascular thrombosis causes organ failure, with secondary consumption of platelets and clotting factors leading to catastrophic bleeding."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "ITP: Mucocutaneous bleeding, petechiae, purpura, epistaxis, menorrhagia, NO splenomegaly. DIC: Oozing from venipuncture sites, mucosal bleeding, skin necrosis (purpura fulminans), shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "ITP: Isolated thrombocytopenia (< 100x10^9/L) with normal coagulation profile; Management: Corticosteroids (Prednisolone), IVIG, Splenectomy. DIC: Low platelets, prolonged PT/APTT, low fibrinogen, elevated D-dimer, schistocytes on blood film; Management: Treat underlying cause, FFP, platelets, cryoprecipitate."
+        }
+      ]
+    },
+    {
+      "Name": "Hemophilia A/B & von Willebrand Disease",
+      "Tag": "Coagulation Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Hemophilia A (Factor VIII deficiency) and B (Factor IX deficiency) are X-linked recessive bleeding disorders; von Willebrand Disease (vWD) is the most common autosomal dominant bleeding disorder."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Factor VIII/IX deficiency impairs intrinsic coagulation cascade; vWD impairs platelet adhesion to subendothelial collagen and reduces Factor VIII half-life."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hemophilia: Hemarthrosis (painful joint bleeding, destruction), deep muscle hematomas, post-surgical bleeding. vWD: Mucocutaneous bleeding (epistaxis, menorrhagia, easy bruising, GI bleeding)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Hemophilia: Isolated prolonged APTT, normal PT and bleeding time, reduced Factor VIII/IX activity levels; Management: Recombinant Factor VIII/IX, Desmopressin (DDAVP). vWD: Prolonged APTT and bleeding time, reduced vWF antigen and Ristocetin cofactor activity; Management: Desmopressin (DDAVP), vWF-containing factor concentrates."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Nephrology Database": [
     {
       "Name": "Post-Streptococcal Acute Glomerulonephritis (PSGN)",

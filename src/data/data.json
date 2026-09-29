@@ -6011,6 +6011,406 @@
       "answer": "Colorectal cancer."
     },
     {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "According to the WHO, what is the hemoglobin (Hb) threshold for diagnosing anemia in men aged $\\ge 15$ years?",
+      "answer": "$< 13$ g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the WHO hemoglobin (Hb) threshold for diagnosing anemia in non-pregnant women aged $\\ge 15$ years?",
+      "answer": "$< 12$ g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "According to the WHO, what hemoglobin (Hb) level defines anemia in pregnant women?",
+      "answer": "$< 11$ g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the normal range for Mean Cell Volume ($MCV$)?",
+      "answer": "76–96 fL (or up to 100 fL depending on reference)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How is anemia morphologically classified if the $MCV$ is less than 76 fL?",
+      "answer": "Hypochromic microcytic anemia"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How is anemia classified if the $MCV$ is greater than 100 fL?",
+      "answer": "Macrocytic anemia"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "List four examples of hypochromic microcytic anemia.",
+      "answer": "Iron Deficiency Anemia (IDA), Thalassemia, Sideroblastic anemia, and Anemia of chronic disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What morphological type of anemia is typically associated with liver disease or megaloblastic processes?",
+      "answer": "Macrocytic anemia"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the common non-specific symptoms of anemia?",
+      "answer": "Fatigue, tiredness, lassitude, and weakness."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What cardiovascular symptoms may present in a patient with anemia?",
+      "answer": "Palpitations, angina, and dyspnoea on exertion (DOE)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which physical sign involving the nails is characteristic of Iron Deficiency Anemia?",
+      "answer": "Koilonychia (spoon-shaped nails)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What specific oral physical signs are associated with Iron Deficiency Anemia?",
+      "answer": "Atrophic glossitis (smooth tongue) and angular cheilosis/stomatitis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What rare syndrome consists of Iron Deficiency Anemia and a post-cricoid web?",
+      "answer": "Plummer-Vinson Syndrome"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In Iron Deficiency Anemia, how do $MCV$ and $MCH$ typically change?",
+      "answer": "Both $MCV$ and $MCH$ are decreased."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the best single laboratory test to confirm iron deficiency?",
+      "answer": "Serum ferritin"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How does Total Iron Binding Capacity (TIBC) change in Iron Deficiency Anemia?",
+      "answer": "It increases."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Under what conditions can serum ferritin be falsely raised despite low iron stores?",
+      "answer": "Liver disease and acute phase response (inflammation)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What lab test can distinguish iron deficiency from anemia of chronic disease when an acute phase response is present?",
+      "answer": "Soluble plasma transferrin receptor level (which increases in iron deficiency)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the primary causes of increased iron demand leading to IDA?",
+      "answer": "Pregnancy, rapid growth in infancy/adolescence, and erythropoietin therapy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "List three common causes of chronic iron loss in adults.",
+      "answer": "Menses, chronic blood loss (e.g., piles, peptic ulcers), and GI malignancies."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the indications for parenteral (IV) iron therapy?",
+      "answer": "Malabsorption syndromes (e.g., sprue, Crohn's disease) or intolerance to oral iron."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which specific population in Myanmar is noted as having a higher risk factor for Thalassemia?",
+      "answer": "The Kayin race."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the typical clinical presentation of $\\beta$-thalassemia minor (trait)?",
+      "answer": "Usually asymptomatic carrier state with mild anemia ($Hb > 90$ g/L)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What $HbA_2$ level is diagnostic for $\\beta$-thalassemia trait?",
+      "answer": "$> 3.5\\%$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "At what age do symptoms of $\\beta$-thalassemia major (Transfusion Dependent Thalassemia) typically appear?",
+      "answer": "After the first 4 months of life (as fetal hemoglobin $HbF$ levels drop)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What skeletal changes are collectively known as 'Thalassemic facies'?",
+      "answer": "Frontal bossing, prominent malar bones, depressed nasal bridge, and hypertrophy of the mandible."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Why do patients with chronic hemolysis often develop hyperpigmentation of the skin?",
+      "answer": "Due to iron deposition (hemosiderosis) from repeated transfusions and hemolysis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What characteristic red blood cell morphology is seen on a blood film in Thalassemia?",
+      "answer": "Target cells"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which laboratory investigation is used to identify and quantify $HbF$ and $HbA_2$ levels?",
+      "answer": "Hemoglobin (Hb) electrophoresis"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How does the reticulocyte count typically change in hemolytic anemia?",
+      "answer": "It increases (reticulocytosis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the three cardinal symptoms of hemolytic anemia?",
+      "answer": "Anemia, jaundice, and dark urine (high urobilinogen)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which enzyme is used as a serum indicator of active hemolysis?",
+      "answer": "Lactate dehydrogenase (LDH)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What happens to serum haptoglobin levels during active hemolysis?",
+      "answer": "They decrease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What does a positive Coombs test indicate in a patient with normocytic anemia?",
+      "answer": "Acquired Autoimmune Hemolytic Anemia (AIHA)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Give an example of an inherited red cell membrane defect causing extravascular hemolysis.",
+      "answer": "Hereditary spherocytosis"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which condition is an example of an inherited red cell enzyme defect causing hemolysis?",
+      "answer": "G6PD deficiency"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the typical $MCV$ finding in Megaloblastic Anemia?",
+      "answer": "High ($MCV > 100$ fL)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What finding on a peripheral blood film is highly suggestive of B12 or folate deficiency?",
+      "answer": "Hypersegmented neutrophils"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How is leukemia generally defined?",
+      "answer": "A group of cancers beginning in the bone marrow resulting in high numbers of abnormal white blood cells (blasts)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What morphological feature distinguishes AML from ALL on a bone marrow biopsy?",
+      "answer": "Auer rods (crystals of coalesced granules found in myeloblasts)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the three morphological subtypes of Acute Lymphoblastic Leukemia (ALL) in the FAB system?",
+      "answer": "L1 (small blasts), L2 (larger blasts), and L3 (vacuolated basophilic cytoplasm)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What chromosomal translocation creates the Philadelphia chromosome ($Ph$)?",
+      "answer": "$t(9;22)$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "The Philadelphia chromosome is present in more than $80\\%$ of cases of which leukemia?",
+      "answer": "Chronic Myeloid Leukemia (CML)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What characteristic cell type is seen on the blood film of a patient with Chronic Lymphocytic Leukemia (CLL)?",
+      "answer": "Smear cells (fragile lymphocytes damaged during preparation)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In the Rai staging of CLL, what defines Stage 0?",
+      "answer": "Lymphocytosis alone (median survival $> 13$ years)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In the Rai staging of CLL, what defines Stage IV?",
+      "answer": "Lymphocytosis plus thrombocytopenia (platelets $< 100 \\times 10^9/L$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "List three factors associated with a poor prognosis in ALL.",
+      "answer": "Adult age, male gender, and Philadelphia chromosome positivity."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "A white blood cell count greater than what level at presentation is a poor prognostic sign in ALL?",
+      "answer": "$> 100 \\times 10^9/L$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which AML subtype is associated with a good risk/prognosis and the $t(15;17)$ translocation?",
+      "answer": "Acute Promyelocytic Leukemia"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the target hemoglobin range in a 'high regime' transfusion program for Thalassemia?",
+      "answer": "8–10 g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the target hemoglobin range for patients with Chronic Kidney Disease (CKD)?",
+      "answer": "11–12 g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "A patient with anemia and a history of gastric surgery is at high risk for which deficiency?",
+      "answer": "Vitamin B12 deficiency"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What are the recognized causes of generalized lymphadenopathy?",
+      "answer": "HIV infection, SLE, Non-Hodgkin lymphoma, and primary syphilis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "A 60-year-old patient with iron deficiency anemia and no obvious cause must be investigated with what procedures?",
+      "answer": "Upper and lower GI endoscopy (to exclude malignancy)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which autoimmune condition is diagnosed using antibodies to endomysium and tissue transglutaminase?",
+      "answer": "Coeliac disease"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which HLA alleles are most commonly associated with Coeliac disease?",
+      "answer": "HLA-DQ2 (90–95%) and HLA-DQ8 (8%)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "A patient presents with a hemoglobin of 6 g/dL, microcytic hypochromic anemia, and bleeding piles. What is the most likely diagnosis?",
+      "answer": "Iron Deficiency Anemia (IDA)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In a patient with bleeding time of 10 minutes and APTT of 41 seconds, what is the most likely diagnosis?",
+      "answer": "Von Willebrand’s disease"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Anemia associated with renal failure is primarily caused by a deficiency in which hormone?",
+      "answer": "Erythropoietin"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which test is performed on a lumbar puncture to check for central nervous system involvement in ALL?",
+      "answer": "Cytology to look for characteristic blast cells."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In the context of hematological malignancy, what does 'leucopenia' increase a patient's risk for?",
+      "answer": "Infection"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What clinical triad is associated with hemolytic anemia and the breakdown of red cells?",
+      "answer": "Anemia, jaundice, and splenomegaly."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the definition of thrombocytopenia according to the Rai staging criteria for CLL?",
+      "answer": "Platelet count $< 100 \\times 10^9/L$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What dietary habit common in Myanmar can inhibit iron absorption?",
+      "answer": "Consuming tannic acid (e.g., pickled tea leaves)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Why is genetic counseling essential in the management of Thalassemia?",
+      "answer": "Because it is an inherited (autosomal recessive) disorder with high carrier rates in certain populations."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How does chronic hemolysis lead to the formation of gallstones?",
+      "answer": "Excess bilirubin from red cell breakdown leads to pigment stones."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the primary treatment for severe iron-deficiency anemia in elderly patients with cardiovascular instability?",
+      "answer": "Red cell transfusion"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How is anemia in Polycystic Kidney Disease typically different from other renal failure?",
+      "answer": "It is often less severe or absent."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the significance of hypersegmented neutrophils in a blood film?",
+      "answer": "They are a diagnostic marker for megaloblastic anemia (B12 or folate deficiency)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which morphological type of anemia is caused by Bone Marrow hypoplasia?",
+      "answer": "Normochromic normocytic anemia"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Define 'dimorphic' blood film.",
+      "answer": "A blood film showing two distinct populations of red blood cells (e.g., microcytic and normocytic)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "In the investigation of anemia, what is the next step if the reticulocyte count is high?",
+      "answer": "Assess for bleeding or hemolysis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which inherited enzyme defect is a common cause of drug-induced hemolysis?",
+      "answer": "G6PD deficiency"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What does a high Singer test or Kleihauer test detect?",
+      "answer": "The presence of Fetal Hemoglobin ($HbF$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Name the condition characterized by uncontrolled clonal proliferation of myeloid cells and the Philadelphia chromosome.",
+      "answer": "Chronic Myeloid Leukemia (CML)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which leukemia involves 'blasts' that are not fully developed white blood cells?",
+      "answer": "Acute Leukemia (ALL or AML)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What is the target hemoglobin for the 'Super regime' in Thalassemia management?",
+      "answer": "10–12 g/dL"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "Which symptom of anemia involves a strange craving for non-food items like clay or ice?",
+      "answer": "Pica (specifically associated with IDA)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "What investigation is used to confirm marrow involvement if peripheral blood blasts are few in AML?",
+      "answer": "Bone marrow biopsy"
+    },
+    {
+      "category": "Final Part 2 Medicine - Haematology",
+      "question": "How does pregnancy affect the target hemoglobin level for anemia diagnosis?",
+      "answer": "The threshold is lower ($< 11$ g/dL) due to physiological plasma expansion."
+    },
+    {
       "category": "Final Part 2 Medicine - Nephrology",
       "question": "What is the clinical triad defining Nephrotic Syndrome?",
       "answer": "Proteinuria ($> 3$ g/24h), hypoalbuminaemia ($< 30$ g/L), and generalized oedema."

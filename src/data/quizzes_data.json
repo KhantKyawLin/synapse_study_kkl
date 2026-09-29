@@ -2672,6 +2672,428 @@
       "explanation": "Aggressive fluid resuscitation with Oral Rehydration Solution (ORS) for mild/moderate cases or IV Ringer's Lactate for severe hypovolemic shock is the paramount life-saving measure in Cholera, reducing mortality from > 50% to < 1%."
     }
   ],
+  "Final Part 2 Medicine - Haematology": [
+    {
+      "id": 9,
+      "category": "Microcytic Anemias",
+      "question": "A 32-year-old female presents with fatigue and pagophagia (ice craving). CBC shows Hb 8.2 g/dL, MCV 68 fL. What is the single most sensitive initial laboratory marker to confirm Iron Deficiency Anemia?",
+      "options": [
+        "Serum Iron",
+        "Serum Ferritin",
+        "Total Iron Binding Capacity (TIBC)",
+        "Transferrin Saturation",
+        "Free Erythrocyte Protoporphyrin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum ferritin level (< 30 ug/L) is the single most sensitive and specific marker for body iron store depletion before overt microcytic changes fully manifest."
+    },
+    {
+      "id": 10,
+      "category": "Microcytic Anemias",
+      "question": "A 24-year-old asymptomatic male of Mediterranean descent undergoes routine screening. CBC shows Hb 11.5 g/dL, MCV 62 fL, RBC count 6.2 x 10^12/L (elevated), and Mentzer index < 13. What is the most likely diagnosis?",
+      "options": [
+        "Iron Deficiency Anemia",
+        "Beta-Thalassemia Trait (Minor)",
+        "Sideroblastic Anemia",
+        "Anemia of Chronic Disease",
+        "Lead Poisoning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta-Thalassemia trait presents with microcytosis disproportionate to mild anemia, elevated RBC count (> 5.5 x 10^12/L), Mentzer Index < 13 (MCV/RBC), and target cells on blood film."
+    },
+    {
+      "id": 11,
+      "category": "Macrocytic Anemias",
+      "question": "A 62-year-old female with a history of vitiligo presents with progressive fatigue, paresthesias in her feet, and loss of vibration sense. CBC shows Hb 7.5 g/dL, MCV 114 fL. What is the underlying cause?",
+      "options": [
+        "Folate Deficiency",
+        "Pernicious Anemia (Anti-IF Autoantibodies)",
+        "Aplastic Anemia",
+        "Myelodysplastic Syndrome",
+        "Alcoholic Liver Disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pernicious anemia is an autoimmune destruction of gastric parietal cells/intrinsic factor, causing Vitamin B12 deficiency which uniquely manifests with Subacute Combined Degeneration of the spinal cord."
+    },
+    {
+      "id": 12,
+      "category": "Macrocytic Anemias",
+      "question": "When managing a patient with severe macrocytic megaloblastic anemia of unknown cause prior to receiving serum vitamin levels, why must Vitamin B12 be administered before or alongside Folic Acid?",
+      "options": [
+        "Folic acid causes severe acute hemolysis",
+        "Folic acid alone precipitates acute gouty arthritis",
+        "Folic acid alone can correct anemia while precipitating irreversible subacute combined degeneration",
+        "Vitamin B12 prevents severe hypokalemia",
+        "Folic acid is poorly absorbed without B12"
+      ],
+      "correctIndex": 2,
+      "explanation": "Folic acid therapy alone drives DNA synthesis and corrects hematological abnormalities in B12 deficiency, but fails to prevent (and may accelerate) irreversible subacute combined degeneration of the spinal cord."
+    },
+    {
+      "id": 13,
+      "category": "Hemolytic Anemias",
+      "question": "A 22-year-old male develops sudden dark urine and jaundice 48 hours after starting Cotrimoxazole for a UTI. Blood film shows 'bite cells' and Heinz bodies. What enzyme is deficient?",
+      "options": [
+        "Pyruvate Kinase",
+        "Glucose-6-Phosphate Dehydrogenase (G6PD)",
+        "Glutathione Reductase",
+        "Uroporphyrinogen Decarboxylase",
+        "Methemoglobin Reductase"
+      ],
+      "correctIndex": 1,
+      "explanation": "G6PD deficiency impairs NADPH production, making RBCs vulnerable to oxidative stress (infections, drugs, fava beans), leading to hemoglobin denaturation (Heinz bodies) and splenic bite cell creation."
+    },
+    {
+      "id": 14,
+      "category": "Hemolytic Anemias",
+      "question": "A 45-year-old female presents with jaundice, dark urine, and splenomegaly. Hb is 6.8 g/dL, reticulocytes 12%, LDH 1200 U/L, and Direct Coombs test is strongly positive for IgG. What is the first-line treatment?",
+      "options": [
+        "Splenectomy",
+        "High-dose Oral Corticosteroids (Prednisolone)",
+        "Rituximab",
+        "Intravenous Immunoglobulin (IVIG)",
+        "Plasma Exchange"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-dose systemic corticosteroids (Prednisolone 1 mg/kg/day) are first-line therapy for Warm Autoimmune Hemolytic Anemia (IgG-mediated) to reduce autoantibody production and splenic clearance."
+    },
+    {
+      "id": 15,
+      "category": "Acute Leukaemias",
+      "question": "A 38-year-old male presents with acute bleeding from gums and venipuncture sites. CBC shows Hb 7.2 g/dL, WBC 18 x 10^9/L, Platelets 15 x 10^9/L. Coagulation shows fibrinogen 0.8 g/L and D-dimer > 20. Bone marrow reveals blasts loaded with Auer rods. What translocation is characteristic?",
+      "options": [
+        "t(9;22)",
+        "t(15;17)",
+        "t(8;14)",
+        "t(11;14)",
+        "del(5q)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Promyelocytic Leukaemia (APML / AML M3) is characterized by t(15;17) PML-RARA fusion, prominent Auer rods, and severe DIC risk; treated urgently with All-Trans Retinoic Acid (ATRA)."
+    },
+    {
+      "id": 16,
+      "category": "Acute Leukaemias",
+      "question": "A 6-year-old boy presents with fever, leg bone pain, cervical lymphadenopathy, and hepatosplenomegaly. CBC shows WBC 45 x 10^9/L with 60% lymphoblasts that stain positive for TdT. What is the most likely diagnosis?",
+      "options": [
+        "Acute Lymphoblastic Leukaemia (ALL)",
+        "Acute Myeloid Leukaemia (AML)",
+        "Chronic Lymphocytic Leukaemia (CLL)",
+        "Infectious Mononucleosis",
+        "Burkitt Lymphoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "ALL is the most common childhood malignancy, presenting with bone marrow failure, lymphadenopathy, bone pain, and Terminal Deoxynucleotidyl Transferase (TdT) positive lymphoblasts."
+    },
+    {
+      "id": 17,
+      "category": "Chronic Leukaemias",
+      "question": "A 52-year-old male presents with early satiety and massive splenomegaly extending to the right iliac fossa. CBC shows WBC 160 x 10^9/L with a full spectrum of granulocyte precursors (myelocytes, metamyelocytes, blasts < 5%). Cytogenetics reveal the Philadelphia chromosome t(9;22). What is the first-line therapy?",
+      "options": [
+        "Hydroxyurea",
+        "Imatinib (Tyrosine Kinase Inhibitor)",
+        "Fludarabine",
+        "Interferon-alpha",
+        "Allogeneic Stem Cell Transplant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Imatinib mesylate specifically targets and inhibits the constitutive BCR-ABL1 tyrosine kinase encoded by the t(9;22) Philadelphia chromosome in CML, revolutionizing its management."
+    },
+    {
+      "id": 18,
+      "category": "Chronic Leukaemias",
+      "question": "A 70-year-old male presents for an annual checkup. Routine CBC reveals isolated leukocytosis (WBC 42 x 10^9/L, 85% mature lymphocytes). Peripheral blood smear shows numerous 'smudge cells' (smear cells). He is asymptomatic. What is the most appropriate initial management?",
+      "options": [
+        "Immediate combination chemotherapy",
+        "Whole body radiotherapy",
+        "Watch and wait (clinical observation)",
+        "Rituximab monotherapy",
+        "Splenectomy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Asymptomatic early-stage Chronic Lymphocytic Leukaemia (CLL) characterized by mature lymphocytosis and fragile 'smudge cells' is managed by clinical observation ('watch and wait')."
+    },
+    {
+      "id": 19,
+      "category": "Lymphomas",
+      "question": "A 26-year-old male presents with painless cervical lymphadenopathy and drenching night sweats. He notes that drinking a glass of beer produces intense pain in his enlarged lymph nodes. Node biopsy shows Reed-Sternberg cells with CD15+ and CD30+ positivity. What is the diagnosis?",
+      "options": [
+        "Non-Hodgkin Lymphoma",
+        "Hodgkin Lymphoma",
+        "Burkitt Lymphoma",
+        "Multiple Myeloma",
+        "Infectious Mononucleosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hodgkin Lymphoma classically features Reed-Sternberg cells (CD15+, CD30+ 'owl-eye' nuclei), B-symptoms (fever, night sweats, weight loss), and pathognomonic alcohol-induced lymph node pain."
+    },
+    {
+      "id": 20,
+      "category": "Plasma Cell Dyscrasias",
+      "question": "A 68-year-old male presents with severe lower back pain and lethargy. Labs reveal Hb 8.5 g/dL, Serum Creatinine 2.4 mg/dL, Corrected Calcium 12.2 mg/dL. X-ray shows punched-out lytic lesions in the lumbar spine. SPEP reveals an M-spike. What is the diagnosis?",
+      "options": [
+        "Multiple Myeloma",
+        "Monoclonal Gammopathy of Undetermined Significance (MGUS)",
+        "Waldenstrom Macroglobulinemia",
+        "Metastatic Prostate Cancer",
+        "Primary Hyperparathyroidism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Multiple Myeloma is diagnosed via the CRAB criteria (HyperCalcemia, Renal impairment, Anemia, Bone lytic lesions) driven by monoclonal plasma cell expansion and M-protein secretion."
+    },
+    {
+      "id": 21,
+      "category": "Plasma Cell Dyscrasias",
+      "question": "In Multiple Myeloma, free monoclonal immunoglobulin light chains filtered by the glomerulus that deposit in renal tubules causing cast nephropathy are known as:",
+      "options": [
+        "Auer rods",
+        "Bence Jones proteins",
+        "Russell bodies",
+        "Heinz bodies",
+        "Howell-Jolly bodies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bence Jones proteins are monoclonal immunoglobulin free light chains (kappa or lambda) excreted in urine, causing tubular precipitation, cast nephropathy, and renal failure in myeloma."
+    },
+    {
+      "id": 22,
+      "category": "Bleeding & Platelet Disorders",
+      "question": "A 28-year-old female presents with scattered petechiae and easy bruising. She is otherwise feeling completely well. CBC shows Platelets 14 x 10^9/L; Hb, WBC, PT, APTT, and blood film are all completely normal. What is the diagnosis?",
+      "options": [
+        "Disseminated Intravascular Coagulation (DIC)",
+        "Immune Thrombocytopenic Purpura (ITP)",
+        "Thrombotic Thrombocytopenic Purpura (TTP)",
+        "Aplastic Anemia",
+        "von Willebrand Disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "ITP is characterized by isolated autoimmune platelet destruction (IgG anti-GPIIb/IIIa) presenting with mucocutaneous bleeding and profound thrombocytopenia without splenomegaly or coagulopathy."
+    },
+    {
+      "id": 23,
+      "category": "Bleeding & Coagulation Disorders",
+      "question": "A septic ICU patient with Gram-negative bacteremia begins oozing blood from IV access sites and endotracheal tube. Labs: Platelets 30 x 10^9/L, PT 26s, APTT 65s, Fibrinogen 0.7 g/L, D-dimer > 35, blood film shows schistocytes. What is the diagnosis?",
+      "options": [
+        "Immune Thrombocytopenic Purpura (ITP)",
+        "Disseminated Intravascular Coagulation (DIC)",
+        "Hemophilia A",
+        "Heparin-Induced Thrombocytopenia (HIT)",
+        "Severe Vitamin K Deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "DIC is a catastrophic consumptive coagulopathy triggered by sepsis/trauma, causing widespread microvascular thrombosis (schistocytes) and depletion of clotting factors/platelets leading to bleeding."
+    },
+    {
+      "id": 24,
+      "category": "Coagulation Disorders",
+      "question": "A 4-year-old boy presents with painful swelling in his right knee joint (hemarthrosis) after minor trauma. Coagulation profile: PT 11s (normal), APTT 68s (prolonged), Bleeding Time 4 mins (normal). Mixing study corrects APTT to normal. Factor VIII assay is 2%. What is the diagnosis?",
+      "options": [
+        "Hemophilia A",
+        "Hemophilia B",
+        "von Willebrand Disease",
+        "Factor XIII Deficiency",
+        "Vitamin K Deficiency"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hemophilia A is an X-linked recessive Factor VIII deficiency causing joint/muscle bleeding (hemarthrosis) with isolated APTT prolongation that corrects on 1:1 normal plasma mixing."
+    },
+    {
+      "id": 25,
+      "category": "Coagulation Disorders",
+      "question": "A 20-year-old female presents with heavy menstrual bleeding (menorrhagia) and frequent epistaxis. Family history is positive in her mother. Labs: Platelet count 250 x 10^9/L (normal), PT 12s, APTT 42s (slightly prolonged), Bleeding Time prolonged. What is the diagnosis?",
+      "options": [
+        "Hemophilia A",
+        "Immune Thrombocytopenic Purpura",
+        "von Willebrand Disease (vWD)",
+        "Glanzmann Thrombasthenia",
+        "Bernard-Soulier Syndrome"
+      ],
+      "correctIndex": 2,
+      "explanation": "vWD is the most common autosomal dominant bleeding disorder, impairing platelet-subendothelial adhesion and Factor VIII stabilization, leading to prolonged bleeding time and APTT."
+    },
+    {
+      "id": 26,
+      "category": "Approach to Anemia",
+      "question": "A 55-year-old male with long-standing Rheumatoid Arthritis has Hb 9.8 g/dL, MCV 82 fL. Serum Iron is low, TIBC is low, and Serum Ferritin is elevated (380 ug/L). What hormone mediated by inflammatory cytokines (IL-6) drives this condition?",
+      "options": [
+        "Erythropoietin",
+        "Hepcidin",
+        "Thrombopoietin",
+        "Transferrin",
+        "Ferroportin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anemia of Chronic Disease is driven by inflammatory IL-6 inducing hepatic Hepcidin synthesis, which degrades ferroportin, trapping iron inside macrophages and blocking GI iron absorption."
+    },
+    {
+      "id": 27,
+      "category": "Bone Marrow Failure",
+      "question": "A 30-year-old male treated with Chloramphenicol presents with severe weakness and epistaxis. CBC reveals Hb 6.2 g/dL, WBC 1.2 x 10^9/L, Neutrophils 0.3 x 10^9/L, Platelets 12 x 10^9/L, Reticulocyte count 0.1%. Bone marrow biopsy shows hypocellularity replaced by fat. What is the diagnosis?",
+      "options": [
+        "Myelofibrosis",
+        "Aplastic Anemia",
+        "Acute Myeloid Leukaemia",
+        "Megaloblastic Anemia",
+        "Pure Red Cell Aplasia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aplastic anemia is characterized by pancytopenia and a hypocellular, fat-replaced bone marrow resulting from multipotent hematopoietic stem cell destruction."
+    },
+    {
+      "id": 28,
+      "category": "Myeloproliferative Neoplasms",
+      "question": "A 58-year-old male presents with severe aquagenic pruritus (intense itching after a warm shower), facial plethora, and splenomegaly. Hb is 19.5 g/dL, Hematocrit 58%, WBC 14 x 10^9/L, Serum Erythropoietin level is suppressed. What mutation is present in > 95% of cases?",
+      "options": [
+        "BCR-ABL1 fusion",
+        "JAK2 V617F mutation",
+        "CALR mutation",
+        "FLT3-ITD mutation",
+        "MYD88 mutation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polycythemia Vera is a myeloproliferative neoplasm driven by the somatic JAK2 V617F mutation, presenting with erythrocytosis, low serum EPO, aquagenic pruritus, and thrombotic risk."
+    },
+    {
+      "id": 29,
+      "category": "Hemolytic Anemias",
+      "question": "A 18-year-old male presents with recurrent jaundice, splenomegaly, and pigment gallstones. Blood film reveals round erythrocytes lacking central pallor (spherocytes). Osmotic fragility test is increased. What is the inheritance pattern?",
+      "options": [
+        "X-linked recessive",
+        "Autosomal dominant",
+        "Autosomal recessive",
+        "Mitochondrial",
+        "X-linked dominant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hereditary Spherocytosis is most commonly an autosomal dominant defect in RBC membrane proteins (spectrin/ankyrin), leading to spherical non-deformable RBCs trapped and destroyed in the spleen."
+    },
+    {
+      "id": 30,
+      "category": "Hemoglobinopathies",
+      "question": "A 16-year-old male with Sickle Cell Disease presents with severe bone pain in his femur and lumbar spine following dehydration. What amino acid substitution on the beta-globin chain causes HbS polymerisation?",
+      "options": [
+        "Glutamic acid replaced by Valine at position 6",
+        "Valine replaced by Glutamic acid at position 6",
+        "Glutamic acid replaced by Lysine at position 6",
+        "Glycine replaced by Alanine at position 12",
+        "Phenylalanine deletion at position 508"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sickle cell hemoglobin (HbS) results from a point mutation substituting Valine for Glutamic acid at position 6 of the beta-globin chain, causing deoxygenated polymers that sickle RBCs."
+    },
+    {
+      "id": 31,
+      "category": "Thrombotic Microangiopathies",
+      "question": "A 35-year-old female presents with fever, petechiae, confusion, acute renal failure, and jaundice. Peripheral film shows abundant schistocytes. Platelets are 12 x 10^9/L. PT and APTT are completely NORMAL. What enzyme deficiency causes this condition?",
+      "options": [
+        "G6PD deficiency",
+        "ADAMTS13 metalloproteinase deficiency",
+        "Factor VIII deficiency",
+        "Protein C deficiency",
+        "Glutathione peroxidase deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thrombotic Thrombocytopenic Purpura (TTP) results from ADAMTS13 deficiency, leading to ultra-large vWF multimers that trigger microvascular platelet thrombosis (MAHA + schistocytes, normal PT/APTT)."
+    },
+    {
+      "id": 32,
+      "category": "Drug-Induced Hematological Disorders",
+      "question": "A hospitalized patient receiving prophylactic Unfractionated Heparin post-op develops a 60% drop in platelet count on post-op day 7, along with a new deep vein thrombosis. What antibodies cause Heparin-Induced Thrombocytopenia Type II?",
+      "options": [
+        "Anti-GPIIb/IIIa antibodies",
+        "Anti-Heparin/Platelet Factor 4 (PF4) antibodies",
+        "Anti-cardiolipin antibodies",
+        "Anti-thrombin antibodies",
+        "Anti-parietal cell antibodies"
+      ],
+      "correctIndex": 1,
+      "explanation": "HIT Type II is an immune-mediated reaction where IgG antibodies bind Heparin-PF4 complexes, activating platelets to trigger paradoxically catastrophic thrombosis and severe consumption thrombocytopenia."
+    },
+    {
+      "id": 33,
+      "category": "Transfusion Medicine",
+      "question": "A patient receiving a red blood cell transfusion suddenly develops high fever, severe flank pain, chest tightness, hypotension, and dark red urine 15 minutes after transfusion start. What is the immediate first step in management?",
+      "options": [
+        "Administer IV Diphenhydramine",
+        "Stop the transfusion immediately and maintain IV access with Normal Saline",
+        "Administer oral Paracetamol",
+        "Slow down the transfusion rate by 50%",
+        "Send blood for urgent crossmatch while continuing transfusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Intravascular Hemolytic Transfusion Reaction (ABO incompatibility) is a life-threatening emergency; the immediate priority is to STOP the transfusion instantly to prevent further intravascular hemolysis."
+    },
+    {
+      "id": 34,
+      "category": "Lymphadenopathy & Splenomegaly",
+      "question": "A 65-year-old male smoker presents with a hard, non-tender, enlarged left supraclavicular lymph node (Virchow's node). This finding strongly suggests metastatic malignancy originating from which anatomical region?",
+      "options": [
+        "Head and neck squamous cell carcinoma",
+        "Primary brain neoplasm",
+        "Infraglenoid upper limb melanoma",
+        "Abdominal / Gastrointestinal tract malignancy (e.g., Gastric adenocarcinoma)",
+        "Anterior mediastinal thymoma"
+      ],
+      "correctIndex": 3,
+      "explanation": "Virchow's node (left supraclavicular lymphadenopathy / Troisier sign) receives lymphatic drainage from the thoracic duct, strongly indicating metastatic abdominal or GI tract malignancy."
+    },
+    {
+      "id": 35,
+      "category": "Myeloproliferative Neoplasms",
+      "question": "A 60-year-old female presents with burning pain and erythema in her fingers and toes (erythromelalgia). Routine blood test reveals Platelets 950 x 10^9/L. Bone marrow shows megakaryocytic hyperplasia. JAK2 mutation is positive. What is the diagnosis?",
+      "options": [
+        "Essential Thrombocythemia (ET)",
+        "Reactive Thrombocytosis",
+        "Chronic Myeloid Leukaemia",
+        "Polycythemia Vera",
+        "Myelofibrosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Essential Thrombocythemia is a myeloproliferative neoplasm marked by sustained high platelet count (> 450x10^9/L), JAK2/CALR mutations, and microvascular thrombotic symptoms like erythromelalgia."
+    },
+    {
+      "id": 36,
+      "category": "Myeloproliferative Neoplasms",
+      "question": "A 64-year-old male presents with massive splenomegaly, weight loss, and fatigue. Blood film demonstrates 'teardrop' erythrocytes (dacrocytes) and a leukoerythroblastic picture. Bone marrow aspiration yields a 'dry tap'. What is the diagnosis?",
+      "options": [
+        "Primary Myelofibrosis",
+        "Acute Myeloid Leukaemia",
+        "Aplastic Anemia",
+        "Multiple Myeloma",
+        "Chronic Lymphocytic Leukaemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Primary Myelofibrosis features marrow fibrotic replacement leading to extramedullary hematopoiesis (massive splenomegaly), teardrop RBCs (dacrocytes), and a dry bone marrow tap."
+    },
+    {
+      "id": 37,
+      "category": "Anticoagulation & Reversal",
+      "question": "A 72-year-old patient on Warfarin for atrial fibrillation presents with acute severe intracranial hemorrhage. INR is 5.8. In addition to stopping Warfarin and administering IV Vitamin K (10 mg), what is the fastest intervention to restore hemostasis?",
+      "options": [
+        "Fresh Frozen Plasma (FFP)",
+        "Four-Factor Prothrombin Complex Concentrate (PCC)",
+        "Platelet Transfusion",
+        "Cryoprecipitate",
+        "Tranexamic Acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Four-Factor Prothrombin Complex Concentrate (PCC / Octaplex / Beriplex) provides rapid, complete reversal of Warfarin anticoagulation within minutes, superior to volume-heavy FFP."
+    },
+    {
+      "id": 38,
+      "category": "Hematological Emergencies",
+      "question": "A patient receiving induction chemotherapy for AML develops a single oral temperature spike of 38.5 C. Absolute Neutrophil Count (ANC) is 0.2 x 10^9/L. What is the immediate priority management?",
+      "options": [
+        "Obtain blood cultures and wait 24 hours for organism identification",
+        "Immediately administer empirical broad-spectrum IV antipseudomonal antibiotic (e.g. Piperacillin-Tazobactam)",
+        "Administer oral Paracetamol and recheck temperature in 4 hours",
+        "Administer IV G-CSF alone",
+        "Isolate the patient and order a STAT CXR"
+      ],
+      "correctIndex": 1,
+      "explanation": "Febrile Neutropenia (ANC < 0.5 x 10^9/L + fever >= 38.3 C) is a life-threatening medical emergency requiring immediate administration of empirical broad-spectrum IV antipseudomonal beta-lactam antibiotics within 1 hour."
+    }
+  ],
   "Final Part 2 Medicine - Nephrology": [
     {
       "id": 8,
