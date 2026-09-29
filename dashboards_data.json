@@ -1107,6 +1107,228 @@
       ]
     }
   ],
+  "Final Part 2 - Neurology Database": [
+    {
+      "Name": "Ischemic Stroke",
+      "Tag": "Cerebrovascular Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute focal neurological deficit caused by focal cerebral ischemia; thromboembolic or atherothrombotic occlusion of cerebral arteries (e.g. MCA, ACA)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Interruption of cerebral blood flow leads to ischemic cascade, ATP depletion, cytotoxic edema, and tissue infarction surrounding an ischemic penumbra."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden contralateral hemiparesis/hemisensory loss (MCA: face/arm > leg; ACA: leg > arm), aphasia, dysarthria, hemianopia, gaze preference."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "NCCT Head (exclude hemorrhage, early ischemic signs); CT Angiography; tPA (Alteplase) within 4.5 hrs if no contraindications; Endovascular Thrombectomy within 6-24 hrs; Aspirin + Statin secondary prevention."
+        }
+      ]
+    },
+    {
+      "Name": "Hemorrhagic Stroke (ICH & SAH)",
+      "Tag": "Cerebrovascular Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Intracerebral hemorrhage (ICH) due to chronic hypertension/amyloid angiopathy; Subarachnoid hemorrhage (SAH) due to ruptured saccular (berry) aneurysm."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rupture of vessel leads to hematoma formation, direct mass effect, elevated intracranial pressure (ICP), surrounding vasogenic edema, and secondary vasospasm."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "ICH: Sudden severe headache, vomiting, rapid neurological decline, elevated BP, coma. SAH: Sudden 'thunderclap' headache ('worst headache of life'), meningismus, loss of consciousness."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "NCCT Head (hyperdense blood in parenchyma or subarachnoid space); LP if CT negative for SAH (xanthochromia); Acute BP control (SBP < 140 mmHg for ICH); reversal of anticoagulation; Nimodipine for SAH vasospasm."
+        }
+      ]
+    },
+    {
+      "Name": "Status Epilepticus",
+      "Tag": "Epilepsy & Seizures",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Medical emergency defined as continuous seizure activity lasting > 5 mins or >= 2 discrete seizures without full recovery of consciousness in between."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Failure of endogenous seizure termination mechanisms and persistent excessive hypersynchronous neuronal excitation causing cerebral hypoxia, lactic acidosis, and neuronal injury."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Continuous generalized tonic-clonic motor activity or subtle non-convulsive status; hyperthermia, metabolic acidosis, rhabdomyolysis, respiratory failure."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Bedside Fingerstick Glucose (exclude hypoglycemia); Stage 1 (0-10 min): IV Lorazepam 4mg or IM Midazolam 10mg; Stage 2 (10-30 min): IV Levetiracetam, Phenytoin/Fosphenytoin, or Valproate; Stage 3 (>30 min): ICU intubation + IV Propofol/Midazolam infusion."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Bacterial Meningitis",
+      "Tag": "Central Nervous System Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Life-threatening infection of the leptomeninges; primary pathogens include Streptococcus pneumoniae, Neisseria meningitidis, and Listeria monocytogenes (elderly/immunocompromised)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bacteria colonize nasopharynx, invade bloodstream, cross blood-brain barrier, and replicate in subarachnoid space, inducing intense purulent inflammatory response."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Classic triad: Fever, nuchal rigidity, altered mental status; Kernig and Brudzinski signs; purpuric/petechial rash (N. meningitidis); signs of raised ICP."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Lumbar Puncture CSF: High opening pressure, marked PMN leukocytosis (> 1000/uL), low glucose (< 40% serum ratio), high protein (> 100 mg/dL); Empiric IV Ceftriaxone + Vancomycin + Ampicillin (if >50 yrs) + Dexamethasone."
+        }
+      ]
+    },
+    {
+      "Name": "Viral Meningitis & Encephalitis",
+      "Tag": "Central Nervous System Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Aseptic meningitis commonly caused by Enteroviruses (Echovirus, Coxsackie); Encephalitis most commonly caused by Herpes Simplex Virus 1 (HSV-1)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Direct viral invasion and destruction of brain parenchyma (HSV-1 predilection for temporal lobes), triggering immune response, edema, and neuronal necrosis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Viral Meningitis: Fever, headache, photophobia, mild meningismus. HSV Encephalitis: Fever, severe headache, confusion, temporal lobe focal signs, dysphasia, seizures, behavioral changes."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CSF: Lymphocytic pleocytosis, normal glucose, mildly elevated protein; HSV PCR in CSF; MRI Brain (temporal lobe hyperintensity); High-dose IV Acyclovir (10 mg/kg q8h) started immediately for suspected encephalitis."
+        }
+      ]
+    },
+    {
+      "Name": "Guillain-Barré Syndrome (GBS)",
+      "Tag": "Peripheral Neuromuscular Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute autoimmune polyradiculoneuropathy; often preceded 1-3 weeks by Campylobacter jejuni GI infection or respiratory viral infection."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Molecular mimicry between microbial lipooligosaccharides and peripheral nerve gangliosides leads to immune-mediated demyelination and axonal degeneration."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Symmetrical, progressive ascending muscle weakness starting in lower extremities, absent/hypoactive deep tendon reflexes, cranial nerve involvement (facial diplegia), autonomic instability."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CSF: Albuminocytological dissociation (markedly elevated protein with normal WBC count); Nerve Conduction Studies (demyelinating patterns); IVIG (0.4 g/kg/day x 5 days) or Plasma Exchange; Steroids are INEFFECTIVE."
+        }
+      ]
+    },
+    {
+      "Name": "Approach to Coma & Impaired Consciousness",
+      "Tag": "Neurological Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "State of unarousable unresponsiveness due to bilateral diffuse cortical dysfunction or focal lesion of the brainstem reticular activating system (RAS)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Etiologies categorized as Structural (stroke, hemorrhage, trauma, tumor) or Metabolic/Toxic (hypoxia, hypoglycemia, DKA, hepatic/uremic encephalopathy, drug overdose)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Unresponsiveness; abnormal respiratory patterns (Cheyne-Stokes); abnormal pupil responses (fixed dilated = herniation, pinpoint = opioid/pontine); motor posturing (decorticate/decerebrate)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Glasgow Coma Scale (GCS <= 8 = intubate); immediate 'Coma Cocktail' if indicated (Glucose, Thiamine, Naloxone); STAT NCCT Head; ABG, U&Es, LFTs, blood gas, toxic screen."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Confusional State (Delirium)",
+      "Tag": "Encephalopathy & Cognitive Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Transient, acute-onset global cognitive dysfunction characterized by fluctuating attention and awareness; common in hospitalized elderly patients."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Precipitated by underlying medical illness (UTI, pneumonia), electrolyte imbalances (hyponatremia), hypoxia, drug toxicity/withdrawal, or anticholinergic drugs."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Acute onset, fluctuating course, inattention, disorganized thinking, altered level of consciousness, hallucinations, sleep-wake cycle reversal."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis using Confusion Assessment Method (CAM); workup includes CBC, U&Es, Urinalysis/Culture, CXR, ABG, medication review; primary treatment is identifying and treating underlying cause."
+        }
+      ]
+    },
+    {
+      "Name": "Primary Headaches & Giant Cell Arteritis",
+      "Tag": "Headache & Facial Pain",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Includes Migraine (neurovascular), Cluster (trigeminal autonomic), Tension, and Giant Cell (Temporal) Arteritis (vasculitis in elderly)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Migraine: CGRP activation & trigeminovascular sensitization. GCA: Granulomatous inflammation of medium/large arteries leading to luminal occlusion and ischemic optic neuropathy."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Migraine: Unilateral throbbing, aura, nausea, photophobia. Cluster: Severe unilateral periorbital pain, lacrimation, rhinorrhea. GCA: New headache in >50yo, jaw claudication, scalp tenderness, visual disturbance."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "GCA: Markedly elevated ESR (> 50-100 mm/hr) and CRP; urgent temporal artery biopsy; High-dose systemic steroids (Prednisolone 60mg or IV Methylprednisolone) immediately to prevent permanent blindness."
+        }
+      ]
+    },
+    {
+      "Name": "Paraplegia & Spinal Cord Compression",
+      "Tag": "Spinal Cord & Neuromuscular Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute or subacute compressive myelopathy resulting from vertebral metastases, epidural abscess, trauma, or herniated disc."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Extrinsic compression of the spinal cord impairs corticospinal, spinothalamic, and dorsal column pathways, causing ischemia and irreversible cord damage if untreated."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Bilateral lower limb weakness, sensory level on trunk, spasticity, hyperreflexia, extensor plantar responses (Babinski +), urinary retention/incontinence, localized back pain."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urgent Whole Spine MRI; High-dose IV Dexamethasone (10-16 mg stat) for malignant cord compression to reduce vasogenic edema; urgent neurosurgical decompression or emergency radiotherapy."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Respiratory Database": [
     {
       "Name": "Bronchial Asthma (Acute Severe)",

@@ -6261,6 +6261,386 @@
       "answer": "Dense deposit disease and abnormal activation of the alternative complement pathway."
     },
     {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the primary medication indicated for an ischemic stroke if the patient meets criteria for thrombolysis?",
+      "answer": "Recombinant tissue plasminogen activator (r-tPA)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the management of a hemorrhagic stroke, what is the purpose of administering IV mannitol?",
+      "answer": "To reduce intracranial pressure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "For a patient with a hemorrhagic stroke, what specialist referral is required to address the hematoma?",
+      "answer": "Neurosurgeon."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "According to the acute stroke algorithm, what is the maximum time window for administering IV tPA?",
+      "answer": "$\\le 4.5\\text{ hours}$ from symptom onset."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the age requirement for a patient to be eligible for recombinant tissue plasminogen activator (rtPA) treatment in AIS?",
+      "answer": "$\\ge 18\\text{ years}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which imaging result is a prerequisite for administering rtPA to ensure the patient does not have an intracranial hemorrhage?",
+      "answer": "A brain CT scan showing no hemorrhage."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What specific NIHSS score range is required for tPA eligibility between $3$ and $4.5\\text{ hours}$?",
+      "answer": "$4 - 25$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "A sustained blood pressure above what threshold is a contraindication for rtPA treatment?",
+      "answer": "$> 185/110\\text{ mmHg}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "How long must a patient wait after a major surgery before they are eligible for rtPA treatment?",
+      "answer": "$14\\text{ days}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which gastrointestinal event within the preceding $21\\text{ days}$ acts as a contraindication for rtPA?",
+      "answer": "Gastrointestinal bleeding."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the target blood pressure for patients undergoing tPA or IA thrombectomy?",
+      "answer": "$< 180/105\\text{ mmHg}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the maximum time window for IA/endovascular thrombectomy in anterior circulation strokes?",
+      "answer": "$< 8\\text{ hours}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the maximum time window for IA/endovascular thrombectomy in posterior circulation strokes?",
+      "answer": "$< 24\\text{ hours}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In stroke management, what does the acronym 'LVO' stand for?",
+      "answer": "Large vessel occlusion."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Following tPA or IA thrombectomy, when is the recommended time for a follow-up brain CT scan?",
+      "answer": "Within $24\\text{ hours}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the target 'Door to Needle' time for acute stroke management?",
+      "answer": "$1\\text{ hour}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the recommended secondary prevention treatment for a stroke patient with atrial fibrillation?",
+      "answer": "Warfarin or oral anticoagulants."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "For primary stroke prevention in a patient with hypertension, what is the indicated treatment?",
+      "answer": "Antihypertensive medication."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which medication class is used for primary stroke prevention in 'high-risk' populations or those with hyperlipidemia?",
+      "answer": "HMG-CoA reductase inhibitors (Statins)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the indicated prevention strategy for stroke in patients with diabetes mellitus or vascular disease?",
+      "answer": "ACE inhibitors."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What procedure is considered for primary stroke prevention in patients with asymptomatic carotid stenosis of $60\\% - 99\\%$?",
+      "answer": "Carotid endarterectomy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which two antiplatelet agents are combined for evidence-based secondary prevention of recurrent stroke?",
+      "answer": "Aspirin and Clopidogrel."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the subacute and chronic setting, how is secondary stroke prevention achieved for patients with symptomatic carotid stenosis of $70\\% - 99\\%$?",
+      "answer": "Carotid endarterectomy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the common underlying mechanism of hemorrhagic transformation in an embolic or large infarct?",
+      "answer": "Recanalization or increased collateral circulation through damaged blood-brain barrier vessels."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Hemorrhagic transformation typically occurs within how many weeks of an initial infarction?",
+      "answer": "Within $3\\text{ weeks}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What management step is required if a stroke patient experiences a moderate to large hemorrhagic transformation with mass effect?",
+      "answer": "Discontinue antiplatelet agents and control increased intracranial pressure (IICP)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which imaging modality is used to detect 'Bat's wings' in pulmonary oedema, though often secondary to stroke complications?",
+      "answer": "Chest X-ray."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What type of aneurysm rupture is the most common cause of intracerebral hemorrhage (ICH)?",
+      "answer": "Charcot-Bouchard microaneurysm."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the most likely diagnosis for a patient with recurring seizures lasting $20\\text{ minutes}$ without regaining consciousness?",
+      "answer": "Status Epilepticus."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the management of Status Epilepticus, which metabolic trigger should be corrected with IV glucose?",
+      "answer": "Hypoglycemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which medication is used to correct hyponatremia during a Status Epilepticus emergency?",
+      "answer": "IV $0.9\\%\\text{ NS}$ or Hypertonic NS."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the indicated treatment for hypocalcemia in a seizing patient?",
+      "answer": "Calcium gluconate."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which medication is administered to correct hypomagnesemia in Status Epilepticus?",
+      "answer": "Magnesium Sulphate ($MgSO_{4}$)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the first-line medication and dose for stopping active seizures in the emergency department?",
+      "answer": "IV Lorazepam $4\\text{ mg}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Following the first step, what dose of IV Phenytoin is given to control Status Epilepticus?",
+      "answer": "$15\\text{ mg/kg}$ at a rate of $50\\text{ mg/min}$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "If seizures persist for more than $30 - 60\\text{ minutes}$ despite initial therapy, where should the patient be admitted?",
+      "answer": "Intensive Care Unit (ICU)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the ultimate step for controlling refractory seizures if pharmacological steps fail?",
+      "answer": "Control under general anesthesia (GA) and a ventilator."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the provided case study, what was the patient's Glasgow Coma Scale (GCS) score?",
+      "answer": "$12/15$ (E-3, V-4, M-5)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the most common use of a lumbar puncture (LP) in patients with fever and altered mental status?",
+      "answer": "To diagnose or exclude meningitis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which condition is a recognized 'non-urgent' indication for performing a lumbar puncture?",
+      "answer": "Idiopathic intracranial hypertension (pseudotumor cerebri)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is a mandatory investigation for bacterial meningitis unless contraindications are present?",
+      "answer": "Lumbar puncture."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Why is a CT scan required before a lumbar puncture in a drowsy patient with focal neurological signs?",
+      "answer": "To exclude a mass lesion and avoid the risk of coning."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What essential action must be taken if a lumbar puncture is deferred in a case of presumed meningitis?",
+      "answer": "Take blood cultures and start empirical treatment."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the typical appearance of CSF in bacterial meningitis?",
+      "answer": "Cloudy or turbid."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which cell type is significantly elevated (often $> 1000 \\times 10^{6}\\text{ /L}$) in the CSF during bacterial meningitis?",
+      "answer": "Neutrophils."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "How do protein and glucose levels typically change in the CSF of a patient with bacterial meningitis?",
+      "answer": "Protein is significantly elevated and glucose is reduced."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which technique can identify bacterial DNA in both blood and CSF?",
+      "answer": "PCR (Polymerase Chain Reaction)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What are the common bacterial causes of meningitis in neonates?",
+      "answer": "Gram-negative bacilli (E. coli), Group B streptococci, and Listeria monocytogenes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In India, what are the two most common causes of bacterial meningitis, particularly in children?",
+      "answer": "*Haemophilus influenzae B* and *Streptococcus pneumoniae*."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which organism is currently the most common cause of bacterial meningitis in Western Europe?",
+      "answer": "*Neisseria meningitidis* (Meningococcus)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which rare zoonotic cause of meningitis is associated with porcine contact?",
+      "answer": "*Streptococcus suis*."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What complication of meningitis can lead to the obstruction of CSF flow and subsequent hydrocephalus?",
+      "answer": "Pus formation and inflammatory cell infiltration of the pia-arachnoid membrane."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is a frequent sensory complication following an episode of bacterial meningitis?",
+      "answer": "Hearing loss."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What vascular complication can arise in meningitis from an obliterative endarteritis of leptomeningeal arteries?",
+      "answer": "Secondary cerebral infarction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which type of meningitis is associated with very purulent CSF and high mortality in older adults?",
+      "answer": "Pneumococcal meningitis (*Streptococcus pneumoniae*)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What are the four usual presenting clinical features of meningitis?",
+      "answer": "Headache, drowsiness, fever, and neck stiffness."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the primary mechanism of injury in hypertensive hemorrhage?",
+      "answer": "Bleeding from small ($\\sim 30 - 100\\text{ \\mu m}$) vessels in the putamen, thalamus, or pons."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Amyloid angiopathy is associated with which neurological condition, usually in patients older than $60\\text{ years}$?",
+      "answer": "Dementia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which location is most commonly involved in Charcot-Bouchard microaneurysm rupture due to hypertension?",
+      "answer": "Lenticulostriate vessels."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the clinical presentation of a subarachnoid hemorrhage (SAH)?",
+      "answer": "Acute, 'worst headache of life'."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the typical imaging 'shape' of an epidural hematoma on a CT scan?",
+      "answer": "Lentiform."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the typical imaging 'shape' of a subdural hematoma on a CT scan?",
+      "answer": "Crescent."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which type of intracranial hemorrhage conforms to the ventricular shape on imaging?",
+      "answer": "Intraventricular hemorrhage."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the GCS, a 'V-4' verbal response score indicates what state?",
+      "answer": "Confused."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In the GCS, an 'E-3' eye-opening score indicates opening to what stimulus?",
+      "answer": "Sound/Speech."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What long-term management aim follows the stabilization of an acute stroke?",
+      "answer": "Rehabilitation and secondary prevention."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the indicated secondary prevention treatment for a stroke caused by small vessel disease?",
+      "answer": "Antiplatelet therapy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "When should long-term oral anticoagulants (OA) be started following a large infarction with AFib?",
+      "answer": "After $1 - 2\\text{ weeks}$ if the patient is stable."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which condition is a 'non-urgent' indication for LP besides pseudotumor cerebri?",
+      "answer": "Normal pressure hydrocephalus."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What are the common bacterial causes of meningitis in pre-school children?",
+      "answer": "*Haemophilus influenzae*, *Neisseria meningitidis*, and *Streptococcus pneumoniae*."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is a 'less common' bacterial cause of meningitis in older children and adults?",
+      "answer": "*Listeria monocytogenes* or *Mycobacterium tuberculosis*."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which imaging modality is used to detect carotid stenosis (e.g., $70\\% - 99\\%$) for potential endarterectomy?",
+      "answer": "Carotid duplex sonography."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the recommended maintenance plan after Status Epilepticus is controlled?",
+      "answer": "Admit to HDU, treat with AEDs, and consult a neurologist."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "In acute confusional states, what must be excluded before performing a lumbar puncture?",
+      "answer": "Risk of brain herniation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "Which imaging sequence in MRI is specifically mentioned for identifying stroke duration and location?",
+      "answer": "DWI (Diffusion-Weighted Imaging)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Neurology",
+      "question": "What is the primary goal of secondary prevention regarding lifestyle in stroke patients?",
+      "answer": "Cessation of smoking, moderation of alcohol, and regular exercise."
+    },
+    {
       "category": "Final Part 2 Medicine - Respiratory Medicine",
       "question": "What are the three primary factors that contribute to airway narrowing in bronchial asthma?",
       "answer": "Bronchial muscle contraction, mucosal swelling/inflammation, and increased mucus production."

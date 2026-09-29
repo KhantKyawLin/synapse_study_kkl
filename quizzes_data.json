@@ -3094,6 +3094,428 @@
       "explanation": "Primary Na+ retention occurs in acute nephritic syndrome due to impaired GFR and tubular dysregulation. In nephrotic syndrome, heavy proteinuria causes hypoalbuminemia, reducing plasma oncotic pressure and causing intravascular fluid shift into the interstitium ('underfill' hypothesis)."
     }
   ],
+  "Final Part 2 Medicine - Neurology": [
+    {
+      "id": 8,
+      "category": "Cerebrovascular Diseases",
+      "question": "A 68-year-old male presents to the ED with sudden left-sided weakness and dysarthria onset 1 hour ago. Non-contrast head CT shows hyperdensity within the right middle cerebral artery lumen without hemorrhage. What does this 'hyperdense MCA sign' signify?",
+      "options": [
+        "Acute intraparenchymal hemorrhage",
+        "Acute dense thromboembolism in the arterial lumen",
+        "Chronic calcified atherosclerotic plaque",
+        "Microvascular lacunar infarction",
+        "Cerebral venous sinus thrombosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'hyperdense MCA sign' on NCCT is an early direct radiologic sign of acute arterial occlusion representing a dense intravascular thrombus or embolus before parenchymal hypodensity develops."
+    },
+    {
+      "id": 9,
+      "category": "Cerebrovascular Diseases",
+      "question": "According to acute ischemic stroke guidelines, what is the strict time window from symptom onset for initiating intravenous recombinant tissue plasminogen activator (tPA / Alteplase) if there are no contraindications?",
+      "options": [
+        "Within 1.5 hours",
+        "Within 3.0 to 4.5 hours",
+        "Within 8.0 hours",
+        "Within 12.0 hours",
+        "Within 24.0 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intravenous thrombolysis with tPA (Alteplase) is approved and effective when administered within 4.5 hours of ischemic stroke symptom onset after excluding intracranial hemorrhage on NCCT."
+    },
+    {
+      "id": 10,
+      "category": "Cerebrovascular Diseases",
+      "question": "A 72-year-old right-handed female presents with sudden right facial droop, right arm weakness significantly greater than right leg weakness, and expressive (Broca's) aphasia. Which vascular territory is affected?",
+      "options": [
+        "Left Anterior Cerebral Artery (ACA)",
+        "Left Middle Cerebral Artery (MCA) superior division",
+        "Left Posterior Cerebral Artery (PCA)",
+        "Left Posterior Inferior Cerebellar Artery (PICA)",
+        "Basilar artery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Left MCA occlusion characteristically affects the motor cortex representation of the face and upper extremity more than the lower extremity, along with Broca's expressive language area in dominant hemispheres."
+    },
+    {
+      "id": 11,
+      "category": "Cerebrovascular Diseases",
+      "question": "An ischemic stroke involving the Anterior Cerebral Artery (ACA) territory typically produces motor and sensory deficits predominantly in which anatomical region?",
+      "options": [
+        "Contralateral face and tongue",
+        "Contralateral upper limb and hand",
+        "Contralateral lower limb (leg and foot)",
+        "Ipsilateral cranial nerves",
+        "Bilateral upper extremities"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ACA supplies the parasagittal motor and sensory cortex representing the contralateral leg and foot, leading to contralateral lower extremity weakness and sensory loss greater than upper extremity."
+    },
+    {
+      "id": 12,
+      "category": "Cerebrovascular Diseases",
+      "question": "In a patient presenting with an acute spontaneous intracerebral hemorrhage (ICH) and systolic blood pressure of 190 mmHg, what is the recommended target systolic blood pressure for acute blood pressure lowering?",
+      "options": [
+        "Maintain SBP > 180 mmHg to preserve penumbra",
+        "Lower SBP to < 140 mmHg smoothly",
+        "Lower SBP rapidly to < 100 mmHg",
+        "SBP control is contraindicated in acute ICH",
+        "Lower MAP by 50% immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intensive acute BP lowering to SBP < 140 mmHg (while avoiding SBP < 110 mmHg) in acute ICH reduces hematoma expansion and improves functional outcomes without compromising cerebral perfusion."
+    },
+    {
+      "id": 13,
+      "category": "Cerebrovascular Diseases",
+      "question": "A 45-year-old male presents with sudden onset 'worst headache of my life' (thunderclap headache) 12 hours ago. Non-contrast head CT is completely normal. What is the most appropriate next diagnostic step?",
+      "options": [
+        "Discharge home with NSAIDs",
+        "Lumbar puncture to assess for CSF xanthochromia",
+        "Electroencephalogram (EEG)",
+        "Repeat CT head in 24 hours",
+        "Temporal artery biopsy"
+      ],
+      "correctIndex": 1,
+      "explanation": "When clinical suspicion for subarachnoid hemorrhage (SAH) is high and NCCT head is negative, a lumbar puncture must be performed to look for RBCs and spectrophotometric xanthochromia (bilirubin breakdown)."
+    },
+    {
+      "id": 14,
+      "category": "Cerebrovascular Diseases",
+      "question": "Which medication is routinely administered to patients following a subarachnoid hemorrhage (SAH) to prevent delayed cerebral ischemia caused by arterial vasospasm?",
+      "options": [
+        "Intravenous Heparin",
+        "Oral Nimodipine",
+        "Intravenous Mannitol",
+        "Subcutaneous Enoxaparin",
+        "Oral Acetazolamide"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nimodipine (an oral dihydropyridine calcium channel blocker, 60 mg q4h for 21 days) improves neurological outcomes in SAH by reducing ischemic deficits from vasospasm."
+    },
+    {
+      "id": 15,
+      "category": "Epilepsy & Seizures",
+      "question": "Convulsive Status Epilepticus is clinically defined as continuous generalized tonic-clonic seizure activity lasting at least how many minutes without interim recovery of consciousness?",
+      "options": [
+        "2 minutes",
+        "5 minutes",
+        "15 minutes",
+        "30 minutes",
+        "60 minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operational definition (t1) for convulsive status epilepticus is 5 minutes of continuous seizure activity (or >=2 discrete seizures without recovery), at which point emergency pharmacological treatment must be initiated."
+    },
+    {
+      "id": 16,
+      "category": "Epilepsy & Seizures",
+      "question": "What is the immediate first-line pharmacological treatment of choice for acute status epilepticus in the pre-hospital or emergency room setting?",
+      "options": [
+        "IV Phenytoin infusion",
+        "IV Lorazepam or IM Midazolam",
+        "IV Levetiracetam",
+        "Oral Carbamazepine",
+        "Continuous Propofol drip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Benzodiazepines (IV Lorazepam 4 mg or IM Midazolam 10 mg) are first-line rapid-acting therapy (Stage 1) to terminate seizure activity by potentiating GABA-A receptor inhibition."
+    },
+    {
+      "id": 17,
+      "category": "Epilepsy & Seizures",
+      "question": "If status epilepticus persists 10 to 20 minutes after adequate administration of a first-line benzodiazepine, which second-line intravenous agent is recommended?",
+      "options": [
+        "Repeat Benzodiazepine dose indefinitely",
+        "IV Levetiracetam, Fosphenytoin/Phenytoin, or Valproate",
+        "Oral Ethosuximide",
+        "IV Haloperidol",
+        "Subcutaneous Morphine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stage 2 urgent control (10-30 mins) involves administering a non-sedating IV antiepileptic drug loading dose: Levetiracetam (60 mg/kg), Fosphenytoin/Phenytoin (20 mg PE/kg), or Sodium Valproate (40 mg/kg)."
+    },
+    {
+      "id": 18,
+      "category": "Epilepsy & Seizures",
+      "question": "What is the maximum safe rate of intravenous Phenytoin administration in an adult to prevent severe hypotension and cardiac dysrhythmias?",
+      "options": [
+        "10 mg/minute",
+        "50 mg/minute in Normal Saline",
+        "100 mg/minute in 5% Dextrose",
+        "200 mg/minute rapid bolus",
+        "Phenytoin can only be given IM"
+      ],
+      "correctIndex": 1,
+      "explanation": "IV Phenytoin must not exceed 50 mg/min (and must be diluted in 0.9% Normal Saline, not Dextrose, to avoid precipitation) due to propylene glycol vehicle cardiac toxicity. Fosphenytoin can be infused up to 150 mg PE/min."
+    },
+    {
+      "id": 19,
+      "category": "CNS Infections",
+      "question": "A 24-year-old college student presents with high fever, severe headache, photophobia, and neck stiffness. What is the classic clinical triad of acute bacterial meningitis?",
+      "options": [
+        "Fever, jaundice, and right upper quadrant pain",
+        "Fever, nuchal rigidity, and altered mental status",
+        "Headache, papilledema, and focal neurological deficit",
+        "Tremor, rigidity, and bradykinesia",
+        "Confusion, ataxia, and ophthalmoplegia"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic clinical triad of acute bacterial meningitis comprises fever, nuchal rigidity (neck stiffness), and altered mental status, present in over two-thirds of adult cases."
+    },
+    {
+      "id": 20,
+      "category": "CNS Infections",
+      "question": "Which lumbar puncture CSF profile is most characteristic of acute bacterial meningitis?",
+      "options": [
+        "Normal opening pressure, lymphocytic 20/uL, normal glucose, normal protein",
+        "High opening pressure, neutrophilic >1000/uL, low glucose (<40% serum), high protein (>100 mg/dL)",
+        "High opening pressure, lymphocytic 100/uL, normal glucose, normal protein",
+        "Normal opening pressure, RBC 50000/uL, xanthochromia",
+        "High opening pressure, no WBCs, normal glucose, normal protein"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bacterial meningitis produces purulent CSF with marked polymorphonuclear (PMN) leukocytosis (>1000/uL), low glucose ratio (<0.4), markedly elevated protein (>100-500 mg/dL), and high opening pressure (>200 mmH2O)."
+    },
+    {
+      "id": 21,
+      "category": "CNS Infections",
+      "question": "Before performing a lumbar puncture in a patient suspected of having bacterial meningitis, which clinical feature mandates performing an immediate NCCT Head first?",
+      "options": [
+        "History of fever for 2 hours",
+        "Papilledema or new focal neurological deficit",
+        "Presence of Kernig sign",
+        "Age under 30 years",
+        "Mild headache without confusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "CT head prior to LP is required if there are signs of space-occupying lesion or raised ICP (papilledema, focal neurological deficits, new-onset seizures, altered consciousness GCS<10, immunocompromised state) to prevent cerebral herniation."
+    },
+    {
+      "id": 22,
+      "category": "CNS Infections",
+      "question": "A 62-year-old male presents with acute bacterial meningitis. What is the recommended empiric intravenous antibiotic regimen according to clinical guidelines?",
+      "options": [
+        "Oral Amoxicillin alone",
+        "IV Ceftriaxone + IV Vancomycin + IV Ampicillin",
+        "IV Gentamicin + IV Metronidazole",
+        "IV Acyclovir + IV Fluconazole",
+        "IV Ciprofloxacin alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "For adults >50 years old or immunocompromised, empiric coverage includes Ceftriaxone (for S. pneumoniae/N. meningitidis), Vancomycin (for resistant pneumococcus), and Ampicillin (for Listeria monocytogenes)."
+    },
+    {
+      "id": 23,
+      "category": "CNS Infections",
+      "question": "A 35-year-old female presents with fever, temporal lobe seizures, expressive dysphasia, and olfactory hallucinations. CSF shows lymphocytic pleocytosis. What is the most urgent antiviral therapy?",
+      "options": [
+        "Oral Oseltamivir",
+        "Intravenous Acyclovir (10 mg/kg q8h)",
+        "Intravenous Ganciclovir",
+        "Oral Ribavirin",
+        "Intravenous Fluconazole"
+      ],
+      "correctIndex": 1,
+      "explanation": "HSV-1 encephalitis has a high predilection for temporal lobes causing seizures, aphasia, and behavioral changes. High-dose IV Acyclovir must be started immediately on clinical suspicion to prevent high mortality."
+    },
+    {
+      "id": 24,
+      "category": "Peripheral Neuromuscular Disorders",
+      "question": "A 28-year-old male presents with 4 days of progressive, symmetrical weakness starting in both legs and ascending to his hands, following a diarrheal illness 2 weeks ago. Reflexes are absent. What is the diagnosis?",
+      "options": [
+        "Myasthenia Gravis",
+        "Guillain-Barré Syndrome (GBS)",
+        "Multiple Sclerosis",
+        "Amyotrophic Lateral Sclerosis",
+        "Acute Anterior Poliomyelitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "GBS (Acute Inflammatory Demyelinating Polyneuropathy) presents with progressive, symmetrical, ascending flaccid paralysis with hyporeflexia/areflexia, frequently preceded by Campylobacter jejuni gastroenteritis."
+    },
+    {
+      "id": 25,
+      "category": "Peripheral Neuromuscular Disorders",
+      "question": "What is the characteristic CSF finding in Guillain-Barré Syndrome known as 'albuminocytological dissociation'?",
+      "options": [
+        "Markedly elevated CSF protein with normal CSF white blood cell count",
+        "High CSF WBC count with normal CSF protein",
+        "Low CSF glucose with high CSF neutrophils",
+        "Oligoclonal bands on electrophoresis with normal protein",
+        "Presence of xanthochromia and RBCs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Albuminocytological dissociation refers to elevated CSF protein concentration (due to spinal root inflammation) with a normal CSF leukocyte count (<10 WBCs/uL), classic for GBS after the first week."
+    },
+    {
+      "id": 26,
+      "category": "Peripheral Neuromuscular Disorders",
+      "question": "Which treatment is proven first-line disease-modifying therapy for Guillain-Barré Syndrome?",
+      "options": [
+        "High-dose oral Prednisolone",
+        "Intravenous Immunoglobulin (IVIG) or Plasma Exchange",
+        "Intravenous Interferon-beta",
+        "Oral Pyridostigmine",
+        "Intravenous Cyclophosphamide"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both IVIG (0.4 g/kg/day for 5 days) and Plasma Exchange (Plasmapheresis) are equally effective first-line immunotherapies that shorten recovery time and reduce mechanical ventilation requirements in GBS."
+    },
+    {
+      "id": 27,
+      "category": "Peripheral Neuromuscular Disorders",
+      "question": "Which drug class has been conclusively proven to be INEFFECTIVE and is NOT recommended in Guillain-Barré Syndrome?",
+      "options": [
+        "Intravenous Immunoglobulin",
+        "Corticosteroids (e.g. IV Methylprednisolone)",
+        "Subcutaneous Low Molecular Weight Heparin",
+        "Analgesics for neuropathic pain",
+        "Stool softeners"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clinical trials demonstrate that systemic corticosteroids (oral prednisolone or IV methylprednisolone) do NOT improve outcomes in GBS and may even prolong recovery time; they are contraindicated as monotherapy."
+    },
+    {
+      "id": 28,
+      "category": "Coma & Altered Consciousness",
+      "question": "A comatose patient evaluated with the Glasgow Coma Scale (GCS) shows Eye opening to pain (2), Incomprehensible sounds (2), and Decerebrate extension to pain (2). Total GCS = 6. What immediate airway management is indicated?",
+      "options": [
+        "Nasal cannula oxygen at 2 L/min",
+        "Immediate endotracheal intubation for airway protection",
+        "Non-invasive BiPAP mask",
+        "Observation in general ward",
+        "Insertion of nasogastric tube only"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Glasgow Coma Scale score of 8 or less (GCS <= 8) indicates severe brain injury/coma with loss of protective airway reflexes, requiring urgent endotracheal intubation ('GCS 8, intubate')."
+    },
+    {
+      "id": 29,
+      "category": "Coma & Altered Consciousness",
+      "question": "In an unconscious patient brought to the ED, which rapid bedside test must be performed immediately alongside ABC stabilization to rule out a reversible metabolic cause?",
+      "options": [
+        "Lumbar puncture",
+        "Bedside fingerstick blood glucose",
+        "Serum Vitamin B12 level",
+        "Brain MRI with contrast",
+        "Urine heavy metal screen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypoglycemia is a rapidly fatal yet instantly reversible cause of coma and focal neurological signs. Bedside capillary blood glucose must be checked immediately in all patients with altered mental status."
+    },
+    {
+      "id": 30,
+      "category": "Cognitive Disorders",
+      "question": "Which core clinical feature distinguishes acute Delirium (Acute Confusional State) from underlying Dementia?",
+      "options": [
+        "Impairment of long-term memory",
+        "Acute onset with fluctuating course and prominent inattention",
+        "Absence of underlying physical illness",
+        "Irreversible progressive cognitive decline over years",
+        "Normal attention and orientation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Delirium is characterized by acute onset (hours to days), fluctuating severity throughout the day, and marked impairment of attention and awareness, triggered by underlying systemic illness or drug toxicity."
+    },
+    {
+      "id": 31,
+      "category": "Metabolic Encephalopathy",
+      "question": "A chronic alcoholic male presents with confusion, ataxia, and ophthalmoplegia (nystagmus/abducens palsy). Which parenteral therapy must be administered BEFORE giving intravenous dextrose?",
+      "options": [
+        "IV Furosemide",
+        "IV Thiamine (Vitamin B1)",
+        "IV Sodium Bicarbonate",
+        "IV Haloperidol",
+        "IV Phenobarbital"
+      ],
+      "correctIndex": 1,
+      "explanation": "In suspected Wernicke Encephalopathy, high-dose IV Thiamine (Vitamin B1) must be given BEFORE or alongside IV Dextrose, as dextrose infusion without thiamine precipitates acute Wernicke-Korsakoff syndrome."
+    },
+    {
+      "id": 32,
+      "category": "Toxicology & Overdose",
+      "question": "A 22-year-old male is found unresponsive with a respiratory rate of 5 breaths/minute, cyanosis, and pinpoint pupils (miosis). What is the immediate specific antidote?",
+      "options": [
+        "IV Flumazenil",
+        "IV Naloxone",
+        "IV Atropine",
+        "IV N-Acetylcysteine",
+        "IV Pralidoxime"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic narcotic opioid overdose triad consists of coma, respiratory depression, and pinpoint pupils (miosis). IV Naloxone (pure opioid antagonist) rapidly reverses respiratory depression."
+    },
+    {
+      "id": 33,
+      "category": "Toxicology & Overdose",
+      "question": "A farmer presents with excessive salivation, lacrimation, urination, defecation, vomiting, severe bronchorrhea, and bradycardia (DUMBBELSS toxidrome). What is the primary antidote to reverse bronchorrhea?",
+      "options": [
+        "Intravenous Atropine (titrated until lung secretions dry)",
+        "Intravenous Naloxone",
+        "Intravenous Flumazenil",
+        "Intravenous Physostigmine",
+        "Oral Activated Charcoal alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "In organophosphate/carbamate poisoning, competitive muscarinic receptor blockade with IV Atropine (doubling dose every 3-5 mins) is critical to clear life-threatening bronchorrhea and bronchospasm."
+    },
+    {
+      "id": 34,
+      "category": "Headache & Facial Pain",
+      "question": "A 75-year-old female presents with a new severe left-sided headache, jaw fatigue while chewing (jaw claudication), and scalp tenderness. ESR is 95 mm/hr. What is the immediate treatment to prevent permanent blindness?",
+      "options": [
+        "Oral Paracetamol",
+        "High-dose Systemic Corticosteroids (e.g. Oral Prednisolone 60 mg) immediately",
+        "Wait for temporal artery biopsy result before starting treatment",
+        "Subcutaneous Sumatriptan",
+        "Oral Methysergide"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giant Cell (Temporal) Arteritis causes ischemic optic neuropathy leading to irreversible blindness. High-dose systemic steroids must be initiated IMMEDIATELY on clinical suspicion, without waiting for biopsy."
+    },
+    {
+      "id": 35,
+      "category": "Headache & Facial Pain",
+      "question": "A 32-year-old male presents with excruciating unilateral strictly periorbital pain lasting 45 minutes, accompanied by ipsilateral lacrimation, nasal congestion, and miosis. What is the first-line acute treatment?",
+      "options": [
+        "Oral Paracetamol and Rest",
+        "100% High-flow Oxygen via non-rebreather mask (12-15 L/min)",
+        "Oral Propranolol",
+        "Intravenous Morphine",
+        "Lumbar puncture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cluster headache acute attacks respond dramatically to 100% high-flow Normobaric Oxygen (12-15 L/min for 15-20 mins) or subcutaneous/nasal Triptans. Verapamil is used for maintenance prophylaxis."
+    },
+    {
+      "id": 36,
+      "category": "Spinal Cord Disorders",
+      "question": "A 65-year-old male with metastatic prostate cancer presents with 2 days of progressive bilateral lower limb weakness, a sensory level at T10, and urinary retention. What immediate medication should be given prior to urgent MRI?",
+      "options": [
+        "High-dose Intravenous Dexamethasone (10-16 mg stat)",
+        "Intravenous Furosemide",
+        "Oral Baclofen",
+        "Intravenous Vancomycin",
+        "Subcutaneous Heparin alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-dose IV Dexamethasone reduces spinal cord vasogenic edema and pain in malignant epidural spinal cord compression and should be administered immediately upon clinical suspicion while arranging emergency MRI."
+    },
+    {
+      "id": 37,
+      "category": "Brain Death & Reflexes",
+      "question": "During a formal brainstem death assessment, which cranial nerve reflex test involves irrigating the external auditory canal with ice-cold water to evaluate brainstem vestibulo-ocular pathways?",
+      "options": [
+        "Corneal reflex test",
+        "Caloric oculovestibular test",
+        "Gag and cough reflex test",
+        "Pupillary light reflex test",
+        "Apnea challenge test"
+      ],
+      "correctIndex": 1,
+      "explanation": "The caloric test (oculovestibular reflex) involves slow irrigation of each ear canal with 50 mL of ice-cold water; total absence of eye movement confirms loss of brainstem vestibulo-ocular reflex function."
+    }
+  ],
   "Final Part 2 Medicine - Respiratory Medicine": [
     {
       "id": 8,

@@ -70,6 +70,8 @@ function updateData() {
              }
         } else if (cleanBase.toLowerCase().includes('nephro')) {
              defaultCategory = 'Final Part 2 Medicine - Nephrology';
+        } else if (cleanBase.toLowerCase().includes('neuro')) {
+             defaultCategory = 'Final Part 2 Medicine - Neurology';
         } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(cleanBase)) {
              defaultCategory = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
         } else if (parts.length >= 4) {
@@ -150,6 +152,8 @@ function updateDashboardData() {
             moduleName = 'Final Part 2 - Gastroenterology & Hepatology Database';
         } else if (/nephro/i.test(file)) {
             moduleName = 'Final Part 2 - Nephrology Database';
+        } else if (/neuro/i.test(file)) {
+            moduleName = 'Final Part 2 - Neurology Database';
         }
         let moduleData = [];
 
@@ -271,6 +275,8 @@ function updateQuizData() {
                 moduleName = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
             } else if (/nephro/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Nephrology';
+            } else if (/neuro/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Neurology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {
