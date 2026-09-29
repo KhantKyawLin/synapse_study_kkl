@@ -6011,6 +6011,256 @@
       "answer": "Colorectal cancer."
     },
     {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the clinical triad defining Nephrotic Syndrome?",
+      "answer": "Proteinuria ($> 3$ g/24h), hypoalbuminaemia ($< 30$ g/L), and generalized oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which clinical features characterize Acute Nephritic Syndrome?",
+      "answer": "Haematuria (with red-cell casts), hypertension, oliguria, and varying degrees of proteinuria and oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the typical latency period for Post-streptococcal glomerulonephritis (PSGN) after infection?",
+      "answer": "1–3 weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which specific pathogen is responsible for Post-streptococcal glomerulonephritis?",
+      "answer": "Group A $\\beta$-haemolytic streptococcus."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "In IgA Nephropathy, how long after a respiratory tract infection does haematuria typically present?",
+      "answer": "1–3 days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "How is Rapidly Progressive Glomerulonephritis (RPGN) defined pathologically?",
+      "answer": "The presence of crescentic lesions in the glomeruli on renal biopsy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which two conditions are the most typical causes of Rapidly Progressive Glomerulonephritis (RPGN)?",
+      "answer": "Goodpasture’s disease and small-vessel vasculitis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the primary target of injury in the pathophysiology of Nephrotic Syndrome?",
+      "answer": "The podocytes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Minimal Change Disease (MCD) is the most common cause of Nephrotic Syndrome in which population?",
+      "answer": "Children."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What are the characteristic findings of Minimal Change Disease on electron microscopy?",
+      "answer": "Effacement or fusion of podocyte foot processes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Why are patients with severe Nephrotic Syndrome at high risk for thromboembolism?",
+      "answer": "Urinary loss of anticoagulant proteins such as antithrombin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Why does Nephrotic Syndrome lead to an increased susceptibility to infection?",
+      "answer": "Urinary loss of immunoglobulins."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the classic clinical triad of Acute Interstitial Nephritis (AIN)?",
+      "answer": "Skin rashes, arthralgia, and fever."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which two classes of drugs are classically associated with the development of Acute Interstitial Nephritis?",
+      "answer": "Penicillins (antibiotics) and NSAIDs (anti-inflammatories)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the hallmark histological finding on a renal biopsy for Acute Interstitial Nephritis?",
+      "answer": "Interstitial cellular infiltrates (eosinophilic interstitial nephritis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the standard treatment for drug-induced Acute Interstitial Nephritis?",
+      "answer": "Withdrawal of the offending drug."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "In the 'Spectrum of Glomerular Diseases' diagram, which condition spans the entire range from asymptomatic haematuria to RPGN?",
+      "answer": "IgA Nephropathy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which condition is the most common primary cause of Nephrotic Syndrome in adults?",
+      "answer": "Membranous Nephropathy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the specific auto-antibody target in Anti-glomerular basement membrane (anti-GBM) disease?",
+      "answer": "Type IV collagen in glomerular and alveolar basement membranes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which extra-renal symptom is present in 50–90% of patients with anti-GBM disease?",
+      "answer": "Pulmonary haemorrhage (shortness of breath and haemoptysis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "How does reduced capillary colloid oncotic pressure contribute to generalized oedema in Nephrotic Syndrome?",
+      "answer": "Heavy proteinuria leads to hypoalbuminaemia, lowering oncotic pressure and causing fluid to leak into the interstitium."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the role of ACE inhibitors (ACEi) or ARBs in the general management of Nephrotic Syndrome?",
+      "answer": "To reduce the degree of proteinuria."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which histological pattern is associated with 'subepithelial deposits' or 'spikes' in adults?",
+      "answer": "Membranous Nephropathy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "HIV infection and heroin misuse are secondary causes associated with which glomerular disease?",
+      "answer": "Focal Segmental Glomerulosclerosis (FSGS)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which paraneoplastic association is linked specifically to Minimal Change Disease?",
+      "answer": "Hodgkin's lymphoma."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "According to the sources, what distinguishes Membranoproliferative Glomerulonephritis (MPGN) into different types?",
+      "answer": "The presence of either immunoglobulin deposition or complement (C3) components."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the typical proteinuria threshold for the clinical definition of Nephrotic Syndrome in 24 hours?",
+      "answer": "$> 3.5$ g (or $> 3$ g per the provided source notes)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the primary histological finding of Post-streptococcal GN on renal biopsy?",
+      "answer": "Diffuse, florid, acute inflammation in the glomerulus with neutrophils and deposition of IgG/complement."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Why might a patient with Nephrotic Syndrome show an incidentally low serum caeruloplasmin level?",
+      "answer": "It is a protein-deficiency state caused by massive urinary protein loss."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What are the three components of management for Post-streptococcal GN?",
+      "answer": "Antibiotics (if evidence of infection), blood pressure control, and diuretics/salt restriction for oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which demographic factors in IgA Nephropathy suggest a worse prognosis?",
+      "answer": "Male gender, increased blood pressure, raised creatinine, and significant proteinuria."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the standard first-line treatment for Minimal Change Disease?",
+      "answer": "Prednisolone ($1$ mg/kg for 4–16 weeks)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What are the three components of the treatment triad for Anti-GBM disease?",
+      "answer": "Plasma exchange, corticosteroids, and cyclophosphamide."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which systemic diseases are explicitly listed as causes of Acute Nephritic Syndrome?",
+      "answer": "Wegener's granulomatosis (small-vessel vasculitis) and SLE (Lupus)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "In Nephrotic Syndrome, how does the kidney respond to reduced circulatory volume?",
+      "answer": "By retaining renal sodium and water."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which primary glomerulonephritis presents with segmented scars in some glomeruli but no acute inflammation?",
+      "answer": "Focal Segmental Glomerulosclerosis (FSGS)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What defines C3 Glomerulopathy?",
+      "answer": "A genetic or acquired defect in the alternative complement pathway (e.g., C3 nephritic factor)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Membranous nephropathy is secondary to which infections?",
+      "answer": "Hepatitis B, Hepatitis C, malaria, and schistosomiasis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What blood laboratory finding is common in both the peripheral blood and urine of AIN patients?",
+      "answer": "Eosinophilia (in blood) and eosinophiluria (in urine)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is 'Crescent formation' an indicator of on a renal biopsy?",
+      "answer": "Severe inflammation leading to cell damage and rapid loss of renal function (RPGN)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the characteristic light microscopy finding in Minimal Change Disease?",
+      "answer": "The glomeruli appear normal."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which glomerular disease is characterized by a diffusely thickened glomerular basement membrane (GBM)?",
+      "answer": "Membranous Nephropathy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What are 'Kerley B lines' on a chest X-ray indicative of in a renal context (e.g., fluid overload)?",
+      "answer": "Interstitial oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "How does Membranous Nephropathy typically progress in about $25\\%$ of cases?",
+      "answer": "Spontaneous remission."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which nephritic condition is characterized by linear deposition of anti-GBM antibodies on biopsy?",
+      "answer": "Anti-glomerular basement membrane (anti-GBM) disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What is the 'Alveolar oedema' pattern often called on a chest X-ray?",
+      "answer": "'Bat's wings'."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What are the main causes of mortality in patients with severe Nephrotic Syndrome?",
+      "answer": "Thromboembolism and infection."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "In the context of glomerular disease, what does 'haematuria with red-cell casts' signify?",
+      "answer": "Glomerular inflammation (Nephritic Syndrome)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "Which glomerular disease is commonly associated with morbid obesity?",
+      "answer": "Focal Segmental Glomerulosclerosis (FSGS)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Nephrology",
+      "question": "What distinguishes the 'Complement type' of Mesangiocapillary GN?",
+      "answer": "Dense deposit disease and abnormal activation of the alternative complement pathway."
+    },
+    {
       "category": "Final Part 2 Medicine - Respiratory Medicine",
       "question": "What are the three primary factors that contribute to airway narrowing in bronchial asthma?",
       "answer": "Bronchial muscle contraction, mucosal swelling/inflammation, and increased mucus production."

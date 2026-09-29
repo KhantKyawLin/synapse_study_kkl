@@ -2672,6 +2672,428 @@
       "explanation": "Aggressive fluid resuscitation with Oral Rehydration Solution (ORS) for mild/moderate cases or IV Ringer's Lactate for severe hypovolemic shock is the paramount life-saving measure in Cholera, reducing mortality from > 50% to < 1%."
     }
   ],
+  "Final Part 2 Medicine - Nephrology": [
+    {
+      "id": 8,
+      "category": "Glomerular Syndromes",
+      "question": "Which clinical constellation is most characteristic of Acute Nephritic Syndrome rather than Nephrotic Syndrome?",
+      "options": [
+        "Heavy proteinuria (> 3.5 g/day), hypoalbuminemia, hyperlipidemia, and generalized edema",
+        "Normal urine output, absence of hematuria, normal serum complement levels, and profound hypotension",
+        "Hematuria with red cell casts, mild-to-moderate hypertension, oliguria, and dysmorphic urinary RBCs",
+        "Severe hypercalcemia, broad waxy casts, polyuria, and solitary renal cyst",
+        "Isolated glucosuria, normal blood glucose, aminoaciduria, and hyperphosphatemia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nephritic syndrome is characterized by inflammatory glomerular damage leading to hematuria (red cell casts), dysmorphic RBCs, mild-to-moderate hypertension, oliguria, and mild proteinuria (< 3.5 g/day). Nephrotic syndrome is defined by heavy proteinuria (> 3.5 g/day), hypoalbuminemia, and generalized edema."
+    },
+    {
+      "id": 9,
+      "category": "Post-Streptococcal AGN",
+      "question": "A 9-year-old child presents with smoky-colored urine, facial puffiness, and elevated BP 2 weeks after an episode of sore throat. Which lab findings confirm Post-Streptococcal AGN?",
+      "options": [
+        "Elevated serum IgA levels and normal C3 complement levels",
+        "Elevated Anti-Streptolysin O (ASO) titer and transiently reduced serum C3 complement",
+        "Positive anti-PLA2R antibodies and heavy proteinuria > 5 g/day",
+        "High serum C3 complement and positive c-ANCA / PR3 antibodies",
+        "Low serum C4 with normal C3 and positive anti-GBM antibodies"
+      ],
+      "correctIndex": 1,
+      "explanation": "PSGN typically occurs 1 to 3 weeks after Group A Beta-Hemolytic Streptococcal (GABHS) pharyngitis or impetigo. Key diagnostic markers include elevated Anti-Streptolysin O (ASO) titers and transiently low serum C3 complement levels that normalize within 6-8 weeks."
+    },
+    {
+      "id": 10,
+      "category": "Minimal Change Disease",
+      "question": "In a 4-year-old child presenting with severe generalized edema, hypoalbuminemia (18 g/L), and 4+ proteinuria, electron microscopy of a renal biopsy would show:",
+      "options": [
+        "Effacement (flattening) of podocyte visceral epithelial foot processes",
+        "Subepithelial immune complex deposits with 'spike and dome' appearance",
+        "Mesangial IgA immune complex deposition on immunofluorescence",
+        "Splitting of the glomerular basement membrane ('tram-track' appearance)",
+        "Linear IgG deposition along the glomerular basement membrane"
+      ],
+      "correctIndex": 0,
+      "explanation": "Minimal Change Disease (MCD) is the most common cause of Nephrotic Syndrome in children. Light microscopy appears normal, but electron microscopy reveals characteristic effacement (flattening) of podocyte foot processes. MCD shows a dramatic response to corticosteroid therapy."
+    },
+    {
+      "id": 11,
+      "category": "Membranous Nephropathy",
+      "question": "A 52-year-old male with nephrotic syndrome undergoes renal biopsy showing subepithelial immune deposits producing a 'spike and dome' pattern. Which autoantibody is most specific?",
+      "options": [
+        "Anti-double stranded DNA (anti-dsDNA)",
+        "Anti-neutrophil cytoplasmic antibody (PR3-ANCA)",
+        "Anti-glomerular basement membrane (Anti-GBM)",
+        "Anti-phospholipase A2 receptor (Anti-PLA2R)",
+        "Anti-streptolysin O (ASO)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Membranous Nephropathy is a primary cause of adult nephrotic syndrome characterized by subepithelial immune complex deposits producing a 'spike and dome' appearance on silver stain. Circulating anti-phospholipase A2 receptor (anti-PLA2R) autoantibodies are present in ~70% of primary cases."
+    },
+    {
+      "id": 12,
+      "category": "IgA Nephropathy",
+      "question": "A 22-year-old male presents with visible hematuria that began yesterday, concurrently with a viral upper respiratory tract infection. He reports a similar episode 6 months ago. What is the diagnosis?",
+      "options": [
+        "Post-streptococcal glomerulonephritis",
+        "Minimal change disease",
+        "IgA Nephropathy (Berger disease)",
+        "Granulomatosis with Polyangiitis",
+        "Acute Pyelonephritis"
+      ],
+      "correctIndex": 2,
+      "explanation": "IgA Nephropathy (Berger disease) classically presents with recurrent episodes of gross hematuria occurring concurrently or within 1-2 days of an Upper Respiratory Tract Infection ('synpharyngitic' hematuria). In contrast, PSGN has a 1-3 week latent period."
+    },
+    {
+      "id": 13,
+      "category": "Acute Kidney Injury Criteria",
+      "question": "According to KDIGO criteria, which of the following defines Stage 1 Acute Kidney Injury (AKI)?",
+      "options": [
+        "Serum creatinine increase >= 2.0x baseline within 7 days",
+        "Serum creatinine rise >= 0.3 mg/dL (26.5 umol/L) within 48 hours or urine output < 0.5 mL/kg/hr for 6 hours",
+        "Serum creatinine increase >= 3.0x baseline or SCr >= 4.0 mg/dL",
+        "Persistent reduction in eGFR < 60 mL/min/1.73m2 for more than 3 months",
+        "Anuria lasting for more than 24 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to KDIGO criteria, Stage 1 AKI is defined by an absolute increase in serum creatinine of >= 0.3 mg/dL (>= 26.5 umol/L) within 48 hours, or a >= 1.5-fold increase from baseline, or urine output < 0.5 mL/kg/hr for 6 hours."
+    },
+    {
+      "id": 14,
+      "category": "Prerenal Azotemia vs ATN",
+      "question": "A patient with severe dehydration from cholera has SCr 3.2 mg/dL. Which urinary indices strongly indicate Prerenal Azotemia rather than Acute Tubular Necrosis (ATN)?",
+      "options": [
+        "Fractional Excretion of Sodium (FeNa) < 1% and Urine Osmolality > 500 mOsm/kg",
+        "FeNa > 2% and Urine Osmolality < 350 mOsm/kg",
+        "Muddy brown granular casts on urine microscopy with FeNa > 3%",
+        "Urine sodium > 40 mEq/L and BUN/Creatinine ratio < 10:1",
+        "Isosthenuria (Urine Osmolality ~ 300 mOsm/kg) with high urinary sodium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prerenal azotemia represents intact tubular reabsorptive capacity responding to renal hypoperfusion (FeNa < 1%, Urine Osmolality > 500 mOsm/kg, BUN/Cr ratio > 20:1). In Acute Tubular Necrosis (ATN), tubular cell damage impairs sodium reabsorption (FeNa > 2%, Urine Osmolality < 350 mOsm/kg, muddy brown granular casts)."
+    },
+    {
+      "id": 15,
+      "category": "Urgent Dialysis Indications",
+      "question": "Which of the following represents an absolute emergency indication for urgent acute hemodialysis ('AEIOU')?",
+      "options": [
+        "Asymptomatic mild hyperkalemia of 5.2 mmol/L",
+        "Asymptomatic Serum Creatinine of 2.5 mg/dL",
+        "Uncomplicated lower urinary tract infection with dysuria",
+        "Refractory metabolic acidosis (pH < 7.15) or hyperkalemia > 6.5 mmol/L with ECG changes",
+        "Trace proteinuria on dipstick in a diabetic patient"
+      ],
+      "correctIndex": 3,
+      "explanation": "Absolute emergency indications for acute hemodialysis are remembered by 'AEIOU': Acidosis (severe metabolic pH < 7.15 refractory to medical therapy), Electrolytes (refractory hyperkalemia > 6.5 mmol/L), Ingestion (toxic alcohols, lithium, salicylates), Overload (refractory pulmonary edema), and Uremia (pericarditis, encephalopathy, neuropathy)."
+    },
+    {
+      "id": 16,
+      "category": "CKD Staging",
+      "question": "A 65-year-old diabetic patient has persistent eGFR of 38 mL/min/1.73m2 for 6 months. How is this classified according to CKD staging?",
+      "options": [
+        "CKD Stage 1",
+        "CKD Stage 2",
+        "CKD Stage 3b",
+        "CKD Stage 4",
+        "CKD Stage 5"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chronic Kidney Disease (CKD) is defined as kidney damage or an eGFR < 60 mL/min/1.73m2 persisting for >= 3 months. Stage 3a is eGFR 45-59, Stage 3b is 30-44, Stage 4 is 15-29, and Stage 5 is eGFR < 15 mL/min/1.73m2 (End-Stage Renal Disease)."
+    },
+    {
+      "id": 17,
+      "category": "Renal Anemia Pathophysiology",
+      "question": "What is the primary pathophysiological mechanism causing anemia in patients with advanced Chronic Kidney Disease?",
+      "options": [
+        "Chronic gastrointestinal blood loss from uremic gastritis",
+        "Deficient production of Erythropoietin (EPO) by renal peritubular interstitial cells",
+        "Autoimmune hemolysis driven by uremic toxins",
+        "Splenic sequestration of red blood cells due to portal hypertension",
+        "Folate deficiency due to renal tubular wasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The primary etiology of anemia in CKD is deficient production of Erythropoietin (EPO) by peritubular interstitial fibroblasts in the renal cortex. It typically manifests as a normocytic normochromic anemia when eGFR drops below 30-45 mL/min/1.73m2."
+    },
+    {
+      "id": 18,
+      "category": "CKD-MBD Pathophysiology",
+      "question": "In Chronic Kidney Disease - Mineral and Bone Disorder (CKD-MBD), secondary hyperparathyroidism is primarily driven by:",
+      "options": [
+        "Hypercalcemia and elevated calcitriol synthesis",
+        "Hyperphosphatemia, hypocalcemia, and decreased renal 1-alpha-hydroxylase activity (calcitriol deficiency)",
+        "Primary parathyroid adenoma secreting excessive PTH",
+        "Excessive intestinal absorption of dietary calcium",
+        "Renal tubular reabsorption of phosphate"
+      ],
+      "correctIndex": 0,
+      "explanation": "In CKD, impaired phosphate excretion leads to hyperphosphatemia, which binds ionized calcium (hypocalcemia) and inhibits 1-alpha-hydroxylase (reduced calcitriol / active Vitamin D). Hyperphosphatemia and hypocalcemia stimulate parathyroid gland hyperplasia, driving Secondary Hyperparathyroidism."
+    },
+    {
+      "id": 19,
+      "category": "Renal Imaging in CKD",
+      "question": "Renal ultrasonography in a patient with long-standing end-stage CKD typically demonstrates:",
+      "options": [
+        "Bilateral markedly enlarged kidneys (> 15 cm) with multiple fluid cysts",
+        "Unilateral solitary giant renal mass with central calcification",
+        "Normal renal size with hydronephrosis and dilated ureters",
+        "Bilaterally shrunken, small kidneys (< 9 cm) with thin echogenic cortex",
+        "Multiple perinephric abscesses with air-fluid levels"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ultrasonography typically shows bilaterally reduced, shrunken renal size (< 9 cm) with increased cortical echogenicity in CKD. Notable exceptions with normal or enlarged kidney size in CKD include Diabetic Nephropathy, ADPKD, Amyloidosis, and HIV-associated nephropathy."
+    },
+    {
+      "id": 20,
+      "category": "ACEi Antiproteinuric Mechanism",
+      "question": "How do ACE inhibitors (e.g., Enalapril) reduce proteinuria and slow progression in Diabetic Nephropathy?",
+      "options": [
+        "By dilating the afferent arteriole to increase glomerular blood flow",
+        "By constricting the efferent arteriole to elevate filtration pressure",
+        "By selectively dilating the efferent arteriole, lowering intraglomerular hydrostatic pressure",
+        "By directly inhibiting renal tubular sodium reabsorption",
+        "By blocking podocyte glucose transporters"
+      ],
+      "correctIndex": 2,
+      "explanation": "ACE inhibitors and ARBs selectively dilate the efferent renal arteriole, reducing intraglomerular hydrostatic pressure and hyperfiltration. This slows the progression of diabetic and non-diabetic chronic kidney disease and significantly reduces urinary albumin excretion."
+    },
+    {
+      "id": 21,
+      "category": "Complicated UTI Definition",
+      "question": "Which of the following features automatically classifies a Urinary Tract Infection (UTI) as 'Complicated'?",
+      "options": [
+        "Occurrence in a healthy 25-year-old non-pregnant female",
+        "Association with male gender, pregnancy, urinary catheter, or structural urinary tract obstruction",
+        "Presentation with isolated dysuria and urinary frequency",
+        "Absence of fever or systemic symptoms",
+        "Negative urine culture for bacterial growth"
+      ],
+      "correctIndex": 1,
+      "explanation": "A UTI is classified as 'complicated' if associated with factors increasing treatment failure or upper tract involvement, including male gender, pregnancy, urinary tract obstruction/catheters, renal insufficiency, immunosuppression, or neurogenic bladder."
+    },
+    {
+      "id": 22,
+      "category": "Acute Pyelonephritis Features",
+      "question": "A 30-year-old female presents with high fever, chills, left flank pain, and CVA tenderness. Urinalysis reveals pyuria and White Blood Cell (WBC) casts. This indicates:",
+      "options": [
+        "Acute Pyelonephritis",
+        "Uncomplicated Cystitis",
+        "Acute Glomerulonephritis",
+        "Renal Vein Thrombosis",
+        "Nephrotic Syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Acute Pyelonephritis presents with systemic inflammatory features (high fever, rigors, flank pain, costovertebral angle tenderness). The pathognomonic finding on urine microscopy is White Blood Cell (WBC) casts, indicating upper urinary tract neutrophilic inflammation."
+    },
+    {
+      "id": 23,
+      "category": "Nephrotic Hypercoagulability",
+      "question": "Patients with Nephrotic Syndrome are at markedly increased risk for deep vein thrombosis and Renal Vein Thrombosis primarily due to:",
+      "options": [
+        "Loss of serum albumin leading to hemoconcentration",
+        "Increased urinary excretion of fibrinogen",
+        "Decreased hepatic synthesis of clotting factors",
+        "Urinary loss of anticoagulant Antithrombin III and hepatic hyperproduction of procoagulant factors",
+        "Elevated serum potassium levels"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nephrotic syndrome generates a hypercoagulable state primarily due to urinary loss of low-molecular-weight anticoagulant proteins, specifically Antithrombin III, alongside hepatic hyperproduction of fibrinogen. This predisposes patients to Renal Vein Thrombosis and DVT/PE."
+    },
+    {
+      "id": 24,
+      "category": "Hyperkalemia Emergency Management",
+      "question": "In a patient presenting with serum potassium of 7.2 mmol/L and ECG showing tall peaked T waves and QRS widening, what is the IMMEDIATE first medication to administer?",
+      "options": [
+        "Intravenous Soluble Insulin with Dextrose",
+        "Oral Calcium Resonium (Polystyrene sulfonate)",
+        "Intravenous Calcium Gluconate (10%)",
+        "Inhaled Salbutamol nebulizer",
+        "Intravenous Furosemide"
+      ],
+      "correctIndex": 2,
+      "explanation": "In acute severe hyperkalemia (> 6.5 mmol/L or with ECG changes), the immediate first step is IV Calcium Gluconate (10 mL of 10% solution) to membrane-stabilize cardiomyocytes and prevent lethal arrhythmias. Calcium does not lower serum potassium; intracellular shift is achieved subsequently with insulin + dextrose."
+    },
+    {
+      "id": 25,
+      "category": "Goodpasture Disease",
+      "question": "A 25-year-old male presents with hemoptysis and rapidly progressive renal failure with hematuria. Renal biopsy shows linear immunofluorescence along the GBM. What is the diagnosis?",
+      "options": [
+        "Granulomatosis with Polyangiitis (GPA)",
+        "Goodpasture disease (Anti-GBM disease)",
+        "Post-streptococcal glomerulonephritis",
+        "Lupus Nephritis Class IV",
+        "IgA Nephropathy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goodpasture disease (Anti-GBM disease) is caused by circulating autoantibodies directed against the alpha-3 chain of Type IV collagen in glomerular and alveolar basement membranes, presenting with pulmonary hemorrhage (hemoptysis) and rapidly progressive glomerulonephritis (hematuria)."
+    },
+    {
+      "id": 26,
+      "category": "ANCA Vasculitis (GPA)",
+      "question": "A patient presents with saddle-nose deformity, nasal mucosal ulceration, pulmonary cavitary nodules, and crescentic glomerulonephritis. Serology is positive for c-ANCA (PR3-ANCA). Diagnosis:",
+      "options": [
+        "Granulomatosis with Polyangiitis (GPA / Wegener's)",
+        "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)",
+        "Systemic Lupus Erythematosus",
+        "Goodpasture disease",
+        "Polyarteritis Nodosa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Granulomatosis with Polyangiitis (GPA / Wegener's) is a small-vessel vasculitis associated with PR3-ANCA (c-ANCA). It characteristically affects the upper respiratory tract (nasal crusting, saddle nose), lower respiratory tract (cavitary pulmonary nodules), and kidneys (pauci-immune crescentic AGN)."
+    },
+    {
+      "id": 27,
+      "category": "Lupus Nephritis",
+      "question": "Active, severe Class IV Diffuse Proliferative Lupus Nephritis typically correlates with which serological lab pattern?",
+      "options": [
+        "Elevated serum C3/C4 complement with negative ANA",
+        "High-titer PR3-ANCA and positive ASO antibodies",
+        "Positive anti-PLA2R autoantibodies and normal anti-dsDNA",
+        "High-titer Anti-dsDNA autoantibodies and markedly reduced serum C3 and C4 complement levels",
+        "Isolated anti-centromere antibodies"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lupus Nephritis is a major organ threat in SLE driven by immune complex deposition. High-titer anti-dsDNA autoantibodies and serum complement consumption (low C3 and C4) correlate strongly with active lupus nephritis (especially Class III focal and Class IV diffuse proliferative)."
+    },
+    {
+      "id": 28,
+      "category": "Hemolytic Uremic Syndrome",
+      "question": "A 3-year-old child develops oliguria, petechiae, and jaundice 5 days after an episode of bloody diarrhea. Lab shows microangiopathic hemolytic anemia (schistocytes), thrombocytopenia, and elevated creatinine. Diagnosis:",
+      "options": [
+        "Henoch-Schönlein Purpura",
+        "Post-streptococcal glomerulonephritis",
+        "Hemolytic Uremic Syndrome (HUS)",
+        "Thrombotic Thrombocytopenic Purpura (TTP)",
+        "Acute Pyelonephritis"
+      ],
+      "correctIndex": 2,
+      "explanation": "HUS is characterized by the classic triad of Microangiopathic Hemolytic Anemia (schistocytes), Thrombocytopenia, and Acute Kidney Injury. Typical HUS in children follows infection with Shiga toxin-producing E. coli (STEC O157:H7)."
+    },
+    {
+      "id": 29,
+      "category": "Renal Artery Stenosis",
+      "question": "An elderly patient with generalized atherosclerosis experiences a 45% jump in serum creatinine 5 days after starting Lisinopril for hypertension. What underlying diagnosis should be suspected?",
+      "options": [
+        "Acute Interstitial Nephritis",
+        "Bilateral Renal Artery Stenosis",
+        "Minimal Change Disease",
+        "Analgesic Nephropathy",
+        "Polycystic Kidney Disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atherosclerotic Renal Artery Stenosis should be suspected in patients with refractory hypertension, abdominal bruits, flash pulmonary edema, or an acute rise in serum creatinine > 30% following initiation of an ACE inhibitor or ARB (due to loss of efferent vasoconstrictive compensation)."
+    },
+    {
+      "id": 30,
+      "category": "Analgesic Nephropathy",
+      "question": "A patient with severe osteoarthritis who has consumed high doses of ibuprofen and acetaminophen daily for 10 years presents with sterile pyuria, azotemia, and sloughed papillae in urine. Diagnosis:",
+      "options": [
+        "Acute Interstitial Nephritis",
+        "Analgesic Nephropathy / Renal Papillary Necrosis",
+        "IgA Nephropathy",
+        "Diabetic Glomerulosclerosis",
+        "Goodpasture disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chronic high-dose abuse of combination analgesics (NSAIDs, acetaminophen, aspirin) leads to chronic tubulointerstitial nephritis and Renal Papillary Necrosis due to ischemic medullary injury from inhibition of vasodilatory renal prostaglandins."
+    },
+    {
+      "id": 31,
+      "category": "Nephrotoxic ATN Agents",
+      "question": "Which group of medications is classical for causing direct toxic Acute Tubular Necrosis (ATN) with muddy brown casts?",
+      "options": [
+        "ACE Inhibitors and Angiotensin Receptor Blockers",
+        "Loop diuretics and Thiazides",
+        "Beta-blockers and Calcium Channel Blockers",
+        "Aminoglycosides (Gentamicin), Radiocontrast media, and Cisplatin",
+        "Corticosteroids and Cyclosporine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Aminoglycosides (e.g., Gentamicin), Radiocontrast media, Amphotericin B, and Cisplatin are classical nephrotoxins that cause direct tubular epithelial necrosis, presenting as intrinsic AKI with muddy brown granular casts."
+    },
+    {
+      "id": 32,
+      "category": "Contrast-Induced Nephropathy",
+      "question": "What is the single most effective, validated prophylactic intervention to prevent Contrast-Induced Acute Kidney Injury in high-risk CKD patients undergoing CT scanning?",
+      "options": [
+        "Oral N-acetylcysteine administration alone",
+        "Intravenous loop diuretic administration before contrast",
+        "Intravenous hydration with 0.9% Normal Saline before and after contrast administration",
+        "Immediate hemodialysis right after contrast exposure",
+        "Prophylactic corticosteroid injection"
+      ],
+      "correctIndex": 2,
+      "explanation": "The single most effective validated strategy to prevent Contrast-Induced Acute Kidney Injury (CIN) in high-risk patients (CKD, DM, dehydration) is intravenous volume expansion with 0.9% Normal Saline before and after contrast administration."
+    },
+    {
+      "id": 33,
+      "category": "Acute Interstitial Nephritis",
+      "question": "A patient developed fever, maculopapular skin rash, eosinophilia, and elevated serum creatinine 10 days after starting Omeprazole. Urinalysis shows WBC casts and eosinophiluria. Diagnosis:",
+      "options": [
+        "Acute Tubular Necrosis (ATN)",
+        "Acute Interstitial Nephritis (AIN)",
+        "Prerenal Azotemia",
+        "Postrenal Obstructive Uropathy",
+        "Acute Pyelonephritis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Interstitial Nephritis (AIN) is a drug-induced hypersensitivity reaction (commonly Beta-lactams, NSAIDs, Proton Pump Inhibitors, Sulfonamides). The classic clinical triad includes fever, maculopapular rash, and eosinophilia/eosinophiluria, with WBC casts on urinalysis."
+    },
+    {
+      "id": 34,
+      "category": "Polycystic Kidney Disease (ADPKD)",
+      "question": "A 40-year-old male presents with bilateral flank pain, hematuria, BP 160/100, and a history of a berry aneurysm rupture in his mother. Renal ultrasound reveals multiple fluid-filled cysts bilaterally. Diagnosis:",
+      "options": [
+        "Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+        "Autosomal Recessive Polycystic Kidney Disease (ARPKD)",
+        "Multicystic Dysplastic Kidney",
+        "Renal Cell Carcinoma",
+        "Simple Renal Cysts"
+      ],
+      "correctIndex": 0,
+      "explanation": "ADPKD is an autosomal dominant condition caused by mutations in PKD1 (85%) or PKD2 (15%). Extra-renal manifestations include hepatic cysts, berry aneurysms in the Circle of Willis (risk of subarachnoid hemorrhage), mitral valve prolapse, and colonic diverticula."
+    },
+    {
+      "id": 35,
+      "category": "Renal Tubular Acidosis Type 1",
+      "question": "A patient presents with normal anion gap hyperchloremic metabolic acidosis, hypokalemia, and urine pH persistently > 5.5 despite systemic acidemia. What is the diagnosis?",
+      "options": [
+        "Type 1 (Distal) Renal Tubular Acidosis",
+        "Type 2 (Proximal) Renal Tubular Acidosis",
+        "Type 4 (Hypoaldosteronism) Renal Tubular Acidosis",
+        "Diabetic Ketoacidosis",
+        "Lactic Acidosis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Type 1 (Distal) RTA is caused by failure of distal nephron intercalated cells to secrete H+ ions into urine. This leads to an inability to acidify urine (urine pH persistently > 5.5), hyperchloremic normal anion gap metabolic acidosis, hypokalemia, and nephrocalcinosis."
+    },
+    {
+      "id": 36,
+      "category": "Nephrogenic Diabetes Insipidus",
+      "question": "A psychiatric patient on long-term Lithium therapy develops severe polyuria (4 L/day) and hypernatremia. Desmopressin administration fails to concentrate urine. Mechanism:",
+      "options": [
+        "Central Diabetes Insipidus due to pituitary suppression",
+        "Primary Polydipsia due to thirst center stimulation",
+        "Lithium-induced Nephrogenic Diabetes Insipidus due to collecting duct ADH resistance",
+        "Osmotic diuresis secondary to glucosuria",
+        "Renal sodium wasting due to hypoaldosteronism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chronic Lithium therapy causes Nephrogenic Diabetes Insipidus by accumulating in principal cells of the renal collecting duct and downregulating Aquaporin-2 (AQP2) water channels, rendering the tubule resistant to Antidiuretic Hormone (ADH) and causing polyuria/polydipsia."
+    },
+    {
+      "id": 37,
+      "category": "Generalized Edema Mechanisms",
+      "question": "What is the primary mechanism of generalized edema formation in acute nephritic syndrome compared to nephrotic syndrome?",
+      "options": [
+        "Hypoalbuminemia driving low capillary oncotic pressure",
+        "Primary renal sodium and water retention due to decreased GFR and altered tubular signaling ('overfill' hypothesis)",
+        "Increased capillary permeability due to systemic histamine release",
+        "Lymphatic obstruction in lower extremities",
+        "Decreased cardiac output causing arterial underfilling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary Na+ retention occurs in acute nephritic syndrome due to impaired GFR and tubular dysregulation. In nephrotic syndrome, heavy proteinuria causes hypoalbuminemia, reducing plasma oncotic pressure and causing intravascular fluid shift into the interstitium ('underfill' hypothesis)."
+    }
+  ],
   "Final Part 2 Medicine - Respiratory Medicine": [
     {
       "id": 8,

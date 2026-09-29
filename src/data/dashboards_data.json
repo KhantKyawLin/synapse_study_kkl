@@ -885,6 +885,228 @@
       ]
     }
   ],
+  "Final Part 2 - Nephrology Database": [
+    {
+      "Name": "Post-Streptococcal Acute Glomerulonephritis (PSGN)",
+      "Tag": "Glomerular Diseases (Nephritic)",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Post-infectious glomerulonephritis occurring 1-3 weeks after Group A Beta-Hemolytic Streptococcal (GABHS) pharyngitis or impetigo; common in children."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune complex deposition in glomerular subepithelial space (lumpy-bumpy appearance) activates complement cascade, recruiting neutrophils and causing glomerular inflammation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Classic triad: Hematuria (smoky/cola-colored urine), Periorbital facial edema, and Hypertension. Oliguria, mild proteinuria, low-grade fever."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Ddx: ASO titer (high), Low C3 complement, Dysmorphic RBCs and Red Cell Casts on urinalysis. Treatment: Supportive, salt/fluid restriction, loop diuretics, antihypertensives."
+        }
+      ]
+    },
+    {
+      "Name": "Nephrotic Syndrome (Minimal Change, Membranous, FSGS)",
+      "Tag": "Glomerular Diseases (Nephrotic)",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Characterized by heavy proteinuria (> 3.5 g/24hr). Minimal Change (children), Membranous Nephropathy (adults, anti-PLA2R+), FSGS (adults/HIV/heroin)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Podocyte effacement or basement membrane damage leads to severe glomerular permeability loss to plasma proteins, particularly albumin."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Triad: Heavy proteinuria, Severe Hypoalbuminemia (< 30 g/L), Generalized Edema (anasarca). Hyperlipidemia, hypercoagulability (renal vein thrombosis), infection risk."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urinalysis: 3-4+ protein, oval fat bodies; Serum albumin < 30 g/L; Lipid profile: hypercholesterolemia. Rx: Corticosteroids (1st line in MCD), ACEi/ARBs, diuretics, statins."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Kidney Injury (AKI)",
+      "Tag": "Renal Failure & Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Abrupt decline in renal function over hours/days. Etiologies categorized into Prerenal (hypovolemia, sepsis), Intrinsic (ATN, AIN, AGN), and Postrenal (obstruction)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Prerenal: Renal hypoperfusion without structural damage. Intrinsic ATN: Ischemic or nephrotoxic tubular cell necrosis. Postrenal: Increased retrograde pressure."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Oliguria (< 0.5 mL/kg/hr for 6 hrs) or anuria, fluid overload (pulmonary edema, JVP elevation), uremic encephalopathy, pericarditis, hyperkalemic arrhythmias."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "KDIGO criteria: SCr increase >= 0.3 mg/dL within 48h or 1.5x baseline. FeNa < 1% (Prerenal) vs > 2% (ATN). Rx: Fluid resuscitation (prerenal), treat cause, Dialysis (AEIOU)."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Kidney Disease (CKD)",
+      "Tag": "Renal Failure & Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Progressive, irreversible loss of renal function (> 3 months). Leading causes: Diabetic Nephropathy, Hypertension, Chronic Glomerulonephritis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Nephron loss leads to adaptive hyperfiltration in remaining nephrons, driving progressive glomerulosclerosis, tubulointerstitial fibrosis, and loss of excretory/endocrine functions."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Uremic frost, pruritus, fatigue, metallic taste, nausea, fluid retention, severe hypertension, renal anemia, metabolic bone disease (renal osteodystrophy), pericarditis."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "eGFR < 60 mL/min/1.73m2 or persistent albuminuria (> 30 mg/g). Bilaterally small shrunken kidneys on USG (except DM/polycystic). Rx: ACEi/ARBs, EPO, Phosphate binders, RRT."
+        }
+      ]
+    },
+    {
+      "Name": "Urinary Tract Infection & Acute Pyelonephritis",
+      "Tag": "Infectious Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bacterial invasion of urinary tract. Most common pathogen: Escherichia coli (> 80%). Lower UTI (Cystitis) vs Upper UTI (Pyelonephritis)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Ascending infection from perineal flora up urethra to bladder (cystitis) and kidney parenchyma (pyelonephritis), triggering acute tubulointerstitial inflammation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Cystitis: Dysuria, frequency, urgency, suprapubic pain. Pyelonephritis: High fever, rigors, flank pain, CVA tenderness, nausea/vomiting, sepsis/bacteremia."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urine Dipstick: Positive Nitrites and Leukocyte Esterase; Urine Microscopy: Pyuria (WBC > 10/hpf), WBC casts (pyelonephritis). Urine culture. Rx: Nitrofurantoin/TMP-SMX (cystitis), Ceftriaxone (pyelonephritis)."
+        }
+      ]
+    },
+    {
+      "Name": "Hyperkalemia (Renal Emergency)",
+      "Tag": "Electrolyte Disturbances",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Serum Potassium > 5.5 mmol/L. Common in AKI, advanced CKD, K+-sparing diuretics, ACEi/ARBs, and tissue breakdown (rhabdomyolysis)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Impaired renal potassium excretion or transcellular shift disrupts cardiac resting membrane potential, leading to lethal ventricular arrhythmias and cardiac arrest."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Often asymptomatic until severe; muscle weakness, flaccid paralysis, paresthesias, palpitations, bradycardia, cardiac arrest."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum K+ > 5.5 mmol/L. ECG changes: Tall tented T waves, prolonged PR, QRS widening, sine wave. Emergency Rx: IV Calcium Gluconate (membrane stabilization), IV Insulin + Dextrose, Salbutamol, Dialysis."
+        }
+      ]
+    },
+    {
+      "Name": "IgA Nephropathy (Berger Disease)",
+      "Tag": "Glomerular Diseases (Nephritic)",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common primary glomerulonephritis worldwide. Common in young adult males."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Galactose-deficient IgA1 immune complexes deposit in glomerular mesangium, inducing mesangial proliferation and inflammatory cytokine cascade."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Recurrent episodes of gross (visible) hematuria occurring concurrently or within 1-2 days of an Upper Respiratory Tract Infection (synpharyngitic hematuria)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Renal biopsy: Mesangial IgA immune complex deposition on immunofluorescence. Normal complement levels. Rx: ACEi/ARBs for proteinuria, steroids in high risk."
+        }
+      ]
+    },
+    {
+      "Name": "Diabetic Nephropathy",
+      "Tag": "Microvascular Complications",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Leading cause of end-stage renal disease (ESRD). Develops in ~30-40% of patients with long-standing Type 1 or Type 2 Diabetes Mellitus."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hyperglycemia drives efferent arteriolar constriction via RAAS, inducing glomerular hyperfiltration, nodular glomerulosclerosis (Kimmelstiel-Wilson lesions), and basement membrane thickening."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent microalbuminuria progressing to overt proteinuria, worsening hypertension, progressive loss of eGFR, peripheral edema."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urine Albumin-to-Creatinine Ratio (UACR) 30-300 mg/g (micro) or > 300 mg/g (macro). Bilaterally enlarged/normal size kidneys on renal USG. Rx: Tight glycemic control, ACEi/ARBs, SGLT2 inhibitors."
+        }
+      ]
+    },
+    {
+      "Name": "Autosomal Dominant Polycystic Kidney Disease (ADPKD)",
+      "Tag": "Genetic & Structural Renal Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common hereditary kidney disease; caused by mutations in PKD1 (chromosome 16) or PKD2 (chromosome 4)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Defective polycystin protein impairs tubular epithelial differentiation, causing fluid-filled renal cysts that progressively destroy renal parenchyma."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Flank/abdominal pain, gross hematuria (cyst rupture), palpable bilateral flank masses, refractory hypertension, recurrent UTIs, intracranial berry aneurysms."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Renal Ultrasound: Multiple fluid-filled renal cysts bilaterally. Family history. Rx: BP control (ACEi/ARBs), Tolvaptan (vasopressin V2 receptor antagonist), Dialysis/Transplant for ESRD."
+        }
+      ]
+    },
+    {
+      "Name": "Generalised Oedema (Differential Diagnosis)",
+      "Tag": "Clinical Presentations",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accumulation of fluid in interstitial space. Major etiologies: Nephrotic Syndrome, Heart Failure, Cirrhosis, Malnutrition/Kwashiorkor."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Renal mechanism: Primary Na+ retention or hypoalbuminemia reducing plasma oncotic pressure (Starling forces), promoting fluid extravasation into interstitial tissue."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Bilateral pitting lower limb edema, sacral edema, ascites, pleural effusion, periorbital puffiness (pronounced in morning in renal cause)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum albumin, 24hr urine protein, U&Es, LFTs, Echocardiogram, Urine dipstick. Rx: Loop diuretics (Furosemide), dietary sodium restriction, treat underlying cause."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Respiratory Database": [
     {
       "Name": "Bronchial Asthma (Acute Severe)",
