@@ -74,6 +74,8 @@ function updateData() {
              defaultCategory = 'Final Part 2 Medicine - Neurology';
         } else if (cleanBase.toLowerCase().includes('haem') || cleanBase.toLowerCase().includes('hemato')) {
              defaultCategory = 'Final Part 2 Medicine - Haematology';
+        } else if (cleanBase.toLowerCase().includes('infect')) {
+             defaultCategory = 'Final Part 2 Medicine - Infectious Diseases';
         } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(cleanBase)) {
              defaultCategory = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
         } else if (parts.length >= 4) {
@@ -158,6 +160,8 @@ function updateDashboardData() {
             moduleName = 'Final Part 2 - Neurology Database';
         } else if (/haem|hemato/i.test(file)) {
             moduleName = 'Final Part 2 - Haematology Database';
+        } else if (/infect/i.test(file)) {
+            moduleName = 'Final Part 2 - Infectious Diseases Database';
         }
         let moduleData = [];
 
@@ -283,6 +287,8 @@ function updateQuizData() {
                 moduleName = 'Final Part 2 Medicine - Neurology';
             } else if (/haem|hemato/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Haematology';
+            } else if (/infect/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Infectious Diseases';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {

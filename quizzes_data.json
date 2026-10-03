@@ -3094,6 +3094,428 @@
       "explanation": "Febrile Neutropenia (ANC < 0.5 x 10^9/L + fever >= 38.3 C) is a life-threatening medical emergency requiring immediate administration of empirical broad-spectrum IV antipseudomonal beta-lactam antibiotics within 1 hour."
     }
   ],
+  "Final Part 2 Medicine - Infectious Diseases": [
+    {
+      "id": 8,
+      "category": "Enteric Fever",
+      "question": "A 24-year-old male presents with a 7-day history of step-ladder fever, severe headache, abdominal discomfort, and constipation. On examination, pulse is 62 bpm despite a temperature of 39.5 C (relative bradycardia). Which diagnostic investigation is the gold standard during this first week of illness?",
+      "options": [
+        "Stool culture on MacConkey agar",
+        "Blood culture",
+        "Widal agglutination test",
+        "Urine culture",
+        "Bone marrow biopsy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blood culture is the diagnostic gold standard during the first week of Enteric Fever (positive in 60-90% of cases). Stool and urine cultures become positive in the 2nd and 3rd weeks, while Widal agglutination titres only become reliable late in the 2nd week."
+    },
+    {
+      "id": 9,
+      "category": "Enteric Fever",
+      "question": "Which physical examination finding, characterized by transient 2-4 mm erythematous macules that blanch on pressure on the upper abdomen and chest, is classic for Salmonella enterica infection?",
+      "options": [
+        "Janeway lesions",
+        "Rose spots",
+        "Koplik spots",
+        "Erythema marginatum",
+        "Osler nodes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rose spots are classic cutaneous manifestations of enteric fever (Salmonella Typhi/Paratyphi), appearing as faint, salmon-colored, blanching macules on the trunk during the 2nd week of fever."
+    },
+    {
+      "id": 10,
+      "category": "Enteric Fever",
+      "question": "Due to widespread endemic fluoroquinolone resistance in South/Southeast Asia, which antimicrobial regimen is recommended as first-line empiric treatment for severe, hospitalized enteric fever?",
+      "options": [
+        "Oral Ciprofloxacin 500 mg BD",
+        "IV Ceftriaxone 2g OD or oral Azithromycin 1g OD",
+        "Oral Co-trimoxazole 2 tabs BD",
+        "Oral Amoxicillin 1g TDS",
+        "IV Gentamicin 5 mg/kg OD"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-level nalidixic acid and fluoroquinolone resistance in Salmonella enterica makes IV Ceftriaxone or oral Azithromycin the first-line empiric choice for enteric fever."
+    },
+    {
+      "id": 11,
+      "category": "Cholera",
+      "question": "A 30-year-old flood survivor presents with sudden onset of profuse, painless, liquid diarrhea described as 'rice-water' stool, followed by severe muscle cramps and vomiting. What is the cellular mechanism of the enterotoxin produced by Vibrio cholerae?",
+      "options": [
+        "Inhibition of protein synthesis by cleaving 28S rRNA",
+        "Irreversible ADP-ribosylation of Gs alpha subunit, permanently activating adenylate cyclase",
+        "Inhibition of presynaptic acetylcholine release",
+        "Cleavage of SNARE proteins in Renshaw cells",
+        "Direct pore formation in mucosal epithelial membranes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cholera toxin undergoes AB subunit endocytosis; the A subunit ADP-ribosylates Gs alpha, keeping adenylate cyclase permanently active, raising intracellular cAMP, and driving massive Cl- and water secretion into the intestinal lumen."
+    },
+    {
+      "id": 12,
+      "category": "Cholera",
+      "question": "In the management of severe cholera with hypovolemic shock, what is the immediate cornerstone therapeutic intervention?",
+      "options": [
+        "Immediate oral Doxycycline 300 mg single dose",
+        "Rapid IV infusion of isotonic fluid (Ringer's Lactate or Normal Saline)",
+        "Empiric IV Metronidazole 500 mg TDS",
+        "Administration of loperamide anti-diarrheal therapy",
+        "Immediate initiation of IV Ciprofloxacin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aggressive fluid resuscitation is the cornerstone of cholera management to restore circulating volume and prevent acute tubular necrosis. Antimicrobials (Azithromycin/Doxycycline) are secondary adjuncts that shorten disease duration."
+    },
+    {
+      "id": 13,
+      "category": "Amoebic Dysentery",
+      "question": "A 28-year-old traveler presents with a 2-week history of bloody diarrhea with mucus, lower abdominal cramps, and tenesmus without high fever. Microscopic examination of fresh stool reveals trophozoites with ingested red blood cells (erythrophagocytosis). What is the causative pathogen?",
+      "options": [
+        "Shigella dysenteriae",
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Campylobacter jejuni",
+        "Cryptosporidium parvum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Entamoeba histolytica trophozoites displaying erythrophagocytosis (ingested RBCs) are pathognomonic for invasive amoebic dysentery, distinguishing it from non-invasive Entamoeba dispar."
+    },
+    {
+      "id": 14,
+      "category": "Amoebic Liver Abscess",
+      "question": "A 40-year-old male presents with right upper quadrant abdominal pain, fever, and right shoulder tip pain. Abdominal USG demonstrates a solitary 6 cm hypoechoic liver lesion in the right lobe. Diagnostic aspiration yields thick, odorless, reddish-brown fluid ('anchovy sauce' pus). What is the primary medical treatment?",
+      "options": [
+        "Surgical open catheter drainage alone",
+        "Oral Metronidazole followed by a luminal agent (e.g. Paromomycin)",
+        "IV Ceftriaxone + Metronidazole for 6 weeks",
+        "Albendazole 400 mg BD for 28 days",
+        "Percutaneous needle aspiration without antiparasitics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amoebic liver abscess responds excellently to oral/IV Metronidazole or Tinidazole (to clear tissue trophozoites), immediately followed by a luminal amoebicide (Paromomycin or Diloxanide furoate) to eradicate intestinal cysts and prevent relapse."
+    },
+    {
+      "id": 15,
+      "category": "Bacillary Dysentery",
+      "question": "A 5-year-old child presents with high fever, severe tenesmus, and frequent small-volume stools containing frank blood, mucus, and pus. Stool microscopy shows abundant polymorphonuclear leukocytes. Infection with Shigella dysenteriae Type 1 carries a high risk for which severe systemic complication?",
+      "options": [
+        "Ascending Guillain-Barré Syndrome",
+        "Hemolytic Uremic Syndrome (HUS)",
+        "Aortic aneurysm rupture",
+        "Aplastic anemia",
+        "Endomyocardial fibrosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shigella dysenteriae type 1 produces Shiga toxin (Stx), which enters the systemic circulation, injures renal glomerular endothelial cells, and induces microvascular thrombosis, leading to Hemolytic Uremic Syndrome (HUS: microangiopathic hemolytic anemia, thrombocytopenia, AKI)."
+    },
+    {
+      "id": 16,
+      "category": "Bacillary Dysentery",
+      "question": "How does the infectious dose of Shigella species compare to that of Salmonella enterica in causing human clinical infection?",
+      "options": [
+        "Shigella requires a massive inoculum (> 1,000,000 organisms)",
+        "Shigella has an extremely low infectious dose (10-100 organisms)",
+        "Both pathogens require identical inoculums of 50,000 organisms",
+        "Shigella cannot cause infection without viral co-infection",
+        "Salmonella has a lower infectious dose than Shigella"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shigella is highly contagious because it resists gastric acid degradation, requiring an extremely low infectious dose (10-100 bacteria) for clinical infection, enabling rapid person-to-person transmission."
+    },
+    {
+      "id": 17,
+      "category": "Malaria",
+      "question": "A traveler returning from West Africa presents with fever, chills, jaundice, and confusion. A Giemsa-stained thin blood film reveals delicate ring-form trophozoites and banana/crescent-shaped gametocytes inside erythrocytes. Which Plasmodium species is responsible?",
+      "options": [
+        "Plasmodium vivax",
+        "Plasmodium falciparum",
+        "Plasmodium ovale",
+        "Plasmodium malariae",
+        "Plasmodium knowlesi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crescent- or banana-shaped gametocytes on thin blood film are pathognomonic for Plasmodium falciparum, the species responsible for severe and cerebral malaria."
+    },
+    {
+      "id": 18,
+      "category": "Malaria",
+      "question": "Which Plasmodium parasite virulence factor mediates cytoadherence of infected red blood cells to vascular endothelial receptors (ICAM-1, CD36), causing microvascular sequestration and organ ischemic injury in cerebral malaria?",
+      "options": [
+        "Circumsporozoite protein (CSP)",
+        "Plasmodium falciparum erythrocyte membrane protein 1 (PfEMP1)",
+        "Duffy binding protein (DBP)",
+        "Merozoite surface protein 1 (MSP-1)",
+        "Schizont histidine-rich protein 3"
+      ],
+      "correctIndex": 1,
+      "explanation": "PfEMP1 knob proteins exported to the host RBC surface mediate cytoadherence to endothelial cell adhesion molecules, causing rosette formation and microvascular sequestration, preventing splenic clearance and driving cerebral malaria."
+    },
+    {
+      "id": 19,
+      "category": "Malaria",
+      "question": "A patient diagnosed with Plasmodium vivax malaria is successfully treated with Artemether-Lumefantrine. Which additional medication must be administered to prevent distant disease relapse, provided G6PD deficiency is excluded?",
+      "options": [
+        "Oral Quinine sulfate",
+        "Primaquine",
+        "IV Artesunate",
+        "Oral Doxycycline",
+        "Oral Proguanil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plasmodium vivax and P. ovale form dormant hypnozoites in the liver. Primaquine (or Tafenoquine) is essential to eradicate hypnozoites and achieve a radical cure, provided G6PD activity is confirmed normal to avoid severe hemolysis."
+    },
+    {
+      "id": 20,
+      "category": "Severe Malaria",
+      "question": "A 35-year-old female with Plasmodium falciparum malaria becomes somnolent with a GCS of 10/15, serum bilirubin of 85 umol/L, and hemoglobin of 5.2 g/dL. What is the first-line emergency antimalarial treatment of choice?",
+      "options": [
+        "Oral Artemether-Lumefantrine via nasogastric tube",
+        "IV Artesunate",
+        "IM Chloroquine",
+        "IV Quinine dihydrochloride",
+        "Oral Mefloquine"
+      ],
+      "correctIndex": 1,
+      "explanation": "IV Artesunate is superior to IV Quinine for severe malaria, significantly reducing mortality, causing faster parasite clearance, and presenting a lower risk of severe hypoglycemia."
+    },
+    {
+      "id": 21,
+      "category": "Dengue Fever",
+      "question": "A 22-year-old student presents with a 4-day history of high fever, retro-orbital pain, severe myalgias ('breakbone pain'), and a positive tourniquet test. Laboratory testing shows progressive leukopenia and thrombocytopenia (45,000/uL). What immunological mechanism explains severe Dengue Hemorrhagic Fever during a secondary infection?",
+      "options": [
+        "Inhibition of complement C3 convertase",
+        "Antibody-dependent enhancement (ADE)",
+        "Type IV delayed hypersensitivity",
+        "IgE-mediated mast cell degranulation",
+        "Endotoxin-mediated Septic Shock"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heterologous secondary dengue infection allows non-neutralizing cross-reactive IgG antibodies to form complexes with the new viral serotype, facilitating Fc-receptor mediated uptake into monocytes (ADE), inducing massive inflammatory cytokines and vascular leak."
+    },
+    {
+      "id": 22,
+      "category": "Severe Dengue",
+      "question": "During the critical defervescence phase of Dengue fever (days 3-7), which combination of physiological/laboratory indicators signals severe plasma leakage and impending Dengue Shock Syndrome (DSS)?",
+      "options": [
+        "Falling hematocrit with leukocytosis",
+        "Rising hematocrit (>= 20% increase) accompanied by rapid drop in platelet count",
+        "Isolated rise in serum bilirubin",
+        "Development of purulent sputum",
+        "Severe hypertension with bradycardia"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rising hematocrit (indicating hemoconcentration from plasma leakage) paired with a rapid precipitous drop in platelets (< 100,000/uL) signals transition into the critical plasma leak phase."
+    },
+    {
+      "id": 23,
+      "category": "Dengue Fever",
+      "question": "Which class of analgesic/antipyretic medications is strictly contraindicated in patients with suspected Dengue fever due to an exacerbated risk of gastrointestinal hemorrhage and platelet dysfunction?",
+      "options": [
+        "Paracetamol (Acetaminophen)",
+        "Non-Steroidal Anti-Inflammatory Drugs (NSAIDs like Ibuprofen/Aspirin)",
+        "Oral Tramadol",
+        "Intravenous Morphine",
+        "Oral Codeine"
+      ],
+      "correctIndex": 1,
+      "explanation": "NSAIDs (Ibuprofen, Naproxen, Aspirin) worsen mucosal ulceration and irreversibly inhibit platelet function, dramatically increasing bleeding risk in thrombocytopenic dengue patients. Paracetamol is the antipyretic of choice."
+    },
+    {
+      "id": 24,
+      "category": "Neutropenic Fever",
+      "question": "A 55-year-old female receiving chemotherapy for lymphoma presents with a temperature of 38.8 C. Absolute Neutrophil Count (ANC) is 300 cells/uL. She has no localizing symptoms of infection. What is the immediate life-saving management priority?",
+      "options": [
+        "Wait for blood culture results before starting antibiotics",
+        "Immediate empiric IV anti-pseudomonal beta-lactam (e.g. Piperacillin-Tazobactam) within 1 hour",
+        "Oral Amoxicillin-Clavulanate as outpatient",
+        "High-dose oral Fluconazole alone",
+        "Immediate administration of G-CSF without antibiotics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neutropenic fever is a medical emergency. Due to lack of inflammatory neutrophils, systemic infection can rapidly progress to septic shock; empiric IV broad-spectrum anti-pseudomonal coverage (Pip-Tazo, Cefepime, or Meropenem) must be given immediately (< 1 hr)."
+    },
+    {
+      "id": 25,
+      "category": "Pyrexia of Unknown Origin",
+      "question": "According to classic Petersdorf and Beeson criteria, Pyrexia of Unknown Origin (PUO) is defined as a documented fever exceeding 38.3 C on multiple occasions over what minimum time duration without a established diagnosis despite 1 week of investigation?",
+      "options": [
+        "3 days",
+        "3 weeks",
+        "3 months",
+        "6 months",
+        "12 weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Classic PUO is defined as temperature > 38.3 C (101 F) on several occasions, persisting for at least 3 weeks, with diagnosis remaining uncertain after 1 week of inpatient or outpatient evaluation."
+    },
+    {
+      "id": 26,
+      "category": "HIV / AIDS",
+      "question": "In a patient with HIV infection, at what CD4+ T-cell count threshold does the risk of opportunistic infections like Pneumocystis jirovecii pneumonia (PCP) dramatically increase, mandating primary chemoprophylaxis with Co-trimoxazole (TMP-SMX)?",
+      "options": [
+        "< 500 cells/uL",
+        "< 200 cells/uL",
+        "< 50 cells/uL",
+        "< 800 cells/uL",
+        "< 100 cells/uL"
+      ],
+      "correctIndex": 1,
+      "explanation": "A CD4 count < 200 cells/uL defines AIDS and significantly increases risk for PCP pneumonia, triggering primary daily prophylaxis with Trimethoprim-Sulfamethoxazole (TMP-SMX)."
+    },
+    {
+      "id": 27,
+      "category": "HIV / AIDS",
+      "question": "What is the recommended diagnostic screening algorithm for HIV infection in clinical practice?",
+      "options": [
+        "Initial HIV Western Blot followed by CD4 count",
+        "4th generation HIV-1/2 antigen/antibody immunoassay followed by confirmatory differentiation assay and HIV RNA viral load",
+        "Single rapid oral antibody test alone",
+        "Viral culture followed by p24 antigen",
+        "Direct p24 antigen ELISA without antibody testing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern HIV diagnosis uses a 4th-generation HIV-1/2 immunoassay (detects both p24 antigen and HIV antibodies). Positive screens are confirmed with an HIV-1/HIV-2 antibody differentiation immunoassay and quantitative HIV-1 RNA PCR."
+    },
+    {
+      "id": 28,
+      "category": "HIV Opportunistic Infections",
+      "question": "An AIDS patient (CD4 = 45 cells/uL) presents with severe subacute headache, fever, and confusion. Lumbar puncture reveals elevated opening pressure (320 mm H2O) and positive India Ink staining showing encapsulated yeast cells. What is the induction antimicrobial therapy of choice?",
+      "options": [
+        "High-dose oral Fluconazole alone for 2 weeks",
+        "Liposomal Amphotericin B + IV Flucytosine for at least 2 weeks",
+        "IV Acyclovir 10 mg/kg q8h",
+        "Oral Co-trimoxazole high-dose",
+        "IV Ceftriaxone + Vancomycin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cryptococcal meningitis in AIDS requires induction therapy with Liposomal Amphotericin B plus Flucytosine for 2 weeks, followed by consolidation with oral Fluconazole."
+    },
+    {
+      "id": 29,
+      "category": "Leprosy",
+      "question": "A 32-year-old male presents with a solitary hypopigmented, anesthetic skin plaque on his forearm with thickened, palpable right ulnar nerve. Skin slit smear is negative for acid-fast bacilli. Which immunologic response characterizes this Tuberculoid (TT) end of the leprosy spectrum?",
+      "options": [
+        "Defective cell-mediated immunity with high humoral antibody production",
+        "Strong Th1 cell-mediated immunity with localized infection and low bacterial burden",
+        "Complete absence of gamma-interferon production",
+        "Massive intracellular replication of M. leprae in macrophages",
+        "IgE-mediated hypersensitivity reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuberculoid leprosy (TT) features strong Th1 cell-mediated immunity (IFN-gamma, IL-2), controlling M. leprae proliferation into localized, paucibacillary anesthetic lesions with granuloma formation."
+    },
+    {
+      "id": 30,
+      "category": "Leprosy",
+      "question": "According to WHO guidelines, what is the standard multidrug therapy (MDT) regimen for Multibacillary (MB) Leprosy?",
+      "options": [
+        "Oral Dapsone 100 mg daily alone for 6 months",
+        "Rifampicin + Dapsone + Clofazimine for 12 months",
+        "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol for 2 months",
+        "Ciprofloxacin + Azithromycin for 3 months",
+        "Doxycycline + Dapsone for 24 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "WHO Multibacillary Leprosy MDT consists of Rifampicin (monthly supervised), Dapsone (daily unsupervised), and Clofazimine (monthly supervised + daily unsupervised) for 12 months."
+    },
+    {
+      "id": 31,
+      "category": "Rabies Post-Exposure Prophylaxis",
+      "question": "A 14-year-old boy suffers a deep, bleeding bite on his right calf from a stray dog (Category III exposure). What is the single most effective immediate first-aid measure to reduce viral inoculation at the bite site?",
+      "options": [
+        "Immediate suturing of the wound under tension",
+        "Thorough washing of all bite wounds with soap and running water for at least 15 minutes",
+        "Application of tight arterial tourniquet proximal to bite",
+        "Topical application of corticosteroid ointment",
+        "Covering the open wound tightly with adhesive bandage without washing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thorough immediate flushing and washing of animal bite wounds with soap and clean water for at least 15 minutes physically removes and inactivates viral particles, dramatically reducing rabies risk."
+    },
+    {
+      "id": 32,
+      "category": "Rabies Post-Exposure Prophylaxis",
+      "question": "In a rabies-naive patient suffering a Category III exposure (transdermal bite), how should Human Rabies Immunoglobulin (HRIG) be administered?",
+      "options": [
+        "Entire dose injected intramuscularly into gluteal muscle",
+        "Infiltrated as much as anatomically feasible into and around the bite wound(s), with any remaining volume given IM at a anatomical site distant from vaccine",
+        "Administered as a slow IV drip over 24 hours",
+        "Applied topically onto the open wound surface",
+        "Injected into the contralateral deltoid mixed with rabies vaccine"
+      ],
+      "correctIndex": 1,
+      "explanation": "HRIG provides immediate passive neutralization. The full calculated dose (20 IU/kg) should be infiltrated locally into and around all wound edges, with any remaining volume administered IM at a site distant from vaccine injection."
+    },
+    {
+      "id": 33,
+      "category": "Tetanus",
+      "question": "What is the cellular molecular mechanism of tetanospasmin, the potent exotoxin produced by Clostridium tetani in contaminated wounds?",
+      "options": [
+        "ADP-ribosylation of elongation factor 2 (EF-2)",
+        "Retrograde axonal transport to spinal cord Renshaw cells and cleavage of synaptobrevin, blocking inhibitory GABA and glycine release",
+        "Direct lysis of red blood cell membranes",
+        "Activation of mucosal guanylate cyclase",
+        "Inhibition of presynaptic voltage-gated calcium channels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tetanospasmin migrates retrogradely along motor axons into spinal interneurons (Renshaw cells), cleaving VAMP/synaptobrevin. This prevents inhibitory neurotransmitter (GABA/glycine) release, causing unopposed motor neuron firing, trismus, and opisthotonos."
+    },
+    {
+      "id": 34,
+      "category": "Antimicrobial Resistance",
+      "question": "Methicillin-Resistant Staphylococcus aureus (MRSA) confers resistance to virtually all beta-lactam antibiotics (penicillins, cephalosporins, carbapenems) through acquisition of the mecA gene. What structural protein modification does mecA encode?",
+      "options": [
+        "Inactivation via TEM-1 beta-lactamase enzyme",
+        "Production of altered Penicillin-Binding Protein 2a (PBP2a) with low affinity for beta-lactams",
+        "Efflux pump overexpression pumping out penicillins",
+        "Mutated DNA gyrase subunit A",
+        "Thickened outer membrane lipopolysaccharide layer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mecA gene encodes PBP2a, an altered penicillin-binding protein with very low binding affinity for beta-lactam antibiotics, permitting cell wall synthesis despite lethal drug concentrations."
+    },
+    {
+      "id": 35,
+      "category": "Scrub Typhus",
+      "question": "A 35-year-old farmer presents with high fever, eschar (punched-out ulcer with black necrotic crust) at the site of a chigger mite bite, regional lymphadenopathy, and maculopapular rash. What is the causative organism and drug of choice?",
+      "options": [
+        "Rickettsia prowazekii; Rx: Ceftriaxone",
+        "Orientia tsutsugamushi; Rx: Doxycycline",
+        "Coxiella burnetii; Rx: Ciprofloxacin",
+        "Bartonella henselae; Rx: Azithromycin",
+        "Borrelia burgdorferi; Rx: Amoxicillin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Orientia tsutsugamushi (transmitted by trombiculid mite chiggers) causes Scrub Typhus, characterized by a pathognomonic bite eschar, fever, LAD, and rash. Oral Doxycycline 100 mg BD for 7 days is the treatment of choice."
+    },
+    {
+      "id": 36,
+      "category": "Leptospirosis",
+      "question": "A sewage maintenance worker presents with high fever, conjunctival suffusion (redness without exudate), severe calf muscle tenderness, jaundice, oliguria, and hemoptysis (Weil's disease). What is the pathogen and reservoir?",
+      "options": [
+        "Leptospira interrogans transmitted via water contaminated with infected rodent urine",
+        "Borrelia recurrentis transmitted via body lice",
+        "Brucella melitensis transmitted via unpasteurized goat milk",
+        "Francisella tularensis transmitted via tick bites",
+        "Legionella pneumophila transmitted via air conditioning towers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leptospira interrogans is shed in rodent urine into water/soil, penetrating human skin/mucosa. Severe Leptospirosis (Weil's disease) features the classic triad of jaundice, renal failure, and hemorrhagic diathesis."
+    },
+    {
+      "id": 37,
+      "category": "Viper Envenomation",
+      "question": "A 45-year-old farmer is bitten on the ankle by a Russell's viper. Within 2 hours, he develops swelling, ecchymosis, bleeding from venepuncture sites, and unclottable blood on a 20-minute Whole Blood Clotting Test (20WBCT). What is the immediate definitive therapy?",
+      "options": [
+        "Surgical incision and oral suctioning of bite site",
+        "Immediate IV Polyvalent Anti-Snake Venom (ASV)",
+        "Intramuscular Neostigmine with Atropine",
+        "Application of tight arterial tourniquet",
+        "Administration of IV Vitamin K alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Russell's viper bite induces severe consumption coagulopathy and tissue necrosis. A positive 20WBCT (unclottable blood after 20 mins) confirms systemic venom-induced consumption coagulopathy (VICC), mandating immediate IV Polyvalent ASV."
+    }
+  ],
   "Final Part 2 Medicine - Nephrology": [
     {
       "id": 8,

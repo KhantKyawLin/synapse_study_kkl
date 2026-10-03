@@ -1107,6 +1107,228 @@
       ]
     }
   ],
+  "Final Part 2 - Infectious Diseases Database": [
+    {
+      "Name": "Enteric Fever (Typhoid & Paratyphoid)",
+      "Tag": "Systemic Bacterial Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Systemic infection caused by Salmonella enterica serovars Typhi or Paratyphoid A, B, C; transmitted via fecal-oral route through contaminated food/water."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bacteria invade intestinal M cells of Peyer's patches, disseminate through mesenteric lymph nodes into thoracic duct, causing secondary bacteremia and reticuloendothelial seeding."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Step-ladder fever, relative bradycardia (Faget sign), rose spots on abdomen, hepatosplenomegaly, pea-soup diarrhea or constipation; Red flags: intestinal perforation, GI hemorrhage."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood culture (gold standard 1st week); stool/urine culture (2nd-3rd week); Widal test (O & H titers); Primary Rx: IV Ceftriaxone or oral Azithromycin (due to fluoroquinolone resistance)."
+        }
+      ]
+    },
+    {
+      "Name": "Cholera",
+      "Tag": "Enteric & Diarrheal Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute secretory diarrheal disease caused by Vibrio cholerae (serogroups O1 and O139); transmitted by fecal-oral contamination of water supplies."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cholera toxin (AB toxin) binds GM1 ganglioside, irreversibly activates adenylate cyclase, elevating intracellular cAMP and causing massive hypersecretion of water and electrolytes into gut lumen."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Profuse painless 'rice-water' liquid stools, fishy odor, projectile vomiting, severe dehydration (sunken eyes, washerwoman hands, loss of skin turgor), hypovolemic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Darkfield microscopy (darting motility); stool culture on TCBS agar; Primary Rx: Aggressive oral rehydration therapy (ORS) or IV Ringer's Lactate; adjunctive Azithromycin or Doxycycline."
+        }
+      ]
+    },
+    {
+      "Name": "Amoebic Dysentery & Amoebic Liver Abscess",
+      "Tag": "Protozoal & Parasitic Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection caused by Entamoeba histolytica following ingestion of mature quadrinucleate cysts in contaminated food/water."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Trophozoites invade colonic mucosa, creating classic 'flask-shaped' ulcers; hematogenous spread via portal circulation to liver causes liquefactive necrosis (amoebic liver abscess)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dysentery with blood and mucus, abdominal colic, tenesmus; Liver abscess: RUQ pain, high fever, right shoulder pain, hepatomegaly; 'Anchovy sauce' brown pus on aspiration."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Stool microscopy (E. histolytica cysts/trophozoites with ingested RBCs); stool antigen/PCR; USG/CT abdomen for liver mass; Rx: Oral Metronidazole/Tinidazole followed by luminal agent (Paromomycin/Diloxanide furoate)."
+        }
+      ]
+    },
+    {
+      "Name": "Bacillary Dysentery (Shigellosis)",
+      "Tag": "Enteric & Diarrheal Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute intestinal infection caused by Shigella species (S. dysenteriae, S. flexneri, S. sonnei); highly contagious via fecal-oral route with low infectious dose (10-100 organisms)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Invades colonic epithelial cells, inducing intracellular replication and cell-to-cell spread; S. dysenteriae type 1 produces Shiga toxin, causing mucosal microvascular damage and HUS."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "High fever, severe abdominal cramps, tenesmus, frequent small-volume stools with frank blood, pus, and mucus; Red flags: Toxic megacolon, Hemolytic Uremic Syndrome (HUS)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Stool microscopy (abundant PMNs and RBCs); stool culture on MacConkey/XLD agar; Primary Rx: Rehydration + Ciprofloxacin, Azithromycin, or Ceftriaxone."
+        }
+      ]
+    },
+    {
+      "Name": "Malaria (P. falciparum vs P. vivax/ovale)",
+      "Tag": "Vector-Borne Parasitic Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Mosquito-borne protozoal infection transmitted by female Anopheles mosquitoes; caused by Plasmodium falciparum, P. vivax, P. ovale, or P. malariae."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sporozoites infect hepatocytes (forming hypnozoites in vivax/ovale); merozoites invade RBCs causing synchronous hemolysis; P. falciparum erythrocyte membrane protein 1 (PfEMP1) causes cytoadherence and microvascular sequestration."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Paroxysmal fever with chills/rigors, diaphoresis, splenomegaly, anemia, jaundice; Severe/Cerebral Malaria (P. falciparum): impaired consciousness, seizures, ARDS, severe anemia, hemoglobinuria (blackwater fever)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Giemsa-stained thick (sensitivity) and thin (species identification) blood films; Rapid Diagnostic Tests (RDTs for PfHRP-2); Rx: Artemisinin-based Combination Therapy (ACT e.g. Artemether-Lumefantrine); IV Artesunate for severe malaria; Primaquine for relapse prevention (vivax/ovale after G6PD check)."
+        }
+      ]
+    },
+    {
+      "Name": "Dengue Fever & Severe Dengue",
+      "Tag": "Vector-Borne Viral Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Arboviral infection caused by Dengue Virus (serotypes DENV 1-4) transmitted by Aedes aegypti / Aedes albopictus mosquitoes."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Secondary infection with different serotype causes antibody-dependent enhancement (ADE), triggering massive inflammatory cytokine release, endothelial dysfunction, and severe capillary permeability."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden high fever ('breakbone fever'), severe retro-orbital headache, myalgias, arthralgias, maculopapular rash, positive tourniquet test; Severe Dengue: plasma leakage, pleural effusion/ascites, severe bleeding, dengue shock syndrome (DSS)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "NS1 antigen ELISA (days 1-5); IgM/IgG serology (after day 5); CBC (leukopenia, progressive thrombocytopenia, rising hematocrit indicating plasma leakage); Rx: Isotonic fluid management; Avoid NSAIDs/Aspirin due to bleeding risk."
+        }
+      ]
+    },
+    {
+      "Name": "Pyrexia of Unknown Origin (PUO) & Neutropenic Fever",
+      "Tag": "Systemic & Immunocompromised Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "PUO: Fever > 38.3 C on multiple occasions for > 3 weeks without diagnosis. Neutropenic Fever: Fever >= 38.3 C with ANC < 500 cells/uL in oncology patients."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "In neutropenia, absence of mature neutrophils prevents normal localized inflammatory response, allowing minor mucosal translocation of pathogens to rapidly progress to fulminant bacteremia."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent unexplained fever, rigors, mucositis, subtle catheter site erythema; Red flags: septic shock, rapid hemodynamic instability."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood cultures x 2 sets (peripheral and central lines), CBC with differential, CRP, CXR, urinalysis; Neutropenic Fever Rx: Immediate empiric broad-spectrum anti-pseudomonal beta-lactam (Piperacillin-Tazobactam or Cefepime IV) within 1 hour."
+        }
+      ]
+    },
+    {
+      "Name": "HIV/AIDS & Antiretroviral Therapy (ART)",
+      "Tag": "Immunodeficiency & Retroviral Diseases",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Human Immunodeficiency Virus (HIV-1/2) infection transmitted via sexual contact, blood exposure, or vertical transmission."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Viral gp120 binds CD4 molecule and CCR5/CXCR4 co-receptors, infecting and destroying CD4+ T helper lymphocytes, causing progressive cellular immune deficiency."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Acute HIV syndrome (fever, LAD, rash); Asymptomatic phase; AIDS (CD4 < 200/uL): opportunistic infections (Pneumocystis pneumonia / PCP, Cryptococcal meningitis, CNS Toxoplasmosis, esophageal candidiasis, Kaposi sarcoma)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "4th generation HIV 1/2 antigen/antibody immunoassay; confirmatory HIV-1 RNA PCR; CD4 count & viral load monitoring; Primary Rx: Highly Active Antiretroviral Therapy (HAART: 2 NRTIs + 1 NNRTI/INSTI e.g. Tenofovir + Lamivudine + Dolutegravir); Cotrimoxazole prophylaxis when CD4 < 200."
+        }
+      ]
+    },
+    {
+      "Name": "Leprosy (Hansen's Disease)",
+      "Tag": "Chronic Mycobacterial Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic granulomatous disease caused by Mycobacterium leprae; affects skin, peripheral nerves, and upper respiratory tract mucosa."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cell-mediated immune response dictates spectrum: Tuberculoid (strong Th1 immunity, localized hypopigmented anesthetic plaques) vs Lepromatous (weak immunity, diffuse nodular skin lesions, high bacterial burden)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hypopigmented or erythematous skin lesions with loss of sensation, thickened peripheral nerves (ulnar, common peroneal), claw hand, foot drop, leonine facies, painless trophic ulcers."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Slit-skin smear for Acid-Fast Bacilli (AFB / Fite-Faraco stain); skin biopsy; Primary Rx: WHO Multidrug Therapy (MDT) — Paucibacillary (Rifampicin + Dapsone for 6 months), Multibacillary (Rifampicin + Dapsone + Clofazimine for 12 months)."
+        }
+      ]
+    },
+    {
+      "Name": "Rabies & Tetanus Prophylaxis",
+      "Tag": "Neurotropic Inoculation Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Rabies: Lyssavirus transmitted via saliva from infected animal bite (dogs, bats). Tetanus: Clostridium tetani exotoxin (tetanospasmin) from soil-contaminated wounds."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rabies virus travels retrograde via peripheral nerves to CNS causing encephalitis; Tetanospasmin retrogradely migrates to spinal cord, inhibiting Renshaw cell GABA/glycine release causing trismus and spasms."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Rabies: Hydrophobia, aerophobia, agitation, hypersalivation, fatal encephalopathy; Tetanus: Trismus (lockjaw), risus sardonicus, painful muscle spasms, opisthotonos."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Rabies post-exposure prophylaxis (PEP): Thorough wound washing with soap & water for 15 min + Rabies Vaccine (days 0, 3, 7, 14) + Rabies Immunoglobulin (RIG) infiltrated into wound; Tetanus: Wound debridement + Tetanus Toxoid booster + Tetanus Immunoglobulin (TIG) for dirty wounds."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Nephrology Database": [
     {
       "Name": "Post-Streptococcal Acute Glomerulonephritis (PSGN)",

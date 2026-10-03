@@ -6411,6 +6411,406 @@
       "answer": "The threshold is lower ($< 11$ g/dL) due to physiological plasma expansion."
     },
     {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the typical microscopic appearance of $Vibrio cholerae$ in stool samples?",
+      "answer": "Gram-negative, comma-shaped bacilli."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In cholera diagnosis, what specific movement is observed during stool dark-field microscopy?",
+      "answer": "‘Shooting star’ (or darting) motility."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which diagnostic preparation of fresh stool is used to observe the 'darting motility' of $V. cholerae$?",
+      "answer": "Hanging drop preparation on dark ground microscopy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the classic physical characteristics of 'rice-water' cholera stool?",
+      "answer": "Gray watery appearance with floating mucus."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Under international health regulations (IHR), cholera is classified as a _____ disease.",
+      "answer": "Notifiable"
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the first-line intravenous fluid used for prompt replacement of water and electrolytes in cholera patients?",
+      "answer": "IV Ringer’s lactate."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Once a cholera patient is rehydrated and vomiting stops, what is the recommended hourly oral fluid intake limit?",
+      "answer": "$500$ mL."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How does early intervention with ORS containing resistant starch (rice or cereal-based) affect cholera prognosis?",
+      "answer": "It shortens the duration of diarrhoea and improves prognosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In cases of severe cholera, what is the purpose of using a 'cholera cot' with a graded bucket?",
+      "answer": "To maintain an accurate intake-output chart of fluid loss."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the clinical signs of severe dehydration in a cholera patient indicating the need for IV replacement?",
+      "answer": "Altered consciousness, skin tenting, dry tongue, decreased pulses, and low blood pressure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the recommended dose and duration for PO Tetracycline in cholera management?",
+      "answer": "$250$ mg four times daily (QID) for $3$ days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the standard single dose of PO Doxycycline for treating cholera?",
+      "answer": "$300$ mg once daily (OD)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the single-dose treatment of PO Ciprofloxacin for cholera?",
+      "answer": "$1$ g."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "The presence of motile trophozoites containing RBCs in a stool sample is a sign of _____.",
+      "answer": "Erythrophagocytosis (Amoebic Dysentery)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which diagnostic procedure reveals 'flask-shaped' ulcers in the colon of a patient with amoebiasis?",
+      "answer": "Sigmoidoscopy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the typical clinical findings on a Full Blood Count (FBC) and Chest X-ray (CXR) for a suspected amoebic liver abscess?",
+      "answer": "Neutrophil leucocytosis on FBC and a raised right hemidiaphragm on CXR."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the characteristic visual appearance of aspirated pus from an amoebic liver abscess?",
+      "answer": "Chocolate-brown (anchovy sauce) appearance."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Amoebic liver abscess is definitively confirmed using which imaging modality?",
+      "answer": "Ultrasonic scanning."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How does the sensitivity of the Immunofluorescence Ab technique for amoebiasis differ between hepatic and dysenteric forms?",
+      "answer": "It is positive in over $95\\%$ of hepatic cases but only about $60\\%$ of dysenteric cases."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the first-line pharmacological treatment for intestinal and early hepatic amoebiasis?",
+      "answer": "PO Metronidazole ($800$ mg TDS for $5$–$10$ days)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the dose and duration for PO Tinidazole or Ornidazole in treating amoebiasis?",
+      "answer": "$2$ g once daily (OD) for $3$ days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which drug is used specifically to eliminate luminal cysts after acute treatment of amoebiasis?",
+      "answer": "Diloxanide furoate (or paromomycin)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Under what condition is immediate surgical drainage or aspiration required for an amoebic liver abscess?",
+      "answer": "If the abscess ruptures into the pleural cavity, pericardial sac, or peritoneal cavity."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the four main groups of organisms that cause Bacillary Dysentery (Shigellosis)?",
+      "answer": "$Sh. dysenteriae$, $flexneri$, $boydii$, and $sonnei$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How many organisms are typically required to cause a $Shigella$ infection?",
+      "answer": "A low infecting dose of around $10$ organisms."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the '5 Fs' responsible for the spread of Bacillary Dysentery?",
+      "answer": "Flies, Food, Fingers, Feces, and Fluids (Fomites)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which anatomical structure do the Gram-negative rods of $Shigella$ primarily invade?",
+      "answer": "The colonic mucosa."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the standard treatment regimen for uncomplicated $Plasmodium falciparum$ malaria?",
+      "answer": "Artemisinin-based combination therapy (ACT) for $3$ days plus a single dose of Primaquine ($0.25$ mg/kg)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which drugs are used to treat malaria caused by $P. vivax$, $P. malariae$, and $P. ovale$?",
+      "answer": "Chloroquine and Primaquine."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the duration of Primaquine treatment required to prevent relapse in $P. vivax$ and $P. ovale$ infections?",
+      "answer": "$14$ days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Term: Hypnozoite",
+      "answer": "Definition: The dormant liver stage of $Plasmodium vivax$ and $Plasmodium ovale$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which class of drugs is effective against the liver dormant stages (hypnozoites) of malaria?",
+      "answer": "8-aminoquinolines (e.g., Primaquine, Tafenoquine)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "For mixed malaria infections, what is the standard treatment protocol?",
+      "answer": "ACT for $3$ days plus Primaquine for $14$ days."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In Dengue Hemorrhagic Fever (DHF), a rise in Hematocrit (HCT) of $\\ge 20\\%$ indicates _____.",
+      "answer": "Plasma leakage"
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the clinical signs of plasma leakage in severe dengue?",
+      "answer": "Pleural effusion, ascites, and hypoproteinemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Dengue Shock Syndrome (DSS) is defined as the four criteria for DHF plus evidence of _____.",
+      "answer": "Circulatory failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What constitutes a 'narrow pulse pressure' in the context of Dengue Shock Syndrome?",
+      "answer": "$20$ mmHg or less."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the characteristic skin and mental state findings in Dengue Shock Syndrome?",
+      "answer": "Cold, clammy skin and restlessness."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How should fluid management be adjusted for a dengue patient without warning signs whose oral intake is inadequate?",
+      "answer": "Add IV fluid so that the sum of oral and IV intake equals maintenance levels."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What laboratory parameters must be monitored in the critical phase of dengue infection?",
+      "answer": "Hematocrit (Hct), white blood cell count, and platelet count."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the most likely cause of pyrexia of unknown origin (PUO) in children and younger adults?",
+      "answer": "Infectious causes, particularly viral infections."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In older adults, how do the likely causes of PUO differ from younger populations?",
+      "answer": "They are equally likely to have infectious and non-infectious causes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the approximate percentage of PUO cases attributed to infections?",
+      "answer": "$30\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "List three examples of viral infections that are common causes of PUO.",
+      "answer": "HIV-1, Cytomegalovirus (CMV), and Epstein-Barr virus (EBV)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which regional infectious causes of PUO are associated with South-east Asia?",
+      "answer": "$Burkholderia pseudomallei$ (Melioidosis) and Dengue."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What infectious causes of PUO are associated with recent travel to Africa?",
+      "answer": "Malaria, enteric fevers, and Trypanosoma brucei."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Nosocomial infections that may present as PUO include pneumonia and infections related to _____.",
+      "answer": "Prosthetic materials or surgical procedures."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Why is Tropical Sprue considered likely to be infective in origin?",
+      "answer": "Because it occurs in epidemics and patients improve on antibiotics."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the non-antibiotic component of treatment for Tropical Sprue?",
+      "answer": "Folic acid ($5$ mg daily)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the antibiotic of choice for Tropical Sprue, and how long may treatment last?",
+      "answer": "Tetracycline ($1$ g daily) for up to $6$ months."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the preferred treatment for small bowel bacterial overgrowth ('blind loop syndrome')?",
+      "answer": "Tetracycline ($250$ mg $6$-hourly for $7$ days)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Name two alternative antibiotics for the management of small bowel bacterial overgrowth.",
+      "answer": "Metronidazole ($400$ mg $8$-hourly) or Ciprofloxacin ($250$ mg $12$-hourly)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the diagnostic significance of 'Kerley B lines' on a chest X-ray in a medical context?",
+      "answer": "They indicate interstitial oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In the 'vicious circle' of heart failure, neurohumoral activation leads to vasoconstriction and _____.",
+      "answer": "Sodium and water retention."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which system, activated in heart failure, involves renin, angiotensin, and aldosterone?",
+      "answer": "The Renin-Angiotensin System (RAS)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the effect of ACE inhibitors on cardiac preload and afterload?",
+      "answer": "They reduce both preload and afterload."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which class of drugs is contraindicated in patients with severe asthma or COPD in heart failure management?",
+      "answer": "Beta-blockers."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What electrolyte imbalance is a common complication of heart failure or its treatment?",
+      "answer": "Hypokalaemia, hyperkalaemia, or hyponatraemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In pneumonia management, when should the first dose of antibiotics ideally be administered?",
+      "answer": "Within $1$ hour of identifying high-risk criteria."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "When should parenteral antibiotics be switched to oral therapy in a pneumonia patient?",
+      "answer": "Once the temperature has settled for $24$ hours (if no contraindications)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which parasitic infection is suspected if a patient has a liver abscess and serum Ab are positive via immunofluorescence?",
+      "answer": "Hepatic amoebiasis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How is the diagnosis of $V. cholerae$ confirmed in a laboratory?",
+      "answer": "By rectal swab or stool cultures."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the primary goal of managing small bowel bacterial overgrowth?",
+      "answer": "Addressing the underlying cause."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the 'warning signs' that should be monitored in a patient with dengue?",
+      "answer": "Abdominal pain, persistent vomiting, fluid accumulation, mucosal bleed, lethargy, and liver enlargement."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "In the treatment of amoebiasis, what alternative drug can be used if metronidazole is not preferred?",
+      "answer": "PO Nitazoxanide ($500$ mg BD for $3$ days)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What common symptom of RVF involves fluid accumulation in the abdomen?",
+      "answer": "Ascites."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which malaria species requires a single stat dose of Primaquine in addition to ACT?",
+      "answer": "$Plasmodium falciparum$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which diagnostic test for malaria targets the identification of gametocyte stages?",
+      "answer": "Blood films (implied by the lifecycle stages listed)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "High-output heart failure can be caused by which nutritional deficiency?",
+      "answer": "Beriberi (Thiamine deficiency)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the clinical definition of Systolic Heart Failure regarding Ejection Fraction (EF)?",
+      "answer": "EF is less than $40\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "A heart failure patient with EF greater than $50\\%$ is typically classified as having _____.",
+      "answer": "Diastolic failure"
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What are the three main determinants of Cardiac Output?",
+      "answer": "Preload, Afterload, and Myocardial contractility."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Paroxysmal nocturnal dyspnoea (PND) is a symptom characteristic of which type of heart failure?",
+      "answer": "Left Ventricular Failure (LVF)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which physical sign is characteristic of Right Ventricular Failure (RVF)?",
+      "answer": "Peripheral oedema (pitting oedema) or raised JVP."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which drug is specifically used to control heart rate in patients with heart failure and atrial fibrillation?",
+      "answer": "Digoxin."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What side effect of ACE inhibitors often leads to the substitution with an ARB?",
+      "answer": "Dry cough."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "Which heart failure medication improves long-term outcomes in severe systolic dysfunction but acts primarily as a diuretic?",
+      "answer": "Mineralocorticoid receptor antagonists (e.g., spironolactone)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "How should beta-blockers be introduced to a patient with chronic heart failure?",
+      "answer": "Start with a low dose and gradually increase the dose."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "List three poor prognostic features in heart failure patients.",
+      "answer": "Worse NYHA class, higher BNP levels, and hyponatraemia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Infectious Diseases",
+      "question": "What is the 5-year survival rate for patients diagnosed with heart failure?",
+      "answer": "$50\\%$ to $75\\%$ (based on a $25$-$50\\%$ death rate)."
+    },
+    {
       "category": "Final Part 2 Medicine - Nephrology",
       "question": "What is the clinical triad defining Nephrotic Syndrome?",
       "answer": "Proteinuria ($> 3$ g/24h), hypoalbuminaemia ($< 30$ g/L), and generalized oedema."
