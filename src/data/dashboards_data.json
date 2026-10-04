@@ -221,6 +221,228 @@
       ]
     }
   ],
+  "Final Part 2 - Emergency Medicine & Toxicology Database": [
+    {
+      "Name": "Organophosphate Insecticide Poisoning",
+      "Tag": "Toxicology & Poisoning",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute poisoning from agricultural organophosphate/carbamate pesticides; high mortality via oral ingestion, inhalation, or dermal absorption."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Irreversible inhibition of acetylcholinesterase (AChE) enzyme, causing acetylcholine accumulation at muscarinic, nicotinic, and CNS synapses."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "DUMBBELSS (Diarrhea, Urination, Miosis, Bradycardia, Bronchospasm, Emesis, Lacrimation, Salivation, Sweating); fasciculations, paralysis, seizures, coma."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Red blood cell / serum cholinesterase activity (<20-50%); Atropine stat (1.8-3 mg IV double q3-5m until clear chest lungs/dry secretions) + Pralidoxime (oxime)."
+        }
+      ]
+    },
+    {
+      "Name": "Paracetamol (Acetaminophen) Overdose",
+      "Tag": "Toxicology & Poisoning",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute toxic hepatopathy caused by intentional or accidental ingestion of >7.5-10 g (or >150 mg/kg) paracetamol."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Excess N-acetyl-p-benzoquinone imine (NAPQI) toxic metabolite depletes hepatic glutathione, causing hepatocellular necrosis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Phase 1: Nausea/vomiting. Phase 2 (24-48h): RUQ pain, elevated AST/ALT. Phase 3 (72-96h): Jaundice, encephalopathy, coagulopathy, AKI, liver failure."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum paracetamol level plotted on Rumack-Matthew nomogram; elevated AST/ALT/INR; N-acetylcysteine (NAC) IV/oral stat (most effective within 8 hours)."
+        }
+      ]
+    },
+    {
+      "Name": "Narcotics & Opioid Overdose",
+      "Tag": "Toxicology & Poisoning",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute toxicity from heroin, morphine, methadone, fentanyl, or codeine ingestion/injection."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Overstimulation of mu-opioid receptors in CNS depresses brainstem respiratory center and blunts responsiveness to hypercapnia/hypoxia."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Opioid triad: CNS depression/coma, pin-point pupils (miosis), and severe respiratory depression/apnea; hypothermia, bradycardia, pulmonary edema."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis; urine toxicology screen; ABG showing respiratory acidosis; immediate bag-valve-mask ventilation + IV/IM Naloxone (0.4-2 mg stat)."
+        }
+      ]
+    },
+    {
+      "Name": "Viper Envenomation (Hematotoxic Snakebite)",
+      "Tag": "Environmental Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Envenomation by Russell's viper or Saw-scaled viper; primary toxicity is hemotoxic and vasculotoxic."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Procoagulant toxins activate clotting factors causing consumption coagulopathy (DIC-like state), microvascular damage, and local tissue necrosis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe local swelling, blistering, active bleeding from bite site, gums, hematuria, hemoptysis, hypovolemic/septic shock, acute kidney injury."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "20-Minute Whole Blood Clotting Test (20WBCT) showing uncoagulable blood; polyvalent Anti-Snake Venom (ASV) 10 vials IV in 0.9% NS over 1 hour."
+        }
+      ]
+    },
+    {
+      "Name": "Cobra / Krait Envenomation (Neurotoxic Snakebite)",
+      "Tag": "Environmental Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Envenomation by Naja naja (Cobra) or Bungarus caeruleus (Krait); nocturnal bites frequently while sleeping."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Post-synaptic (Cobra) or pre-synaptic (Krait) neurotoxins block neuromuscular transmission at nicotinic acetylcholine receptors."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Bilateral ptosis, diplopia, ophthalmoplegia, dysphagia, dysarthria, descending flaccid paralysis, respiratory muscle paralysis/apnea."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Neurological clinical signs; 20WBCT (usually normal); polyvalent ASV 10 vials IV + Neostigmine (0.5-2.5 mg IV) + Atropine (for post-synaptic neurotoxicity)."
+        }
+      ]
+    },
+    {
+      "Name": "Heat Stroke (Classic vs Exertional)",
+      "Tag": "Environmental Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Life-threatening hyperthermic emergency defined by core body temperature >40°C (104°F) accompanied by severe CNS dysfunction."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Failure of thermoregulation leads to systemic inflammatory response syndrome (SIRS), cellular protein denaturation, multiorgan failure, and DIC."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hyperpyrexia (>40°C), altered mental status, confusion, delirium, seizures, coma, hot dry skin (classic) or diaphoresis (exertional), hypotension."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Core (rectal) temperature >40°C; DIC panel, elevated CPK/renal function; immediate aggressive cooling (cold water immersion / evaporative mist + fan) to <38.5°C."
+        }
+      ]
+    },
+    {
+      "Name": "Anaphylaxis & Anaphylactic Shock",
+      "Tag": "Emergency Medicine",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe, systemic, life-threatening Type I IgE-mediated hypersensitivity reaction triggered by drugs (penicillins, NSAIDs), stings, or food."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Massive IgE-mediated degranulation of mast cells and basophils releases histamine, leukotrienes, and tryptase, causing systemic vasodilation and bronchospasm."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Urticaria, angioedema (lip/tongue/airway swelling), stridor, severe wheezing, profound hypotension, dizziness, collapse, abdominal cramps."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis; serum tryptase (retrospective); immediate Intramuscular Epinephrine / Adrenaline (1:1000, 0.5 mg IM anterolateral thigh stat, repeat q5-15m)."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Alcohol Intoxication & Wernicke Encephalopathy",
+      "Tag": "Toxicology & Poisoning",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe ethanol ingestion coupled with chronic thiamine (Vitamin B1) deficiency common in alcohol use disorder."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Thiamine deficiency impairs pyruvate dehydrogenase, causing impaired cerebral glucose metabolism and oxidative neuronal damage in mammillary bodies."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Wernicke triad: Acute confusion/delirium, ataxia (broad-based gait), and ophthalmoplegia/nystagmus; hypoglycemia, stupor, hypothermia."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Bedside capillary blood glucose; clinical triad; High-dose IV Thiamine (500 mg IV TID x 3 days) ALWAYS administered BEFORE IV Dextrose infusion."
+        }
+      ]
+    },
+    {
+      "Name": "Severe Burns & Hypovolemic Shock",
+      "Tag": "Environmental Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thermal, chemical, or electrical injury involving deep partial-thickness or full-thickness destruction of skin surface area."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Massive systemic capillary leak driven by inflammatory cytokines leads to rapid fluid extravasation into interstitial space and burn shock."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Erythema, blistering, charred eschar, hypovolemic shock, oliguria, airway edema/stridor (inhalation injury), circumferential eschar constriction."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Percentage Total Body Surface Area (%TBSA) via Rule of Nines; Parkland Formula (4 mL x kg x %TBSA Ringer's Lactate in first 24h: 1/2 in first 8h)."
+        }
+      ]
+    },
+    {
+      "Name": "Carbon Monoxide (CO) Poisoning",
+      "Tag": "Toxicology & Poisoning",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Inhalation toxicity from incomplete combustion of carbonaceous fuels (generators, fires, faulty heaters) in enclosed spaces."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "CO binds hemoglobin with >200x affinity of oxygen, forming carboxyhemoglobin (COHb), shifting O2-Hb dissociation curve left and inhibiting cellular respiration."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Headache (most common early sign), dizziness, confusion, nausea, cherry-red skin (rare/late), angina, coma, seizures."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Arterial/venous blood gas co-oximetry showing elevated Carboxyhemoglobin (COHb >10-15%); 100% High-Flow Normobaric or Hyperbaric Oxygen (HBO)."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Endocrinology Database": [
     {
       "Name": "Type 1 Diabetes Mellitus (T1DM)",

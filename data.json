@@ -5336,6 +5336,331 @@
       "answer": "Venodilator"
     },
     {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the clinical definition of heart failure?",
+      "answer": "A clinical syndrome that develops when the heart cannot maintain adequate output, or can do so only at the expense of elevated ventricular filling pressure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which three primary factors determine cardiac output?",
+      "answer": "1. Preload\n2. Afterload\n3. Myocardial contractility"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In cardiovascular physiology, what defines 'preload'?",
+      "answer": "The volume and pressure of blood in the ventricles at the end of diastole."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In cardiovascular physiology, what defines 'afterload'?",
+      "answer": "The volume and pressure of blood in the ventricles during systole."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the key pathophysiological feature and ejection fraction threshold in systolic heart failure?",
+      "answer": "Inability of the ventricle to contract normally, defined by an Ejection Fraction (EF) $< 40\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the key pathophysiological feature and ejection fraction threshold in diastolic heart failure?",
+      "answer": "Inability of the ventricle to relax and fill normally, with a preserved Ejection Fraction (EF) $> 50\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the mathematical formula for calculating Left Ventricular Ejection Fraction (EF)?",
+      "answer": "$\\text{EF} = \\left( \\frac{\\text{stroke volume}}{\\text{end-diastolic volume}} \\right) \\times 100$"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which conditions are classified as causes of high-output heart failure?",
+      "answer": "• Pregnancy\n• Severe anaemia\n• Thyrotoxicosis\n• Beriberi\n• Arteriovenous malformation\n• Paget’s disease"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which heart failure etiology acts via the mechanism of reduced ventricular contractility?",
+      "answer": "Myocardial ischaemia or infarction, myocarditis, and cardiomyopathy."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which conditions cause left heart failure via ventricular outflow obstruction?",
+      "answer": "Hypertension and aortic stenosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which conditions cause right heart failure via ventricular outflow obstruction?",
+      "answer": "Pulmonary hypertension and pulmonary stenosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which valvular lesions lead to ventricular inflow obstruction?",
+      "answer": "Mitral stenosis and tricuspid stenosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which valvular and structural heart diseases cause heart failure through ventricular volume overload?",
+      "answer": "• Mitral regurgitation\n• Aortic regurgitation\n• Ventricular septal defect (VSD)\n• Atrial septal defect (ASD)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which pathologies cause diastolic dysfunction leading to heart failure?",
+      "answer": "• Left ventricular hypertrophy\n• Constrictive pericarditis\n• Restrictive cardiomyopathy\n• Cardiac tamponade"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Examining the valve mechanisms in cardiac cycles below: Diagram comparing heart valve status during diastole and systole Which valves open during diastole to allow ventricular filling?",
+      "answer": "Tricuspid valve and Mitral valve."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which pharmaceutical agents can precipitate acute exacerbations of heart failure?",
+      "answer": "NSAIDs, glucocorticoids, and verapamil."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the primary symptoms associated with Left Ventricular Failure (LVF)?",
+      "answer": "Poor exercise tolerance, fatigue, dyspnoea, orthopnea, paroxysmal nocturnal dyspnoea (PND), nocturnal cough ($\\pm$ pink frothy sputum), nocturia, and weight loss."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the primary symptoms associated with Right Ventricular Failure (RVF)?",
+      "answer": "Peripheral oedema (extending to thighs, sacrum, abdominal wall), ascites, nausea, anorexia, and epigastric discomfort."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Diagram comparing physical signs of left heart failure vs right heart failure Based on the comparison above, which specific physical signs differentiate Right Heart Failure from Left Heart Failure?",
+      "answer": "Right Heart Failure features markedly raised JVP ($+++$), hepatomegaly, ascites, and severe peripheral pitting oedema ($+++$), whereas Left Heart Failure predominantly features pulmonary oedema, pleural effusions, cardiomegaly, and milder JVP/oedema."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the major clinical complications of chronic heart failure?",
+      "answer": "• Arrhythmias and sudden death\n• Electrolyte imbalances (hypokalaemia, hyperkalaemia, hyponatraemia)\n• Renal failure\n• Impaired liver function\n• Thromboembolism"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In the standard 'ABCDE' chest X-ray findings for heart failure, what does each letter represent?",
+      "answer": "• A: Alveolar oedema ('Bat's wings')\n• B: Kerley B lines (interstitial oedema)\n• C: Cardiomegaly\n• D: Dilated prominent upper lobe vessels\n• E: Pleural Effusion Diagram of Chest X-ray findings labeled A through E in heart failure"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Chest radiograph showing bilateral perihilar alveolar infiltrates and cardiomegaly What acute cardiac complication is depicted on this chest radiograph?",
+      "answer": "Acute pulmonary oedema secondary to left heart failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which blood biomarker is elevated in heart failure to assist in diagnosis and monitoring?",
+      "answer": "B-type natriuretic peptide (BNP)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the common side effects of ACE inhibitors (ACEI) in heart failure therapy?",
+      "answer": "First-dose hypotension, dry cough, angioedema, hyperkalaemia, and impairment of renal function."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "When initiating ACE inhibitor therapy in a heart failure patient, when must renal function and serum potassium be monitored?",
+      "answer": "1–2 weeks after starting the ACE inhibitor."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In heart failure management, when are Angiotensin Receptor Blockers (ARBs) indicated?",
+      "answer": "For patients who cannot tolerate ACE inhibitors (e.g., due to dry cough)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which specific beta-blockers are evidence-based options for treating chronic heart failure?",
+      "answer": "Carvedilol, Bisoprolol, and Metoprolol."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the primary therapeutic rationale for prescribing beta-blockers in chronic heart failure?",
+      "answer": "They counteract the deleterious effects of enhanced sympathetic stimulation and reduce the risk of arrhythmias and sudden death."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are absolute contraindications to starting beta-blocker therapy in heart failure?",
+      "answer": "Severe asthma/COPD and heart block."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are recognized adverse effects of beta-blockers in heart failure treatment?",
+      "answer": "Nightmares, headache, lethargy, and erectile dysfunction."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In severe narcotic toxicity with cardiac arrest, how long should CPR be continued?",
+      "answer": "CPR should continue for at least 1 hour, and even up to several hours."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the two urgent indications for administering Naloxone in suspected opioid exposure?",
+      "answer": "1. Impaired consciousness\n2. Exposure within the last 10 minutes (even if asymptomatic)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "In opioid toxicity, which clinical presentations require consideration for intensive care referral?",
+      "answer": "Respiratory depression, airway obstruction, or vomiting with impaired consciousness."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the standard intravenous initial dose range of Naloxone for an adult in severe opioid toxicity?",
+      "answer": "0.4–2 mg IV, repeated if necessary."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the specific therapeutic goal when titrating Naloxone in opioid overdose?",
+      "answer": "Reversal of respiratory depression and maintenance of airway protective reflexes (not complete reversal of unconsciousness)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "After an adequate initial response to Naloxone, which essential physiological parameters must be monitored?",
+      "answer": "• Arterial Blood Gas (ABG)\n• Oxygen saturation ($SpO_2$)\n• Respiratory rate"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Why are repeated doses or a continuous infusion of Naloxone often required during opioid overdose management?",
+      "answer": "Because the elimination half-life of Naloxone is significantly shorter than that of most opioids."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Into which two major chemical groups are organophosphate insecticides categorized?",
+      "answer": "1. Dimethyl compounds (e.g., malathion)\n2. Diethyl compounds (e.g., parathion, chlorpyrifos)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the primary cellular mechanism of toxic action in organophosphate poisoning?",
+      "answer": "Inhibition of acetylcholinesterase, leading to systemic accumulation of acetylcholine."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "By what routes can organophosphate insecticides be absorbed into the body?",
+      "answer": "Ingestion, inhalation, dermal exposure, or ocular exposure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What role do organic solvents play when combined with organophosphate sprays?",
+      "answer": "They enhance the rate of organophosphate absorption."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "When does organophosphate 'Intermediate Syndrome' typically present relative to exposure?",
+      "answer": "1–4 days after exposure, after acute cholinergic toxicity has settled."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the characteristic early motor symptom of organophosphate Intermediate Syndrome?",
+      "answer": "Weakness of neck flexors."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "How does muscle weakness progress in organophosphate Intermediate Syndrome, and what intervention may be required?",
+      "answer": "Progresses to involve cranial nerves, brain stem dysfunction, and ventilatory failure, often requiring mechanical ventilation for several weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the typical time frame for resolution of organophosphate Intermediate Syndrome?",
+      "answer": "It usually resolves within 3 weeks."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What standard concentration mixture is used to prepare an Atropine infusion with a 50 cc syringe pump?",
+      "answer": "20 ampoules of atropine 0.6 mg + 30 cc of Normal Saline (total 12 mg in 50 cc)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Referring to the standard 50 cc syringe pump Atropine infusion protocol below: Table of Atropine infusion rates based on body weight and dose What infusion rate in ml/hr delivers a dose of $0.04\\text{ mg/kg/hr}$ for a $60\\text{ kg}$ adult?",
+      "answer": "10.0 ml/hr."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Using the 50 cc syringe pump Atropine protocol ($20\\text{ amp }0.6\\text{ mg} + 30\\text{ cc N/S}$), what rate is set for a $40\\text{ kg}$ patient at a dose of $0.02\\text{ mg/kg/hr}$?",
+      "answer": "3.3 ml/hr."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Using the 50 cc syringe pump Atropine protocol ($20\\text{ amp }0.6\\text{ mg} + 30\\text{ cc N/S}$), what rate is set for a $50\\text{ kg}$ patient at a dose of $0.06\\text{ mg/kg/hr}$?",
+      "answer": "12.5 ml/hr."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the recommended IV loading dose regimen for Pralidoxime (Oxime) in symptomatic organophosphate poisoning?",
+      "answer": "$30\\text{ mg/kg}$ body weight ($2\\text{ g}$ in an adult) IV over 20 to 30 minutes."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Following the IV loading dose, what is the continuous infusion rate and maximum 24-hour dose for Pralidoxime?",
+      "answer": "Continuous infusion at $8\\text{ mg/kg/hour}$ ($0.5\\text{ to }1\\text{ g/hour}$ in adults), up to a maximum of $12\\text{ g}$ in 24 hours."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the alternative intermittent bolus regimen for Pralidoxime administration?",
+      "answer": "IV loading dose of 1–2 g, followed by repeated IV boluses of 1–2 g after 1 hour and repeated every 10–12 hours."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What are the initial clinical features of acute paracetamol overdose?",
+      "answer": "Patients are initially asymptomatic, but may sometimes present with vomiting and right upper quadrant pain."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What severe organ system failures characterize late paracetamol toxicity?",
+      "answer": "Acute liver failure and renal failure."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "At what time post-ingestion should initial blood samples be drawn in an acute paracetamol overdose?",
+      "answer": "At 4 hours post-overdose (or immediately if more than 4 hours have already elapsed)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Which diagnostic blood tests are essential when evaluating a patient with paracetamol poisoning?",
+      "answer": "• Plasma paracetamol concentration\n• U&Es, Creatinine, Bicarbonate\n• LFTs, Glucose\n• FBC and INR"
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the primary intravenous antidote for paracetamol poisoning?",
+      "answer": "N-acetylcysteine (NAC)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is the cellular mechanism of action of N-acetylcysteine in paracetamol overdose?",
+      "answer": "It acts by replenishing hepatic glutathione stores."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "Within what critical time window is N-acetylcysteine administration most effective following paracetamol overdose?",
+      "answer": "Within 8 hours of the overdose."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "How should management proceed for a patient presenting more than 8 hours after an acute paracetamol overdose?",
+      "answer": "N-acetylcysteine administration should NOT be delayed to await blood concentration results; start NAC immediately."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "When can N-acetylcysteine therapy be safely discontinued in paracetamol toxicity?",
+      "answer": "If the plasma paracetamol concentration is shown to be below the nomogram treatment line."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What defines a 'staggered overdose' of paracetamol?",
+      "answer": "Multiple ingestions of paracetamol taken over several hours or days (chronic therapeutic excess)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What oral antidote can be used as an alternative to NAC in paracetamol overdose, and what is its dosing schedule?",
+      "answer": "Oral Methionine, $2.5\\text{ g}$ every 4 hours for a total of four doses."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What is a major clinical limitation of oral Methionine compared to intravenous NAC?",
+      "answer": "It may be less effective, especially after delayed presentation."
+    },
+    {
+      "category": "Final Part 2 Medicine - Emergency Medicine & Toxicology",
+      "question": "What definitive intervention must be evaluated in severe paracetamol poisoning resulting in life-threatening hepatic necrosis?",
+      "answer": "Liver transplantation."
+    },
+    {
       "category": "Final Part 2 Medicine - Endocrinology",
       "question": "What is the diagnostic threshold for random blood glucose concentration in Diabetes Mellitus?",
       "answer": "$> 11 \\text{ mmol/L}$"

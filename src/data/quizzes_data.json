@@ -1828,6 +1828,428 @@
       "explanation": "SGLT2 inhibitors act on the renal proximal tubule to promote glucosuria and natriuresis, reducing preload/afterload, improving endothelial function, decreasing intraglomerular pressure, and optimizing myocardial ketone metabolism, providing major mortality benefits in HFrEF."
     }
   ],
+  "Final Part 2 Medicine - Emergency Medicine & Toxicology": [
+    {
+      "id": 9,
+      "category": "Toxicology & Poisoning",
+      "question": "A 35-year-old farmer is brought to the emergency department with severe vomiting, sweating, hypersalivation, and shortness of breath following pesticide spraying. On examination, pupil size is 1.5 mm bilaterally, heart rate is 48 bpm, and diffuse lung crackles/wheezes are present. What is the primary molecular mechanism of toxicity?",
+      "options": [
+        "Competitive inhibition of muscarinic acetylcholine receptors",
+        "Irreversible inhibition of acetylcholinesterase (AChE) enzyme",
+        "Blockade of voltage-gated sodium channels in peripheral nerves",
+        "Direct stimulation of sympathetic nicotinic ganglia",
+        "Inhibition of cytochrome c oxidase in the mitochondrial respiratory chain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Organophosphate pesticides irreversibly phosphorylate and inhibit acetylcholinesterase (AChE), leading to systemic accumulation of endogenous acetylcholine at muscarinic, nicotinic, and CNS receptors."
+    },
+    {
+      "id": 10,
+      "category": "Toxicology & Poisoning",
+      "question": "In the emergency management of organophosphate poisoning, intravenous atropine is administered immediately. Which clinical parameter serves as the primary endpoint for adequate atropinization?",
+      "options": [
+        "Normalization of pupil size to 4 mm",
+        "Resolution of muscle fasciculations and tremors",
+        "Clearance of bronchial secretions and dry lung fields on auscultation",
+        "Blood pressure elevation above 120/80 mmHg",
+        "Return of serum cholinesterase activity to >80%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The primary therapeutic endpoint of atropinization in OP poisoning is the clearance of excessive tracheobronchial secretions and reversal of bronchospasm ('dry chest with HR > 80 bpm'). Atropine blocks muscarinic manifestations but does not reverse nicotinic fasciculations."
+    },
+    {
+      "id": 11,
+      "category": "Toxicology & Poisoning",
+      "question": "Which antidote is co-administered with atropine in acute organophosphate poisoning specifically to reactivate phosphorylated acetylcholinesterase before irreversible enzyme 'aging' occurs?",
+      "options": [
+        "N-Acetylcysteine (NAC)",
+        "Pralidoxime (2-PAM)",
+        "Flumazenil",
+        "Sodium Thiosulfate",
+        "Dimercaprol (BAL)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pralidoxime (2-PAM) is a cholinesterase reactivator oxime that nucleophilically attacks the phosphorylated acetylcholinesterase site to regenerate active enzyme, provided it is given before 'aging' (dealkylation) of the enzyme occurs."
+    },
+    {
+      "id": 12,
+      "category": "Toxicology & Poisoning",
+      "question": "A 22-year-old student ingests 20 tablets of 500 mg paracetamol (10 g total) in a suicide attempt. What is the toxic intermediate metabolite responsible for severe hepatocellular necrosis during paracetamol overdose?",
+      "options": [
+        "N-acetyl-p-benzoquinone imine (NAPQI)",
+        "Glucuronide conjugate",
+        "Sulfate conjugate",
+        "Trichloroethanol",
+        "Formic acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "At therapeutic doses, paracetamol is metabolized via glucuronidation and sulfation. In overdose, these pathways saturate, shunting paracetamol to CYP2E1 to form NAPQI. Excess NAPQI depletes hepatic glutathione and covalently binds hepatocellular proteins, causing acute centrilobular liver necrosis."
+    },
+    {
+      "id": 13,
+      "category": "Toxicology & Poisoning",
+      "question": "For a patient presenting 5 hours post-ingestion of a single acute paracetamol overdose, what is the single most appropriate initial diagnostic step to guide N-acetylcysteine (NAC) therapy?",
+      "options": [
+        "Immediate liver biopsy",
+        "Measuring serum paracetamol concentration and plotting on the Rumack-Matthew nomogram",
+        "Checking baseline serum alkaline phosphatase and total bilirubin",
+        "24-hour urine collection for paracetamol metabolites",
+        "Abdominal ultrasound to measure liver span"
+      ],
+      "correctIndex": 1,
+      "explanation": "A serum paracetamol level drawn between 4 and 24 hours post-ingestion MUST be plotted on the Rumack-Matthew nomogram. If the level falls on or above the treatment line (e.g., >150 mcg/mL at 4 hours), IV N-acetylcysteine (NAC) must be initiated immediately."
+    },
+    {
+      "id": 14,
+      "category": "Toxicology & Poisoning",
+      "question": "What is the maximum time window from ingestion during which intravenous N-acetylcysteine (NAC) offers maximal hepatoprotective efficacy in acute paracetamol toxicity?",
+      "options": [
+        "Within 2 hours",
+        "Within 8 hours",
+        "Within 24 hours",
+        "Within 48 hours",
+        "Within 72 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "N-acetylcysteine (NAC) restores hepatic glutathione stores and acts as an antioxidant. It provides near 100% protection against severe hepatotoxicity when initiated within 8 hours of paracetamol ingestion."
+    },
+    {
+      "id": 15,
+      "category": "Toxicology & Poisoning",
+      "question": "A 28-year-old male is found unresponsive in a public park with shallow breathing (respiratory rate 6/min), cyanosis, and pin-point pupils (1 mm). What is the classic clinical triad of acute opioid overdose?",
+      "options": [
+        "Hypertension, hyperthermia, and dilated pupils",
+        "CNS depression/coma, respiratory depression, and miosis (pin-point pupils)",
+        "Tachycardia, agitation, and diaphoresis",
+        "Fever, muscle rigidity, and autonomic instability",
+        "Diarrhea, lacrimation, and bronchospasm"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic opioid overdose triad consists of: 1) Coma / stupor, 2) Respiratory depression (RR < 8-10/min or apnea), and 3) Miosis (pin-point pupils). Hypothermia and hypotension may also be present."
+    },
+    {
+      "id": 16,
+      "category": "Toxicology & Poisoning",
+      "question": "In the management of acute heroin overdose with severe apnea, IV Naloxone is administered. Why must the medical team closely monitor the patient for several hours after initial clinical improvement?",
+      "options": [
+        "Naloxone causes irreversible rebound hypokalemia",
+        "The duration of action of Naloxone (30-90 mins) is significantly shorter than most opioids, risking recurrent coma and apnea",
+        "Naloxone induces delayed acute renal failure",
+        "Naloxone causes severe delayed hyperthermia",
+        "Naloxone triggers hepatic encephalopathy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naloxone is a competitive mu-opioid receptor antagonist with a brief half-life (30-90 minutes). Because opioids like morphine, methadone, or sustained-release formulations last much longer, Naloxone wears off first, precipitating recurrent hypoventilation and coma requiring repeat doses or continuous IV infusion."
+    },
+    {
+      "id": 17,
+      "category": "Environmental Emergencies",
+      "question": "A 45-year-old farmer is bitten on his right leg by a Russell's viper. Within 3 hours, he develops painful leg swelling, bleeding gums, and dark urine. Which bedside test is the most sensitive and widely available rapid indicator of viperine consumption coagulopathy?",
+      "options": [
+        "Activated Partial Thromboplastin Time (aPTT)",
+        "20-Minute Whole Blood Clotting Test (20WBCT)",
+        "Prothrombin Time / INR",
+        "Serum Fibrinogen level",
+        "Thromboelastography (TEG)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 20-Minute Whole Blood Clotting Test (20WBCT) in a clean glass test tube is the single most important bedside diagnostic test for hemotoxic snakebite. Failure of blood to clot after 20 minutes confirms venom-induced consumption coagulopathy (VICC) and mandates immediate Anti-Snake Venom (ASV) administration."
+    },
+    {
+      "id": 18,
+      "category": "Environmental Emergencies",
+      "question": "What is the standard initial dose of polyvalent Anti-Snake Venom (ASV) indicated for a patient presenting with severe Russell's viper envenomation and a positive 20WBCT?",
+      "options": [
+        "1 vial diluted in 50 mL saline over 10 minutes",
+        "10 vials diluted in 200-500 mL 0.9% Normal Saline IV over 1 hour",
+        "25 vials given IM into the bite site",
+        "2 vials IV push stat without dilution",
+        "5 vials subcutaneously every 6 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "The standard initial neutralizing dose for systemic viperine or elapid envenomation in South Asia/tropics is 10 vials of polyvalent ASV diluted in 0.9% Normal Saline or 5% Dextrose, infused IV over 1 hour. Local injection at the bite site is strictly contraindicated."
+    },
+    {
+      "id": 19,
+      "category": "Environmental Emergencies",
+      "question": "A 12-year-old boy is bitten by a Krait while sleeping on a floor mat. He wakes up with bilateral ptosis, diplopia, difficulty swallowing, and progressive weakness in all limbs. What is the characteristic sequence of neurotoxic paralysis in elapid snakebites?",
+      "options": [
+        "Ascending paralysis starting in the toes and moving to cranial nerves",
+        "Descending flaccid paralysis starting with cranial nerves (ptosis, diplopia) progressing to respiratory muscles",
+        "Unilateral spastic hemiplegia with hyperreflexia",
+        "Isolated distal upper extremity tremor and clonus",
+        "Sensory ataxia without motor involvement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elapid (Cobra and Krait) neurotoxicity presents as a descending flaccid paralysis. Early cranial nerve involvement causes ptosis (earliest sign), diplopia, dysarthria, and dysphagia, followed by intercostal and diaphragmatic paralysis leading to respiratory failure."
+    },
+    {
+      "id": 20,
+      "category": "Environmental Emergencies",
+      "question": "Which pharmacological challenge can be administered alongside ASV in Cobra envenomation to temporarily improve neuromuscular transmission in post-synaptic neurotoxicity?",
+      "options": [
+        "Intravenous Atropine alone",
+        "Intravenous Neostigmine (with Atropine) / Anticholinesterase trial",
+        "Intravenous Succinylcholine",
+        "Intravenous Calcium Gluconate",
+        "Intravenous Magnesium Sulfate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cobra venom contains post-synaptic alpha-neurotoxins that competitively block nicotinic ACh receptors. An anticholinesterase trial (IV Neostigmine 0.5-2.5 mg preceded by Atropine to block muscarinic side effects) can temporarily increase ACh at the motor endplate and reverse post-synaptic paralysis."
+    },
+    {
+      "id": 21,
+      "category": "Environmental Emergencies",
+      "question": "An elderly female is brought to the emergency department during a severe heatwave. She is comatose with a rectal temperature of 41.2°C (106.1°F), pulse of 130 bpm, BP of 85/50 mmHg, and hot dry skin. What critical feature distinguishes Heat Stroke from Heat Exhaustion?",
+      "options": [
+        "Presence of severe diaphoresis",
+        "Core body temperature > 40°C (104°F) with central nervous system dysfunction (coma, confusion, seizures)",
+        "Serum sodium level < 120 mmol/L",
+        "Serum potassium level > 6.5 mmol/L",
+        "Normal arterial blood gas pH"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heat Stroke is a life-threatening medical emergency defined by a core (rectal) body temperature > 40°C (104°F) accompanied by severe Central Nervous System (CNS) dysfunction (delirium, seizures, coma) and systemic tissue injury, whereas heat exhaustion maintains intact CNS function and lower core temps."
+    },
+    {
+      "id": 22,
+      "category": "Environmental Emergencies",
+      "question": "What is the single most critical immediate therapeutic objective in the management of classic heat stroke?",
+      "options": [
+        "Immediate administration of IV Antipyretics (Paracetamol / Ibuprofen)",
+        "Rapid cooling to lower core body temperature below 38.5-39°C within 30-60 minutes",
+        "Infusion of 4 liters of ice-cold 5% Dextrose",
+        "Immediate administration of oral Dantrolene",
+        "Prophylactic antibiotic therapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rapid physical cooling (cold-water immersion or evaporative misting with fans) to bring core temperature below 38.5-39°C within 30-60 minutes is the single most vital determinant of survival in heat stroke. Antipyretics (e.g., paracetamol) are ineffective because the hypothalamic set-point is not altered."
+    },
+    {
+      "id": 23,
+      "category": "Emergency Medicine",
+      "question": "A 30-year-old female develops severe lip swelling, widespread urticaria, stridor, and severe dyspnea 5 minutes after receiving IV Amoxicillin. Her blood pressure drops to 70/40 mmHg. What is the single most urgent first-line medication and correct route of administration?",
+      "options": [
+        "Intravenous Hydrocortisone 200 mg",
+        "Intramuscular Epinephrine (Adrenaline) 1:1000 (0.5 mg) into the anterolateral thigh",
+        "Subcutaneous Epinephrine 1:10,000 (0.1 mg)",
+        "Intravenous Chlorpheniramine 10 mg",
+        "Inhaled Salbutamol nebulization"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intramuscular Epinephrine (1:1000 solution, 0.5 mg in adults / 0.01 mg/kg in children) injected into the mid-anterolateral thigh is the undisputed FIRST-LINE drug of choice in anaphylaxis. It acts rapidly via alpha-1 (vasoconstriction, reverses shock/edema) and beta-2 (bronchodilation, suppresses mast cell release) receptors."
+    },
+    {
+      "id": 24,
+      "category": "Emergency Medicine",
+      "question": "A patient experiencing severe anaphylactic shock refractory to multiple doses of IM Epinephrine is noted to be taking chronic oral Propranolol for hypertension. Which medication should be administered to bypass beta-receptor blockade and restore vascular tone?",
+      "options": [
+        "Intravenous Norepinephrine",
+        "Intravenous Glucagon",
+        "Intravenous Dopamine",
+        "Intravenous Atropine",
+        "Intravenous Calcium Chloride"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patients on beta-blockers may exhibit severe anaphylactic shock resistant to Epinephrine. Intravenous Glucagon (1-5 mg IV over 5 mins) activates adenylate cyclase via non-adrenergic G-protein coupled receptors, bypassing blocked beta-receptors to exert positive inotropic, chronotropic, and bronchodilatory effects."
+    },
+    {
+      "id": 25,
+      "category": "Toxicology & Poisoning",
+      "question": "A chronic alcoholic male is brought to the ED with acute delirium, broad-based gait ataxia, and bilateral horizontal nystagmus with lateral rectus palsy. What metabolic deficiency causes Wernicke Encephalopathy?",
+      "options": [
+        "Vitamin B3 (Niacin) deficiency",
+        "Vitamin B1 (Thiamine) deficiency",
+        "Vitamin B12 (Cobalamin) deficiency",
+        "Vitamin B6 (Pyridoxine) deficiency",
+        "Vitamin C (Ascorbic acid) deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wernicke Encephalopathy is caused by thiamine (Vitamin B1) deficiency, commonly secondary to chronic alcoholism and poor nutrition. The classic clinical triad is: 1) Encephalopathy/confusion, 2) Ataxia, and 3) Ophthalmoplegia/nystagmus."
+    },
+    {
+      "id": 26,
+      "category": "Toxicology & Poisoning",
+      "question": "When treating an unconscious chronic alcoholic patient presenting with hypoglycemia and suspected Wernicke Encephalopathy, why MUST High-Dose IV Thiamine be administered BEFORE or simultaneously with IV Dextrose?",
+      "options": [
+        "Thiamine prevents dextrose-induced acute renal necrosis",
+        "Glucose administration without thiamine depletes residual thiamine cofactors, precipitating or worsening acute Wernicke-Korsakoff encephalopathy",
+        "Dextrose neutralizes thiamine if mixed in the same line",
+        "Thiamine increases insulin secretion to prevent rebound hyperglycemia",
+        "Glucose inhibits thiamine absorption across the blood-brain barrier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thiamine pyrophosphate is an essential cofactor for pyruvate dehydrogenase and transketolase in glucose metabolism. Giving IV dextrose to a severely thiamine-deficient patient accelerates glucose oxidation, rapidly exhausting residual thiamine stores and acutely precipitating or worsening fatal Wernicke encephalopathy."
+    },
+    {
+      "id": 27,
+      "category": "Environmental Emergencies",
+      "question": "A 70 kg firefighter suffers deep partial-thickness burns involving his entire anterior trunk (18%) and both anterior arms (9% total). Using the Parkland Formula (4 mL x kg x %TBSA), what is the total volume of Ringer's Lactate required in the first 24 hours, and how much should be infused in the first 8 hours?",
+      "options": [
+        "Total 3,780 mL; 1,890 mL in first 8 hours",
+        "Total 7,560 mL; 3,780 mL in first 8 hours",
+        "Total 10,000 mL; 5,000 mL in first 8 hours",
+        "Total 5,400 mL; 2,700 mL in first 8 hours",
+        "Total 15,000 mL; 7,500 mL in first 8 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "%TBSA = 18% (trunk) + 9% (arms) = 27%. Parkland formula = 4 mL x 70 kg x 27 = 7,560 mL Ringer's Lactate total for 24 hours. EXACTLY HALF (3,780 mL) must be infused during the FIRST 8 HOURS from the time of burn injury, and the remaining half over the next 16 hours."
+    },
+    {
+      "id": 28,
+      "category": "Toxicology & Poisoning",
+      "question": "A family is brought to the ED after using an unvented gasoline generator indoors during a power outage. All members complain of severe throbbing headaches, nausea, dizziness, and confusion. Pulse oximetry reads 99% on room air. What is the definitive diagnostic test and initial management for Carbon Monoxide (CO) poisoning?",
+      "options": [
+        "Arterial Blood Gas Co-oximetry measuring Carboxyhemoglobin (COHb); 100% High-Flow Normobaric Oxygen via non-rebreather mask",
+        "Routine pulse oximetry; IV Sodium Bicarbonate",
+        "Chest X-ray; Nebulized Albuterol",
+        "Serum Methemoglobin assay; Methylene blue IV",
+        "CT Scan Head; IV Mannitol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard pulse oximetry cannot distinguish oxyhemoglobin from carboxyhemoglobin (COHb), falsely reading near 100%. CO-oximetry on ABG/VBG measures exact %COHb. Immediate treatment is 100% High-Flow Oxygen via non-rebreather mask (reduces COHb half-life from 320 mins on room air to 80 mins)."
+    },
+    {
+      "id": 29,
+      "category": "Emergency Medicine",
+      "question": "A 65-year-old male with urosepsis presents with a blood pressure of 78/42 mmHg, heart rate of 125 bpm, and serum lactate of 4.5 mmol/L. According to Surviving Sepsis guidelines, what volume of IV crystalloids should be administered within the first 3 hours of resuscitation?",
+      "options": [
+        "10 mL/kg IV bolus",
+        "30 mL/kg IV crystalloid bolus",
+        "50 mL/kg IV colloid bolus",
+        "500 mL total fluid challenge only",
+        "No IV fluids; immediate pure Vasopressin infusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Surviving Sepsis Campaign guidelines recommend at least 30 mL/kg of IV crystalloids (Ringer's lactate or 0.9% Normal Saline) within the first 3 hours of resuscitation for sepsis-induced hypoperfusion or septic shock."
+    },
+    {
+      "id": 30,
+      "category": "Emergency Medicine",
+      "question": "A patient presenting with severe anaphylaxis exhibits rapidly progressing hoarseness, inspiratory stridor, and tongue swelling. What emergency procedure should be prepared immediately before complete airway occlusion occurs?",
+      "options": [
+        "Immediate Endotracheal Intubation (or Cricothyroidotomy if intubation fails)",
+        "Continuous Positive Airway Pressure (CPAP)",
+        "IV Aminophylline infusion",
+        "Immediate chest tube placement",
+        "Inhaled racemic epinephrine alone without intubation prep"
+      ],
+      "correctIndex": 0,
+      "explanation": "Progressive laryngeal edema and angioedema in anaphylaxis can rapidly cause complete upper airway occlusion. Early endotracheal intubation by an experienced clinician (or emergency surgical cricothyroidotomy) must be performed BEFORE massive edema obliterates vocal cord visualization."
+    },
+    {
+      "id": 31,
+      "category": "Toxicology & Poisoning",
+      "question": "A 40-year-old male ingests bootleg illicit alcohol. 18 hours later, he complains of severe abdominal pain, vomiting, and visual disturbances described as 'like being in a snowstorm'. ABG reveals severe metabolic acidosis with an elevated anion gap. What toxic metabolite causes optic papillitis and blindness in Methanol poisoning?",
+      "options": [
+        "Oxalic acid",
+        "Formic acid (Formate)",
+        "Acetaldehyde",
+        "Lactic acid",
+        "Formaldehyde"
+      ],
+      "correctIndex": 1,
+      "explanation": "Methanol is metabolized by alcohol dehydrogenase (ADH) into formaldehyde, and then by aldehyde dehydrogenase into Formic Acid (Formate). Formic acid causes optic disc edema, retinal ganglion cell necrosis ('snowstorm vision' / blindness), and severe high anion gap metabolic acidosis. Treatment includes Fomepizole or Ethanol."
+    },
+    {
+      "id": 32,
+      "category": "Toxicology & Poisoning",
+      "question": "A young male ingests antifreeze (Ethylene Glycol). Urine microscopy reveals abundant envelope-shaped crystals. What is the chemical composition of these characteristic crystals that cause acute tubular necrosis and renal failure?",
+      "options": [
+        "Uric acid crystals",
+        "Calcium Oxalate crystals",
+        "Struvite (triple phosphate) crystals",
+        "Cystine crystals",
+        "Hippuric acid crystals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethylene glycol is metabolized into glycolic acid and oxalic acid. Oxalic acid precipitates with calcium to form calcium oxalate monohydrate/dihydrate (envelope- or dumbbell-shaped) crystals, leading to acute tubular necrosis, AKI, and hypocalcemia."
+    },
+    {
+      "id": 33,
+      "category": "Toxicology & Poisoning",
+      "question": "An elderly patient on Digoxin and Furosemide presents with nausea, yellow-green visual halos, and ventricular bigeminy on ECG. Serum potassium is 2.9 mmol/L. What metabolic derangement markedly potentiates Digoxin toxicity, and what is the definitive antidote for severe digitalis toxicity?",
+      "options": [
+        "Hyperkalemia; IV Calcium Gluconate",
+        "Hypokalemia; Digoxin-specific antibody fragments (DigiFab / Digibind)",
+        "Hypernatremia; IV Furosemide",
+        "Hypocalcemia; IV Magnesium",
+        "Hypermagnesemia; Hemodialysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypokalemia (e.g., from loop diuretics) dramatically increases Digoxin binding to Na+/K+-ATPase, precipitating severe toxicity (arrhythmias, GI distress, xanthopsia/yellow halos). In life-threatening digoxin toxicity or severe hyperkalemia, Digoxin-specific Fab antibody fragments (DigiFab/Digibind) are the definitive antidote."
+    },
+    {
+      "id": 34,
+      "category": "Emergency Medicine",
+      "question": "An 18-year-old asthmatic presenting with acute severe dyspnea becomes increasingly lethargic. Auscultation reveals a 'silent chest' with no wheezing audible, and arterial blood gas demonstrates a PaCO2 of 48 mmHg (6.4 kPa). What does a normal or elevated PaCO2 indicate in acute severe asthma?",
+      "options": [
+        "Marked clinical improvement and bronchodilation",
+        "Impending respiratory muscle fatigue and catastrophic respiratory failure requiring immediate ICU intubation",
+        "Development of a small pneumopericardium",
+        "Metabolic alkalosis compensation",
+        "Adequate alveolar ventilation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hyperventilation in acute severe asthma normally causes tachypnea and hypocapnia (low PaCO2). A 'normal' (35-45 mmHg) or elevated (>45 mmHg) PaCO2 accompanied by a 'silent chest' signals respiratory muscle exhaustion, severe airway obstruction, and life-threatening respiratory failure requiring immediate mechanical ventilation."
+    },
+    {
+      "id": 35,
+      "category": "Emergency Medicine",
+      "question": "A trauma patient involved in a motor vehicle collision arrives hypotensive (BP 70/40 mmHg), tracheally deviated to the left, with absent breath sounds and hyperresonance on the right hemithorax. What is the immediate life-saving procedure before obtaining a chest X-ray?",
+      "options": [
+        "Immediate endotracheal intubation",
+        "Immediate needle decompression (14G needle in 2nd ICS MCL or 5th ICS AAL) followed by chest drain insertion",
+        "Urgent CT Pulmonary Angiogram",
+        "Pericardial window insertion",
+        "Fluid bolus of 3 liters 0.9% Normal Saline"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tension Pneumothorax is a clinical diagnosis! Obtaining a chest X-ray causes lethal delay. Immediate life-saving needle decompression (14-16G cannula inserted in the 2nd intercostal space mid-clavicular line or 5th intercostal space anterior axillary line) decompresses intrapleural pressure, restores venous return, and must be followed by chest tube placement."
+    },
+    {
+      "id": 36,
+      "category": "Emergency Medicine",
+      "question": "A 50-year-old patient with known alcoholic cirrhosis presents with massive hematemesis and hypovolemic shock. Along with fluid resuscitation and blood transfusion (target Hb 7-8 g/dL), which vasoactive drug and antibiotic should be initiated immediately prior to urgent endoscopy?",
+      "options": [
+        "IV Furosemide + IV Amoxicillin",
+        "IV Terlipressin (or Octreotide) + IV Ceftriaxone",
+        "IV Dopamine + IV Metronidazole",
+        "IV Heparin + IV Vancomycin",
+        "IV Tranexamic acid + IV Ciprofloxacin"
+      ],
+      "correctIndex": 1,
+      "explanation": "In suspected acute variceal bleeding, IV Terlipressin (or Octreotide/Somatostatin) causes splanchnic vasoconstriction, lowering portal pressure and hemorrhage rate. Prophylactic IV Ceftriaxone significantly reduces bacterial infections, rebleeding rates, and overall mortality."
+    },
+    {
+      "id": 37,
+      "category": "Environmental Emergencies",
+      "question": "A construction worker sustains a high-voltage electrical injury. Urine dipstick in the ED is strongly positive for 'blood', but microscopic urinalysis shows zero RBCs per high-power field. What condition accounts for this pigmenturia, and what renal complication must be aggressively prevented?",
+      "options": [
+        "Hemoglobinuria from hemolysis; Glomerulonephritis",
+        "Myoglobinuria from rhabdomyolysis; Acute Tubular Necrosis (ATN) / Acute Kidney Injury",
+        "Bilirubinuria from hepatic rupture; Cholecystitis",
+        "Porphyria; Kidney stones",
+        "Alkaptonuria; Renal artery thrombosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-voltage electrical burns cause extensive deep muscle necrosis (rhabdomyolysis), releasing myoglobin. Myoglobin filters into urine, testing positive on dipstick (heme reaction) without intact RBCs. Myoglobin precipitates in tubules, causing toxic Acute Tubular Necrosis (ATN). Aggressive IV fluid hydration (target urine output 100-200 mL/hr) is required."
+    },
+    {
+      "id": 38,
+      "category": "Emergency Medicine",
+      "question": "What is the first-line vasopressor of choice recommended by Surviving Sepsis guidelines for persistent hypotension in septic shock despite adequate volume resuscitation?",
+      "options": [
+        "Dopamine",
+        "Norepinephrine",
+        "Epinephrine",
+        "Phenylephrine",
+        "Vasopressin alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Norepinephrine is the first-line vasopressor of choice in septic shock. It potentates alpha-1 vasoconstriction to restore mean arterial pressure (target MAP >= 65 mmHg) with modest beta-1 inotropic support, demonstrating lower arrhythmia rates compared to dopamine."
+    }
+  ],
   "Final Part 2 Medicine - Endocrinology": [
     {
       "id": 8,
