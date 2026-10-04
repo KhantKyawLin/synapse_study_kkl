@@ -6051,213 +6051,423 @@
   "Final Part 2 Surgery - Module 2": [
     {
       "id": 8,
-      "category": "Splenic Rupture",
-      "question": "A 17-year-old male is admitted 1 hour after being kicked in the lower chest by a horse. He is pale, hypotensive (80/40 mmHg), tachycardic (110 bpm), with severe LUQ tenderness and left shoulder tip pain. What is the diagnosis?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A 17-year-old male is admitted 1 hour after being kicked in the left hypochondrium by a horse. Examination reveals pallor, severe left upper quadrant pain, PR 110/min, and BP 80/40 mmHg. What is the provisional diagnosis?",
       "options": [
         "Liver laceration",
         "Splenic rupture",
-        "Mesenteric tear",
         "Renal contusion",
-        "Peptic ulcer perforation"
+        "Diaphragmatic rupture",
+        "Mesenteric tear"
       ],
       "correctIndex": 1,
-      "explanation": "Splenic rupture presents following blunt lower chest/LUQ trauma with hypovolemic shock, localized LUQ tenderness, Kehr's sign (referred left shoulder tip pain from phrenic irritation), and Ballance's sign."
+      "explanation": "Trauma to the lower left chest/left hypochondrium with hypovolemic shock (PR > 110, BP 80/40) and localized tenderness is classic for acute splenic rupture."
     },
     {
       "id": 9,
-      "category": "Primary Brain Injury",
-      "question": "By definition, primary brain injury occurs at which point in time following head trauma?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In the ATLS Primary Survey of a trauma patient, which of the following is the correct priority sequence?",
       "options": [
-        "24 hours post-injury due to cerebral edema",
-        "At the exact moment of initial impact",
-        "48 hours later due to ischemia",
-        "During transport to the emergency room",
-        "After surgical decompression"
+        "Airway, Breathing, Circulation, Disability, Exposure",
+        "Breathing, Airway, Circulation, Exposure, Disability",
+        "Circulation, Airway, Breathing, Disability, Exposure",
+        "Airway, Circulation, Breathing, Exposure, Disability",
+        "Disability, Airway, Breathing, Circulation, Exposure"
       ],
-      "correctIndex": 1,
-      "explanation": "Primary brain injury occurs at the exact moment of impact (mechanical damage to parenchyma and vessels). Secondary brain injury develops hours/days later from edema, hypoxia, and raised ICP."
+      "correctIndex": 0,
+      "explanation": "The ATLS primary survey follows ABCDE: Airway with C-spine protection, Breathing and ventilation, Circulation with hemorrhage control, Disability (neurologic evaluation), and Exposure/environment."
     },
     {
       "id": 10,
-      "category": "CPP Definition",
-      "question": "How is Cerebral Perfusion Pressure (CPP) defined in neurotrauma monitoring?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A 40-year-old butcher is admitted after accidentally stabbing himself in the thigh. On initial ATLS primary survey, which of the following is NOT routinely prioritized in isolated penetrating trauma without neck injury?",
       "options": [
-        "Systolic BP - Diastolic BP",
-        "Mean Arterial Pressure - Intracranial Pressure (MAP - ICP)",
-        "Venous Pressure - Intracranial Pressure",
-        "Systolic BP - Venous Pressure",
-        "Diastolic BP - Intracranial Pressure"
+        "Airway maintenance",
+        "Breathing assessment",
+        "FAST ultrasound scan",
+        "Cervical spine imaging",
+        "Neurological status (GCS)"
       ],
-      "correctIndex": 1,
-      "explanation": "Cerebral Perfusion Pressure is defined as Mean Arterial Blood Pressure minus Intracranial Pressure (CPP = MAP - ICP)."
+      "correctIndex": 3,
+      "explanation": "In isolated penetrating trauma outside the neck without neurological deficits, routine cervical spine immobilization and imaging are not prioritized over ABCDE resuscitation."
     },
     {
       "id": 11,
-      "category": "Monro-Kellie Doctrine",
-      "question": "According to the Monro-Kellie doctrine, an expanding intracranial mass initially causes compensatory displacement of which intravascular component?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A patient with suspected splenic rupture experiences referred pain to the left shoulder tip. What is the name of this classic clinical sign?",
       "options": [
-        "Arterial blood volume",
-        "Venous blood and cerebrospinal fluid (CSF)",
-        "Intracellular brain parenchymal water",
-        "Lymphatic fluid",
-        "Extracellular matrix protein"
+        "Ballance's sign",
+        "Kehr's sign",
+        "Cullen's sign",
+        "Grey Turner's sign",
+        "McBurney's sign"
       ],
       "correctIndex": 1,
-      "explanation": "The Monro-Kellie doctrine states the rigid skull contains brain, blood, and CSF. An expanding mass initially displaces venous blood and CSF into the spinal canal to buffer ICP."
+      "explanation": "Kehr's sign is referred pain to the left shoulder tip due to subdiaphragmatic blood irritating the phrenic nerve (C3-C5 sensory innervation)."
     },
     {
       "id": 12,
-      "category": "NICE CT Head Guidelines",
-      "question": "According to NICE head injury guidelines, CT head scan within 8 hours is indicated for mild head injury patients with which feature?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Physical examination of a patient with intraperitoneal splenic bleeding demonstrates fixed dullness to percussion in the left flank and shifting dullness in the right flank. What is this sign?",
       "options": [
-        "Single episode of vomiting",
-        "Ongoing mild headache",
-        "Age over 65 or having a clotting disorder",
-        "Low energy injury mechanism",
-        "Brief transient loss of consciousness"
+        "Kehr's sign",
+        "Ballance's sign",
+        "Rovsing's sign",
+        "Murphy's sign",
+        "Courvoisier's sign"
       ],
-      "correctIndex": 2,
-      "explanation": "Under NICE guidelines, CT head within 8 hours for mild head injury is indicated in patients aged > 65 or those with a coagulopathy / clotting disorder."
+      "correctIndex": 1,
+      "explanation": "Ballance's sign is characterized by fixed dullness in the left flank (due to coagulated blood around the spleen) and shifting dullness in the right flank (fluid blood)."
     },
     {
       "id": 13,
-      "category": "Basal Skull Fracture",
-      "question": "Which clinical sign is NOT an indicator of a basal skull fracture?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the initial bedside imaging modality of choice to confirm intra-abdominal free fluid in a hemodynamically unstable blunt trauma patient?",
       "options": [
-        "Battle's sign (mastoid ecchymosis)",
-        "Periorbital bruising (Raccoon eyes)",
-        "CSF rhinorrhea / otorrhea",
-        "Unequal pupils (anisocoria)",
-        "Hemotympanum"
+        "Contrast CT Abdomen",
+        "FAST ultrasound scan",
+        "Plain abdominal X-ray",
+        "Diagnostic peritoneal lavage",
+        "MRI Abdomen"
       ],
-      "correctIndex": 3,
-      "explanation": "Battle's sign, raccoon eyes, CSF leaks, and hemotympanum indicate basal skull fracture. Unequal pupils (anisocoria) signify uncal herniation compressing CN III."
+      "correctIndex": 1,
+      "explanation": "FAST (Focused Assessment with Sonography for Trauma) is rapid, non-invasive, repeatable, and can be performed at the bedside during resuscitation in unstable trauma patients."
     },
     {
       "id": 14,
-      "category": "Parkland Formula",
-      "question": "What is the total fluid resuscitation volume calculated by the Parkland formula for a 70 kg patient with 30% TBSA burns over the first 24 hours?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Following emergency splenectomy for trauma, which of the following vaccination regimens is essential to prevent Overwhelming Post-Splenectomy Infection (OPSI)?",
       "options": [
-        "2,100 mL Ringer's Lactate",
-        "4,200 mL Ringer's Lactate",
-        "8,400 mL Ringer's Lactate",
-        "12,600 mL Ringer's Lactate",
-        "16,800 mL Ringer's Lactate"
+        "S. pneumoniae, N. meningitidis, H. influenzae type b",
+        "Hepatitis B, Tetanus, Rotavirus",
+        "MMR, Varicella, BCG",
+        "HPV, Influenza, Polio",
+        "DTP, Cholera, Typhoid"
       ],
-      "correctIndex": 2,
-      "explanation": "Parkland formula = 4 mL x weight (70 kg) x % TBSA (30) = 8,400 mL Ringer's Lactate over 24 hours (first half in 8 hrs, second half in 16 hrs)."
+      "correctIndex": 0,
+      "explanation": "Post-splenectomy patients are vulnerable to encapsulated bacteria and must receive vaccines against S. pneumoniae, N. meningitidis, and H. influenzae type b (given ~14 days post-op)."
     },
     {
       "id": 15,
-      "category": "Inhalational Injury",
-      "question": "A patient rescued from a burning building presents with soot around nostrils, singed nasal hairs, hoarseness, and stridor. What is the primary management priority?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A 24-year-old head injury patient experiences a 2-minute loss of consciousness, regains alertness ('lucid interval'), and then rapidly deteriorates with severe headache and a fixed dilated pupil. What is the diagnosis?",
       "options": [
-        "Empiric IV antibiotics",
-        "Early elective endotracheal intubation",
-        "Immediate surgical chest escharotomy",
-        "High-dose IV steroids",
-        "Nebulized salbutamol alone"
+        "Acute Subdural Hematoma",
+        "Acute Epidural Hematoma",
+        "Subarachnoid Hemorrhage",
+        "Diffuse Axonal Injury",
+        "Cerebral Contusion"
       ],
       "correctIndex": 1,
-      "explanation": "Airway soot, singed hairs, stridor, and hoarseness indicate impending upper airway edema. Early elective intubation is essential before swelling completely occludes the airway."
+      "explanation": "An epidural hematoma (EDH) typically arises from middle meningeal artery laceration and classically features a lucid interval followed by rapid expansion, raised ICP, and uncal herniation."
     },
     {
       "id": 16,
-      "category": "Chest Escharotomy",
-      "question": "Where are the transverse escharotomy incision lines performed on the anterior chest for restrictive circumferential full-thickness burns?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the classic non-contrast CT head finding in an acute Epidural (Extradural) Hematoma?",
       "options": [
-        "At the level of the umbilicus",
-        "Below the clavicles and at the xiphisternum level",
-        "Vertically down the sternal midline",
-        "Along the posterior axillary line",
-        "Over the 2nd intercostal space"
+        "Crescentic, hyperdense lesion crossing suture lines",
+        "Biconvex (lenticular), hyperdense lesion extra-axial",
+        "Star-shaped hyperdensity in basal cisterns",
+        "Punctate petechial hemorrhages at gray-white junction",
+        "Ring-enhancing hypodense mass"
       ],
       "correctIndex": 1,
-      "explanation": "Anterior chest escharotomy incisions are performed along transverse lines below the clavicles and at the level of the xiphisternum, connected by vertical bilateral anterior axillary lines."
+      "explanation": "EDH appears as a biconvex (lenticular) hyperdense extra-axial mass between the skull and dura that does not cross cranial suture lines."
     },
     {
       "id": 17,
-      "category": "ATLS Penetrating Trauma",
-      "question": "A 40-year-old butcher stabs himself in the thigh. He is bleeding heavily and tachycardic. In the initial ATLS assessment, which step is NOT routinely prioritized?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the Cerebral Perfusion Pressure (CPP) formula?",
       "options": [
-        "Airway with cervical spine control",
-        "Breathing and ventilation",
-        "Circulation and hemorrhage control",
-        "Routine cervical spine imaging",
-        "FAST ultrasound scan"
+        "CPP = MAP + ICP",
+        "CPP = MAP - ICP",
+        "CPP = Systolic BP - ICP",
+        "CPP = Diastolic BP + ICP",
+        "CPP = ICP - MAP"
       ],
-      "correctIndex": 3,
-      "explanation": "In isolated penetrating trauma (e.g. stab wound to leg/thigh) without neck trauma or neurological deficits, routine C-spine imaging is NOT prioritized over ABCs and FAST scan."
+      "correctIndex": 1,
+      "explanation": "Cerebral Perfusion Pressure (CPP) equals Mean Arterial Pressure (MAP) minus Intracranial Pressure (ICP). Target CPP is typically 60-70 mmHg."
     },
     {
       "id": 18,
-      "category": "Glasgow Coma Scale",
-      "question": "What is the minimum score on the Glasgow Coma Scale (GCS), and what score signifies severe head injury (coma)?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "According to the Monro-Kellie Doctrine, an expanding intracranial mass lesion is initially compensated for by displacement of which component?",
       "options": [
-        "Minimum 0; severe head injury <= 5",
-        "Minimum 1; severe head injury <= 6",
-        "Minimum 3; severe head injury <= 8",
-        "Minimum 5; severe head injury <= 10",
-        "Minimum 4; severe head injury <= 7"
+        "Brain tissue parenchyma",
+        "Venous blood and Cerebrospinal Fluid (CSF)",
+        "Arterial blood volume",
+        "Meningeal stromal tissue",
+        "Scalp extracellular fluid"
       ],
-      "correctIndex": 2,
-      "explanation": "GCS ranges from minimum 3 to maximum 15. A score of <= 8 defines severe head injury (coma) and mandates immediate airway protection/intubation."
+      "correctIndex": 1,
+      "explanation": "The intracranial vault has a fixed volume. Early volume compensation occurs by shifting CSF into the spinal sac and squeezing venous blood out of dural sinuses."
     },
     {
       "id": 19,
-      "category": "Damage Control Surgery",
-      "question": "What is the primary objective of Phase I in Damage Control Surgery (DCS)?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which of the following clinical signs is indicative of impending uncal (transtentorial) brain herniation and raised ICP?",
       "options": [
-        "Definitive anatomical organ reconstruction",
-        "Immediate control of hemorrhage and contamination control",
-        "Abdominal wall tension-free closure",
-        "Prolonged ICU physiological resuscitation",
-        "Early oral refeeding"
+        "Battle's sign",
+        "Raccoon eyes",
+        "Anisocoria (ipsilateral fixed dilated pupil)",
+        "CSF rhinorrhea",
+        "Tympanic membrane hemotympanum"
       ],
-      "correctIndex": 1,
-      "explanation": "DCS Phase I focuses strictly on rapid surgical control of life-threatening hemorrhage and contamination control, deferring complex reconstruction to Phase III."
+      "correctIndex": 2,
+      "explanation": "Uncal herniation compresses the ipsilateral 3rd cranial (oculomotor) nerve, causing a fixed, dilated pupil (anisocoria), followed by contralateral hemiparesis."
     },
     {
       "id": 20,
-      "category": "Tension Pneumothorax",
-      "question": "A trauma patient presents with tracheal deviation to the right, absent left breath sounds, hyperresonance, and severe hypotension. What is the immediate life-saving treatment?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Cushing's Triad is a late physiological response to severely elevated ICP. What are its three clinical components?",
       "options": [
-        "Immediate chest CT scan",
-        "Urgent needle thoracocentesis (decompression)",
-        "Elective endotracheal intubation",
-        "Pericardiocentesis",
-        "Invasive arterial line placement"
+        "Hypotension, Tachycardia, Tachypnea",
+        "Hypertension (widening pulse pressure), Bradycardia, Irregular respiration",
+        "Hypotension, Bradycardia, Bradypnea",
+        "Hypertension, Tachycardia, Hyperventilation",
+        "Hypothermia, Hypotension, Confusion"
       ],
       "correctIndex": 1,
-      "explanation": "Tracheal deviation, absent breath sounds, hyperresonance, and shock signify tension pneumothorax. Immediate needle thoracocentesis decompression (2nd ICS MCL / 5th ICS AAL) is mandatory."
+      "explanation": "Cushing's Triad comprises hypertension with widening pulse pressure, reflex bradycardia, and irregular/ataxic respiration due to brainstem ischemia."
     },
     {
       "id": 21,
-      "category": "Beck's Triad",
-      "question": "Beck's triad for acute cardiac tamponade in penetrating thoracic trauma consists of:",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which of the following is an absolute indicator for an immediate CT Head scan within 1 hour according to NICE head injury guidelines?",
       "options": [
-        "Tachycardia, fever, leukocytosis",
-        "Hypotension, muffled heart sounds, elevated JVP",
-        "Hypertension, bradycardia, irregular breathing",
-        "Tracheal deviation, hyperresonance, absent breath sounds",
-        "Flail chest, hemoptysis, hypoxia"
+        "GCS < 13 on initial assessment in ED",
+        "Age 40 with a mild headache",
+        "Single episode of vomiting in an adult",
+        "Scalp laceration < 2 cm",
+        "Loss of consciousness for 10 seconds"
       ],
-      "correctIndex": 1,
-      "explanation": "Beck's triad for acute cardiac tamponade comprises hypotension, muffled/distant heart sounds, and elevated jugular venous pressure (JVP)."
+      "correctIndex": 0,
+      "explanation": "NICE guidelines mandate an immediate CT head (within 1 hour) for GCS < 13 on initial assessment, GCS < 15 at 2 hours post-injury, focal neuro deficit, or suspected open/depressed skull fracture."
     },
     {
       "id": 22,
-      "category": "Flail Chest",
-      "question": "A patient with 3 adjacent ribs fractured in 2 places each exhibits paradoxical chest movement. What is the primary underlying pulmonary risk?",
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Calculate the total 24-hour fluid requirement using the Parkland Formula for a 70 kg patient with 40% TBSA full-thickness burns.",
       "options": [
-        "Acute appendicitis",
-        "Underlying severe pulmonary contusion and respiratory failure",
-        "Spontaneous pneumothorax resolution",
-        "Tracheoesophageal fistula",
-        "Myocardial infarction"
+        "5,600 mL",
+        "8,000 mL",
+        "11,200 mL",
+        "14,000 mL",
+        "16,000 mL"
+      ],
+      "correctIndex": 2,
+      "explanation": "Parkland Formula: 4 mL x weight (kg) x %TBSA = 4 x 70 x 40 = 11,200 mL of Ringer's Lactate (half given in first 8 hrs, half over next 16 hrs)."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In acute burn fluid resuscitation using the Parkland formula, what is the crystalloid fluid of choice?",
+      "options": [
+        "5% Dextrose in water",
+        "Ringer's Lactate (Hartmann's solution)",
+        "0.18% Saline with 4% Dextrose",
+        "Hypertonic 3% Saline",
+        "Fresh Frozen Plasma"
       ],
       "correctIndex": 1,
-      "explanation": "Flail chest (>= 3 contiguous ribs fractured in >= 2 places) causes paradoxical chest movement and is strongly associated with underlying pulmonary contusion, hypoxia, and respiratory failure."
+      "explanation": "Ringer's Lactate (Hartmann's solution) is the standard resuscitation crystalloid because its electrolyte composition closely mimics plasma without causing hyperchloremic metabolic acidosis."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A patient rescued from a burning room presents with soot in the oropharynx, singed nasal hairs, hoarseness, and stridor. What is the immediate priority?",
+      "options": [
+        "Nebulized steroids",
+        "Early elective endotracheal intubation",
+        "Chest X-ray",
+        "Escharotomy of neck",
+        "Hyperbaric oxygen therapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Severe inhalational burn injury causes rapid upper airway mucosal swelling. Early elective intubation secures the airway before complete glottic occlusion occurs."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which of the following burn features mandates performing an emergency escharotomy?",
+      "options": [
+        "Superficial partial-thickness burn of 10% TBSA",
+        "Circumferential full-thickness burn restricting ventilation or limb perfusion",
+        "Chemical burn on the forearm",
+        "Solar erythema over the back",
+        "Non-circumferential scald on the leg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Escharotomy is indicated for circumferential full-thickness burns of the chest or extremities where rigid, unyielding dead skin compresses tissues, threatening chest wall expansion or limb blood supply."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In executing a chest escharotomy, where are the primary surgical incision lines made?",
+      "options": [
+        "Mid-sternal line only",
+        "Bilateral anterior axillary lines connected by transverse clavicular and xiphisternal cuts",
+        "Mid-clavicular lines down to the umbilicus",
+        "Posterior scapular lines",
+        "Circular incision around each nipple"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chest escharotomy involves vertical bilateral cuts along the anterior axillary lines connected transversely across the upper chest (below clavicles) and lower chest (at xiphisternum)."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In lower limb escharotomy, how should the incision line pass relative to the medial malleolus at the ankle?",
+      "options": [
+        "Anterior to the medial malleolus",
+        "Posterior to the medial malleolus",
+        "Directly across the saphenous vein",
+        "Across the Achilles tendon",
+        "Mid-plantar surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Medially at the ankle, the escharotomy incision passes posterior to the medial malleolus to avoid damaging the long saphenous vein."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What constitutes the 'Lethal Triad' in polytrauma that prompts Damage Control Surgery (DCS)?",
+      "options": [
+        "Hypertension, Hyperthermia, Alkalosis",
+        "Hypothermia, Metabolic Acidosis, Coagulopathy",
+        "Hypotension, Bradycardia, Bradypnea",
+        "Hyperkalemia, Hypocalcemia, Anemia",
+        "Hyperglycemia, Hypoxia, Jaundice"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lethal Triad consists of Hypothermia (< 35°C), Metabolic Acidosis (pH < 7.20), and Coagulopathy. Recognizing this triad signals the need for abbreviated Damage Control Surgery."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the primary objective of Phase I in Damage Control Surgery (DCS)?",
+      "options": [
+        "Definitive bowel anastomosis and abdominal closure",
+        "Abbreviated operation for immediate hemorrhage and contamination control",
+        "ICU warming and invasive monitoring",
+        "Planned formal re-operation at 48 hours",
+        "Prosthetic mesh abdominal wall reconstruction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phase I of DCS takes place in the OR and focuses rapidly on stopping major bleeding (packing/ligation) and controlling enteric contamination, followed by temporary abdominal closure."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A trauma patient develops sudden dyspnea, tracheal deviation to the left, absent breath sounds on the right, and hypotension (BP 75/40 mmHg). What is the immediate treatment?",
+      "options": [
+        "Chest CT scan",
+        "Needle thoracocentesis / decompression on the right side",
+        "Endotracheal intubation only",
+        "Pericardiocentesis",
+        "Emergency thoracotomy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tension pneumothorax is a clinical diagnosis requiring immediate needle decompression (2nd ICS MCL or 5th ICS AAL) before chest tube insertion."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What classic triad of physical signs characterizes Cardiac Tamponade in penetrating chest trauma (Beck's Triad)?",
+      "options": [
+        "Hypertension, Bradycardia, Irregular breathing",
+        "Hypotension, Muffled heart sounds, Elevated JVP",
+        "Tachycardia, Tracheal deviation, Absent breath sounds",
+        "Fever, RUQ pain, Jaundice",
+        "Paresis, Pallor, Pulselessness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beck's Triad consists of Hypotension, Distended neck veins (elevated JVP), and Muffled (distant) heart sounds."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which injury is characterized by paradoxical movement of a segment of the chest wall during respiration?",
+      "options": [
+        "Simple rib fracture",
+        "Flail chest",
+        "Sucking chest wound",
+        "Pulmonary contusion alone",
+        "Sternal dislocation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flail chest occurs when 3 or more consecutive ribs are fractured in 2 or more places, creating a free-floating segment that moves paradoxically (inward during inspiration, outward during expiration)."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the primary cause of respiratory distress and hypoxemia in a patient with a Flail Chest?",
+      "options": [
+        "Severe pain preventing chest wall motion",
+        "Underlying pulmonary contusion",
+        "Tracheal transection",
+        "Diaphragmatic rupture",
+        "Esophageal perforation"
+      ],
+      "correctIndex": 1,
+      "explanation": "While pain impairs ventilation, the main underlying cause of respiratory failure and hypoxia in flail chest is the associated parenchymal pulmonary contusion."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A patient involved in a motor vehicle collision arrives with Glasgow Coma Scale (GCS) components: Eyes open to pain (E2), Incomprehensible sounds (V2), Flexion withdrawal to pain (M4). What is his total GCS score?",
+      "options": [
+        "GCS 6",
+        "GCS 8",
+        "GCS 10",
+        "GCS 12",
+        "GCS 14"
+      ],
+      "correctIndex": 1,
+      "explanation": "GCS = E2 + V2 + M4 = 8. A GCS of 8 or less indicates severe head injury and generally mandates endotracheal intubation to protect the airway."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the primary goal of hyperventilation therapy in managing acutely elevated Intracranial Pressure (ICP)?",
+      "options": [
+        "Induce cerebral arterial vasodilation",
+        "Induce hypocapnia (PaCO2 30-35 mmHg) causing cerebral vasoconstriction",
+        "Increase blood pressure",
+        "Promote CSF production",
+        "Inhibit brain metabolism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hyperventilation lowers PaCO2, leading to respiratory alkalosis and cerebral vasoconstriction, which rapidly reduces cerebral blood volume and ICP."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "A 30-year-old construction worker falls 5 meters and sustains a base of skull fracture. Which of the following is a pathognomonic physical sign of a basilar skull fracture?",
+      "options": [
+        "Unequal pupils (anisocoria)",
+        "Ecchymosis over the mastoid process (Battle's sign)",
+        "Subcutaneous emphysema over the neck",
+        "Ptosis and miosis",
+        "Papilledema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Battle's sign (mastoid ecchymosis), Raccoon eyes (periorbital ecchymosis), CSF rhinorrhea, and CSF otorrhea are physical signs of a basal skull fracture. Unequal pupils indicate ICP/herniation."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which burn depth classification is characterized by blister formation, extreme pain, wet pink surface, and blanching with pressure?",
+      "options": [
+        "Erythema (1st degree)",
+        "Superficial partial-thickness (2nd degree)",
+        "Deep partial-thickness",
+        "Full-thickness (3rd degree)",
+        "Fourth degree"
+      ],
+      "correctIndex": 1,
+      "explanation": "Superficial partial-thickness burns involve the epidermis and upper dermis, presenting with painful blisters, moist pink base, and rapid capillary blanching."
     }
   ],
   "Physiology Interactive Practice Exam": [

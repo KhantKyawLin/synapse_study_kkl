@@ -357,7 +357,9 @@ function updateQuizData() {
                             const corrOpt = kCorrIdx !== -1 ? String(row[kCorrIdx] || '').trim() : String(row[2] || row[3] || '').trim();
                             const expl = kExpIdx !== -1 ? String(row[kExpIdx] || '').trim() : String(row[3] || row[4] || '').trim();
                             if (qNum) {
+                                const cleanNum = qNum.replace(/^q\s*/i, '');
                                 keysMap[qNum] = { topic, correct: corrOpt, explanation: expl };
+                                keysMap[cleanNum] = { topic, correct: corrOpt, explanation: expl };
                             }
                         }
                     }
@@ -404,8 +406,9 @@ function updateQuizData() {
                     const row = rows[i];
                     if (!row || row.length === 0) continue;
 
-                    const qNum = row[0];
-                    const keyInfo = keysMap[qNum] || {};
+                    const qNum = String(row[0] || '').trim();
+                    const cleanNum = qNum.replace(/^q\s*/i, '');
+                    const keyInfo = keysMap[qNum] || keysMap[cleanNum] || keysMap['Q' + cleanNum] || {};
                     const questionText = qIdx !== -1 ? String(row[qIdx] || '').trim() : String(row[2] || row[1] || '').trim();
                     if (!questionText || /score\s*card|instruction|total\s*question|performance\s*summary/i.test(questionText)) continue;
 
