@@ -2793,6 +2793,250 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 2 Database": [
+    {
+      "Name": "Splenic Rupture",
+      "Tag": "Abdominal Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Blunt lower chest or left hypochondrial trauma (RTAs, assaults, direct kick)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Laceration of splenic capsule/parenchyma causing hemoperitoneum and phrenic nerve irritation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe LUQ pain, peritonitis, Kehr's sign (left shoulder pain), Ballance's sign. Red Flag: Hypovolemic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FAST ultrasound / Contrast CT. Management: ATLS resuscitation, emergency splenectomy, post-splenectomy vaccines."
+        }
+      ]
+    },
+    {
+      "Name": "Epidural Hematoma (EDH)",
+      "Tag": "Head Injury",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Temporal bone fracture with laceration of middle meningeal artery."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rapid arterial bleeding expanding between skull inner table and dura mater, raising ICP."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Transient LOC -> Lucid Interval -> Rapid neurological deterioration, headache, ipsilateral dilated pupil."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Non-contrast CT Head (biconvex/lenticular hyperdense mass). Management: Mannitol/Hypertonic saline, emergency craniotomy/burr hole."
+        }
+      ]
+    },
+    {
+      "Name": "Subdural Hematoma (SDH)",
+      "Tag": "Head Injury",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Tearing of bridging veins between cortex and dural sinuses (elderly, alcoholics)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Venous bleeding accumulating slowly between dura and arachnoid mater."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Gradual headache, cognitive decline, focal neurological deficits over days to weeks."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Non-contrast CT Head (crescentic hyperdense/hypodense extra-axial mass). Management: Surgical burr hole drainage."
+        }
+      ]
+    },
+    {
+      "Name": "Basal Skull Fracture",
+      "Tag": "Head Injury",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "High-energy blunt head trauma fracturing anterior or middle cranial fossa floor."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Dural tear creating direct communication between subarachnoid space and paranasal sinuses/ear canal."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Battle's sign (mastoid ecchymosis), Raccoon eyes (periorbital ecchymosis), CSF rhinorrhea, CSF otorrhea."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "High-resolution Non-contrast CT Head. Management: Conservative head elevation, avoid NG tube, observe for meningitis."
+        }
+      ]
+    },
+    {
+      "Name": "Tension Pneumothorax",
+      "Tag": "Thoracic Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Penetrating or blunt chest injury creating a one-way valve pleural defect."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Air enters pleural cavity on inspiration but cannot exit, causing lung collapse and mediastinal shift."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe dyspnea, tracheal deviation to opposite side, hyperresonance, absent breath sounds, shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis (do NOT delay for X-ray). Management: Immediate needle thoracocentesis (2nd ICS MCL / 5th ICS AAL) -> Chest tube."
+        }
+      ]
+    },
+    {
+      "Name": "Cardiac Tamponade",
+      "Tag": "Thoracic Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Penetrating chest trauma lacerating pericardium or coronary vessels."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Blood accumulates in pericardial sac, restricting ventricular diastolic filling and cardiac output."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Beck's Triad: Hypotension, Muffled heart sounds, Elevated Jugular Venous Pressure (JVP)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FAST ultrasound (Pericardial fluid). Management: Emergency pericardiocentesis / Subxiphoid pericardial window / Thoracotomy."
+        }
+      ]
+    },
+    {
+      "Name": "Flail Chest",
+      "Tag": "Thoracic Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "High-velocity blunt impact fracturing >= 3 contiguous ribs in >= 2 places."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Segment of chest wall becomes detached, moving paradoxically inward during inspiration."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Paradoxical chest wall motion, severe chest pain, dyspnea. Red Flag: Underlying severe pulmonary contusion."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Chest X-ray / CT Thorax. Management: Analgesia (epidural/intercostal block), oxygenation, mechanical ventilation if hypoxic."
+        }
+      ]
+    },
+    {
+      "Name": "Severe Thermal Burn",
+      "Tag": "Thermal Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Direct flame, hot liquid scalds, or contact thermal injury."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Coagulative necrosis of epidermis/dermis; capillary leak causes massive third-space fluid shift."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Blisters, erythema, loss of sensation in full-thickness; hypovolemic burn shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TBSA evaluation (Rule of Nines / Lund-Browder). Management: Parkland formula (4 mL x kg x %TBSA Ringer's Lactate), IV analgesia."
+        }
+      ]
+    },
+    {
+      "Name": "Inhalational Burn Injury",
+      "Tag": "Respiratory Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thermal and toxic chemical exposure from smoke in enclosed space fires."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Upper airway thermal edema + lower airway chemical tracheobronchitis and ARDS."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Soot around nostrils/oropharynx, singed nasal hairs, hoarseness, stridor, disorientation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Fiberoptic bronchoscopy, ABG (Carboxyhemoglobin). Management: 100% humidified O2, early elective endotracheal intubation."
+        }
+      ]
+    },
+    {
+      "Name": "Circumferential Chest Burn",
+      "Tag": "Burn Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Full-thickness circumferential eschar over anterior and lateral chest wall."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rigid unyielding eschar acts as a tourniquet, restricting chest wall expansion and ventilation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe respiratory distress, shallow rapid breathing, high peak airway pressures on ventilator."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical examination. Management: Emergency chest escharotomy (transverse subclavicular and xiphisternal incisions connected laterally)."
+        }
+      ]
+    },
+    {
+      "Name": "Damage Control Surgery (DCS)",
+      "Tag": "Emergency Surgery",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe polytrauma with lethal triad: Hypothermia, Acidosis, and Coagulopathy."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Abbreviated initial surgery prioritizes rapid control of bleeding and contamination, avoiding prolonged reconstruction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hypothermia (<35°C), metabolic acidosis (pH <7.2), non-mechanical microvascular bleeding."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Lethal triad laboratory markers. Management: Phase I (Emergency laparotomy) -> Phase II (ICU resuscitation) -> Phase III (Definitive repair)."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

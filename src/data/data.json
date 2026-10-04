@@ -8659,6 +8659,376 @@
       "category": "Final Part 2 Surgery - Module 1",
       "question": "What is the principal cell responsible for synthesizing collagen during the remodeling phase of wound healing?",
       "answer": "Fibroblasts (which deposit Type III collagen initially, later replaced by Type I collagen during remodeling)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In the ATLS Primary Survey, what critical procedure must be maintained simultaneously while securing the Airway ('A')?",
+      "answer": "Cervical spine protection and immobilization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What immediate life-threatening thoracic condition must be ruled out during the Breathing ('B') assessment of the Primary Survey?",
+      "answer": "Tension pneumothorax"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What are the two primary objectives of the Circulation ('C') stage in the Primary Survey?",
+      "answer": "Treatment of hypovolemic shock and immediate control of active hemorrhage."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which clinical scoring systems are recommended to assess neurological disability ('D') during the Primary Survey?",
+      "answer": "Glasgow Coma Scale (GCS) or the AVPU scale (Alert, Voice, Pain, Unresponsive)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What essential steps are included in the Exposure ('E') component of the ATLS Primary Survey?",
+      "answer": "Completely undressing the patient to inspect for hidden injuries while actively preventing hypothermia (temperature control)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Under what condition can the Secondary Survey safely begin in a trauma patient?",
+      "answer": "Only after the Primary Survey is fully complete and the patient has been adequately resuscitated."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In the AMPLE trauma history taken during the Secondary Survey, what do 'A' and 'M' stand for?",
+      "answer": "A: Allergies; M: Medications (with specific emphasis on anticoagulants like Warfarin or NOACs)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In the AMPLE trauma history taken during the Secondary Survey, what do 'P', 'L', and 'E' represent?",
+      "answer": "P: Past medical history / Pregnancy; L: Last meal; E: Event leading to injury."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the leading single mechanism of trauma responsible for $40\\% - 50\\%$ of head injury presentations?",
+      "answer": "Road Traffic Accidents (RTAs)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Anatomically, head injuries are categorized into which three structural classifications?",
+      "answer": "1. Scalp lacerations\n2. Skull fractures\n3. Brain injuries"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "How is a primary cerebral concussion defined in traumatic brain injury?",
+      "answer": "A transient, trauma-induced impairment of neural function caused by mechanical force without structural gross brain lesions."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What biomechanical distinction separates a coup injury from a contrecoup brain injury?",
+      "answer": "A coup injury occurs at the site of primary impact, whereas a contrecoup injury occurs on the side opposite the impact due to brain acceleration-deceleration within the skull."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What specific impact mechanism is illustrated below? Diagram showing primary coup impact at point of striking wall and secondary contrecoup impact on opposite side",
+      "answer": "Coup and Contrecoup Traumatic Brain Injury"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What defines secondary brain injury following trauma?",
+      "answer": "Additional brain damage resulting from physiological insults (ischemia, edema, hypoxia, mass expansion) that occur hours to days after the initial mechanical impact."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What are the key extracranial systemic causes of secondary brain injury?",
+      "answer": "Hypoxia, hypotension, hyponatremia, hypothermia, and hypoglycemia."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What are the key intracranial causes that provoke secondary brain injury?",
+      "answer": "1. Intracranial hemorrhages (EDH, SDH, ICH, IVH, SAH)\n2. Elevated ICP (cerebral edema, venous congestion)\n3. Intracranial infections (meningitis, brain abscess)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What physiological parameter represents Cerebral Perfusion Pressure (CPP)?",
+      "answer": "The net pressure gradient driving blood, oxygen, and metabolic substrates to the brain tissue."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the mathematical equation for Cerebral Perfusion Pressure (CPP)?",
+      "answer": "$\\text{CPP} = \\text{MAP} - \\text{ICP}$ where MAP is Mean Arterial Pressure and ICP is Intracranial Pressure."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the normal physiological target range for Cerebral Perfusion Pressure (CPP) in adults?",
+      "answer": "$75 - 105 \\text{ mmHg}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the normal physiological baseline range for Mean Arterial Pressure (MAP)?",
+      "answer": "$90 - 110 \\text{ mmHg}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the normal physiological range for resting Intracranial Pressure (ICP)?",
+      "answer": "$5 - 15 \\text{ mmHg}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the core premise of the Monro-Kellie doctrine?",
+      "answer": "The adult cranium is a rigid, non-expandable box containing a fixed volume of nearly incompressible components: brain tissue, blood, and cerebrospinal fluid (CSF)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In response to an expanding intracranial mass lesion, which two fluid components are displaced first to maintain normal ICP?",
+      "answer": "Venous blood volume and Cerebrospinal Fluid (CSF)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "How do fluid displacement mechanisms alter ICP during space-occupying mass expansion? Diagram of Monro Kellie doctrine showing normal state, compensation phase with displaced venous blood and CSF, and brain herniation stage",
+      "answer": "Initial mass growth is accommodated by shunting CSF and venous blood out of the cranial vault (compensation). Once compensatory limits are exceeded, further mass expansion causes an exponential spike in ICP and brain herniation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Why is expansion of total skull volume impossible as a compensatory mechanism for increased ICP in adults?",
+      "answer": "Because adult cranial sutures are fused, creating a rigid structure with a completely fixed internal volume."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What patient bed positioning is recommended to help lower elevated intracranial pressure?",
+      "answer": "$30^\\circ$ head-up elevation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Why must head and neck rotation/flexion be avoided when managing raised ICP?",
+      "answer": "To prevent obstruction of jugular venous outflow, which would worsen cerebral venous congestion and increase ICP."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What procedure is depicted below for trauma airway and spinal stabilization? Patient secured on rigid backboard with cervical collar, head blocks, and torso/limb straps",
+      "answer": "Full Spinal Immobilization (using a rigid cervical collar, head blocks/straps, and backboard)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Under NICE guidelines, what neurological status criteria must be met before discharging a patient with minor/mild head injury?",
+      "answer": "GCS $15/15$ with no focal neurological deficits present."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "According to NICE head injury discharge criteria, what social and substance conditions must be satisfied?",
+      "answer": "The patient must not be under the influence of alcohol or drugs and must be accompanied by a responsible adult."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "If CT brain imaging is unavailable, how long should a patient with minor head injury be observed in the hospital prior to discharge consideration?",
+      "answer": "24 hours"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What red-flag symptoms listed in written NICE head injury advice instruct a discharged patient to seek urgent medical attention?",
+      "answer": "1. Persistent or worsening headache despite analgesia\n2. Persistent vomiting\n3. Drowsiness\n4. Visual disturbances\n5. Focal limb weakness or numbness"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the primary physical trauma mechanism responsible for splenic injuries?",
+      "answer": "Direct blunt abdominal trauma (e.g., motor vehicle collisions, falls, direct impacts)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "How does management of isolated splenic injury typically differ between children and unstable adults?",
+      "answer": "Children are predominantly managed non-operatively, whereas unstable adults with active bleeding require exploratory laparotomy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What surgical options exist to preserve splenic tissue instead of total splenectomy?",
+      "answer": "Splenic packing, suture repair (splenorrhaphy), placement in an absorbable mesh bag, or selective angioembolization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "When is total splenectomy strongly favored over reconstructive techniques during abdominal trauma surgery?",
+      "answer": "In physiologically unstable patients with severe splenic disruption and multiple sites of ongoing hemorrhage."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What constellation of clinical findings strongly points to acute traumatic splenic rupture in a blunt abdominal trauma patient?",
+      "answer": "Severe pain in the left hypochondrium, pallor, tachycardia (PR $>100\\text{/min}$), hypotension (BP $<90/60\\text{ mmHg}$), abdominal distension, and signs of free fluid."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is Kehr's sign in acute splenic rupture, and what causes it?",
+      "answer": "Referred pain to the left shoulder tip caused by phrenic nerve irritation from intraperitoneal blood irritating the left hemidiaphragm."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What clinical feature defines Ballance's sign in splenic trauma?",
+      "answer": "Fixed dullness to percussion in the left flank with shifting dullness in the right flank, caused by fixed clotted blood near the spleen and liquid blood moving freely on the right."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What initial bedside ultrasound protocol is used to detect intraperitoneal fluid in abdominal trauma?",
+      "answer": "FAST (Focused Assessment with Sonography for Trauma)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What tissue layer depth defines a superficial (1st degree) burn?",
+      "answer": "Injury involving strictly the superficial epidermis, without dermis damage (characterized by erythema and pain without blisters)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What anatomical layers and clinical features characterize a second-degree (partial thickness) burn?",
+      "answer": "Damage extends through the epidermis into a portion of the underlying dermis; clinically characterized by blister formation, severe pain, and weeping tissue."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What anatomical involvement defines a third-degree (full thickness) burn?",
+      "answer": "Complete destruction of both epidermis and full thickness of the dermis (extending into subcutaneous fat), yielding a leathery, insensate, charred or pale eschar."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What defines a fourth-degree burn?",
+      "answer": "Full-thickness destruction extending beyond subcutaneous tissue into underlying deep structures such as fascia, muscle, tendon, or bone."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which clinical estimation tools are used to calculate percentage Total Body Surface Area (% TBSA) in burn assessment?",
+      "answer": "Wallace Rule of Nines and the Lund and Browder chart."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the Parkland formula equation for calculating 24-hour burn resuscitation fluid requirements?",
+      "answer": "$\\text{Total Volume (mL)} = 4 \\text{ mL} \\times \\% \\text{TBSA} \\times \\text{Body Weight (kg)}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What fluid type is standardly administered during Parkland resuscitation for major burns?",
+      "answer": "Isotonic crystalloid solution (specifically Ringer's Lactate)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "According to the Parkland formula, how is total calculated resuscitation fluid volume timed over the first 24 hours?",
+      "answer": "The first $50\\%$ of calculated volume is infused over the first 8 hours post-burn; the remaining $50\\%$ is infused over the subsequent 16 hours."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Why is routine prophylactic systemic antibiotic administration NOT recommended for every acute burn case?",
+      "answer": "It does not reduce burn wound sepsis, alters baseline flora, and selectively breeds resistant bacterial strains."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "When is emergent surgical escharotomy urgently indicated in major burn injuries?",
+      "answer": "In circumferential full-thickness burns of the limbs or chest to prevent compartment syndrome or life-threatening restriction of respiratory excursion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "According to Gurtner and Wong (2014), what is the biological definition of wound healing?",
+      "answer": "The response of an organism to a physical disruption of tissue/organ to re-establish homeostasis of that tissue/organ and stabilize global physiology."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What fundamental structural boundary separates an open wound from a closed wound?",
+      "answer": "An open wound features broken epithelial/cutaneous integrity exposing underlying tissues, whereas a closed wound preserves epithelial integrity over underlying soft tissue damage."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What clinical approach characterizes healing by First Intention (primary closure)?",
+      "answer": "A clean, incised surgical wound whose margins are directly approximated and closed using sutures, staples, or tape, healing with minimal scar formation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What process defines healing by Second Intention (secondary closure)?",
+      "answer": "An open wound is intentionally left unapproximated to heal naturally from the base up through granulation tissue formation, wound contraction, and epithelialization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What clinical strategy describes healing by Third Intention (delayed primary closure)?",
+      "answer": "A heavily contaminated or infected wound is initially left open to allow infection control until healthy granulation tissue forms, after which it is closed surgically."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What are the three overlapping sequential phases of adult cutaneous wound healing?",
+      "answer": "1. Inflammatory phase\n2. Proliferative phase\n3. Remodeling phase"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "When does the Inflammatory Phase of wound healing occur, and what are its main functional goals?",
+      "answer": "Begins immediately post-injury and lasts $1 - 4$ days; serves to achieve hemostasis, debride devitalized tissue, and prevent microbial infection."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which white blood cell types sequentially dominate the acute Inflammatory Phase of wound healing?",
+      "answer": "Neutrophils arrive first within 24 hours to clear bacteria, followed by Monocytes/Macrophages which coordinate debridement and transition into tissue repair."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What timeframe and cellular processes define the Proliferative Phase of wound healing?",
+      "answer": "Occurs from days 4 to 21 post-wounding; characterized by granulation tissue formation, angiogenesis, fibroblast proliferation, collagen deposition, and re-epithelialization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which cell type and process are highlighted in the Proliferative Phase diagram below? Diagram of Proliferative Phase showing granulation tissue formation, proliferating fibroblasts, macrophages, endothelial sprouting, and keratinocyte migration beneath eschar",
+      "answer": "Proliferative Phase: Active granulation tissue formation driven by proliferating fibroblasts, macrophage orchestration, endothelial sprouting (angiogenesis), and keratinocyte migration to restore epithelial continuity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What structural components make up healthy granulation tissue?",
+      "answer": "Newly formed capillaries (angiogenesis), proliferating fibroblasts, extracellular matrix (collagen type III, hyaluronic acid), and residual immune cells."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What timeline and matrix changes characterize the Remodeling Phase of wound healing?",
+      "answer": "Lasts from Day 21 up to 1 year+; characterized by replacement of type III collagen with organized type I collagen, matrix maturation, cross-linking, and scar contraction."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What cell type and mechanical process dominate matrix contraction during wound remodeling below? Diagram of Remodeling Phase showing fibroblasts, matrix remodeling, myofibroblast contraction arrows, and immune cell clearance",
+      "answer": "Myofibroblasts mediating active wound contraction and ECM structural remodeling."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What primary biological function does Vascular Endothelial Growth Factor (VEGF) execute during tissue repair?",
+      "answer": "Promotes angiogenesis (sprouting of new blood vessels from pre-existing capillaries)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What cell type secretes Keratinocyte Growth Factor (KGF), and what is its specific action?",
+      "answer": "Secreted by fibroblasts; controls keratinocyte growth/maturation and induces epithelial secretion of additional growth factors."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What key roles does Transforming Growth Factor Beta (TGF-$\\beta$) perform in extracellular matrix synthesis?",
+      "answer": "Induces ECM synthesis by stimulating collagen and proteoglycan synthesis while simultaneously inhibiting matrix protease activity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What role does Epidermal Growth Factor (EGF) play in matrix remodeling?",
+      "answer": "Stimulates collagenase secretion by fibroblasts to facilitate matrix turnover and scar remodeling."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "How does Interleukin-1 (IL-1) contribute to the early inflammatory response in wound beds?",
+      "answer": "Acts as a pro-inflammatory peptide that induces chemotaxis of polymorphonuclear leukocytes (PMNs), fibroblasts, and keratinocytes, and activates PMNs."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What functional effect does Interleukin-8 (IL-8) exert on leukocytes during wound repair?",
+      "answer": "Activates PMNs and macrophages to initiate chemotaxis and induces margination and maturation of keratinocytes."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What is the biological role of Nitric Oxide Synthases (eNOS and iNOS) in wound healing?",
+      "answer": "Synthesize Nitric Oxide (NO) in endothelial cells, macrophages, and basal keratinocytes, influencing vasodilation, cell proliferation, and antimicrobial defense."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What defines the concept of Damage Control Surgery in severe multi-system trauma?",
+      "answer": "A staged surgical strategy prioritizing rapid control of hemorrhage and contamination over definitive complex anatomical repair to prevent the lethal trauma triad (coagulopathy, hypothermia, acidosis)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "What definitive surgical intervention is required for an unsalvageable open severe leg fracture presenting with established sepsis?",
+      "answer": "Immediate operative amputation (e.g., Below Knee Amputation) following ATLS resuscitation and broad-spectrum IV antibiotic administration."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "In cervical trauma evaluation, what landmark muscle divides the neck into anterior and posterior triangles?",
+      "answer": "Sternocleidomastoid muscle"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 2",
+      "question": "Which deep cervical lymph node chain runs adjacent to the internal jugular vein?",
+      "answer": "Deep cervical (jugular) lymph nodes"
     }
   ]
 }
