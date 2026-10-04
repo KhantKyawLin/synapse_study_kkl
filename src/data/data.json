@@ -7714,6 +7714,326 @@
       "category": "Final Part 2 Medicine - Respiratory Medicine",
       "question": "The aim of Long-Term Oxygen Therapy is to increase the $PaO_{2}$ to at least _____.",
       "answer": "$8\\text{ kPa}$ (or $60\\text{ mmHg}$)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the typical clinical presentation and duration of morning stiffness in a patient with suspected Rheumatoid Arthritis?",
+      "answer": "Symmetrical small joint pain and swelling (typically involving MCP and PIP joints) accompanied by early morning stiffness lasting over 30–60 minutes for a duration of at least 6 weeks to 6 months."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which specific small joints of the hand are characteristically affected by Rheumatoid Arthritis, and which joints are typically spared?",
+      "answer": "Rheumatoid Arthritis characteristically affects the Metacarpophalangeal (MCP) and Proximal Interphalangeal (PIP) joints, while characteristically sparing the Distal Interphalangeal (DIP) joints."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the structural deformity known as 'Swan Neck Deformity' in Rheumatoid Arthritis?",
+      "answer": "Hyperextension at the Proximal Interphalangeal (PIP) joint combined with flexion at the Distal Interphalangeal (DIP) joint."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What structural joint changes define a 'Boutonnière Deformity' in hand examination?",
+      "answer": "Flexion at the Proximal Interphalangeal (PIP) joint combined with hyperextension at the Distal Interphalangeal (DIP) joint."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How does a 'Z-deformity' of the thumb present in Rheumatoid Arthritis?",
+      "answer": "Fixed flexion at the Metacarpophalangeal (MCP) joint with hyperextension at the Interphalangeal (IP) joint of the thumb."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What classic hand alignment abnormality occurs at the metacarpophalangeal joints in longstanding Rheumatoid Arthritis?",
+      "answer": "Ulnar deviation (ulnar drift) of the fingers."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "List four extra-articular manifestations that can occur in patients with severe Rheumatoid Arthritis.",
+      "answer": "1. Subcutaneous rheumatoid nodules\n2. Ocular inflammation (episcleritis, scleritis, scleromalacia)\n3. Peripheral neuropathies (e.g., mononeuritis multiplex, entrapment neuropathies)\n4. Muscle wasting"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which autoantibody is more specific than Rheumatoid Factor (RF) for diagnosing Rheumatoid Arthritis?",
+      "answer": "Anti-Cyclic Citrullinated Peptide (Anti-CCP) antibody / Anti-Citrullinated Protein Antibody (ACPA)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What are the three classic findings on plain hand X-rays in early-to-moderate Rheumatoid Arthritis?",
+      "answer": "1. Periarticular osteoporosis (juxta-articular osteopenia)\n2. Marginal joint erosions\n3. Symmetrical joint space narrowing"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What validated clinical score is routinely used to quantify disease activity and guide treatment escalation in Rheumatoid Arthritis?",
+      "answer": "DAS 28 (Disease Activity Score assessing 28 specific joints)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Name four conventional synthetic Disease-Modifying Antirheumatic Drugs (DMARDs) used in managing Rheumatoid Arthritis.",
+      "answer": "1. Methotrexate\n2. Sulfasalazine\n3. Leflunomide\n4. Hydroxychloroquine"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In a patient presenting with polyarthritis, what synovial fluid pattern is expected on joint aspiration in Rheumatoid Arthritis?",
+      "answer": "An inflammatory pattern characterized by translucent, yellow fluid with elevated WBC count ($2,000 - 50,000/\\mu\\text{L}$ with predominant neutrophils) and absence of crystals or microorganisms."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the peak age of onset and typical demographic group affected by Systemic Lupus Erythematosus (SLE)?",
+      "answer": "Peak onset occurs between 16 and 55 years of age, with a 3- to 4-fold higher prevalence in non-Caucasian females (especially African-American and Asian populations)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which autoantibody test serves as the most sensitive screening test for Systemic Lupus Erythematosus (SLE)?",
+      "answer": "Antinuclear Antibody (ANA) assay using HEp-2 human epithelial cells."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How can a patient with clinical SLE present with an ANA-negative laboratory test due to autoantibody specificity?",
+      "answer": "When the autoantibodies are directed exclusively against cytoplasmic antigens such as anti-SS-A/Ro or anti-ribosomal P, rather than nuclear antigens captured by the standard HEp-2 assay."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Why can severe proteinuria cause a false-negative ANA result in a patient with active lupus nephritis?",
+      "answer": "Massive urinary loss of immunoglobulins depletes serum Igs required to bind HEp-2 substrate cells during testing; ANA typically converts to positive following immunosuppressive treatment."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Besides antibody specificity and severe proteinuria, name two clinical scenarios where a patient with confirmed SLE may test ANA-negative.",
+      "answer": "1. Following cytotoxic/immunosuppressive therapy\n2. During complete disease remission"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How do C-reactive protein (CRP) levels typically behave during an uncomplicated flare of Systemic Lupus Erythematosus?",
+      "answer": "CRP levels are usually normal or only modestly elevated ($< 6$ times the upper limit of normal) during an active SLE flare."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In a patient with SLE presenting with fever, what does a CRP level $> 6$ times the upper limit of normal strongly indicate?",
+      "answer": "Co-existing bacterial infection, systemic vasculitis, or significant serositis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How does the total White Blood Cell (WBC) count differ between an isolated SLE flare and a co-existing bacterial infection?",
+      "answer": "An SLE flare typically causes leukopenia (lymphopenia/neutropenia), whereas a bacterial infection causes leukocytosis or a normal total WBC count relative to a low baseline."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What finding on a WBC differential count suggests bacterial infection in an SLE patient who maintains a normal total leukocyte count?",
+      "answer": "A 'left shift' (increased percentage of immature neutrophilic band forms)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How do serum complement levels ($C3$ and $C4$) change during an acute SLE flare versus an acute bacterial infection?",
+      "answer": "Complement levels drop (hypocomplementemia) during an SLE flare due to immune-complex consumption, whereas complement levels rise or remain normal during an infection as acute-phase reactants."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which lab biomarkers are most helpful in differentiating acute bacterial infection from a disease flare in a febrile SLE patient?",
+      "answer": "Elevated serum procalcitonin level and elevated serum lactate level."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What common immunogenetic marker is shared across the spectrum of seronegative spondyloarthropathies?",
+      "answer": "HLA-B27."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What pattern of joint involvement characteristically defines peripheral arthritis in seronegative spondyloarthropathies?",
+      "answer": "Asymmetrical inflammatory oligoarthritis affecting lower limbs more than upper limbs."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the pathological hallmark lesion site in seronegative spondyloarthropathies?",
+      "answer": "Enthesitis (inflammation at tendon, ligament, or joint capsule insertions into bone, e.g., Achilles tendonitis or plantar fasciitis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is dactylitis, and in which conditions is it commonly observed?",
+      "answer": "Uniform, diffuse 'sausage-like' swelling of an entire finger or toe; hallmark feature of seronegative spondyloarthropathies (especially Psoriatic Arthritis and Reactive Arthritis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which MRI finding is diagnostic of active osteitis in sacroiliitis and axial spondyloarthritis?",
+      "answer": "Subchondral bone marrow edema on T2-weighted fluid-sensitive MRI sequences."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "List four disease entities included under the spectrum of Spondyloarthritis (SpA).",
+      "answer": "1. Axial spondyloarthritis (nr-axSpA and radiographic axSpA / Ankylosing Spondylitis)\n2. Psoriatic arthritis\n3. Reactive arthritis\n4. Enteropathic arthritis (IBD-associated arthritis)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What clinical features distinguish 'inflammatory back pain' from mechanical back pain in patients with Axial Spondyloarthritis?",
+      "answer": "Insidious onset before age 40, marked morning stiffness lasting $> 30$ minutes, improvement with physical activity/exercise, and aggravation by rest."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the prevalence of HLA-B27 positivity in patients with confirmed Ankylosing Spondylitis?",
+      "answer": "Greater than $95\\%$."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the most common ocular extra-articular manifestation of Ankylosing Spondylitis, and how frequently does it occur?",
+      "answer": "Acute anterior uveitis (iridocyclitis), occurring in approximately $25\\%$ of patients."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What genitourinary feature is reported in up to $80\\%$ of male patients with axial spondyloarthritis?",
+      "answer": "Prostatitis (often chronic or subclinical) and sterile urethritis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What cardiac structural complication occurs in up to $20\\%$ of patients with longstanding Ankylosing Spondylitis?",
+      "answer": "Aortic root disease (aortic root dilatation causing aortic incompetence and cardiac conduction defects)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What rare pulmonary complication can develop late in the course of severe Ankylosing Spondylitis?",
+      "answer": "Atypical upper-lobe pulmonary fibrosis."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What percentage of patients with axial spondyloarthritis exhibit microscopic or clinical Inflammatory Bowel Disease (IBD) mucosal lesions?",
+      "answer": "Up to $50\\%$ of patients."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What diagnostic classification standard is used to confirm Psoriatic Arthritis, and what point threshold is required?",
+      "answer": "The CASPAR criteria (Classification Criteria for Psoriatic Arthritis); requires $\\ge 3$ points in the presence of inflammatory articular disease."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Under the CASPAR criteria for Psoriatic Arthritis, how many points are assigned to current active psoriasis?",
+      "answer": "2 points (versus 1 point for historical or family history of psoriasis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How do plain X-ray features of Psoriatic Arthritis differ from those seen in Rheumatoid Arthritis?",
+      "answer": "Psoriatic Arthritis shows proliferative joint erosions with marked juxta-articular new bone formation, osteosclerosis, and an ABSENCE of periarticular osteoporosis (unlike RA, which shows periarticular osteoporosis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In Panel A of the clinical photograph below: Clinical photographs showing diffuse digit swelling in panel A and DIP joint arthritis with nail changes in panel B What specific manifestation of psoriatic arthropathy is demonstrated in the middle digit?",
+      "answer": "Dactylitis ('sausage finger')."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In Panel B of the clinical photograph below: Clinical photograph showing fingernails with severe dystrophy, pitting, and DIP joint expansion Identify the two specific nail dystrophy changes visible on the digits.",
+      "answer": "Nail pitting and onycholysis (associated with distal interphalangeal joint psoriatic arthritis)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What cutaneous lesion on the penis is characteristic of Sexually Acquired Reactive Arthritis (SARA)?",
+      "answer": "Circinate balanitis (painless vesicles on the coronal margin and glans penis that rupture to form superficial ring-like erosions)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What skin manifestation on the palms and soles is pathognomonic for Reactive Arthritis?",
+      "answer": "Keratoderma blennorrhagica (waxy, yellow-brown vesico-papules with desquamating margins that coalesce into crusty plaques)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the classic clinical triad associated with Reactive Arthritis?",
+      "answer": "1. Asymmetrical inflammatory arthritis\n2. Sterile urethritis or cervicitis\n3. Conjunctivitis or anterior uveitis"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What type of microcrystals precipitate within joints in Gout, triggering acute monoarthritis?",
+      "answer": "Monosodium urate (MSU) crystals."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "List the three primary differential diagnoses that MUST be considered when evaluating an acute, hot, swollen single joint.",
+      "answer": "1. Septic arthritis\n2. Acute gouty arthritis\n3. Acute pseudogout (Calcium Pyrophosphate Dihydrate [CPPD] deposition)"
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What diagnostic investigation is MANDATORY to rule out septic arthritis and confirm a crystal-induced arthropathy?",
+      "answer": "Joint aspiration (synovial fluid analysis for cell count, Gram stain, culture & sensitivity, and polarized light microscopy for crystal identification)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How do gout crystals and pseudogout crystals differ under polarized light microscopy?",
+      "answer": "Gout crystals are needle-shaped with strong negative birefringence, whereas pseudogout (CPPD) crystals are rhomboid-shaped with weak positive birefringence."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Why can a patient presenting with an acute attack of gout have a completely normal serum uric acid level?",
+      "answer": "Serum urate levels fall during acute inflammation because elevated renal excretion of urate occurs as part of the systemic acute-phase response."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What systemic inflammatory markers and blood cell abnormalities typically accompany an acute gout flare?",
+      "answer": "Elevated Erythrocyte Sedimentation Rate (ESR), elevated C-Reactive Protein (CRP), and peripheral neutrophilia."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Besides serum uric acid and renal function tests, what metabolic profile screening is recommended in gout patients?",
+      "answer": "Fasting blood glucose and lipid profile, due to the strong association between gout and Metabolic Syndrome."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the oral drug of first choice for managing an acute attack of gouty arthritis?",
+      "answer": "Oral Colchicine."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the standard dosing regimen for oral colchicine in treating an acute gout attack?",
+      "answer": "$0.5\\text{ mg}$ administered two to three times daily."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the mechanism of action of colchicine in treating acute gout?",
+      "answer": "Colchicine inhibits microtubule assembly in neutrophils, thereby preventing neutrophil chemotaxis, activation, and inflammatory mediator release."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What are the most common adverse effects of colchicine therapy?",
+      "answer": "Gastrointestinal symptoms: nausea, vomiting, abdominal cramps, and diarrhea."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which comorbidities limit or restrict the use of oral NSAIDs in acute gout attacks?",
+      "answer": "Coexisting cardiovascular disease, cerebrovascular disease, or chronic kidney disease (CKD)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Which targeted biological inhibitor can be used in acute gout flares when standard anti-inflammatory therapies are ineffective or contraindicated?",
+      "answer": "Canakinumab (an $IL-1\\beta$ monoclonal antibody inhibitor)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "How do radiographic plain X-ray findings differ between acute gouty arthritis and chronic tophaceous gout?",
+      "answer": "Plain X-rays are usually normal in acute gout (showing only soft tissue swelling), whereas chronic tophaceous gout demonstrates well-demarcated punched-out joint erosions with overhanging sclerotic margins ('Lulworth Cove' erosions)."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In the foot radiograph shown below: X-ray of foot showing punched-out erosions with destructive arthritis at the first MTP joint Name the characteristic joint erosion pattern indicated by the arrows at the first metatarsophalangeal joint.",
+      "answer": "Punched-out ('Lulworth Cove') periarticular erosions with overhanging sclerotic margins in chronic tophaceous gout."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What neurological manifestation of Acute Rheumatic Fever causes non-repetitive, involuntary, purposeless movements of proximal limbs?",
+      "answer": "Sydenham Chorea."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What is the gender distribution ratio for Sydenham Chorea in patients with Acute Rheumatic Fever?",
+      "answer": "It is three times more common in females."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "What are the clinical characteristics and body distribution of Erythema Marginatum in Acute Rheumatic Fever?",
+      "answer": "An erythematous, serpiginous, macular rash with pale centers predominantly involving the trunk and proximal limbs in a 'bathing suit distribution'."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "Where do subcutaneous nodules in Acute Rheumatic Fever typically form, and what are their physical characteristics?",
+      "answer": "They form over extensor surfaces of tendons near bony prominences; they are pea-sized, firm, non-tender nodules appearing $> 3$ weeks after streptococcal infection."
+    },
+    {
+      "category": "Final Part 2 Medicine - Rheumatology",
+      "question": "In synovial joint anatomy: Anatomical cross-section diagram of a synovial joint showing bone, cartilage, synovium, bursa, and tendon Which primary anatomical structure undergoes inflammatory pannus formation in Rheumatoid Arthritis versus enthesitis in Seronegative Spondyloarthritis?",
+      "answer": "The synovium (synovial membrane) is the primary target site in Rheumatoid Arthritis, whereas the enthesis (insertion of tendon/ligament into bone) is the primary target site in Spondyloarthritis."
     }
   ]
 }

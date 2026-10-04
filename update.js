@@ -14,24 +14,38 @@ if (!fs.existsSync(SRC_DATA_DIR)) {
     fs.mkdirSync(SRC_DATA_DIR, { recursive: true });
 }
 
-// Helper to parse CSV lines correctly (handling quotes and commas)
-function parseCSVLine(text) {
-    const result = [];
-    let cur = '';
+// Helper to parse entire CSV text correctly into rows and fields (handling multiline quotes and commas)
+function parseCSVRows(text) {
+    const rows = [];
+    let curRow = [];
+    let curField = '';
     let inQuotes = false;
     for (let i = 0; i < text.length; i++) {
         const c = text[i];
         if (c === '"') {
             inQuotes = !inQuotes;
         } else if (c === ',' && !inQuotes) {
-            result.push(cur);
-            cur = '';
+            curRow.push(curField);
+            curField = '';
+        } else if ((c === '\r' || c === '\n') && !inQuotes) {
+            if (c === '\r' && text[i+1] === '\n') { i++; }
+            curRow.push(curField);
+            curField = '';
+            if (curRow.some(f => f.trim().length > 0)) {
+                rows.push(curRow);
+            }
+            curRow = [];
         } else {
-            cur += c;
+            curField += c;
         }
     }
-    result.push(cur);
-    return result;
+    if (curField.length > 0 || curRow.length > 0) {
+        curRow.push(curField);
+        if (curRow.some(f => f.trim().length > 0)) {
+            rows.push(curRow);
+        }
+    }
+    return rows;
 }
 
 function updateData() {
@@ -48,7 +62,7 @@ function updateData() {
     files.forEach(file => {
         const filePath = path.join(EXCEL_FOLDER, file);
         const content = fs.readFileSync(filePath, 'utf-8');
-        const lines = content.split(/\r?\n/).filter(line => line.trim().length > 0);
+        const rows = parseCSVRows(content);
         
         // Auto-determine default category from filename
         let defaultCategory = "General";
@@ -76,6 +90,8 @@ function updateData() {
              defaultCategory = 'Final Part 2 Medicine - Haematology';
         } else if (cleanBase.toLowerCase().includes('infect')) {
              defaultCategory = 'Final Part 2 Medicine - Infectious Diseases';
+        } else if (cleanBase.toLowerCase().includes('rheum')) {
+             defaultCategory = 'Final Part 2 Medicine - Rheumatology';
         } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(cleanBase)) {
              defaultCategory = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
         } else if (parts.length >= 4) {
@@ -91,14 +107,14 @@ function updateData() {
         }
 
         // Check if first line is a header row
-        const firstCols = lines.length > 0 ? parseCSVLine(lines[0]) : [];
+        const firstCols = rows.length > 0 ? rows[0] : [];
         const isHeader = firstCols.some(c => /category|question|answer|front|back|stem/i.test(c.trim()));
         const startLineIdx = isHeader ? 1 : 0;
 
         const hasCategoryCol = firstCols.length >= 3 && /category|module|subject/i.test(firstCols[0].trim());
 
-        for (let i = startLineIdx; i < lines.length; i++) {
-            const columns = parseCSVLine(lines[i]);
+        for (let i = startLineIdx; i < rows.length; i++) {
+            const columns = rows[i];
             if (columns.length >= 2) {
                 let cardCat = defaultCategory;
                 let question = '';
@@ -122,7 +138,7 @@ function updateData() {
                 }
             }
         }
-        console.log(`✅ Loaded ${lines.length - startLineIdx} lines from: ${file}`);
+        console.log(`✅ Loaded ${rows.length - startLineIdx} lines from: ${file}`);
     });
 
     const jsonContent = JSON.stringify({ cards: allCards }, null, 2);
@@ -162,6 +178,8 @@ function updateDashboardData() {
             moduleName = 'Final Part 2 - Haematology Database';
         } else if (/infect/i.test(file)) {
             moduleName = 'Final Part 2 - Infectious Diseases Database';
+        } else if (/rheum/i.test(file)) {
+            moduleName = 'Final Part 2 - Rheumatology Database';
         }
         let moduleData = [];
 
@@ -214,13 +232,13 @@ function updateDashboardData() {
             }
         } else {
             const content = fs.readFileSync(filePath, 'utf-8');
-            const lines = content.split(/\r?\n/).filter(line => line.trim().length > 0);
+            const rows = parseCSVRows(content);
             
-            if (lines.length >= 2) {
-                const headers = parseCSVLine(lines[0]).map(h => h.replace(/^"|"$/g, '').trim());
+            if (rows.length >= 2) {
+                const headers = rows[0].map(h => h.replace(/^"|"$/g, '').trim());
 
-                for (let i = 1; i < lines.length; i++) {
-                    const columns = parseCSVLine(lines[i]);
+                for (let i = 1; i < rows.length; i++) {
+                    const columns = rows[i];
                     if (columns.length >= 2) {
                         let name = columns[0].replace(/^"|"$/g, '').trim();
                         let rawCategory = columns[1] ? columns[1].replace(/^"|"$/g, '').trim() : '';
@@ -289,6 +307,8 @@ function updateQuizData() {
                 moduleName = 'Final Part 2 Medicine - Haematology';
             } else if (/infect/i.test(rawBase)) {
                 moduleName = 'Final Part 2 Medicine - Infectious Diseases';
+            } else if (/rheum/i.test(rawBase)) {
+                moduleName = 'Final Part 2 Medicine - Rheumatology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {

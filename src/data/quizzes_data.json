@@ -4782,6 +4782,428 @@
       "explanation": "Miliary Tuberculosis results from hematogenous dissemination of M. tuberculosis, producing classic 1-2 mm 'millet seed' nodular lesions diffusely scattered throughout both lungs."
     }
   ],
+  "Final Part 2 Medicine - Rheumatology": [
+    {
+      "id": 9,
+      "category": "SLE",
+      "question": "A 26-year-old woman presents with joint pain, a malar rash sparing nasolabial folds, and photosensitivity. Which initial screening laboratory test is most sensitive for Systemic Lupus Erythematosus (SLE)?",
+      "options": [
+        "Anti-dsDNA antibody",
+        "Antinuclear Antibody (ANA)",
+        "Anti-Smith antibody",
+        "Rheumatoid Factor",
+        "Anti-Ro/SSA antibody"
+      ],
+      "correctIndex": 1,
+      "explanation": "ANA is positive in >95% of patients with active SLE, making it the single best initial screening test. While not strictly specific, a negative ANA strongly argues against SLE."
+    },
+    {
+      "id": 10,
+      "category": "SLE",
+      "question": "Which autoantibody test is highly specific for SLE and correlates directly with disease activity and the presence of active lupus nephritis?",
+      "options": [
+        "Anti-Ro (SSA)",
+        "Anti-La (SSB)",
+        "Anti-dsDNA",
+        "Anti-Centromere",
+        "Anti-Histone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anti-dsDNA antibodies are highly specific for SLE (95-98%) and serum titers correlate with overall disease activity and lupus nephritis severity."
+    },
+    {
+      "id": 11,
+      "category": "SLE",
+      "question": "A 30-year-old SLE patient develops proteinuria (2.5 g/day), microscopic hematuria, and elevated serum creatinine. Renal biopsy confirms Class IV Diffuse Proliferative Lupus Nephritis. What is the standard induction therapy?",
+      "options": [
+        "High-dose Oral Prednisolone alone",
+        "Methotrexate + Folic Acid",
+        "High-dose Corticosteroids + IV Cyclophosphamide or Mycophenolate Mofetil",
+        "Hydroxychloroquine alone",
+        "Infliximab + Azathioprine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Class III/IV lupus nephritis requires aggressive immunosuppressive induction with high-dose corticosteroids combined with either Mycophenolate Mofetil or IV Cyclophosphamide."
+    },
+    {
+      "id": 12,
+      "category": "Rheumatoid Arthritis",
+      "question": "A 42-year-old woman presents with 3 months of symmetrical joint swelling in her PIP and MCP joints with 2 hours of morning stiffness. Which laboratory test has the highest specificity (>95%) for diagnosing Rheumatoid Arthritis?",
+      "options": [
+        "Rheumatoid Factor (RF)",
+        "Anti-Citrullinated Protein Antibody (Anti-CCP / ACPA)",
+        "Antinuclear Antibody (ANA)",
+        "Erythrocyte Sedimentation Rate (ESR)",
+        "Serum Uric Acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-CCP (ACPA) antibodies have a high specificity (>95-98%) for Rheumatoid Arthritis and can be detected early in the disease course, predicting erosive joint damage."
+    },
+    {
+      "id": 13,
+      "category": "Rheumatoid Arthritis",
+      "question": "Which joint group is classically SPARED in Rheumatoid Arthritis?",
+      "options": [
+        "Metacarpophalangeal (MCP) joints",
+        "Proximal Interphalangeal (PIP) joints",
+        "Distal Interphalangeal (DIP) joints",
+        "Wrist joints",
+        "Metatarsophalangeal (MTP) joints"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rheumatoid Arthritis classically involves MCP, PIP, wrist, and MTP joints while characteristically sparing the Distal Interphalangeal (DIP) joints (which are affected in OA and Psoriatic Arthritis)."
+    },
+    {
+      "id": 14,
+      "category": "Rheumatoid Arthritis",
+      "question": "What is the first-line disease-modifying antirheumatic drug (DMARD) of choice for long-term control of newly diagnosed Rheumatoid Arthritis?",
+      "options": [
+        "Sulfasalazine",
+        "Methotrexate (co-administered with Folic Acid)",
+        "Hydroxychloroquine",
+        "Prednisolone 40 mg daily",
+        "Tofacitinib"
+      ],
+      "correctIndex": 1,
+      "explanation": "Methotrexate is the anchor DMARD for RA. Folic acid supplementation is mandatory to reduce adverse effects such as stomatitis, GI upset, and cytopenias."
+    },
+    {
+      "id": 15,
+      "category": "Seronegative Spondyloarthropathies",
+      "question": "A 24-year-old man presents with chronic lower back pain and stiffness that worsens with rest, improves with exercise, and wakes him during the second half of the night. Which genetic marker is present in >90% of patients with Ankylosing Spondylitis?",
+      "options": [
+        "HLA-DR4",
+        "HLA-B27",
+        "HLA-DR2",
+        "HLA-DQ8",
+        "HLA-B51"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ankylosing Spondylitis has a strong association with HLA-B27 (>90% positivity). It is a prototypic seronegative (RF negative) spondyloarthropathy."
+    },
+    {
+      "id": 16,
+      "category": "Seronegative Spondyloarthropathies",
+      "question": "A plain lumbar spine X-ray in a patient with advanced Ankylosing Spondylitis demonstrates bilateral sacroiliitis and continuous vertical bridging syndesmophytes. What is this classic radiological sign called?",
+      "options": [
+        "Saddle-nose spine",
+        "Bamboo spine",
+        "Codfish spine",
+        "Rugger-jersey spine",
+        "Bone-within-bone appearance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Continuous ossification of outer annulus fibrosus fibers leads to vertical syndesmophytes that bridge adjacent vertebrae, producing the 'bamboo spine' appearance."
+    },
+    {
+      "id": 17,
+      "category": "Seronegative Spondyloarthropathies",
+      "question": "Which bedside clinical test is specifically used to evaluate the restriction of lumbar spine flexion in a patient suspected of having Ankylosing Spondylitis?",
+      "options": [
+        "Thomas test",
+        "Schober's test (<5 cm expansion)",
+        "Lasegue's straight leg raise test",
+        "Patrick's FABER test",
+        "Trendelenburg test"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schober's test measures lumbar flexion. A line drawn 10 cm above and 5 cm below S2 should expand by >5 cm when bending forward; <5 cm indicates restricted mobility."
+    },
+    {
+      "id": 18,
+      "category": "Seronegative Spondyloarthropathies",
+      "question": "A 28-year-old man presents with painful left knee swelling, conjunctivitis, and dysuria 3 weeks after an episode of infectious diarrhea. What is the classic clinical diagnosis?",
+      "options": [
+        "Ankylosing Spondylitis",
+        "Reactive Arthritis (Reiter Syndrome)",
+        "Psoriatic Arthritis",
+        "Gouty Arthritis",
+        "Lyme Disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reactive Arthritis presents as an asymmetric oligoarthritis following GI (Shigella, Salmonella, Campylobacter) or GU (Chlamydia) infection, classically with urethritis and conjunctivitis."
+    },
+    {
+      "id": 19,
+      "category": "Crystal Arthropathies",
+      "question": "Polarized light microscopy of aspirated synovial fluid from an acutely inflamed 1st MTP joint demonstrates needle-shaped crystals with strong negative birefringence. What is the constituent crystal?",
+      "options": [
+        "Calcium pyrophosphate dihydrate (CPPD)",
+        "Monosodium urate (MSU)",
+        "Basic calcium phosphate",
+        "Cholesterol crystals",
+        "Calcium oxalate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Monosodium urate (MSU) crystals in gout appear needle-shaped and show strong negative birefringence under polarized light microscopy (yellow when parallel to the red compensator)."
+    },
+    {
+      "id": 20,
+      "category": "Crystal Arthropathies",
+      "question": "A 55-year-old man presents with acute Podagra. Which medication regimen is first-line for acute gouty arthritis in a patient with normal renal function?",
+      "options": [
+        "Allopurinol 300 mg stat",
+        "Oral Colchicine or high-dose NSAID (Indomethacin/Naproxen)",
+        "Febuxostat 80 mg daily",
+        "Probenecid 500 mg BD",
+        "Intravenous Urate Oxidase (Rasburicase)"
+      ],
+      "correctIndex": 1,
+      "explanation": "First-line acute gout management includes oral Colchicine, short-course high-dose NSAIDs, or corticosteroids. Urate-lowering therapy (Allopurinol) should NOT be initiated or altered during an acute attack."
+    },
+    {
+      "id": 21,
+      "category": "Crystal Arthropathies",
+      "question": "What is the mechanism of action of Allopurinol, used for chronic urate-lowering therapy in gout?",
+      "options": [
+        "Inhibition of xanthine oxidase",
+        "Recombinant urate oxidase enzyme",
+        "Inhibition of renal tubular urate reabsorption",
+        "Inhibition of neutrophil microtubule assembly",
+        "Inhibition of cyclooxygenase-2"
+      ],
+      "correctIndex": 0,
+      "explanation": "Allopurinol and Febuxostat are xanthine oxidase inhibitors that block the conversion of hypoxanthine and xanthine into uric acid, lowering serum urate levels."
+    },
+    {
+      "id": 22,
+      "category": "Crystal Arthropathies",
+      "question": "Synovial fluid analysis from a swollen knee in a 72-year-old woman shows rhomboid-shaped crystals with weak positive birefringence. What is the underlying disorder?",
+      "options": [
+        "Gout",
+        "Pseudogout (Calcium Pyrophosphate Dihydrate / CPPD disease)",
+        "Septic arthritis",
+        "Rheumatoid arthritis",
+        "Apatite deposition disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "CPPD crystal deposition (Pseudogout) is characterized by rhomboid-shaped, weakly positively birefringent crystals (blue when parallel to the compensator)."
+    },
+    {
+      "id": 23,
+      "category": "Crystal Arthropathies",
+      "question": "Which radiographic feature on knee plain film is characteristic of Calcium Pyrophosphate Dihydrate (CPPD) deposition disease?",
+      "options": [
+        "Juxta-articular erosion with overhanging margins",
+        "Chondrocalcinosis (calcification of articular cartilage/menisci)",
+        "Bamboo spine",
+        "Pencil-in-cup deformity",
+        "Severe osteopenia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chondrocalcinosis appears as linear calcification within articular hyaline cartilage or fibrocartilaginous menisci on knee, wrist, or symphysis pubis X-rays."
+    },
+    {
+      "id": 24,
+      "category": "Connective Tissue Diseases",
+      "question": "A 48-year-old woman presents with Raynaud's phenomenon, sclerodactyly, telangiectasias on her face, and dysphagia. Which autoantibody is most specific for Limited Cutaneous Systemic Sclerosis (CREST syndrome)?",
+      "options": [
+        "Anti-Scl-70 (Anti-topoisomerase I)",
+        "Anti-Centromere antibody",
+        "Anti-Jo-1",
+        "Anti-Ro (SSA)",
+        "Anti-RNP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-Centromere antibodies are highly specific for Limited Cutaneous Systemic Sclerosis (CREST: Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, Telangiectasia)."
+    },
+    {
+      "id": 25,
+      "category": "Connective Tissue Diseases",
+      "question": "Which autoantibody in Systemic Sclerosis is associated with Diffuse Cutaneous involvement and an increased risk of rapidly progressive Interstitial Lung Disease (ILD)?",
+      "options": [
+        "Anti-Centromere",
+        "Anti-Scl-70 (Anti-topoisomerase I)",
+        "Anti-Histone",
+        "Anti-CCP",
+        "Anti-dsDNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-Scl-70 (anti-topoisomerase I) antibodies are associated with Diffuse Cutaneous Systemic Sclerosis and carry a significantly higher risk of severe lung fibrosis (ILD)."
+    },
+    {
+      "id": 26,
+      "category": "Connective Tissue Diseases",
+      "question": "A patient with Diffuse Systemic Sclerosis presents with sudden severe headache, BP 210/120 mmHg, oliguria, and microangiopathic hemolytic anemia. What is the immediate life-saving drug class of choice for Scleroderma Renal Crisis?",
+      "options": [
+        "Intravenous Loop Diuretics (Furosemide)",
+        "Angiotensin-Converting Enzyme (ACE) Inhibitors (e.g. Captopril)",
+        "Intravenous Beta-blockers (Labetalol)",
+        "Calcium Channel Blockers (Amlodipine)",
+        "High-dose IV Methylprednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "ACE inhibitors (e.g., Captopril) are life-saving in Scleroderma Renal Crisis. High-dose corticosteroids must be avoided in scleroderma as they can precipitate renal crisis."
+    },
+    {
+      "id": 27,
+      "category": "Inflammatory Myopathies",
+      "question": "A 50-year-old woman presents with progressive difficulty rising from a low chair, erythematous scaly papules over her MCP and PIP joints (Gottron's papules), and a violaceous periorbital rash (Heliotrope rash). What is the diagnosis?",
+      "options": [
+        "Polymyositis",
+        "Dermatomyositis",
+        "Systemic Lupus Erythematosus",
+        "Systemic Sclerosis",
+        "Psoriatic Arthritis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dermatomyositis presents with symmetrical proximal muscle weakness plus pathognomonic cutaneous lesions: Gottron's papules and Heliotrope periorbital rash."
+    },
+    {
+      "id": 28,
+      "category": "Inflammatory Myopathies",
+      "question": "Which serum muscle enzyme is most elevated and serves as a primary marker for muscle necrosis in Polymyositis and Dermatomyositis?",
+      "options": [
+        "Alanine Aminotransferase (ALT)",
+        "Creatine Kinase (CK)",
+        "Lactate Dehydrogenase (LDH)",
+        "Alkaline Phosphatase (ALP)",
+        "Amylase"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum Creatine Kinase (CK) is markedly elevated (often 10-50x normal) in active inflammatory myopathies and correlates with muscle destruction."
+    },
+    {
+      "id": 29,
+      "category": "Vasculitides",
+      "question": "A 68-year-old woman presents with a 2-week history of severe right temporal headache, scalp tenderness when brushing her hair, and jaw claudication. What is the most critical complication to prevent with urgent therapy?",
+      "options": [
+        "Ischemic stroke",
+        "Irreversible visual loss (Anterior Ischemic Optic Neuropathy)",
+        "Temporal bone necrosis",
+        "Carotid artery dissection",
+        "Meningitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giant Cell (Temporal) Arteritis can cause ischemic optic neuropathy leading to sudden, irreversible blindness due to posterior ciliary artery vasculitis."
+    },
+    {
+      "id": 30,
+      "category": "Vasculitides",
+      "question": "In a patient with high clinical suspicion of Giant Cell Arteritis and visual blurring, what is the mandatory immediate action?",
+      "options": [
+        "Order an urgent temporal artery MRI before giving steroids",
+        "Perform a temporal artery biopsy and await histopathology results",
+        "Immediately start high-dose oral Prednisolone (40-60 mg daily)",
+        "Start Aspirin 75 mg and re-evaluate in 1 week",
+        "Perform lumbar puncture to exclude raised ICP"
+      ],
+      "correctIndex": 2,
+      "explanation": "High-dose systemic steroids must be initiated IMMEDIATELY upon suspicion of GCA to prevent irreversible vision loss. Biopsy can be performed up to 2 weeks later without losing sensitivity."
+    },
+    {
+      "id": 31,
+      "category": "Vasculitides",
+      "question": "Which laboratory marker is characteristically markedly elevated (>50-100 mm/hr) in Giant Cell Arteritis and Polymyalgia Rheumatica?",
+      "options": [
+        "Prothrombin Time (PT)",
+        "Erythrocyte Sedimentation Rate (ESR)",
+        "Serum Calcium",
+        "Serum Ferritin",
+        "Thyroid Stimulating Hormone (TSH)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A significantly elevated ESR (>50 mm/hr, often >100 mm/hr) and high CRP are hallmark inflammatory features of Giant Cell Arteritis and Polymyalgia Rheumatica."
+    },
+    {
+      "id": 32,
+      "category": "Vasculitides",
+      "question": "A 45-year-old man presents with chronic purulent nasal discharge, saddle-nose deformity, hemoptysis with cavitating lung nodules, and RPGN with RBC casts. Which autoantibody marker is diagnostic?",
+      "options": [
+        "p-ANCA (Anti-MPO)",
+        "c-ANCA (Anti-Proteinase 3 / Anti-PR3)",
+        "Anti-GBM antibody",
+        "Anti-dsDNA",
+        "Anti-Ro/SSA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Granulomatosis with Polyangiitis (GPA / Wegener's) features upper airway, lung, and renal involvement and is strongly associated with c-ANCA (Anti-PR3) antibodies."
+    },
+    {
+      "id": 33,
+      "category": "Vasculitides",
+      "question": "A 7-year-old boy presents with palpable purpura on his lower extremities and buttocks, colicky abdominal pain, arthralgias, and microscopic hematuria following an upper respiratory infection. What is the diagnosis?",
+      "options": [
+        "IgA Vasculitis (Henoch-Schönlein Purpura / HSP)",
+        "Immune Thrombocytopenic Purpura (ITP)",
+        "Kawasaki Disease",
+        "Meningococcemia",
+        "Polyarteritis Nodosa"
+      ],
+      "correctIndex": 0,
+      "explanation": "IgA Vasculitis (HSP) is a leukocytoclastic small-vessel vasculitis characterized by IgA immune complex deposition, presenting with non-thrombocytopenic palpable purpura, abdominal pain, arthritis, and glomerulonephritis."
+    },
+    {
+      "id": 34,
+      "category": "Vasculitides",
+      "question": "Polyarteritis Nodosa (PAN) is a necrotizing vasculitis of medium-sized arteries that characteristically spares which organ system?",
+      "options": [
+        "Kidneys",
+        "Gastrointestinal tract",
+        "Lungs (Pulmonary vasculature)",
+        "Peripheral nerves",
+        "Skin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Polyarteritis Nodosa (PAN) affects medium-sized visceral and renal arteries but characteristically SPARES the pulmonary circulation (pulmonary arteries/lungs)."
+    },
+    {
+      "id": 35,
+      "category": "Vasculitides",
+      "question": "Which chronic viral infection is classically associated with 30% of cases of Polyarteritis Nodosa (PAN)?",
+      "options": [
+        "Hepatitis A Virus",
+        "Hepatitis B Virus (HBV)",
+        "Epstein-Barr Virus",
+        "Cytomegalovirus",
+        "Human Papillomavirus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polyarteritis Nodosa has a classic, strong association with Hepatitis B Virus (HBV) infection due to immune complex deposition in medium-sized arterial walls."
+    },
+    {
+      "id": 36,
+      "category": "Sjogren Syndrome",
+      "question": "A 52-year-old woman complains of dry, gritty eyes and severe dry mouth requiring water to swallow dry food. Serum autoantibody panel reveals positive Anti-SSA (Ro) and Anti-SSB (La). What is the primary diagnosis?",
+      "options": [
+        "Systemic Sclerosis",
+        "Sjogren Syndrome",
+        "Sarcoidosis",
+        "Mikulicz Disease",
+        "Rheumatoid Arthritis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sjogren Syndrome is an autoimmune exocrinopathy causing dry eyes (keratoconjunctivitis sicca) and dry mouth (xerostomia), associated with Anti-SSA (Ro) and Anti-SSB (La) autoantibodies."
+    },
+    {
+      "id": 37,
+      "category": "Sjogren Syndrome",
+      "question": "Which objective ocular test measures lacrimal gland fluid production by placing a strip of filter paper inside the lower eyelid for 5 minutes?",
+      "options": [
+        "Snellen visual acuity test",
+        "Schirmer's test (<5 mm wetting indicates deficiency)",
+        "Goldmann applanation tonometry",
+        "Fluorescein angiography",
+        "Ishihara color vision test"
+      ],
+      "correctIndex": 1,
+      "explanation": "Schirmer's test assesses tear production. Wetting of <5 mm of filter paper after 5 minutes is positive for lacrimal gland hypofunction in Sjogren Syndrome."
+    },
+    {
+      "id": 38,
+      "category": "Antiphospholipid Syndrome",
+      "question": "A 32-year-old woman with SLE has a history of 3 consecutive first-trimester miscarriages and a deep vein thrombosis. Laboratory testing shows a prolonged APTT that fails to correct with normal plasma mixing, and positive Lupus Anticoagulant. What is the diagnosis?",
+      "options": [
+        "Disseminated Intravascular Coagulation (DIC)",
+        "Antiphospholipid Syndrome (APS)",
+        "Factor V Leiden mutation",
+        "Protein C deficiency",
+        "Immune Thrombocytopenic Purpura (ITP)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,
