@@ -2395,6 +2395,404 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 1 Database": [
+    {
+      "Name": "Acute Ascending Cholangitis",
+      "Tag": "Biliary Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Common bile duct stone or stricture with enteric bacterial infection (E. coli, Klebsiella)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Biliary stasis and increased intraductal pressure leading to bacterial translocation into systemic circulation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Charcot's Triad (RUQ pain, fever with rigors, jaundice); Reynolds' Pentad (adds hypotension and altered mental status)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "USG shows dilated CBD (>6mm) and stones; LFTs show conjugated hyperbilirubinemia & ALP > 3x. Management: IV fluids, broad-spectrum IV antibiotics, urgent ERCP sphincterotomy/stenting."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Ischemic Limb",
+      "Tag": "Arterial Occlusion",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Embolism (atrial fibrillation, post-MI) or acute thrombosis on pre-existing atherosclerosis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sudden cessation of arterial perfusion resulting in tissue hypoxia, muscle ischemia, and nerve damage within 6 hours."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "The 6 Ps: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Perishingly cold. Red Flag: Muscle rigidity and complete sensory loss."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Handheld Doppler / CT Angiography. Management: IV Heparin bolus, emergency Fogarty catheter embolectomy or arterial bypass surgery."
+        }
+      ]
+    },
+    {
+      "Name": "Carcinoma of Esophagus",
+      "Tag": "Esophageal Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Squamous Cell (tobacco, alcohol, caustic stricture) or Adenocarcinoma (GERD, Barrett's esophagus)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant transmural invasion lacking serosal barrier, leading to early mediastinal and lymphatic dissemination."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Progressive dysphagia (solids then liquids), rapid weight loss, anorexia. Red Flag: Odynophagia, hoarseness, supraclavicular lymphadenopathy."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Flexible Upper GI Endoscopy (OGDS) with biopsy; CT staging. Management: Neoadjuvant chemoradiotherapy + Esophagectomy (Ivor Lewis) or SEMS stenting."
+        }
+      ]
+    },
+    {
+      "Name": "Splenic Rupture",
+      "Tag": "Abdominal Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Blunt trauma to left lower chest/flank (RTAs, assault, direct kick)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Laceration of splenic parenchyma/capsule causing intra-abdominal hemorrhage and phrenic nerve irritation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe LUQ pain, peritonitis, Kehr's sign (left shoulder tip pain), Ballance's sign (fixed left flank dullness). Red Flag: Hemodynamic instability."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FAST ultrasound scan / CT Abdomen. Management: Resuscitation (ATLS), emergency exploratory laparotomy and splenectomy; post-splenectomy vaccines."
+        }
+      ]
+    },
+    {
+      "Name": "Obstructed Femoral Hernia",
+      "Tag": "Groin Hernia",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Protrusion of small bowel/omentum through narrow femoral canal below inguinal ligament (elderly females)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Tight femoral ring causes mechanical neck compression, venous congestion, ischemia, and small bowel obstruction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Colicky abdominal pain, bilious vomiting, distension, absolute constipation, small tender groin swelling below inguinal ligament."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Plain abdominal X-ray (distended small bowel loops, air-fluid levels). Management: NBM, IV hydration, RTS, emergency groin repair & bowel resection if gangrenous."
+        }
+      ]
+    },
+    {
+      "Name": "Phyllodes Tumour",
+      "Tag": "Fibroepithelial Neoplasm",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Biphasic stromal-epithelial tumor occurring in adult females."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rapid stromal expansion causing massive breast enlargement, skin stretching, and pressure necrosis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Large (>5 cm), firm, mobile, bosselated breast mass. Red Flag: Pressure ischemia with ulceration of overlying skin."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Breast USG/Mammography & Core needle biopsy. Management: Wide local excision with >1 cm clear margins or simple mastectomy (no routine axillary dissection)."
+        }
+      ]
+    },
+    {
+      "Name": "Carcinoma Head of Pancreas",
+      "Tag": "Pancreatic Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ductal adenocarcinoma of pancreatic head or periampullary region."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Insidious compression and gradual obliteration of the retropancreatic common bile duct causing severe extrahepatic cholestasis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painless, continuously progressive obstructive jaundice, severe pruritus, dark urine, clay-colored (acholic) stools, weight loss. Courvoisier's sign."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "LFTs (conjugated hyperbilirubinemia, ALP > 3-5x); CA 19-9; Multiphase CT. Management: Whipple's procedure (Pancreaticoduodenectomy) or ERCP biliary stenting."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Appendicitis",
+      "Tag": "Acute Abdomen",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Obstructed appendiceal lumen (fecalith, lymphoid hyperplasia) with secondary bacterial infection."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Luminal distension, venous congestion, ischemia, gangrene, and localized or generalized perforation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Migratory pain (periumbilical to RIF), anorexia, nausea, fever (38°C), localized RIF tenderness, rigidity, rebound tenderness (McBurney's point)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Ultrasound Abdomen / FBC (leucocytosis). Management: Emergency open or laparoscopic appendectomy & IV antibiotics."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Pancreatitis",
+      "Tag": "Pancreatic Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Gallstones (biliary) and alcohol abuse (major causes)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Intra-acinar zymogen activation causing auto-digestion, parenchymal necrosis, hemorrhage, and systemic inflammatory response (SIRS)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe epigastric pain radiating to the back, vomiting, paralytic ileus. Red Flag: Periumbilical ecchymosis (Cullen's sign) & flank ecchymosis (Grey Turner's sign)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum Lipase (>3x upper limit of normal, more sensitive/specific than amylase); CT Abdomen. Management: Aggressive IV fluid resuscitation, analgesia, NBM."
+        }
+      ]
+    },
+    {
+      "Name": "Epidural Hematoma",
+      "Tag": "Head Injury",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Blunt head trauma (temporal bone fracture) tearing the middle meningeal artery."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Arterial bleeding expanding rapidly between inner table of skull and dura mater, elevating intracranial pressure and causing brain herniation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Transient loss of consciousness followed by a 'lucid interval', then rapid deterioration, severe headache, ipsilateral dilated pupil."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Non-contrast CT Head (biconvex/lenticular hyperdense extra-axial mass). Management: Immediate hypertonic saline/mannitol, emergency burr hole / craniotomy."
+        }
+      ]
+    },
+    {
+      "Name": "Thrombosed External Hemorrhoid",
+      "Tag": "Perianal Condition",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute venous thrombosis of the inferior hemorrhoidal plexus below the dentate line (triggered by heavy lifting/straining)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Subcutaneous hematoma formation under sensitive squamous epithelium of the anal verge."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden onset of excruciating perianal pain, visible olive-shaped, tense, blue subcutaneous swelling at anal margin."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical inspection. Management: Stool softeners, analgesia, warm sitz baths, or emergency excision under local anesthesia within 48-72 hours."
+        }
+      ]
+    },
+    {
+      "Name": "Benign Prostatic Hyperplasia",
+      "Tag": "Lower Urinary Tract",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Nodular hyperplasia of prostatic transition zone driven by dihydrotestosterone (DHT) in aging males."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical bladder outlet obstruction causing progressive LUTS and risk of acute urinary retention (AROU)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Frequency, nocturia, hesitancy, weak stream, terminal dribbling, sensation of incomplete emptying. Red Flag: Painful inability to void (AROU)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Digital Rectal Exam (smooth, firm, enlarged prostate); PSA; Uroflowmetry. Management: Alpha-blockers (Tamsulosin) for quick relief; Finasteride (5-ARI) to shrink prostate and prevent retention."
+        }
+      ]
+    },
+    {
+      "Name": "Severe Inhalational Burn",
+      "Tag": "Burn Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thermal and toxic chemical exposure from smoke inhalation in confined spaces."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Thermal injury to upper airway causing rapid edema/stridor; chemical injury to lower respiratory tract causing bronchospasm and ARDS."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Soot in oropharynx/nasal cavity, singed nasal hairs, carbonaceous sputum, hoarseness, stridor, disorientation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Fiberoptic bronchoscopy; Arterial Blood Gas (Carboxyhemoglobin level). Management: 100% humidified oxygen, early elective endotracheal intubation, ICU support."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Anal Fissure",
+      "Tag": "Perianal Condition",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Trauma from hard stool evacuation causing an ischemic longitudinal tear in distal anal canal (most common in females)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hypertonia of internal anal sphincter leading to local ischemia and severe pain, preventing mucosal healing."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sharp, tearing, excruciating pain during and immediately after defecation, accompanied by bright red blood on toilet paper."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Visual inspection (gently parting buttocks; DRE avoided in acute phase). Management: High-fiber diet, stool softeners, warm sitz baths, topical 0.2% GTN / Diltiazem."
+        }
+      ]
+    },
+    {
+      "Name": "Fistula-in-ano",
+      "Tag": "Anorectal Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic abnormal epithelialized tract connecting anal canal to perianal skin (following perianal abscess drainage)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cryptoglandular infection of anal glands spreading along intersphincteric planes."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Recurrent purulent or serosanguinous perianal discharge, localized itching, pain, and a palpable perianal skin opening."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pelvic MRI (gold standard for mapping complex sphincter relation). Management: Goodsall's rule evaluation; Seton placement, Fistulotomy, or LIFT procedure."
+        }
+      ]
+    },
+    {
+      "Name": "Colles' Fracture",
+      "Tag": "Upper Limb Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Extra-articular fracture of distal radius within 2.5 cm of wrist joint caused by fall on an outstretched hand (FOOSH)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Dorsal displacement, dorsal tilt, lateral tilt, and supination of distal radial fragment."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Pain, swelling, tenderness over distal radius, classic 'dinner-fork' deformity."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Plain X-rays of wrist (AP and Lateral views). Management: Closed reduction under hematoma block, immobilization in plaster cast (Colles' cast) for 4-6 weeks."
+        }
+      ]
+    },
+    {
+      "Name": "Duodenal Ulcer Perforation",
+      "Tag": "Peptic Ulcer Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Complication of severe H. pylori infection or chronic NSAID use."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transmural ulceration through anterior wall of first part of duodenum, leaking acidic gastric contents into peritoneal cavity."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden onset of agonizing generalized abdominal pain, board-like abdominal rigidity, absent bowel sounds, obliteration of liver dullness."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Erect Chest X-ray (pneumoperitoneum / free gas under diaphragm). Management: Emergency resuscitation, IV fluids, IV PPI, broad-spectrum antibiotics, Cellan-Jones / Graham patch repair."
+        }
+      ]
+    },
+    {
+      "Name": "Urolithiasis",
+      "Tag": "Urinary Tract Stone",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Calcium oxalate/phosphate stones formed due to dehydration, hypercalciuria, or metabolic imbalances."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Calculus impaction at pelviureteric junction, vesicoureteric junction, or iliac vessel crossing, causing ureteric spasm and obstruction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe sudden colicky flank pain radiating to the groin/scrotum/labia, restlessness, macroscopic or microscopic hematuria."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Non-contrast CT KUB (gold standard) / Renal Ultrasound. Management: Analgesia (NSAIDs/morphine), hydration, medical expulsive therapy (Tamsulosin) or ESWL / Ureteroscopy (URS)."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

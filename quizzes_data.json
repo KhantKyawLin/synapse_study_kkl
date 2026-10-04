@@ -5626,6 +5626,428 @@
       "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
     }
   ],
+  "Final Part 2 Surgery - Module 1": [
+    {
+      "id": 8,
+      "category": "A 34-year-old male presents with fresh blood vomiting x2 (am...",
+      "question": "A 34-year-old male presents with fresh blood vomiting x2 (amount ~1L). Vital signs show BP 110/70 mmHg and HR 115/min. Which fluid is most appropriate to expand circulatory volume prior to blood delivery?",
+      "options": [
+        "Packed cell",
+        "Fresh Frozen Plasma",
+        "Cryoprecipitate",
+        "Gelofusine",
+        "25% Human Albumin"
+      ],
+      "correctIndex": 3,
+      "explanation": "In acute Stage II hemorrhage where crystalloid resuscitation needs supplementation before blood arrives, colloids like Gelofusine remain entirely within the intravascular space, rapidly expanding circulatory volume."
+    },
+    {
+      "id": 9,
+      "category": "How is Cerebral Perfusion Pressure (CPP) strictly defined in...",
+      "question": "How is Cerebral Perfusion Pressure (CPP) strictly defined in neurotrauma management?",
+      "options": [
+        "Venous pressure minus intracranial pressure",
+        "Systolic BP minus diastolic BP",
+        "Systolic BP minus venous pressure",
+        "Mean arterial BP minus venous pressure",
+        "Mean arterial blood pressure minus intracranial pressure"
+      ],
+      "correctIndex": 4,
+      "explanation": "Cerebral Perfusion Pressure is defined by the standard physiological formula: CPP = MAP - ICP."
+    },
+    {
+      "id": 10,
+      "category": "Which of the following is a definitive, immediate indication...",
+      "question": "Which of the following is a definitive, immediate indication for major lower limb amputation?",
+      "options": [
+        "Rest pain",
+        "Wet gangrene",
+        "Spreading cellulitis",
+        "Joint contracture",
+        "Painless useful limb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wet gangrene represents dead, infected, unsalvageable tissue causing life-threatening sepsis, making urgent amputation mandatory to save the patient's life."
+    },
+    {
+      "id": 11,
+      "category": "Which statement regarding acute burn evaluation and depth is...",
+      "question": "Which statement regarding acute burn evaluation and depth is TRUE?",
+      "options": [
+        "Deep dermal burns heal within 2 weeks without surgery",
+        "Burn depth, % TBSA, and smoke inhalation are key parameters in burn assessment",
+        "Capillary refill is absent in superficial burns",
+        "Alkalis usually result in superficial thickness burns",
+        "Fat burns are deeper than electrical contact burns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Triage and clinical management of acute burns depend strictly on three core parameters: burn depth (degree), total body surface area (% TBSA), and presence of inhalational injury."
+    },
+    {
+      "id": 12,
+      "category": "Regarding the clinical features of gastric cancer, which sta...",
+      "question": "Regarding the clinical features of gastric cancer, which statement is FALSE?",
+      "options": [
+        "May present with a hard palpable left supraclavicular node",
+        "Should be given empirical palliative treatment with proton-pump inhibitor",
+        "May simulate features of benign gastric ulcer",
+        "Requires gastroscopic examination even when barium meal is normal",
+        "Requires investigation by barium meal examination"
+      ],
+      "correctIndex": 1,
+      "explanation": "Empirical PPI therapy is false/contraindicated prior to endoscopy in suspected gastric cancer because it alleviates symptoms and masks malignancy, delaying definitive diagnosis."
+    },
+    {
+      "id": 13,
+      "category": "A 67-year-old man presents with recurrent terminal hematuria...",
+      "question": "A 67-year-old man presents with recurrent terminal hematuria, fevers, and urethral purulent discharge. On examination, the prostate is swollen and tender. What is the most likely diagnosis?",
+      "options": [
+        "Nephritis",
+        "Cystitis",
+        "Benign Prostatic Hyperplasia",
+        "Prostate cancer",
+        "Prostatitis"
+      ],
+      "correctIndex": 4,
+      "explanation": "The triad of terminal hematuria, fever with purulent urethral discharge, and a tender prostate on DRE is diagnostic of acute bacterial prostatitis."
+    },
+    {
+      "id": 14,
+      "category": "According to NICE guidelines, CT head scan is indicated with...",
+      "question": "According to NICE guidelines, CT head scan is indicated within 8 hours following mild head injury for patients with which feature?",
+      "options": [
+        "Loss of consciousness at time of injury",
+        "Low energy mechanism of injury",
+        "Age over 65 or presence of a clotting disorder",
+        "Single episode of vomiting",
+        "Ongoing mild headache"
+      ],
+      "correctIndex": 2,
+      "explanation": "NICE head injury guidelines mandate a CT head scan within 8 hours for patients aged > 65 years or those with a coagulopathy/clotting disorder."
+    },
+    {
+      "id": 15,
+      "category": "Which of the following clinical signs is NOT evidence of a b...",
+      "question": "Which of the following clinical signs is NOT evidence of a basal skull fracture?",
+      "options": [
+        "Battle's sign",
+        "Periorbital bruising (Raccoon eyes)",
+        "Unequal pupils (Anisocoria)",
+        "CSF rhinorrhoea",
+        "CSF otorrhoea"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unequal pupils indicate uncal herniation compressing the 3rd cranial nerve due to raised ICP, whereas Battle's sign, raccoon eyes, and CSF leaks are signs of basal skull fracture."
+    },
+    {
+      "id": 16,
+      "category": "Which complication is specifically defined as an irreducible...",
+      "question": "Which complication is specifically defined as an irreducible hernia where the blood supply to contents is seriously impaired?",
+      "options": [
+        "Strangulated Hernia",
+        "Obstructed Hernia",
+        "Richter's Hernia",
+        "Inflamed Hernia",
+        "Incarcerated Hernia"
+      ],
+      "correctIndex": 0,
+      "explanation": "A strangulated hernia is specifically defined as an irreducible hernia with arterial and venous vascular compromise leading to bowel ischemia and infarction."
+    },
+    {
+      "id": 17,
+      "category": "A patient is diagnosed with adenocarcinoma at the hepatic fl...",
+      "question": "A patient is diagnosed with adenocarcinoma at the hepatic flexure. What is the standard radical surgical resection required?",
+      "options": [
+        "Extended Right hemi-colectomy",
+        "Right hemi-colectomy",
+        "Sigmoid Colectomy",
+        "Transverse colectomy",
+        "Left hemi-colectomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tumors at the hepatic flexure require ligation of the ileocolic, right colic, and middle colic arteries, dictating an Extended Right Hemi-colectomy for lymphatic clearance."
+    },
+    {
+      "id": 18,
+      "category": "Which compensatory mechanism initially maintains normal ICP ...",
+      "question": "Which compensatory mechanism initially maintains normal ICP in the presence of an expanding intracranial mass in adults?",
+      "options": [
+        "Increase in CSF production",
+        "Sunsetting eyes phenomenon",
+        "Reduction of brain tissue volume",
+        "Reduction in venous blood volume and CSF",
+        "Increase in rigid skull volume"
+      ],
+      "correctIndex": 3,
+      "explanation": "Under the Monro-Kellie doctrine, an expanding mass lesion is initially buffered by displacement of venous blood and cerebrospinal fluid (CSF) out of the cranial vault."
+    },
+    {
+      "id": 19,
+      "category": "Which of the following is NOT a systemic cause of secondary ...",
+      "question": "Which of the following is NOT a systemic cause of secondary brain injury?",
+      "options": [
+        "Pyrexia",
+        "Hypotension",
+        "Raised Intracranial Pressure",
+        "Seizure",
+        "Hypoxia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hypoxia, hypotension, and raised ICP are direct systemic causes of secondary cerebral ischemia, whereas Seizure is classified as a clinical feature/manifestation."
+    },
+    {
+      "id": 20,
+      "category": "Which of the following is NOT a predisposing factor for abdo...",
+      "question": "Which of the following is NOT a predisposing factor for abdominal wall hernia?",
+      "options": [
+        "Chronic obstructive pulmonary disease",
+        "Obesity",
+        "Pregnancy",
+        "Peritoneal dialysis",
+        "Urinary stones"
+      ],
+      "correctIndex": 4,
+      "explanation": "COPD (coughing), obesity, pregnancy, and peritoneal dialysis all chronically raise intra-abdominal pressure. Urinary stones cause renal colic but do not cause abdominal wall hernia."
+    },
+    {
+      "id": 21,
+      "category": "Which blood test is the most sensitive and specific for the ...",
+      "question": "Which blood test is the most sensitive and specific for the diagnosis of acute pancreatitis?",
+      "options": [
+        "Trypsin",
+        "C peptide",
+        "Amylase",
+        "Lipase",
+        "Trypsinogen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Serum lipase is more sensitive and specific than amylase for acute pancreatitis and remains elevated longer in blood."
+    },
+    {
+      "id": 22,
+      "category": "Which of the following statements regarding Acute Retention ...",
+      "question": "Which of the following statements regarding Acute Retention of Urine (AROU) is TRUE?",
+      "options": [
+        "BPH is an uncommon cause of AROU",
+        "Acute retention occurs mostly in females",
+        "AROU does not need urgent treatment",
+        "AROU is a urological emergency",
+        "AROU is rare in clinical practice"
+      ],
+      "correctIndex": 3,
+      "explanation": "AROU is explicitly defined as a urological emergency requiring immediate urinary catheter decompression."
+    },
+    {
+      "id": 23,
+      "category": "Which local ecchymosis sign occurs in severe acute pancreati...",
+      "question": "Which local ecchymosis sign occurs in severe acute pancreatitis due to retroperitoneal hemorrhage?",
+      "options": [
+        "Boas' sign",
+        "Courvoisier's sign",
+        "Trousseau's sign",
+        "Cullen's sign",
+        "Murphy's sign"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cullen's sign (periumbilical bruising) and Grey Turner's sign (flank bruising) indicate retroperitoneal blood extravasation in necrotizing pancreatitis."
+    },
+    {
+      "id": 24,
+      "category": "An elderly patient presents with strangulated prolapsed hemo...",
+      "question": "An elderly patient presents with strangulated prolapsed hemorrhoids. Which hyperosmolar local application reduces tissue edema conservatively?",
+      "options": [
+        "5% Phenol Injection",
+        "Antibiotic Cream",
+        "Magnesium Sulfate (MgSO4) and Glycerine paste",
+        "Eusol dressing",
+        "Barron's rubber bands"
+      ],
+      "correctIndex": 2,
+      "explanation": "Application of a hyperosmolar Magnesium Sulfate (MgSO4) and glycerine paste draws fluid out of prolapsed hemorrhoidal tissues via osmosis, reducing edema prior to reduction."
+    },
+    {
+      "id": 25,
+      "category": "Which statement regarding the Glasgow Coma Scale (GCS) is TR...",
+      "question": "Which statement regarding the Glasgow Coma Scale (GCS) is TRUE?",
+      "options": [
+        "Serial assessment of GCS reflects patient improvement or deterioration",
+        "GCS assessment is not useful in neurotrauma",
+        "The maximum score is 12",
+        "The minimum score is 0",
+        "A patient with GCS 10 or less is in coma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Serial GCS recording provides a reproducible trend to detect early neurosurgical deterioration. Max score is 15, min is 3, and coma cutoff is GCS <= 8."
+    },
+    {
+      "id": 26,
+      "category": "Which intervention is NOT indicated for the acute management...",
+      "question": "Which intervention is NOT indicated for the acute management of bleeding esophageal varices?",
+      "options": [
+        "Porto-systemic disconnection / TIPS",
+        "Rubber Band Ligation",
+        "Sclerotherapy",
+        "Tamponade by Sengstaken-Blakemore tube",
+        "Injection of 5% Phenol in Almond Oil"
+      ],
+      "correctIndex": 4,
+      "explanation": "Phenol in almond oil is used as a sclerosant for low-grade internal hemorrhoids, NOT for esophageal variceal hemorrhage."
+    },
+    {
+      "id": 27,
+      "category": "Which of the following clinical features is NOT a typical ea...",
+      "question": "Which of the following clinical features is NOT a typical early feature of acute mechanical intestinal obstruction?",
+      "options": [
+        "Vomiting",
+        "Constipation",
+        "Abdominal Distension",
+        "Abdominal pain",
+        "Fever"
+      ],
+      "correctIndex": 4,
+      "explanation": "Fever is rare in early uncomplicated obstruction; its appearance indicates late ischemia, strangulation, or bowel perforation."
+    },
+    {
+      "id": 28,
+      "category": "A 25-year-old male presents with a groin swelling lateral to...",
+      "question": "A 25-year-old male presents with a groin swelling lateral to the inferior epigastric artery. What is the diagnosis?",
+      "options": [
+        "Femoral Hernia",
+        "Indirect Inguinal Hernia",
+        "Incisional Hernia",
+        "Obturator Hernia",
+        "Direct Inguinal Hernia"
+      ],
+      "correctIndex": 1,
+      "explanation": "An indirect inguinal hernia passes through the deep inguinal ring lateral to the inferior epigastric artery."
+    },
+    {
+      "id": 29,
+      "category": "A patient has a stoma in the Right Iliac Fossa (RIF) that ap...",
+      "question": "A patient has a stoma in the Right Iliac Fossa (RIF) that appears spouted with liquid effluent. What type of stoma is this?",
+      "options": [
+        "Ileostomy",
+        "Loop Colostomy",
+        "Gastrostomy",
+        "Transverse Colostomy",
+        "Sigmoid colostomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ileostomy is located in the RIF, has a spout to protect skin from corrosive enzymes, and discharges liquid effluent."
+    },
+    {
+      "id": 30,
+      "category": "A resected rectal specimen breaches muscularis propria with ...",
+      "question": "A resected rectal specimen breaches muscularis propria with positive local pararectal nodes but negative main vessel origin nodes. What is the Dukes stage?",
+      "options": [
+        "Duke Stage B",
+        "Duke Stage C2",
+        "Duke Stage D",
+        "Duke Stage C1",
+        "Duke Stage A"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dukes C1 defines regional pararectal lymph node involvement while apical/main supplying vessel origin nodes remain clear (C2)."
+    },
+    {
+      "id": 31,
+      "category": "A 68-year-old patient presents with a hard, irregular fixed ...",
+      "question": "A 68-year-old patient presents with a hard, irregular fixed mass in the Right Iliac Fossa. What is a common complication specific to this tumor location?",
+      "options": [
+        "Iron Deficiency Anaemia",
+        "Rectal Shelf of Blumer",
+        "Alternating Diarrhea and Constipation",
+        "Tenesmus",
+        "Bladder Symptoms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Right-sided colon (cecal/ascending) cancers bleed insidiously and present with iron deficiency anemia and a mass, unlike left-sided lesions which alter bowel habits."
+    },
+    {
+      "id": 32,
+      "category": "What is the imaging modality of choice for a 20-year-old lad...",
+      "question": "What is the imaging modality of choice for a 20-year-old lady presenting with a breast lump?",
+      "options": [
+        "Ultrasound breasts",
+        "Mammogram",
+        "Ductogram",
+        "MRI",
+        "Tomosynthesis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ultrasound is the imaging modality of choice for women under 30 due to high glandular density which obscures mammography."
+    },
+    {
+      "id": 33,
+      "category": "Which statement regarding benign breast lesions is TRUE?...",
+      "question": "Which statement regarding benign breast lesions is TRUE?",
+      "options": [
+        "Giant fibroadenoma is diagnosed when size is > 5 cm",
+        "Cyclical mastalgia is caused by fibroadenoma",
+        "Trauma history is present in 100% of fat necrosis cases",
+        "ANDI is common in post-menopausal women",
+        "Simple breast cysts usually require open surgery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Giant fibroadenoma is strictly defined as a benign fibroadenoma measuring > 5 cm in diameter."
+    },
+    {
+      "id": 34,
+      "category": "Which of the following is an established hormonal risk facto...",
+      "question": "Which of the following is an established hormonal risk factor for breast cancer?",
+      "options": [
+        "Early menopause",
+        "Male gender incidence of 5%",
+        "Diet rich in high phytoestrogens",
+        "HRT use under 1 year",
+        "Nulliparity"
+      ],
+      "correctIndex": 4,
+      "explanation": "Nulliparity and late age at first child birth result in prolonged uninterrupted estrogen exposure, increasing breast cancer risk."
+    },
+    {
+      "id": 35,
+      "category": "Which of the following conditions does NOT cause upper gastr...",
+      "question": "Which of the following conditions does NOT cause upper gastrointestinal hemorrhage?",
+      "options": [
+        "Mallory-Weiss tear",
+        "Gastric erosions",
+        "Bleeding duodenal ulcer",
+        "Achalasia Cardia",
+        "Ruptured esophageal varices"
+      ],
+      "correctIndex": 3,
+      "explanation": "Achalasia Cardia is a motility disorder presenting with progressive dysphagia and regurgitation, NOT upper GI bleeding."
+    },
+    {
+      "id": 36,
+      "category": "Which of the following is NOT a risk factor for gastric carc...",
+      "question": "Which of the following is NOT a risk factor for gastric carcinoma?",
+      "options": [
+        "Lower socio-economic class",
+        "Gastric atrophy",
+        "Pernicious anemia",
+        "Previous DU perforation",
+        "H. pylori infection"
+      ],
+      "correctIndex": 3,
+      "explanation": "H. pylori, gastric atrophy, pernicious anemia, and low socio-economic status are risk factors for gastric cancer. DU perforation is associated with high acid output, which is protective against gastric cancer."
+    },
+    {
+      "id": 37,
+      "category": "Which life-threatening thoracic condition is routinely ident...",
+      "question": "Which life-threatening thoracic condition is routinely identified during the Secondary Survey rather than the ATLS Primary Survey?",
+      "options": [
+        "Flail chest",
+        "Pulmonary contusion",
+        "Tension pneumothorax",
+        "Cardiac tamponade",
+        "Massive hemothorax"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary survey identifies immediately lethal chest injuries (Tension/Open pneumothorax, Flail chest, Massive hemothorax, Cardiac tamponade). Pulmonary contusion evolves over time and is diagnosed in the Secondary Survey."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,
