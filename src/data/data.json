@@ -9029,6 +9029,386 @@
       "category": "Final Part 2 Surgery - Module 2",
       "question": "Which deep cervical lymph node chain runs adjacent to the internal jugular vein?",
       "answer": "Deep cervical (jugular) lymph nodes"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the provisional vascular diagnosis for a patient presenting with sudden onset of a cold, pale, and painful lower limb with absent distal pulses?",
+      "answer": "Acute Ischemic Limb"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What are the three primary etiology categories for an acute ischemic limb?",
+      "answer": "1. Embolism\n2. Thrombosis\n3. Trauma"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What four key physical examination findings point directly to a diagnosis of acute limb ischemia?",
+      "answer": "1. Loss of pulsation\n2. Pallor\n3. Tenderness\n4. Coldness"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which imaging modality is considered the gold standard investigation to confirm acute limb ischemia and map arterial occlusion?",
+      "answer": "CT Angiogram (CTA)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What immediate surgical management strategy is indicated for acute embolic limb ischemia?",
+      "answer": "Urgent consultation with a vascular surgeon for possible embolectomy and vascular repair."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What underlying cardiac condition is a classic cause of embolic acute lower limb ischemia?",
+      "answer": "Atrial Fibrillation (frequently secondary to Mitral Stenosis)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How is the Ankle-Brachial Pressure Index (ABPI) calculated?",
+      "answer": "$\\text{ABPI} = \\frac{\\text{Highest pressure in DP, PT, or peroneal artery}}{\\text{Highest brachial systolic pressure}}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the normal resting value range for the Ankle-Brachial Pressure Index (ABPI)?",
+      "answer": "0.9 – 1.3"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An Ankle-Brachial Pressure Index (ABPI) value of $< 0.9$ indicates what clinical condition?",
+      "answer": "Intermittent Claudication"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An Ankle-Brachial Pressure Index (ABPI) value of $< 0.5$ signifies what stage of arterial disease?",
+      "answer": "Rest pain (Critical Limb Ischemia)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An Ankle-Brachial Pressure Index (ABPI) value of $< 0.3$ indicates what critical threat to the extremity?",
+      "answer": "Imminent tissue necrosis / gangrene"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What does an Ankle-Brachial Pressure Index (ABPI) reading of $> 1.3$ indicate?",
+      "answer": "Non-compressible, heavily calcified arteries (commonly seen in diabetic patients)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which arterial pressure reading is used as the numerator in the ABPI calculation?",
+      "answer": "The highest systolic pressure obtained from the dorsalis pedis (DP), posterior tibial (PT), or peroneal artery."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which arterial pressure reading is used as the denominator in the ABPI calculation?",
+      "answer": "The highest brachial artery systolic pressure."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "For short segment arterial stenosis in chronic limb ischemia, what intervention is preferred?",
+      "answer": "Endovascular intervention with stenting"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "For long segment arterial stenosis or occlusion in chronic limb ischemia, what intervention is required?",
+      "answer": "Surgical bypass procedure"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What non-invasive imaging modality is routinely used first to map lower limb arterial stenosis and occlusions?",
+      "answer": "Duplex Ultrasonography"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How does the 5-year success rate of a synthetic PTFE bypass graft compare to an autologous vein bypass?",
+      "answer": "PTFE bypass grafts have poorer long-term outcomes, with a 5-year success rate of $< 50\\%$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What triad of clinical features defines Thromboangiitis obliterans (Buerger's disease)?",
+      "answer": "1. Occlusive disease of small- and medium-sized arteries\n2. Superficial or deep thrombophlebitis\n3. Raynaud's phenomenon"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the typical patient demographic profile for Buerger's disease (Thromboangiitis obliterans)?",
+      "answer": "Male smokers under 30 years of age"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the characteristic histological finding in Thromboangiitis obliterans?",
+      "answer": "Inflammatory changes in the walls of small- and medium-sized arteries and veins leading to vascular thrombosis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What single lifestyle modification is essential to halt the progression of Buerger's disease?",
+      "answer": "Total and complete abstinence from tobacco smoking"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Under what condition is an above-knee amputation preferred for healing prognosis?",
+      "answer": "In non-ambulatory patients who have no prospect or potential of walking again."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What ongoing medical therapy is indicated postoperatively for vascular protection after ischemic limb management?",
+      "answer": "Long-term antiplatelet therapy (or anticoagulation) along with lifestyle modification."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In a patient presenting with an acutely pale, cold leg, absent popliteal pulses indicate arterial occlusion at or above which anatomical level?",
+      "answer": "Popliteal Artery or Superficial Femoral Artery (SFA)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Why are calcified arteries in diabetic patients problematic when interpreting ABPI values?",
+      "answer": "Arterial wall stiffness prevents cuff compression, giving falsely high ABPI readings ($> 1.3$)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the primary role of CT Angiography (CTA) in evaluating peripheral arterial disease?",
+      "answer": "To provide detailed anatomical mapping of stenosis, occlusions, and distal runoff prior to revascularization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In lower limb arterial mapping, what notation is used on duplex schematics to represent stenosis vs. occlusion?",
+      "answer": "An asterisk ($\\text{*}$) denotes stenosis, whereas a filled-in lumen denotes complete occlusion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In vascular anatomical diagrams, what does the abbreviation CFA stand for?",
+      "answer": "Common Femoral Artery"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In vascular mapping, what do the acronyms SFA and DFA represent?",
+      "answer": "SFA = Superficial Femoral Artery\nDFA = Deep Femoral Artery (Profunda Femoris)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In lower extremity arterial mapping, what do the abbreviations AKP and BKP stand for?",
+      "answer": "AKP = Above-Knee Popliteal\nBKP = Below-Knee Popliteal"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What are the three terminal branch arteries of the leg distal to the popliteal artery?",
+      "answer": "1. Anterior Tibial Artery (ATA)\n2. Posterior Tibial Artery (PTA)\n3. Peroneal Artery (PER)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In lower limb vascular anatomy, what vessel connects the popliteal artery to the origins of the posterior tibial and peroneal arteries?",
+      "answer": "Tibioperoneal Trunk (TPT)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In acute limb ischemia, preserving motor function and intact sensation indicates what clinical viability status?",
+      "answer": "A viable or marginally threatened limb capable of complete recovery with prompt revascularization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Why is rapid revascularization essential in acute embolic limb ischemia?",
+      "answer": "To prevent irreversible skeletal muscle necrosis and permanent nerve damage."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the most common cardiogenic source of arterial emboli causing acute limb ischemia?",
+      "answer": "Left atrial appendage thrombus associated with Atrial Fibrillation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How does an acute embolic arterial occlusion differ clinically from an acute thrombotic occlusion?",
+      "answer": "Embolism presents abruptly without prior claudication or collaterals; thrombosis occurs on pre-existing atherosclerotic disease with collateral networks."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What key angiographic finding distinguishes an embolus from a thrombus?",
+      "answer": "An embolus displays a sharp, rounded cut-off in a relatively normal vessel, whereas a thrombus shows irregular tapering over widespread calcification."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the main therapeutic goal of performing a Fogarty catheter embolectomy?",
+      "answer": "To extract the acute embolus and secondary propagated thrombi from the arterial lumen."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What postoperative monitoring is required following surgical revascularization of an acutely ischemic limb?",
+      "answer": "Checking distal pulses, capillary refill, monitoring for compartment syndrome, and assessing urine output and electrolytes for reperfusion injury."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What acute complication can arise after revascularization due to ischemic tissue edema within tight fascial compartments?",
+      "answer": "Reperfusion Compartment Syndrome"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the definitive surgical procedure to relieve acute compartment syndrome in a revascularized lower limb?",
+      "answer": "Fasciotomy (surgical incision of fascial compartments)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What systemic metabolic consequences occur when damaged muscle products wash out after revascularization?",
+      "answer": "Reperfusion injury causing hyperkalemia, metabolic acidosis, and myoglobinuria (leading to acute renal failure)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In chronic peripheral arterial disease, how is intermittent claudication defined?",
+      "answer": "Ischemic muscle pain induced by exercise and consistently relieved by a short period of rest."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How does rest pain typically present in severe chronic limb ischemia?",
+      "answer": "Severe, burning distal foot pain occurring at night when supine, relieved by dangling the foot over the side of the bed."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Why does dangling the foot dependency relieve ischemic rest pain in advanced PAD?",
+      "answer": "Gravity increases hydrostatic pressure and improves perfusion through ischemic distal capillaries."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What skin color change occurs when an severely ischemic foot is elevated versus lowered?",
+      "answer": "Elevation pallor (paleness when raised) and dependent rubor (deep red/purple discoloration when lowered)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What are the major modifiable risk factors for developing Peripheral Arterial Disease?",
+      "answer": "Tobacco smoking, diabetes mellitus, hypertension, and hyperlipidemia."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How does diabetes mellitus alter the anatomical distribution of Peripheral Arterial Disease?",
+      "answer": "It causes infrapopliteal/distal vessel disease (crural arteries) and accelerates vessel calcification."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the key structural difference between primary intention and secondary intention wound healing?",
+      "answer": "Primary intention closes clean incised wound margins with sutures; secondary intention leaves the wound open to heal via granulation and contraction."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "According to Gurtner and Wong (2014), what is the definition of wound healing?",
+      "answer": "The response of an organism to a physical disruption of a tissue/organ to re-establish homeostasis and stabilize overall physiology."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What general categories are used to classify surgical wounds?",
+      "answer": "1. Closed vs Open\n2. Acute vs Chronic\n3. Healing vs Non-healing\n4. Clean vs Contaminated/Septic"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In traumatic brain injury, how is Cerebral Perfusion Pressure (CPP) calculated?",
+      "answer": "$\\text{CPP} = \\text{Mean Arterial Pressure (MAP)} - \\text{Intracranial Pressure (ICP)}$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What initial compensatory mechanism maintains normal ICP in the presence of an expanding intracranial mass?",
+      "answer": "Reduction in intracranial venous blood volume and displacement of CSF into the spinal canal."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In acute trauma primary survey, why is CT head scan omitted from the primary survey?",
+      "answer": "CT scan is an adjunct imaging test performed ONLY after completing primary survey (ABCDE) and achieving resuscitation stability."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In acute pancreatitis, what serum amylase elevation threshold supports diagnosis?",
+      "answer": "Greater than 3 times the upper limit of normal (or $> 1000\\text{ IU}$), typically returning to normal within 72 hours."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Why is serum lipase superior to serum amylase for diagnosing acute pancreatitis?",
+      "answer": "Serum lipase is more sensitive and specific, and stays elevated longer than serum amylase."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "On abdominal plain X-ray, what localized dilated bowel loop sign suggests acute pancreatitis?",
+      "answer": "Sentinel loop sign (or colonic cut-off sign)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Failure of complete embryological obliteration of the thyroglossal duct leads to what neck mass?",
+      "answer": "Thyroglossal Cyst"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What clinical sign distinguishes a thyroglossal cyst from a thyroid gland mass on examination?",
+      "answer": "A thyroglossal cyst moves upward on tongue protrusion, whereas a thyroid mass does not."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What muscle divides the neck into anterior and posterior triangles?",
+      "answer": "Sternocleidomastoid muscle"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which major cervical lymph node chain runs adjacent to the internal jugular vein?",
+      "answer": "Jugular (deep cervical) lymph nodes"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In chest trauma management, what immediate decompression is required for tension pneumothorax?",
+      "answer": "Immediate needle thoracotomy / puncture"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An initial chest tube blood drainage of $\\ge 1.5\\text{ L}$ ($1500\\text{ mL}$) indicates the need for what surgical intervention?",
+      "answer": "Emergency Thoracotomy"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "If the water column in a chest drain tube stops oscillating postoperatively, what three causes should be checked?",
+      "answer": "1. Tube blockage\n2. Tube kinking\n3. Tube dislodgement"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What clinical condition is identified when gas shadow is seen in soft tissue planes on a chest radiograph?",
+      "answer": "Subcutaneous emphysema"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What pulse examination step is mandatory when assessing a patient for suspected acute limb ischemia?",
+      "answer": "Palpating and comparing peripheral pulses on BOTH the affected and contralateral normal limbs."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What physical examination finding indicates advanced, unsalvageable muscle necrosis in acute limb ischemia?",
+      "answer": "Rigid muscle rigor / contracture and fixed paralysis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What duration distinguishes acute limb ischemia from chronic critical limb ischemia?",
+      "answer": "Acute limb ischemia develops within $< 2\\text{ weeks}$ (often hours), whereas chronic critical limb ischemia lasts $> 2\\text{ weeks}$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What immediate intravenous drug is administered upon diagnosing acute limb ischemia to stop clot propagation?",
+      "answer": "Unfractionated Heparin (intravenous bolus and infusion)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What minimally invasive catheter treatment option dissolves acute thrombi in a viable limb?",
+      "answer": "Catheter-Directed Thrombolysis (CDT)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Where does the Common Femoral Artery bifurcate into the SFA and DFA?",
+      "answer": "In the femoral triangle, inferior to the inguinal ligament."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What anatomical vessel name does the Superficial Femoral Artery assume after exiting the adductor hiatus?",
+      "answer": "Popliteal Artery"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which lower leg artery continues over the ankle joint as the Dorsalis Pedis Artery?",
+      "answer": "Anterior Tibial Artery (ATA)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which lower leg artery passes behind the medial malleolus to supply the plantar surface of the foot?",
+      "answer": "Posterior Tibial Artery (PTA)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What diagnostic lower extremity vascular map schematic is depicted below?",
+      "answer": "Duplex Arterial Map of Lower Limb Arteries (Figure 16-15)"
     }
   ]
 }

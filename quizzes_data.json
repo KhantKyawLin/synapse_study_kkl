@@ -6470,6 +6470,428 @@
       "explanation": "Superficial partial-thickness burns involve the epidermis and upper dermis, presenting with painful blisters, moist pink base, and rapid capillary blanching."
     }
   ],
+  "Final Part 2 Surgery - Module 3": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "A 38-year-old female with mitral stenosis and atrial fibrillation presents with sudden excruciating right leg pain for 4 hours. The leg is pale, cold, and pulseless below the popliteal artery. What is the provisional diagnosis?",
+      "options": [
+        "Deep vein thrombosis",
+        "Acute arterial embolic occlusion",
+        "Acute osteomyelitis",
+        "Sciatica",
+        "Buerger's disease"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sudden onset of severe limb pain, pallor, coldness, and pulselessness in a patient with atrial fibrillation is classic for acute embolic arterial occlusion."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which of the following represents the classic '6 Ps' of acute limb ischemia?",
+      "options": [
+        "Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia",
+        "Pain, Pyrexia, Purpura, Pruritus, Paralysis, Pallor",
+        "Pain, Pulsation, Peritonitis, Pallor, Paralysis, Pores",
+        "Pyrexia, Pallor, Pressure, Paresthesia, Phlegmasia, Pain",
+        "Petechiae, Pallor, Pulselessness, Pain, Paresthesia, Pitting"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 6 Ps of acute limb ischemia are Pain, Pallor, Pulselessness, Paresthesia, Paralysis, and Poikilothermia (perishingly cold)."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which anatomical location is the most common site for cardiac embolic impaction in the lower extremity?",
+      "options": [
+        "Abdominal aortic bifurcation",
+        "Femoral artery bifurcation",
+        "Popliteal artery trifurcation",
+        "Anterior tibial artery",
+        "External iliac artery"
+      ],
+      "correctIndex": 1,
+      "explanation": "The common femoral artery bifurcation is the most frequent site (~35-40%) for arterial emboli to lodge in the lower extremity."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "How does acute arterial Embolism clinically differ from acute-on-chronic Arterial Thrombosis?",
+      "options": [
+        "Embolism has a gradual onset over weeks",
+        "Embolism features pre-existing claudication in both legs",
+        "Embolism has a sudden dramatic onset with normal contralateral limb pulses",
+        "Thrombosis is caused by cardiac atrial fibrillation",
+        "Thrombosis presents with sharp cup-like occlusion on angiography"
+      ],
+      "correctIndex": 2,
+      "explanation": "Embolism presents abruptly in a patient with a cardiac risk factor (AF) and healthy contralateral pulses. Thrombosis presents gradually on a background of pre-existing PAD."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the immediate initial pharmacological management for a patient diagnosed with acute embolic limb ischemia?",
+      "options": [
+        "High-dose oral Aspirin",
+        "Immediate IV Unfractionated Heparin bolus (5,000 IU)",
+        "Oral Warfarin 10 mg",
+        "IV Furosemide",
+        "Subcutaneous Enoxaparin 20 mg"
+      ],
+      "correctIndex": 1,
+      "explanation": "An immediate IV bolus of unfractionated heparin (5,000 IU) prevents propagation of the thrombus and protects the microcirculation while preparing for revascularization."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the emergency surgical procedure of choice for acute embolic occlusion of the femoral artery?",
+      "options": [
+        "Aortobifemoral bypass",
+        "Emergency Fogarty catheter embolectomy",
+        "Primary above-knee amputation",
+        "Endovenous laser ablation",
+        "Lumbar sympathectomy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emergency Fogarty catheter embolectomy via a groin incision under local/regional anesthesia is the gold standard procedure for acute embolic limb ischemia."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An Ankle-Brachial Pressure Index (ABPI) value of 0.35 in a patient with calf rest pain indicates which severity of arterial disease?",
+      "options": [
+        "Normal arterial perfusion",
+        "Mild intermittent claudication",
+        "Critical / Severe limb-threatening ischemia",
+        "Non-compressible calcified vessels",
+        "Venous hypertension"
+      ],
+      "correctIndex": 2,
+      "explanation": "ABPI ranges: Normal >= 1.0; Mild-Moderate Claudication 0.5-0.9; Severe/Critical Ischemia < 0.5. Values > 1.4 indicate non-compressible calcified arteries (e.g. diabetes)."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which of the following ABPI values strongly suggests Mönckeberg's medial calcific sclerosis in a diabetic patient?",
+      "options": [
+        "0.20",
+        "0.45",
+        "0.85",
+        "1.10",
+        "1.50"
+      ],
+      "correctIndex": 4,
+      "explanation": "An ABPI > 1.40 (or 1.50) indicates rigid, non-compressible calcified arteries commonly seen in diabetic patients (Mönckeberg's sclerosis), requiring Toe-Brachial Index (TBI) testing."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What symptom is characteristic of Critical Limb-Threatening Ischemia (CLTI)?",
+      "options": [
+        "Calf pain relieved by walking",
+        "Ischemic rest pain in the foot aggravated by elevation and relieved by dangling the leg",
+        "Painless ankle edema",
+        "Itching over the tibia",
+        "Pulsatile thigh mass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ischemic rest pain affects the toes/metatarsals, worsens at night when supine in bed (loss of gravity), and is characteristically relieved by dangling the leg over the side of the bed."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Spinal (neurogenic) claudication can be distinguished from vascular claudication because spinal claudication is:",
+      "options": [
+        "Aggravated by sitting down",
+        "Relieved when walking uphill or bending forward (spine flexion)",
+        "Relieved within 1 minute of standing completely still",
+        "Accompanied by absent femoral pulses",
+        "Present only at rest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flexing the lumbar spine (walking uphill or leaning over a shopping cart) widens the spinal canal, relieving neurogenic claudication. Vascular claudication worsens walking uphill."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In contrast to neurogenic claudication, vascular claudication is characteristically relieved by:",
+      "options": [
+        "Sitting in a flexed posture for 30 minutes",
+        "Standing completely still for 1 to 2 minutes",
+        "Lying flat on the back",
+        "Vigorous calf exercise",
+        "Elevating both legs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vascular claudication is brought on by a predictable exertion distance and is promptly relieved within 1-2 minutes simply by standing still (stopping muscle work)."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "A patient undergoes successful embolectomy 10 hours after popliteal artery occlusion. 3 hours later, he develops severe calf pain on passive toe flexion, swelling, and firm calf compartments. What complication is present?",
+      "options": [
+        "Recurrent embolism",
+        "Acute compartment syndrome secondary to reperfusion injury",
+        "Deep vein thrombosis",
+        "Wound infection",
+        "Arterial pseudoaneurysm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Revascularization after > 6 hours of ischemia causes microvascular leak and edema (reperfusion injury), raising intracompartmental pressure and causing acute compartment syndrome."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the single most sensitive clinical test for diagnosing acute compartment syndrome of the leg?",
+      "options": [
+        "Absence of distal pulses",
+        "Exquisite pain elicited by passive stretching of the compartmental muscles",
+        "Presence of skin blisters",
+        "Pitting ankle edema",
+        "Temperature drop of the foot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Severe pain on passive stretching of muscles within the affected compartment is the earliest and most sensitive clinical sign of acute compartment syndrome. Pulses often remain present."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the definitive emergency surgical management for acute lower leg compartment syndrome?",
+      "options": [
+        "Elevation of the leg and ice packs",
+        "Emergency four-compartment leg fasciotomy",
+        "High-dose IV steroids",
+        "Repeat embolectomy",
+        "Plaster cast immobilization"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emergency two-incision, four-compartment fasciotomy (releasing anterior, lateral, superficial posterior, and deep posterior compartments) is required immediately to prevent irreversible necrosis."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which condition is classified as a 'Deadly' indication for major limb amputation ('Dead, Deadly, Dead Nuisance')?",
+      "options": [
+        "Dry gangrene limited to the tip of the toe",
+        "Spreading wet gangrene with gas/sepsis and toxemia",
+        "Mild intermittent claudication at 200 meters",
+        "Stable neuropathic ulcer under the heel",
+        "Rest pain controlled by paracetamol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spreading wet gangrene, ascending necrotizing infection, or severe systemic toxemia is a 'Deadly' emergency indication for major amputation to save the patient's life."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Why is a Below-Knee Amputation (BKA) functionally superior to an Above-Knee Amputation (AKA)?",
+      "options": [
+        "BKA requires less surgical time",
+        "BKA preserves the knee joint, dramatically lowering energy expenditure for prosthetic walking",
+        "BKA never suffers from wound breakdown",
+        "AKA patients cannot wear a prosthesis",
+        "BKA eliminates phantom limb pain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Preserving the knee joint in BKA reduces the metabolic energy cost of prosthetic ambulation by 30-40% compared to AKA, leading to far superior rehabilitation success."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "According to the CEAP classification for chronic venous disease, what does stage C6 represent?",
+      "options": [
+        "Varicose veins without symptoms",
+        "Lipodermatosclerosis",
+        "Healed venous ulcer",
+        "Active open venous ulcer",
+        "Reticular veins"
+      ],
+      "correctIndex": 3,
+      "explanation": "CEAP Clinical Stages: C0=None; C1=Telangiectasias; C2=Varicose veins; C3=Edema; C4=Skin changes; C5=Healed venous ulcer; C6=Active open venous ulcer."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Where do classic venous stasis ulcers characteristically occur on the lower extremity?",
+      "options": [
+        "Tips of the toes and heel",
+        "Gaiter area of the lower leg, particularly above the medial malleolus",
+        "Dorsum of the foot over tendons",
+        "Pre-patellar region",
+        "Ischial tuberosity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venous ulcers typically develop in the 'gaiter region' (lower third of calf, especially over the medial malleolus) where ambulatory venous hypertension is highest."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What physical feature distinguishes a classic venous ulcer from an ischemic arterial ulcer?",
+      "options": [
+        "Venous ulcers are deep, punched-out, extremely painful with pale base",
+        "Venous ulcers are shallow, irregular, surrounded by hyperpigmentation/eczema, with sloughy base",
+        "Venous ulcers occur over bony pressure points on the heel",
+        "Venous ulcers cause absent foot pulses",
+        "Venous ulcers never bleed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venous ulcers are shallow with irregular borders, pink/sloughy base, mild pain, and surrounding stasis pigmentation. Arterial ulcers are deep, painful, punched-out, with pale bases."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In the Brodie-Trendelenburg test for varicose veins, rapid filling of veins from above upon release of the thigh tourniquet confirms:",
+      "options": [
+        "Deep vein thrombosis",
+        "Saphenofemoral Junction (SFJ) incompetence",
+        "Arterial insufficiency",
+        "Popliteal artery aneurysm",
+        "Normal venous valves"
+      ],
+      "correctIndex": 1,
+      "explanation": "If veins remain empty while standing with the tourniquet on, but fill rapidly from above when the tourniquet is removed, it confirms Saphenofemoral Junction (SFJ) valve incompetence."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the non-invasive gold standard diagnostic investigation for evaluating varicose veins and venous reflux?",
+      "options": [
+        "Ascending venography",
+        "Venous Duplex Ultrasound",
+        "CT Angiography",
+        "Handheld Doppler alone",
+        "MR Venography"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venous Duplex Ultrasound is the gold standard diagnostic tool to map superficial and deep vein anatomy, identify reflux sites, and confirm deep vein patency."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is considered the first-line modern endovenous treatment for symptomatic Great Saphenous Vein incompetence?",
+      "options": [
+        "Open surgical stripping and ligation",
+        "Endovenous Thermal Ablation (EVLA or Radiofrequency Ablation)",
+        "Lifetime bed rest",
+        "High-dose oral antibiotics",
+        "Systemic thrombolysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endovenous Thermal Ablation (EVLA / RFA) is recommended as first-line treatment by NICE guidelines due to lower morbidity, faster recovery, and high occlusion rates."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which of the following constitutes Virchow's Triad for the development of Deep Vein Thrombosis (DVT)?",
+      "options": [
+        "Hypertension, Hyperglycemia, Hyperkalemia",
+        "Venous stasis, Endothelial injury, Hypercoagulability",
+        "Fever, Tachycardia, Leucocytosis",
+        "Pain, Pallor, Pulselessness",
+        "Vasodilation, Hypotension, Bradycardia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Virchow's Triad consists of Venous Stasis, Endothelial/Vessel Wall Injury, and Hypercoagulability of blood."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the most serious life-threatening acute complication of Deep Vein Thrombosis (DVT)?",
+      "options": [
+        "Post-thrombotic syndrome",
+        "Pulmonary Embolism (PE)",
+        "Venous ulceration",
+        "Cellulitis",
+        "Compartment syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pulmonary Embolism (PE) occurs when a deep vein thrombus (usually proximal iliofemoral) detaches and embolizes to the pulmonary arterial tree, threatening sudden cardiac arrest."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Phlegmasia cerulea dolens is a rare, severe form of massive iliofemoral DVT characterized by:",
+      "options": [
+        "Mild ankle swelling without discoloration",
+        "Massive total venous occlusion causing painful, cyanotic, ischemic limb swelling",
+        "Pale dry foot with absent pulses",
+        "Bilateral calf muscle wasting",
+        "Spontaneous venous rupture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phlegmasia cerulea dolens is massive, near-total venous thrombosis causing intense cyanosis, severe pain, massive edema, and secondary arterial ischemia (venous gangrene)."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which laboratory blood test has a high negative predictive value to rule out Deep Vein Thrombosis in low-risk patients?",
+      "options": [
+        "Serum Ferritin",
+        "D-Dimer test",
+        "C-Reactive Protein",
+        "Serum Amylase",
+        "Prothrombin Time"
+      ],
+      "correctIndex": 1,
+      "explanation": "A negative D-Dimer test (< 500 ng/mL) reliably rules out DVT in patients categorized as low probability on the Wells clinical prediction score."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "What is the primary pharmacological management for an established proximal Deep Vein Thrombosis?",
+      "options": [
+        "Aspirin 75 mg daily",
+        "Therapeutic Anticoagulation (LMWH or DOACs for at least 3 months)",
+        "Prophylactic Heparin 5000 units SC once weekly",
+        "Intravenous Antibiotics",
+        "Oral Pentoxifylline"
+      ],
+      "correctIndex": 1,
+      "explanation": "Treatment of proximal DVT requires therapeutic anticoagulation (LMWH bridged to Warfarin or a direct oral anticoagulant like Rivaroxaban) for a minimum of 3 to 6 months."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "In Buerger's disease (Thromboangiitis Obliterans), which patient demographic and risk factor is strongly and exclusively linked?",
+      "options": [
+        "Elderly female non-smokers",
+        "Young male heavy tobacco smokers (< 45 years)",
+        "Diabetic post-menopausal females",
+        "Patients with atrial fibrillation",
+        "Pediatric patients with trauma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thromboangiitis Obliterans (Buerger's disease) is a non-atherosclerotic segmental inflammatory vasculitis strongly linked to young male heavy smokers."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "An arterial ulcer located over the tips of the toes or lateral malleolus is characteristically:",
+      "options": [
+        "Painless and covered with healthy red granulation tissue",
+        "Punched-out with well-defined borders, pale ungranulated base, and exquisitely painful",
+        "Large, shallow, and painless",
+        "Associated with warm hyperemic skin",
+        "Surrounded by heavy venous eczema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arterial ulcers are ischemic, appearing punched-out with clean vertical edges, pale necrotic base, absent distal pulses, and severe pain."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Surgery - Module 3",
+      "question": "Which medication is prescribed in peripheral arterial disease specifically to inhibit platelet aggregation and improve claudication distance?",
+      "options": [
+        "Aspirin or Clopidogrel",
+        "Warfarin",
+        "Furosemide",
+        "Amlodipine",
+        "Digoxin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Antiplatelet therapy (Clopidogrel 75 mg daily or Aspirin 75 mg daily) reduces major cardiovascular events and secondary thrombotic events in PAD patients."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,

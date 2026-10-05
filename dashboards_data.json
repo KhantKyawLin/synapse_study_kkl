@@ -3037,6 +3037,162 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 3 Database": [
+    {
+      "Name": "Acute Embolic Limb Ischemia",
+      "Tag": "Arterial Occlusion",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Sudden onset arterial occlusion, most commonly cardiac origin (Atrial Fibrillation, Mitral Stenosis, post-MI mural thrombus)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Circulating embolus lodges at arterial bifurcation (most common femoral bifurcation ~35-40%), causing acute distal ischemia."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "6 Ps: Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Perishingly cold. Red Flag: Muscle rigidity and complete sensory loss (irreversible ischemia)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Handheld Doppler / CT Angiography; ECG/Echo. Management: IV Heparin bolus immediately, emergency Fogarty catheter femoral embolectomy."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Thrombotic Limb Ischemia",
+      "Tag": "Arterial Occlusion",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute-on-chronic arterial occlusion occurring on pre-existing atherosclerotic plaques."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Plaque rupture or low flow state causes localized thrombosis in narrow diseased vessel."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Gradual onset or sudden worsening of limb pain, history of intermittent claudication, weak/absent contralateral pulses."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Duplex Ultrasound / CT Angiography. Management: IV Heparin, intra-arterial thrombolysis (tPA) or arterial bypass surgery."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Limb-Threatening Ischemia (CLTI)",
+      "Tag": "Peripheral Arterial Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Advanced severe peripheral arterial disease in smokers, diabetics, or hypertensive patients."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Progressive multi-segmental arterial stenoses leading to inadequate tissue perfusion at rest."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Ischemic rest pain (worse at night, relieved by dangling leg off bed), non-healing arterial ulcers, gangrene."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "ABPI < 0.5 or ankle pressure < 50 mmHg; CT Angiography. Management: Endovascular angioplasty/stenting or surgical bypass graft."
+        }
+      ]
+    },
+    {
+      "Name": "Wet Gangrene",
+      "Tag": "Ischemic Complication",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ischemic tissue necrosis complicated by superadded bacterial infection (gram-negative / anaerobes)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bacterial proliferation in dead tissue causes rapid liquefactive necrosis and systemic toxemia."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Blackened, foul-smelling, moist, swollen limb with purulent discharge, crepitus, and severe systemic sepsis/shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical inspection; Blood cultures; FBC (marked leucocytosis). Management: Resuscitation, broad-spectrum IV antibiotics, emergency major amputation."
+        }
+      ]
+    },
+    {
+      "Name": "Varicose Veins & Venous Reflux",
+      "Tag": "Venous Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Incompetence of saphenofemoral or saphenopopliteal valves due to primary vein wall weakness or pregnancy/standing."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Venous valvular reflux leads to venous hypertension, vessel dilation, tortuosity, and microvascular leakage."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dilated tortuous veins, leg heaviness, ankle edema, lipodermatosclerosis, active/healed venous ulcers (medial malleolus)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Duplex Ultrasound (gold standard mapping). Management: Compression hosiery, endovenous thermal ablation (EVLA/RFA), foam sclerotherapy, or Trendelenburg operation."
+        }
+      ]
+    },
+    {
+      "Name": "Deep Vein Thrombosis (DVT)",
+      "Tag": "Venous Thromboembolism",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thrombus formation in deep veins of lower limb driven by Virchow's Triad (stasis, injury, hypercoagulability)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Venous occlusion causes distal venous engorgement, swelling, inflammation, and potential embolization to pulmonary circulation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Unilateral leg swelling, calf tenderness, warmth, erythema, pitted edema. Red Flag: Dyspnea/chest pain (Pulmonary Embolism)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Wells Score; D-dimer; Duplex Ultrasound. Management: Anticoagulation (LMWH bridged to Warfarin or DOACs for 3-6 months)."
+        }
+      ]
+    },
+    {
+      "Name": "Compartment Syndrome (Post-Revascularization)",
+      "Tag": "Surgical Complication",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Reperfusion injury following prolonged ischemia (>6 hours) during limb revascularization."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Capillary hyperpermeability leads to rapid intracompartmental muscle edema within rigid fascial planes, exceeding capillary perfusion pressure."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe disproportionate pain on passive muscle stretching, tense woody calf compartments, paresthesia."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Intracompartmental pressure measurement (>30 mmHg). Management: Emergency four-compartment leg fasciotomy."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",
