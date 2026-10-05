@@ -3193,6 +3193,228 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 4 Database": [
+    {
+      "Name": "Peptic Ulcer Bleeding",
+      "Tag": "Upper GI Bleeding",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bleeding from erosion of mucosal defect into submucosal vessels; caused by H. pylori infection or chronic NSAID/aspirin use."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Acid-peptic ulceration penetrates gastroduodenal arterial branches (e.g. gastroduodenal artery in posterior duodenal wall)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hematemesis (coffee-ground or frank blood), melena, orthostatic hypotension, tachycardia. Red Flag: Hemodynamic instability."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Flexible Upper GI Endoscopy (OGDS). Management: Resuscitation, IV PPI, dual endoscopic therapy (Adrenaline injection + Clips/Thermal), H. pylori eradication."
+        }
+      ]
+    },
+    {
+      "Name": "Bleeding Esophageal Varices",
+      "Tag": "Portal Hypertension",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Dilated submucosal veins in distal esophagus secondary to portal hypertension (cirrhosis, portal vein thrombosis)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Increased portal venous pressure (>10 mmHg) diverts blood into portosystemic collateral plexus at gastroesophageal junction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden massive painless hematemesis, melena, stigmata of chronic liver disease, hemorrhagic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Emergency OGDS. Management: Immediate Terlipressin/Octreotide, Endoscopic Variceal Band Ligation (EVL), Sengstaken-Blakemore tube if refractory, TIPS."
+        }
+      ]
+    },
+    {
+      "Name": "Esophageal Squamous Cell Carcinoma",
+      "Tag": "Esophageal Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant epithelial tumor of middle/upper esophagus; risk factors include smoking, alcohol, betel nut, caustic strictures."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transmural tumor expansion lacks outer serosal wall protection, causing early local lymphatic and mediastinal invasion."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Progressive dysphagia (solids then liquids), rapid weight loss, regurgitation. Red Flag: Hoarseness, odynophagia, Virchow's node."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "OGDS with biopsy (gold standard); CT Thorax/Abdomen for staging. Management: Neoadjuvant chemoradiotherapy + Esophagectomy (Ivor Lewis / McKeown)."
+        }
+      ]
+    },
+    {
+      "Name": "Esophageal Adenocarcinoma",
+      "Tag": "Esophageal Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant tumor arising in lower third esophagus; strongly linked to chronic GERD, Barrett's Esophagus, and central obesity."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Chronic acid/bile reflux causes intestinal metaplasia of distal esophageal squamous epithelium to columnar epithelium (Barrett's)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Progressive dysphagia, retrosternal burning pain, weight loss, anorexia. Red Flag: Hematemesis, supraclavicular lymphadenopathy."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "OGDS with biopsy; Endoscopic Ultrasound (EUS) for T/N staging. Management: Multimodal neoadjuvant therapy + Surgical resection (Esophagectomy)."
+        }
+      ]
+    },
+    {
+      "Name": "Achalasia Cardia",
+      "Tag": "Dysphagia",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Neurodegenerative motility disorder of distal esophagus occurring in young adults (20-40 yrs)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Degeneration of inhibitory ganglion cells in myenteric (Auerbach's) plexus leads to hypertonic, non-relaxing LES and aperistalsis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Progressive dysphagia to BOTH solids and liquids simultaneously, regurgitation of undigested food, nocturnal cough, retrosternal chest pain."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "High-Resolution Manometry (gold standard: elevated IRP > 15 mmHg); Barium swallow ('bird's-beak' sign). Management: Laparoscopic Heller's cardiomyotomy + Dor/Toupet fundoplication."
+        }
+      ]
+    },
+    {
+      "Name": "Gastric Adenocarcinoma",
+      "Tag": "Gastric Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Malignant tumor of stomach mucosa; Intestinal (H. pylori, salt/nitrates) vs. Diffuse type (signet-ring cells, E-cadherin loss)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant ulceration or linitis plastica ('leather-bottle' stomach) leading to local transmural growth and peritoneal seeding."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Early dyspepsia, early satiety, epigastric pain, weight loss. Red Flag: Virchow's node, Krukenberg tumor (ovarian), Blumer's shelf."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "OGDS + multiple biopsies; CT Abdomen/Pelvis. Management: Radical Subtotal or Total Gastrectomy + D2 lymphadenectomy + Chemotherapy."
+        }
+      ]
+    },
+    {
+      "Name": "Gastric Outlet Obstruction (GOO)",
+      "Tag": "Mechanical Obstruction",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Mechanical obstruction of pyloric channel due to chronic duodenal ulcer cicatrization or Ca Pyloric Antrum."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Fibrotic scarring or malignant tissue expansion blocks pyloric outflow, causing extreme gastric distension."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Profuse, non-bilious projectile vomiting of undigested food, succussion splash, dehydration, weight loss."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "OGDS; Hypochloremic hypokalemic metabolic alkalosis with paradoxical aciduria on ABG. Management: NG suction, IV Normal Saline + KCl, Endoscopic balloon dilation or Gastrojejunostomy."
+        }
+      ]
+    },
+    {
+      "Name": "Perforated Peptic Ulcer",
+      "Tag": "Acute Abdomen",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Full-thickness ulcer perforation (anterior wall of 1st part of duodenum) secondary to H. pylori or chronic NSAID use."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transmural gastric/duodenal ulceration leaks caustic acidic contents into peritoneal cavity, causing chemical peritonitis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden agonizing 'thunderclap' epigastric pain, generalized board-like abdominal rigidity, loss of liver dullness, absent bowel sounds."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Erect Chest X-ray (free gas under diaphragm / pneumoperitoneum in >75%). Management: Emergency resuscitation, IV PPI, Cellan-Jones / Graham pedicled omental patch repair."
+        }
+      ]
+    },
+    {
+      "Name": "Mallory-Weiss Syndrome",
+      "Tag": "Non-variceal UGIB",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Mucosal tear at gastroesophageal junction triggered by severe vomiting/retching (frequently post-alcohol binge)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sudden increase in intra-abdominal pressure stretches and tears the non-compliant GE junction mucosa/submucosa."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Episode of non-bloody retching/vomiting immediately followed by hematemesis, epigastric discomfort."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "OGDS showing longitudinal mucosal tear across GE junction. Management: Supportive, IV PPI; endoscopic adrenaline injection or hemoclips if bleeding persists."
+        }
+      ]
+    },
+    {
+      "Name": "Boerhaave Syndrome",
+      "Tag": "Esophageal Perforation",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Spontaneous transmural barogenic rupture of distal esophagus caused by violent retching/vomiting against closed glottis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sudden increase in intraluminal pressure causes full-thickness tear of left posterolateral lower esophagus into pleural cavity."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Mackler's Triad: Vomiting, severe lower chest/epigastric pain, and subcutaneous emphysema; rapidly leads to sepsis and septic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CT Chest with oral water-soluble contrast (Gastrografin); Chest X-ray (pleural effusion, pneumomediastinum). Management: Emergency surgical repair / T-tube drainage / stenting + broad-spectrum antibiotics."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

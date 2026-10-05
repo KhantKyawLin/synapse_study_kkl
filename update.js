@@ -345,7 +345,7 @@ function updateQuizData() {
                     const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
                     const keyHeaders = keyHeaderIdx !== -1 ? keyRows[keyHeaderIdx].map(h => String(h || '').trim()) : [];
                     
-                    const kTopicIdx = keyHeaders.findIndex(c => /topic|category|sub-topic/i.test(c));
+                    const kTopicIdx = keyHeaders.findIndex(c => /topic|category|sub-topic/i.test(c) && !/summary|stem|prompt/i.test(c));
                     const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*choice|correct\s*answer|correct|^key$/i.test(c));
                     const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note|pearl/i.test(c));
 
@@ -418,7 +418,7 @@ function updateQuizData() {
                         if (candidateCat && candidateCat.toLowerCase() !== questionText.toLowerCase()) {
                             category = candidateCat;
                         }
-                    } else if (keyInfo.topic) {
+                    } else if (keyInfo.topic && !keyInfo.topic.endsWith('...') && !keyInfo.topic.endsWith('…') && keyInfo.topic.length < 80) {
                         category = keyInfo.topic;
                     }
                     if (category.toLowerCase() === 'endocrine-1' || category.toLowerCase() === 'endocrine 1') {

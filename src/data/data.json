@@ -9409,6 +9409,426 @@
       "category": "Final Part 2 Surgery - Module 3",
       "question": "What diagnostic lower extremity vascular map schematic is depicted below?",
       "answer": "Duplex Arterial Map of Lower Limb Arteries (Figure 16-15)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the relative proportion of non-variceal versus variceal causes in acute upper gastrointestinal bleeding?",
+      "answer": "Non-variceal causes account for approximately $80\\%$ of cases, while variceal causes account for $20\\%$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the single most common cause of non-variceal upper gastrointestinal bleeding?",
+      "answer": "Peptic ulcer disease (accounting for $30\\%-50\\%$ of non-variceal bleeding cases)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the second most common cause of non-variceal upper gastrointestinal bleeding?",
+      "answer": "Mallory-Weiss tear (accounting for $15\\%-20\\%$ of cases)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "According to upper GI bleeding etiology data, what percentages of non-variceal bleeding are attributed to gastritis/duodenitis, esophagitis, AV malformations, and tumors?",
+      "answer": "• Gastritis or Duodenitis: $10\\%-15\\%$\n• Esophagitis: $5\\%-10\\%$\n• AV Malformation: $5\\%$\n• Tumor: $2\\%$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What source accounts for over $80\\%$ of all variceal upper gastrointestinal bleeding?",
+      "answer": "Oesophageal varices."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Besides esophageal varices, what are two other recognized causes of variceal upper GI bleeding?",
+      "answer": "1. Gastric varices\n2. Hypertensive portal gastropathy ($< 5\\%$ of cases)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How is haematemesis clinically defined?",
+      "answer": "The vomiting of fresh blood or altered (coffee-ground) blood."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How is melena clinically defined?",
+      "answer": "The passage of dark, black, tarry stool resulting from digested blood."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are two major systemic complications associated with acute upper gastrointestinal bleeding?",
+      "answer": "1. Hypovolaemic shock\n2. Hepatic Encephalopathy (HE)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What type of intravenous fluid should be administered to maintain circulatory volume in a patient awaiting endoscopy for suspected upper GI bleeding?",
+      "answer": "IV Crystalloid solutions (such as Normal Saline, Ringer's Lactate, or Hartmann's Solution)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "When blood transfusion is required in a hemodynamically significant upper GI bleed, what specific blood product should be administered?",
+      "answer": "Packed Red Blood Cells (Packed cells)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the recommended pharmacological dosing regimen for IV proton pump inhibitor (PPI) infusion in non-variceal upper GI bleeding?",
+      "answer": "An initial $80\\text{ mg}$ IV bolus, followed by a continuous infusion of $8\\text{ mg/hr}$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Are somatostatin and Vitamin K recommended for routine management of acute non-variceal upper GI bleeding?",
+      "answer": "No. Somatostatin and Vitamin K usage are explicitly not recommended in non-variceal upper GI bleeding management."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What endoscopic treatment modalities can be used to achieve hemostasis in an actively bleeding peptic ulcer?",
+      "answer": "• Adrenaline injection\n• Endoscopic clipping\n• Sclerosant injection\n• Thermal coagulation"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Following endoscopic management of non-variceal peptic ulcer bleeding, what specific infectious organism should be tested for and eradicated?",
+      "answer": "$Helicobacter\\ pylori$ ($H.\\ pylori$)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the immediate management step if rebleeding occurs after initial endoscopic treatment of non-variceal upper GI bleeding?",
+      "answer": "Perform a second-look endoscopy (2nd time endoscopy)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "If a second endoscopic intervention fails to control non-variceal upper GI rebleeding, what interventional radiological procedure should be considered?",
+      "answer": "Transcatheter Angiographic Embolization (TAE)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What clinical timeframe defining rebleeding serves as an indication for surgical intervention in a patient with a bleeding duodenal ulcer?",
+      "answer": "Rebleeding occurring within $48\\text{ hours}$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What blood transfusion volume threshold within $24\\text{ hours}$ indicates the need for surgical intervention in a bleeding duodenal ulcer?",
+      "answer": "Transfusion requirement of more than $4\\text{ units}$ of blood within $24\\text{ hours}$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What persistent bleeding status following endoscopic therapy indicates surgical intervention for a bleeding duodenal ulcer?",
+      "answer": "Continued bleeding after adrenaline injection through the OGD scope or failed conservative treatment."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which patient demographic groups with bleeding duodenal ulcers are considered candidates for early surgical intervention?",
+      "answer": "Elderly and severely ill patients."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What defines non-organic or functional dyspepsia?",
+      "answer": "Dyspeptic symptoms occurring in patients without any demonstrable focal lesion or structural pathology in the upper gastrointestinal tract."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are five organic causes of dyspepsia listed in upper GI differentials?",
+      "answer": "1. Oesophagitis / GORD\n2. Gastritis\n3. Duodenitis\n4. Duodenal Ulcer (DU) / Gastric Ulcer (GU)\n5. Gastric malignancy"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are five key etiology factors associated with peptic ulcer disease?",
+      "answer": "1. $Helicobacter\\ pylori$ infection\n2. NSAIDs\n3. Smoking / Alcohol\n4. Genetic factors\n5. Zollinger-Ellison syndrome"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are four characteristic clinical presentation features of peptic ulcer disease?",
+      "answer": "1. Periodicity (episodic pain pattern)\n2. Vomiting\n3. Alteration in body weight\n4. GI Bleeding"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the diagnostic investigation of choice for peptic ulcer disease?",
+      "answer": "Gastroduodenoscopy (OGDS)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What three clinical actions are enabled by gastroduodenoscopy during peptic ulcer evaluation?",
+      "answer": "1. Direct visualization of the ulcer\n2. Mucosal tissue biopsy\n3. CLO (Campylobacter-like organism) test for $H.\\ pylori$"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What contrast fluoroscopy study can reveal peptic ulcers when endoscopy is unavailable?",
+      "answer": "Barium meal."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the standard medical regimen for $H.\\ pylori$ eradication therapy in peptic ulcer disease?",
+      "answer": "Triple therapy for $7\\text{ days}$, followed by a healing dose of a Proton Pump Inhibitor (PPI) for $4\\text{--}6\\text{ weeks}$."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What two pharmacological drug classes are used for acid suppression in medical peptic ulcer management?",
+      "answer": "1. Proton Pump Inhibitors (PPIs)\n2. $H_2$-receptor antagonists ($H_2$ blockers)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What agents are used to optimize mucosal cytoprotection in peptic ulcer management?",
+      "answer": "Antacids and Sucralfate."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Endoscopic view displaying a peptic ulcer crater with raised, smooth mucosal edges in the stomach What upper gastrointestinal structural lesion is directly visualized on this gastroduodenoscopy image?",
+      "answer": "Peptic Ulcer (Gastric / Duodenal Ulcer)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What diagnostic procedures are provided by Endoscopic Ultrasound with Fine Needle Aspiration (EUS-FNA) in esophageal carcinoma evaluation?",
+      "answer": "• T staging (depth of tumor invasion)\n• N staging (regional lymph node involvement)\n• Tissue needle biopsy"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the primary diagnostic utility of CT Chest and/or Abdomen in esophageal carcinoma workup?",
+      "answer": "Evaluation of local tumor invasion, N staging, and exclusion of distant metastases ($2^\\circ$)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What specific diagnostic role does Bronchoscopy play during staging of esophageal carcinoma?",
+      "answer": "To detect direct airway invasion and tracheoesophageal fistula formation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What staging purpose is served by Thoracoscopy or Laparoscopy in esophageal carcinoma?",
+      "answer": "Identification of occult pleural or peritoneal tumor seedling."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What three clinical findings are targeted by Abdominal USG in dysphagia/esophageal carcinoma staging?",
+      "answer": "1. Liver metastases ($2^\\circ$)\n2. Ascites\n3. Abdominal lymphadenopathy (L/N)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Anatomical cross section diagram showing T-staging depth of tumor invasion through esophageal wall layers Examine this esophageal staging diagram. What diagnostic anatomical framework categorizes depth of tumor penetration across histological layers?",
+      "answer": "Esophageal Carcinoma TNM Staging ($T1a$ to $T4b$ depth of invasion through epithelium, lamina propria, muscularis mucosae, submucosa, muscularis propria, adventitia, and adjacent organs like aorta or pleura)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are the three treatment intents for esophageal pathology according to NCCN management guidelines?",
+      "answer": "1. Curative intent\n2. Palliative intent\n3. Supportive intent"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What endoscopic procedures are indicated for early-stage esophageal lesions?",
+      "answer": "Endoscopic mucosal resection (ER) $\\pm$ mucosal ablation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are two primary surgical resection approaches for resectable esophageal tumors?",
+      "answer": "1. Transhiatal Esophagectomy\n2. Minimally Invasive Esophagectomy (MIE)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Clinical operative photograph showing multiple laparoscopic trocars inserted into the abdominal wall during minimally invasive surgery What surgical approach for esophageal malignancy is demonstrated in this operative setup?",
+      "answer": "Minimally Invasive Esophagectomy (MIE)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What thoracic respiratory complications render esophageal carcinoma unresectable?",
+      "answer": "• Pulmonary metastasis\n• Tracheoesophageal fistula\n• Pleural effusion"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Severe back pain in a patient with esophageal carcinoma suggests unresectability due to direct spread into which structure?",
+      "answer": "Vertebral column spread (vertebral invasion)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What metastatic manifestations in the abdomen and neck define unresectability in esophageal carcinoma?",
+      "answer": "• Malignant ascites\n• Jaundice (biliary/liver metastases)\n• Metastatic cervical lymph nodes"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What management strategies are indicated for unresectable, advanced esophageal disease?",
+      "answer": "Palliative treatment using Esophageal stent insertion OR Feeding gastrostomy tube insertion, combined with Definitive Chemotherapy $\\pm$ Radiotherapy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are the primary functional esophageal motility disorders that present with dysphagia?",
+      "answer": "• Achalasia cardia\n• Hypercontractile and spastic esophageal disorders\n• Esophageal hypomotility disorders"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are two systemic disorders listed as secondary causes of esophageal motility dysfunction?",
+      "answer": "1. Scleroderma\n2. Amyloidosis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What pathognomonic radiologic sign is seen at the esophagogastric junction (EGJ) on Barium swallow in Achalasia Cardia?",
+      "answer": "Symmetrical tapering at the EGJ forming a bird's beak appearance, accompanied by impaired esophageal emptying."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What direct visual features are observed during esophagoscopy in a patient with Achalasia Cardia?",
+      "answer": "Retention of food or fluid, chronic stasis mucosal changes, and a tight, spastic esophagogastric junction (EGJ)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "When evaluating suspected achalasia on endoscopy, what underlying malignant lesion must be ruled out (pseudoachalasia)?",
+      "answer": "Gastric/cardiac Adenocarcinoma (causing pseudoachalasia)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which investigation provides definitive confirmation of the diagnosis of Achalasia Cardia?",
+      "answer": "Oesophageal manometry."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What pharmacological drug classes can be used in Achalasia Cardia, and how effective are they?",
+      "answer": "Calcium channel blockers, long-acting nitrates, and phosphodiesterase-5 inhibitors. They represent the least effective treatment modality."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are two endoscopic treatment options for Achalasia Cardia?",
+      "answer": "1. Botulinum toxin injection\n2. Pneumatic dilatation"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the primary surgical procedure performed for Achalasia Cardia?",
+      "answer": "Heller's cardiomyotomy combined with fundoplication."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the immediate initial management principle in acute gallstone disease / cholangiohepatitis?",
+      "answer": "Nil per mouth (NPO) and intravenous fluid administration until pain resolves."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What antimicrobial coverage is required for acute management of gallstone disease and cholangiohepatitis?",
+      "answer": "IV broad-spectrum antibiotics active against gram-negative aerobes (e.g., Cefazolin, Cefuroxime, or Ciprofloxacin)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Following NPO status in resolving cholangiohepatitis, how should oral intake be reintroduced?",
+      "answer": "When temperature, pulse, and physical signs show inflammation is subsiding, oral fluids are reinstated first, followed by a regular diet."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What timing options exist for definitive cholecystectomy after acute gallstone inflammation subsides?",
+      "answer": "Cholecystectomy may be performed on the next available operating list, or the patient may be discharged home for elective surgery."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How is wound healing defined according to Gurtner and Wong (2014)?",
+      "answer": "The response of an organism to a physical disruption of a tissue/organ to re-establish homeostasis of that tissue/organ and stabilize the entire organism's physiology."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Does wound healing represent a local isolated phenomenon or a global organismal response?",
+      "answer": "It is an organism's global response to injury, activating systemic processes that alter physiology far beyond the confines of the tissue deficit itself."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are four general clinical classifications used to group wounds?",
+      "answer": "1. Closed wounds vs Open wounds\n2. Acute vs Chronic wounds\n3. Healing wounds vs Non-healing / problem wounds\n4. Clean vs Contaminated or Septic wounds"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What defines primary intention (first intention) wound healing?",
+      "answer": "Healing of a clean, incised wound closed with sutures that heals without complication via a combination of epithelialization and connective tissue formation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What defines secondary intention (second intention) wound healing?",
+      "answer": "Healing of an open wound allowed to close naturally by granulation tissue formation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What defines tertiary intention (third intention) wound healing?",
+      "answer": "Healing of contaminated wounds that are initially left open for infection control until granulation tissue forms, then closed by delayed primary closure or secondary closure."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are the three sequential, overlapping phases of cutaneous wound healing?",
+      "answer": "1. Inflammatory phase\n2. Proliferative phase\n3. Remodeling phase"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Timeline diagram showing cellular influx across inflammatory, proliferative, and remodeling phases in cutaneous wound healing In adult cutaneous wound healing, which cellular phase spans approximately Days $0$ to $5$ post-injury?",
+      "answer": "Inflammatory Phase (dominated initially by Platelets and Neutrophils)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which cell type is the very first to respond to wound injury, establishing initial hemostasis?",
+      "answer": "Platelets."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which leukocyte population peaks first during the early acute inflammatory stage of wound repair?",
+      "answer": "Neutrophils (Polymorphonuclear leukocytes)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What cell population bridges the late inflammatory phase and proliferative phase, clearing debris and releasing key growth factors?",
+      "answer": "Monocytes / Macrophages."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What key epithelial cell type proliferates and migrates during the proliferative phase to restore epidermal continuity?",
+      "answer": "Keratinocytes."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What major physiological role do endothelial cells perform during the proliferative stage of wound healing?",
+      "answer": "Neovascularization / Angiogenesis (forming new blood vessel networks)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which cell type is primarily responsible for extracellular matrix (ECM) deposition, collagen synthesis, and long-term remodeling?",
+      "answer": "Fibroblasts."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What cell type synthesizes Vascular Endothelial Growth Factor (VEGF), and what is its main function?",
+      "answer": "Synthesized by Endothelial cells; its main function is to promote angiogenesis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What growth factor promotes angiogenesis, stimulates endothelial migration, and induces epithelialization via keratinocyte/fibroblast migration?",
+      "answer": "Fibroblast Growth Factor 2 (FGF-2)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What functions are mediated by Platelet-Derived Growth Factor (PDGF) in wound healing?",
+      "answer": "• Enhances proteoglycan and collagen synthesis\n• Recruits macrophages and fibroblasts to the wound site"
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What cell type produces Keratinocyte Growth Factor (KGF), and what are its primary actions?",
+      "answer": "Produced by Fibroblasts; it controls keratinocyte growth/maturation and induces epithelial secretion of other growth factors."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How does Epidermal Growth Factor (EGF) participate in matrix remodeling during wound healing?",
+      "answer": "EGF (released by platelets and macrophages) stimulates collagenase secretion by fibroblasts to remodel the matrix."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What growth factor induces extracellular matrix synthesis by inhibiting protease activity and upregulating collagen and proteoglycan synthesis?",
+      "answer": "Transforming Growth Factor beta (TGF-$\\beta$)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What roles does Tumor Necrosis Factor alpha (TNF-$\\alpha$) play in wound healing?",
+      "answer": "Induces collagen synthesis in wounds and regulates polymorphonuclear neutrophil (PMN) margination and cytotoxicity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What are the biological effects of Interleukin 1 (IL-1) during early inflammation?",
+      "answer": "Acts as a proinflammatory peptide, induces chemotaxis of PMNs, fibroblasts, and keratinocytes, and activates PMNs."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How does Interleukin 4 (IL-4) influence fibroblast activity during wound repair?",
+      "answer": "IL-4 activates fibroblast proliferation and induces collagen and proteoglycan synthesis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What chemokine functions are performed by Interleukin 8 (IL-8) in wound healing?",
+      "answer": "Activates PMNs and macrophages to begin chemotaxis and induces margination and maturation of keratinocytes."
+    },
+    {
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which nitric oxide synthase isoform is expressed in neutrophils and endothelial cells to generate NO during inflammation?",
+      "answer": "Inducible nitric oxide synthase (iNOS)."
     }
   ]
 }

@@ -5629,7 +5629,7 @@
   "Final Part 2 Surgery - Module 1": [
     {
       "id": 8,
-      "category": "A 34-year-old male presents with fresh blood vomiting x2 (am...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A 34-year-old male presents with fresh blood vomiting x2 (amount ~1L). Vital signs show BP 110/70 mmHg and HR 115/min. Which fluid is most appropriate to expand circulatory volume prior to blood delivery?",
       "options": [
         "Packed cell",
@@ -5643,7 +5643,7 @@
     },
     {
       "id": 9,
-      "category": "How is Cerebral Perfusion Pressure (CPP) strictly defined in...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "How is Cerebral Perfusion Pressure (CPP) strictly defined in neurotrauma management?",
       "options": [
         "Venous pressure minus intracranial pressure",
@@ -5657,7 +5657,7 @@
     },
     {
       "id": 10,
-      "category": "Which of the following is a definitive, immediate indication...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following is a definitive, immediate indication for major lower limb amputation?",
       "options": [
         "Rest pain",
@@ -5671,7 +5671,7 @@
     },
     {
       "id": 11,
-      "category": "Which statement regarding acute burn evaluation and depth is...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which statement regarding acute burn evaluation and depth is TRUE?",
       "options": [
         "Deep dermal burns heal within 2 weeks without surgery",
@@ -5685,7 +5685,7 @@
     },
     {
       "id": 12,
-      "category": "Regarding the clinical features of gastric cancer, which sta...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Regarding the clinical features of gastric cancer, which statement is FALSE?",
       "options": [
         "May present with a hard palpable left supraclavicular node",
@@ -5699,7 +5699,7 @@
     },
     {
       "id": 13,
-      "category": "A 67-year-old man presents with recurrent terminal hematuria...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A 67-year-old man presents with recurrent terminal hematuria, fevers, and urethral purulent discharge. On examination, the prostate is swollen and tender. What is the most likely diagnosis?",
       "options": [
         "Nephritis",
@@ -5713,7 +5713,7 @@
     },
     {
       "id": 14,
-      "category": "According to NICE guidelines, CT head scan is indicated with...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "According to NICE guidelines, CT head scan is indicated within 8 hours following mild head injury for patients with which feature?",
       "options": [
         "Loss of consciousness at time of injury",
@@ -5727,7 +5727,7 @@
     },
     {
       "id": 15,
-      "category": "Which of the following clinical signs is NOT evidence of a b...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following clinical signs is NOT evidence of a basal skull fracture?",
       "options": [
         "Battle's sign",
@@ -5741,7 +5741,7 @@
     },
     {
       "id": 16,
-      "category": "Which complication is specifically defined as an irreducible...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which complication is specifically defined as an irreducible hernia where the blood supply to contents is seriously impaired?",
       "options": [
         "Strangulated Hernia",
@@ -5755,7 +5755,7 @@
     },
     {
       "id": 17,
-      "category": "A patient is diagnosed with adenocarcinoma at the hepatic fl...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A patient is diagnosed with adenocarcinoma at the hepatic flexure. What is the standard radical surgical resection required?",
       "options": [
         "Extended Right hemi-colectomy",
@@ -5769,7 +5769,7 @@
     },
     {
       "id": 18,
-      "category": "Which compensatory mechanism initially maintains normal ICP ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which compensatory mechanism initially maintains normal ICP in the presence of an expanding intracranial mass in adults?",
       "options": [
         "Increase in CSF production",
@@ -5783,7 +5783,7 @@
     },
     {
       "id": 19,
-      "category": "Which of the following is NOT a systemic cause of secondary ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following is NOT a systemic cause of secondary brain injury?",
       "options": [
         "Pyrexia",
@@ -5797,7 +5797,7 @@
     },
     {
       "id": 20,
-      "category": "Which of the following is NOT a predisposing factor for abdo...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following is NOT a predisposing factor for abdominal wall hernia?",
       "options": [
         "Chronic obstructive pulmonary disease",
@@ -5811,7 +5811,7 @@
     },
     {
       "id": 21,
-      "category": "Which blood test is the most sensitive and specific for the ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which blood test is the most sensitive and specific for the diagnosis of acute pancreatitis?",
       "options": [
         "Trypsin",
@@ -5825,7 +5825,7 @@
     },
     {
       "id": 22,
-      "category": "Which of the following statements regarding Acute Retention ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following statements regarding Acute Retention of Urine (AROU) is TRUE?",
       "options": [
         "BPH is an uncommon cause of AROU",
@@ -5839,7 +5839,7 @@
     },
     {
       "id": 23,
-      "category": "Which local ecchymosis sign occurs in severe acute pancreati...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which local ecchymosis sign occurs in severe acute pancreatitis due to retroperitoneal hemorrhage?",
       "options": [
         "Boas' sign",
@@ -5853,7 +5853,7 @@
     },
     {
       "id": 24,
-      "category": "An elderly patient presents with strangulated prolapsed hemo...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "An elderly patient presents with strangulated prolapsed hemorrhoids. Which hyperosmolar local application reduces tissue edema conservatively?",
       "options": [
         "5% Phenol Injection",
@@ -5867,7 +5867,7 @@
     },
     {
       "id": 25,
-      "category": "Which statement regarding the Glasgow Coma Scale (GCS) is TR...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which statement regarding the Glasgow Coma Scale (GCS) is TRUE?",
       "options": [
         "Serial assessment of GCS reflects patient improvement or deterioration",
@@ -5881,7 +5881,7 @@
     },
     {
       "id": 26,
-      "category": "Which intervention is NOT indicated for the acute management...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which intervention is NOT indicated for the acute management of bleeding esophageal varices?",
       "options": [
         "Porto-systemic disconnection / TIPS",
@@ -5895,7 +5895,7 @@
     },
     {
       "id": 27,
-      "category": "Which of the following clinical features is NOT a typical ea...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following clinical features is NOT a typical early feature of acute mechanical intestinal obstruction?",
       "options": [
         "Vomiting",
@@ -5909,7 +5909,7 @@
     },
     {
       "id": 28,
-      "category": "A 25-year-old male presents with a groin swelling lateral to...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A 25-year-old male presents with a groin swelling lateral to the inferior epigastric artery. What is the diagnosis?",
       "options": [
         "Femoral Hernia",
@@ -5923,7 +5923,7 @@
     },
     {
       "id": 29,
-      "category": "A patient has a stoma in the Right Iliac Fossa (RIF) that ap...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A patient has a stoma in the Right Iliac Fossa (RIF) that appears spouted with liquid effluent. What type of stoma is this?",
       "options": [
         "Ileostomy",
@@ -5937,7 +5937,7 @@
     },
     {
       "id": 30,
-      "category": "A resected rectal specimen breaches muscularis propria with ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A resected rectal specimen breaches muscularis propria with positive local pararectal nodes but negative main vessel origin nodes. What is the Dukes stage?",
       "options": [
         "Duke Stage B",
@@ -5951,7 +5951,7 @@
     },
     {
       "id": 31,
-      "category": "A 68-year-old patient presents with a hard, irregular fixed ...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "A 68-year-old patient presents with a hard, irregular fixed mass in the Right Iliac Fossa. What is a common complication specific to this tumor location?",
       "options": [
         "Iron Deficiency Anaemia",
@@ -5965,7 +5965,7 @@
     },
     {
       "id": 32,
-      "category": "What is the imaging modality of choice for a 20-year-old lad...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "What is the imaging modality of choice for a 20-year-old lady presenting with a breast lump?",
       "options": [
         "Ultrasound breasts",
@@ -5979,7 +5979,7 @@
     },
     {
       "id": 33,
-      "category": "Which statement regarding benign breast lesions is TRUE?...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which statement regarding benign breast lesions is TRUE?",
       "options": [
         "Giant fibroadenoma is diagnosed when size is > 5 cm",
@@ -5993,7 +5993,7 @@
     },
     {
       "id": 34,
-      "category": "Which of the following is an established hormonal risk facto...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following is an established hormonal risk factor for breast cancer?",
       "options": [
         "Early menopause",
@@ -6007,7 +6007,7 @@
     },
     {
       "id": 35,
-      "category": "Which of the following conditions does NOT cause upper gastr...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following conditions does NOT cause upper gastrointestinal hemorrhage?",
       "options": [
         "Mallory-Weiss tear",
@@ -6021,7 +6021,7 @@
     },
     {
       "id": 36,
-      "category": "Which of the following is NOT a risk factor for gastric carc...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which of the following is NOT a risk factor for gastric carcinoma?",
       "options": [
         "Lower socio-economic class",
@@ -6035,7 +6035,7 @@
     },
     {
       "id": 37,
-      "category": "Which life-threatening thoracic condition is routinely ident...",
+      "category": "Final Part 2 Surgery - Module 1",
       "question": "Which life-threatening thoracic condition is routinely identified during the Secondary Survey rather than the ATLS Primary Survey?",
       "options": [
         "Flail chest",
@@ -6890,6 +6890,428 @@
       ],
       "correctIndex": 0,
       "explanation": "Antiplatelet therapy (Clopidogrel 75 mg daily or Aspirin 75 mg daily) reduces major cardiovascular events and secondary thrombotic events in PAD patients."
+    }
+  ],
+  "Final Part 2 Surgery - Module 4": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 45-year-old male presents with sudden hematemesis of 1000 mL fresh blood and melena. Pulse is 115 bpm, BP is 100/65 mmHg. What is the immediate initial step in resuscitation?",
+      "options": [
+        "Emergency upper GI endoscopy within 1 hour",
+        "Insert two large-bore IV cannulae & start IV crystalloids/colloids",
+        "Oral PPI administration",
+        "Urgent barium swallow",
+        "Emergency laparotomy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Upper GI bleeding requires immediate resuscitation: Airway, Breathing, two large-bore 14G/16G IV lines, and IV crystalloid/colloid infusion to restore circulating volume before diagnostic endoscopy."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which clinical feature most reliably distinguishes Hematemesis from Hemoptysis?",
+      "options": [
+        "Presence of bright red blood",
+        "Coughed up with froth and alkaline pH",
+        "Associated with tachycardia",
+        "Presence of melena",
+        "History of alcohol intake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemoptysis is coughed up, bright red, frothy, and alkaline in pH, whereas hematemesis is vomited, dark/coffee-ground, non-frothy, acidic, and mixed with food particles."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 55-year-old chronic NSAID user presents with severe epigastric pain and coffee-ground vomiting. Endoscopy shows a bleeding duodenal ulcer. What is the first-line therapeutic endoscopic method?",
+      "options": [
+        "Argon plasma coagulation alone",
+        "Dual endoscopic therapy (e.g. Adrenaline injection + Mechanical clips / Thermal cautery)",
+        "Systemic IV vasopressin alone",
+        "Sengstaken-Blakemore tube",
+        "Surgical wedge resection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endoscopic combination therapy (e.g., dilute adrenaline injection combined with mechanical hemoclips or thermal electrocautery) is the gold standard for active peptic ulcer bleeding."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 50-year-old cirrhotic patient presents with massive variceal hematemesis. Which pharmacological agent should be administered immediately prior to emergency endoscopy?",
+      "options": [
+        "IV Omeprazole bolus",
+        "IV Vasoactive agent (Terlipressin or Octreotide)",
+        "Oral Tranexamic acid",
+        "IV Metoclopramide",
+        "Oral Propranolol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vasoactive drugs (Terlipressin, Octreotide, or Somatostatin) reduce splanchnic blood flow and portal venous pressure, and should be initiated immediately upon suspected variceal hemorrhage."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "In a patient with bleeding esophageal varices uncontrolled by pharmacological and endoscopic band ligation, what is the temporary mechanical balloon tamponade device of choice?",
+      "options": [
+        "Ryle's nasogastric tube",
+        "Sengstaken-Blakemore tube",
+        "Foley catheter",
+        "Laryngeal mask airway",
+        "Ewald tube"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sengstaken-Blakemore tube (or Minnesota tube) provides temporary double-balloon compression (gastric and esophageal) to control refractory life-threatening variceal hemorrhage."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which scoring system is validated for pre-endoscopy risk stratification in acute upper GI bleeding to identify low-risk patients suitable for outpatient management?",
+      "options": [
+        "Glasgow-Blatchford Score (GBS)",
+        "Child-Pugh Score",
+        "MELD Score",
+        "Rockall Score",
+        "Ranson Criteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Glasgow-Blatchford Score (GBS) uses pre-endoscopic clinical/lab parameters (urea, Hb, SBP, pulse, melena, syncope) to identify ultra-low-risk patients (score 0-1) safely managed outpatient."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 62-year-old male with long-standing GERD presents with progressive dysphagia to solid foods over 6 months, accompanied by 8 kg weight loss. What is the single most essential diagnostic test?",
+      "options": [
+        "Barium swallow radiography",
+        "Flexible Upper GI Endoscopy (OGDS) with biopsy",
+        "Esophageal high-resolution manometry",
+        "24-hour pH monitoring",
+        "CT Scan of thorax"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flexible OGDS with multiple tissue biopsies is the definitive diagnostic modality for suspected esophageal malignancy, allowing direct visualization and histopathological confirmation."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which esophageal wall layer is absent compared to the rest of the gastrointestinal tract, contributing to early local invasion and early transmural spread of esophageal carcinoma?",
+      "options": [
+        "Mucosa",
+        "Submucosa",
+        "Circular muscle layer",
+        "Serosa",
+        "Adventitia"
+      ],
+      "correctIndex": 3,
+      "explanation": "The esophagus lacks a distinct outer serosal layer (it has adventitia instead), which facilitates rapid transmural growth and early invasion into surrounding mediastinal structures."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 35-year-old female presents with a 2-year history of progressive dysphagia to BOTH solids and liquids simultaneously, regurgitation of undigested food, and chest pain. What is the most likely diagnosis?",
+      "options": [
+        "Carcinoma of Esophagus",
+        "Achalasia Cardia",
+        "Benign Peptic Stricture",
+        "Esophageal Web (Plummer-Vinson)",
+        "Diffuse Esophageal Spasm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Achalasia Cardia typically affects younger adults (20-40 yrs) and presents with equal/simultaneous dysphagia to BOTH solids and liquids from the onset, along with regurgitation."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What classic pathognomonic finding is seen on Barium Swallow in a patient with Achalasia Cardia?",
+      "options": [
+        "Apple-core lesion",
+        "Bird's-beak / Rat-tail narrowing",
+        "Cobblestone appearance",
+        "Lead-pipe appearance",
+        "String sign of Kantor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Barium swallow in Achalasia shows smooth, symmetrical, conical narrowing of the lower esophageal sphincter with distal smooth tapering, classically termed 'bird's-beak' or 'rat-tail' appearance."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the gold standard investigation for confirming the diagnosis of Achalasia Cardia?",
+      "options": [
+        "Barium Swallow",
+        "Esophageal High-Resolution Manometry",
+        "24-hour pH study",
+        "OGDS",
+        "Endoscopic Ultrasound"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-Resolution Manometry is the gold standard diagnostic test for Achalasia, demonstrating incomplete LES relaxation (integrated relaxation pressure > 15 mmHg) and aperistalsis."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which surgical procedure is the definitive treatment of choice for Achalasia Cardia?",
+      "options": [
+        "Ivor Lewis Esophagectomy",
+        "Laparoscopic Heller's Cardiomyotomy + Partial Fundoplication (Toupet/Dor)",
+        "McKeown Esophagectomy",
+        "Roux-en-Y Gastric Bypass",
+        "Billroth II Gastrectomy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Laparoscopic Heller's Cardiomyotomy (dividing the lower esophageal circular muscle fibers) combined with an anti-reflux partial fundoplication (Dor or Toupet) is the surgical procedure of choice."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 58-year-old male smoker presents with epigastric pain relieved by food and postprandial fullness. Barium meal shows a niche and Hampton's line. What is the most common histological type of Gastric Cancer?",
+      "options": [
+        "Squamous Cell Carcinoma",
+        "Gastric Adenocarcinoma",
+        "Gastrointestinal Stromal Tumor (GIST)",
+        "Primary Gastric Lymphoma",
+        "Carcinoid Tumor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gastric Adenocarcinoma accounts for over 90-95% of all malignant gastric neoplasms."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which anatomical classification divides gastric carcinoma into Intestinal (well-differentiated, environmental) and Diffuse (poorly differentiated, signet-ring cells, genetic) types?",
+      "options": [
+        "Bormann Classification",
+        "Lauren Classification",
+        "TNM Staging",
+        "Dukes Classification",
+        "Johnson Classification"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lauren Classification categorizes gastric adenocarcinoma into two distinct epidemiological/histological types: Intestinal type and Diffuse type (signet-ring cell carcinoma)."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 50-year-old female presents with epigastric distress. Abdominal exam reveals bilateral enlarged, firm adnexal masses. Ovarian biopsy reveals signet-ring cells secreting mucin. What is this tumor called?",
+      "options": [
+        "Virchow's Node",
+        "Krukenberg Tumor",
+        "Sister Mary Joseph Nodule",
+        "Blumer's Shelf",
+        "Irish Node"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Krukenberg tumor is a metastatic signet-ring cell adenocarcinoma of the ovary, classically metastasized from a primary gastric carcinoma via transcoelomic seeding."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the clinical sign denoting metastatic enlargement of the left supraclavicular lymph node in advanced gastric or upper GI cancer?",
+      "options": [
+        "Sister Mary Joseph Nodule",
+        "Virchow's Node (Trousier's sign)",
+        "Blumer's Shelf",
+        "Trousseau's Sign",
+        "Cullen's Sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Virchow's node (signal node / Trousier's sign) is an enlarged left supraclavicular lymph node caused by metastatic spread via the thoracic duct from abdominal malignancies."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 40-year-old male with long-standing duodenal ulcer disease presents with persistent projectile non-bilious vomiting containing undigested food eaten days prior, weight loss, and succession splash. What metabolic abnormality is expected?",
+      "options": [
+        "Hyperkalemic metabolic acidosis",
+        "Hypochloremic hypokalemic metabolic alkalosis with paradoxical aciduria",
+        "Hyperchloremic metabolic acidosis",
+        "Hyponatremic metabolic acidosis",
+        "Normal electrolyte profile"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gastric Outlet Obstruction (GOO) leads to severe loss of acidic gastric juice (HCl), causing hypochloremic hypokalemic metabolic alkalosis with paradoxical aciduria."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the initial diagnostic and therapeutic bedside intervention for Gastric Outlet Obstruction?",
+      "options": [
+        "Immediate distal gastrectomy",
+        "Wide-bore Nasogastric Tube decompression & vigorous Normal Saline saline resuscitation",
+        "Oral barium meal",
+        "Emergency vagotomy",
+        "Empiric oral PPIs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Initial management of GOO requires wide-bore NG tube suction (Ryle's tube) to decompress the dilated stomach, paired with IV 0.9% Normal Saline + KCl infusion to correct dehydration and alkalosis."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 48-year-old male presenting with severe epigastric pain undergoes upper endoscopy. Biopsy confirms H. pylori infection. What is the standard first-line triple therapy eradication regimen?",
+      "options": [
+        "PPI + Amoxicillin + Clarithromycin for 7-14 days",
+        "PPI + Metronidazole + Tetracycline for 3 days",
+        "H2 blocker + Ciprofloxacin + Doxycycline",
+        "PPI alone for 6 months",
+        "Antacids + Sucralfate + Bismuth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Standard first-line H. pylori triple therapy consists of a Proton Pump Inhibitor (e.g. Omeprazole) + Amoxicillin 1g + Clarithromycin 500mg, given twice daily for 7 to 14 days."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 32-year-old heavy drinker develops severe hematemesis following multiple episodes of violent, non-bloody retching after an alcoholic binge. What is the underlying cause?",
+      "options": [
+        "Bleeding esophageal varices",
+        "Mallory-Weiss Tear",
+        "Boerhaave Syndrome",
+        "Peptic Ulcer Perforation",
+        "Dieulafoy Lesion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mallory-Weiss Syndrome is characterized by a longitudinal mucosal tear at the gastroesophageal junction triggered by a sudden increase in intraabdominal pressure during violent retching/vomiting."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "How does Boerhaave Syndrome differ pathologically and clinically from a Mallory-Weiss Tear?",
+      "options": [
+        "Boerhaave is mucosal-only bleeding; Mallory-Weiss is transmural perforation.",
+        "Boerhaave is a complete transmural esophageal perforation; Mallory-Weiss is a mucosal tear.",
+        "Boerhaave occurs in the duodenum; Mallory-Weiss in stomach.",
+        "Boerhaave causes painless melena; Mallory-Weiss causes stridor.",
+        "There is no difference."
+      ],
+      "correctIndex": 1,
+      "explanation": "Boerhaave syndrome is a full-thickness transmural barogenic rupture of the distal esophagus leading to mediastinitis and surgical emergency, whereas Mallory-Weiss is a superficial mucosal/submucosal tear."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 55-year-old male presents with sudden, agonizing, 'thunderclap' epigastric pain that rapidly becomes generalized. On exam, he has board-like abdominal rigidity, absent bowel sounds, and loss of liver dullness. What imaging confirms the diagnosis?",
+      "options": [
+        "Erect Chest X-ray showing gas under the diaphragm (pneumoperitoneum)",
+        "Abdominal Ultrasound",
+        "Barium Swallow",
+        "Intravenous Urogram",
+        "ECG"
+      ],
+      "correctIndex": 0,
+      "explanation": "Erect Chest X-ray is the investigation of choice for perforated peptic ulcer, demonstrating free gas under the diaphragm (pneumoperitoneum) in >75-80% of cases."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What is the standard surgical repair technique for a perforated peptic ulcer in a hemodynamically stable patient?",
+      "options": [
+        "Total Gastrectomy",
+        "Primary omental patch closure (Cellan-Jones or Graham patch repair)",
+        "Billroth II reconstruction",
+        "Roux-en-Y Esophagojejunostomy",
+        "Esophagectomy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary suture closure reinforced with a pedicled omental patch (Graham or Cellan-Jones patch repair) is the standard surgical procedure for perforated peptic ulcers."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which type of Esophageal Carcinoma is most strongly associated with chronic GERD, Barrett's Esophagus, and Central Obesity, typically arising in the lower third of the esophagus?",
+      "options": [
+        "Squamous Cell Carcinoma",
+        "Esophageal Adenocarcinoma",
+        "Leiomyosarcoma",
+        "Small Cell Carcinoma",
+        "GIST"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adenocarcinoma of the esophagus arises from metaplastic columnar epithelium (Barrett's esophagus) secondary to long-standing GERD and obesity, predominantly in the lower third."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "Which surgical procedure involves subtotal esophagectomy via two separate incisions (right thoracotomy and laparotomy) with intrathoracic esophagogastric anastomosis?",
+      "options": [
+        "McKeown (Three-incision) Esophagectomy",
+        "Ivor Lewis Esophagectomy",
+        "Transhiatal Esophagectomy",
+        "Whipple Procedure",
+        "Hartmann's Procedure"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ivor Lewis esophagectomy is a two-stage procedure (laparotomy and right thoracotomy) with creation of an intrathoracic esophagogastric anastomosis for middle/lower esophageal carcinoma."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 45-year-old male presents with progressive dysphagia and weight loss. Endoscopy shows a large friable mass at 28 cm from incisors. Biopsy confirms Squamous Cell Carcinoma. What are the major risk factors?",
+      "options": [
+        "GERD and Barrett's Esophagus",
+        "Smoking, Alcohol, Betel nut chewing, and Caustic ingestion",
+        "High-fat diet and gluten sensitivity",
+        "H. pylori infection",
+        "Family history of BRCA1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Squamous Cell Carcinoma of the esophagus is strongly linked to tobacco smoking, heavy alcohol consumption, betel nut chewing, hot beverage consumption, and prior caustic strictures."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "In a patient presenting with dyspepsia, what are the 'Alarm Features' (Red Flags) that mandate immediate diagnostic Upper GI Endoscopy?",
+      "options": [
+        "Dysphagia, Unintentional Weight Loss, Persistent Vomiting, Anemia/Hematemesis, Epigastric Mass (Age > 55)",
+        "Mild heartburn after meals",
+        "Bloating relieved by flatus",
+        "Constipation for 2 days",
+        "Transient nausea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red flag / alarm symptoms for upper GI malignancy include Dysphagia, Unintentional Weight Loss, Recurrent Vomiting, GI Bleeding/Anemia, Palpable Mass, and New-onset Dyspepsia in patients > 55 yrs."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "What non-invasive test is used to confirm eradication of Helicobacter pylori 4-8 weeks after completing triple therapy?",
+      "options": [
+        "Serum IgG antibody test",
+        "13C-Urea Breath Test (UBT) or Stool Antigen Test",
+        "Barium meal",
+        "Abdominal Ultrasound",
+        "Full Blood Count"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Urea Breath Test (UBT) or Stool Antigen Test are non-invasive tests of active infection used to confirm H. pylori eradication at least 4 weeks post-treatment (serology remains positive for months)."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 60-year-old cirrhotic patient presenting with acute variceal bleeding receives emergency endoscopic variceal band ligation (EVL). What long-term pharmacological therapy should be prescribed for secondary prophylaxis?",
+      "options": [
+        "Non-selective Beta-blockers (e.g., Propranolol or Carvedilol)",
+        "Oral Antacids",
+        "Proton Pump Inhibitors alone",
+        "Warfarin",
+        "Spironolactone alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Non-selective beta-blockers (Propranolol, Nadolol, Carvedilol) reduce portal pressure by decrease cardiac output (beta-1) and splanchnic vasoconstriction (beta-2), preventing rebleeding."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Surgery - Module 4",
+      "question": "A 65-year-old patient with unresectable, advanced carcinoma of the middle third of the esophagus presents with complete inability to swallow even saliva. What is the most appropriate palliative intervention?",
+      "options": [
+        "Emergency total gastrectomy",
+        "Endoscopic insertion of a Self-Expanding Metal Stent (SEMS)",
+        "High-dose oral chemotherapy",
+        "Barium swallow examination",
+        "Repeated rigid dilation alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Endoscopic placement of a Self-Expanding Metal Stent (SEMS) across the malignant esophageal stricture provides rapid, effective palliation of dysphagia in advanced unresectable disease."
     }
   ],
   "Physiology Interactive Practice Exam": [
