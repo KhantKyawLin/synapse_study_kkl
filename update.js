@@ -69,7 +69,9 @@ function updateData() {
         const cleanBase = file.replace(/\.csv$/i, '');
         const parts = cleanBase.split('_');
         
-        if (cleanBase.toLowerCase().includes('dehydration')) {
+        if (/acid.base/i.test(cleanBase)) {
+             defaultCategory = 'Pathophysiology - Acid-Base Balance';
+        } else if (cleanBase.toLowerCase().includes('dehydration')) {
              defaultCategory = 'Pathophysiology - Dehydration & Fluid Balance';
         } else if (cleanBase.toLowerCase().includes('cvs') || cleanBase.toLowerCase().includes('cardio')) {
              defaultCategory = 'Final Part 2 Medicine - Cardiology';
@@ -330,6 +332,8 @@ function updateQuizData() {
                 moduleName = 'Endocrine System - Module 2';
             } else if (rawBase.toLowerCase().includes('dehydration')) {
                 moduleName = 'Pathophysiology - Dehydration & Fluid Balance';
+            } else if (/acid.base/i.test(rawBase)) {
+                moduleName = 'Pathophysiology - Acid-Base Balance';
             }
             let questions = [];
 

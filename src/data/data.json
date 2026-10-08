@@ -1571,6 +1571,286 @@
       "answer": "Carrier state."
     },
     {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the normal physiological range of pH in human arterial blood?",
+      "answer": "The normal range is $7.35$ to $7.45$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "An arterial blood pH value below $7.35$ indicates _____, whereas a pH value above $7.45$ indicates _____.",
+      "answer": "acidosis; alkalosis"
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How are extracellular hydrogen ion concentration $[H^+]$ and blood pH mathematically related?",
+      "answer": "They are inversely related; as $[H^+]$ increases, pH decreases."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What ion exchange occurs across cell membranes to maintain electroneutrality during extracellular acidosis?",
+      "answer": "$H^+$ shifts into the cells in exchange for $K^+$ moving out into the extracellular fluid."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What electrolyte complication typically arises when cells buffer excess extracellular hydrogen ions ($H^+$)?",
+      "answer": "Hyperkalemia, because $K^+$ exits cells to balance the intracellular movement of $H^+$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the primary source of daily acid production in the human body under normal conditions?",
+      "answer": "Cellular metabolism, which produces $\\text{CO}_2$ that hydrates into carbonic acid ($\\text{H}_2\\text{CO}_3$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Approximately how much total hydrogen ion load ($H^+$) is produced daily by cellular metabolism via $\\text{CO}_2$ formation?",
+      "answer": "Greater than $12,500\\text{ mEq/day}$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Which organ is primarily responsible for excreting the volatile acid load generated as $\\text{CO}_2$?",
+      "answer": "The lungs."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What are the three main chemical buffer systems present in blood?",
+      "answer": "Proteins, hemoglobin, and the carbonic acid-bicarbonate system."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Why are plasma proteins effective as chemical buffers in blood?",
+      "answer": "Because both their free carboxyl ($-\\text{COOH}$) and free amino ($-\\text{NH}_2$) groups can dissociate."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does deoxyhemoglobin act as a buffer in systemic tissue capillaries?",
+      "answer": "Deoxyhemoglobin binds free protons ($H^+$) generated from carbonic acid dissociation and transports them toward the lungs."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What occurs in pulmonary capillaries when oxygen binds to hemoglobin regarding proton buffering?",
+      "answer": "Oxygen uptake releases bound $H^+$ from hemoglobin, allowing $H^+$ to combine with $\\text{HCO}_3^-$ to form $\\text{H}_2\\text{CO}_3$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Which enzyme catalyzes the conversion of $\\text{H}_2\\text{CO}_3$ into $\\text{CO}_2$ and $\\text{H}_2\\text{O}$ in pulmonary circulation for exhalation?",
+      "answer": "Carbonic anhydrase."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the normal standard value for arterial partial pressure of carbon dioxide ($P_{\\text{aCO}_2}$)?",
+      "answer": "Approximately $40\\text{ mm Hg}$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does the respiratory center respond when arterial $P_{\\text{CO}_2}$ rises due to increased tissue metabolism?",
+      "answer": "Ventilation is stimulated, increasing the rate of pulmonary excretion of $\\text{CO}_2$ to return $P_{\\text{CO}_2}$ toward normal."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What primary apical membrane exchanger is responsible for renal $H^+$ secretion in the proximal tubule?",
+      "answer": "The $\\text{Na}^+$-$H^+$ exchanger 3 (NHE3)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What provides the driving force for secondary active transport via the apical NHE3 exchanger in proximal tubule cells?",
+      "answer": "The low intracellular $\\text{Na}^+$ concentration maintained by basolateral $\\text{Na}^+$-$\\text{K}^+$ ATPase."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "In the proximal tubule, secreted $H^+$ combines with filtered $\\text{HCO}_3^-$ to form which compound in the lumen?",
+      "answer": "Carbonic acid ($\\text{H}_2\\text{CO}_3$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What action does apical carbonic anhydrase perform on luminal $\\text{H}_2\\text{CO}_3$ in the proximal tubule?",
+      "answer": "It catalyzes the breakdown of luminal $\\text{H}_2\\text{CO}_3$ into $\\text{H}_2\\text{O}$ and $\\text{CO}_2$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What percentage of the filtered load of bicarbonate ($\\text{HCO}_3^-$) is reabsorbed in the proximal tubule?",
+      "answer": "Approximately $80\\%$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Formula: Serum Anion Gap (AG)",
+      "answer": "$\\text{AG} = [\\text{Na}^+] - ([\\text{Cl}^-] + [\\text{HCO}_3^-])$"
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the normal reference range for the serum Anion Gap (AG)?",
+      "answer": "Approximately $10\\text{ to }14\\text{ mEq/L}$ (average $12\\text{ mEq/L}$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What unmeasured anions (UA) normally compose the serum Anion Gap?",
+      "answer": "Plasma proteins (in anionic form), phosphate ($\\text{HPO}_4^{2-}$), sulfate ($\\text{SO}_4^{2-}$), and organic acids."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "An Anion Gap greater than _____ indicates High Anion Gap Metabolic Acidosis.",
+      "answer": "$16\\text{ mEq/L}$"
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does severe hypoalbuminemia (decreased plasma albumin) affect the measured serum Anion Gap?",
+      "answer": "It decreases the serum Anion Gap because albumin is a major unmeasured anion."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does an accumulation of organic anions like lactate or ketoacids affect the serum Anion Gap?",
+      "answer": "It increases the serum Anion Gap."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What are the five common parameters measured in a standard Arterial Blood Gas (ABG) analysis?",
+      "answer": "$\\text{pH}$, $P_{\\text{aCO}_2}$, Anion Gap (AG), Base Excess (BE), and $[\\text{HCO}_3^-]$."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does a decrease in plasma concentration of cations like $Ca^{2+}$ or $Mg^{2+}$ impact the serum Anion Gap?",
+      "answer": "It increases the calculated Anion Gap by reducing total unmeasured cations."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Concept: High Anion Gap Metabolic Acidosis",
+      "answer": "Definition: A form of metabolic acidosis caused by an accumulation of fixed organic acids (such as lactate or ketoacids) that increase unmeasured anions."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Process: Proximal tubule bicarbonate reabsorption (luminal phase)",
+      "answer": "Secreted $H^+$ combines with filtered $\\text{HCO}_3^-$ to form $\\text{H}_2\\text{CO}_3$, which apical carbonic anhydrase degrades to $\\text{CO}_2$ and $\\text{H}_2\\text{O}$ for cellular entry."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Process: Proximal tubule bicarbonate reabsorption (intracellular phase)",
+      "answer": "Intracellular $\\text{CO}_2$ and $\\text{H}_2\\text{O}$ are converted by carbonic anhydrase into $\\text{H}_2\\text{CO}_3$, which dissociates into $H^+$ (secreted) and $\\text{HCO}_3^-$ (reabsorbed into blood)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Why does acute accumulation of lactic acid lead to an elevated serum Anion Gap?",
+      "answer": "Lactic acid dissociates into $H^+$ (which consumes $\\text{HCO}_3^-$) and lactate, an unmeasured anion that replaces bicarbonate."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the physiological role of renal tubular hydrogen ion secretion?",
+      "answer": "It allows the nephron to reabsorb filtered bicarbonate and excrete excess non-volatile metabolic acid."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "When arterial $P_{\\text{CO}_2}$ rises by $15\\text{ mm Hg}$ due to inhaled $\\text{CO}_2$, why does alveolar $P_{\\text{CO}_2}$ rise by only a fraction of that amount?",
+      "answer": "Because hyperventilation is triggered, accelerating pulmonary $\\text{CO}_2$ elimination."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "The principal mechanism of non-volatile acid excretion in the kidneys involves hydrogen ion ($H^+$) secretion in which nephron segments?",
+      "answer": "The proximal tubule, distal tubule, and collecting duct."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Cloze: In blood gas analysis, a pH strictly above _____ represents alkalosis.",
+      "answer": "$7.45$"
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Cloze: In blood gas analysis, a pH strictly below _____ represents acidosis.",
+      "answer": "$7.35$"
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Which form of hemoglobin acts as a stronger buffer for protons ($H^+$): oxyhemoglobin or deoxyhemoglobin?",
+      "answer": "Deoxyhemoglobin."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does the hydration of metabolic $\\text{CO}_2$ in tissue capillary blood affect local pH if unbuffered?",
+      "answer": "It forms carbonic acid, which dissociates into $H^+$ and lowers local pH."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What happens to extracellular electroneutrality if $H^+$ ions enter cells without potassium exchange?",
+      "answer": "Intracellular space becomes abnormally positively charged; $K^+$ outflow prevents this charge imbalance."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "In the formula $\\text{AG} = \\text{UA} - \\text{UC}$, what do the acronyms UA and UC represent?",
+      "answer": "Unmeasured Anions (UA) and Unmeasured Cations (UC)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "If a patient's lab values are $[\\text{Na}^+] = 140\\text{ mEq/L}$, $[\\text{Cl}^-] = 104\\text{ mEq/L}$, and $[\\text{HCO}_3^-] = 24\\text{ mEq/L}$, what is their calculated Anion Gap?",
+      "answer": "$12\\text{ mEq/L}$ ($140 - [104 + 24] = 12$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Why is the carbonic acid-bicarbonate system considered the primary extracellular buffer in blood?",
+      "answer": "Because its components are highly regulated by both the respiratory system ($\\text{CO}_2$) and renal system ($\\text{HCO}_3^-$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What term describes the laboratory measurement indicating the difference between buffer base present and normal buffer base level?",
+      "answer": "Base Excess (BE)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Under resting conditions, where is the vast majority ($80\\%$) of filtered bicarbonate reabsorbed in the kidney?",
+      "answer": "In the proximal convoluted tubule."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the effect of increased plasma protein concentration on the calculated serum Anion Gap?",
+      "answer": "It increases the serum Anion Gap because plasma proteins carry net negative charges (unmeasured anions)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What primary transporter on the basolateral membrane of renal proximal tubule cells maintains low intracellular $\\text{Na}^+$?",
+      "answer": "The $\\text{Na}^+$-$\\text{K}^+$ ATPase."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "In addition to reabsorbing filtered bicarbonate, how do the kidneys contribute to acid-base recovery during chronic acidosis?",
+      "answer": "They generate new bicarbonate ions and excrete $H^+$ tied to titratable acids and ammonium."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "How does hyperventilation affect arterial $P_{\\text{aCO}_2}$ and blood pH?",
+      "answer": "It lowers $P_{\\text{aCO}_2}$ and elevates blood pH."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Why does arterial pH technically reflect acidosis whenever it falls below $7.40$, even if within the normal clinical buffer range?",
+      "answer": "Because $7.40$ is the physiological midpoint norm for arterial plasma pH."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What is the net effect of cellular buffering during systemic acid overload on blood electrolyte levels?",
+      "answer": "Extracellular $H^+$ is reduced while extracellular $K^+$ increases (hyperkalemia)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What component of red blood cells allows rapid conversion between $\\text{CO}_2 + \\text{H}_2\\text{O}$ and $\\text{H}_2\\text{CO}_3$?",
+      "answer": "Intracellular carbonic anhydrase."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "If a patient has a serum $[\\text{Na}^+] = 137$, $[\\text{Cl}^-] = 90$, and $[\\text{HCO}_3^-] = 22\\text{ mEq/L}$, what is their calculated Anion Gap?",
+      "answer": "$25\\text{ mEq/L}$ ($137 - [90 + 22] = 25$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "What classification of acid-base disorder is indicated by a calculated Anion Gap of $25\\text{ mEq/L}$?",
+      "answer": "High Anion Gap Metabolic Acidosis."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Which chemical group on plasma proteins acts as a base by accepting protons during acidosis?",
+      "answer": "The free amino group ($-\\text{NH}_2$, forming $-\\text{NH}_3^+$)."
+    },
+    {
+      "category": "Pathophysiology - Acid-Base Balance",
+      "question": "Which chemical group on plasma proteins acts as an acid by donating protons during alkalosis?",
+      "answer": "The free carboxyl group ($-\\text{COOH}$, forming $-\\text{COO}^-$)."
+    },
+    {
       "category": "Immunology - Antigen",
       "question": "A small molecular weight substance that is antigenic but cannot induce an immune response by itself is called a _____.",
       "answer": "Hapten"

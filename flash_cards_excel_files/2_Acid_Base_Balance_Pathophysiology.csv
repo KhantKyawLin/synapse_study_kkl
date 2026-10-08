@@ -1,0 +1,56 @@
+What is the normal physiological range of pH in human arterial blood?,The normal range is $7.35$ to $7.45$.
+"An arterial blood pH value below $7.35$ indicates _____, whereas a pH value above $7.45$ indicates _____.",acidosis; alkalosis
+How are extracellular hydrogen ion concentration $[H^+]$ and blood pH mathematically related?,"They are inversely related; as $[H^+]$ increases, pH decreases."
+What ion exchange occurs across cell membranes to maintain electroneutrality during extracellular acidosis?,$H^+$ shifts into the cells in exchange for $K^+$ moving out into the extracellular fluid.
+What electrolyte complication typically arises when cells buffer excess extracellular hydrogen ions ($H^+$)?,"Hyperkalemia, because $K^+$ exits cells to balance the intracellular movement of $H^+$."
+What is the primary source of daily acid production in the human body under normal conditions?,"Cellular metabolism, which produces $\text{CO}_2$ that hydrates into carbonic acid ($\text{H}_2\text{CO}_3$)."
+Approximately how much total hydrogen ion load ($H^+$) is produced daily by cellular metabolism via $\text{CO}_2$ formation?,"Greater than $12,500\text{ mEq/day}$."
+Which organ is primarily responsible for excreting the volatile acid load generated as $\text{CO}_2$?,The lungs.
+What are the three main chemical buffer systems present in blood?,"Proteins, hemoglobin, and the carbonic acid-bicarbonate system."
+Why are plasma proteins effective as chemical buffers in blood?,Because both their free carboxyl ($-\text{COOH}$) and free amino ($-\text{NH}_2$) groups can dissociate.
+How does deoxyhemoglobin act as a buffer in systemic tissue capillaries?,Deoxyhemoglobin binds free protons ($H^+$) generated from carbonic acid dissociation and transports them toward the lungs.
+What occurs in pulmonary capillaries when oxygen binds to hemoglobin regarding proton buffering?,"Oxygen uptake releases bound $H^+$ from hemoglobin, allowing $H^+$ to combine with $\text{HCO}_3^-$ to form $\text{H}_2\text{CO}_3$."
+Which enzyme catalyzes the conversion of $\text{H}_2\text{CO}_3$ into $\text{CO}_2$ and $\text{H}_2\text{O}$ in pulmonary circulation for exhalation?,Carbonic anhydrase.
+What is the normal standard value for arterial partial pressure of carbon dioxide ($P_{\text{aCO}_2}$)?,Approximately $40\text{ mm Hg}$.
+How does the respiratory center respond when arterial $P_{\text{CO}_2}$ rises due to increased tissue metabolism?,"Ventilation is stimulated, increasing the rate of pulmonary excretion of $\text{CO}_2$ to return $P_{\text{CO}_2}$ toward normal."
+What primary apical membrane exchanger is responsible for renal $H^+$ secretion in the proximal tubule?,The $\text{Na}^+$-$H^+$ exchanger 3 (NHE3).
+What provides the driving force for secondary active transport via the apical NHE3 exchanger in proximal tubule cells?,The low intracellular $\text{Na}^+$ concentration maintained by basolateral $\text{Na}^+$-$\text{K}^+$ ATPase.
+"In the proximal tubule, secreted $H^+$ combines with filtered $\text{HCO}_3^-$ to form which compound in the lumen?",Carbonic acid ($\text{H}_2\text{CO}_3$).
+What action does apical carbonic anhydrase perform on luminal $\text{H}_2\text{CO}_3$ in the proximal tubule?,It catalyzes the breakdown of luminal $\text{H}_2\text{CO}_3$ into $\text{H}_2\text{O}$ and $\text{CO}_2$.
+What percentage of the filtered load of bicarbonate ($\text{HCO}_3^-$) is reabsorbed in the proximal tubule?,Approximately $80\%$.
+Formula: Serum Anion Gap (AG),$\text{AG} = [\text{Na}^+] - ([\text{Cl}^-] + [\text{HCO}_3^-])$
+What is the normal reference range for the serum Anion Gap (AG)?,Approximately $10\text{ to }14\text{ mEq/L}$ (average $12\text{ mEq/L}$).
+What unmeasured anions (UA) normally compose the serum Anion Gap?,"Plasma proteins (in anionic form), phosphate ($\text{HPO}_4^{2-}$), sulfate ($\text{SO}_4^{2-}$), and organic acids."
+An Anion Gap greater than _____ indicates High Anion Gap Metabolic Acidosis.,$16\text{ mEq/L}$
+How does severe hypoalbuminemia (decreased plasma albumin) affect the measured serum Anion Gap?,It decreases the serum Anion Gap because albumin is a major unmeasured anion.
+How does an accumulation of organic anions like lactate or ketoacids affect the serum Anion Gap?,It increases the serum Anion Gap.
+What are the five common parameters measured in a standard Arterial Blood Gas (ABG) analysis?,"$\text{pH}$, $P_{\text{aCO}_2}$, Anion Gap (AG), Base Excess (BE), and $[\text{HCO}_3^-]$."
+How does a decrease in plasma concentration of cations like $Ca^{2+}$ or $Mg^{2+}$ impact the serum Anion Gap?,It increases the calculated Anion Gap by reducing total unmeasured cations.
+Concept: High Anion Gap Metabolic Acidosis,Definition: A form of metabolic acidosis caused by an accumulation of fixed organic acids (such as lactate or ketoacids) that increase unmeasured anions.
+Process: Proximal tubule bicarbonate reabsorption (luminal phase),"Secreted $H^+$ combines with filtered $\text{HCO}_3^-$ to form $\text{H}_2\text{CO}_3$, which apical carbonic anhydrase degrades to $\text{CO}_2$ and $\text{H}_2\text{O}$ for cellular entry."
+Process: Proximal tubule bicarbonate reabsorption (intracellular phase),"Intracellular $\text{CO}_2$ and $\text{H}_2\text{O}$ are converted by carbonic anhydrase into $\text{H}_2\text{CO}_3$, which dissociates into $H^+$ (secreted) and $\text{HCO}_3^-$ (reabsorbed into blood)."
+Why does acute accumulation of lactic acid lead to an elevated serum Anion Gap?,"Lactic acid dissociates into $H^+$ (which consumes $\text{HCO}_3^-$) and lactate, an unmeasured anion that replaces bicarbonate."
+What is the physiological role of renal tubular hydrogen ion secretion?,It allows the nephron to reabsorb filtered bicarbonate and excrete excess non-volatile metabolic acid.
+"When arterial $P_{\text{CO}_2}$ rises by $15\text{ mm Hg}$ due to inhaled $\text{CO}_2$, why does alveolar $P_{\text{CO}_2}$ rise by only a fraction of that amount?","Because hyperventilation is triggered, accelerating pulmonary $\text{CO}_2$ elimination."
+The principal mechanism of non-volatile acid excretion in the kidneys involves hydrogen ion ($H^+$) secretion in which nephron segments?,"The proximal tubule, distal tubule, and collecting duct."
+"Cloze: In blood gas analysis, a pH strictly above _____ represents alkalosis.",$7.45$
+"Cloze: In blood gas analysis, a pH strictly below _____ represents acidosis.",$7.35$
+Which form of hemoglobin acts as a stronger buffer for protons ($H^+$): oxyhemoglobin or deoxyhemoglobin?,Deoxyhemoglobin.
+How does the hydration of metabolic $\text{CO}_2$ in tissue capillary blood affect local pH if unbuffered?,"It forms carbonic acid, which dissociates into $H^+$ and lowers local pH."
+What happens to extracellular electroneutrality if $H^+$ ions enter cells without potassium exchange?,Intracellular space becomes abnormally positively charged; $K^+$ outflow prevents this charge imbalance.
+"In the formula $\text{AG} = \text{UA} - \text{UC}$, what do the acronyms UA and UC represent?",Unmeasured Anions (UA) and Unmeasured Cations (UC).
+"If a patient's lab values are $[\text{Na}^+] = 140\text{ mEq/L}$, $[\text{Cl}^-] = 104\text{ mEq/L}$, and $[\text{HCO}_3^-] = 24\text{ mEq/L}$, what is their calculated Anion Gap?",$12\text{ mEq/L}$ ($140 - [104 + 24] = 12$).
+Why is the carbonic acid-bicarbonate system considered the primary extracellular buffer in blood?,Because its components are highly regulated by both the respiratory system ($\text{CO}_2$) and renal system ($\text{HCO}_3^-$).
+What term describes the laboratory measurement indicating the difference between buffer base present and normal buffer base level?,Base Excess (BE).
+"Under resting conditions, where is the vast majority ($80\%$) of filtered bicarbonate reabsorbed in the kidney?",In the proximal convoluted tubule.
+What is the effect of increased plasma protein concentration on the calculated serum Anion Gap?,It increases the serum Anion Gap because plasma proteins carry net negative charges (unmeasured anions).
+What primary transporter on the basolateral membrane of renal proximal tubule cells maintains low intracellular $\text{Na}^+$?,The $\text{Na}^+$-$\text{K}^+$ ATPase.
+"In addition to reabsorbing filtered bicarbonate, how do the kidneys contribute to acid-base recovery during chronic acidosis?",They generate new bicarbonate ions and excrete $H^+$ tied to titratable acids and ammonium.
+How does hyperventilation affect arterial $P_{\text{aCO}_2}$ and blood pH?,It lowers $P_{\text{aCO}_2}$ and elevates blood pH.
+"Why does arterial pH technically reflect acidosis whenever it falls below $7.40$, even if within the normal clinical buffer range?",Because $7.40$ is the physiological midpoint norm for arterial plasma pH.
+What is the net effect of cellular buffering during systemic acid overload on blood electrolyte levels?,Extracellular $H^+$ is reduced while extracellular $K^+$ increases (hyperkalemia).
+What component of red blood cells allows rapid conversion between $\text{CO}_2 + \text{H}_2\text{O}$ and $\text{H}_2\text{CO}_3$?,Intracellular carbonic anhydrase.
+"If a patient has a serum $[\text{Na}^+] = 137$, $[\text{Cl}^-] = 90$, and $[\text{HCO}_3^-] = 22\text{ mEq/L}$, what is their calculated Anion Gap?",$25\text{ mEq/L}$ ($137 - [90 + 22] = 25$).
+What classification of acid-base disorder is indicated by a calculated Anion Gap of $25\text{ mEq/L}$?,High Anion Gap Metabolic Acidosis.
+Which chemical group on plasma proteins acts as a base by accepting protons during acidosis?,"The free amino group ($-\text{NH}_2$, forming $-\text{NH}_3^+$)."
+Which chemical group on plasma proteins acts as an acid by donating protons during alkalosis?,"The free carboxyl group ($-\text{COOH}$, forming $-\text{COO}^-$)."

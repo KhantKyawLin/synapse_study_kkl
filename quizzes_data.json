@@ -422,6 +422,428 @@
       "explanation": "Renal hypoperfusion activates RAAS: Angiotensin II causes systemic vasoconstriction and stimulates aldosterone, which upregulates apical ENaC channels and basolateral Na+-K+ ATPase in principal cells to maximize renal sodium and water retention."
     }
   ],
+  "Pathophysiology - Acid-Base Balance": [
+    {
+      "id": 8,
+      "category": " Must-Know (Basic)",
+      "question": "What are the standard physiological reference ranges for arterial blood gas (ABG) parameters in a healthy adult at sea level?",
+      "options": [
+        "pH 7.25–7.35, PaCO2 45–55 mmHg, HCO3- 18–22 mEq/L",
+        "pH 7.35–7.45, PaCO2 35–45 mmHg, HCO3- 22–26 mEq/L",
+        "pH 7.45–7.55, PaCO2 25–35 mmHg, HCO3- 26–30 mEq/L",
+        "pH 7.30–7.40, PaCO2 40–50 mmHg, HCO3- 20–24 mEq/L",
+        "pH 7.50–7.60, PaCO2 30–40 mmHg, HCO3- 15–20 mEq/L"
+      ],
+      "correctIndex": 1,
+      "explanation": "The normal arterial blood gas (ABG) reference ranges are: pH 7.35 to 7.45, PaCO2 35 to 45 mmHg, and HCO3- 22 to 26 mEq/L. Maintaining arterial pH within this narrow window is essential for proper protein conformation, enzymatic activity, and neuromuscular function."
+    },
+    {
+      "id": 9,
+      "category": " Must-Know (Basic)",
+      "question": "What is the primary chemical buffer pair responsible for buffering non-volatile acids in the extracellular fluid (ECF) compartment?",
+      "options": [
+        "HPO42- / H2PO4- (Phosphate buffer system)",
+        "HbO2 / HHb (Hemoglobin buffer system)",
+        "HCO3- / H2CO3 (Bicarbonate-carbonic acid buffer system)",
+        "Protein- / H-Protein (Plasma protein buffer system)",
+        "NH3 / NH4+ (Ammonia buffer system)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The bicarbonate-carbonic acid (HCO3- / H2CO3) buffer system is the primary ECF buffer pair. It operates at an optimal 20:1 ratio ([HCO3-] to dissolved CO2) at physiological pH 7.40. Its extraordinary effectiveness stems from being an open system where PaCO2 is regulated by the lungs and [HCO3-] is regulated by the kidneys."
+    },
+    {
+      "id": 10,
+      "category": " Must-Know (Basic)",
+      "question": "What is the correct sequential order of onset speed for the four lines of defense that regulate body fluid pH against acid-base disturbances?",
+      "options": [
+        "Kidneys (sec) -> Lungs (min) -> Cellular exchange (hrs) -> Chemical buffers (days)",
+        "Chemical buffers (sec) -> Lungs (min) -> Cellular ion exchange (2-4 hrs) -> Kidneys (hrs to days)",
+        "Lungs (sec) -> Chemical buffers (min) -> Kidneys (hrs) -> Cellular ion exchange (days)",
+        "Cellular ion exchange (sec) -> Chemical buffers (min) -> Lungs (hrs) -> Kidneys (days)",
+        "Chemical buffers (sec) -> Kidneys (min) -> Lungs (hrs) -> Cellular ion exchange (days)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The body's defense lines operate in a precise temporal hierarchy: 1) Chemical buffers react instantaneously (seconds); 2) Respiratory compensation responds within minutes to hours; 3) Cellular ion exchange occurs over 2 to 4 hours; 4) Renal compensation initiates in hours but takes 2 to 3 days to achieve maximal capacity."
+    },
+    {
+      "id": 11,
+      "category": " Must-Know (Basic)",
+      "question": "A patient with Type 1 Diabetes in Diabetic Ketoacidosis (DKA) presents with deep, rapid Kussmaul respirations. What is the physiological purpose of this respiratory pattern?",
+      "options": [
+        "To retain CO2 to lower blood pH toward normal",
+        "To blow off volatile acid (CO2), reducing PaCO2 to compensate for metabolic acidosis",
+        "To increase oxygen uptake to fuel renal gluconeogenesis",
+        "To decrease renal excretion of bicarbonate ions",
+        "To shift potassium ions from plasma into skeletal muscle cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kussmaul breathing is the classic compensatory hyperventilation pattern seen in severe metabolic acidosis. Elevated arterial [H+] stimulates peripheral and central chemoreceptors, driving hyperventilation to 'blow off' CO2. Lowering PaCO2 reduces carbonic acid (H2CO3) concentration, helping raise blood pH toward 7.40."
+    },
+    {
+      "id": 12,
+      "category": " Must-Know (Basic)",
+      "question": "How is a primary Metabolic Acidosis defined based on blood gas parameters?",
+      "options": [
+        "Primary elevation in PaCO2 with a drop in pH",
+        "Primary reduction in serum [HCO3-] with a drop in pH (<7.35)",
+        "Primary elevation in serum [HCO3-] with a rise in pH (>7.45)",
+        "Primary reduction in PaCO2 with a rise in pH (>7.45)",
+        "Primary elevation in both PaCO2 and [HCO3-] with normal pH"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metabolic Acidosis is defined by a primary drop in serum bicarbonate ([HCO3-] < 22 mEq/L) resulting in arterial acidemia (pH < 7.35). Respiratory compensation involves hyperventilation to decrease PaCO2."
+    },
+    {
+      "id": 13,
+      "category": " Must-Know (Basic)",
+      "question": "How is a primary Respiratory Acidosis defined based on blood gas parameters?",
+      "options": [
+        "Primary elevation in PaCO2 (>45 mmHg) with a drop in arterial pH (<7.35)",
+        "Primary drop in serum [HCO3-] with a drop in pH",
+        "Primary drop in PaCO2 with a rise in pH",
+        "Primary elevation in serum [HCO3-] with a rise in pH",
+        "Equal drops in both PaCO2 and [HCO3-] maintaining normal pH"
+      ],
+      "correctIndex": 0,
+      "explanation": "Respiratory Acidosis is characterized by hypoventilation leading to CO2 retention (PaCO2 > 45 mmHg) and a secondary drop in pH (<7.35). Renal compensation involves increasing H+ secretion and generating new HCO3-."
+    },
+    {
+      "id": 14,
+      "category": " Must-Know (Basic)",
+      "question": "How is a primary Metabolic Alkalosis defined based on blood gas parameters?",
+      "options": [
+        "Primary drop in PaCO2 with a rise in pH",
+        "Primary elevation in serum [HCO3-] (>26 mEq/L) with a rise in arterial pH (>7.45)",
+        "Primary elevation in PaCO2 with a drop in pH",
+        "Primary drop in serum [HCO3-] with a drop in pH",
+        "Isolated drop in plasma osmolality with normal pH"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metabolic Alkalosis is defined by a primary surplus of bicarbonate ([HCO3-] > 26 mEq/L) leading to alkalemia (pH > 7.45). Respiratory compensation consists of hypoventilation to retain CO2 and raise PaCO2."
+    },
+    {
+      "id": 15,
+      "category": " Must-Know (Basic)",
+      "question": "How is a primary Respiratory Alkalosis defined based on blood gas parameters?",
+      "options": [
+        "Primary elevation in serum [HCO3-] with a rise in pH",
+        "Primary reduction in PaCO2 (<35 mmHg) due to hyperventilation with a rise in pH (>7.45)",
+        "Primary elevation in PaCO2 with a drop in pH",
+        "Primary reduction in serum [HCO3-] with a drop in pH",
+        "Isolated increase in hemoglobin oxygen saturation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Respiratory Alkalosis occurs when alveolar hyperventilation excessively eliminates CO2 (PaCO2 < 35 mmHg), shifting the carbonic acid equilibrium and raising arterial pH (>7.45). Renal compensation involves decreasing tubular H+ secretion and increasing HCO3- excretion."
+    },
+    {
+      "id": 16,
+      "category": " Must-Know (Basic)",
+      "question": "What is the main role of the Hemoglobin buffer system within red blood cells?",
+      "options": [
+        "Buffering non-volatile ketoacids in the renal tubule",
+        "Buffering H+ ions produced when tissue CO2 hydrates into H2CO3 inside erythrocytes",
+        "Excreting ammonium ions into the urine",
+        "Directly absorbing excess dietary alkali in the stomach",
+        "Generating new bicarbonate ions in cardiac muscle"
+      ],
+      "correctIndex": 1,
+      "explanation": "As CO2 enters red blood cells from metabolizing tissues, carbonic anhydrase converts it to H2CO3, which dissociates into H+ and HCO3-. Deoxyhemoglobin (HHb) acts as a powerful intracellular buffer, binding the generated H+ ions and preventing intracellular erythrocyte acidosis while HCO3- diffuses into plasma (the chloride shift)."
+    },
+    {
+      "id": 17,
+      "category": " Must-Know (Basic)",
+      "question": "According to the Henderson-Hasselbalch equation, what ratio of [HCO3-] to dissolved CO2 (alpha * PaCO2) is required to maintain a normal arterial blood pH of 7.40?",
+      "options": [
+        "1:1",
+        "10:1",
+        "20:1",
+        "40:1",
+        "100:1"
+      ],
+      "correctIndex": 2,
+      "explanation": "At a physiological pH of 7.40, the log of 20 is 1.3. Adding 1.3 to pKa (6.1) equals 7.40. Thus, maintaining an exact 20:1 ratio between metabolic base [HCO3-] (normally 24 mEq/L) and respiratory acid [H2CO3] (normally 1.2 mEq/L) is the cornerstone of acid-base homeostasis."
+    },
+    {
+      "id": 18,
+      "category": " Must-Know (Basic)",
+      "question": "Which major organ system provides the definitive, long-term elimination of non-volatile (fixed) acids from the body?",
+      "options": [
+        "Lungs",
+        "Gastrointestinal tract",
+        "Kidneys",
+        "Skin and sweat glands",
+        "Liver and biliary system"
+      ],
+      "correctIndex": 2,
+      "explanation": "While the lungs can rapidly eliminate volatile acid (CO2), only the kidneys can excrete non-volatile (fixed) acids such as sulfuric, phosphoric, lactic, and ketoacids, while simultaneously synthesizing new HCO3- ions to replenish depleted chemical buffers."
+    },
+    {
+      "id": 19,
+      "category": " Must-Know (Basic)",
+      "question": "What is the primary neurological manifestation of severe, uncompensated acidosis (pH < 7.10) on the central nervous system?",
+      "options": [
+        "Hyperreflexia and tetanic muscle spasms",
+        "Progressive CNS depression, lethargy, confusion, stupor, and coma",
+        "Epileptiform seizures and auditory hallucinations",
+        "Severe choreoathetosis and intention tremors",
+        "Acute manic psychosis and insomnia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acidosis severely depresses central nervous system synaptic transmission and cellular metabolism. As arterial pH drops below 7.20 and approaches 7.10, patients exhibit progressive CNS depression, manifesting as drowsiness, confusion, disorientation, stupor, and eventually life-threatening coma."
+    },
+    {
+      "id": 20,
+      "category": " Must-Know (Basic)",
+      "question": "What is the primary neuromuscular manifestation of acute, severe alkalosis (pH > 7.55)?",
+      "options": [
+        "Flaccid paralysis and absent deep tendon reflexes",
+        "Neuromuscular hyperexcitability, numbness, tingling, muscle cramps, and tetany",
+        "Severe intention tremor and cerebellar ataxia",
+        "Progressive motor neuron degeneration",
+        "Central hypoventilation and sleep apnea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alkalosis increases neural and muscular excitability by decreasing ionized calcium ([Ca2+]) levels (as H+ dissociates from albumin, allowing more Ca2+ to bind). This hypocalcemic state drives carpopedal spasms, positive Chvostek's/Trousseau's signs, tingling (paresthesias), and tetany."
+    },
+    {
+      "id": 21,
+      "category": " Must-Know (Basic)",
+      "question": "What is the fundamental difference between a 'volatile acid' and a 'non-volatile (fixed) acid'?",
+      "options": [
+        "Volatile acids can be converted to gas and eliminated by the lungs; fixed acids cannot be excreted by lungs and require renal elimination",
+        "Volatile acids are produced only by the liver; fixed acids are produced only by muscle",
+        "Volatile acids lower pH; fixed acids raise pH",
+        "Volatile acids do not require chemical buffers; fixed acids do",
+        "Volatile acids are excreted in sweat; fixed acids are excreted in feces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbonic acid (H2CO3) is the body's sole volatile acid because it can dissociate into CO2 gas, which is excreted by the lungs (~15,000 mmol/day). Non-volatile (fixed) acids (e.g., lactic, ketoacids, phosphoric acid; ~70-100 mEq/day) cannot be converted to gas and must be processed and excreted by the kidneys."
+    },
+    {
+      "id": 22,
+      "category": " Must-Know (Basic)",
+      "question": "How do renal tubular cells respond to acute systemic alkalosis (pH > 7.45)?",
+      "options": [
+        "Increase H+ secretion and increase HCO3- reabsorption",
+        "Decrease H+ secretion and increase HCO3- excretion in urine",
+        "Increase glutamine breakdown and ammonium synthesis",
+        "Shut down carbonic anhydrase activity in erythrocytes",
+        "Stimulate aldosterone release to retain H+"
+      ],
+      "correctIndex": 1,
+      "explanation": "During alkalosis, tubular cells reduce H+ secretion into the lumen. Without sufficient luminal H+ to react with filtered HCO3-, bicarbonate cannot be reabsorbed and is excreted in the urine, lowering plasma [HCO3-] back toward normal."
+    },
+    {
+      "id": 23,
+      "category": " Should-Know (Intermediate)",
+      "question": "How is the Serum Anion Gap (AG) calculated, and what is its normal physiological reference range?",
+      "options": [
+        "AG = [Na+] - ([Cl-] + [HCO3-]); Normal range: 10–14 mEq/L",
+        "AG = ([Na+] + [K+]) - [Cl-]; Normal range: 20–25 mEq/L",
+        "AG = [Cl-] - [HCO3-]; Normal range: 2–5 mEq/L",
+        "AG = [Na+] - [HCO3-]; Normal range: 15–20 mEq/L",
+        "AG = ([Na+] + [HCO3-]) / [Cl-]; Normal range: 1.0–1.2"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Serum Anion Gap represents unmeasured anions in plasma (such as albumin, phosphate, and organic acids). It is calculated as AG = [Na+] - ([Cl-] + [HCO3-]). The normal reference range is 10 to 14 mEq/L (or 8–12 mEq/L if using modern ion-selective electrode assays)."
+    },
+    {
+      "id": 24,
+      "category": " Should-Know (Intermediate)",
+      "question": "Which set of clinical conditions characteristically causes a High Anion Gap Metabolic Acidosis (HAGMA)?",
+      "options": [
+        "Diarrhea, renal tubular acidosis (RTA), and acetazolamide therapy",
+        "Diabetic ketoacidosis (DKA), lactic acidosis, and renal failure (uremia)",
+        "Excessive vomiting, loop diuretic therapy, and hyperaldosteronism",
+        "Chronic obstructive pulmonary disease (COPD) and narcotic overdose",
+        "High-altitude acclimatization and panic-induced hyperventilation"
+      ],
+      "correctIndex": 1,
+      "explanation": "HAGMA occurs when fixed organic or inorganic acids accumulate in plasma, consuming HCO3- while adding unmeasured conjugate base anions. Classic causes include DKA (ketoacids), lactic acidosis (lactate), uremia (phosphate/sulfate), and toxic ingestions (salicylates, methanol, ethylene glycol - remembered by MUDPILES)."
+    },
+    {
+      "id": 25,
+      "category": " Should-Know (Intermediate)",
+      "question": "Why does severe diarrhea cause a Normal Anion Gap (Hyperchloremic) Metabolic Acidosis rather than a High Anion Gap Metabolic Acidosis?",
+      "options": [
+        "Gastrointestinal secretions lose large amounts of chloride while retaining bicarbonate",
+        "Direct loss of HCO3- in stool causes renal retention of Cl- to maintain electrical neutrality, keeping unmeasured anions unchanged",
+        "Diarrhea triggers massive lactic acid production in intestinal mucosa",
+        "Diarrhea causes acute renal failure with phosphate accumulation",
+        "Diarrhea stimulates aldosterone, driving intestinal potassium secretion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gastrointestinal fluids downstream of the stomach are rich in HCO3-. Direct fecal loss of HCO3- reduces plasma bicarbonate. To preserve plasma electroneutrality, the kidneys reabsorb and retain Cl-. Because the drop in [HCO3-] is matched by an equal rise in [Cl-], the Anion Gap remains normal (10–14 mEq/L)."
+    },
+    {
+      "id": 26,
+      "category": " Should-Know (Intermediate)",
+      "question": "What is the primary cellular ion exchange mechanism that leads to hyperkalemia during acute inorganic metabolic acidosis?",
+      "options": [
+        "Excess intracellular H+ exits cells in exchange for extracellular Na+ moving in",
+        "Excess extracellular H+ shifts into cells to be buffered by intracellular proteins, driving K+ out of cells into plasma to maintain electroneutrality",
+        "Acidosis directly stimulates Na+/K+ ATPase activity in muscle membranes",
+        "Acidosis inhibits renal cortical collecting duct potassium secretion",
+        "Acidosis breaks down intracellular red blood cells, releasing hemoglobin"
+      ],
+      "correctIndex": 1,
+      "explanation": "During acute inorganic metabolic acidosis, cells buffer extracellular H+ by taking H+ inside. To preserve electrical neutrality across the plasma membrane, positively charged K+ shifts out of cells into the ECF. As a rule of thumb, every 0.10 drop in pH raises serum [K+] by approximately 0.6 mEq/L."
+    },
+    {
+      "id": 27,
+      "category": " Should-Know (Intermediate)",
+      "question": "In acute respiratory acidosis, how much does serum [HCO3-] expectedly rise for every 10 mmHg increase in PaCO2 above 40 mmHg?",
+      "options": [
+        "1 mEq/L rise in [HCO3-]",
+        "3.5 to 4 mEq/L rise in [HCO3-]",
+        "10 mEq/L rise in [HCO3-]",
+        "0.1 mEq/L rise in [HCO3-]",
+        "No change in [HCO3-] occurs"
+      ],
+      "correctIndex": 0,
+      "explanation": "In ACUTE respiratory acidosis (before renal compensation takes effect), cellular buffering yields only a modest 1 mEq/L increase in [HCO3-] for every 10 mmHg elevation in PaCO2. In CHRONIC respiratory acidosis (after 2-3 days of renal adaptation), renal tubular HCO3- synthesis raises [HCO3-] by 3.5 to 4 mEq/L per 10 mmHg rise in PaCO2."
+    },
+    {
+      "id": 28,
+      "category": " Should-Know (Intermediate)",
+      "question": "A patient presenting with severe upper GI vomiting develops metabolic alkalosis. What two primary mechanisms maintain this alkalosis and prevent renal clearance of excess bicarbonate?",
+      "options": [
+        "Hyperkalemia and suppressed aldosterone",
+        "Volume depletion (activating RAAS) and hypokalemia/hypochloridemia",
+        "High urinary chloride (>40 mEq/L) and elevated ANP",
+        "Respiratory compensation blowing off excessive CO2",
+        "Ingestion of acetazolamide and renal phosphate wasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vomiting causes primary loss of HCl and volume contraction. Metabolic alkalosis is MAINTAINED because 1) ECF volume contraction activates RAAS, driving renal Na+ and HCO3- reabsorption; 2) Hypokalemia and hypochloridemia force proximal and distal tubules to secrete H+ and reabsorb HCO3- despite systemic alkalemia."
+    },
+    {
+      "id": 29,
+      "category": " Should-Know (Intermediate)",
+      "question": "How does measuring Urinary Chloride ([Cl-]) help differentiate Saline-Responsive from Saline-Resistant Metabolic Alkalosis?",
+      "options": [
+        "Urine [Cl-] < 10–20 mEq/L indicates Saline-Responsive (vomiting, diuretics); Urine [Cl-] > 20 mEq/L indicates Saline-Resistant (mineralocorticoid excess)",
+        "Urine [Cl-] > 100 mEq/L indicates Saline-Responsive; Urine [Cl-] < 5 mEq/L indicates Saline-Resistant",
+        "Urine [Cl-] equals serum [Na+] in Saline-Responsive states",
+        "Urine [Cl-] is only elevated in patients with acute renal failure",
+        "Urine [Cl-] cannot differentiate cause; serum sodium must be used"
+      ],
+      "correctIndex": 0,
+      "explanation": "Low urinary chloride (<10-20 mEq/L) signifies volume and chloride depletion (vomiting, prior diuretic use); administration of isotonic saline (0.9% NaCl) restores ECF volume and chloride, allowing the kidney to excrete excess HCO3- (Saline-Responsive). High urinary chloride (>20 mEq/L) signifies active mineralocorticoid excess (Conn's syndrome, Cushing's) or ongoing severe hypokalemia, which does not respond to saline alone (Saline-Resistant)."
+    },
+    {
+      "id": 30,
+      "category": " Should-Know (Intermediate)",
+      "question": "Which underlying condition characteristically causes an acute Respiratory Alkalosis?",
+      "options": [
+        "Morphine overdose causing central respiratory depression",
+        "Panic attack hyperventilation, high-altitude hypoxia, or early pulmonary embolism",
+        "Severe Guillain-Barré syndrome with respiratory muscle paralysis",
+        "Chronic pulmonary emphysema with airway collapse",
+        "Acute diabetic ketoacidosis with Kussmaul breathing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Respiratory alkalosis stems from primary hyperventilation reducing PaCO2 (<35 mmHg). Triggers include psychogenic anxiety/panic, hypoxemia at high altitude, early septicemia, pulmonary embolism, fever, or early salicylate toxicity directly stimulating the medullary respiratory center."
+    },
+    {
+      "id": 31,
+      "category": " Should-Know (Intermediate)",
+      "question": "What role does the Phosphate Buffer System (HPO42- / H2CO3-) play in renal acid excretion?",
+      "options": [
+        "It is the primary buffer in systemic blood plasma",
+        "It acts as the primary 'titratable acid' buffer in tubular fluid, accepting secreted H+ to allow continued renal excretion without dropping lumen pH below 4.5",
+        "It converts bicarbonate into CO2 in the collecting duct",
+        "It prevents glucose from spilling into urine during acidosis",
+        "It synthesizes new aldosterone molecules in proximal cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "The renal tubular fluid pH cannot drop below ~4.5 (the minimum pH gradient for tubular H+ ATPases). Filtered monohydrogen phosphate (HPO42-) buffers secreted H+ to form H2PO4- ('titratable acid'), allowing large quantities of H+ to be excreted safely in urine while generating new HCO3- for plasma."
+    },
+    {
+      "id": 32,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "What is the primary renal cellular mechanism of 'ammoniagenesis' during chronic, severe metabolic acidosis?",
+      "options": [
+        "Proximal tubular cells metabolize glutamine into NH4+ and new HCO3-, expanding renal capacity to excrete H+ as ammonium",
+        "Distal cells convert urea directly into ammonia gas",
+        "Glomerular podocytes filter pre-formed ammonia from hepatic circulation",
+        "Collecting duct principal cells absorb NH3 from peritubular capillaries",
+        "Loop of Henle cells breakdown uric acid into bicarbonate"
+      ],
+      "correctIndex": 0,
+      "explanation": "In chronic acidosis, the kidney's titratable acid capacity (phosphate) becomes saturated (~30-40 mEq/day). Proximal convoluted tubule cells upregulate glutaminase, metabolizing glutamine to produce 2 NH4+ ions (excreted in urine) and 2 new HCO3- ions (reabsorbed into blood). Ammoniagenesis can scale up to excrete over 300-500 mEq of H+ per day."
+    },
+    {
+      "id": 33,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "An adult patient presents following an acute overdose of Aspirin (salicylates). What classic mixed acid-base disorder is characteristically produced by salicylate toxicity?",
+      "options": [
+        "Mixed Metabolic Acidosis and Respiratory Acidosis",
+        "Mixed High Anion Gap Metabolic Acidosis and Primary Respiratory Alkalosis",
+        "Mixed Normal Anion Gap Metabolic Acidosis and Metabolic Alkalosis",
+        "Isolated Respiratory Acidosis with full renal compensation",
+        "Triple Respiratory Alkalosis, Metabolic Alkalosis, and Normal AG Acidosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Salicylates produce a classic double mixed disorder: 1) Direct stimulation of the medullary respiratory center causes hyperventilation -> Primary Respiratory Alkalosis; 2) Uncoupling of oxidative phosphorylation accumulates organic acids (salicylate, lactate, ketoacids) -> High Anion Gap Metabolic Acidosis."
+    },
+    {
+      "id": 34,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "How does acute arterial hypercapnia (high PaCO2) influence cerebral vascular tone and intracranial pressure (ICP)?",
+      "options": [
+        "CO2 causes intense cerebral vasoconstriction, reducing cerebral blood flow",
+        "CO2 freely crosses the blood-brain barrier, lowering CSF pH and triggering potent cerebral vasodilation, increasing cerebral blood flow and elevating ICP",
+        "CO2 has zero effect on cerebral vessels; only oxygen regulates blood flow",
+        "CO2 causes localized thrombosis of cerebral venous sinuses",
+        "CO2 decreases CSF production by choroid plexus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lipophilic CO2 rapidly crosses the blood-brain barrier into CSF, generating H+ ions that act directly on vascular smooth muscle to cause potent cerebral vasodilation. Increased cerebral blood flow expands intracranial volume, causing a dangerous rise in intracranial pressure (ICP)."
+    },
+    {
+      "id": 35,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "A patient with DKA (High AG Metabolic Acidosis) experiences prolonged severe vomiting (Metabolic Alkalosis). Blood work shows pH 7.40, PaCO2 40 mmHg, [HCO3-] 24 mEq/L, Na+ 140 mEq/L, Cl- 86 mEq/L, and [HCO3-] 24 mEq/L. Calculating the Anion Gap reveals AG = 30 mEq/L. How is this blood gas profile interpreted?",
+      "options": [
+        "Completely normal physiological acid-base state",
+        "Mixed High Anion Gap Metabolic Acidosis and Metabolic Alkalosis (offsetting pH and HCO3- values)",
+        "Simple Compensated Respiratory Acidosis",
+        "Normal Anion Gap Metabolic Acidosis with renal failure",
+        "Isolated Chronic Respiratory Alkalosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Even though pH (7.40), PaCO2 (40), and [HCO3-] (24) appear completely normal, calculating the Anion Gap yields AG = 140 - (86 + 24) = 30 mEq/L (elevated by 18 mEq/L). An elevated AG ALWAYS signifies an underlying metabolic acidosis. The normal [HCO3-] occurs because the metabolic alkalosis from vomiting added HCO3- equal to what the ketoacidosis consumed."
+    },
+    {
+      "id": 36,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "What is the purpose of calculating the Delta Ratio (Delta AG / Delta HCO3-) in a patient with High Anion Gap Metabolic Acidosis?",
+      "options": [
+        "To determine whether a co-existing Normal Anion Gap Metabolic Acidosis or Metabolic Alkalosis is present",
+        "To calculate the required dose of IV sodium bicarbonate",
+        "To estimate the patient's arterial oxygen saturation",
+        "To differentiate acute from chronic respiratory acidosis",
+        "To measure renal clearance of creatinine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Delta Ratio compares the rise in Anion Gap (Delta AG = AG - 12) to the fall in Bicarbonate (Delta HCO3- = 24 - HCO3-). A ratio of 1 to 2 is expected in pure HAGMA. A ratio < 1.0 indicates a co-existing Normal AG (Hyperchloremic) Acidosis. A ratio > 2.0 indicates a co-existing Metabolic Alkalosis."
+    },
+    {
+      "id": 37,
+      "category": " Advanced (Nice-to-Know)",
+      "question": "Why does severe intracellular hypokalemia induce 'paradoxical aciduria' in patients with metabolic alkalosis?",
+      "options": [
+        "Hypokalemia forces intracellular H+ into ECF; renal tubular cells become intracellularly acidic and preferentially secrete H+ into urine via H+/K+ ATPases despite systemic alkalemia",
+        "Hypokalemia destroys collecting duct principal cells",
+        "Hypokalemia directly inhibits renal carbonic anhydrase",
+        "Hypokalemia prevents sodium reabsorption in the loop of Henle",
+        "Hypokalemia triggers massive filtration of ketoacids"
+      ],
+      "correctIndex": 0,
+      "explanation": "In severe hypokalemia, K+ exits cells into blood to preserve plasma levels, driving extracellular H+ inside cells. Renal tubular cells become paradoxically acidic. To reabsorb Na+ and conserve K+, cortical collecting ducts upregulate H+/K+ ATPases, aggressively secreting H+ into urine. This causes paradoxical aciduria (acidic urine despite systemic blood alkalemia)."
+    }
+  ],
   "Endocrine System - Module 1": [
     {
       "id": 8,
