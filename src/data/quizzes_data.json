@@ -6048,10 +6048,10 @@
       "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
     }
   ],
-  "Final Part 2 Surgery - Module 1": [
+  "Final Part 2 Surgery - Surgery Module 1": [
     {
       "id": 8,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A 34-year-old male presents with fresh blood vomiting x2 (amount ~1L). Vital signs show BP 110/70 mmHg and HR 115/min. Which fluid is most appropriate to expand circulatory volume prior to blood delivery?",
       "options": [
         "Packed cell",
@@ -6065,7 +6065,7 @@
     },
     {
       "id": 9,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "How is Cerebral Perfusion Pressure (CPP) strictly defined in neurotrauma management?",
       "options": [
         "Venous pressure minus intracranial pressure",
@@ -6079,7 +6079,7 @@
     },
     {
       "id": 10,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following is a definitive, immediate indication for major lower limb amputation?",
       "options": [
         "Rest pain",
@@ -6093,7 +6093,7 @@
     },
     {
       "id": 11,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which statement regarding acute burn evaluation and depth is TRUE?",
       "options": [
         "Deep dermal burns heal within 2 weeks without surgery",
@@ -6107,7 +6107,7 @@
     },
     {
       "id": 12,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Regarding the clinical features of gastric cancer, which statement is FALSE?",
       "options": [
         "May present with a hard palpable left supraclavicular node",
@@ -6121,7 +6121,7 @@
     },
     {
       "id": 13,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A 67-year-old man presents with recurrent terminal hematuria, fevers, and urethral purulent discharge. On examination, the prostate is swollen and tender. What is the most likely diagnosis?",
       "options": [
         "Nephritis",
@@ -6135,7 +6135,7 @@
     },
     {
       "id": 14,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "According to NICE guidelines, CT head scan is indicated within 8 hours following mild head injury for patients with which feature?",
       "options": [
         "Loss of consciousness at time of injury",
@@ -6149,7 +6149,7 @@
     },
     {
       "id": 15,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following clinical signs is NOT evidence of a basal skull fracture?",
       "options": [
         "Battle's sign",
@@ -6163,7 +6163,7 @@
     },
     {
       "id": 16,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which complication is specifically defined as an irreducible hernia where the blood supply to contents is seriously impaired?",
       "options": [
         "Strangulated Hernia",
@@ -6177,7 +6177,7 @@
     },
     {
       "id": 17,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A patient is diagnosed with adenocarcinoma at the hepatic flexure. What is the standard radical surgical resection required?",
       "options": [
         "Extended Right hemi-colectomy",
@@ -6191,7 +6191,7 @@
     },
     {
       "id": 18,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which compensatory mechanism initially maintains normal ICP in the presence of an expanding intracranial mass in adults?",
       "options": [
         "Increase in CSF production",
@@ -6205,7 +6205,7 @@
     },
     {
       "id": 19,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following is NOT a systemic cause of secondary brain injury?",
       "options": [
         "Pyrexia",
@@ -6219,7 +6219,7 @@
     },
     {
       "id": 20,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following is NOT a predisposing factor for abdominal wall hernia?",
       "options": [
         "Chronic obstructive pulmonary disease",
@@ -6233,7 +6233,7 @@
     },
     {
       "id": 21,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which blood test is the most sensitive and specific for the diagnosis of acute pancreatitis?",
       "options": [
         "Trypsin",
@@ -6247,7 +6247,7 @@
     },
     {
       "id": 22,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following statements regarding Acute Retention of Urine (AROU) is TRUE?",
       "options": [
         "BPH is an uncommon cause of AROU",
@@ -6261,7 +6261,7 @@
     },
     {
       "id": 23,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which local ecchymosis sign occurs in severe acute pancreatitis due to retroperitoneal hemorrhage?",
       "options": [
         "Boas' sign",
@@ -6275,7 +6275,7 @@
     },
     {
       "id": 24,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "An elderly patient presents with strangulated prolapsed hemorrhoids. Which hyperosmolar local application reduces tissue edema conservatively?",
       "options": [
         "5% Phenol Injection",
@@ -6289,7 +6289,7 @@
     },
     {
       "id": 25,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which statement regarding the Glasgow Coma Scale (GCS) is TRUE?",
       "options": [
         "Serial assessment of GCS reflects patient improvement or deterioration",
@@ -6303,7 +6303,7 @@
     },
     {
       "id": 26,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which intervention is NOT indicated for the acute management of bleeding esophageal varices?",
       "options": [
         "Porto-systemic disconnection / TIPS",
@@ -6317,7 +6317,7 @@
     },
     {
       "id": 27,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following clinical features is NOT a typical early feature of acute mechanical intestinal obstruction?",
       "options": [
         "Vomiting",
@@ -6331,7 +6331,7 @@
     },
     {
       "id": 28,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A 25-year-old male presents with a groin swelling lateral to the inferior epigastric artery. What is the diagnosis?",
       "options": [
         "Femoral Hernia",
@@ -6345,7 +6345,7 @@
     },
     {
       "id": 29,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A patient has a stoma in the Right Iliac Fossa (RIF) that appears spouted with liquid effluent. What type of stoma is this?",
       "options": [
         "Ileostomy",
@@ -6359,7 +6359,7 @@
     },
     {
       "id": 30,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A resected rectal specimen breaches muscularis propria with positive local pararectal nodes but negative main vessel origin nodes. What is the Dukes stage?",
       "options": [
         "Duke Stage B",
@@ -6373,7 +6373,7 @@
     },
     {
       "id": 31,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "A 68-year-old patient presents with a hard, irregular fixed mass in the Right Iliac Fossa. What is a common complication specific to this tumor location?",
       "options": [
         "Iron Deficiency Anaemia",
@@ -6387,7 +6387,7 @@
     },
     {
       "id": 32,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "What is the imaging modality of choice for a 20-year-old lady presenting with a breast lump?",
       "options": [
         "Ultrasound breasts",
@@ -6401,7 +6401,7 @@
     },
     {
       "id": 33,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which statement regarding benign breast lesions is TRUE?",
       "options": [
         "Giant fibroadenoma is diagnosed when size is > 5 cm",
@@ -6415,7 +6415,7 @@
     },
     {
       "id": 34,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following is an established hormonal risk factor for breast cancer?",
       "options": [
         "Early menopause",
@@ -6429,7 +6429,7 @@
     },
     {
       "id": 35,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following conditions does NOT cause upper gastrointestinal hemorrhage?",
       "options": [
         "Mallory-Weiss tear",
@@ -6443,7 +6443,7 @@
     },
     {
       "id": 36,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which of the following is NOT a risk factor for gastric carcinoma?",
       "options": [
         "Lower socio-economic class",
@@ -6457,7 +6457,7 @@
     },
     {
       "id": 37,
-      "category": "Final Part 2 Surgery - Module 1",
+      "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "Which life-threatening thoracic condition is routinely identified during the Secondary Survey rather than the ATLS Primary Survey?",
       "options": [
         "Flail chest",
@@ -6470,10 +6470,10 @@
       "explanation": "Primary survey identifies immediately lethal chest injuries (Tension/Open pneumothorax, Flail chest, Massive hemothorax, Cardiac tamponade). Pulmonary contusion evolves over time and is diagnosed in the Secondary Survey."
     }
   ],
-  "Final Part 2 Surgery - Module 2": [
+  "Final Part 2 Surgery - Surgery Module 2": [
     {
       "id": 8,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A 17-year-old male is admitted 1 hour after being kicked in the left hypochondrium by a horse. Examination reveals pallor, severe left upper quadrant pain, PR 110/min, and BP 80/40 mmHg. What is the provisional diagnosis?",
       "options": [
         "Liver laceration",
@@ -6487,7 +6487,7 @@
     },
     {
       "id": 9,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "In the ATLS Primary Survey of a trauma patient, which of the following is the correct priority sequence?",
       "options": [
         "Airway, Breathing, Circulation, Disability, Exposure",
@@ -6501,7 +6501,7 @@
     },
     {
       "id": 10,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A 40-year-old butcher is admitted after accidentally stabbing himself in the thigh. On initial ATLS primary survey, which of the following is NOT routinely prioritized in isolated penetrating trauma without neck injury?",
       "options": [
         "Airway maintenance",
@@ -6515,7 +6515,7 @@
     },
     {
       "id": 11,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A patient with suspected splenic rupture experiences referred pain to the left shoulder tip. What is the name of this classic clinical sign?",
       "options": [
         "Ballance's sign",
@@ -6529,7 +6529,7 @@
     },
     {
       "id": 12,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Physical examination of a patient with intraperitoneal splenic bleeding demonstrates fixed dullness to percussion in the left flank and shifting dullness in the right flank. What is this sign?",
       "options": [
         "Kehr's sign",
@@ -6543,7 +6543,7 @@
     },
     {
       "id": 13,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the initial bedside imaging modality of choice to confirm intra-abdominal free fluid in a hemodynamically unstable blunt trauma patient?",
       "options": [
         "Contrast CT Abdomen",
@@ -6557,7 +6557,7 @@
     },
     {
       "id": 14,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Following emergency splenectomy for trauma, which of the following vaccination regimens is essential to prevent Overwhelming Post-Splenectomy Infection (OPSI)?",
       "options": [
         "S. pneumoniae, N. meningitidis, H. influenzae type b",
@@ -6571,7 +6571,7 @@
     },
     {
       "id": 15,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A 24-year-old head injury patient experiences a 2-minute loss of consciousness, regains alertness ('lucid interval'), and then rapidly deteriorates with severe headache and a fixed dilated pupil. What is the diagnosis?",
       "options": [
         "Acute Subdural Hematoma",
@@ -6585,7 +6585,7 @@
     },
     {
       "id": 16,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the classic non-contrast CT head finding in an acute Epidural (Extradural) Hematoma?",
       "options": [
         "Crescentic, hyperdense lesion crossing suture lines",
@@ -6599,7 +6599,7 @@
     },
     {
       "id": 17,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the Cerebral Perfusion Pressure (CPP) formula?",
       "options": [
         "CPP = MAP + ICP",
@@ -6613,7 +6613,7 @@
     },
     {
       "id": 18,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "According to the Monro-Kellie Doctrine, an expanding intracranial mass lesion is initially compensated for by displacement of which component?",
       "options": [
         "Brain tissue parenchyma",
@@ -6627,7 +6627,7 @@
     },
     {
       "id": 19,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Which of the following clinical signs is indicative of impending uncal (transtentorial) brain herniation and raised ICP?",
       "options": [
         "Battle's sign",
@@ -6641,7 +6641,7 @@
     },
     {
       "id": 20,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Cushing's Triad is a late physiological response to severely elevated ICP. What are its three clinical components?",
       "options": [
         "Hypotension, Tachycardia, Tachypnea",
@@ -6655,7 +6655,7 @@
     },
     {
       "id": 21,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Which of the following is an absolute indicator for an immediate CT Head scan within 1 hour according to NICE head injury guidelines?",
       "options": [
         "GCS < 13 on initial assessment in ED",
@@ -6669,7 +6669,7 @@
     },
     {
       "id": 22,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Calculate the total 24-hour fluid requirement using the Parkland Formula for a 70 kg patient with 40% TBSA full-thickness burns.",
       "options": [
         "5,600 mL",
@@ -6683,7 +6683,7 @@
     },
     {
       "id": 23,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "In acute burn fluid resuscitation using the Parkland formula, what is the crystalloid fluid of choice?",
       "options": [
         "5% Dextrose in water",
@@ -6697,7 +6697,7 @@
     },
     {
       "id": 24,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A patient rescued from a burning room presents with soot in the oropharynx, singed nasal hairs, hoarseness, and stridor. What is the immediate priority?",
       "options": [
         "Nebulized steroids",
@@ -6711,7 +6711,7 @@
     },
     {
       "id": 25,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Which of the following burn features mandates performing an emergency escharotomy?",
       "options": [
         "Superficial partial-thickness burn of 10% TBSA",
@@ -6725,7 +6725,7 @@
     },
     {
       "id": 26,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "In executing a chest escharotomy, where are the primary surgical incision lines made?",
       "options": [
         "Mid-sternal line only",
@@ -6739,7 +6739,7 @@
     },
     {
       "id": 27,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "In lower limb escharotomy, how should the incision line pass relative to the medial malleolus at the ankle?",
       "options": [
         "Anterior to the medial malleolus",
@@ -6753,7 +6753,7 @@
     },
     {
       "id": 28,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What constitutes the 'Lethal Triad' in polytrauma that prompts Damage Control Surgery (DCS)?",
       "options": [
         "Hypertension, Hyperthermia, Alkalosis",
@@ -6767,7 +6767,7 @@
     },
     {
       "id": 29,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the primary objective of Phase I in Damage Control Surgery (DCS)?",
       "options": [
         "Definitive bowel anastomosis and abdominal closure",
@@ -6781,7 +6781,7 @@
     },
     {
       "id": 30,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A trauma patient develops sudden dyspnea, tracheal deviation to the left, absent breath sounds on the right, and hypotension (BP 75/40 mmHg). What is the immediate treatment?",
       "options": [
         "Chest CT scan",
@@ -6795,7 +6795,7 @@
     },
     {
       "id": 31,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What classic triad of physical signs characterizes Cardiac Tamponade in penetrating chest trauma (Beck's Triad)?",
       "options": [
         "Hypertension, Bradycardia, Irregular breathing",
@@ -6809,7 +6809,7 @@
     },
     {
       "id": 32,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Which injury is characterized by paradoxical movement of a segment of the chest wall during respiration?",
       "options": [
         "Simple rib fracture",
@@ -6823,7 +6823,7 @@
     },
     {
       "id": 33,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the primary cause of respiratory distress and hypoxemia in a patient with a Flail Chest?",
       "options": [
         "Severe pain preventing chest wall motion",
@@ -6837,7 +6837,7 @@
     },
     {
       "id": 34,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A patient involved in a motor vehicle collision arrives with Glasgow Coma Scale (GCS) components: Eyes open to pain (E2), Incomprehensible sounds (V2), Flexion withdrawal to pain (M4). What is his total GCS score?",
       "options": [
         "GCS 6",
@@ -6851,7 +6851,7 @@
     },
     {
       "id": 35,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "What is the primary goal of hyperventilation therapy in managing acutely elevated Intracranial Pressure (ICP)?",
       "options": [
         "Induce cerebral arterial vasodilation",
@@ -6865,7 +6865,7 @@
     },
     {
       "id": 36,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "A 30-year-old construction worker falls 5 meters and sustains a base of skull fracture. Which of the following is a pathognomonic physical sign of a basilar skull fracture?",
       "options": [
         "Unequal pupils (anisocoria)",
@@ -6879,7 +6879,7 @@
     },
     {
       "id": 37,
-      "category": "Final Part 2 Surgery - Module 2",
+      "category": "Final Part 2 Surgery - Surgery Module 2",
       "question": "Which burn depth classification is characterized by blister formation, extreme pain, wet pink surface, and blanching with pressure?",
       "options": [
         "Erythema (1st degree)",
@@ -6892,10 +6892,10 @@
       "explanation": "Superficial partial-thickness burns involve the epidermis and upper dermis, presenting with painful blisters, moist pink base, and rapid capillary blanching."
     }
   ],
-  "Final Part 2 Surgery - Module 3": [
+  "Final Part 2 Surgery - Surgery Module 3": [
     {
       "id": 8,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "A 38-year-old female with mitral stenosis and atrial fibrillation presents with sudden excruciating right leg pain for 4 hours. The leg is pale, cold, and pulseless below the popliteal artery. What is the provisional diagnosis?",
       "options": [
         "Deep vein thrombosis",
@@ -6909,7 +6909,7 @@
     },
     {
       "id": 9,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which of the following represents the classic '6 Ps' of acute limb ischemia?",
       "options": [
         "Pain, Pallor, Pulselessness, Paresthesia, Paralysis, Poikilothermia",
@@ -6923,7 +6923,7 @@
     },
     {
       "id": 10,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which anatomical location is the most common site for cardiac embolic impaction in the lower extremity?",
       "options": [
         "Abdominal aortic bifurcation",
@@ -6937,7 +6937,7 @@
     },
     {
       "id": 11,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "How does acute arterial Embolism clinically differ from acute-on-chronic Arterial Thrombosis?",
       "options": [
         "Embolism has a gradual onset over weeks",
@@ -6951,7 +6951,7 @@
     },
     {
       "id": 12,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the immediate initial pharmacological management for a patient diagnosed with acute embolic limb ischemia?",
       "options": [
         "High-dose oral Aspirin",
@@ -6965,7 +6965,7 @@
     },
     {
       "id": 13,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the emergency surgical procedure of choice for acute embolic occlusion of the femoral artery?",
       "options": [
         "Aortobifemoral bypass",
@@ -6979,7 +6979,7 @@
     },
     {
       "id": 14,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "An Ankle-Brachial Pressure Index (ABPI) value of 0.35 in a patient with calf rest pain indicates which severity of arterial disease?",
       "options": [
         "Normal arterial perfusion",
@@ -6993,7 +6993,7 @@
     },
     {
       "id": 15,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which of the following ABPI values strongly suggests Mönckeberg's medial calcific sclerosis in a diabetic patient?",
       "options": [
         "0.20",
@@ -7007,7 +7007,7 @@
     },
     {
       "id": 16,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What symptom is characteristic of Critical Limb-Threatening Ischemia (CLTI)?",
       "options": [
         "Calf pain relieved by walking",
@@ -7021,7 +7021,7 @@
     },
     {
       "id": 17,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Spinal (neurogenic) claudication can be distinguished from vascular claudication because spinal claudication is:",
       "options": [
         "Aggravated by sitting down",
@@ -7035,7 +7035,7 @@
     },
     {
       "id": 18,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "In contrast to neurogenic claudication, vascular claudication is characteristically relieved by:",
       "options": [
         "Sitting in a flexed posture for 30 minutes",
@@ -7049,7 +7049,7 @@
     },
     {
       "id": 19,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "A patient undergoes successful embolectomy 10 hours after popliteal artery occlusion. 3 hours later, he develops severe calf pain on passive toe flexion, swelling, and firm calf compartments. What complication is present?",
       "options": [
         "Recurrent embolism",
@@ -7063,7 +7063,7 @@
     },
     {
       "id": 20,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the single most sensitive clinical test for diagnosing acute compartment syndrome of the leg?",
       "options": [
         "Absence of distal pulses",
@@ -7077,7 +7077,7 @@
     },
     {
       "id": 21,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the definitive emergency surgical management for acute lower leg compartment syndrome?",
       "options": [
         "Elevation of the leg and ice packs",
@@ -7091,7 +7091,7 @@
     },
     {
       "id": 22,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which condition is classified as a 'Deadly' indication for major limb amputation ('Dead, Deadly, Dead Nuisance')?",
       "options": [
         "Dry gangrene limited to the tip of the toe",
@@ -7105,7 +7105,7 @@
     },
     {
       "id": 23,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Why is a Below-Knee Amputation (BKA) functionally superior to an Above-Knee Amputation (AKA)?",
       "options": [
         "BKA requires less surgical time",
@@ -7119,7 +7119,7 @@
     },
     {
       "id": 24,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "According to the CEAP classification for chronic venous disease, what does stage C6 represent?",
       "options": [
         "Varicose veins without symptoms",
@@ -7133,7 +7133,7 @@
     },
     {
       "id": 25,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Where do classic venous stasis ulcers characteristically occur on the lower extremity?",
       "options": [
         "Tips of the toes and heel",
@@ -7147,7 +7147,7 @@
     },
     {
       "id": 26,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What physical feature distinguishes a classic venous ulcer from an ischemic arterial ulcer?",
       "options": [
         "Venous ulcers are deep, punched-out, extremely painful with pale base",
@@ -7161,7 +7161,7 @@
     },
     {
       "id": 27,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "In the Brodie-Trendelenburg test for varicose veins, rapid filling of veins from above upon release of the thigh tourniquet confirms:",
       "options": [
         "Deep vein thrombosis",
@@ -7175,7 +7175,7 @@
     },
     {
       "id": 28,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the non-invasive gold standard diagnostic investigation for evaluating varicose veins and venous reflux?",
       "options": [
         "Ascending venography",
@@ -7189,7 +7189,7 @@
     },
     {
       "id": 29,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is considered the first-line modern endovenous treatment for symptomatic Great Saphenous Vein incompetence?",
       "options": [
         "Open surgical stripping and ligation",
@@ -7203,7 +7203,7 @@
     },
     {
       "id": 30,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which of the following constitutes Virchow's Triad for the development of Deep Vein Thrombosis (DVT)?",
       "options": [
         "Hypertension, Hyperglycemia, Hyperkalemia",
@@ -7217,7 +7217,7 @@
     },
     {
       "id": 31,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the most serious life-threatening acute complication of Deep Vein Thrombosis (DVT)?",
       "options": [
         "Post-thrombotic syndrome",
@@ -7231,7 +7231,7 @@
     },
     {
       "id": 32,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Phlegmasia cerulea dolens is a rare, severe form of massive iliofemoral DVT characterized by:",
       "options": [
         "Mild ankle swelling without discoloration",
@@ -7245,7 +7245,7 @@
     },
     {
       "id": 33,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which laboratory blood test has a high negative predictive value to rule out Deep Vein Thrombosis in low-risk patients?",
       "options": [
         "Serum Ferritin",
@@ -7259,7 +7259,7 @@
     },
     {
       "id": 34,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "What is the primary pharmacological management for an established proximal Deep Vein Thrombosis?",
       "options": [
         "Aspirin 75 mg daily",
@@ -7273,7 +7273,7 @@
     },
     {
       "id": 35,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "In Buerger's disease (Thromboangiitis Obliterans), which patient demographic and risk factor is strongly and exclusively linked?",
       "options": [
         "Elderly female non-smokers",
@@ -7287,7 +7287,7 @@
     },
     {
       "id": 36,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "An arterial ulcer located over the tips of the toes or lateral malleolus is characteristically:",
       "options": [
         "Painless and covered with healthy red granulation tissue",
@@ -7301,7 +7301,7 @@
     },
     {
       "id": 37,
-      "category": "Final Part 2 Surgery - Module 3",
+      "category": "Final Part 2 Surgery - Surgery Module 3",
       "question": "Which medication is prescribed in peripheral arterial disease specifically to inhibit platelet aggregation and improve claudication distance?",
       "options": [
         "Aspirin or Clopidogrel",
@@ -7314,10 +7314,10 @@
       "explanation": "Antiplatelet therapy (Clopidogrel 75 mg daily or Aspirin 75 mg daily) reduces major cardiovascular events and secondary thrombotic events in PAD patients."
     }
   ],
-  "Final Part 2 Surgery - Module 4": [
+  "Final Part 2 Surgery - Surgery Module 4": [
     {
       "id": 8,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 45-year-old male presents with sudden hematemesis of 1000 mL fresh blood and melena. Pulse is 115 bpm, BP is 100/65 mmHg. What is the immediate initial step in resuscitation?",
       "options": [
         "Emergency upper GI endoscopy within 1 hour",
@@ -7331,7 +7331,7 @@
     },
     {
       "id": 9,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which clinical feature most reliably distinguishes Hematemesis from Hemoptysis?",
       "options": [
         "Presence of bright red blood",
@@ -7345,7 +7345,7 @@
     },
     {
       "id": 10,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 55-year-old chronic NSAID user presents with severe epigastric pain and coffee-ground vomiting. Endoscopy shows a bleeding duodenal ulcer. What is the first-line therapeutic endoscopic method?",
       "options": [
         "Argon plasma coagulation alone",
@@ -7359,7 +7359,7 @@
     },
     {
       "id": 11,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 50-year-old cirrhotic patient presents with massive variceal hematemesis. Which pharmacological agent should be administered immediately prior to emergency endoscopy?",
       "options": [
         "IV Omeprazole bolus",
@@ -7373,7 +7373,7 @@
     },
     {
       "id": 12,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "In a patient with bleeding esophageal varices uncontrolled by pharmacological and endoscopic band ligation, what is the temporary mechanical balloon tamponade device of choice?",
       "options": [
         "Ryle's nasogastric tube",
@@ -7387,7 +7387,7 @@
     },
     {
       "id": 13,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which scoring system is validated for pre-endoscopy risk stratification in acute upper GI bleeding to identify low-risk patients suitable for outpatient management?",
       "options": [
         "Glasgow-Blatchford Score (GBS)",
@@ -7401,7 +7401,7 @@
     },
     {
       "id": 14,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 62-year-old male with long-standing GERD presents with progressive dysphagia to solid foods over 6 months, accompanied by 8 kg weight loss. What is the single most essential diagnostic test?",
       "options": [
         "Barium swallow radiography",
@@ -7415,7 +7415,7 @@
     },
     {
       "id": 15,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which esophageal wall layer is absent compared to the rest of the gastrointestinal tract, contributing to early local invasion and early transmural spread of esophageal carcinoma?",
       "options": [
         "Mucosa",
@@ -7429,7 +7429,7 @@
     },
     {
       "id": 16,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 35-year-old female presents with a 2-year history of progressive dysphagia to BOTH solids and liquids simultaneously, regurgitation of undigested food, and chest pain. What is the most likely diagnosis?",
       "options": [
         "Carcinoma of Esophagus",
@@ -7443,7 +7443,7 @@
     },
     {
       "id": 17,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What classic pathognomonic finding is seen on Barium Swallow in a patient with Achalasia Cardia?",
       "options": [
         "Apple-core lesion",
@@ -7457,7 +7457,7 @@
     },
     {
       "id": 18,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What is the gold standard investigation for confirming the diagnosis of Achalasia Cardia?",
       "options": [
         "Barium Swallow",
@@ -7471,7 +7471,7 @@
     },
     {
       "id": 19,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which surgical procedure is the definitive treatment of choice for Achalasia Cardia?",
       "options": [
         "Ivor Lewis Esophagectomy",
@@ -7485,7 +7485,7 @@
     },
     {
       "id": 20,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 58-year-old male smoker presents with epigastric pain relieved by food and postprandial fullness. Barium meal shows a niche and Hampton's line. What is the most common histological type of Gastric Cancer?",
       "options": [
         "Squamous Cell Carcinoma",
@@ -7499,7 +7499,7 @@
     },
     {
       "id": 21,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which anatomical classification divides gastric carcinoma into Intestinal (well-differentiated, environmental) and Diffuse (poorly differentiated, signet-ring cells, genetic) types?",
       "options": [
         "Bormann Classification",
@@ -7513,7 +7513,7 @@
     },
     {
       "id": 22,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 50-year-old female presents with epigastric distress. Abdominal exam reveals bilateral enlarged, firm adnexal masses. Ovarian biopsy reveals signet-ring cells secreting mucin. What is this tumor called?",
       "options": [
         "Virchow's Node",
@@ -7527,7 +7527,7 @@
     },
     {
       "id": 23,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What is the clinical sign denoting metastatic enlargement of the left supraclavicular lymph node in advanced gastric or upper GI cancer?",
       "options": [
         "Sister Mary Joseph Nodule",
@@ -7541,7 +7541,7 @@
     },
     {
       "id": 24,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 40-year-old male with long-standing duodenal ulcer disease presents with persistent projectile non-bilious vomiting containing undigested food eaten days prior, weight loss, and succession splash. What metabolic abnormality is expected?",
       "options": [
         "Hyperkalemic metabolic acidosis",
@@ -7555,7 +7555,7 @@
     },
     {
       "id": 25,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What is the initial diagnostic and therapeutic bedside intervention for Gastric Outlet Obstruction?",
       "options": [
         "Immediate distal gastrectomy",
@@ -7569,7 +7569,7 @@
     },
     {
       "id": 26,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 48-year-old male presenting with severe epigastric pain undergoes upper endoscopy. Biopsy confirms H. pylori infection. What is the standard first-line triple therapy eradication regimen?",
       "options": [
         "PPI + Amoxicillin + Clarithromycin for 7-14 days",
@@ -7583,7 +7583,7 @@
     },
     {
       "id": 27,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 32-year-old heavy drinker develops severe hematemesis following multiple episodes of violent, non-bloody retching after an alcoholic binge. What is the underlying cause?",
       "options": [
         "Bleeding esophageal varices",
@@ -7597,7 +7597,7 @@
     },
     {
       "id": 28,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "How does Boerhaave Syndrome differ pathologically and clinically from a Mallory-Weiss Tear?",
       "options": [
         "Boerhaave is mucosal-only bleeding; Mallory-Weiss is transmural perforation.",
@@ -7611,7 +7611,7 @@
     },
     {
       "id": 29,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 55-year-old male presents with sudden, agonizing, 'thunderclap' epigastric pain that rapidly becomes generalized. On exam, he has board-like abdominal rigidity, absent bowel sounds, and loss of liver dullness. What imaging confirms the diagnosis?",
       "options": [
         "Erect Chest X-ray showing gas under the diaphragm (pneumoperitoneum)",
@@ -7625,7 +7625,7 @@
     },
     {
       "id": 30,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What is the standard surgical repair technique for a perforated peptic ulcer in a hemodynamically stable patient?",
       "options": [
         "Total Gastrectomy",
@@ -7639,7 +7639,7 @@
     },
     {
       "id": 31,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which type of Esophageal Carcinoma is most strongly associated with chronic GERD, Barrett's Esophagus, and Central Obesity, typically arising in the lower third of the esophagus?",
       "options": [
         "Squamous Cell Carcinoma",
@@ -7653,7 +7653,7 @@
     },
     {
       "id": 32,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which surgical procedure involves subtotal esophagectomy via two separate incisions (right thoracotomy and laparotomy) with intrathoracic esophagogastric anastomosis?",
       "options": [
         "McKeown (Three-incision) Esophagectomy",
@@ -7667,7 +7667,7 @@
     },
     {
       "id": 33,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 45-year-old male presents with progressive dysphagia and weight loss. Endoscopy shows a large friable mass at 28 cm from incisors. Biopsy confirms Squamous Cell Carcinoma. What are the major risk factors?",
       "options": [
         "GERD and Barrett's Esophagus",
@@ -7681,7 +7681,7 @@
     },
     {
       "id": 34,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "In a patient presenting with dyspepsia, what are the 'Alarm Features' (Red Flags) that mandate immediate diagnostic Upper GI Endoscopy?",
       "options": [
         "Dysphagia, Unintentional Weight Loss, Persistent Vomiting, Anemia/Hematemesis, Epigastric Mass (Age > 55)",
@@ -7695,7 +7695,7 @@
     },
     {
       "id": 35,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "What non-invasive test is used to confirm eradication of Helicobacter pylori 4-8 weeks after completing triple therapy?",
       "options": [
         "Serum IgG antibody test",
@@ -7709,7 +7709,7 @@
     },
     {
       "id": 36,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 60-year-old cirrhotic patient presenting with acute variceal bleeding receives emergency endoscopic variceal band ligation (EVL). What long-term pharmacological therapy should be prescribed for secondary prophylaxis?",
       "options": [
         "Non-selective Beta-blockers (e.g., Propranolol or Carvedilol)",
@@ -7723,7 +7723,7 @@
     },
     {
       "id": 37,
-      "category": "Final Part 2 Surgery - Module 4",
+      "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "A 65-year-old patient with unresectable, advanced carcinoma of the middle third of the esophagus presents with complete inability to swallow even saliva. What is the most appropriate palliative intervention?",
       "options": [
         "Emergency total gastrectomy",

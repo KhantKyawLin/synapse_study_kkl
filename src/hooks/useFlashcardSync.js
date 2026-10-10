@@ -9,7 +9,17 @@ export function useFlashcardSync() {
   const [cardStatusMap, setCardStatusMap] = useState(() => {
     try {
       const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
-      return saved ? JSON.parse(saved) : {};
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        Object.keys(parsed).forEach((k) => {
+          if (k.startsWith('Final Part 2 Surgery - Module ')) {
+            const migratedKey = k.replace('Final Part 2 Surgery - Module ', 'Final Part 2 Surgery - Surgery Module ');
+            if (!parsed[migratedKey]) parsed[migratedKey] = parsed[k];
+          }
+        });
+        return parsed;
+      }
+      return {};
     } catch (e) {
       console.error('Failed to load card status from localStorage:', e);
       return {};
@@ -78,6 +88,10 @@ export function useFlashcardSync() {
           (data || []).forEach((row) => {
             if (row.card_id && row.status) {
               cloudMap[row.card_id] = row.status;
+              if (row.card_id.startsWith('Final Part 2 Surgery - Module ')) {
+                const migratedKey = row.card_id.replace('Final Part 2 Surgery - Module ', 'Final Part 2 Surgery - Surgery Module ');
+                if (!cloudMap[migratedKey]) cloudMap[migratedKey] = row.status;
+              }
             }
           });
 
