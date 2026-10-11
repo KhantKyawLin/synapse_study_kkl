@@ -7736,6 +7736,428 @@
       "explanation": "Endoscopic placement of a Self-Expanding Metal Stent (SEMS) across the malignant esophageal stricture provides rapid, effective palliation of dysphagia in advanced unresectable disease."
     }
   ],
+  "Final Part 2 Surgery - Surgery Module 5": [
+    {
+      "id": 8,
+      "category": "Cholangitis",
+      "question": "A 45-year-old female presents with severe right upper quadrant pain, high spiking fever with chills, and yellow discoloration of the sclera. What classic clinical triad is demonstrated?",
+      "options": [
+        "A. Murphy's triad",
+        "B. Charcot's triad",
+        "C. Beck's triad",
+        "D. Saint's triad",
+        "E. Virchow's triad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charcot's Triad consists of RUQ pain, spiking fever with chills/rigors, and jaundice, classic for acute ascending cholangitis."
+    },
+    {
+      "id": 9,
+      "category": "Cholangitis Sepsis",
+      "question": "A 55-year-old male with acute ascending cholangitis presents with Charcot's triad plus confusion and BP 80/50 mmHg. What is this clinical pentad called?",
+      "options": [
+        "A. Reynolds' pentad",
+        "B. Whipple's pentad",
+        "C. Ranson's pentad",
+        "D. Cushing's pentad",
+        "E. Puestow's pentad"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reynolds' Pentad adds hypotension (septic shock) and altered mental status to Charcot's triad, indicating severe life-threatening biliary sepsis."
+    },
+    {
+      "id": 10,
+      "category": "Cholangitis Treatment",
+      "question": "What is the immediate gold-standard therapeutic procedure to decompress an obstructed, infected biliary tree in severe acute cholangitis?",
+      "options": [
+        "A. Emergency Laparoscopic Cholecystectomy",
+        "B. Percutaneous Cholecystostomy",
+        "C. Urgent ERCP with sphincterotomy and stenting",
+        "D. Open Choledochoduodenostomy",
+        "E. Subtotal Pancreatectomy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Urgent ERCP with endoscopic sphincterotomy and biliary stenting/drainage is the emergency treatment of choice to decompress the infected obstructed bile duct."
+    },
+    {
+      "id": 11,
+      "category": "Choledocholithiasis",
+      "question": "An ultrasound abdomen in a jaundiced patient shows a dilated Common Bile Duct (CBD > 8 mm) containing a hyperechoic focus with acoustic shadowing. What is the most likely diagnosis?",
+      "options": [
+        "A. Acute Calculous Cholecystitis",
+        "B. Choledocholithiasis",
+        "C. Biliary Atresia",
+        "D. Pancreatic Pseudocyst",
+        "E. Carcinoma of Gallbladder"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dilated CBD containing a hyperechoic calculus casting acoustic shadowing on ultrasound defines choledocholithiasis."
+    },
+    {
+      "id": 12,
+      "category": "Courvoisier's Law",
+      "question": "In a patient presenting with progressive obstructive jaundice, a palpably enlarged, non-tender gallbladder indicates that the obstruction is unlikely due to gallstones. What is this clinical law?",
+      "options": [
+        "A. Goodsall's law",
+        "B. Courvoisier's law",
+        "C. Murphy's law",
+        "D. Hilton's law",
+        "E. Virchow's law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Courvoisier's law states that in a jaundiced patient, a palpably enlarged non-tender gallbladder is unlikely due to gallstones (usually malignant obstruction like pancreatic head cancer)."
+    },
+    {
+      "id": 13,
+      "category": "Pancreatic Cancer",
+      "question": "A 62-year-old male presents with painless progressive jaundice, anorexia, 10 kg weight loss, acholic (clay-colored) stools, and dark tea-colored urine. What is the most likely provisional diagnosis?",
+      "options": [
+        "A. Acute Viral Hepatitis",
+        "B. Carcinoma of Head of Pancreas",
+        "C. Chronic Cholecystitis",
+        "D. Gilbert's Syndrome",
+        "E. Primary Biliary Cholangitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Painless progressive obstructive jaundice accompanied by weight loss, acholic (clay) stools, and tea-colored urine is pathognomonic for carcinoma of the head of the pancreas."
+    },
+    {
+      "id": 14,
+      "category": "Tumor Markers",
+      "question": "Which tumor marker is most specifically elevated in patients with adenocarcinoma of the head of the pancreas?",
+      "options": [
+        "A. Alpha-Fetoprotein (AFP)",
+        "B. CA 125",
+        "C. CA 19-9",
+        "D. Beta-hCG",
+        "E. CEA"
+      ],
+      "correctIndex": 2,
+      "explanation": "CA 19-9 is the primary serum tumor marker used for diagnosis and monitoring of pancreatic ductal adenocarcinoma."
+    },
+    {
+      "id": 15,
+      "category": "Whipple Procedure",
+      "question": "What is the definitive curative surgical operation for a resectable adenocarcinoma of the head of the pancreas?",
+      "options": [
+        "A. Whipple's procedure (Pancreaticoduodenectomy)",
+        "B. distal Pancreatectomy",
+        "C. Puestow procedure",
+        "D. Frey procedure",
+        "E. Hartmann's procedure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pancreaticoduodenectomy (Whipple's procedure) is the standard radical resective operation for localized carcinoma of the head of the pancreas and periampullary region."
+    },
+    {
+      "id": 16,
+      "category": "Double-Duct Sign",
+      "question": "What pathognomonic imaging finding on Contrast CT Abdomen indicates simultaneous dilation of both the Common Bile Duct and the Main Pancreatic Duct?",
+      "options": [
+        "A. Target sign",
+        "B. Double-duct sign",
+        "C. String sign",
+        "D. Water-lily sign",
+        "E. Mercedes-Benz sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simultaneous dilatation of both the common bile duct and main pancreatic duct on CT/MRCP is known as the double-duct sign."
+    },
+    {
+      "id": 17,
+      "category": "Pancreatitis Etiology",
+      "question": "What are the two most common underlying etiologies responsible for over 80% of cases of Acute Pancreatitis?",
+      "options": [
+        "A. Trauma and Hypercalcemia",
+        "B. Gallstones and Alcohol abuse",
+        "C. ERCP and Mumps",
+        "D. Medications and Hypertriglyceridemia",
+        "E. Autoimmune and Pancreas Divisum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gallstones (biliary pancreatitis) and chronic alcohol abuse account for over 80% of all cases of acute pancreatitis."
+    },
+    {
+      "id": 18,
+      "category": "Pancreatitis Biomarkers",
+      "question": "Which serum enzyme is the most sensitive and specific biomarker for the diagnosis of Acute Pancreatitis?",
+      "options": [
+        "A. Serum Amylase",
+        "B. Serum Lipase",
+        "C. Alkaline Phosphatase",
+        "D. Alanine Aminotransferase (ALT)",
+        "E. Lactate Dehydrogenase (LDH)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum Lipase is more sensitive and remains elevated longer than serum amylase, making it the superior biomarker (>3x upper limit of normal)."
+    },
+    {
+      "id": 19,
+      "category": "Cullen's Sign",
+      "question": "Periumbilical ecchymosis observed in a patient with severe acute necrotizing pancreatitis represents retroperitoneal hemorrhage. What is this sign called?",
+      "options": [
+        "A. Grey Turner's sign",
+        "B. Cullen's sign",
+        "C. Fox's sign",
+        "D. Kehr's sign",
+        "E. Rovsing's sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cullen's sign is periumbilical ecchymosis resulting from retroperitoneal blood tracking along the falciform ligament in severe necrotizing pancreatitis."
+    },
+    {
+      "id": 20,
+      "category": "Grey Turner's Sign",
+      "question": "Ecchymosis over the bilateral flanks in severe necrotizing pancreatitis is known as:",
+      "options": [
+        "A. Cullen's sign",
+        "B. Grey Turner's sign",
+        "C. Boas's sign",
+        "D. Trousseau's sign",
+        "E. Chvostek's sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grey Turner's sign is flank ecchymosis caused by retroperitoneal blood tracking along tissue planes in acute pancreatitis."
+    },
+    {
+      "id": 21,
+      "category": "Pancreatitis Fluid Resuscitation",
+      "question": "What is the cornerstone of initial resuscitation during the first 24 hours of managing acute pancreatitis?",
+      "options": [
+        "A. Prophylactic IV Antibiotics",
+        "B. Immediate ERCP",
+        "C. Aggressive IV fluid resuscitation with Ringer's Lactate",
+        "D. Emergency Laparotomy",
+        "E. Total Parenteral Nutrition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aggressive IV fluid hydration with balanced crystalloids (Ringer's Lactate) is the cornerstone of early management in acute pancreatitis."
+    },
+    {
+      "id": 22,
+      "category": "Pancreatic Pseudocyst",
+      "question": "A fluid collection persisting for > 4 weeks following acute pancreatitis, enclosed by a non-epithelialized fibrous wall, is defined as a:",
+      "options": [
+        "A. Pancreatic Abscess",
+        "B. Pancreatic Pseudocyst",
+        "C. Seroma",
+        "D. Pancreatic Phlegmon",
+        "E. Cystadenoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pseudocyst is a fluid collection surrounded by a wall of fibrous/granulation tissue (lacking epithelial lining) persisting >4 weeks post-pancreatitis."
+    },
+    {
+      "id": 23,
+      "category": "Hepatocellular Carcinoma",
+      "question": "A 58-year-old male with long-standing Cirrhosis secondary to Chronic Hepatitis B infection presents with RUQ pain, weight loss, and a serum Alpha-Fetoprotein (AFP) of 800 ng/mL. What is the diagnosis?",
+      "options": [
+        "A. Cholangiocarcinoma",
+        "B. Hepatocellular Carcinoma (HCC)",
+        "C. Hepatic Hemangioma",
+        "D. Focal Nodular Hyperplasia",
+        "E. Metastatic Colon Cancer"
+      ],
+      "correctIndex": 1,
+      "explanation": "HCC arises in cirrhotic livers (often HBV/HCV) and characteristically produces markedly elevated serum Alpha-Fetoprotein (AFP > 400 ng/mL)."
+    },
+    {
+      "id": 24,
+      "category": "HCC Triphasic CT",
+      "question": "What is the classic diagnostic vascular pattern of Hepatocellular Carcinoma (HCC) on Triphasic CT Scan?",
+      "options": [
+        "A. Delayed peripheral enhancement",
+        "B. Early arterial phase hyperenhancement with venous phase washout",
+        "C. Central calcification without contrast uptake",
+        "D. Persistent fill-in from periphery to center",
+        "E. Uniform hypodensity in all phases"
+      ],
+      "correctIndex": 1,
+      "explanation": "HCC demonstrates characteristic intense arterial phase hyperenhancement followed by rapid portal venous/delayed phase washout on dynamic triphasic CT."
+    },
+    {
+      "id": 25,
+      "category": "BCLC Staging",
+      "question": "Which clinical staging system is widely used to guide treatment algorithms for Hepatocellular Carcinoma based on tumor burden, liver function, and performance status?",
+      "options": [
+        "A. TNM Staging",
+        "B. Barcelona Clinic Liver Cancer (BCLC) System",
+        "C. Child-Pugh Score",
+        "D. MELD Score",
+        "E. Dukes Staging"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Barcelona Clinic Liver Cancer (BCLC) system staging combines tumor extent, Child-Pugh liver function, and performance status to guide therapy."
+    },
+    {
+      "id": 26,
+      "category": "Acute Cholecystitis",
+      "question": "A 42-year-old female presents with severe episodic RUQ pain triggered by fatty meals, radiating to the right scapula, accompanied by positive Murphy's sign and fever. What is the diagnosis?",
+      "options": [
+        "A. Acute Calculous Cholecystitis",
+        "B. Acute Appendicitis",
+        "C. Perforated Peptic Ulcer",
+        "D. Acute Gastritis",
+        "E. Renal Colic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fatty meal-induced RUQ pain radiating to the right shoulder blade, fever, leucocytosis, and positive Murphy's sign indicate acute calculous cholecystitis."
+    },
+    {
+      "id": 27,
+      "category": "USG Cholecystitis",
+      "question": "What ultrasound finding is most specific for Acute Cholecystitis?",
+      "options": [
+        "A. Gallbladder wall thickness > 4 mm with pericholecystic fluid and sonographic Murphy's sign",
+        "B. Normal gallbladder wall with single mobile calculus",
+        "C. Distended stomach with gas",
+        "D. Dilated portal vein > 13 mm",
+        "E. Splenomegaly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gallbladder wall thickening (>4 mm), pericholecystic fluid, luminal stones, and sonographic Murphy's sign confirm acute cholecystitis."
+    },
+    {
+      "id": 28,
+      "category": "Mirizzi Syndrome",
+      "question": "Extrinsic compression of the common hepatic duct caused by a gallstone impacted in the cystic duct or Hartmann's pouch is known as:",
+      "options": [
+        "A. Caroli's disease",
+        "B. Mirizzi syndrome",
+        "C. Budd-Chiari syndrome",
+        "D. Kasabach-Merritt syndrome",
+        "E. Plummer-Vinson syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mirizzi syndrome occurs when a stone impacted in the cystic duct or Hartmann's pouch extrinsically compresses the adjacent common hepatic duct."
+    },
+    {
+      "id": 29,
+      "category": "Gallstone Ileus",
+      "question": "Mechanical small bowel obstruction caused by an eroded gallstone impicting in the ileocecal valve is called:",
+      "options": [
+        "A. Biliary colic",
+        "B. Gallstone ileus",
+        "C. Emphysematous cholecystitis",
+        "D. Ogilvie's syndrome",
+        "E. Intussusception"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gallstone ileus occurs when a large gallstone erodes into the duodenum via cholecystoduodenal fistula and impacts at the narrow ileocecal valve."
+    },
+    {
+      "id": 30,
+      "category": "Rigler's Triad",
+      "question": "What classic radiological triad (Rigler's Triad) characterizes Gallstone Ileus on plain abdominal X-ray?",
+      "options": [
+        "A. Pneumoperitoneum, ascites, calcified pancreas",
+        "B. Pneumobilia, small bowel obstruction, and ectopic gallstone",
+        "C. Portal vein gas, distended stomach, appendicolith",
+        "D. Pleural effusion, atelectasis, elevated diaphragm",
+        "E. Double bubble sign, distended colon, fecalith"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rigler's triad on abdominal X-ray consists of pneumobilia (gas in biliary tree), mechanical small bowel obstruction, and an ectopic gallstone."
+    },
+    {
+      "id": 31,
+      "category": "Amoebic Liver Abscess",
+      "question": "A 35-year-old male presents with high swinging fever, rigors, RUQ pain, and hepatomegaly. Aspiration yields thick brown 'anchovy-sauce' pus. What is the primary treatment?",
+      "options": [
+        "A. Emergency Surgical Resection",
+        "B. Metronidazole (or Tinidazole)",
+        "C. Long-term Penicillin V",
+        "D. Albendazole alone",
+        "E. Immediate Liver Transplantation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Entamoeba histolytica causes liver abscesses containing 'anchovy-sauce' pus; primary treatment is medical therapy with IV/oral Metronidazole."
+    },
+    {
+      "id": 32,
+      "category": "Amoebiasis Etiology",
+      "question": "What is the causative organism of Amoebic Liver Abscess?",
+      "options": [
+        "A. *Entamoeba histolytica*",
+        "B. *Echinococcus granulosus*",
+        "C. *Escherichia coli*",
+        "D. *Ascaris lumbricoides*",
+        "E. *Plasmodium falciparum*"
+      ],
+      "correctIndex": 0,
+      "explanation": "Entamoeba histolytica is the protozoan parasite responsible for amoebic colitis and amoebic liver abscesses."
+    },
+    {
+      "id": 33,
+      "category": "Pyogenic Abscess Drainage",
+      "question": "Pyogenic liver abscesses are most commonly polymicrobial and originate from ascending biliary infection. What is the first-line treatment for a 5 cm solitary pyogenic abscess?",
+      "options": [
+        "A. Oral Anthelmintics alone",
+        "B. Percutaneous drainage + IV broad-spectrum antibiotics",
+        "C. Open Right Hepatectomy",
+        "D. Watchful waiting",
+        "E. Chemotherapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large pyogenic liver abscesses require percutaneous catheter drainage combined with parenteral broad-spectrum antibiotics."
+    },
+    {
+      "id": 34,
+      "category": "Hydatid Disease",
+      "question": "A farmer presents with a slow-growing cystic liver mass. Imaging reveals a calcified cyst with multiple internal daughter cysts ('water-lily sign'). What parasite causes this?",
+      "options": [
+        "A. *Echinococcus granulosus* (Hydatid disease)",
+        "B. *Schistosoma mansoni*",
+        "C. *Taenia solium*",
+        "D. *Strongyloides stercoralis*",
+        "E. *Fasciola hepatica*"
+      ],
+      "correctIndex": 0,
+      "explanation": "Echinococcus granulosus causes hydatid cyst disease of the liver, characterized by daughter cysts and calcified walls."
+    },
+    {
+      "id": 35,
+      "category": "Albendazole Therapy",
+      "question": "What medical therapy is administered pre- and post-operatively to prevent anaphylaxis and recurrence during hydatid cyst surgery or PAIR procedure?",
+      "options": [
+        "A. Metronidazole",
+        "B. Albendazole",
+        "C. Ciprofloxacin",
+        "D. Rifampicin",
+        "E. Fluconazole"
+      ],
+      "correctIndex": 1,
+      "explanation": "Albendazole is administered prior to surgical or PAIR intervention for hydatid cysts to sterilize the cyst and prevent secondary dissemination."
+    },
+    {
+      "id": 36,
+      "category": "Primary Sclerosing Cholangitis",
+      "question": "A 45-year-old male with long-standing Ulcerative Colitis presents with cholestatic jaundice and pruritus. MRCP shows multifocal strictures and dilations ('beaded appearance') of intrahepatic and extrahepatic bile ducts. What is the diagnosis?",
+      "options": [
+        "A. Primary Sclerosing Cholangitis (PSC)",
+        "B. Primary Biliary Cholangitis (PBC)",
+        "C. Choledochal cyst",
+        "D. Pyogenic cholangitis",
+        "E. Ascariasis"
+      ],
+      "correctIndex": 0,
+      "explanation": "PSC is strongly associated with Ulcerative Colitis and manifests as multifocal bile duct strictures with 'beaded' appearance on MRCP."
+    },
+    {
+      "id": 37,
+      "category": "Periampullary Carcinoma",
+      "question": "A patient presents with fluctuating obstructive jaundice and anemia. Endoscopy reveals a ulcerative lesion at the ampulla of Vater with sloughing tissue. What is the diagnosis?",
+      "options": [
+        "A. Periampullary Carcinoma",
+        "B. Cholangiocarcinoma",
+        "C. Hepatocellular Carcinoma",
+        "D. GIST of stomach",
+        "E. Gallbladder Carcinoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Periampullary carcinomas can undergo central necrosis and sloughing, leading to characteristic fluctuating jaundice and melena/anemia."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,

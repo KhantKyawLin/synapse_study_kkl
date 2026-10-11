@@ -10109,6 +10109,181 @@
       "category": "Final Part 2 Surgery - Surgery Module 4",
       "question": "Which nitric oxide synthase isoform is expressed in neutrophils and endothelial cells to generate NO during inflammation?",
       "answer": "Inducible nitric oxide synthase (iNOS)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What is the medical definition of a gallstone?",
+      "answer": "A round, oval, or faceted concretion formed in the biliary tract composed of cholesterol, calcium carbonate, calcium bilirubinate, or a mixture of these elements."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "How is cholelithiasis defined?",
+      "answer": "The presence of gallstones within the gallbladder or any disease caused by gallstones."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "How is choledocholithiasis defined?",
+      "answer": "The presence of migrated gallstones within the bile ducts."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What proportion of the population in Western societies is affected by gallstones?",
+      "answer": "10% to 15%"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are the classic '5 Fs' risk factors for gallstone development?",
+      "answer": "1. Female\n2. Fifty\n3. Fat\n4. Fertile\n5. Flatulent"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are the three main types of gallstones classified according to chemical composition?",
+      "answer": "1. Cholesterol stones (typically light brown)\n2. Pigment stones\n3. Mixed stones Gross photo showing cholesterol, pigment, and mixed gallstones"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are the three categories of gallstones when classified according to etiology?",
+      "answer": "1. Metabolic stones\n2. Inflammatory stones (due to biliary tract infection)\n3. Static stones (due to stasis of bile in the biliary tree)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What is the cause of inflammatory gallstones?",
+      "answer": "Biliary tract infection."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What is the primary etiology of static gallstones?",
+      "answer": "Stasis of bile within the biliary tree."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are the four initial management principles for acute gallstone pain or inflammation?",
+      "answer": "1. Nil per mouth (NPO) and intravenous fluid administration until pain resolves\n2. Analgesics\n3. Intravenous broad-spectrum antibiotics (against gram-negative aerobes)\n4. Subsequent management (reinstatement of oral fluids/diet, followed by elective or planned cholecystectomy)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Which bacterial spectrum must intravenous prophylactic/therapeutic antibiotics target in acute gallstone inflammation?",
+      "answer": "Gram-negative aerobes (e.g., using cefazolin, cefuroxime, or ciprofloxacin)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "When managing acute gallstone pain conservatively, when should oral intake be resumed?",
+      "answer": "When clinical monitoring (temperature, pulse, physical signs) indicates that inflammation is actively subsiding."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are the primary malignant causes of obstructive (surgical) jaundice based on anatomical site?",
+      "answer": "• Bile duct: Cholangiocarcinoma\n• Pancreas: Carcinoma of the head of the pancreas\n• Ampulla of Vater: Periampullary carcinoma\n• Extrinsic: Metastatic lymph node compression or external tumor compression"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What general systemic symptoms and signs characteristically present in malignant obstructive jaundice?",
+      "answer": "• Deep greenish-yellow (greenish hue) progressive jaundice\n• Pruritus\n• Anorexia, weight loss, and general weakness\n• High-colored (dark) urine and clay-colored stools\n• Features of hepatic insufficiency, pre-renal failure, or sepsis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What local physical examination findings are associated with malignant obstructive jaundice?",
+      "answer": "• Enlarged liver\n• Palpable gallbladder\n• Ascites\n• Supraclavicular lymph node enlargement (Virchow's node)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "State Courvoisier's Law.",
+      "answer": "In a jaundiced patient, if the gallbladder is palpable, the jaundice is unlikely to be caused by gallstone obstruction (because prior inflammation causes a fibrosed, shriveled gallbladder); it is more likely due to malignant obstruction (e.g., carcinoma of the head of the pancreas)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Why is the gallbladder rarely palpable when common bile duct obstruction is caused by gallstones?",
+      "answer": "Repeated episodes of gallstone-induced cholecystitis lead to chronic fibrosis and shriveling of the gallbladder wall, preventing distension."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What clinical triad defines Charcot's Triad in acute cholangitis?",
+      "answer": "1. Fever\n2. Right upper quadrant (RUQ) pain\n3. Jaundice"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What clinical findings constitute Reynolds' Pentad?",
+      "answer": "1. Fever\n2. Right upper quadrant pain\n3. Jaundice\n4. Hypotension\n5. Altered mental status"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Is a palpable gallbladder a constituent sign of Reynolds' Pentad?",
+      "answer": "No. Reynolds' Pentad consists of fever, RUQ pain, jaundice, hypotension, and altered mental status."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What is the appropriate initial imaging modality for evaluating obstructive jaundice?",
+      "answer": "Transabdominal Ultrasonography"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What endoscopic procedure is used to visualize the biliary tree and show filling defects in the lower common bile duct?",
+      "answer": "Endoscopic Retrograde Cholangiopancreatography (ERCP)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What imaging modality is particularly useful for identifying small CBD mass lesions when CECT is non-diagnostic?",
+      "answer": "Endoscopic Ultrasound (EUS) Diagnostic panel with MRCP, CECT, and EUS identifying a mass lesion in the CBD"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What endoscopic technology allows direct visualization of bile ducts, targeted biopsies, and electrohydraulic or laser lithotripsy for large stones?",
+      "answer": "The SpyGlass™ System"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What procedure involves percutaneous puncture of an intrahepatic peripheral bile duct to inject contrast, obtain brushings, or place biliary stents?",
+      "answer": "Percutaneous Transhepatic Cholangiography (PTC)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What are seven essential components of pre-operative preparation for patients undergoing surgery for malignant obstructive jaundice?",
+      "answer": "1. Control of sepsis\n2. Fluid therapy and nutritional support\n3. Control of coagulopathy\n4. Overnight fasting\n5. Nasogastric tube insertion prior to operation\n6. Prophylactic antibiotics\n7. General anesthesia preparation"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What is the primary definitive surgical procedure performed for carcinoma of the head of the pancreas, periampullary carcinoma, and distal cholangiocarcinoma?",
+      "answer": "Pancreaticoduodenectomy (Whipple's procedure or pylorus-preserving pancreaticoduodenectomy [PPPD])"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Presence of migrated gallstones within the bile ducts is termed _____.",
+      "answer": "Choledocholithiasis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "According to Courvoisier's law, in obstruction of the CBD due to stones, the gallbladder is seldom palpable because it is already _____.",
+      "answer": "Shriveled (or fibrosed)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "The two additional clinical features that distinguish Reynolds' Pentad from Charcot's Triad are hypotension and _____.",
+      "answer": "Altered mental status"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "In obstructive jaundice, stool appears clay-colored due to the lack of _____ reaching the intestinal lumen.",
+      "answer": "Bile pigments (stercobilinogen / stercobilin)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Why does dark or high-colored urine occur in obstructive jaundice?",
+      "answer": "Biliary obstruction causes conjugated (water-soluble) bilirubin to reflux into the bloodstream, where it is excreted by the kidneys into urine."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "Why is control of coagulopathy vital prior to surgery in obstructive jaundice?",
+      "answer": "Absence of bile salts in the duodenum impairs absorption of fat-soluble Vitamin K, leading to deficient hepatic synthesis of clotting factors II, VII, IX, and X."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "What enlarged lymph node in the left supraclavicular fossa indicates metastatic spread of abdominal malignancies such as pancreatic or gallbladder carcinoma?",
+      "answer": "Virchow's node"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 5",
+      "question": "How does pylorus-preserving pancreaticoduodenectomy (PPPD) differ from classic Whipple's pancreaticoduodenectomy?",
+      "answer": "PPPD preserves the entire stomach, pylorus, and first portion of the duodenum, avoiding distal hemigastrectomy."
     }
   ]
 }

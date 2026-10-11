@@ -3415,6 +3415,228 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 5 Database": [
+    {
+      "Name": "Acute Ascending Cholangitis",
+      "Tag": "Biliary Sepsis",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Biliary tree obstruction (CBD stone, stricture) with secondary bacterial infection (E. coli, Klebsiella)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Biliary stasis and elevated intraductal pressure lead to bacterial translocation into hepatic veins and systemic circulation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Charcot's Triad (RUQ pain, fever with rigors, jaundice); Reynolds' Pentad (adds shock & altered mental status)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "USG shows dilated CBD (>6mm) and stones; LFTs show conjugated hyperbilirubinemia & ALP > 3x. Management: IV fluids, broad-spectrum IV antibiotics, urgent ERCP sphincterotomy/stenting."
+        }
+      ]
+    },
+    {
+      "Name": "Choledocholithiasis",
+      "Tag": "Biliary Calculi",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Gallstones migrating from gallbladder into Common Bile Duct."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Impaction of calculus in CBD causing mechanical partial or complete extrahepatic biliary obstruction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Biliary colic, fluctuating jaundice, dark urine, pale stools. Red Flag: Superadded infection leading to cholangitis."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "USG Abdomen (dilated CBD with hyperechoic stone); MRCP / ERCP. Management: ERCP stone extraction followed by laparoscopic cholecystectomy."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Calculous Cholecystitis",
+      "Tag": "Gallbladder Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Gallstone impaction in cystic duct or Hartmann's pouch causing acute inflammation."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Luminal obstruction causes gallbladder distension, mucosal ischemia, chemical inflammation, and secondary bacterial infection."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent RUQ pain radiating to right scapula, fever, nausea, vomiting, positive Murphy's sign."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "USG Abdomen (wall thickness >4mm, pericholecystic fluid, sonographic Murphy's). Management: NBM, IV hydration, IV antibiotics, laparoscopic cholecystectomy."
+        }
+      ]
+    },
+    {
+      "Name": "Carcinoma Head of Pancreas",
+      "Tag": "Pancreatic Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ductal adenocarcinoma arising in the head or uncinate process of pancreas."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Insidious compression and occlusion of retropancreatic CBD, causing progressive extrahepatic cholestasis."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painless, relentlessly progressive obstructive jaundice, severe pruritus, dark urine, clay stools, weight loss. Courvoisier's sign."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "LFTs (conjugated hyperbilirubinemia, ALP > 3-5x); CA 19-9; Multiphase CT (double-duct sign). Management: Whipple's procedure (Pancreaticoduodenectomy) or ERCP biliary stenting."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Pancreatitis",
+      "Tag": "Pancreatic Inflammation",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute inflammatory disease of pancreas; major causes are Gallstones (40%) and Alcohol (35%)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Intra-acinar zymogen activation causing pancreatic auto-digestion, tissue necrosis, microvascular thrombosis, and SIRS."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe epigastric pain radiating to back, severe vomiting, abdominal distension. Red Flag: Cullen's (periumbilical) & Grey Turner's (flank) ecchymosis."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum Lipase (>3x upper limit of normal); CT Abdomen. Management: Aggressive IV fluid resuscitation (Ringer's Lactate), analgesia, enteral nutrition."
+        }
+      ]
+    },
+    {
+      "Name": "Pancreatic Pseudocyst",
+      "Tag": "Pancreatitis Complication",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Peripancreatic fluid collection persisting >4 weeks surrounded by fibrous/granulation tissue wall."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Disruption of pancreatic ductal system leaking pancreatic juice enclosed by adjacent retroperitoneal structures without epithelium."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Epigastric pain, early satiety, palpable epigastric mass, persistent elevation of serum amylase."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CT Abdomen / EUS. Management: Watchful waiting if <6 cm/asymptomatic; Endoscopic cystogastrostomy or surgical drainage if symptomatic/growing."
+        }
+      ]
+    },
+    {
+      "Name": "Hepatocellular Carcinoma (HCC)",
+      "Tag": "Primary Liver Cancer",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary malignant liver tumor strongly linked to Chronic HBV/HCV, Cirrhosis, and Aflatoxin exposure."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant transformation of hepatocytes driven by chronic inflammation and genomic instability; highly vascular tumor."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "RUQ pain, weight loss, anorexia, worsening ascites in known cirrhotic, palpable hepatic nodule."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Alpha-Fetoprotein (AFP > 400 ng/mL); Triphasic CT (arterial hyperenhancement with venous washout). Management: BCLC staging; Resection, Liver Transplant, TACE, or Sorafenib/Atezolizumab."
+        }
+      ]
+    },
+    {
+      "Name": "Pyogenic Liver Abscess",
+      "Tag": "Liver Abscess",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bacterial liver infection originating from ascending cholangitis, appendicitis, or portal pyemia (polymicrobial/E. coli)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Suppurative infection and liquefactive necrosis of liver parenchyma forming single or multiple fluid-filled cavities."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "High swinging fever with rigors, dull RUQ pain, tender hepatomegaly, mild jaundice."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "USG / CT Abdomen; Blood cultures; Pus aspirate. Management: IV broad-spectrum antibiotics + Percutaneous USG/CT-guided catheter drainage."
+        }
+      ]
+    },
+    {
+      "Name": "Amoebic Liver Abscess",
+      "Tag": "Parasitic Abscess",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection by Entamoeba histolytica reaching liver via portal circulation from intestinal amoebiasis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Trophozoites cause microvascular thrombosis and liquefactive necrosis of hepatocytes, forming 'anchovy-sauce' pus."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "High fever, painful tender hepatomegaly, right lower chest pain, intercostal tenderness."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Amoebic serology; USG Abdomen. Management: Oral/IV Metronidazole or Tinidazole for 10-14 days; aspiration if large or impending rupture."
+        }
+      ]
+    },
+    {
+      "Name": "Hydatid Cyst of Liver",
+      "Tag": "Parasitic Cyst",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Zoonotic infection caused by larval stage of tapeworm Echinococcus granulosus."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Parasite forms slow-growing pericyst in liver with internal germinal layer producing daughter cysts and hydatid fluid."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Slowly enlarging painless RUQ mass, feeling of fullness. Red Flag: Anaphylaxis if cyst ruptures into peritoneum."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Echinococcus serology (ELISA); USG/CT ('water-lily sign', daughter cysts). Management: Oral Albendazole + PAIR procedure or surgical cystectomy."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",
