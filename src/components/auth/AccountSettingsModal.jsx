@@ -360,9 +360,9 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
     return `${mins}m`;
   };
 
-  // Certificate Exporter Helpers
+  // Certificate Exporter Helpers (only if score >= 60%)
   const handleDownloadImage = async () => {
-    if (!certRef.current || isExporting) return;
+    if (!selectedAttempt || (selectedAttempt.percentage || 0) < 60 || !certRef.current || isExporting) return;
     try {
       setIsExporting(true);
       const dataUrl = await toPng(certRef.current, { cacheBust: true, pixelRatio: 2 });
@@ -379,7 +379,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
   };
 
   const handleCopyImage = async () => {
-    if (!certRef.current || isExporting) return;
+    if (!selectedAttempt || (selectedAttempt.percentage || 0) < 60 || !certRef.current || isExporting) return;
     try {
       setIsExporting(true);
       const blob = await toBlob(certRef.current, { cacheBust: true, pixelRatio: 2 });
@@ -881,9 +881,13 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                       {/* Printable Certificate Box */}
                       <div 
                         ref={certRef}
-                        className="w-full max-w-2xl bg-gradient-to-b from-[#11161d] to-[#0a0d12] border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden text-slate-200"
+                        className={`w-full max-w-2xl bg-gradient-to-b from-[#11161d] to-[#0a0d12] border-2 ${
+                          (selectedAttempt.percentage || 0) >= 60 ? 'border-cyanPrimary/40' : 'border-rose-500/40'
+                        } rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden text-slate-200`}
                       >
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-cyanPrimary/10 rounded-full blur-2xl pointer-events-none"></div>
+                        <div className={`absolute top-0 right-0 w-32 h-32 ${
+                          (selectedAttempt.percentage || 0) >= 60 ? 'bg-cyanPrimary/10' : 'bg-rose-500/10'
+                        } rounded-full blur-2xl pointer-events-none`}></div>
                         <div className="absolute bottom-0 left-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
 
                         {/* Certificate Header */}
@@ -897,13 +901,13 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                                 <span className="text-cyanPrimary">SYNAPSE</span> STUDY
                               </h3>
                               <span className="text-[10px] text-slate-400 font-semibold tracking-wider uppercase">
-                                Medical Certificate of Completion
+                                {(selectedAttempt.percentage || 0) >= 60 ? 'Medical Certificate of Completion' : 'Assessment Score Report'}
                               </span>
                             </div>
                           </div>
 
                           <div className="text-right">
-                            <div className={`text-2xl font-black ${selectedAttempt.percentage >= 70 ? 'text-emerald-400' : 'text-cyanGlow'}`}>
+                            <div className={`text-2xl font-black ${(selectedAttempt.percentage || 0) >= 60 ? 'text-emerald-400' : 'text-rose-400'}`}>
                               {selectedAttempt.percentage}%
                             </div>
                             <span className="text-[10px] text-slate-400 font-semibold uppercase">
@@ -914,17 +918,36 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
                         {/* Candidate Info */}
                         <div className="text-center py-4 space-y-3">
-                          <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">This certifies that</span>
+                          <span className="text-xs uppercase tracking-widest text-slate-400 font-bold">
+                            {(selectedAttempt.percentage || 0) >= 60 ? 'This certifies that' : 'Assessment Candidate'}
+                          </span>
                           <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight border-b-2 border-cyanPrimary/30 pb-2 max-w-md mx-auto">
                             {selectedAttempt.student_name}
                           </div>
                           <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto leading-relaxed pt-2">
-                            has successfully completed the comprehensive exam assessment in{' '}
-                            <strong className="text-cyanPrimary font-bold">{selectedAttempt.module_name}</strong>
-                            {selectedAttempt.category && selectedAttempt.category !== 'All' && (
-                              <span> ({selectedAttempt.category})</span>
-                            )}.
+                            {(selectedAttempt.percentage || 0) >= 60 ? (
+                              <>
+                                has successfully completed the comprehensive exam assessment in{' '}
+                                <strong className="text-cyanPrimary font-bold">{selectedAttempt.module_name}</strong>
+                                {selectedAttempt.category && selectedAttempt.category !== 'All' && (
+                                  <span> ({selectedAttempt.category})</span>
+                                )}.
+                              </>
+                            ) : (
+                              <>
+                                completed the examination assessment in{' '}
+                                <strong className="text-cyanPrimary font-bold">{selectedAttempt.module_name}</strong>
+                                {selectedAttempt.category && selectedAttempt.category !== 'All' && (
+                                  <span> ({selectedAttempt.category})</span>
+                                )}.
+                              </>
+                            )}
                           </p>
+                          {(selectedAttempt.percentage || 0) < 60 && (
+                            <div className="mt-3 p-3 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs max-w-md mx-auto">
+                              <strong>Certificate Not Awarded:</strong> A minimum passing score of <strong>60%</strong> is required to earn a verified completion certificate.
+                            </div>
+                          )}
                         </div>
 
                         {/* Certificate Metadata */}
@@ -945,42 +968,48 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                           </div>
                           <div className="col-span-2 sm:col-span-1 text-left sm:text-right">
                             <span className="block text-[10px] uppercase font-bold text-slate-500">Status</span>
-                            <span className={`font-bold ${selectedAttempt.percentage >= 70 ? 'text-emerald-400' : 'text-amber-400'}`}>
-                              {selectedAttempt.percentage >= 70 ? 'PASSED (Mastery)' : 'COMPLETED'}
+                            <span className={`font-bold ${(selectedAttempt.percentage || 0) >= 60 ? 'text-emerald-400' : 'text-rose-400'}`}>
+                              {(selectedAttempt.percentage || 0) >= 60 ? 'PASSED (≥60%)' : 'NOT PASSED (<60%)'}
                             </span>
                           </div>
                         </div>
                       </div>
 
-                      {/* Actions */}
-                      <div className="flex flex-wrap items-center justify-center gap-3">
-                        <button
-                          onClick={handleDownloadImage}
-                          disabled={isExporting}
-                          className="flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-lg shadow-cyanPrimary/25 hover:brightness-110 active:scale-95 transition-all"
-                        >
-                          <Download className="w-4 h-4" />
-                          <span>Save Certificate Image (PNG)</span>
-                        </button>
+                      {/* Actions (ONLY if passed) */}
+                      {(selectedAttempt.percentage || 0) >= 60 ? (
+                        <div className="flex flex-wrap items-center justify-center gap-3">
+                          <button
+                            onClick={handleDownloadImage}
+                            disabled={isExporting}
+                            className="flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyanPrimary to-sky-600 text-white shadow-lg shadow-cyanPrimary/25 hover:brightness-110 active:scale-95 transition-all"
+                          >
+                            <Download className="w-4 h-4" />
+                            <span>Save Certificate Image (PNG)</span>
+                          </button>
 
-                        <button
-                          onClick={handleCopyImage}
-                          disabled={isExporting}
-                          className="flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-[#0d1117] border border-cyanPrimary/40 text-cyanGlow hover:bg-cyanPrimary/10 active:scale-95 transition-all"
-                        >
-                          {copiedSuccess ? (
-                            <>
-                              <Check className="w-4 h-4 text-emerald-400" />
-                              <span className="text-emerald-400">Copied to Clipboard!</span>
-                            </>
-                          ) : (
-                            <>
-                              <Copy className="w-4 h-4" />
-                              <span>Copy Image to Clipboard</span>
-                            </>
-                          )}
-                        </button>
-                      </div>
+                          <button
+                            onClick={handleCopyImage}
+                            disabled={isExporting}
+                            className="flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-[#0d1117] border border-cyanPrimary/40 text-cyanGlow hover:bg-cyanPrimary/10 active:scale-95 transition-all"
+                          >
+                            {copiedSuccess ? (
+                              <>
+                                <Check className="w-4 h-4 text-emerald-400" />
+                                <span className="text-emerald-400">Copied to Clipboard!</span>
+                              </>
+                            ) : (
+                              <>
+                                <Copy className="w-4 h-4" />
+                                <span>Copy Image to Clipboard</span>
+                              </>
+                            )}
+                          </button>
+                        </div>
+                      ) : (
+                        <div className="text-xs text-slate-400">
+                          <span>Score 60% or higher on a quiz retake to earn and download your certificate.</span>
+                        </div>
+                      )}
                     </div>
                   ) : (
                     /* History List */
@@ -1038,7 +1067,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                         ) : (
                           <div className="flex flex-col gap-2.5">
                             {history.map((item, index) => {
-                              const isPassed = (item.percentage || 0) >= 70;
+                              const isPassed = (item.percentage || 0) >= 60;
                               return (
                                 <div
                                   key={item.id || index}
@@ -1048,7 +1077,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                                     <div className={`w-9 h-9 rounded-xl flex items-center justify-center font-black text-xs shrink-0 border ${
                                       isPassed 
                                         ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-700 dark:text-emerald-400' 
-                                        : 'bg-amber-500/10 border-amber-500/30 text-amber-700 dark:text-amber-400'
+                                        : 'bg-rose-500/10 border-rose-500/30 text-rose-700 dark:text-rose-400'
                                     }`}>
                                       {item.percentage}%
                                     </div>
@@ -1083,13 +1112,19 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                                     </div>
                                   </div>
 
-                                  <button
-                                    onClick={() => setSelectedAttempt(item)}
-                                    className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm"
-                                  >
-                                    <Award className="w-3.5 h-3.5" />
-                                    <span>View Certificate</span>
-                                  </button>
+                                  {isPassed ? (
+                                    <button
+                                      onClick={() => setSelectedAttempt(item)}
+                                      className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm"
+                                    >
+                                      <Award className="w-3.5 h-3.5" />
+                                      <span>View Certificate</span>
+                                    </button>
+                                  ) : (
+                                    <span className="w-full sm:w-auto text-center px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 bg-rose-500/10 border border-rose-500/20">
+                                      No Certificate (&lt;60%)
+                                    </span>
+                                  )}
                                 </div>
                               );
                             })}

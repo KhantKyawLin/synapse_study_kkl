@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import KatexText from '../KatexText';
-import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check, Download, Copy, History } from 'lucide-react';
+import { Award, CheckCircle, XCircle, RotateCcw, ArrowLeft, User, Clock, Check, Download, Copy, History, AlertTriangle } from 'lucide-react';
 import { toPng, toBlob } from 'html-to-image';
 
 export default function QuizResult({
@@ -24,6 +24,7 @@ export default function QuizResult({
   });
 
   const percentage = Math.round((score / questions.length) * 100);
+  const isPassed = percentage >= 60;
 
   // Format seconds into MM:SS
   const formatTime = (seconds) => {
@@ -41,9 +42,9 @@ export default function QuizResult({
     minute: '2-digit',
   });
 
-  // Download Certificate PNG
+  // Download Certificate PNG (only if score >= 60%)
   const handleDownloadImage = async () => {
-    if (!certRef.current || isExporting) return;
+    if (!isPassed || !certRef.current || isExporting) return;
     try {
       setIsExporting(true);
       const dataUrl = await toPng(certRef.current, { cacheBust: true, pixelRatio: 2 });
@@ -59,9 +60,9 @@ export default function QuizResult({
     }
   };
 
-  // Copy Certificate Image to Clipboard
+  // Copy Certificate Image to Clipboard (only if score >= 60%)
   const handleCopyImage = async () => {
-    if (!certRef.current || isExporting) return;
+    if (!isPassed || !certRef.current || isExporting) return;
     try {
       setIsExporting(true);
       const blob = await toBlob(certRef.current, { cacheBust: true, pixelRatio: 2 });
@@ -86,26 +87,44 @@ export default function QuizResult({
 
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col gap-6 animate-fadeIn pb-12">
-      {/* Exportable Official Score Certificate Card */}
+      {/* Official Score Card (Certificate ONLY if score >= 60%) */}
       <div
-        ref={certRef}
-        className="bg-[#161b22] border-2 border-cyanPrimary/40 rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden text-white"
+        ref={isPassed ? certRef : null}
+        className={`bg-[#161b22] border-2 ${
+          isPassed ? 'border-cyanPrimary/40' : 'border-rose-500/40'
+        } rounded-2xl p-6 sm:p-10 backdrop-blur-xl text-center shadow-2xl relative overflow-hidden text-white`}
       >
         {/* Top Decorative Banner */}
-        <div className="absolute top-0 inset-x-0 h-1.5 bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400"></div>
+        <div className={`absolute top-0 inset-x-0 h-1.5 ${
+          isPassed 
+            ? 'bg-gradient-to-r from-cyanPrimary via-cyanGlow to-emerald-400' 
+            : 'bg-gradient-to-r from-rose-500 via-amber-500 to-rose-600'
+        }`}></div>
 
-        <div className="w-16 h-16 rounded-2xl bg-cyanPrimary/20 border border-cyanPrimary/40 flex items-center justify-center mx-auto mb-4 text-cyanPrimary shadow-lg shadow-cyanPrimary/10">
-          <Award className="w-8 h-8" />
+        <div className={`w-16 h-16 rounded-2xl ${
+          isPassed 
+            ? 'bg-cyanPrimary/20 border-cyanPrimary/40 text-cyanPrimary shadow-cyanPrimary/10' 
+            : 'bg-rose-500/20 border-rose-500/40 text-rose-400 shadow-rose-500/10'
+        } border flex items-center justify-center mx-auto mb-4 shadow-lg`}>
+          {isPassed ? <Award className="w-8 h-8" /> : <AlertTriangle className="w-8 h-8" />}
         </div>
 
-        <span className="text-[10px] font-extrabold uppercase tracking-widest text-cyanPrimary px-3 py-1 rounded-full bg-cyanPrimary/10 border border-cyanPrimary/30 inline-block mb-2">
-          Certificate of Completion
+        <span className={`text-[10px] font-extrabold uppercase tracking-widest px-3 py-1 rounded-full border inline-block mb-2 ${
+          isPassed 
+            ? 'text-cyanPrimary bg-cyanPrimary/10 border-cyanPrimary/30' 
+            : 'text-rose-400 bg-rose-500/10 border-rose-500/30'
+        }`}>
+          {isPassed ? 'Certificate of Completion' : 'Assessment Score Report'}
         </span>
 
         <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-1">
-          {percentage >= 70 ? 'Congratulations, Assessment Passed!' : 'Assessment Completed'}
+          {isPassed ? 'Congratulations, Assessment Passed!' : 'Assessment Completed — Not Passed'}
         </h2>
-        <p className="text-xs text-slate-400 mb-6">Verified Synapse Study Medical Examination</p>
+        <p className="text-xs text-slate-400 mb-6">
+          {isPassed 
+            ? 'Verified Synapse Study Medical Examination' 
+            : 'A minimum score of 60% is required to earn a certificate of completion'}
+        </p>
 
         {/* Recipient Details */}
         <div className="p-4 rounded-xl bg-[#0d1117]/80 border border-slate-800/80 inline-block min-w-[280px] mb-6">
@@ -126,21 +145,34 @@ export default function QuizResult({
           </div>
           <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
             <span className="text-xs font-bold text-slate-400 block mb-1">Percentage</span>
-            <span className={`text-xl font-black ${percentage >= 70 ? 'text-emerald-400' : 'text-amber-400'}`}>
+            <span className={`text-xl font-black ${isPassed ? 'text-emerald-400' : 'text-rose-400'}`}>
               {percentage}%
             </span>
           </div>
           <div className="p-3.5 bg-[#0d1117] border border-slate-800 rounded-xl">
             <span className="text-xs font-bold text-slate-400 block mb-1">Status</span>
             <span className={`text-xs font-black px-2 py-0.5 rounded-full inline-block mt-1 ${
-              percentage >= 70
+              isPassed
                 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                 : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
             }`}>
-              {percentage >= 70 ? 'PASSED' : 'RETRY'}
+              {isPassed ? 'PASSED (≥60%)' : 'RETRY (<60%)'}
             </span>
           </div>
         </div>
+
+        {/* Callout Alert when score < 60% */}
+        {!isPassed && (
+          <div className="p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 max-w-lg mx-auto mb-6 text-xs sm:text-sm text-slate-300 flex items-start gap-3 text-left">
+            <XCircle className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
+            <div>
+              <span className="font-bold text-rose-400 block mb-0.5">Certificate Not Issued</span>
+              <span>
+                You scored <strong>{percentage}%</strong>. A minimum score of <strong>60%</strong> is required to earn a verified Medical Certificate of Completion. Review the detailed rationales below and retake the quiz to qualify.
+              </span>
+            </div>
+          </div>
+        )}
 
         {/* Time and Verification Footer */}
         <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 mb-6">
@@ -153,35 +185,47 @@ export default function QuizResult({
           </span>
         </div>
 
-        {/* Certificate Image Export Action Bar */}
-        <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4 border-t border-slate-800/80">
-          <button
-            onClick={handleDownloadImage}
-            disabled={isExporting}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 text-white shadow-lg shadow-emerald-600/25 hover:bg-emerald-500 active:scale-[0.98] transition-all disabled:opacity-50"
-          >
-            <Download className="w-4 h-4" />
-            <span>{isExporting ? 'Generating PNG...' : 'Save Certificate Image (PNG)'}</span>
-          </button>
+        {/* Certificate Image Export Action Bar (ONLY if score >= 60%) */}
+        {isPassed ? (
+          <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4 border-t border-slate-800/80">
+            <button
+              onClick={handleDownloadImage}
+              disabled={isExporting}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 text-white shadow-lg shadow-emerald-600/25 hover:bg-emerald-500 active:scale-[0.98] transition-all disabled:opacity-50"
+            >
+              <Download className="w-4 h-4" />
+              <span>{isExporting ? 'Generating PNG...' : 'Save Certificate Image (PNG)'}</span>
+            </button>
 
-          <button
-            onClick={handleCopyImage}
-            disabled={isExporting}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all disabled:opacity-50"
-          >
-            {copiedSuccess ? (
-              <>
-                <Check className="w-4 h-4 text-emerald-400" />
-                <span className="text-emerald-300 font-bold">Copied Image to Clipboard!</span>
-              </>
-            ) : (
-              <>
-                <Copy className="w-4 h-4 text-cyanPrimary" />
-                <span>Copy Image</span>
-              </>
-            )}
-          </button>
-        </div>
+            <button
+              onClick={handleCopyImage}
+              disabled={isExporting}
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 hover:text-white active:scale-[0.98] transition-all disabled:opacity-50"
+            >
+              {copiedSuccess ? (
+                <>
+                  <Check className="w-4 h-4 text-emerald-400" />
+                  <span className="text-emerald-300 font-bold">Copied Image to Clipboard!</span>
+                </>
+              ) : (
+                <>
+                  <Copy className="w-4 h-4 text-cyanPrimary" />
+                  <span>Copy Image</span>
+                </>
+              )}
+            </button>
+          </div>
+        ) : (
+          <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4 border-t border-slate-800/80">
+            <button
+              onClick={onRestart}
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white shadow-lg shadow-rose-600/25 active:scale-[0.98] transition-all"
+            >
+              <RotateCcw className="w-4 h-4" />
+              <span>Retake Quiz to Earn Certificate (Score ≥ 60%)</span>
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Navigation Bar */}

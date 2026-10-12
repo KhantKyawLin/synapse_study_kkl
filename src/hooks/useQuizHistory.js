@@ -125,14 +125,14 @@ export function useQuizHistory() {
 
   // Compute aggregate metrics
   const fullExams = history.filter((h) => h.is_full_quiz || (h.total_questions >= 30));
-  const passedFullExams = fullExams.filter((h) => (h.percentage || 0) >= 70);
+  const passedFullExams = fullExams.filter((h) => (h.percentage || 0) >= 60);
 
   const stats = {
     totalQuizzes: history.length,
     averageScore: history.length
       ? Math.round(history.reduce((acc, curr) => acc + (curr.percentage || 0), 0) / history.length)
       : 0,
-    passedQuizzes: history.filter((h) => (h.percentage || 0) >= 70).length,
+    passedQuizzes: history.filter((h) => (h.percentage || 0) >= 60).length,
     fullExamsCount: fullExams.length,
     passedFullExamsCount: passedFullExams.length,
     totalTimeSpentSeconds: history.reduce((acc, curr) => acc + (curr.time_spent_seconds || 0), 0),
