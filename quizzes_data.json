@@ -8158,6 +8158,428 @@
       "explanation": "Periampullary carcinomas can undergo central necrosis and sloughing, leading to characteristic fluctuating jaundice and melena/anemia."
     }
   ],
+  "Final Part 2 Surgery - Surgery Module 6": [
+    {
+      "id": 5,
+      "category": "Colorectal Carcinoma Diagnosis",
+      "question": "A 68-year-old male presents with a 3-month history of progressive change in bowel habits, alternating between constipation and diarrhea, accompanied by dark maroon blood mixed with stool. Abdominal CECT reveals an 'apple-core' circumferential lesion in the sigmoid colon. What is the gold standard diagnostic investigation to confirm the diagnosis?",
+      "options": [
+        "Double-contrast barium enema",
+        "Colonoscopy with tissue biopsy",
+        "CT colonography (virtual colonoscopy)",
+        "Fecal occult blood test (FOBT)",
+        "Flexible sigmoidoscopy without biopsy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colonoscopy with tissue biopsy is the gold standard diagnostic investigation for suspected colorectal carcinoma. It allows direct visualization of the tumor, determination of its exact location, and histological confirmation via biopsy."
+    },
+    {
+      "id": 6,
+      "category": "Rovsing's Sign in Appendicitis",
+      "question": "A 22-year-old medical student presents with a 12-hour history of vague periumbilical pain that migrated to the right iliac fossa (RIF). He complains of anorexia and nausea. On examination, there is marked tenderness at McBurney's point and pain in the RIF when the left iliac fossa is deeply palpated. What is the name of this physical sign?",
+      "options": [
+        "Murphy's sign",
+        "Psoas sign",
+        "Rovsing's sign",
+        "Obturator sign",
+        "Blumberg's sign"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rovsing's sign is present when deep palpation of the left iliac fossa elicits pain in the right iliac fossa, indicating localized peritoneal irritation over the appendix due to displacement of gas and bowel loops."
+    },
+    {
+      "id": 7,
+      "category": "Appendicular Abscess Drainage",
+      "question": "A 28-year-old female undergoes clinical evaluation for suspected acute appendicitis. She presents with a 5-day history of lower abdominal pain, high fever with chills and rigors, and a 4 cm tender, fluctuant mass palpated in the right iliac fossa. What is the most appropriate management approach?",
+      "options": [
+        "Immediate emergency open appendectomy",
+        "Conservative Ochsner-Sherren regimen alone with oral antibiotics",
+        "Diagnostic laparoscopy and immediate appendectomy",
+        "Image-guided percutaneous abscess drainage and IV antibiotics",
+        "Right hemicolectomy with primary ileocolic anastomosis"
+      ],
+      "correctIndex": 3,
+      "explanation": "High fever accompanied by chills, rigors, and a fluctuant mass in the RIF signifies an appendicular ABSCESS (pus under pressure). Unlike an appendicular mass (phlegmon) which is managed conservatively with the Ochsner-Sherren regimen, an appendicular abscess requires image-guided (ultrasound/CT) percutaneous drainage along with IV antibiotics."
+    },
+    {
+      "id": 8,
+      "category": "Small Bowel Obstruction Etiology",
+      "question": "A 72-year-old woman with a history of prior hysterectomy presents with acute colicky abdominal pain, profuse bilious vomiting, and abdominal distension. Abdominal X-ray shows multiple dilated small bowel loops located centrally with step-ladder fluid levels. What is the most common etiology of this condition?",
+      "options": [
+        "Post-operative intra-abdominal adhesions",
+        "Incarcerated groin hernia",
+        "Colorectal adenocarcinoma",
+        "Intussusception",
+        "Gallstone ileus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Post-operative intra-abdominal adhesions account for over 60-70% of all cases of mechanical small bowel obstruction (SBO). Incarcerated hernias are the second most common cause."
+    },
+    {
+      "id": 9,
+      "category": "Anal Fissure First-Line Therapy",
+      "question": "A 35-year-old male presents with severe, sharp, 'tearing' pain during defecation that persists as a dull ache for two hours afterward. He notes bright red blood spotting on the toilet paper. On gentle separation of the buttocks, a superficial longitudinal ulcer is identified in the posterior midline. What is the first-line medical treatment?",
+      "options": [
+        "Immediate lateral internal sphincterotomy",
+        "High-fiber diet, stool softeners, warm sitz baths, and topical 0.2% glyceryl trinitrate",
+        "Fissurectomy and mucosal advancement flap",
+        "Oral broad-spectrum antibiotics and corticosteroid suppositories",
+        "Manual anal dilatation under general anesthesia"
+      ],
+      "correctIndex": 1,
+      "explanation": "First-line medical management for an acute anal fissure consists of conservative measures: a high-fiber diet, stool softeners, warm sitz baths, and topical sphincter-relaxing agents such as 0.2% Glyceryl Trinitrate (GTN) or Diltiazem ointment to lower internal anal sphincter resting pressure."
+    },
+    {
+      "id": 10,
+      "category": "Diverticulosis & Massive LGIB",
+      "question": "An 80-year-old male nursing home resident presents with massive, painless hematochezia resulting in lightheadedness and blood pressure of 90/60 mmHg. Following resuscitation, urgent colonoscopy demonstrates bleeding from a outpouching in the sigmoid colon. What is the most common cause of massive painless lower GI bleeding in the elderly?",
+      "options": [
+        "Angiodysplasia (vascular ectasia)",
+        "Internal hemorrhoids",
+        "Diverticular disease (diverticulosis)",
+        "Colorectal adenocarcinoma",
+        "Ischemic colitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Diverticulosis is the single most common cause of massive, painless lower gastrointestinal hemorrhage in elderly patients, accounting for approximately 40-50% of acute LGIB cases."
+    },
+    {
+      "id": 11,
+      "category": "Femoral Hernia Strangulation Risk",
+      "question": "A 50-year-old female presents with a painless bulge in her left groin. Examination reveals a smooth, irreducible swelling located below and lateral to the pubic tubercle. What is the most important clinical reason why prompt surgical repair is mandatory upon diagnosis?",
+      "options": [
+        "High incidence of synchronous direct hernia",
+        "Rapid enlargement into the ipsilateral labium majus",
+        "Frequent malignant transformation of the sac",
+        "High risk of bowel incarceration and strangulation due to rigid margins",
+        "Inevitable femoral vein thrombosis from direct compression"
+      ],
+      "correctIndex": 3,
+      "explanation": "Femoral hernias have a narrow, rigid neck bounded by unyielding fascial structures (lacunar ligament, pectineal ligament, femoral vein), carrying an extremely high risk of bowel incarceration and strangulation (30-40%). Therefore, prompt surgical repair is mandatory upon diagnosis even if asymptomatic."
+    },
+    {
+      "id": 12,
+      "category": "Deep Ring Occlusion Test",
+      "question": "A 45-year-old male undergoes physical examination for a right groin hernia. Occlusion of the deep inguinal ring with a thumb (1.25 cm above the femoral midpoint) completely prevents the hernia from protruding when the patient coughs while standing. What type of hernia is present?",
+      "options": [
+        "Indirect inguinal hernia",
+        "Direct inguinal hernia",
+        "Femoral hernia",
+        "Obturator hernia",
+        "Spigelian hernia"
+      ],
+      "correctIndex": 0,
+      "explanation": "An indirect inguinal hernia enters the deep ring and travels along the inguinal canal. Therefore, controlling/occluding the deep inguinal ring prevents an indirect hernia from descending upon coughing."
+    },
+    {
+      "id": 13,
+      "category": "Rectal Anatomy & TME Surgery",
+      "question": "A 60-year-old man undergoes low anterior resection for mid-rectal carcinoma. To prevent permanent fecal incontinence and local tumor recurrence, total mesorectal excision (TME) is performed. Which anatomical landmark defines the lower limit of the rectum?",
+      "options": [
+        "Sacral promontory",
+        "Peritoneal reflection",
+        "Anorectal ring / upper border of the puborectalis muscle",
+        "Anal verge",
+        "Valve of Houston"
+      ],
+      "correctIndex": 2,
+      "explanation": "The anorectal ring / dentate line (pelvic floor muscle sling formed by the puborectalis muscle) marks the junction between the rectum and the anal canal."
+    },
+    {
+      "id": 14,
+      "category": "Perianal Abscess Incision & Drainage",
+      "question": "A 30-year-old male presents with a painful swelling near his anus for 3 days, accompanied by fever. Examination reveals a 3 cm tender, erythematous, fluctuant mass lateral to the anal verge. What is the definitive management of a perianal abscess?",
+      "options": [
+        "Outpatient oral broad-spectrum antibiotics and analgesics",
+        "Prompt emergency incision and drainage (I&D)",
+        "Immediate primary fistulotomy with coring out of tract",
+        "Needle aspiration under local anesthesia",
+        "Application of topical corticosteroid and silver sulfadiazine ointment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The definitive management of a perianal abscess is prompt emergency Incision and Drainage (I&D). Antibiotics alone are insufficient because antibiotics cannot penetrate an encapsulated abscess cavity effectively."
+    },
+    {
+      "id": 15,
+      "category": "Goodsall's Rule in Fistula-in-Ano",
+      "question": "A patient with a chronic fistula-in-ano has an external opening located at the 4 o'clock position (posterior perianal region) 3 cm from the anal verge in the lithotomy position. According to Goodsall's Rule, where is the internal opening expected to be located?",
+      "options": [
+        "Midline posterior at the 6 o'clock position via a curved tract",
+        "Directly radial at the 4 o'clock position via a straight tract",
+        "Midline anterior at the 12 o'clock position",
+        "High rectal stump via a translevator extension",
+        "Deep within the ischioanal fossa without internal opening"
+      ],
+      "correctIndex": 0,
+      "explanation": "Goodsall's Rule states that external openings located POSTERIOR to the transverse anal line follow a curved tract to open into the internal midline at the 6 o'clock position in the anal canal."
+    },
+    {
+      "id": 16,
+      "category": "Hemorrhoids Dentate Line Anatomy",
+      "question": "A 65-year-old male presents with 3rd-degree internal hemorrhoids at 3, 7, and 11 o'clock positions. What anatomical feature distinguishes internal hemorrhoids from external hemorrhoids?",
+      "options": [
+        "Internal hemorrhoids are supplied by the inferior rectal artery",
+        "Internal hemorrhoids drain directly into the inferior vena cava",
+        "Internal hemorrhoids originate above the dentate line and are lined by insensitive columnar/visceral epithelium",
+        "External hemorrhoids are insensitive to sharp somatic pinprick pain",
+        "Internal hemorrhoids have their lymphatic drainage directed to the superficial inguinal nodes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Internal hemorrhoids are located ABOVE the dentate (pectinate) line and are covered by autonomic, non-pain-sensitive columnar/visceral epithelium. External hemorrhoids are located BELOW the dentate line and are covered by somatically innervated, highly pain-sensitive anoderm."
+    },
+    {
+      "id": 17,
+      "category": "Hinchey Staging for Diverticulitis",
+      "question": "A 58-year-old woman presents with acute left lower quadrant abdominal pain, low-grade fever, and leucocytosis. Abdominal CECT reveals localized sigmoid colonic wall thickening and pericolic fat stranding with a 2 cm fluid collection. What staging system is used for acute diverticulitis?",
+      "options": [
+        "Duke's staging system",
+        "Alvarado scoring system",
+        "Forrest classification",
+        "Hinchey classification",
+        "Nyhus classification"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Hinchey Classification is used to stage acute diverticulitis (Stage I: Pericolic abscess; Stage II: Pelvic/distant abscess; Stage III: Generalized purulent peritonitis; Stage IV: Generalized fecal peritonitis)."
+    },
+    {
+      "id": 18,
+      "category": "Contraindications in Acute Diverticulitis",
+      "question": "Which investigation is strictly CONTRAINDICATED during an acute episode of severe diverticulitis due to a high risk of iatrogenic bowel perforation?",
+      "options": [
+        "Contrast-enhanced CT (CECT) of the abdomen and pelvis",
+        "Complete colonoscopy or barium enema",
+        "Plain erect chest and abdominal radiograph",
+        "Pelvic and transabdominal ultrasound",
+        "Complete blood count with inflammatory markers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colonoscopy (and barium enema) is strictly contraindicated during acute diverticulitis because insufflation of air into an acutely inflamed, friable, micro-perforated colonic wall can convert a localized micro-perforation into a free intra-abdominal perforation."
+    },
+    {
+      "id": 19,
+      "category": "Incisional Hernia Pathophysiology",
+      "question": "A 40-year-old obese female who had an open cholecystectomy 2 years ago presents with a painless, reducible bulge at the upper midline laparotomy scar site. What is the primary etiology of an incisional hernia?",
+      "options": [
+        "Breakdown or failure of the prior fascial closure line",
+        "Congenital patent processus vaginalis",
+        "Weakness of the conjoint tendon within Hesselbach's triangle",
+        "Widening of the femoral ring from increased intra-abdominal pressure",
+        "Incomplete obliteration of the umbilical ring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breakdown of the fascial closure line following abdominal surgery (often precipitated by surgical site infection, excessive tension, or poor healing) is the primary cause of incisional hernias."
+    },
+    {
+      "id": 20,
+      "category": "Strangulated Hernia Emergency Management",
+      "question": "A 70-year-old male with a history of long-standing constipation presents with sudden severe left groin pain and vomiting. Examination reveals a tense, tender, purple-discolored irreducible swelling in the left groin. What is the immediate surgical management for a strangulated inguinal hernia?",
+      "options": [
+        "Aggressive manual reduction (taxis) followed by elective repair",
+        "Application of an inguinal truss and observation",
+        "Immediate emergency surgical exploration, bowel viability assessment, and repair",
+        "Intravenous broad-spectrum antibiotics with delayed semi-elective laparoscopy",
+        "Deep ring injection of local anesthetic and watchful waiting"
+      ],
+      "correctIndex": 2,
+      "explanation": "A strangulated hernia is a surgical emergency requiring immediate laparotomy/inguinal exploration, reduction of hernia contents, assessment of bowel viability, resection of gangrenous bowel, and repair without synthetic mesh if contaminated."
+    },
+    {
+      "id": 21,
+      "category": "Hartmann's Procedure Steps",
+      "question": "A patient undergoes an emergency Hartmann's procedure for perforated sigmoid diverticulitis. What does a classical Hartmann's procedure involve?",
+      "options": [
+        "Right hemicolectomy with primary ileotransverse anastomosis",
+        "Resection of diseased rectosigmoid, oversewing the distal rectal stump, and end colostomy",
+        "Total abdominal colectomy with permanent end ileostomy",
+        "Primary sigmoid resection with on-table colonic lavage and immediate colorectal anastomosis",
+        "Diverting loop ileostomy without resection of the diseased bowel"
+      ],
+      "correctIndex": 1,
+      "explanation": "A classical Hartmann's procedure involves resection of the diseased bowel segment (rectosigmoid), closure of the distal rectal stump (oversewn), and creation of a proximal end colostomy in the left iliac fossa."
+    },
+    {
+      "id": 22,
+      "category": "High-Output Ileostomy Complications",
+      "question": "A 25-year-old male presents with a high-output end ileostomy (>1.8 L/day) following emergency total colectomy for ulcerative colitis. What metabolic and electrolyte imbalance is he at highest risk of developing?",
+      "options": [
+        "Hyperkalemia, hypernatremia, and metabolic alkalosis",
+        "Hypercalcemia, hypomagnesemia, and respiratory acidosis",
+        "Hypernatremia, hypochloremia, and metabolic alkalosis",
+        "Dehydration, hyponatremia, hypokalemia, and hyperchloremic metabolic acidosis",
+        "Pure water deficit with preserved electrolyte homeostasis"
+      ],
+      "correctIndex": 3,
+      "explanation": "High-output ileostomy effluence is rich in sodium, potassium, water, and bicarbonate, leading rapidly to severe dehydration, hyponatremia, hypokalemia, and hyperchloremic metabolic acidosis."
+    },
+    {
+      "id": 23,
+      "category": "Ileostomy vs Colostomy Stoma Inspection",
+      "question": "What is the key clinical feature that distinguishes an end ileostomy from an end colostomy on physical inspection of the abdominal wall?",
+      "options": [
+        "An ileostomy possesses a protruding spout (2-3 cm), whereas a colostomy is placed flush with the skin",
+        "An ileostomy is positioned flush with the skin, whereas a colostomy has a 4-5 cm spout",
+        "An ileostomy is always constructed in the left iliac fossa, whereas a colostomy is in the right iliac fossa",
+        "An ileostomy discharges formed feces, whereas a colostomy discharges continuous liquid enzymes",
+        "An ileostomy requires a supporting plastic rod for life, whereas a colostomy does not"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ileostomy is created with a 'spout' (protruding 2-3 cm above skin level) to prevent corrosive, alkaline ileal liquid effluence from eroding the surrounding skin. A colostomy is created 'flush' with the abdominal skin because colonic effluent is formed and non-corrosive."
+    },
+    {
+      "id": 24,
+      "category": "Sigmoid Volvulus Endoscopic Decompression",
+      "question": "A 55-year-old male presents with an acute sigmoid volvulus. Plain abdominal radiograph displays a massively dilated single bowel loop rising from the pelvis to the right upper quadrant, resembling a 'coffee bean'. What is the initial therapeutic intervention in the absence of bowel gangrene?",
+      "options": [
+        "Emergency Hartmann's procedure",
+        "Immediate emergency open sigmoid colectomy with primary anastomosis",
+        "Endoscopic decompression and detorsion with rigid or flexible sigmoidoscopy and flatus tube insertion",
+        "Diagnostic laparoscopy and cecopexy",
+        "High-dose oral osmotic laxatives and observation"
+      ],
+      "correctIndex": 2,
+      "explanation": "In patients with acute sigmoid volvulus without clinical signs of bowel ischemia or peritonitis, endoscopic decompression and deflation using rigid sigmoidoscopy and placement of a flatus tube is the initial procedure of choice."
+    },
+    {
+      "id": 25,
+      "category": "Hesselbach's Triangle Boundaries",
+      "question": "A 45-year-old male presents with a painless groin hernia. The hernia bulges directly through the posterior wall of the inguinal canal, medial to the inferior epigastric artery, inside Hesselbach's triangle. What is the superior anatomical boundary of Hesselbach's triangle?",
+      "options": [
+        "Inguinal ligament (Poupart's ligament)",
+        "Inferior epigastric vessels (artery and vein)",
+        "Lateral border of the rectus abdominis muscle",
+        "Pectineal ligament (Cooper's ligament)",
+        "Iliopubic tract"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hesselbach's triangle is bounded laterally/superolaterally by the Inferior Epigastric Vessels, medially by the lateral border of the Rectus Abdominis muscle, and inferiorly by the Inguinal Ligament."
+    },
+    {
+      "id": 26,
+      "category": "Lichtenstein Mesh Hernioplasty",
+      "question": "Which surgical technique is recognized as the gold standard tension-free open repair for inguinal hernias using a synthetic polypropylene mesh?",
+      "options": [
+        "Bassini pure-tissue repair",
+        "Shouldice four-layer tissue repair",
+        "McVay Cooper's ligament repair",
+        "Lichtenstein tension-free mesh hernioplasty",
+        "Halsted anatomical reconstruction"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Lichtenstein tension-free hernioplasty is the universally accepted gold standard open mesh repair for both direct and indirect inguinal hernias."
+    },
+    {
+      "id": 27,
+      "category": "Rigler's Triad in Gallstone Ileus",
+      "question": "A 60-year-old female presents with severe colicky right lower quadrant pain, abdominal distension, and obstipation. Plain abdominal X-ray reveals pneumobilia (gas in the biliary tree), small bowel obstruction, and an ectopic calcified gallstone in the right iliac fossa. What is the name of this triad?",
+      "options": [
+        "Rigler's triad",
+        "Charcot's triad",
+        "Saint's triad",
+        "Beck's triad",
+        "Virchow's triad"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rigler's Triad (pneumobilia, small bowel obstruction, and an ectopic gallstone usually impacted at the ileocecal valve) is pathognomonic for Gallstone Ileus."
+    },
+    {
+      "id": 28,
+      "category": "Paralytic Ileus Features",
+      "question": "A 35-year-old male presents 3 days after abdominal surgery with diffuse abdominal distension, mild nausea, and inability to pass flatus. Auscultation reveals a completely silent abdomen without bowel sounds. Serum potassium is 2.8 mmol/L. What is the diagnosis?",
+      "options": [
+        "Mechanical small bowel obstruction",
+        "Acute mesenteric ischemia",
+        "Adynamic / paralytic ileus",
+        "Colonic pseudo-obstruction (Ogilvie's syndrome)",
+        "Anastomotic leak with peritonitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paralytic (adynamic) ileus is characterized by loss of bowel motility, abdominal distension, and absent bowel sounds (silent abdomen), commonly precipitated by bowel manipulation and hypokalemia."
+    },
+    {
+      "id": 29,
+      "category": "Alvarado Score for Appendicitis",
+      "question": "Which clinical scoring system is commonly used in emergency departments to evaluate the probability of acute appendicitis based on symptoms, signs, and laboratory values?",
+      "options": [
+        "Glasgow-Imrie criteria",
+        "Alvarado score (MANTRELS)",
+        "Ranson criteria",
+        "Rockall score",
+        "Child-Pugh classification"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Alvarado Score (MANTRELS: Migration of pain, Anorexia, Nausea, Tenderness RIF, Rebound tenderness, Elevated temp, Leukocytosis, Shift to left) evaluates the probability of acute appendicitis."
+    },
+    {
+      "id": 30,
+      "category": "Portal Hypertension & Hemorrhoids",
+      "question": "A 52-year-old male with a history of liver cirrhosis and portal hypertension presents with rectal bleeding. Proctoscopy confirms enlarged internal hemorrhoids. What is the primary mechanism of hemorrhoid development in portal hypertension?",
+      "options": [
+        "Direct arteriovenous malformation within the submucosa",
+        "Thrombosis of the inferior mesenteric artery",
+        "Incompetence of valves within the inferior vena cava",
+        "Dilation of the portosystemic collateral venous plexus between superior and middle/inferior rectal veins",
+        "Obstruction of internal iliac lymphatic channels"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dilation of the portosystemic collateral venous plexus connecting the superior rectal vein (portal system) with the middle/inferior rectal veins (systemic system) occurs in portal hypertension, predisposing to hemorrhoids."
+    },
+    {
+      "id": 31,
+      "category": "Inguinal Hernia Differential Diagnoses",
+      "question": "A 48-year-old female presents with a 4 cm, non-tender, slow-growing soft tissue swelling in the right groin that is soft, compressible, and exhibits a positive cough impulse. Deep ring occlusion test does NOT control the mass. What is a key differential diagnosis for an indirect inguinal hernia?",
+      "options": [
+        "Femoral hernia, direct inguinal hernia, or saphena varix",
+        "Umbilical hernia or epigastric lipoma",
+        "Sciatic hernia or gluteal abscess",
+        "Lumbar hernia of Petit",
+        "Spigelian hernia above the arcuate line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct inguinal hernia, femoral hernia, saphena varix, lipoma of the cord, encysted hydrocele of the cord, and groin lymphadenopathy are classic differential diagnoses for an indirect inguinal hernia."
+    },
+    {
+      "id": 32,
+      "category": "Ilioinguinal Nerve Injury in Hernia Repair",
+      "question": "During a Lichtenstein inguinal hernia repair, which nerve running on the anterior surface of the spermatic cord is at greatest risk of accidental entrapment or injury, potentially causing post-operative chronic groin pain (inguinodynia)?",
+      "options": [
+        "Femoral branch of the genitofemoral nerve",
+        "Lateral femoral cutaneous nerve",
+        "Ilioinguinal nerve",
+        "Obturator nerve",
+        "Pudendal nerve"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Ilioinguinal nerve runs along the anterior aspect of the spermatic cord through the superficial ring and is the most commonly injured or entrapped nerve in open inguinal hernia surgery."
+    },
+    {
+      "id": 33,
+      "category": "Rectal Prolapse Abdominal Rectopexy",
+      "question": "A 65-year-old male presents with rectal prolapse. Physical examination reveals full-thickness mucosal and muscular wall protrusion through the anal sphincter. What is the surgical procedure of choice for full-thickness rectal prolapse in a fit patient?",
+      "options": [
+        "Delorme mucosal stripping procedure",
+        "Abdominal rectopexy (open or laparoscopic, with or without sigmoid resection)",
+        "Altemeier perineal rectosigmoidectomy",
+        "Thiersch perineal anal encirclement wire",
+        "Rubber band ligation of redundant mucosa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abdominal Rectopexy (suture or mesh rectopexy, performed open or laparoscopically) is the procedure of choice for full-thickness rectal prolapse in medically fit patients, fixing the mobilized rectum to the sacral promontory."
+    },
+    {
+      "id": 34,
+      "category": "Colorectal Adenocarcinoma Histology",
+      "question": "What is the most common histological subtype of colorectal carcinoma, accounting for over 95% of all malignant colonic neoplasms?",
+      "options": [
+        "Adenocarcinoma",
+        "Squamous cell carcinoma",
+        "Gastrointestinal stromal tumor (GIST)",
+        "Neuroendocrine tumor (carcinoid)",
+        "Primary colorectal lymphoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adenocarcinoma is by far the most common primary malignancy of the colon and rectum (>95% of cases)."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,

@@ -3637,6 +3637,428 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 6 Database": [
+    {
+      "Name": "Colorectal Carcinoma (Right vs Left)",
+      "Tag": "Colorectal Surgery",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Adenomatous polyps (APC gene, Lynch syndrome, FAP), low fiber/high animal fat diet, IBD (Ulcerative Colitis > Crohn's), smoking, age > 50."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Right Colon: Anemia, fatigue, occult bleeding, palpable RIF mass. Left Colon/Rectum: Change in bowel habits (constipation/diarrhea), hematochezia, tenesmus, apple-core obstruction."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Colonoscopy with biopsy (Gold Standard). CECT Chest/Abdomen/Pelvis for staging. CEA tumor marker for monitoring."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "TNM Staging & Dukes Classification (Dukes A: mucosal/submucosa; B: muscularis propria; C: regional lymph nodes; D: distant metastasis)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Right Hemicolectomy for cecal/ascending ca; Left Hemicolectomy/Sigmoidectomy for left colon; Total Mesorectal Excision (TME) / APR or LAR for rectal ca."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Right-sided lesions rarely obstruct early due to wide lumen & liquid stool. CEA is NOT for screening, only for post-op recurrence monitoring."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Appendicitis & Appendicular Mass/Abscess",
+      "Tag": "Acute Abdomen",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Luminal obstruction by fecalith (adults) or lymphoid hyperplasia (children). Secondary bacterial infection (E. coli, Bacteroides)."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Periumbilical pain migrating to RIF, anorexia, nausea, fever. Signs: McBurney's tenderness, Rovsing's, Psoas, Obturator sign. Alvarado score."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical diagnosis. Ultrasound Abdomen (first-line in children/females); CECT Abdomen (gold standard in adults/atypical presentation)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Uncomplicated (catarrhal/phlegmonous) vs Complicated (gangrenous, perforated, appendicular mass, appendicular abscess)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Uncomplicated: Emergency Laparoscopic or Open Appendectomy. Mass: Ochsner-Sherren conservative management. Abscess: Percutaneous ultrasound/CT-guided drainage + antibiotics."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Appendicular mass presenting with high fever, chills, and rigors indicates ABSCESS formation requiring drainage, not simple conservative care."
+        }
+      ]
+    },
+    {
+      "Name": "Mechanical Intestinal Obstruction",
+      "Tag": "Intestinal Obstruction",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Small Bowel (SBO): Post-operative adhesions (#1), incarcerated hernias (#2). Large Bowel (LBO): Colorectal carcinoma (#1), volvulus, diverticulitis."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Cardinal Triad: Colicky abdominal pain, vomiting (bilious/feculent), abdominal distension, absolute constipation (no flatus/stool). High-pitched tinkling bowel sounds."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Erect Chest X-ray & Abdominal X-ray (central dilated loops >3cm with step-ladder air-fluid levels in SBO; peripheral loops >6cm/cecum >9cm in LBO). CECT Abdomen (gold standard)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Simple (no ischemia) vs Strangulated (ischemia, systemic toxicity, peritonitis). High (jejunal) vs Low (ileal/colonic) obstruction."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Initial: 'Drip and Suck' (NBM, IV fluids, NG tube decompression). Emergency Laparotomy if signs of strangulation, peritonitis, or failed conservative care."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Cecal diameter > 9 cm on X-ray carries high risk of impending cecal perforation. Strangulation manifests as localized severe tenderness and fever."
+        }
+      ]
+    },
+    {
+      "Name": "Adynamic / Paralytic Ileus",
+      "Tag": "Intestinal Motility",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Post-laparotomy bowel manipulation, retroperitoneal hematoma, hypokalemia, spinal injury, severe intra-abdominal infection/sepsis, anticholinergic drugs."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Painless abdominal distension, nausea, non-projectile vomiting, absolute constipation. Absent or hypocellular bowel sounds (silent abdomen)."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Abdominal X-ray showing diffuse gaseous distension of both small AND large bowel without a discrete transition zone. Serum electrolytes (K+, Mg2+)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Functional (non-mechanical) motility arrest of the gastrointestinal tract."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Conservative management: NBM, NGT decompression, IV fluid replacement, correction of hypokalemia, mobilization. NO SURGERY."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Differentiated from mechanical obstruction by absence of colicky pain and presence of a completely silent abdomen on auscultation."
+        }
+      ]
+    },
+    {
+      "Name": "Hemorrhoids / Piles (Internal vs External)",
+      "Tag": "Perianal Disease",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Enlargement/displacement of normal anal cushions. Risk factors: Straining, chronic constipation, pregnancy, elevated intra-abdominal pressure, portal hypertension."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Bright red, painless bleeding at the end of defecation ('splash on the bowl'). Prolapse of anal cushions. Classically at 3, 7, and 11 o'clock positions (lithotomy position)."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Digital Rectal Exam (DRE) & Proctoscopy/Sigmoidoscopy. Mandatory colonoscopy in older patients to rule out proximal colorectal malignancy."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "1st Degree: Bleeding only, no prolapse; 2nd Degree: Prolapses on straining, reduces spontaneously; 3rd Degree: Requires manual reduction; 4th Degree: Permanently prolapsed."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "1st/2nd Deg: High-fiber diet, stool softeners, Rubber Band Ligation (RBL), Injection Sclerotherapy. 3rd/4th Deg: Open (Milligan-Morgan) or Stapled Hemorrhoidopexy."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Painful hemorrhoid indicates acute strangulation, thrombosis, or external component below dentate line. Rule out colorectal cancer in all bleeding per rectum!"
+        }
+      ]
+    },
+    {
+      "Name": "Anal Fissure (Acute vs Chronic)",
+      "Tag": "Perianal Disease",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Linear tear in the anoderm distal to dentate line. Triggered by passing hard dry stool or severe diarrhea. Chronic hypertonicity of internal anal sphincter."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Excruciating, sharp, 'tearing' pain DURING and AFTER defecation. Spotting of bright red blood on toilet paper. Patient fears bowel movements."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Gentle inspection of perianal skin revealing longitudinal tear (90% in posterior midline). DRE is extremely painful and often deferred during acute phase."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Acute (<6 weeks, clean edges) vs Chronic (>6 weeks, triad: sentinel skin tag, hypertrophied anal papilla, exposed sphincter fibers)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Conservative: High-fiber diet, warm sitz baths, topical GTN (glyceryl trinitrate 0.2%) or Diltiazem ointment. Surgical gold standard: Lateral Internal Sphincterotomy (LIS)."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Off-midline fissures (lateral) raise strong suspicion for Crohn's disease, TB, HIV, or syphilis."
+        }
+      ]
+    },
+    {
+      "Name": "Perianal Abscess & Fistula-in-Ano",
+      "Tag": "Perianal Disease",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Infection of cryptoglandular anal glands in the intersphincteric space. Fistula is chronic phase resulting from spontaneous or inadequate abscess drainage."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Abscess: Severe, constant, throbbing perianal pain, fever, localized tender fluctuant swelling. Fistula: Chronic purulent/serosanguinous discharge from external perianal opening."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical exam. MRI Pelvis / Endoanal Ultrasound for complex fistulae. Examination Under Anesthesia (EUA) with probe insertion."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Park's Classification (Intersphincteric, Transsphincteric, Suprasphincteric, Extrasphincteric). Goodsall's Rule for fistula tract direction."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Abscess: Emergency Incision & Drainage (I&D) near anal verge. Fistula: Fistulotomy (low/simple fistula) or Seton placement / LIFT procedure (high/complex fistula)."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Goodsall's Rule: External opening anterior to transverse line -> straight tract to crypt; External opening posterior -> curved tract entering posterior midline (6 o'clock)."
+        }
+      ]
+    },
+    {
+      "Name": "Indirect Inguinal Hernia",
+      "Tag": "Inguinal Hernia",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Patent processus vaginalis (congenital defect). Hernia sac enters deep inguinal ring, lateral to inferior epigastric vessels, exiting superficial ring into scrotum."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Inguinoscrotal swelling. Controlled by internal ring occlusion test (press over deep ring 1.25 cm above femoral pulse and ask patient to cough - hernia controlled)."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical examination (standing & coughing). Dynamic Ultrasound or CT Scan only if diagnosis is ambiguous."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Reducible vs Irreducible / Obstructed / Strangulated."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Elective Surgical Repair: Open Lichtenstein Tension-Free Mesh Hernioplasty or Laparoscopic TEP / TAPP. (Herniotomy in infants/children)."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Complications include chronic inguinodynia (iliocinguinal/genitofemoral nerve entrapment), ischemic orchitis, testicular atrophy, and hernia recurrence."
+        }
+      ]
+    },
+    {
+      "Name": "Direct Inguinal Hernia",
+      "Tag": "Inguinal Hernia",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Acquired weakness of fascia transversalis / posterior abdominal wall in Hesselbach's triangle (medial to inferior epigastric vessels). Risk: Aging, BPH, chronic cough."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Groin swelling that pushes directly forward. Deep ring occlusion test DOES NOT control the hernia (bulges medial to deep ring on coughing). Rarely descends into scrotum."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical examination. Differentiated from indirect hernia during physical exam and intraoperatively."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Direct inguinal hernia (Hesselbach's triangle boundaries: Rectus sheath medially, Inferior epigastric vessels laterally, Inguinal ligament inferiorly)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Lichtenstein Mesh Hernioplasty or Laparoscopic TEP/TAPP repair."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Direct hernias have a wide neck and very LOW risk of strangulation compared to indirect or femoral hernias."
+        }
+      ]
+    },
+    {
+      "Name": "Femoral Hernia",
+      "Tag": "Femoral Hernia",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Protrusion through femoral ring into femoral canal (below and lateral to pubic tubercle). Common in elderly multiparous females due to wider female pelvis."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Small, tender or non-tender mass in upper thigh/groin below and lateral to pubic tubercle. Frequently presents acutely with bowel obstruction or strangulation."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical exam. Abdominal/Femoral Ultrasound or CT scan in obese patients."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Femoral ring boundaries: Inguinal ligament (anterior), Cooper's/pectineal lig (posterior), Lacunar lig (medial), Femoral vein (lateral)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "MANDATORY Surgical Repair upon diagnosis (due to 30-40% strangulation risk). Low (Lockwood), High (McEvedy), or Transinguinal (Lotheissen) approach."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Femoral hernias ALWAYS require surgical repair even if asymptomatic because of the extremely high risk of bowel gangrene/strangulation."
+        }
+      ]
+    },
+    {
+      "Name": "Ventral / Incisional & Strangulated Hernia",
+      "Tag": "Abdominal Wall Hernia",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Failure of fascial healing post-laparotomy. Risk factors: Wound infection (#1), obesity, malnutrition, steroid use, emergency surgery, raised abdominal pressure."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Bulge at surgical scar site. Strangulation signs: Sudden severe pain, tender irreducible mass, erythema of overlying skin, fever, tachycardia, bowel obstruction."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical exam. CECT Abdomen to map fascial defect size, loss of domain, and content of hernia sac."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Reducible, Incarcerated/Obstructed, Strangulated (compromised blood supply -> gangrene)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Incisional: Open/Laparoscopic Mesh Repair (Sublay/Rives-Stoppa or IPOM). Strangulated: Emergency Laparotomy, resection of ischemic bowel, repair WITHOUT synthetic mesh if contaminated."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Never place synthetic mesh in an infected or contaminated surgical field during emergency gangrenous bowel resection!"
+        }
+      ]
+    },
+    {
+      "Name": "Diverticular Disease & Diverticulitis",
+      "Tag": "Colonic Disease",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Herniation of mucosa/submucosa through muscularis at sites of nutrient artery penetration (false diverticula). Low fiber diet. Diverticulitis = microperforation."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Left lower quadrant (LLQ) abdominal pain ('left-sided appendicitis'), fever, leucocytosis, alteration in bowel habits. Guarding/rebound in acute phase."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "CECT Abdomen & Pelvis (Gold Standard for diverticulitis). Colonoscopy is CONTRAINDICATED in acute diverticulitis due to risk of perforation."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Hinchey Classification (Stage I: Pericolic abscess; Stage II: Pelvic abscess; Stage III: Purulent peritonitis; Stage IV: Fecal peritonitis)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Uncomplicated: Bowel rest, oral/IV antibiotics (Metronidazole + Ciprofloxacin). Complicated (Hinchey III/IV): Emergency Surgery (Hartmann's procedure or resection + primary anastomosis)."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "Diverticulosis is the #1 cause of massive PAINLESS lower GI hemorrhage in the elderly."
+        }
+      ]
+    },
+    {
+      "Name": "Lower Gastrointestinal Bleeding (LGIB)",
+      "Tag": "Lower GI Bleeding",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Bleeding originating distal to ligament of Treitz. Causes: Diverticulosis (#1), Angiodysplasia, Colorectal Ca, Polyps, Ischemic colitis, Hemorrhoids, IBD."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Hematochezia (bright red or maroon blood per rectum). Hemodynamic instability (tachycardia, hypotension) if massive."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Resuscitation first. Colonoscopy (after preparation). CTA (CT Angiography) if active rapid bleeding (>0.5 mL/min). Red blood cell scan / Mesenteric Angiography."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Minor/Moderate vs Massive Hemorrhagic Shock."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Resuscitation (IV crystalloids, PRBCs). Endoscopic clip/cautery. Embolization via interventional radiology. Emergency Subtotal Colectomy if refractory massive bleeding."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "10-15% of heavy 'apparent lower GI bleeding' actually originates from a rapid UPPER GI source; always place an NGT or perform OGDS if unstable!"
+        }
+      ]
+    },
+    {
+      "Name": "Intestinal Stomas (Ileostomy vs Colostomy)",
+      "Tag": "Stoma Management",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Surgical creation of an opening between intestine and anterior abdominal wall. Used for diversion, decompression, or after radical bowel resections."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Ileostomy: Right iliac fossa, spouted (to prevent skin excoriation from alkaline fluid), liquid/semi-solid effluence. Colostomy: Left iliac fossa, flush with skin, formed stool."
+        },
+        {
+          "title": "Diagnostic Workup & Gold Standard",
+          "content": "Clinical stoma site marking and post-operative stoma assessment (color, output volume, viability)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "End vs Loop Stoma. Temporary vs Permanent (e.g., Permanent End Colostomy post-APR for low rectal cancer)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Proper stoma appliance fitting, skin barrier creams. Complications: Stoma necrosis, prolapse, retraction, parastomal hernia, skin excoriation."
+        },
+        {
+          "title": "High-Yield Exam Nuances & Complications",
+          "content": "High-output ileostomy (>1.5 L/day) causes severe dehydration, hyponatremia, and hypokalemia; treat with oral rehydration solution and loperamide."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

@@ -154,6 +154,21 @@ function updateData() {
     console.log(`\n🎉 Success! data.json updated with ${allCards.length} total cards.`);
 }
 
+function getConditionTag(name) {
+    if (/colorectal|colon|rectal|rectum/i.test(name)) return 'Colorectal Surgery';
+    if (/appendic/i.test(name)) return 'Acute Abdomen';
+    if (/obstruction/i.test(name)) return 'Intestinal Obstruction';
+    if (/ileus/i.test(name)) return 'Intestinal Motility';
+    if (/hemorrhoid|fissure|fistula|abscess|perianal/i.test(name)) return 'Perianal Disease';
+    if (/femoral/i.test(name)) return 'Femoral Hernia';
+    if (/inguinal/i.test(name)) return 'Inguinal Hernia';
+    if (/hernia/i.test(name)) return 'Abdominal Wall Hernia';
+    if (/diverticul/i.test(name)) return 'Colonic Disease';
+    if (/bleeding|lgib/i.test(name)) return 'Lower GI Bleeding';
+    if (/stoma|ileostomy|colostomy/i.test(name)) return 'Stoma Management';
+    return 'General Surgery';
+}
+
 function updateDashboardData() {
     console.log('\n🔍 Scanning for dashboard files...');
     
@@ -205,7 +220,7 @@ function updateDashboardData() {
 
             for (let i = 0; i < rawRows.length; i++) {
                 const row = rawRows[i];
-                if (row && row[0] && row[0].toString().trim().toLowerCase() === 'name') {
+                if (row && row[0] && /^(name|condition|entity|disease)/i.test(row[0].toString().trim())) {
                     headerRowIndex = i;
                     headers = row.map(h => h ? h.toString().trim() : '');
                     break;
@@ -218,13 +233,22 @@ function updateDashboardData() {
                     if (!row || row.length < 2) continue;
 
                     const name = row[0] ? row[0].toString().trim() : '';
-                    const tag = row[1] ? row[1].toString().trim() : '';
-
                     if (!name || name.startsWith('Total ')) continue;
+
+                    let tag = 'General';
+                    let startDetailIdx = 2;
+
+                    if (headers[1] && /tag|category|sub-category|group|type/i.test(headers[1])) {
+                        tag = row[1] ? row[1].toString().trim() : 'General';
+                        startDetailIdx = 2;
+                    } else {
+                        tag = getConditionTag(name);
+                        startDetailIdx = 1;
+                    }
 
                     let entry = { Name: name, Tag: tag || 'General', details: [] };
 
-                    for (let j = 2; j < headers.length; j++) {
+                    for (let j = startDetailIdx; j < headers.length; j++) {
                         const headerTitle = headers[j];
                         if (!headerTitle || headerTitle.toLowerCase().includes('database metrics')) continue;
 
@@ -349,17 +373,17 @@ function updateQuizData() {
                     const startIdx = keyHeaderIdx !== -1 ? keyHeaderIdx + 1 : 1;
                     const keyHeaders = keyHeaderIdx !== -1 ? keyRows[keyHeaderIdx].map(h => String(h || '').trim()) : [];
                     
-                    const kTopicIdx = keyHeaders.findIndex(c => /topic|category|sub-topic/i.test(c) && !/summary|stem|prompt/i.test(c));
+                    const kTopicIdx = keyHeaders.findIndex(c => /topic|category|sub-topic|concept/i.test(c) && !/summary|stem|prompt/i.test(c));
                     const kCorrIdx = keyHeaders.findIndex(c => /correct\s*option|correct\s*choice|correct\s*answer|correct|^key$/i.test(c));
                     const kExpIdx = keyHeaders.findIndex(c => /explanation|rationale|medical\s*grounding|note|pearl/i.test(c));
 
                     for (let i = startIdx; i < keyRows.length; i++) {
                         const row = keyRows[i];
-                        if (row && row.length >= 3) {
+                        if (row && row.length >= 2) {
                             const qNum = String(row[0] || '').trim();
                             const topic = kTopicIdx !== -1 ? String(row[kTopicIdx] || '').trim() : '';
-                            const corrOpt = kCorrIdx !== -1 ? String(row[kCorrIdx] || '').trim() : String(row[2] || row[3] || '').trim();
-                            const expl = kExpIdx !== -1 ? String(row[kExpIdx] || '').trim() : String(row[3] || row[4] || '').trim();
+                            const corrOpt = kCorrIdx !== -1 ? String(row[kCorrIdx] || '').trim() : String(row[1] || row[2] || '').trim();
+                            const expl = kExpIdx !== -1 ? String(row[kExpIdx] || '').trim() : '';
                             if (qNum) {
                                 const cleanNum = qNum.replace(/^q\s*/i, '');
                                 keysMap[qNum] = { topic, correct: corrOpt, explanation: expl };
@@ -471,7 +495,9 @@ function updateQuizData() {
                         if (foundIdx !== -1) correctIndex = foundIdx;
                     }
 
-                    let explanation = keyInfo.explanation || (expIdx !== -1 ? String(row[expIdx] || '').trim() : '');
+                    let explanation = (expIdx !== -1 && String(row[expIdx] || '').trim()) 
+                        ? String(row[expIdx]).trim() 
+                        : (keyInfo.explanation || '');
                     if (explanation) {
                         explanation = explanation.replace(/\s*\(\s*(?:Passage|Slide|Page|Source)\b[^)]*\)/gi, '').trim();
                     }
