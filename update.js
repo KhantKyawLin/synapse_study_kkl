@@ -159,7 +159,12 @@ function getConditionTag(name) {
     if (/appendic/i.test(name)) return 'Acute Abdomen';
     if (/obstruction/i.test(name)) return 'Intestinal Obstruction';
     if (/ileus/i.test(name)) return 'Intestinal Motility';
-    if (/hemorrhoid|fissure|fistula|abscess|perianal/i.test(name)) return 'Perianal Disease';
+    if (/breast|fibroadenoma|phyllodes|ductal|lobular|mastit|mastect|nipple|mammary|DCIS|IDC|papilloma/i.test(name)) return 'Breast Surgery';
+    if (/parathyroid|hyperparathyroid/i.test(name)) return 'Parathyroid Surgery';
+    if (/thyroid|goitre|goiter|thyroglossal|papillary.*carcinoma|follicular.*carcinoma|medullary.*carcinoma|anaplastic/i.test(name)) return 'Thyroid Surgery';
+    if (/branchial|neck.*swelling/i.test(name)) return 'Head & Neck Surgery';
+    if (/hemorrhoid|fissure|fistula|perianal/i.test(name)) return 'Perianal Disease';
+    if (/abscess/i.test(name)) return 'Perianal Disease';
     if (/femoral/i.test(name)) return 'Femoral Hernia';
     if (/inguinal/i.test(name)) return 'Inguinal Hernia';
     if (/hernia/i.test(name)) return 'Abdominal Wall Hernia';
@@ -418,16 +423,25 @@ function updateQuizData() {
                 const headers = (rows[headerRowIdx] || []).map(h => String(h || '').trim());
                 
                 const catIdx = headers.findIndex(h => /category|module|tier|difficulty|level|topic/i.test(h) && !/question|\bstem\b|prompt|vignette/i.test(h));
-                let qIdx = headers.findIndex(h => /clinical\s*case|clinical\s*question|vignette|question\s*text|question\s*stem|question\s*prompt|\bstem\b/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
+                let qIdx = headers.findIndex(h => /clinical\s*case|clinical\s*question|clinical\s*scenario|vignette|question\s*text|question\s*stem|question\s*prompt|\bstem\b/i.test(h) && !/total\s*question|question\s*count|q#/i.test(h));
                 if (qIdx === -1) {
                     qIdx = headers.findIndex(h => /question/i.test(h) && !/total|count|q#|number|topic/i.test(h));
+                }
+                if (qIdx === -1) {
+                    qIdx = headers.findIndex(h => /scenario|clinical/i.test(h) && !/total|count|q#/i.test(h));
                 }
                 const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
                 const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
                 const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
                 const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
                 const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h));
-                const ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h));
+                let ansIdx = headers.findIndex(h => /correct\s*ans|correct\s*answer|correct\s*option|correct\s*choice/i.test(h));
+                if (ansIdx === -1) {
+                    ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h) && !/select/i.test(h));
+                }
+                if (ansIdx === -1) {
+                    ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h));
+                }
                 const expIdx = headers.findIndex(h => /explanation|rationale|note/i.test(h));
 
                 for (let i = headerRowIdx + 1; i < rows.length; i++) {
@@ -454,30 +468,53 @@ function updateQuizData() {
                     }
                     
                     let finalStem = questionText;
-                    let options = [
-                        optAIdx !== -1 ? String(row[optAIdx] || '') : String(row[3] || ''),
-                        optBIdx !== -1 ? String(row[optBIdx] || '') : String(row[4] || ''),
-                        optCIdx !== -1 ? String(row[optCIdx] || '') : String(row[5] || ''),
-                        optDIdx !== -1 ? String(row[optDIdx] || '') : String(row[6] || ''),
-                        optEIdx !== -1 ? String(row[optEIdx] || '') : String(row[7] || '')
-                    ].map(o => o.replace(/^[A-E]\)\s*/i, '').trim()).filter(Boolean);
+                    let options = [];
 
-                    if (options.length <= 1) {
-                        const candidateText = (options.length === 1 && /[B-E]\)/i.test(options[0])) 
-                            ? options[0] 
-                            : (/[A-E]\)/i.test(questionText) ? questionText : '');
+                    if (optAIdx !== -1) {
+                        options = [
+                            String(row[optAIdx] || ''),
+                            optBIdx !== -1 ? String(row[optBIdx] || '') : '',
+                            optCIdx !== -1 ? String(row[optCIdx] || '') : '',
+                            optDIdx !== -1 ? String(row[optDIdx] || '') : '',
+                            optEIdx !== -1 ? String(row[optEIdx] || '') : ''
+                        ].map(o => o.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                    }
 
-                        if (candidateText) {
-                            if (candidateText === questionText) {
-                                const parts = questionText.split(/\n?(?=[A-E]\))/);
-                                finalStem = parts[0].trim();
-                                const optPart = parts.slice(1).join('\n');
-                                const rawOptions = optPart.split(/\||\n/).map(o => o.trim()).filter(o => /^[A-E]\)/i.test(o));
-                                options = rawOptions.map(o => o.replace(/^[A-E]\)\s*/i, '').trim());
-                            } else {
-                                const parts = candidateText.split(/\r?\n(?=[A-E]\)|\([A-E]\)|[A-E]\.)|\s+(?=[B-E]\)|\([B-E]\)|[B-E]\.)/i);
-                                options = parts.map(p => p.replace(/^(?:[A-E]\)|\([A-E]\)|[A-E]\.)\s*/i, '').trim()).filter(Boolean);
+                    if (options.length < 3 && /[A-E][.)]\s/.test(questionText)) {
+                        const parts = questionText.split(/\r?\n\s*(?=[A-E][.)]\s)|\s+(?=[B-E][.)]\s)/i);
+                        if (parts.length >= 4) {
+                            finalStem = parts[0].trim();
+                            const candidateOpts = parts.slice(1).map(p => p.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                            if (candidateOpts.length >= 3) {
+                                options = candidateOpts;
                             }
+                        }
+                    }
+
+                    if (options.length < 3) {
+                        for (let c = 1; c < row.length; c++) {
+                            const val = String(row[c] || '').trim();
+                            if (/[A-E][.)]\s/.test(val) && /[B-E][.)]\s/.test(val)) {
+                                const parts = val.split(/\r?\n\s*(?=[A-E][.)]\s)|\s+(?=[B-E][.)]\s)/i);
+                                const candidateOpts = parts.map(p => p.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                                if (candidateOpts.length >= 3) {
+                                    options = candidateOpts;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    if (options.length < 3 && optAIdx === -1) {
+                        const fallbackOpts = [
+                            String(row[3] || ''),
+                            String(row[4] || ''),
+                            String(row[5] || ''),
+                            String(row[6] || ''),
+                            String(row[7] || '')
+                        ].map(o => o.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                        if (fallbackOpts.length >= 3) {
+                            options = fallbackOpts;
                         }
                     }
 

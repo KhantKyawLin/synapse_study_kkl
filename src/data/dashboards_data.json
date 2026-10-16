@@ -4059,6 +4059,428 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 7 Database": [
+    {
+      "Name": "Fibroadenoma of Breast",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Aberration of normal lobular development (ANDI); estrogen-dependent proliferation of stromal and epithelial elements in females 15-35 yrs."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painless, highly mobile, smooth, firm, non-tender, discrete breast lump ('breast mouse'). No skin tethering or lymphadenopathy."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Triple Assessment: Clinical exam + Breast USG (well-circumscribed hypoechoic oval lesion) + Core Needle Biopsy (CNB)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Benign fibroepithelial tumor. Giant fibroadenoma if >5 cm."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Reassurance & conservative observation if <3 cm, asymptomatic, and triple assessment benign. Excision biopsy if >3 cm, growing, painful, or patient preference."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Most common benign breast lump in young females. Highly mobile ('breast mouse'). Never metastasizes."
+        }
+      ]
+    },
+    {
+      "Name": "Phyllodes Tumor (Cystosarcoma)",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Biphasic fibroepithelial tumor with hypercellular stroma; females 40-50 yrs."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Large, rapidly growing, smooth, lobulated, painless breast mass; overlying skin may show dilated veins and pressure necrosis."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Mammography / USG (large circumscribed mass). CNB required to evaluate stromal cellularity and atypia."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Graded as Benign, Borderline, or Malignant based on stromal cellularity, mitoses, nuclear atypia, and margin infiltrative nature."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Wide Local Excision with ≥1 cm clear histological margins. Total mastectomy if large tumor/breast ratio. Axillary lymph node dissection NOT required (hematogenous spread)."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Leaf-like architecture ('phyllodes'). Spreads hematogenously (to lungs), not lymphatically. Axillary nodes usually reactive."
+        }
+      ]
+    },
+    {
+      "Name": "Ductal Carcinoma In Situ (DCIS)",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Non-invasive proliferation of malignant epithelial cells confined within basement membrane of breast ducts. Nulliparity, early menarche, late menopause, BRCA1/2."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Usually asymptomatic; detected on screening mammography as pleomorphic microcalcifications. Rarely presents with nipple discharge."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Mammography (grouped microcalcifications) + Stereotactic Core Needle Biopsy."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Stage 0 (TisN0M0). Subtyped by architectural pattern (Comedo with central necrosis vs Non-comedo)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Breast-Conserving Surgery (BCS / Wide Local Excision) with postoperative Radiotherapy OR Mastectomy (if widespread/multicentric). Tamoxifen if ER+."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Non-invasive (does not breach basement membrane). Microcalcifications on screening mammogram are pathognomonic."
+        }
+      ]
+    },
+    {
+      "Name": "Invasive Ductal Carcinoma (IDC)",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Most common invasive breast cancer (80%). Estrogen exposure, BRCA1/2 mutations, family history, obesity, alcohol, postmenopausal HRT."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painless, hard, irregular, solitary breast mass; skin dimpling, tethering, nipple retraction, peau d'orange, or axillary lymphadenopathy."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Triple Assessment: Mammography (spiculated mass) + USG + Core Needle Biopsy (ER/PR, HER2/neu, Ki-67 receptor status). CECT for staging."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "TNM Staging (T1-T4, N0-N3, M0-M1). Histological grading (Nottingham/Scarff-Bloom-Richardson score)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "BCS + Radiotherapy OR Modified Radical Mastectomy (MRM). Sentinel Lymph Node Biopsy (SLNB) if N0; Axillary Lymph Node Dissection (ALND) if N+. Tamoxifen/Aromatase Inhibitors (Letrozole) if ER+, Trastuzumab if HER2+."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Peau d'orange = dermal lymphatic invasion (T4b). SLNB prevents lymphoedema in node-negative disease."
+        }
+      ]
+    },
+    {
+      "Name": "Intraductal Papilloma & Nipple Discharge",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Benign papillary neoplastic growth of lactiferous ducts beneath the areola; females 30-50 yrs."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Spontaneous, single-duct, bloody or serosanguinous nipple discharge. Small subareolar trigger point may be felt."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Mammography & USG (subareolar duct dilation) + Cytology of discharge + Ductoscopy / Galactography."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Benign solitary intraductal lesion. Differential includes duct ectasia and intraductal carcinoma."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Microdochectomy (excision of single affected duct) or Hadfield's operation (total duct excision for multiple ducts/older females)."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Most common cause of true blood-stained nipple discharge. Subareolar trigger zone."
+        }
+      ]
+    },
+    {
+      "Name": "Breast Abscess & Acute Mastitis",
+      "Tag": "Breast Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Staphylococcus aureus infection during lactation (cracked nipples, milk stasis) or subareolar in smokers."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painful, swollen, erythematous, warm breast mass with systemic fever, chills, and tender fluctuation (abscess)."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Clinical diagnosis + Breast Ultrasound (fluid collection with acoustic enhancement). Pus culture and sensitivity."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Puerperal (lactational) vs Non-puerperal (periductal/subareolar) breast abscess."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "USG-guided needle aspiration (repeated as needed) + oral Flucloxacillin / Co-amoxiclav. Incision and drainage reserved for multiloculated/large abscesses. Continue breastfeeding/pumping."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "S. aureus #1 pathogen. USG-guided aspiration is first-line over open incision & drainage to prevent scarring."
+        }
+      ]
+    },
+    {
+      "Name": "Simple Multinodular Goitre (MNG)",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Iodine deficiency or dyshormonogenesis leading to fluctuating TSH levels, causing alternating hyperplasia and colloid involution."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painless, nodular, asymmetrical thyroid swelling moving upwards on swallowing. May cause retrosternal extension, dyspnea, or dysphagia."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Thyroid Function Tests (euthyroid, T3/T4 normal, TSH normal) + Thyroid USG (multiple nodules) + FNAC of dominant nodule."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Euthyroid benign multinodular enlargement. WHO Goitre Grading (0 to 2)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Observation if asymptomatic. Total or Subtotal Thyroidectomy indicated for compressive symptoms (stridor, dysphagia), retrosternal extension, or suspected malignancy."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Moves upwards on swallowing due to attachment of pretracheal fascia to thyroid cartilage."
+        }
+      ]
+    },
+    {
+      "Name": "Papillary Thyroid Carcinoma",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Most common thyroid cancer (80-85%). History of childhood ionizing radiation exposure; RET/PTC rearrangements, BRAF mutations."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painless, firm thyroid nodule or cervical lymphadenopathy ('orphan' cervical mass). Moves on swallowing."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "USG Thyroid (microcalcifications, hypoechoic, irregular) + FNAC: Psammoma bodies, Orphan Annie eyes nuclei, nuclear grooves."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "TNM Staging. Spreads primarily via LYMPHATICS to regional cervical lymph nodes."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Total Thyroidectomy + Central/Lateral Neck Dissection if nodes positive. Post-op Radioiodine (RAI 131) ablation + TSH suppression therapy (Levothyroxine)."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Psammoma bodies & Orphan Annie nuclei on FNAC. Excellent prognosis (>90% 10-year survival). Spreads lymphatically."
+        }
+      ]
+    },
+    {
+      "Name": "Follicular Thyroid Carcinoma",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Second most common thyroid cancer (10-15%). Common in iodine-deficient areas; RAS mutations, PAX8-PPARγ."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Solitary thyroid nodule in females 40-60 yrs. May present with distant bone or lung metastasis."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "USG Thyroid + FNAC (shows follicular neoplasm, CANNOT distinguish carcinoma from benign adenoma) + Histology (capsular/vascular invasion)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "TNM Staging. Spreads primarily HEMATOGENOUSLY to lungs and bones."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Total Thyroidectomy + RAI 131 ablation + TSH suppression. Serum Thyroglobulin monitored as tumor marker post-operatively."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "FNAC CANNOT diagnose follicular cancer (requires histology showing capsular/vascular invasion). Hematogenous spread to bones."
+        }
+      ]
+    },
+    {
+      "Name": "Medullary Thyroid Carcinoma (MTC)",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Neuroendocrine tumor arising from parafollicular C-cells (secrete Calcitonin). 25% familial (MEN 2A/2B, RET proto-oncogene mutation)."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Solitary thyroid nodule, cervical lymphadenopathy, flushing, and watery diarrhea (due to VIP/calcitonin secretion)."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Serum Calcitonin & CEA markedly elevated. FNAC (amyloid stroma, Congo red positive) + RET gene screening + Rule out Pheochromocytoma."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "TNM Staging. Sporadic (75%) vs Familial MEN 2A/2B (25%)."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Total Thyroidectomy + Central Compartment Neck Dissection. Prophylactic total thyroidectomy in RET-mutation carriers. RAI 131 NOT effective (C-cells do not concentrate iodine)."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Elevated Serum Calcitonin. Amyloid stroma on histology. Must rule out Pheochromocytoma before surgery in MEN 2!"
+        }
+      ]
+    },
+    {
+      "Name": "Anaplastic Thyroid Carcinoma",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Undifferentiated, highly aggressive thyroid cancer in elderly (>65 yrs); associated with p53 and β-catenin mutations."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Rapidly enlarging, hard, fixed, painful thyroid mass with severe local invasion (dysphagia, stridor, hoarseness, vocal cord paralysis)."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "CT Neck/Chest (extensive local tissue destruction) + FNAC/Core biopsy (pleomorphic giant cells, spindle cells, frequent mitoses)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Stage IV by definition (IV A, B, or C). Highly lethal."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Palliative management: Airway protection (emergency tracheostomy or debulking) + Radiotherapy + Chemotherapy. Surgical resection rarely feasible."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Worst prognosis in oncology (<6 months median survival). Rapidly enlarging fixed woody neck mass in elderly."
+        }
+      ]
+    },
+    {
+      "Name": "Primary Hyperparathyroidism",
+      "Tag": "Parathyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Solitary Parathyroid Adenoma (85%), Parathyroid Hyperplasia (10–15%), Parathyroid Carcinoma (<1%). Associated with MEN 1 & MEN 2A."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "'Bones, stones, abdominal groans, and psychic moans' (osteitis fibrosa cystica, nephrolithiasis, peptic ulcer, acute pancreatitis, depression)."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Elevated Serum Calcium + Elevated PTH + Decreased Phosphate. 99mTc-Sestamibi scan & Neck USG for adenoma localization."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Benign adenoma vs 4-gland hyperplasia."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Focused Parathyroidectomy (if localized) or Subtotal Parathyroidectomy (for 4-gland hyperplasia). Medical management: IV 0.9% Saline + Furosemide + Bisphosphonates / Cinacalcet for acute severe hypercalcemia."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "High Ca2+ + High PTH is diagnostic. Sestamibi scan localizes adenoma pre-operatively."
+        }
+      ]
+    },
+    {
+      "Name": "Thyroglossal Duct Cyst",
+      "Tag": "Thyroid Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Congenital failure of complete obliteration of embryological thyroglossal duct during thyroid descent from foramen cecum."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Painless, smooth, fluctuant midline neck mass below hyoid bone in children/young adults. Moves UPWARDS on swallowing AND tongue protrusion."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Clinical exam + Neck USG (cystic midline structure, confirm presence of normal thyroid in neck)."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Benign congenital cyst. Infection can lead to thyroglossal fistula."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Sistrunk Operation: Complete excision of cyst, entire thyroglossal tract, and central core of hyoid bone to prevent recurrence."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Moves on tongue protrusion (pathognomonic). Sistrunk operation requires excision of central hyoid bone."
+        }
+      ]
+    },
+    {
+      "Name": "Branchial Cyst & Neck Swellings",
+      "Tag": "Head & Neck Surgery",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Congenital remnant of 2nd branchial cleft due to failure of obliteration of cervical sinus of His; young adults 15-30 yrs."
+        },
+        {
+          "title": "Clinical Presentation",
+          "content": "Smooth, fluctuant, non-tender lateral neck swelling along anterior border of upper 1/3 of sternocleidomastoid muscle."
+        },
+        {
+          "title": "Diagnostic Workup & Findings",
+          "content": "Neck USG + FNAC (shows cholesterol crystals in fluid). CT Neck for complex cases."
+        },
+        {
+          "title": "Staging / Classification",
+          "content": "Benign congenital lateral neck cyst."
+        },
+        {
+          "title": "Surgical & Medical Management",
+          "content": "Complete surgical excision of cyst and any associated fistulous tract after controlling acute infection with antibiotics."
+        },
+        {
+          "title": "High-Yield Exam Pearls",
+          "content": "Lateral neck mass at anterior border of sternocleidomastoid. FNAC yields fluid with cholesterol crystals."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",
