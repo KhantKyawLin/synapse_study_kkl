@@ -326,13 +326,20 @@ CREATE TABLE IF NOT EXISTS public.quiz_attempts (
   percentage INTEGER NOT NULL,
   is_full_quiz BOOLEAN DEFAULT false,
   time_spent_seconds INTEGER NOT NULL,
+  is_deleted BOOLEAN DEFAULT false,
+  deleted_at TIMESTAMP WITH TIME ZONE,
   completed_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
+
+-- Migration for existing quiz_attempts table:
+-- ALTER TABLE public.quiz_attempts ADD COLUMN IF NOT EXISTS is_deleted BOOLEAN DEFAULT false;
+-- ALTER TABLE public.quiz_attempts ADD COLUMN IF NOT EXISTS deleted_at TIMESTAMP WITH TIME ZONE;
 ```
 
 ### 6.2 Admin Portal & User Verification
 * Real-time metrics of verified vs pending students.
 * 1-Click Approve/Reject buttons with direct **"✉️ Email Student"** link launching pre-filled approval notices.
+* **Certificate Recovery Hub**: View all soft-deleted exam records across all students and restore certificates with 1-click if students delete by accident.
 
 ---
 

@@ -60,7 +60,9 @@ export function useQuizHistory() {
         if (error) throw error;
 
         if (isMounted && data) {
-          setHistory(data);
+          // Exclude soft-deleted records from active history view
+          const activeRecords = data.filter((item) => !item.is_deleted);
+          setHistory(activeRecords);
         }
       } catch (err) {
         console.error('Error fetching quiz history from cloud:', err);
@@ -94,6 +96,7 @@ export function useQuizHistory() {
         is_full_quiz: Boolean(attempt.is_full_quiz),
         time_spent_seconds: attempt.time_spent_seconds || 0,
         total_allocated_seconds: attempt.total_allocated_seconds,
+        is_deleted: false,
         completed_at: attempt.completed_at || new Date().toISOString(),
       };
 
@@ -113,6 +116,7 @@ export function useQuizHistory() {
             percentage: newRecord.percentage,
             is_full_quiz: newRecord.is_full_quiz,
             time_spent_seconds: newRecord.time_spent_seconds,
+            is_deleted: false,
             completed_at: newRecord.completed_at,
           };
 
@@ -137,28 +141,62 @@ export function useQuizHistory() {
     [user]
   );
 
-  // Delete a quiz attempt locally and in Supabase
+  // Soft-delete a quiz attempt locally and in Supabase
   const deleteQuizAttempt = useCallback(
     async (attemptId) => {
       if (!attemptId) return;
 
-      // Update state locally immediately
+      // Optimistically remove from active view immediately
       setHistory((prev) => prev.filter((item) => item.id !== attemptId));
 
-      // If user is authenticated, delete from Supabase
+      // Soft delete in Supabase by setting is_deleted: true and timestamp
       if (isSupabaseConfigured && supabase && user) {
         try {
-          await supabase
+          const { error } = await supabase
             .from('quiz_attempts')
-            .delete()
+            .update({ 
+              is_deleted: true, 
+              deleted_at: new Date().toISOString() 
+            })
             .eq('id', attemptId)
             .eq('user_id', user.id);
+
+          if (error) {
+            console.error('Failed to soft delete quiz attempt in Supabase:', error);
+          }
         } catch (err) {
-          console.error('Failed to delete quiz attempt from Supabase:', err);
+          console.error('Failed to soft delete quiz attempt from Supabase:', err);
         }
       }
     },
     [user]
+  );
+
+  // Restore a soft-deleted quiz attempt
+  const restoreQuizAttempt = useCallback(
+    async (attemptId) => {
+      if (!attemptId) return null;
+
+      if (isSupabaseConfigured && supabase) {
+        try {
+          const { data, error } = await supabase
+            .from('quiz_attempts')
+            .update({ is_deleted: false, deleted_at: null })
+            .eq('id', attemptId)
+            .select()
+            .single();
+
+          if (!error && data) {
+            setHistory((prev) => [data, ...prev.filter((item) => item.id !== attemptId)]);
+            return data;
+          }
+        } catch (err) {
+          console.error('Failed to restore quiz attempt:', err);
+        }
+      }
+      return null;
+    },
+    []
   );
 
   // Compute aggregate metrics
@@ -181,6 +219,7 @@ export function useQuizHistory() {
     loading,
     saveQuizAttempt,
     deleteQuizAttempt,
+    restoreQuizAttempt,
     stats,
   };
 }

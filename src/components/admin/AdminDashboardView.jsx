@@ -4,7 +4,8 @@ import { supabase } from '../../lib/supabase';
 import { sendApprovalEmail, sendRejectionEmail, openMailClient } from '../../lib/emailService';
 import { 
   ShieldCheck, Users, Clock, CheckCircle2, XCircle, Search, 
-  RefreshCw, Mail, Check, X, AlertCircle, Loader2, Award, Calendar, ExternalLink 
+  RefreshCw, Mail, Check, X, AlertCircle, Loader2, Award, Calendar, ExternalLink,
+  RotateCcw, Trash2
 } from 'lucide-react';
 
 export default function AdminDashboardView() {
@@ -15,6 +16,12 @@ export default function AdminDashboardView() {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState('all'); // 'all' | 'pending' | 'approved' | 'rejected'
   const [toastMsg, setToastMsg] = useState(null);
+
+  // Certificate Recovery States
+  const [activeAdminTab, setActiveAdminTab] = useState('students'); // 'students' | 'certificates'
+  const [deletedAttempts, setDeletedAttempts] = useState([]);
+  const [deletedLoading, setDeletedLoading] = useState(false);
+  const [deletedSearchQuery, setDeletedSearchQuery] = useState('');
 
   const fetchAllProfiles = useCallback(async () => {
     if (!supabase) return;
@@ -35,13 +42,57 @@ export default function AdminDashboardView() {
     }
   }, [refreshPendingCount]);
 
+  const fetchDeletedAttempts = useCallback(async () => {
+    if (!supabase) return;
+    try {
+      setDeletedLoading(true);
+      const { data, error } = await supabase
+        .from('quiz_attempts')
+        .select('*')
+        .eq('is_deleted', true)
+        .order('completed_at', { ascending: false });
+
+      if (error) {
+        console.warn('quiz_attempts soft-delete query note:', error.message);
+        return;
+      }
+      setDeletedAttempts(data || []);
+    } catch (err) {
+      console.error('Error fetching soft-deleted attempts:', err);
+    } finally {
+      setDeletedLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     fetchAllProfiles();
-  }, [fetchAllProfiles]);
+    fetchDeletedAttempts();
+  }, [fetchAllProfiles, fetchDeletedAttempts]);
 
   const showToast = (msg, type = 'success') => {
     setToastMsg({ text: msg, type });
     setTimeout(() => setToastMsg(null), 3500);
+  };
+
+  const handleRestoreAttempt = async (attempt) => {
+    if (!supabase || actionLoadingId) return;
+    try {
+      setActionLoadingId(attempt.id);
+
+      const { error } = await supabase
+        .from('quiz_attempts')
+        .update({ is_deleted: false, deleted_at: null })
+        .eq('id', attempt.id);
+
+      if (error) throw error;
+
+      setDeletedAttempts((prev) => prev.filter((a) => a.id !== attempt.id));
+      showToast(`✅ Successfully restored exam certificate for ${attempt.student_name} (${attempt.module_name})!`);
+    } catch (err) {
+      showToast(`Error restoring certificate: ${err.message}`, 'error');
+    } finally {
+      setActionLoadingId(null);
+    }
   };
 
   // Handle Approve from List
@@ -132,6 +183,16 @@ export default function AdminDashboardView() {
     return matchesStatus && matchesSearch;
   });
 
+  const filteredDeletedAttempts = deletedAttempts.filter((a) => {
+    if (!deletedSearchQuery.trim()) return true;
+    const q = deletedSearchQuery.toLowerCase();
+    return (
+      (a.student_name || '').toLowerCase().includes(q) ||
+      (a.module_name || '').toLowerCase().includes(q) ||
+      (a.category || '').toLowerCase().includes(q)
+    );
+  });
+
   if (!isAdmin) {
     return (
       <div className="w-full max-w-lg mx-auto px-4 py-16 text-center animate-fadeIn">
@@ -188,17 +249,63 @@ export default function AdminDashboardView() {
         </div>
 
         <button
-          onClick={fetchAllProfiles}
-          disabled={loading}
-          className="self-start sm:self-auto flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-100 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:border-cyanPrimary/50 active:scale-95 transition-all shadow-sm"
+          onClick={() => {
+            fetchAllProfiles();
+            fetchDeletedAttempts();
+          }}
+          disabled={loading || deletedLoading}
+          className="self-start sm:self-auto flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold bg-slate-100 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white hover:border-cyanPrimary/50 active:scale-95 transition-all shadow-sm cursor-pointer"
         >
-          <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
-          <span>Refresh List</span>
+          <RefreshCw className={`w-3.5 h-3.5 ${loading || deletedLoading ? 'animate-spin' : ''}`} />
+          <span>Refresh Data</span>
         </button>
       </div>
 
-      {/* Analytics Summary Bar */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6">
+      {/* Admin Module Tabs: Student Registrations vs Certificate Recovery */}
+      <div className="flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 mb-6 pb-2 overflow-x-auto">
+        <button
+          onClick={() => setActiveAdminTab('students')}
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            activeAdminTab === 'students'
+              ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/25'
+              : 'bg-white dark:bg-[#161b22] text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:text-slate-900 dark:hover:text-white'
+          }`}
+        >
+          <Users className="w-4 h-4" />
+          <span>Student Approvals ({profiles.length})</span>
+          {pendingStudents.length > 0 && (
+            <span className="px-1.5 py-0.5 rounded-full text-[10px] bg-amber-500 text-white font-black animate-pulse">
+              {pendingStudents.length}
+            </span>
+          )}
+        </button>
+
+        <button
+          onClick={() => {
+            setActiveAdminTab('certificates');
+            fetchDeletedAttempts();
+          }}
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            activeAdminTab === 'certificates'
+              ? 'bg-cyanPrimary text-white shadow-md shadow-cyanPrimary/25'
+              : 'bg-white dark:bg-[#161b22] text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:text-slate-900 dark:hover:text-white'
+          }`}
+        >
+          <RotateCcw className="w-4 h-4" />
+          <span>Certificate Recovery Hub</span>
+          {deletedAttempts.length > 0 && (
+            <span className="px-1.5 py-0.5 rounded-full text-[10px] bg-rose-500 text-white font-black">
+              {deletedAttempts.length}
+            </span>
+          )}
+        </button>
+      </div>
+
+      {/* TAB 1: STUDENT REGISTRATIONS & APPROVALS */}
+      {activeAdminTab === 'students' && (
+        <>
+          {/* Analytics Summary Bar */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6">
         <div className="p-4 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center justify-between shadow-sm">
           <div>
             <span className="text-slate-500 dark:text-slate-400 text-xs font-medium block">Total Registered</span>
@@ -459,7 +566,191 @@ export default function AdminDashboardView() {
             );
           })
         )}
-      </div>
+          </div>
+        </>
+      )}
+
+      {/* TAB 2: CERTIFICATE RECOVERY HUB */}
+      {activeAdminTab === 'certificates' && (
+        <div className="flex flex-col gap-6 animate-fadeIn">
+          {/* Recovery Hub Analytics */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+            <div className="p-4 bg-white dark:bg-[#161b22] border border-rose-500/30 rounded-xl flex items-center justify-between shadow-sm">
+              <div>
+                <span className="text-rose-600 dark:text-rose-400 text-xs font-semibold block">
+                  Soft-Deleted Records
+                </span>
+                <span className="text-2xl font-black text-rose-700 dark:text-rose-300 mt-1 block">
+                  {deletedAttempts.length}
+                </span>
+                <span className="text-[10px] text-slate-400 block mt-0.5">
+                  Archived quiz attempts
+                </span>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-rose-500/10 flex items-center justify-center text-rose-600 dark:text-rose-400">
+                <Trash2 className="w-5 h-5" />
+              </div>
+            </div>
+
+            <div className="p-4 bg-white dark:bg-[#161b22] border border-emerald-500/30 rounded-xl flex items-center justify-between shadow-sm">
+              <div>
+                <span className="text-emerald-700 dark:text-emerald-400 text-xs font-bold block">
+                  Passed Certificates
+                </span>
+                <span className="text-2xl font-black text-emerald-600 dark:text-emerald-300 mt-1 block">
+                  {deletedAttempts.filter((a) => (a.percentage || 0) >= 60).length}
+                </span>
+                <span className="text-[10px] text-emerald-600/80 dark:text-emerald-400/80 font-medium block mt-0.5">
+                  Eligible for verified restore (≥60%)
+                </span>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/40 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
+                <Award className="w-5 h-5" />
+              </div>
+            </div>
+
+            <div className="p-4 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-xl flex items-center justify-between shadow-sm">
+              <div>
+                <span className="text-slate-500 dark:text-slate-400 text-xs font-medium block">
+                  Instant Restoration
+                </span>
+                <span className="text-sm font-bold text-slate-900 dark:text-white mt-1 block">
+                  1-Click Restore
+                </span>
+                <span className="text-[10px] text-slate-400 block mt-0.5">
+                  Instantly returns to student hub
+                </span>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-cyanPrimary/10 border border-cyanPrimary/30 flex items-center justify-center text-sky-700 dark:text-cyanGlow">
+                <RotateCcw className="w-5 h-5" />
+              </div>
+            </div>
+          </div>
+
+          {/* Search Toolbar */}
+          <div className="flex items-center justify-between gap-3 p-4 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm">
+            <div className="relative flex-1">
+              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                <Search className="w-4 h-4" />
+              </div>
+              <input
+                type="text"
+                placeholder="Search deleted records by student name, module, or category..."
+                value={deletedSearchQuery}
+                onChange={(e) => setDeletedSearchQuery(e.target.value)}
+                className="w-full bg-slate-50 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white text-xs font-medium rounded-xl pl-9 pr-4 py-2.5 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:border-cyanPrimary"
+              />
+            </div>
+          </div>
+
+          {/* Deleted Records List */}
+          <div className="space-y-3">
+            {deletedLoading ? (
+              <div className="text-center py-16 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl">
+                <Loader2 className="w-8 h-8 animate-spin text-cyanPrimary mx-auto mb-2" />
+                <p className="text-xs text-slate-500 dark:text-slate-400">Scanning for soft-deleted records...</p>
+              </div>
+            ) : filteredDeletedAttempts.length === 0 ? (
+              <div className="text-center py-16 bg-white dark:bg-[#161b22] border border-slate-200 dark:border-slate-800 rounded-2xl shadow-sm">
+                <CheckCircle2 className="w-10 h-10 text-emerald-500 mx-auto mb-2" />
+                <p className="text-sm font-bold text-slate-800 dark:text-slate-300">
+                  {deletedSearchQuery ? 'No Matching Deleted Records Found' : 'No Soft-Deleted Certificates'}
+                </p>
+                <p className="text-xs text-slate-500 mt-1 max-w-md mx-auto">
+                  {deletedSearchQuery 
+                    ? 'Try adjusting your search query.' 
+                    : 'All student certificates and quiz attempt records are active in their respective accounts.'}
+                </p>
+              </div>
+            ) : (
+              filteredDeletedAttempts.map((attempt) => {
+                const isPassed = (attempt.percentage || 0) >= 60;
+                const isActionLoading = actionLoadingId === attempt.id;
+
+                return (
+                  <div
+                    key={attempt.id}
+                    className="p-4 rounded-2xl border border-rose-300/60 dark:border-rose-500/30 bg-rose-50/40 dark:bg-[#161b22] hover:border-cyanPrimary/40 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm"
+                  >
+                    <div className="flex items-start sm:items-center gap-3.5">
+                      <div
+                        className={`w-11 h-11 rounded-xl flex items-center justify-center font-black text-sm shrink-0 border ${
+                          isPassed
+                            ? 'bg-emerald-500/15 border-emerald-500/40 text-emerald-700 dark:text-emerald-400'
+                            : 'bg-rose-500/15 border-rose-500/40 text-rose-700 dark:text-rose-400'
+                        }`}
+                      >
+                        {attempt.percentage}%
+                      </div>
+
+                      <div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-sm font-bold text-slate-900 dark:text-white">
+                            {attempt.module_name}
+                          </span>
+                          {attempt.category && attempt.category !== 'All' && (
+                            <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-cyanPrimary/10 text-sky-700 dark:text-cyanGlow border border-cyanPrimary/20">
+                              {attempt.category}
+                            </span>
+                          )}
+                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-500/15 dark:bg-rose-500/20 text-rose-700 dark:text-rose-400 border border-rose-500/30">
+                            Soft-Deleted
+                          </span>
+                        </div>
+
+                        <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400 mt-1 flex-wrap">
+                          <span className="font-semibold text-slate-800 dark:text-slate-200">
+                            Student: {attempt.student_name}
+                          </span>
+                          <span className="text-slate-400">
+                            Score: {attempt.score} / {attempt.total_questions} Correct
+                          </span>
+                          {attempt.completed_at && (
+                            <span className="flex items-center gap-1 text-[11px] text-slate-400">
+                              <Calendar className="w-3 h-3" />
+                              Completed: {new Date(attempt.completed_at).toLocaleDateString('en-US', {
+                                month: 'short',
+                                day: 'numeric',
+                                year: 'numeric',
+                              })}
+                            </span>
+                          )}
+                          {attempt.deleted_at && (
+                            <span className="text-[11px] text-rose-500/90 dark:text-rose-400 font-medium">
+                              Deleted: {new Date(attempt.deleted_at).toLocaleDateString('en-US', {
+                                month: 'short',
+                                day: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit',
+                              })}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Restore Action Button */}
+                    <div className="flex items-center gap-2 self-end sm:self-auto">
+                      <button
+                        onClick={() => handleRestoreAttempt(attempt)}
+                        disabled={isActionLoading}
+                        className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-md shadow-emerald-600/20 active:scale-95 transition-all cursor-pointer disabled:opacity-50"
+                      >
+                        {isActionLoading ? (
+                          <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                        ) : (
+                          <RotateCcw className="w-3.5 h-3.5" />
+                        )}
+                        <span>Restore Certificate</span>
+                      </button>
+                    </div>
+                  </div>
+                );
+              })
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

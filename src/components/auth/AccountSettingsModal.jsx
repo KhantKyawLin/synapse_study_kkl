@@ -1177,7 +1177,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
               Delete Exam Record?
             </h3>
             <p className="text-xs text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
-              Are you sure you want to delete this exam attempt record from your history? This action cannot be undone.
+              Are you sure you want to remove this exam record from your history? If removed by accident, an administrator can restore it for you.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
