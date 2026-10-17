@@ -125,6 +125,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
 
   // Certificate Detail View in History
   const [selectedAttempt, setSelectedAttempt] = useState(null);
+  const [deleteConfirmAttemptId, setDeleteConfirmAttemptId] = useState(null);
   const [isExporting, setIsExporting] = useState(false);
   const [copiedSuccess, setCopiedSuccess] = useState(false);
   const certRef = useRef(null);
@@ -878,12 +879,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                         </button>
 
                         <button
-                          onClick={() => {
-                            if (window.confirm('Are you sure you want to delete this exam record from your history?')) {
-                              deleteQuizAttempt(selectedAttempt.id);
-                              setSelectedAttempt(null);
-                            }
-                          }}
+                          onClick={() => setDeleteConfirmAttemptId(selectedAttempt.id)}
                           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 border border-rose-500/30 hover:border-rose-500/50 transition-all shadow-sm cursor-pointer"
                         >
                           <Trash2 className="w-3.5 h-3.5" />
@@ -1141,14 +1137,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                                     )}
 
                                     <button
-                                      onClick={() => {
-                                        if (window.confirm('Delete this exam attempt record from your history?')) {
-                                          deleteQuizAttempt(item.id);
-                                          if (selectedAttempt?.id === item.id) {
-                                            setSelectedAttempt(null);
-                                          }
-                                        }
-                                      }}
+                                      onClick={() => setDeleteConfirmAttemptId(item.id)}
                                       title="Delete attempt record"
                                       className="p-1.5 rounded-lg text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 border border-transparent hover:border-rose-500/20 transition-all cursor-pointer"
                                     >
@@ -1169,6 +1158,55 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
           )}
         </div>
       </div>
+
+      {/* Custom Delete Attempt Confirmation Modal */}
+      {deleteConfirmAttemptId && (
+        <div 
+          className="fixed inset-0 z-[70] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn"
+          onClick={() => setDeleteConfirmAttemptId(null)}
+        >
+          <div 
+            className="w-full max-w-sm bg-white dark:bg-[#161b22] border border-slate-300 dark:border-rose-500/30 rounded-2xl p-6 shadow-2xl shadow-black/50 relative text-slate-800 dark:text-slate-200 text-center animate-fadeIn transition-colors duration-200"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="w-12 h-12 rounded-xl bg-rose-500/15 dark:bg-rose-500/20 border border-rose-500/40 flex items-center justify-center mx-auto mb-3 text-rose-600 dark:text-rose-400 shadow-md shadow-rose-500/10">
+              <Trash2 className="w-6 h-6" />
+            </div>
+
+            <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-1">
+              Delete Exam Record?
+            </h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+              Are you sure you want to delete this exam attempt record from your history? This action cannot be undone.
+            </p>
+
+            <div className="grid grid-cols-2 gap-3">
+              <button
+                type="button"
+                onClick={() => setDeleteConfirmAttemptId(null)}
+                className="py-2.5 rounded-xl text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors cursor-pointer"
+              >
+                Cancel
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  deleteQuizAttempt(deleteConfirmAttemptId);
+                  if (selectedAttempt?.id === deleteConfirmAttemptId) {
+                    setSelectedAttempt(null);
+                  }
+                  setDeleteConfirmAttemptId(null);
+                }}
+                className="py-2.5 rounded-xl text-xs font-bold bg-rose-500 hover:bg-rose-600 text-white shadow-md shadow-rose-500/25 active:scale-[0.98] transition-all flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                <Trash2 className="w-3.5 h-3.5" />
+                <span>Delete</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
