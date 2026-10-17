@@ -6,7 +6,7 @@ import {
 import { toPng, toBlob } from 'html-to-image';
 import logoImg from '../../assets/logo.jpg';
 
-export default function QuizHistoryModal({ isOpen, onClose, history = [], stats = {} }) {
+export default function QuizHistoryModal({ isOpen, onClose, history = [], stats = {}, onDeleteAttempt }) {
   const [selectedAttempt, setSelectedAttempt] = useState(null);
   const [isExporting, setIsExporting] = useState(false);
   const [copiedSuccess, setCopiedSuccess] = useState(false);
@@ -112,15 +112,30 @@ export default function QuizHistoryModal({ isOpen, onClose, history = [], stats 
           {selectedAttempt ? (
             /* Certificate Detail View */
             <div className="flex flex-col items-center gap-6 animate-fadeIn">
-              {/* Back Button */}
-              <div className="w-full flex justify-start">
+              {/* Back & Delete Header */}
+              <div className="w-full flex items-center justify-between">
                 <button
                   onClick={() => setSelectedAttempt(null)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white bg-white dark:bg-[#0d1117] border border-slate-300 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition-all shadow-sm"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white bg-white dark:bg-[#0d1117] border border-slate-300 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition-all shadow-sm cursor-pointer"
                 >
                   <ArrowLeft className="w-3.5 h-3.5" />
                   <span>Back to History</span>
                 </button>
+
+                {onDeleteAttempt && (
+                  <button
+                    onClick={() => {
+                      if (window.confirm('Delete this exam record from your history?')) {
+                        onDeleteAttempt(selectedAttempt.id);
+                        setSelectedAttempt(null);
+                      }
+                    }}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 border border-rose-500/30 hover:border-rose-500/50 transition-all shadow-sm cursor-pointer"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                    <span>Delete Record</span>
+                  </button>
+                )}
               </div>
 
               {/* Printable Certificate Box */}
@@ -358,19 +373,38 @@ export default function QuizHistoryModal({ isOpen, onClose, history = [], stats 
                             </div>
                           </div>
 
-                          {isPassed ? (
-                            <button
-                              onClick={() => setSelectedAttempt(item)}
-                              className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm"
-                            >
-                              <Award className="w-3.5 h-3.5" />
-                              <span>View Certificate</span>
-                            </button>
-                          ) : (
-                            <span className="w-full sm:w-auto text-center px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 bg-rose-500/10 border border-rose-500/20">
-                              No Certificate (&lt;60%)
-                            </span>
-                          )}
+                          <div className="flex items-center gap-2 w-full sm:w-auto">
+                            {isPassed ? (
+                              <button
+                                onClick={() => setSelectedAttempt(item)}
+                                className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm cursor-pointer"
+                              >
+                                <Award className="w-3.5 h-3.5" />
+                                <span>View Certificate</span>
+                              </button>
+                            ) : (
+                              <span className="flex-1 sm:flex-initial text-center px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 bg-rose-500/10 border border-rose-500/20">
+                                No Certificate (&lt;60%)
+                              </span>
+                            )}
+
+                            {onDeleteAttempt && (
+                              <button
+                                onClick={() => {
+                                  if (window.confirm('Delete this exam attempt record from your history?')) {
+                                    onDeleteAttempt(item.id);
+                                    if (selectedAttempt?.id === item.id) {
+                                      setSelectedAttempt(null);
+                                    }
+                                  }
+                                }}
+                                title="Delete attempt record"
+                                className="p-1.5 rounded-lg text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 border border-transparent hover:border-rose-500/20 transition-all cursor-pointer"
+                              >
+                                <Trash2 className="w-3.5 h-3.5" />
+                              </button>
+                            )}
+                          </div>
                         </div>
                       );
                     })}

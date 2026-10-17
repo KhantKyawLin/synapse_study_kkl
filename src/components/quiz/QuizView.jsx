@@ -27,6 +27,11 @@ export default function QuizView() {
   const [timeRemaining, setTimeRemaining] = useState(1200);
   const [isTimeExpired, setIsTimeExpired] = useState(false);
 
+  // Synchronous state refs to prevent async submission race conditions
+  const userAnswersRef = useRef({});
+  const activeQuestionsRef = useRef([]);
+  const timeRemainingRef = useRef(1200);
+  const totalAllocatedSecondsRef = useRef(1200);
   const isAttemptSaved = useRef(false);
 
   // All questions in the selected module
@@ -56,26 +61,30 @@ export default function QuizView() {
     return moduleQuestions.filter((q) => q.category === selectedCategory);
   }, [moduleQuestions, selectedCategory]);
 
-  // Handle quiz timer interval
+  // Handle quiz timer interval cleanly
   useEffect(() => {
     let timer = null;
-    if (quizState === 'active' && timeRemaining > 0) {
+    if (quizState === 'active') {
       timer = setInterval(() => {
         setTimeRemaining((prev) => {
-          if (prev <= 1) {
+          const next = prev - 1;
+          timeRemainingRef.current = Math.max(0, next);
+          if (next <= 0) {
             clearInterval(timer);
             setIsTimeExpired(true);
-            completeAndSubmitQuiz(); // Auto-submit when time expires
+            setTimeout(() => {
+              completeAndSubmitQuiz();
+            }, 0);
             return 0;
           }
-          return prev - 1;
+          return next;
         });
       }, 1000);
     }
     return () => {
       if (timer) clearInterval(timer);
     };
-  }, [quizState, timeRemaining]);
+  }, [quizState]);
 
   const handleStartQuiz = () => {
     if (filteredQuestions.length === 0) return;
@@ -94,44 +103,67 @@ export default function QuizView() {
     setTimeRemaining(seconds);
     setIsTimeExpired(false);
 
+    totalAllocatedSecondsRef.current = seconds;
+    timeRemainingRef.current = seconds;
+    activeQuestionsRef.current = selected;
+    userAnswersRef.current = {};
+    isAttemptSaved.current = false;
+
     setActiveQuestions(selected);
     setCurrentIndex(0);
     setUserAnswers({});
-    isAttemptSaved.current = false;
     setQuizState('active');
   };
 
   const handleSelectOption = (optIdx) => {
+    userAnswersRef.current[currentIndex] = optIdx;
     setUserAnswers((prev) => ({ ...prev, [currentIndex]: optIdx }));
   };
 
   // Complete Quiz & Log attempt to Supabase / Local Storage
   const completeAndSubmitQuiz = () => {
-    if (!isAttemptSaved.current && activeQuestions.length > 0) {
-      let score = 0;
-      activeQuestions.forEach((q, idx) => {
-        if (userAnswers[idx] === q.correctIndex) score++;
-      });
-
-      const percentage = Math.round((score / activeQuestions.length) * 100);
-      const timeSpentSecs = totalAllocatedSeconds - timeRemaining;
-      const isFullQuiz = questionCount === 'all' || activeQuestions.length === filteredQuestions.length;
-
-      saveQuizAttempt({
-        student_name: studentName.trim() || user?.user_metadata?.full_name || 'Student',
-        module_name: selectedModule,
-        category: selectedCategory,
-        score: score,
-        total_questions: activeQuestions.length,
-        percentage: percentage,
-        is_full_quiz: isFullQuiz,
-        time_spent_seconds: timeSpentSecs,
-        total_allocated_seconds: totalAllocatedSeconds,
-        completed_at: new Date().toISOString(),
-      });
-
-      isAttemptSaved.current = true;
+    if (isAttemptSaved.current) {
+      setQuizState('result');
+      return;
     }
+
+    const questions = activeQuestionsRef.current.length > 0 ? activeQuestionsRef.current : activeQuestions;
+    if (questions.length === 0) {
+      setQuizState('result');
+      return;
+    }
+
+    isAttemptSaved.current = true;
+
+    // Merge state answers with synchronous ref answers to guarantee latest answer is never lost
+    const mergedAnswers = { ...userAnswers, ...userAnswersRef.current };
+    setUserAnswers(mergedAnswers);
+
+    let score = 0;
+    questions.forEach((q, idx) => {
+      const choice = mergedAnswers[idx];
+      if (choice !== undefined && choice !== null && Number(choice) === Number(q.correctIndex)) {
+        score++;
+      }
+    });
+
+    const percentage = Math.round((score / questions.length) * 100);
+    const timeSpentSecs = Math.max(0, totalAllocatedSecondsRef.current - timeRemainingRef.current);
+    const isFullQuiz = questionCount === 'all' || questions.length === filteredQuestions.length;
+
+    saveQuizAttempt({
+      student_name: studentName.trim() || user?.user_metadata?.full_name || 'Student',
+      module_name: selectedModule,
+      category: selectedCategory,
+      score: score,
+      total_questions: questions.length,
+      percentage: percentage,
+      is_full_quiz: isFullQuiz,
+      time_spent_seconds: timeSpentSecs,
+      total_allocated_seconds: totalAllocatedSecondsRef.current,
+      completed_at: new Date().toISOString(),
+    });
+
     setQuizState('result');
   };
 

@@ -20,7 +20,10 @@ export default function QuizResult({
 
   let score = 0;
   questions.forEach((q, idx) => {
-    if (userAnswers[idx] === q.correctIndex) score++;
+    const userChoice = userAnswers[idx];
+    if (userChoice !== undefined && userChoice !== null && Number(userChoice) === Number(q.correctIndex)) {
+      score++;
+    }
   });
 
   const percentage = Math.round((score / questions.length) * 100);

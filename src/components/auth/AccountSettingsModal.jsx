@@ -4,7 +4,7 @@ import { useQuizHistory } from '../../hooks/useQuizHistory';
 import { 
   X, User, Mail, Lock, KeyRound, Award, CheckCircle2, AlertCircle, 
   Loader2, Eye, EyeOff, Camera, Sparkles, BookOpen, TrendingUp, Clock, 
-  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon, Crown, Upload, Image as ImageIcon 
+  Calendar, Check, Download, Copy, ArrowLeft, Layers, ShieldCheck, Lock as LockIcon, Crown, Upload, Image as ImageIcon, Trash2 
 } from 'lucide-react';
 import { toPng, toBlob } from 'html-to-image';
 import logoImg from '../../assets/logo.jpg';
@@ -96,7 +96,7 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
     isConfigured 
   } = useAuth();
 
-  const { history, stats } = useQuizHistory();
+  const { history, stats, deleteQuizAttempt } = useQuizHistory();
 
   // Tab State
   const [activeTab, setActiveTab] = useState('profile'); // 'profile' | 'security' | 'history'
@@ -868,13 +868,26 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                   {selectedAttempt ? (
                     /* Certificate Preview */
                     <div className="flex flex-col items-center gap-6 animate-fadeIn">
-                      <div className="w-full flex justify-start">
+                      <div className="w-full flex items-center justify-between">
                         <button
                           onClick={() => setSelectedAttempt(null)}
-                          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white bg-[#0d1117] border border-slate-800 hover:border-slate-700 transition-all"
+                          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white bg-slate-100 dark:bg-[#0d1117] border border-slate-300 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition-all shadow-sm cursor-pointer"
                         >
                           <ArrowLeft className="w-3.5 h-3.5" />
                           <span>Back to All Attempts</span>
+                        </button>
+
+                        <button
+                          onClick={() => {
+                            if (window.confirm('Are you sure you want to delete this exam record from your history?')) {
+                              deleteQuizAttempt(selectedAttempt.id);
+                              setSelectedAttempt(null);
+                            }
+                          }}
+                          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 hover:bg-rose-500/10 border border-rose-500/30 hover:border-rose-500/50 transition-all shadow-sm cursor-pointer"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                          <span>Delete Record</span>
                         </button>
                       </div>
 
@@ -1112,19 +1125,36 @@ export default function AccountSettingsModal({ onSaveSuccess }) {
                                     </div>
                                   </div>
 
-                                  {isPassed ? (
+                                  <div className="flex items-center gap-2 w-full sm:w-auto">
+                                    {isPassed ? (
+                                      <button
+                                        onClick={() => setSelectedAttempt(item)}
+                                        className="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm cursor-pointer"
+                                      >
+                                        <Award className="w-3.5 h-3.5" />
+                                        <span>View Certificate</span>
+                                      </button>
+                                    ) : (
+                                      <span className="flex-1 sm:flex-initial text-center px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 bg-rose-500/10 border border-rose-500/20">
+                                        No Certificate (&lt;60%)
+                                      </span>
+                                    )}
+
                                     <button
-                                      onClick={() => setSelectedAttempt(item)}
-                                      className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-cyanPrimary/10 border border-cyanPrimary/30 text-sky-700 dark:text-cyanGlow hover:bg-cyanPrimary hover:text-white transition-all shadow-sm"
+                                      onClick={() => {
+                                        if (window.confirm('Delete this exam attempt record from your history?')) {
+                                          deleteQuizAttempt(item.id);
+                                          if (selectedAttempt?.id === item.id) {
+                                            setSelectedAttempt(null);
+                                          }
+                                        }
+                                      }}
+                                      title="Delete attempt record"
+                                      className="p-1.5 rounded-lg text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 border border-transparent hover:border-rose-500/20 transition-all cursor-pointer"
                                     >
-                                      <Award className="w-3.5 h-3.5" />
-                                      <span>View Certificate</span>
+                                      <Trash2 className="w-3.5 h-3.5" />
                                     </button>
-                                  ) : (
-                                    <span className="w-full sm:w-auto text-center px-3 py-1.5 rounded-lg text-xs font-semibold text-rose-600 dark:text-rose-400 bg-rose-500/10 border border-rose-500/20">
-                                      No Certificate (&lt;60%)
-                                    </span>
-                                  )}
+                                  </div>
                                 </div>
                               );
                             })}

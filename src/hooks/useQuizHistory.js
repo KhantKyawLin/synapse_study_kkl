@@ -79,46 +79,84 @@ export function useQuizHistory() {
   // Save new quiz attempt
   const saveQuizAttempt = useCallback(
     async (attempt) => {
+      const generatedId = (typeof crypto !== 'undefined' && crypto.randomUUID) 
+        ? crypto.randomUUID() 
+        : `local_${Date.now()}`;
+
       const newRecord = {
-        id: attempt.id || (typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : `local_${Date.now()}`),
+        id: attempt.id || generatedId,
         student_name: attempt.student_name || 'Student',
         module_name: attempt.module_name || 'General',
         category: attempt.category || 'All',
-        score: attempt.score,
-        total_questions: attempt.total_questions,
-        percentage: attempt.percentage,
-        time_spent_seconds: attempt.time_spent_seconds,
+        score: typeof attempt.score === 'number' ? attempt.score : 0,
+        total_questions: attempt.total_questions || 1,
+        percentage: typeof attempt.percentage === 'number' ? attempt.percentage : 0,
+        is_full_quiz: Boolean(attempt.is_full_quiz),
+        time_spent_seconds: attempt.time_spent_seconds || 0,
         total_allocated_seconds: attempt.total_allocated_seconds,
         completed_at: attempt.completed_at || new Date().toISOString(),
       };
 
-      // Update state locally
+      // Update state locally immediately
       setHistory((prev) => [newRecord, ...prev]);
 
       // If user is authenticated, save to Supabase
       if (isSupabaseConfigured && supabase && user) {
         try {
-          await supabase.from('quiz_attempts').insert([
-            {
-              id: newRecord.id.startsWith('local_') ? undefined : newRecord.id,
-              user_id: user.id,
-              student_name: newRecord.student_name,
-              module_name: newRecord.module_name,
-              category: newRecord.category,
-              score: newRecord.score,
-              total_questions: newRecord.total_questions,
-              percentage: newRecord.percentage,
-              time_spent_seconds: newRecord.time_spent_seconds,
-              total_allocated_seconds: newRecord.total_allocated_seconds,
-              completed_at: newRecord.completed_at,
-            },
-          ]);
+          const payload = {
+            user_id: user.id,
+            student_name: newRecord.student_name,
+            module_name: newRecord.module_name,
+            category: newRecord.category,
+            score: newRecord.score,
+            total_questions: newRecord.total_questions,
+            percentage: newRecord.percentage,
+            is_full_quiz: newRecord.is_full_quiz,
+            time_spent_seconds: newRecord.time_spent_seconds,
+            completed_at: newRecord.completed_at,
+          };
+
+          const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+          if (newRecord.id && uuidRegex.test(newRecord.id)) {
+            payload.id = newRecord.id;
+          }
+
+          const { data, error } = await supabase.from('quiz_attempts').insert([payload]).select().single();
+          if (!error && data?.id && data.id !== newRecord.id) {
+            setHistory((prev) =>
+              prev.map((item) => (item.id === newRecord.id ? { ...item, id: data.id } : item))
+            );
+          }
         } catch (err) {
           console.error('Failed to log quiz attempt to Supabase:', err);
         }
       }
 
       return newRecord;
+    },
+    [user]
+  );
+
+  // Delete a quiz attempt locally and in Supabase
+  const deleteQuizAttempt = useCallback(
+    async (attemptId) => {
+      if (!attemptId) return;
+
+      // Update state locally immediately
+      setHistory((prev) => prev.filter((item) => item.id !== attemptId));
+
+      // If user is authenticated, delete from Supabase
+      if (isSupabaseConfigured && supabase && user) {
+        try {
+          await supabase
+            .from('quiz_attempts')
+            .delete()
+            .eq('id', attemptId)
+            .eq('user_id', user.id);
+        } catch (err) {
+          console.error('Failed to delete quiz attempt from Supabase:', err);
+        }
+      }
     },
     [user]
   );
@@ -142,6 +180,7 @@ export function useQuizHistory() {
     history,
     loading,
     saveQuizAttempt,
+    deleteQuizAttempt,
     stats,
   };
 }
