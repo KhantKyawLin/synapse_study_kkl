@@ -4481,6 +4481,428 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 8 Database": [
+    {
+      "Name": "Urolithiasis (Ureteric / Renal Calculus)",
+      "Tag": "Urinary Calculi",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Dehydration, hypercalcemia, hyperoxaluria, gout (uric acid), UTI (struvite/staghorn via Proteus)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Severe, agonizing loin-to-groin colicky pain, restlessness, costovertebral angle tenderness, microscopic or gross hematuria."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Non-contrast CT KUB (Gold standard, 98% sensitive); Urine dipstick (hematuria); Renal USG."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "IV NSAIDs (Diclofenac) or opioids; aggressive rehydration; IV antibiotics if septic."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "<5mm: Conservative passage (tamsulosin). <2cm renal/upper ureter: ESWL or URS. >2cm or staghorn: PCNL."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Infected obstructed kidney (stone + fever) is an absolute urological emergency -> immediate JJ stent or percutaneous nephrostomy (PCN)."
+        }
+      ]
+    },
+    {
+      "Name": "Benign Prostatic Hyperplasia (BPH)",
+      "Tag": "Prostate Disease",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Age-dependent proliferation of prostatic stromal & epithelial cells in the transition zone driven by DHT."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "LUTS (Storage: frequency, nocturia, urgency; Voiding: hesitancy, weak stream, terminal dribbling, incomplete emptying). Smooth, firm, non-tender enlarged prostate on DRE."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Serum PSA (rule out Ca Prostate); Urine IPSS score; Renal USG & Post-void residual volume (PVR); Uroflowmetry."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Medical therapy: Alpha-1 blockers (Tamsulosin - fast relief) + 5-alpha reductase inhibitors (Finasteride - reduces prostate size over 6 months)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Transurethral Resection of the Prostate (TURP) for refractory LUTS, recurrent AROU, renal impairment, or bladder stones."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "TURP Syndrome: Hyponatremia & fluid overload from absorption of glycine irrigating fluid. BPH originates in the TRANSITION zone."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Relapsing / Acute Urinary Retention (AROU)",
+      "Tag": "Urological Emergencies",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Precipitated by BPH, constipation, anticholinergic drugs, post-op, urethral stricture, or alcohol binge."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Sudden, agonizing inability to pass urine with painful palpable distended urinary bladder up to the umbilicus."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Clinical diagnosis; Bedside USG Bladder scan; Renal function tests (BUE & Creatinine); Urine TWOC assessment."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Immediate urethral catheterization (16F Foley) or Suprapubic Catheterization (SPC) if urethral catheterization fails/contraindicated."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Start Alpha-blocker (Tamsulosin) for 2-3 days prior to Trial Without Catheter (TWOC). Elective TURP if TWOC fails."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Post-obstructive diuresis: Monitor vitals, electrolytes, and fluid balance (>200 mL/hr output requiring 0.45% or 0.9% NS replacement)."
+        }
+      ]
+    },
+    {
+      "Name": "Transitional Cell Carcinoma (TCC) of Bladder",
+      "Tag": "Urological Oncology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Cigarette smoking (#1 risk factor, 50%), aromatic amines/dye exposure, cyclophosphamide."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Painless, profuse, intermittent gross hematuria throughout micturition in a patient >50 years old."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Flexible / Rigid Cystoscopy + Tissue Biopsy (Gold standard); Urine Cytology; CECT Urogram."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Rigid Cystoscopy and Transurethral Resection of Bladder Tumor (TURBT)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Non-muscle invasive (Ta, T1): TURBT + Intravesical BCG or Mitomycin C. Muscle-invasive (T2+): Radical Cystectomy + ileal conduit."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Painless gross hematuria in any patient >45 years MUST be investigated with cystoscopy to rule out TCC Bladder until proven otherwise."
+        }
+      ]
+    },
+    {
+      "Name": "Renal Cell Carcinoma (RCC)",
+      "Tag": "Urological Oncology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Adenocarcinoma of proximal renal tubular epithelium. Smoking, obesity, hypertension, von Hippel-Lindau (VHL) gene."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Classic Triad (<10%): Flank pain + Palpable flank mass + Gross hematuria. Varicocele (left-sided, non-reducing due to renal vein tumor thrombus)."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Multiphasic CECT Abdomen & Pelvis (Gold standard); Chest CT for staging; FBC (polycythemia due to EPO)."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Staging and surgical planning. Radio-resistant and chemo-resistant tumor."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "T1 (<7cm): Partial Nephrectomy. T2+: Radical Nephrectomy (removing kidney, Gerota's fascia, adrenal, and regional lymph nodes)."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Paraneoplastic syndromes: Polycythemia (EPO), Hypercalcemia (PTHrP), Hypertension (Renin), Stauffer's syndrome (hepatic dysfunction)."
+        }
+      ]
+    },
+    {
+      "Name": "Prostate Adenocarcinoma",
+      "Tag": "Urological Oncology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Age >50, African descent, family history, high-fat diet. Arises in the PERIPHERAL zone (posterior lobe)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Often asymptomatic early. Late: LUTS, hard, nodular, asymmetrical, craggy, non-tender prostate on DRE; bone pain (lumbar spine metastases)."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Serum PSA (>4 ng/mL); Multiparametric MRI (mpMRI) Prostate (PIRADS 1-5); TRUS-guided or Transperineal prostate biopsy (Gleason score)."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Evaluate staging (Technetium-99m bone scan for skeletal metastases)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Localized: Radical Prostatectomy or Radiotherapy. Metastatic: Androgen Deprivation Therapy (ADT - GnRH agonists/LHRH analogs, Bicalutamide)."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Osteoblastic (sclerotic) bone metastases to pelvis and lumbar spine via Batson's venous plexus. Always measure PSA BEFORE DRE."
+        }
+      ]
+    },
+    {
+      "Name": "Testicular Torsion",
+      "Tag": "Urological Emergencies",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Inadequate fixation of lower pole of testis to tunica vaginalis ('Bell-clapper deformity'). Most common in adolescents (12-18 yrs)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Sudden onset severe unilateral scrotal pain, swelling, high-riding horizontal testis, absent cremasteric reflex. Prehn's sign NEGATIVE."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Clinical diagnosis! Color Doppler Ultrasound (shows absent arterial flow) ONLY if diagnosis is uncertain and does not delay surgery."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Emergency Scrotal Exploration within 6 hours ('golden window') to salvage the ischemic testis."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Detorsion + Bilateral Orchidopexy (three-point fixation of both testes to tunica dartos) or Orchidectomy if necrotic."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Surgical emergency! Irreversible ischemic necrosis occurs after 6 hours. ALWAYS perform BILATERAL orchidopexy."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Epididymo-orchitis",
+      "Tag": "Scrotal Pathology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Sexually active males <35 yrs: Chlamydia trachomatis, N. gonorrhoeae. Males >35 yrs: Coliforms (E. coli secondary to BPH/UTI)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Gradual onset unilateral scrotal pain, fever, dysuria, posterior epididymal tenderness/swelling. Prehn's sign POSITIVE (elevation relieves pain)."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Urine Full Examination & Microscopy (FEM); First-catch urine PCR for Chlamydia/Gonorrhea; Color Doppler USG (hyperemia/increased flow)."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Scrotal support/elevation, analgesia (NSAIDs), ice packs."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "<35 yrs: Single dose IM Ceftriaxone + Oral Doxycycline (10 days). >35 yrs: Oral Ofloxacin or Levofloxacin (14 days)."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Prehn's sign is POSITIVE (pain reduced when scrotum is elevated) in epididymitis, but NEGATIVE in testicular torsion."
+        }
+      ]
+    },
+    {
+      "Name": "Testicular Tumors (Seminoma & Non-Seminoma)",
+      "Tag": "Urological Oncology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Cryptorchidism (undescended testis - 10-40x risk), Klinefelter syndrome, testicular dysgenesis. Peak age 20-40 yrs."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Painless, firm, smooth, heavy testicular lump that does NOT transilluminate. Scrotal sensation intact."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Scrotal Ultrasound (intra-testicular mass); Serum Tumor Markers: AFP, beta-hCG, LDH; Staging CT Chest/Abdomen/Pelvis."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "DO NOT perform trans-scrotal biopsy! High risk of tumor seeding to inguinal lymph nodes."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Inguinal Orchidectomy (high ligation at deep inguinal ring). Seminoma: Radiotherapy/Chemo (BEP). Non-Seminoma: Cisplatin-based Chemo (BEP)."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Tumor Markers: Pure Seminoma = Normal AFP, mildly elevated b-hCG. Yolk Sac = High AFP. Choriocarcinoma = Extremely high b-hCG."
+        }
+      ]
+    },
+    {
+      "Name": "Vaginal Hydrocele",
+      "Tag": "Scrotal Pathology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Primary/Idiopathic (defective absorption by tunica vaginalis in middle-aged men) or Secondary (to testicular tumor, epididymitis, or trauma)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Painless, slow-growing, smooth, cystic scrotal swelling. You can 'get above the mass'. Fluctuant and brilliantly TRANSILLUMINATE."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Clinical examination; Scrotal Ultrasound (mandatory to rule out underlying testicular malignancy in secondary hydrocele)."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Reassurance if small and asymptomatic."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Surgery: Jaboulay operation (eversion of tunica vaginalis sac) or Lord's procedure (plication of the sac)."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Brilliant transillumination + ability to 'get above the lump' distinguishes hydrocele from an inguinoscrotal hernia."
+        }
+      ]
+    },
+    {
+      "Name": "Varicocele",
+      "Tag": "Scrotal Pathology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Abnormal dilation and tortuosity of pampiniform venous plexus. 90% left-sided (left testicular vein enters left renal vein at 90-degree angle)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Dull, dragging scrotal ache worsening on standing. 'Bag of worms' feeling on palpation. Increases with Valsalva maneuver."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Clinical exam in standing position; Color Doppler Ultrasound (retrograde venous flow, vein diameter >3mm)."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Scrotal support and analgesia for mild symptoms."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Surgical/Radiological: Palomo operation (high ligation of testicular vein) or Laparoscopic varicocelectomy, or Percutaneous embolization."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Right-sided varicocele or sudden-onset non-reducing left varicocele in an older male MUST prompt urgent CT Abdomen to rule out RCC."
+        }
+      ]
+    },
+    {
+      "Name": "Anterior Urethral Injury (Bulbar Urethra)",
+      "Tag": "Urological Trauma",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Fall astride (straddle) injury (crushing bulbar urethra against pubic symphysis) or iatrogenic instrumentation."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Triad: Blood at external urethral meatus + Acute urinary retention (AROU) + Perineal/scrotal 'butterfly' hematoma. Normal pelvic exam."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Ascending Retrograde Urethrogram (RUG) BEFORE any catheterization attempt!"
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "DO NOT ATTEMPT URETHRAL CATHETERIZATION! Perform Suprapubic Catheterization (SPC) for urinary diversion."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Elective delayed endoscopic optical urethrotomy or open urethroplasty after 3 months."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Passage of Foley catheter is STRICTLY CONTRAINDICATED until urethral integrity is confirmed on RUG."
+        }
+      ]
+    },
+    {
+      "Name": "Posterior Urethral Injury (Membranous Urethra)",
+      "Tag": "Urological Trauma",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Pelvic ring fractures (disruption of puboprostatic ligaments tearing membranous urethra at urogenital diaphragm)."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Blood at urethral meatus + AROU + High-riding / floating prostate on DRE + Pelvic compression tenderness."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Pelvic X-ray / CT; Retrograde Urethrogram (RUG) showing extravasation of contrast above urogenital diaphragm."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Emergency Suprapubic Catheter (SPC) insertion under USG guidance."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Delayed primary realignment or open reconstructive urethroplasty."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "High-riding prostate on DRE with blood at meatus and pelvic fracture = Posterior Urethral Injury."
+        }
+      ]
+    },
+    {
+      "Name": "Phimosis & Paraphimosis",
+      "Tag": "Penile Pathology",
+      "details": [
+        {
+          "title": "Etiology & Risk Factors",
+          "content": "Phimosis: Inability to retract prepuce over glans. Paraphimosis: Retracted prepuce stuck behind glans causing venous stasis and edema."
+        },
+        {
+          "title": "Classic Clinical Presentation & Signs",
+          "content": "Phimosis: Ballooning of foreskin during micturition. Paraphimosis: Painful, swollen, ischemic glans penis with constricting band behind coronal sulcus."
+        },
+        {
+          "title": "Key Diagnostic Investigations",
+          "content": "Clinical diagnosis."
+        },
+        {
+          "title": "Emergency / Initial Management",
+          "content": "Paraphimosis is a UROLOGICAL EMERGENCY! Manual reduction with firm compression and ice packs, or dorsal slit."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Elective or emergency Circumcision."
+        },
+        {
+          "title": "High-Yield Exam Pearl / Complication",
+          "content": "Failure to reduce paraphimosis leads to arterial compromise, glans ischemia, and penile gangrene."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

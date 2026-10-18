@@ -10779,6 +10779,316 @@
       "category": "Final Part 2 Surgery - Surgery Module 7",
       "question": "The mammogram below shows a massive, dense, well-circumscribed lesion in a 40-year-old female: Mammogram showing a large, smooth, bosselated breast mass occupying most of the breast What is the most likely diagnosis?",
       "answer": "Phyllodes tumour (serocystic disease of Brodie)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "On physical examination of a patient with suspected urolithiasis, what condition does loin tenderness indicate?",
+      "answer": "Pyelonephritis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What clinical diagnosis is suggested by the presence of a palpable loin mass in a patient with urolithiasis?",
+      "answer": "Hydronephrosis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What complication is indicated when a patient with urinary calculus disease presents with fever and chills?",
+      "answer": "Urinary Tract Infection (UTI)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Which laboratory investigations should be ordered for the biochemical and routine evaluation of urolithiasis?",
+      "answer": "Urine RE, urine culture & sensitivity, renal function tests, serum calcium, phosphate, and uric acid."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What non-radiological imaging modality is used to detect urinary stones, hydronephrosis, and hydroureter?",
+      "answer": "Ultrasonography (USG)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What radiological imaging modality is the diagnostic gold standard for evaluating urinary tract stone disease?",
+      "answer": "Non-Contrast Enhanced Computed Tomography of Kidney, Ureters, and Bladder (NECT KUB)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What emergency medical interventions are indicated for the initial management of acute renal colic?",
+      "answer": "Parenteral analgesia, antispasmodics, and antibiotics."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What emergency procedure is required when an obstructed kidney with severe infection leads to pyonephrosis or sepsis?",
+      "answer": "Percutaneous Nephrostomy (PCN) tube insertion"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Besides percutaneous nephrostomy, what retrograde endoscopic procedure provides emergency drainage for an obstructed, infected ureter?",
+      "answer": "Retrograde Double-J (DJ) stent insertion"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How is Acute Retention of Urine (AROU) clinically defined?",
+      "answer": "Sudden and painful inability to pass urine."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the primary clinical feature that distinguishes Acute Retention of Urine (AROU) from Chronic Retention of Urine (CROU)?",
+      "answer": "The presence of severe pain (AROU is painful, whereas CROU is painless distention)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What physical examination findings over the suprapubic area characterize acute urinary retention?",
+      "answer": "A rounded suprapubic swelling/distention that is dull to percussion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the primary method for diagnosing Acute Retention of Urine (AROU)?",
+      "answer": "Clinical examination (portable ultrasound is mostly unnecessary except in obese patients)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What are three primary intraluminal causes of urinary bladder outflow obstruction?",
+      "answer": "Bladder/urethral stone, blood clot, and intravesical prostatic protrusion in BPH."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What extraluminal mechanism commonly causes acute urinary retention following lower abdominal or perineal surgery?",
+      "answer": "Urethral sphincter spasm"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What physical physical examinations must be performed prior to urethral catheterization in acute urinary retention?",
+      "answer": "Examination along the urethra including the meatus, followed by a Digital Rectal Examination (DRE)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Why must a urologist be consulted before attempting urethral catheterization in suspected acute prostatitis?",
+      "answer": "In acute prostatitis, the prostate is exquisitely tender and catheterization carries a high risk of severe pain, bacteremia, and urethral trauma."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What three procedural options are available for urgent urinary decompression in AROU?",
+      "answer": "Urethral catheterization, Suprapubic Puncture (SPP), and Suprapubic Catheterization (SPC)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What urinary complication can occur immediately following rapid decompression of a chronically distended bladder?",
+      "answer": "Decompression Haematuria"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What technical errors during urethral catheterization predispose a patient to urethral stricture formation?",
+      "answer": "Inadequate lubrication, non-aseptic technique, and balloon inflation inside the urethra before reaching the bladder."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Which anatomical lobe of the prostate is most commonly enlarged in Benign Prostatic Hyperplasia (BPH)?",
+      "answer": "Median lobe of the prostate"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Why is finding prostatic enlargement and nodularity on DRE in a 50-year-old male a major clinical concern?",
+      "answer": "BPH is primarily a disease of aging; nodularity at a younger age strongly necessitates excluding prostate malignancy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How does Benign Prostatic Hyperplasia lead to renal damage?",
+      "answer": "Nodular prostatic compression causes urinary outflow obstruction and incomplete emptying, leading to bladder distention, hydronephrosis, and subsequent renal impairment. Flowchart depicting BPH leading to urethral compression, obstruction, bladder distention, hydronephrosis, and kidney damage"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What two primary pharmacological drug classes are used to treat Benign Prostatic Hyperplasia (BPH)?",
+      "answer": "Alpha-1 adrenergic blockers and 5-alpha reductase inhibitors (5-ARIs)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What endoscopic surgical procedure is considered the standard surgical intervention for symptomatic BPH?",
+      "answer": "Transurethral Resection of the Prostate (TURP)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What open surgical procedures are performed for BPH when the prostate is significantly enlarged?",
+      "answer": "Transvesical Prostatectomy (TVP) and Retropubic Prostatectomy (RPP)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the distinction between Visible Haematuria (VH) and Non-Visible Haematuria (NVH)?",
+      "answer": "VH is macroscopically visible blood in the urine, while NVH is microscopic hematuria detectable only on dipstick or microscopy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Under what condition is asymptomatic non-visible haematuria (a-NVH) considered clinically significant?",
+      "answer": "When persistent, defined as positive dipstick tests on 2 out of 3 subsequent visits."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What diagnostic test is essential to confirm the presence of red blood cells in urine?",
+      "answer": "Urine microscopic examination"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What percentage of patients presenting with Visible Haematuria (VH) have underlying urinary tract malignancy or significant pathology?",
+      "answer": "10% to 25%"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "A 67-year-old male presents with terminal haematuria, fever, urethral discharge, and an exquisitely tender prostate on DRE. What is the most likely diagnosis?",
+      "answer": "Prostatitis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What pathophysiological mechanism defines testicular torsion?",
+      "answer": "Twisting of the testicle around its vascular axis, leading to acute blood supply compromise and ischemic necrosis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the single most common anatomical abnormality predisposing to testicular torsion?",
+      "answer": "Inversion of the testis with a transverse lie."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Besides inversion of the testis, what other anatomical anomalies predispose to testicular torsion?",
+      "answer": "High investment of the tunica vaginalis (bell-clapper deformity) and separation of the epididymis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the peak age group for testicular torsion?",
+      "answer": "10 to 25 years"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What classic neurological physical exam reflex is lost in testicular torsion?",
+      "answer": "Cremasteric reflex"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How does Prehn's sign differentiate acute epididymo-orchitis from testicular torsion?",
+      "answer": "In epididymo-orchitis, scrotal elevation reduces pain (positive Prehn sign); in testicular torsion, elevation exacerbates or fails to relieve pain."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the definitive management required to save a torted testis?",
+      "answer": "Prompt surgical exploration, untwisting (detorsion), and fixation (orchidopexy)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Why must the contralateral testis be surgically fixed during exploration for unilateral testicular torsion?",
+      "answer": "The predisposing anatomical abnormality is bilateral, putting the contralateral testis at high risk for future torsion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What specific procedure must a patient undergoing emergency scrotal exploration for torsion be consented for pre-operatively?",
+      "answer": "Orchidectomy (in case the testis is non-viable upon surgical untwisting)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What structure can be characteristically palpated above the affected testis in testicular torsion?",
+      "answer": "A tender, twisted spermatic cord."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is a varicocele?",
+      "answer": "An abnormal dilation and tortuosity of the pampiniform venous plexus draining the testis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "On which side do 90% of testicular varicoceles occur?",
+      "answer": "Left side"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What retroperitoneal pathology must be ruled out when a left-sided varicocele develops secondary to vein obstruction later in life?",
+      "answer": "Left renal tumor (causing obstruction of the left testicular vein)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What imaging investigation is mandatory to confirm a varicocele and assess testicular volume?",
+      "answer": "Scrotal Doppler Ultrasonography (USG)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What key clinical feature on physical palpation raises suspicion for a primary testicular malignancy?",
+      "answer": "A solid testicular lump that cannot be felt separately from the body of the testis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "To which lymph node group do testicular tumors primarily metastasize via lymphatic drainage?",
+      "answer": "Para-aortic lymph nodes"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What is the diagnostic role of serum Alpha-Fetoprotein (AFP) in differentiating seminomas from Non-Seminomatous Germ Cell Tumours (NSGCT)?",
+      "answer": "AFP is elevated in 50–70% of NSGCTs, but is NEVER elevated in pure seminomas."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What serum tumor marker is elevated in 40–60% of NSGCTs and approximately 30% of seminomas?",
+      "answer": "Human Chorionic Gonadotropin ($\\beta$-hCG)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "When must serum tumor markers (AFP, $\\beta$-hCG, LDH) be drawn in the management of testicular tumors?",
+      "answer": "Prior to orchidectomy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Why is a scrotal incision strictly avoided when performing orchidectomy for suspected testicular carcinoma?",
+      "answer": "Scrotal violation disrupts lymphatic drainage channels and causes tumor contamination of inguinal lymph nodes; radical orchidectomy must be performed through an inguinal incision."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How is Stage I testicular tumor defined?",
+      "answer": "The tumor is strictly confined to the testis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How is Stage II testicular tumor defined?",
+      "answer": "Nodal disease is present, but confined to lymph nodes below the diaphragm."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How is Stage III testicular tumor defined?",
+      "answer": "Nodal disease is present above the diaphragm."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "How is Stage IV testicular tumor defined?",
+      "answer": "Non-lymphatic metastatic disease is present (most typically in the lungs)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What classical radiological finding on PA chest X-ray indicates metastatic pulmonary spread from testicular cancer?",
+      "answer": "Classical cannon ball pulmonary metastases."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What imaging modality is central to staging testicular tumors and monitoring response to systemic treatment?",
+      "answer": "Computed Tomography (CT) scanning of the chest and abdomen."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What general systemic drug class are testicular germ cell tumors exceptionally sensitive to?",
+      "answer": "Platinum-based chemotherapy"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What investigation is preferred for evaluating kidney injury in a hemodynamically stable trauma patient?",
+      "answer": "Contrast-Enhanced Computed Tomography (CECT) scanning."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What diagnostic imaging procedure is performed to evaluate suspected traumatic bladder rupture?",
+      "answer": "Cystogram"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "What minimum volume of contrast must be instilled into the bladder during a diagnostic cystogram, and why?",
+      "answer": "At least $300\\text{ mL}$ of contrast; a smaller volume may fail to distend the bladder enough to produce a contrast leak once cystic muscle contracts."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 8",
+      "question": "Which radiographic views and timing occasions are required when evaluating films during a diagnostic cystogram?",
+      "answer": "Two views (AP and lateral/oblique) on two occasions (full bladder and post-micturition)."
     }
   ]
 }

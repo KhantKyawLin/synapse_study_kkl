@@ -163,6 +163,13 @@ function getConditionTag(name) {
     if (/parathyroid|hyperparathyroid/i.test(name)) return 'Parathyroid Surgery';
     if (/thyroid|goitre|goiter|thyroglossal|papillary.*carcinoma|follicular.*carcinoma|medullary.*carcinoma|anaplastic/i.test(name)) return 'Thyroid Surgery';
     if (/branchial|neck.*swelling/i.test(name)) return 'Head & Neck Surgery';
+    if (/urolithiasis|calculus|stone/i.test(name)) return 'Urinary Calculi';
+    if (/retention|arou|torsion/i.test(name)) return 'Urological Emergencies';
+    if (/transitional cell|renal cell|rcc|prostate adenocarcinoma|testicular tumor|seminoma/i.test(name)) return 'Urological Oncology';
+    if (/benign prostatic|bph/i.test(name)) return 'Prostate Disease';
+    if (/epididym|hydrocele|varicocele/i.test(name)) return 'Scrotal Pathology';
+    if (/urethral injury|urethra/i.test(name)) return 'Urological Trauma';
+    if (/phimosis|paraphimosis/i.test(name)) return 'Penile Pathology';
     if (/hemorrhoid|fissure|fistula|perianal/i.test(name)) return 'Perianal Disease';
     if (/abscess/i.test(name)) return 'Perianal Disease';
     if (/femoral/i.test(name)) return 'Femoral Hernia';
@@ -477,14 +484,14 @@ function updateQuizData() {
                             optCIdx !== -1 ? String(row[optCIdx] || '') : '',
                             optDIdx !== -1 ? String(row[optDIdx] || '') : '',
                             optEIdx !== -1 ? String(row[optEIdx] || '') : ''
-                        ].map(o => o.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                        ].map(o => o.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
                     }
 
                     if (options.length < 3 && /[A-E][.)]\s/.test(questionText)) {
                         const parts = questionText.split(/\r?\n\s*(?=[A-E][.)]\s)|\s+(?=[B-E][.)]\s)/i);
                         if (parts.length >= 4) {
                             finalStem = parts[0].trim();
-                            const candidateOpts = parts.slice(1).map(p => p.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                            const candidateOpts = parts.slice(1).map(p => p.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
                             if (candidateOpts.length >= 3) {
                                 options = candidateOpts;
                             }
@@ -496,7 +503,7 @@ function updateQuizData() {
                             const val = String(row[c] || '').trim();
                             if (/[A-E][.)]\s/.test(val) && /[B-E][.)]\s/.test(val)) {
                                 const parts = val.split(/\r?\n\s*(?=[A-E][.)]\s)|\s+(?=[B-E][.)]\s)/i);
-                                const candidateOpts = parts.map(p => p.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                                const candidateOpts = parts.map(p => p.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
                                 if (candidateOpts.length >= 3) {
                                     options = candidateOpts;
                                     break;
@@ -512,7 +519,7 @@ function updateQuizData() {
                             String(row[5] || ''),
                             String(row[6] || ''),
                             String(row[7] || '')
-                        ].map(o => o.replace(/^[A-E][.)]?\s*/i, '').trim()).filter(Boolean);
+                        ].map(o => o.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
                         if (fallbackOpts.length >= 3) {
                             options = fallbackOpts;
                         }
