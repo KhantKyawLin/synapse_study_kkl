@@ -11089,6 +11089,271 @@
       "category": "Final Part 2 Surgery - Surgery Module 8",
       "question": "Which radiographic views and timing occasions are required when evaluating films during a diagnostic cystogram?",
       "answer": "Two views (AP and lateral/oblique) on two occasions (full bladder and post-micturition)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is the medical definition of a bone fracture?",
+      "answer": "A break in the structural continuity of a bone."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "How are fractures classified based on atmospheric air exposure?",
+      "answer": "Closed fractures (intact skin) and Open / Compound fractures (communication with atmospheric air)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What three categories classify fractures based on injury force and underlying bone quality?",
+      "answer": "Traumatic fractures, Pathological fractures, and Stress or Fatigue fractures."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What are four primary fracture line morphologies in long bones?",
+      "answer": "Transverse, Oblique, Spiral, and Comminuted."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is a comminuted fracture?",
+      "answer": "A fracture in which the bone is broken into three or more pieces/fragments."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "An incomplete pediatric fracture where one side of the cortex breaks while the other side bends is a _____ fracture.",
+      "answer": "Greenstick"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "How does a simple fracture differ from a complicated fracture?",
+      "answer": "A simple fracture has no adjacent tissue damage, whereas a complicated fracture damages nearby structures like nerves, major blood vessels, or visceral organs."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What are two major early systemic or regional complications of fractures?",
+      "answer": "Neurovascular injury (neurological deficit or limb ischemia) and soft tissue injury/infection."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What defines non-union of a bone fracture?",
+      "answer": "Complete failure of fracture fragments to unite, requiring surgical intervention to achieve healing."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What factors contribute to delayed fracture union?",
+      "answer": "Impaired blood supply, overtraction during reduction, and soft tissue interposition between bone fragments."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is malunion, and what primarily causes it?",
+      "answer": "Healing of a bone in an anatomically abnormal position, caused by improper anatomical reduction or inadequate immobilization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What primary skeletal infection can arise as a late complication of an open fracture?",
+      "answer": "Osteomyelitis"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What are the key clinical symptoms and signs of a bone fracture?",
+      "answer": "Localized pain, swelling (haematoma), anatomical deformity, loss of function/movement, and bony crepitus."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What physical examination sequence is routinely performed for an injured limb?",
+      "answer": "Look (inspection for swelling, deformity, abnormal movement) and Feel (palpation for tenderness, deformity, bony crepitus)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "In initial trauma management, what takes priority over local fracture treatment?",
+      "answer": "Assessment and stabilization of life-threatening injuries using standard Airway, Breathing, and Circulation (ABC) protocols."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What fundamental rule dictates whether a fracture requires manipulation/reduction?",
+      "answer": "No displacement means no reduction is required."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is closed fracture reduction?",
+      "answer": "Realignment of displaced bone fragments through manual manipulation or traction without surgical incision of the skin."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What are three clear indications for Open Reduction and Internal Fixation (ORIF)?",
+      "answer": "Failure of closed reduction, intra-articular fractures, soft tissue interposition between fragments, and unstable fractures requiring internal fixation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "Why is an open fracture considered a emergency in orthopedic surgery?",
+      "answer": "Direct communication with atmospheric air significantly increases the risk of bacterial contamination and deep bone infection (osteomyelitis)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What defines a Type 1 open fracture under open fracture classification?",
+      "answer": "A clean wound with minimal contamination and a skin break smaller than 1 cm."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What defines a Type 2 open fracture?",
+      "answer": "A wound with moderate contamination and a skin break larger than 1 cm without extensive soft tissue damage."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What distinguishes Type 3B from Type 3A severe open fractures?",
+      "answer": "Type 3A has adequate soft tissue coverage despite high energy trauma, whereas Type 3B features extensive periosteal stripping where soft tissue coverage requires local or free tissue flaps."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What defines a Type 3C open fracture?",
+      "answer": "An open fracture associated with major arterial vascular injury requiring immediate surgical repair."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is the primary objective of wound toilet in open fracture management?",
+      "answer": "Copious irrigation with saline or clean water to remove gross contamination and foreign debris."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "During open fracture debridement, how should non-viable skin versus non-viable muscle be managed?",
+      "answer": "Preserve as much skin as possible; aggressively excise all dead, non-contractile, non-bleeding subcutaneous tissue and muscle."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "How should completely detached bone fragments be handled during debridement of an open fracture?",
+      "answer": "All devitalized, completely detached bone fragments with no soft tissue attachments must be removed."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "Why are contaminated open fracture wounds left open after initial surgical debridement?",
+      "answer": "To prevent anaerobic infection and tissue necrosis; closure is performed later via delayed primary or secondary closure."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "How are femoral neck fractures classified anatomically relative to the hip joint capsule?",
+      "answer": "Intracapsular fractures and Extracapsular fractures."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What three anatomical sites comprise intracapsular femoral neck fractures?",
+      "answer": "Subcapital, Transcervical, and Basicervical."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What three anatomical regions comprise extracapsular hip fractures?",
+      "answer": "Intertrochanteric, Peritrochanteric, and Subtrochanteric."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "Why do displaced intracapsular femoral neck fractures carry a high risk of avascular necrosis (AVN)?",
+      "answer": "Displacement disrupts the retinacular blood vessels supplying the femoral head derived from the medial femoral circumflex artery."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What characterizes a Stage I fracture in Garden's classification of hip fractures?",
+      "answer": "An undisplaced, incomplete femoral neck fracture, including valgus impacted fractures."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What characterizes a Stage II fracture in Garden's classification?",
+      "answer": "A complete femoral neck fracture that remains undisplaced."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What characterizes a Stage III fracture in Garden's classification?",
+      "answer": "A complete femoral neck fracture that is incompletely displaced."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What characterizes a Stage IV fracture in Garden's classification?",
+      "answer": "A complete femoral neck fracture with total displacement."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "How is Pauwels' angle defined in femoral neck fractures?",
+      "answer": "The angle formed between the fracture line and a horizontal reference line drawn between both anterior superior iliac spines (ASIS)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "Why does a wide Pauwels' angle reduce the mechanical stability of a femoral neck fracture?",
+      "answer": "A steep, vertical fracture line creates shearing forces across the fracture during weight-bearing, increasing non-union risk."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "An elderly female patient presents after a fall with a painful hip. Examination reveals the classic lower limb posture shown below: Clinical photograph showing marked shortening and external rotation of the patient's right leg What diagnosis is classically indicated by this posture?",
+      "answer": "Fracture of the neck of femur (#NOF), classically demonstrating limb shortening, flexion, external rotation, and abduction."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What are the four characteristic posture findings of a displaced femoral neck fracture on physical examination?",
+      "answer": "Shortening, flexion, external rotation, and abduction of the affected leg."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What surgical options are indicated for managing intracapsular femoral neck fractures?",
+      "answer": "Internal fixation with hip screws (CRIF/ORIF) for young/undisplaced cases, or Hemiarthroplasty (unipolar or bipolar) / total hip replacement for elderly displaced cases."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is the typical mechanism of injury for a supracondylar fracture of the humerus in children?",
+      "answer": "A Fall On An Outstretched Hand (FOOSH) with hyperextension of the elbow."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What clinical triad constitutes the 'Brachialis Sign' in pediatric supracondylar fractures?",
+      "answer": "Skin puckering at the antecubital fossa, ecchymosis, and a palpable proximal bone end penetrating the brachialis muscle."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What vital neurovascular structures are endangered in a supracondylar humerus fracture?",
+      "answer": "The brachial artery and the median nerve (particularly the anterior interosseous branch) or radial nerve."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What malunion complication causes a 'gunstock' appearance following an improperly managed supracondylar humerus fracture?",
+      "answer": "Cubitus varus deformity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What is Colles' fracture?",
+      "answer": "An extra-articular fracture of the distal radius with dorsal displacement and angulation of the distal fragment."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What classic physical deformity is associated with a Colles' fracture?",
+      "answer": "Dinner-fork deformity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What standard radiographic views are requested to evaluate a suspected distal radius fracture?",
+      "answer": "Anteroposterior (AP) and Lateral X-ray views of the forearm including the wrist joint."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What non-surgical primary treatment is indicated for an uncomplicated displaced Colles' fracture?",
+      "answer": "Manual Reduction under Anaesthesia (MUA) and application of a Plaster of Paris (POP) cast."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What primary pathophysiology defines acute compartment syndrome?",
+      "answer": "Increased tissue pressure within a closed osteofascial compartment compromising capillary perfusion and causing tissue ischemia."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What four clinical findings strongly point to lower limb compartment syndrome following revascularization/embolectomy?",
+      "answer": "A swollen tender calf, severe pain with loss of active toe extension, dark/high-colored urine, and faint distal pulses."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "Why does a patient with severe acute compartment syndrome pass dark, high-colored urine?",
+      "answer": "Ischemic muscle breakdown (rhabdomyolysis) releases myoglobin into the systemic circulation, leading to myoglobinuria."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What definitive emergency surgical procedure treats acute lower limb compartment syndrome?",
+      "answer": "Fasciotomy (decompression of all involved anatomical compartments)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 9",
+      "question": "What adjunctive medical management steps are essential when treating compartment syndrome accompanied by rhabdomyolysis?",
+      "answer": "Aggressive IV hydration, serum urea, electrolytes, and creatinine monitoring, and continuous ECG monitoring for hyperkalemia."
     }
   ]
 }

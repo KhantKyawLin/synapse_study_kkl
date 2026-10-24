@@ -4903,6 +4903,428 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 9 Database": [
+    {
+      "Name": "Fracture Principles & Healing Stages",
+      "Tag": "Orthopaedic Principles",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Pain, swelling, deformity, tenderness, loss of function, abnormal mobility, crepitus. X-ray rule of 2s (2 views, 2 joints, 2 occasions, 2 limbs)."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Primary (direct, rigid fixation) vs Secondary (indirect, callus formation). 5 stages: Hematoma -> Granulation -> Soft Callus -> Hard Callus -> Remodeling."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Plain Radiography (AP and Lateral X-rays including joint above and below)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Splinting in alignment, analgesia, neurovascular assessment before and after splinting."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Conservative (Cast/Slab) vs Surgical (ORIF, CRIF, External Fixation) based on displacement and stability."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Delayed union (>6 months), Non-union (atrophic vs hypertrophic), Malunion, Sudeck's atrophy (CRPS)."
+        }
+      ]
+    },
+    {
+      "Name": "Open (Compound) Fractures",
+      "Tag": "Trauma & Emergencies",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Direct communication between fracture hematoma/bone and external environment through skin breakdown. High risk of osteomyelitis."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "High-energy trauma. Gustilo-Anderson Classification: Type I (<1 cm), Type II (1-10 cm), Type III (>10 cm or high energy; IIIa adequate cover, IIIb flap required, IIIc vascular repair needed)."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Plain X-rays + Wound swab culture + CT for complex joint injury."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Tetanus toxoid, IV broad-spectrum antibiotics (Cefuroxime +/- Gentamicin), sterile saline dressing, photo documentation, immediate limb realignment."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Emergency Operative Debridement (within 24 hours) + Copious irrigation + Stabilization (External Fixation/Surgical Fixation)."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Orthopedic Emergency! Do NOT probe wound in ED. Primary closure contraindicated in contaminated Grade III wounds."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Compartment Syndrome",
+      "Tag": "Trauma & Emergencies",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Severe, disproportionate, agonizing pain out of proportion to injury, pain on passive muscle stretch (earliest/most sensitive sign), tense woody compartment, paresis, paresthesia, pulselessness (late)."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Elevated intracompartmental pressure (>30 mmHg or delta pressure <30 mmHg) exceeding capillary perfusion pressure. Caused by supracondylar fracture, tibia fracture, tight casts, crush injury."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Clinical diagnosis! Compartment pressure measurement (Stryker needle: pressure >30 mmHg or delta P <30 mmHg)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Remove all tight circumferential casts/dressings immediately. Keep limb at HEART LEVEL (do not elevate!)."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Emergency Surgical Fasciotomy (complete double-incision 4-compartment fasciotomy for leg) within 6 hours."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Volkmann's Ischemic Contracture (flexor compartment necrosis/fibrosis of forearm), myoglobinuria, acute kidney injury."
+        }
+      ]
+    },
+    {
+      "Name": "Intracapsular Neck of Femur (#NOF) Fracture",
+      "Tag": "Hip & Femur Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Shortened and EXTERNALLY rotated affected leg in an elderly person after a fall. Unable to weight bear. Groin/hip pain."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Low-energy fall in osteoporotic elderly. High risk of Avascular Necrosis (AVN) due to disruption of retinacular branches of Medial Circumflex Femoral Artery. Garden Classification (I: Incomplete/impacted, II: Complete undisplaced, III: Complete partially displaced, IV: Fully displaced)."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "AP Pelvis & Lateral Hip X-ray. MRI if X-ray negative but high clinical suspicion."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Analgesia (Femoral Nerve Block / FICB), IV fluids, VTE prophylaxis."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Undisplaced (Garden I/II) or young patient: Closed reduction & internal fixation (Cannulated screws). Displaced (Garden III/IV) in elderly: Hemiarthroplasty or Total Hip Arthroplasty (THA)."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Avascular Necrosis (AVN) of femoral head, non-union, high 1-year mortality."
+        }
+      ]
+    },
+    {
+      "Name": "Extracapsular (Intertrochanteric) #NOF Fracture",
+      "Tag": "Hip & Femur Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Markedly shortened and severely EXTERNALLY rotated leg (more pronounced deformity than intracapsular). Ecchymosis over greater trochanter."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Extracapsular fracture line between greater and lesser trochanters. Excellent blood supply from metaphyseal region, so AVN is rare."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "AP Pelvis and Lateral Hip Radiographs."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Femoral nerve block, traction/splint, IV resuscitation."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Dynamic Hip Screw (DHS) fixation or Intramedullary Nail (e.g., Proximal Femoral Nail - PFN)."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "High rate of fracture healing (low AVN risk), but risk of collapse/varus collapse and lag screw cut-out."
+        }
+      ]
+    },
+    {
+      "Name": "Colles' Fracture",
+      "Tag": "Upper Limb Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Wrist pain, swelling, and classic 'Dinner-Fork' deformity following a fall onto an outstretched hand (FOOSH) with wrist extended."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Extra-articular fracture of distal radius within 2.5 cm of wrist joint with DORSAL displacement, DORSAL tilt, radial tilt, radial shortening, and supination."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "AP and Lateral Wrist X-rays."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Hematoma block / Bier's block, closed reduction ('push distal fragment palmarward and ulnarward')."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Below-elbow plaster cast in palmar flexion and ulnar deviation (Colles cast) for 6 weeks. ORIF with volar locking plate if unstable."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Most common fracture in postmenopausal women. Complications: Malunion (dinner-fork deformity), Median nerve compression (Carpal Tunnel Syndrome), EPL tendon rupture."
+        }
+      ]
+    },
+    {
+      "Name": "Smith's Fracture (Reverse Colles')",
+      "Tag": "Upper Limb Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Wrist pain and 'Garden-spade' deformity following a fall onto a flexed wrist or backward fall onto outstretched hand."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Distal radius fracture with PALMAR (volar) displacement and VOLAR tilt of the distal fragment."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "AP and Lateral Wrist Radiographs."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Closed reduction (extension, supination, radial deviation)."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Unstable fracture; usually requires ORIF with Volar Locking Plate."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "High instability compared to Colles; high risk of median nerve entrapment."
+        }
+      ]
+    },
+    {
+      "Name": "Supracondylar Fracture of Humerus",
+      "Tag": "Upper Limb Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Severe elbow pain, swelling, deformity in a child (5-8 yrs) following FOOSH. Prominent olecranon posteriorly."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Extension-type fracture (95%) of distal humerus supracondylar ridge. Garthland Classification (Type I: Undisplaced, Type II: Displaced with intact posterior cortex, Type III: Completely displaced)."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "AP and Lateral Elbow X-rays (look for anterior humeral line crossing middle third of capitellum, and teardrop/fat pad signs)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Check radial pulse, capillary refill, median/anterior interosseous nerve (AIN) function ('OK' sign). Emergency reduction if pulse absent."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Garthland I: Immobilization in cast (elbow flexed <90 deg). Garthland II/III: Closed Reduction and Percutaneous K-wire Fixation (CRPP)."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Volkmann's Ischemic Contracture (due to Brachial Artery injury/spasm), Anterior Interosseous Nerve (AIN) palsy, Cubitus Varus ('Gunstock' deformity)."
+        }
+      ]
+    },
+    {
+      "Name": "Fat Embolism Syndrome (FES)",
+      "Tag": "Trauma & Emergencies",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Classic Triad: Respiratory distress (hypoxemia, ARDS) + Neurological dysfunction (confusion, lethargy) + Petechial rash (conjunctiva, chest, axilla) 24-72 hours post-injury."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Release of fat globules from marrow into venous circulation following long bone (femur/tibia) or pelvic fractures."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Clinical diagnosis (Gurd's Criteria / Schonfeld Criteria). Chest X-ray/CT shows bilateral patchy infiltrates ('snowstorm' appearance). Arterial Blood Gas (ABG) shows severe hypoxia (PaO2 <60 mmHg)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "High-flow oxygenation, mechanical ventilation, fluid resuscitation, early fracture fixation."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Supportive ICU care. Prevention: Early operative fixation of long bone fractures within 24 hours."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Petechial rash over chest/axilla/conjunctiva is PATHOGNOMONIC. Fat globules in urine or sputum."
+        }
+      ]
+    },
+    {
+      "Name": "Acute Pyogenic Osteomyelitis",
+      "Tag": "Bone & Joint Infections",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Severe localized bone pain, exquisite tenderness over metaphysis, fever, lethargy, refusal to bear weight in a child."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Hematogenous spread of Staphylococcus aureus (#1 pathogen) lodging in the hairpin loops of metaphyseal capillaries of long bones (femur/tibia). In Sickle Cell disease: Salmonella."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "MRI (most sensitive early test). Blood cultures, elevated ESR/CRP. X-rays normal in first 10-14 days (only soft tissue swelling)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Blood cultures before antibiotics. High-dose IV antibiotics (Cloxacillin / Flucloxacillin or Vancomycin) for 4-6 weeks."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Surgical decompression/drainage (subperiosteal abscess evacuation / cortical drilling) if no response to IV antibiotics within 48 hours or subperiosteal abscess on USG."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Metaphysis is most common site. Early X-rays are normal! Chronic osteomyelitis, pathologic fracture, growth arrest."
+        }
+      ]
+    },
+    {
+      "Name": "Chronic Osteomyelitis",
+      "Tag": "Bone & Joint Infections",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Persistent, non-healing sinus tract discharging foul pus, deep bone pain, thickened bone, history of prior open fracture or inadequate acute osteomyelitis treatment."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Avascular necrotic bone isolated from blood supply (**Sequestrum**) encased by new reactive periosteal bone formation (**Involucrum**), with sinus tract (**Cloaca**) draining pus."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Plain X-ray (shows sequestrum, involucrum, sclerosis) + CT scan (demarcates sequestrum) + Sinogram + Bone biopsy culture."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Culture-guided systemic antibiotic therapy."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Surgical Sequestrectomy (removal of dead bone) + Saucerization (excision of unyielding walls) + Antibiotic bead placement + Soft tissue coverage (muscle flap)."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Sequestrum = Dead bone (dense, radiopaque). Involucrum = New bone. Cloaca = Hole in involucrum. Risk of Marjolin's ulcer (Squamous Cell Carcinoma in chronic sinus tract)."
+        }
+      ]
+    },
+    {
+      "Name": "Tuberculosis of Spine (Pott's Disease)",
+      "Tag": "Bone & Joint Infections",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Insidious onset of back pain, evening pyrexia, night sweats, weight loss, localized spinal tenderness, kyphotic deformity (**Gibbus**), cold abscess in groin/psoas, progressive neurological deficit (paraplegia)."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Hematogenous spread of Mycobacterium tuberculosis to paradiscal metaphyseal bone of vertebral body. Spreads under anterior longitudinal ligament, causing disc space collapse, anterior wedging, cold abscess formation, and cord compression."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "MRI Spine (shows disc destruction, vertebral collapse, cold abscess) + CT-guided biopsy (acid-fast bacilli / GeneXpert)."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Anti-Tuberculous Therapy (ATT 4-drug regimen: HRZE for 2 months, HR for 7-10 months) + Spinal immobilization."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Medical ATT is primary! Surgical decompression (anterior debridement, fusion, instrumentation) indicated for progressive neurological deficit (Pott's paraplegia), spinal instability, or severe kyphosis."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Pott's Paraplegia (onset early due to active edema/abscess vs late due to bony gibbus deformity). Cold abscess (psoas abscess tracking to groin/femoral triangle)."
+        }
+      ]
+    },
+    {
+      "Name": "Septic Arthritis",
+      "Tag": "Bone & Joint Infections",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Acute onset of severe, excruciating joint pain, swelling, warmth, erythema, fever, refusal to move joint (pseudoparalysis), held in position of maximum capacity (e.g., hip flexed, abducted, externally rotated)."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Infection of synovial membrane/joint space via hematogenous spread or direct inoculation. Staphylococcus aureus #1 overall; Neisseria gonorrhoeae in sexually active young adults."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Urgent Diagnostic Joint Aspiration (Arthrocentesis): Synovial fluid WBC >50,000/mm3 with >75% PMNs, Gram stain, culture, crystal analysis."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "Orthopedic Emergency! Joint aspiration prior to starting high-dose empiric IV antibiotics (Ceftriaxone + Vancomycin)."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Immediate Operative Joint Drainage / Lavage (Arthroscopic or Open Arthrotomy) + 4-6 weeks targeted IV/oral antibiotics."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Kocher Criteria for pediatric septic hip (Non-weight bearing, ESR >40, Fever >38.5C, WBC >12,000). Rapid cartilage destruction in 24-48 hours!"
+        }
+      ]
+    },
+    {
+      "Name": "Scaphoid Fracture",
+      "Tag": "Upper Limb Fractures",
+      "details": [
+        {
+          "title": "Key Presentation / Diagnostic Features",
+          "content": "Tenderness in the Anatomical Snuffbox, pain on axial loading of 1st metacarpal following a fall onto an outstretched hand (FOOSH)."
+        },
+        {
+          "title": "Etiology / Pathophysiology",
+          "content": "Fracture across scaphoid waist, proximal pole, or distal pole. Retrograde blood supply entering via distal pole from radial artery."
+        },
+        {
+          "title": "Gold Standard Investigation",
+          "content": "Dedicated Scaphoid X-ray views (PA with ulnar deviation, lateral, oblique). MRI Wrist if initial X-rays normal but clinical suspicion high."
+        },
+        {
+          "title": "Emergency / Acute Management",
+          "content": "If clinically suspected but X-ray normal: Apply Scaphoid Cast (thumb spica) and repeat X-ray in 10-14 days (or order immediate MRI)."
+        },
+        {
+          "title": "Definitive Management",
+          "content": "Undisplaced waist fracture: Thumb Spica Cast for 8-12 weeks. Displaced fracture or proximal pole fracture: ORIF with Percutaneous Herbert Screw."
+        },
+        {
+          "title": "Exam Pearls / Complications",
+          "content": "Proximal pole fractures have 100% risk of Avascular Necrosis (AVN) due to retrograde blood supply. Non-union leads to Scaphoid Nonunion Advanced Collapse (SNAC wrist)."
+        }
+      ]
+    }
+  ],
   "Immunology Database": [
     {
       "Name": "IgA Antibody",

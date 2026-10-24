@@ -170,6 +170,11 @@ function getConditionTag(name) {
     if (/epididym|hydrocele|varicocele/i.test(name)) return 'Scrotal Pathology';
     if (/urethral injury|urethra/i.test(name)) return 'Urological Trauma';
     if (/phimosis|paraphimosis/i.test(name)) return 'Penile Pathology';
+    if (/open.*fracture|compartment syndrome|fat embolism|fes/i.test(name)) return 'Trauma & Emergencies';
+    if (/neck of femur|nof|intertrochanteric|femur fracture/i.test(name)) return 'Hip & Femur Fractures';
+    if (/colles|smith|supracondylar|scaphoid/i.test(name)) return 'Upper Limb Fractures';
+    if (/osteomyelitis|pott|septic arthritis/i.test(name)) return 'Bone & Joint Infections';
+    if (/fracture principles|healing/i.test(name)) return 'Orthopaedic Principles';
     if (/hemorrhoid|fissure|fistula|perianal/i.test(name)) return 'Perianal Disease';
     if (/abscess/i.test(name)) return 'Perianal Disease';
     if (/femoral/i.test(name)) return 'Femoral Hernia';

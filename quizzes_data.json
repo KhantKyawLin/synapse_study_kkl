@@ -9423,6 +9423,428 @@
       "explanation": "Because the underlying anatomical defect ('bell-clapper deformity') is almost always bilateral, orchidopexy MUST be performed bilaterally to prevent future torsion of the contralateral testis."
     }
   ],
+  "Final Part 2 Surgery - Surgery Module 9": [
+    {
+      "id": 1,
+      "category": "Fracture Principles",
+      "question": "A 22-year-old male presents with a closed midshaft tibia fracture following a soccer tackle. Which of the following represents the correct sequential stages of secondary bone healing?",
+      "options": [
+        "Callus -> Hematoma -> Granulation -> Remodeling -> Hard Callus",
+        "Hematoma -> Granulation -> Soft Callus -> Hard Callus -> Remodeling",
+        "Granulation -> Hematoma -> Remodeling -> Soft Callus -> Hard Callus",
+        "Soft Callus -> Hard Callus -> Hematoma -> Granulation -> Remodeling",
+        "Remodeling -> Hard Callus -> Soft Callus -> Granulation -> Hematoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Secondary bone healing occurs in 5 distinct overlapping stages: 1. Hematoma formation (0-7 days), 2. Granulation tissue formation, 3. Soft callus formation (2-3 weeks), 4. Hard callus formation (3-4 months), 5. Bone remodeling (months to years)."
+    },
+    {
+      "id": 2,
+      "category": "Open Fractures",
+      "question": "A 30-year-old motorcyclist sustains an open tibia fracture with a 12 cm wound, extensive soft tissue devitalization, and severe contamination. Soft tissue coverage requires a free flap. According to the Gustilo-Anderson classification, what is the grade?",
+      "options": [
+        "Grade I",
+        "Grade II",
+        "Grade IIIa",
+        "Grade IIIb",
+        "Grade IIIc"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gustilo-Anderson Grade IIIb involves open fractures with high-energy soft tissue loss, extensive contamination, periosteal stripping, and inadequate soft tissue coverage requiring reconstructive flap coverage. Grade IIIc requires major arterial repair."
+    },
+    {
+      "id": 3,
+      "category": "Open Fractures",
+      "question": "What is the primary initial surgical emergency management required for a Gustilo-Anderson Grade II open fracture in the operating theatre?",
+      "options": [
+        "Immediate primary wound closure",
+        "Copious wound irrigation and radical debridement of all non-viable tissue",
+        "Application of a tight circumferential plaster cast",
+        "Local topical antibiotic ointment application only",
+        "Internal fixation without debridement"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cornerstone of open fracture emergency care is formal operative debridement of non-viable tissue and copious low-pressure wound irrigation (toilet and debridement) within 24 hours to prevent acute osteomyelitis."
+    },
+    {
+      "id": 4,
+      "category": "Compartment Syndrome",
+      "question": "A 10-year-old boy with a displaced supracondylar humeral fracture complains of severe, excruciating pain in his forearm 6 hours after closed reduction and cast application. Pain is markedly exacerbated by passive extension of his fingers. Radial pulse is palpable. What is the immediate management?",
+      "options": [
+        "Elevate the arm high on pillows and re-examine in 4 hours",
+        "Administer IV Morphine and leave cast intact",
+        "Split and remove all tight circumferential casts and dressings immediately",
+        "Apply ice packs directly to the forearm",
+        "Perform immediate brachial artery bypass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pain on passive stretch of muscles is the most sensitive early sign of Acute Compartment Syndrome. The mandatory first step is to remove all tight external circumferential casts and dressings to relieve external pressure. If pressure remains elevated, emergency fasciotomy is required."
+    },
+    {
+      "id": 5,
+      "category": "Compartment Syndrome",
+      "question": "What is the threshold intracompartmental pressure (or delta pressure) that establishes the absolute indication for emergency fasciotomy?",
+      "options": [
+        "Absolute pressure >10 mmHg",
+        "Absolute pressure >30 mmHg (or Delta P <30 mmHg)",
+        "Absolute pressure >60 mmHg",
+        "Delta P >50 mmHg",
+        "Absolute pressure >100 mmHg"
+      ],
+      "correctIndex": 1,
+      "explanation": "An absolute intracompartmental pressure >30 mmHg, or a Delta P (Diastolic BP minus Intracompartmental pressure) <30 mmHg, indicates severe tissue ischemia and is an absolute indication for emergency operative fasciotomy."
+    },
+    {
+      "id": 6,
+      "category": "Neck of Femur (#NOF)",
+      "question": "An 82-year-old female presents after a fall with groin pain. On examination, her right leg is shortened and externally rotated. X-rays reveal a complete, fully displaced intracapsular femoral neck fracture. What is the Garden classification?",
+      "options": [
+        "Garden Type I",
+        "Garden Type II",
+        "Garden Type III",
+        "Garden Type IV",
+        "Garden Type V"
+      ],
+      "correctIndex": 3,
+      "explanation": "Garden Type IV is a complete, fully displaced intracapsular neck of femur fracture where the femoral head fragment is completely disassociated from the femoral neck, carrying a very high risk of avascular necrosis (AVN)."
+    },
+    {
+      "id": 7,
+      "category": "Neck of Femur (#NOF)",
+      "question": "What primary blood vessel supplying the femoral head is disrupted in displaced intracapsular femoral neck fractures, leading to avascular necrosis?",
+      "options": [
+        "Obturator artery",
+        "Medial Circumflex Femoral Artery (retinacular branches)",
+        "Lateral Circumflex Femoral Artery",
+        "Profunda Femoris main trunk",
+        "Inferior Gluteal Artery"
+      ],
+      "correctIndex": 1,
+      "explanation": "The retinacular vessels arising predominantly from the Medial Circumflex Femoral Artery provide the main blood supply to the femoral head. Displaced intracapsular fractures tear these vessels, causing avascular necrosis (AVN)."
+    },
+    {
+      "id": 8,
+      "category": "Neck of Femur (#NOF)",
+      "question": "An active 85-year-old female with an isolated displaced intracapsular fracture (Garden IV) and no significant comorbidities is fit for surgery. What is the gold standard definitive operative procedure?",
+      "options": [
+        "Closed reduction and cannulated screw fixation",
+        "Cemented Hemiarthroplasty or Total Hip Arthroplasty (THA)",
+        "Dynamic Hip Screw (DHS)",
+        "Proximal Femoral Nail (PFN)",
+        "Above-knee amputation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Displaced intracapsular fractures (Garden III/IV) in elderly patients are treated definitively with replacement (Hemiarthroplasty or Total Hip Arthroplasty) because internal fixation carries an unacceptably high rate of non-union and AVN."
+    },
+    {
+      "id": 9,
+      "category": "Extracapsular #NOF",
+      "question": "A 78-year-old male sustains an intertrochanteric hip fracture. What is the surgical procedure of choice for stable extracapsular intertrochanteric fractures?",
+      "options": [
+        "Hemiarthroplasty",
+        "Dynamic Hip Screw (DHS) or Intramedullary Nail (PFN)",
+        "Cannulated screw fixation",
+        "Total Hip Arthroplasty",
+        "Skeletal traction for 12 weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extracapsular (intertrochanteric) fractures have a rich metaphyseal blood supply (low AVN risk) and are routinely fixed with a Dynamic Hip Screw (DHS) or a Proximal Femoral Nail (PFN)."
+    },
+    {
+      "id": 10,
+      "category": "Colles' Fracture",
+      "question": "A 65-year-old female presents with wrist pain and a 'dinner-fork' deformity following a fall onto her outstretched hand. Radiographs show a distal radius fracture with dorsal displacement and dorsal tilt. What is the diagnosis?",
+      "options": [
+        "Smith's fracture",
+        "Colles' fracture",
+        "Scaphoid fracture",
+        "Barton's fracture",
+        "Galeazzi fracture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Colles' fracture is an extra-articular distal radius fracture occurring within 2.5 cm of the wrist joint, characterized by dorsal displacement, dorsal tilt, radial shortening, and a classic 'dinner-fork' deformity."
+    },
+    {
+      "id": 11,
+      "category": "Colles' Fracture",
+      "question": "What structure is at risk of acute compression in the carpal tunnel following a malreduced Colles' fracture?",
+      "options": [
+        "Radial nerve",
+        "Ulnar nerve",
+        "Median nerve",
+        "Axillary nerve",
+        "Musculocutaneous nerve"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acute or chronic median nerve compression (Carpal Tunnel Syndrome) is a recognized complication of Colles' fracture due to volar swelling or displaced bony fragments compressing the nerve in the carpal tunnel."
+    },
+    {
+      "id": 12,
+      "category": "Smith's Fracture",
+      "question": "A 35-year-old male falls backward onto his hand with the wrist flexed, presenting with a 'garden-spade' deformity. X-rays show a distal radius fracture with VOLAR (palmar) displacement. What is the diagnosis?",
+      "options": [
+        "Colles' fracture",
+        "Smith's fracture (Reverse Colles')",
+        "Greenstick fracture",
+        "Bennett's fracture",
+        "Rolando fracture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smith's fracture (Reverse Colles') is a distal radius fracture resulting from a fall onto a flexed wrist, causing palmar (volar) displacement and tilt, producing a 'garden-spade' deformity."
+    },
+    {
+      "id": 13,
+      "category": "Supracondylar Fracture",
+      "question": "A 6-year-old girl falls off monkey bars onto her outstretched arm and presents with severe elbow pain and swelling. X-rays confirm a displaced supracondylar fracture of the humerus. Which nerve is most commonly injured in extension-type supracondylar fractures?",
+      "options": [
+        "Anterior Interosseous Nerve (branch of Median Nerve)",
+        "Ulnar nerve",
+        "Axillary nerve",
+        "Long thoracic nerve",
+        "Musculocutaneous nerve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Anterior Interosseous Nerve (AIN - a motor branch of the Median Nerve) is the most commonly injured nerve in extension-type supracondylar fractures. Test by asking the child to make an 'OK' sign."
+    },
+    {
+      "id": 14,
+      "category": "Supracondylar Fracture",
+      "question": "What severe late ischemic muscle deformity results from an untreated brachial artery injury or compartment syndrome secondary to a supracondylar fracture?",
+      "options": [
+        "Dupuytren's contracture",
+        "Volkmann's Ischemic Contracture",
+        "Claw hand",
+        "Wrist drop",
+        "Ape hand deformity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Volkmann's Ischemic Contracture is a permanent flexion contracture of the wrist and hand caused by ischemic necrosis and subsequent fibrosis of the forearm flexor muscles following uncorrected compartment syndrome or brachial artery disruption."
+    },
+    {
+      "id": 15,
+      "category": "Fat Embolism",
+      "question": "A 24-year-old male with a closed femur fracture develops sudden dyspnea, confusion, and a petechial rash over his axilla and conjunctiva 36 hours post-trauma. What is the most likely diagnosis?",
+      "options": [
+        "Pulmonary Embolism (DVT)",
+        "Fat Embolism Syndrome (FES)",
+        "Acute Myocardial Infarction",
+        "Tension Pneumothorax",
+        "Transfusion-Related Acute Lung Injury"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic triad of Fat Embolism Syndrome (FES) appearing 24-72 hours after long bone fracture consists of respiratory distress (hypoxia), neurological impairment (confusion), and a pathognomonic petechial rash over the upper body/conjunctiva."
+    },
+    {
+      "id": 16,
+      "category": "Fat Embolism",
+      "question": "What primary preventive measure reduces the incidence of Fat Embolism Syndrome in patients with long bone fractures?",
+      "options": [
+        "High-dose IV Steroids",
+        "Early operative immobilization and fixation of fractures within 24 hours",
+        "Prophylactic IV Antibiotics",
+        "Strict bed rest without splinting",
+        "Hyperbaric oxygen therapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early operative stabilization and fixation of long bone (femur/tibia) fractures within 24 hours significantly reduces the release of fat globules into the circulation, dramatically decreasing FES incidence."
+    },
+    {
+      "id": 17,
+      "category": "Acute Osteomyelitis",
+      "question": "What is the most common causative organism responsible for acute hematogenous osteomyelitis in children?",
+      "options": [
+        "Escherichia coli",
+        "Staphylococcus aureus",
+        "Pseudomonas aeruginosa",
+        "Streptococcus pneumoniae",
+        "Mycobacterium tuberculosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Staphylococcus aureus is universally the most common pathogen (>80-90%) causing acute hematogenous osteomyelitis across all age groups."
+    },
+    {
+      "id": 18,
+      "category": "Acute Osteomyelitis",
+      "question": "An 8-year-old boy presents with a 2-day history of high fever, severe leg pain, and refusal to bear weight. Physical exam reveals localized tenderness over the distal femoral metaphysis. Plain X-rays of the femur are completely normal. What is the next best diagnostic step?",
+      "options": [
+        "Discharge home with oral paracetamol",
+        "MRI of the femur (or ultrasound for subperiosteal collection) + blood cultures",
+        "Repeat X-rays in 6 weeks",
+        "Bone biopsy without imaging",
+        "Apply a full leg cast"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plain radiographs are normal in the first 10-14 days of acute osteomyelitis (showing only soft tissue swelling). MRI is the most sensitive imaging modality for early bone marrow edema, while USG can detect subperiosteal abscesses."
+    },
+    {
+      "id": 19,
+      "category": "Chronic Osteomyelitis",
+      "question": "In chronic osteomyelitis, what term describes a piece of devitalized, necrotic bone that has become isolated from its blood supply?",
+      "options": [
+        "Involucrum",
+        "Sequestrum",
+        "Cloaca",
+        "Brodie's abscess",
+        "Callus"
+      ],
+      "correctIndex": 1,
+      "explanation": "A **Sequestrum** is a piece of dead, avascular necrotic bone separated from living bone. **Involucrum** is the sheath of new thick periosteal bone surrounding it. **Cloaca** is the sinus tract opening in the involucrum."
+    },
+    {
+      "id": 20,
+      "category": "Chronic Osteomyelitis",
+      "question": "A 50-year-old male with a 20-year history of chronic osteomyelitis of the tibia and a persistent discharging sinus presents with a changing, fungating ulcer margin at the sinus opening. Biopsy reveals Squamous Cell Carcinoma. What is this condition called?",
+      "options": [
+        "Marjolin's ulcer",
+        "Rodent ulcer",
+        "Curling's ulcer",
+        "Cushing's ulcer",
+        "Meleney's ulcer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Marjolin's ulcer is a malignant transformation (Squamous Cell Carcinoma) occurring in a chronic, non-healing scar, burn wound, or chronic osteomyelitis sinus tract."
+    },
+    {
+      "id": 21,
+      "category": "Spinal Tuberculosis",
+      "question": "A 35-year-old patient presents with back pain, low-grade fever, night sweats, and a sharp angular kyphotic deformity of the midthoracic spine. What is the classic name for this spinal deformity in Pott's disease?",
+      "options": [
+        "Scoliosis",
+        "Lordosis",
+        "Gibbus deformity",
+        "Spondylolisthesis",
+        "Cobb angle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anterior collapse of adjacent tuberculous vertebral bodies leads to a sharp, single-segment angular kyphosis known as a **Gibbus deformity**."
+    },
+    {
+      "id": 22,
+      "category": "Spinal Tuberculosis",
+      "question": "In Tuberculosis of the lumbar spine (Pott's disease), cold abscesses classically track along the fascia of which muscle to present as a fluctuant mass in the groin/femoral triangle?",
+      "options": [
+        "Quadriceps femoris",
+        "Psoas major muscle",
+        "Gluteus maximus",
+        "Rectus abdominis",
+        "Piriformis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuberculous cold abscesses originating from the lumbar vertebrae track retroperitoneally along the **psoas muscle sheath** (Psoas Abscess) to present in the iliac fossa or femoral triangle below the inguinal ligament."
+    },
+    {
+      "id": 23,
+      "category": "Spinal Tuberculosis",
+      "question": "What is the absolute primary cornerstone of treatment for spinal tuberculosis (Pott's disease) without progressive neurological deficit?",
+      "options": [
+        "Emergency posterior spinal fusion alone",
+        "Multi-drug Anti-Tuberculous Therapy (ATT) for 9-12 months",
+        "Radiation therapy",
+        "Systemic corticosteroids alone",
+        "High-dose penicillin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multi-drug Anti-Tuberculous Therapy (ATT) is the cornerstone of treatment for Pott's disease, curing over 90% of cases without mandatory surgery if started early."
+    },
+    {
+      "id": 24,
+      "category": "Septic Arthritis",
+      "question": "A 4-year-old child presents with severe hip pain, high fever (38.9 C), refusal to bear weight, ESR of 55 mm/hr, and elevated WBC (15,000/mm3). What is the mandatory immediate procedure to confirm diagnosis and prevent femoral head necrosis?",
+      "options": [
+        "MRI under general anesthesia",
+        "Emergency Diagnostic Joint Aspiration (Arthrocentesis) and Operative Drainage",
+        "Oral antibiotics and outpatient follow-up",
+        "Skin traction for 2 weeks",
+        "Reassurance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Septic arthritis is an orthopedic emergency! High intra-articular pressure rapidly destroys articular cartilage and tamponades blood flow to the femoral head within 24 hours. Emergency joint aspiration and operative washout/drainage are mandatory."
+    },
+    {
+      "id": 25,
+      "category": "Septic Arthritis",
+      "question": "Which of the Kocher criteria for pediatric septic hip carries a high probability (>90% if all 4 met)?",
+      "options": [
+        "Non-weight bearing, ESR >40 mm/hr, Fever >38.5 C, Serum WBC >12,000/mm3",
+        "Weight bearing, Normal CRP, Normal WBC, Afebrile",
+        "Hip extension, Bradycardia, Hypotension, Rash",
+        "Knee swelling, Normal ESR, Normal Temp, Anemia",
+        "Back pain, Jaundice, Oliguria, Confusion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 4 Kocher criteria for pediatric septic hip are: 1. Inability to bear weight, 2. ESR >40 mm/hr, 3. Fever >38.5 C, 4. Serum WBC >12,000/mm3. Meeting all 4 criteria gives a >90-99% probability of septic arthritis."
+    },
+    {
+      "id": 26,
+      "category": "Scaphoid Fracture",
+      "question": "A 22-year-old male falls onto an outstretched hand and presents with exquisite tenderness in the Anatomical Snuffbox. Initial wrist X-rays show no fracture line. What is the most appropriate management?",
+      "options": [
+        "Reassure the patient and return to heavy sports immediately",
+        "Apply a Thumb Spica cast and repeat X-rays in 10-14 days (or obtain immediate MRI)",
+        "Perform emergency open reduction",
+        "Apply an above-elbow full arm cast for 1 year",
+        "Order immediate CT chest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Up to 20% of scaphoid fractures are radiographically occult initially. Any patient with snuffbox tenderness following FOOSH must be immobilized in a Thumb Spica cast and re-evaluated with repeat X-rays in 10-14 days (or an immediate MRI)."
+    },
+    {
+      "id": 27,
+      "category": "Scaphoid Fracture",
+      "question": "Why do fractures of the proximal pole of the scaphoid carry an extremely high risk of Avascular Necrosis (AVN) and non-union?",
+      "options": [
+        "Proximal pole has no muscular attachments",
+        "Scaphoid blood supply enters distally and flows in a retrograde direction",
+        "Synovial fluid dissolves proximal bone",
+        "Median nerve crushes proximal pole",
+        "Ulnar artery is occluded"
+      ],
+      "correctIndex": 1,
+      "explanation": "The scaphoid receives its blood supply from branches of the radial artery entering at the distal pole and waist, flowing in a **retrograde direction** to the proximal pole. Fractures across the waist or proximal pole cut off blood supply to the proximal fragment."
+    },
+    {
+      "id": 28,
+      "category": "Bone Pathology",
+      "question": "What is the primary diagnostic imaging feature distinguishing a Benign Bone Tumor (e.g., Osteochondroma) from a Malignant Bone Tumor (e.g., Osteosarcoma)?",
+      "options": [
+        "Cortical destruction, soft tissue mass, and Codman's triangle / Sunburst periosteal reaction in malignant lesions",
+        "Smooth well-defined sclerotic margins in malignant lesions",
+        "Absence of pain in malignant lesions",
+        "Complete lack of blood flow on angiography",
+        "Normal alkaline phosphatase in osteosarcoma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Malignant bone tumors (like Osteosarcoma) demonstrate aggressive features: cortical destruction, soft tissue extension, and periosteal elevation reactions such as **Codman's triangle** or a **Sunburst appearance**."
+    },
+    {
+      "id": 29,
+      "category": "Fracture Complications",
+      "question": "What radiological feature defines a Hypertrophic Non-Union of a fracture?",
+      "options": [
+        "Complete absence of callus with bone end atrophy ('pencil-tip')",
+        "Abundant, exuberant callus formation with open fracture line ('Elephant foot' appearance) due to inadequate mechanical stability",
+        "Normal bone density without fracture line",
+        "Complete bony bridging across fracture gap",
+        "Diffuse osteopenia only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypertrophic non-union shows abundant callus ('elephant-foot' or 'horse-hoof' appearance) because the blood supply is adequate, but mechanical stability/immobilization is insufficient."
+    },
+    {
+      "id": 30,
+      "category": "Nerve Injuries",
+      "question": "Match the fracture site with its classic associated nerve injury: Midshaft Humerus fracture.",
+      "options": [
+        "Radial Nerve (causes Wrist Drop)",
+        "Axillary Nerve (causes deltoid paralysis)",
+        "Common Peroneal Nerve (causes Foot Drop)",
+        "Ulnar Nerve (causes Claw Hand)",
+        "Femoral Nerve"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Radial Nerve runs directly in the spiral groove of the midshaft humerus, making midshaft humerus fractures classically associated with Radial Nerve injury resulting in **Wrist Drop** (loss of wrist and finger extension)."
+    }
+  ],
   "Physiology Interactive Practice Exam": [
     {
       "id": 9,
