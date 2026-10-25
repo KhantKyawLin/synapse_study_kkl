@@ -2395,6 +2395,278 @@
       ]
     }
   ],
+  "Final Part 2 - Surgery Module 10 Database": [
+    {
+      "Name": "Thermal Burns & TBSA Calculation",
+      "Tag": "Burns & Inhalational Injury",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Direct thermal heat, scalds, flame, chemical, or electrical contact."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Painful erythema, blistering (partial thickness), or leathery insensitive pale/charred tissue (full thickness). Hypovolemic shock if >15-20% TBSA."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Wallace Rule of Nines (Head 9%, Each Arm 9%, Ant Trunk 18%, Post Trunk 18%, Each Leg 18%, Perineum 1%). Lund-Browder chart for pediatrics."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "ABCDE, 100% humidified O2, IV fluid resuscitation via Parkland Formula (4 mL x kg x %TBSA in adults; half in first 8 hrs)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Debridement, topical antimicrobials (Silver Sulfadiazine / Mafenide), early tangential excision and split-thickness skin grafting (STSG)."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Burn shock, acute kidney injury (rhabdomyolysis in electrical/deep burns), Curling's ulcer, infection/sepsis, hypertrophic scarring."
+        }
+      ]
+    },
+    {
+      "Name": "Inhalational Injury & Circumferential Burns",
+      "Tag": "Burns & Inhalational Injury",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Inhalation of hot toxic gases/smoke in enclosed space fires; circumferential full-thickness thermal chest/limb burns."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Facial burns, singed nasal hairs, carbonaceous sputum, hoarseness, stridor, respiratory distress. Circumferential chest tightness or cold pulseless limb."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Clinical suspicion + Flexible Fiberoptic Bronchoscopy (erythema, edema, soot). Carboxyhemoglobin blood gas level."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Immediate ETT endotracheal intubation BEFORE airway edema worsens. 100% high-flow oxygen (reduces CO half-life)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Emergency bedside Escharotomy (longitudinal lateral/medial incisions through burn eschar) for compartment syndrome or restricted chest expansion."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Acute airway asphyxia, carbon monoxide (CO) poisoning, cyanide toxicity, bronchospasm, secondary pneumonia, long-term subglottic stenosis."
+        }
+      ]
+    },
+    {
+      "Name": "Basal Cell Carcinoma (BCC)",
+      "Tag": "Skin Malignancies",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "UV radiation exposure (sunlight), fair skin (Fitzpatrick I-II), xeroderma pigmentosum, prior ionizing radiation."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Pearly nodule with rolled telangiectatic margins, central ulceration ('rodent ulcer'). Most common on sun-exposed upper 2/3 of face."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Clinical assessment + Excisional or Punch Biopsy. Histology: palisading nests of basaloid cells with retraction artifacts."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Reassurance, sun protection advice, dermatological referral."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Standard Surgical Excision with 4-5 mm clear margins. Mohs Micrographic Surgery for high-risk facial zones (medial canthus, nasolabial fold)."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Local tissue invasion and destruction (can erode bone/cartilage); metastasis is extremely rare (<0.1%). High yield: 'rodent ulcer'."
+        }
+      ]
+    },
+    {
+      "Name": "Squamous Cell Carcinoma (SCC) & Marjolin's Ulcer",
+      "Tag": "Skin Malignancies",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Chronic sun exposure, HPV, immunosuppression, or malignant transformation in chronic non-healing scars/burns (Marjolin's ulcer)."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Everted, raised hyperkeratotic ulcerated lesion or indurated plaque. Marjolin's ulcer presents as aggressive SCC in a chronic burn scar/sinus."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Excisional / Punch Biopsy. Histology: keratin pearls and intercellular bridges. Regional lymph node ultrasound."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Wound care, infection control, biopsy confirmation."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Wide Local Excision with 4-6 mm margins for low risk; 6-10 mm margins for high risk/Marjolin's ulcer + regional lymph node dissection if N+."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Lymphatic metastasis to regional nodes. Marjolin's ulcer is notoriously aggressive with higher metastatic potential than actinic SCC."
+        }
+      ]
+    },
+    {
+      "Name": "Malignant Melanoma",
+      "Tag": "Skin Malignancies",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "UV radiation, intense blistering sunburns in youth, dysplastic nevus syndrome, BRAF V600E gene mutations."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Pigmented skin lesion following ABCDE rule: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving/changing."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Excisional Biopsy with 1-3 mm margins (NO incisional biopsy!). Staging via Breslow Thickness (mm) and Clark Level."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Urgent dermatology/surgical oncology referral for complete excisional biopsy."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Wide Local Excision (WLE) with margins based on Breslow depth: In situ=0.5cm, <1mm=1cm, 1-2mm=1-2cm, >2mm=2cm. SLNB if depth >0.8-1.0 mm."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Breslow thickness is the single most critical prognostic factor. High propensity for early hematogenous and lymphatic metastasis (brain, liver, lung)."
+        }
+      ]
+    },
+    {
+      "Name": "Reconstructive Ladder & Skin Grafting",
+      "Tag": "Plastic & Reconstructive Surgery",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Tissue defects following tumor extirpation, trauma, burns, or chronic non-healing wounds."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Open tissue defect requiring coverage to prevent infection, exposure of vital structures (bone, tendon, neurovascular bundles)."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Clinical evaluation of wound bed (granulating vs exposed bone/tendon devoid of periosteum/peritenon)."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Wound bed preparation, debridement, negative pressure wound therapy (NPWT / VAC)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Reconstructive Ladder: Direct closure -> Secondary intention -> STSG -> FTSG -> Local flap -> Regional flap -> Free microvascular flap."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "STSG (Thiersch/Ollier): Epidermis + partial dermis (donor site heals spontaneously). FTSG (Wolfe): Epidermis + full dermis (requires primary closure of donor)."
+        }
+      ]
+    },
+    {
+      "Name": "Skin Graft Survival Phases & Flap Mechanics",
+      "Tag": "Plastic & Reconstructive Surgery",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Surgical reconstruction using split-thickness or full-thickness skin grafts vs vascularized tissue flaps."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Assessment of graft take or flap viability (capillary refill, color, temperature, turgor, Doppler signal)."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Clinical inspection + Handheld Doppler ultrasound for flap pedicle vessels. Wood's lamp / fluorescein for perfusion."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Ensure immobility and close contact of graft to bed; bolster dressing / tie-over dressing."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "3 Graft Survival Phases: 1. Plasmatic Imbibition (first 24-48h, nourishment via diffusion), 2. Inosculation (48-72h, capillary alignment), 3. Revascularization."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Graft failure causes: Hematoma/seroma under graft (#1 cause!), movement/shear, infection (P. aeruginosa), unvascularized bed. Flap failure: Venous congestion."
+        }
+      ]
+    },
+    {
+      "Name": "Keloids vs Hypertrophic Scars",
+      "Tag": "Plastic & Reconstructive Surgery",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Abnormal wound healing with excessive collagen deposition following cutaneous injury, surgery, burns, or piercings."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Hypertrophic scar: Raised erythematous scar WITHIN original wound boundaries. Keloid: Nodular thick scar extending BEYOND original boundaries."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Clinical examination and history of timing (hypertrophic appears early within 4-8 wks; keloid appears months/years later and rarely regresses)."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Avoid unnecessary elective cosmetic procedures in high-risk individuals (darker skin pigmentation, sternum, earlobes, shoulders)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Hypertrophic: Conservative (silicone gel sheeting, pressure garments, regresses in 1-2 yrs). Keloid: Multimodal (intralesional Triamcinolone + silicone + surgery)."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Surgical excision of keloid ALONE has a >50-80% recurrence rate. Must combine excision with post-op steroid injections or low-dose radiotherapy."
+        }
+      ]
+    },
+    {
+      "Name": "WHO Surgical Safety Checklist & Surgical Audit",
+      "Tag": "Clinical Governance & Safety",
+      "details": [
+        {
+          "title": "Etiology / Risk Factors",
+          "content": "Systemic human error prevention in operating theaters; quality improvement via structured clinical audit."
+        },
+        {
+          "title": "Clinical Presentation & Key Signs",
+          "content": "Surgical patient safety monitoring before anesthesia induction, before skin incision, and before patient leaves the operating room."
+        },
+        {
+          "title": "Diagnostic Workup / Classification",
+          "content": "Formal 3-phase checklist application: 1. Sign In (before anesthesia), 2. Time Out (before skin incision), 3. Sign Out (before leaving OR)."
+        },
+        {
+          "title": "Emergency / Immediate Management",
+          "content": "Stop operation immediately if discrepancies occur during Time Out (e.g., wrong site, missing consent, unconfirmed antibiotic prophylaxis)."
+        },
+        {
+          "title": "Definitive Surgical / Medical Treatment",
+          "content": "Audit Cycle steps: 1. Choose topic/standard, 2. Collect data, 3. Compare with standard, 4. Implement change, 5. Re-audit (close the loop)."
+        },
+        {
+          "title": "Complications & High-Yield Exam Pearls",
+          "content": "Time Out verifies: Right patient, Right site/side marked, Right procedure, Antibiotic prophylaxis within 60 mins, Anticipated critical events."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 1 Database": [
     {
       "Name": "Acute Ascending Cholangitis",

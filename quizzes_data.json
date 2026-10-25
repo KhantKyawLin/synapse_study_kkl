@@ -6047,6 +6047,218 @@
       "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
     }
   ],
+  "Final Part 2 Surgery - Surgery Module 10": [
+    {
+      "id": 6,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 30-year-old male weighing 70 kg sustains full-thickness burns involving his entire anterior trunk and both upper limbs. Using the Parkland formula, what is the total volume of Lactated Ringer's required in the first 24 hours?",
+      "options": [
+        "5,040 mL",
+        "7,560 mL",
+        "10,080 mL",
+        "12,600 mL",
+        "14,000 mL"
+      ],
+      "correctIndex": 2,
+      "explanation": "TBSA calculation via Rule of Nines: Anterior Trunk = 18%, Both Upper Limbs = 9% + 9% = 18%. Total TBSA = 18% + 18% = 36%. Parkland Formula = 4 mL x 70 kg x 36% = 10,080 mL in 24 hours (with 5,040 mL given in the first 8 hours)."
+    },
+    {
+      "id": 7,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 45-year-old firefighter is brought from a house fire with facial burns, singed nasal hairs, and hoarseness. His oxygen saturation is 98% on room air. What is the most immediate priority management?",
+      "options": [
+        "Nebulized salbutamol",
+        "Endotracheal intubation",
+        "Hyperbaric oxygen therapy",
+        "Intravenous dexamethasone",
+        "Chest X-ray"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inhalational injury can cause rapid, life-threatening airway edema. Early endotracheal intubation BEFORE progressive airway swelling makes intubation impossible is the top emergency priority."
+    },
+    {
+      "id": 8,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 25-year-old male suffers full-thickness circumferential burns to his left forearm. On arrival, the hand is cold, pale, with absent radial pulse and severe pain on passive finger extension. What is the definitive emergency treatment?",
+      "options": [
+        "Emergency Fasciotomy",
+        "Intravenous Heparin bolus",
+        "Bedside Escharotomy",
+        "Elevation of arm above heart level",
+        "Radial artery embolectomy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Circumferential full-thickness burn eschar creates a rigid non-yielding ring causing burn compartment syndrome. Bedside Escharotomy (incising the inelastic burned eschar down to subcutaneous fat) relieves the constriction."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 65-year-old farmer presents with a 1 cm pearly translucent nodule with rolled margins and prominent telangiectasia on his upper cheek. What is the most likely diagnosis?",
+      "options": [
+        "Squamous Cell Carcinoma",
+        "Basal Cell Carcinoma",
+        "Nodular Malignant Melanoma",
+        "Keratoacanthoma",
+        "Seborrheic Keratosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pearly translucent nodule with rolled borders and telangiectasia on a sun-exposed area of the face is classic for Basal Cell Carcinoma (BCC / 'rodent ulcer')."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 55-year-old female presents with an aggressive, ulcerated, everted-margin lesion arising within a 20-year-old chronic burn scar on her lower leg. What is this entity called?",
+      "options": [
+        "Marjolin's ulcer",
+        "Curling's ulcer",
+        "Cushing's ulcer",
+        "Rodent ulcer",
+        "Venous stasis ulcer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Malignant transformation of a chronic burn scar, chronic osteomyelitis sinus, or non-healing wound into Squamous Cell Carcinoma is known as Marjolin's ulcer."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which of the following skin lesions follows the ABCDE criteria for early clinical detection?",
+      "options": [
+        "Basal Cell Carcinoma",
+        "Squamous Cell Carcinoma",
+        "Malignant Melanoma",
+        "Merkel Cell Carcinoma",
+        "Actinic Keratosis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Malignant Melanoma screening utilizes the ABCDE rule: Asymmetry, Border irregularity, Color variation, Diameter >6mm, and Evolving/changing."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is the single most important histological prognostic factor for localized cutaneous Malignant Melanoma?",
+      "options": [
+        "Clark Level of invasion",
+        "Mitotic rate per mm2",
+        "Breslow Microscopic Thickness",
+        "Presence of ulceration",
+        "Vascular invasion"
+      ],
+      "correctIndex": 2,
+      "explanation": "Breslow Microscopic Thickness (measured in millimeters from the granular layer of the epidermis to the deepest tumor cell) is the single most crucial prognostic factor in melanoma."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A patient undergoes a wide local excision for a melanoma with a Breslow thickness of 1.5 mm. What is the recommended surgical resection margin?",
+      "options": [
+        "0.5 cm",
+        "1 to 2 cm",
+        "3 cm",
+        "5 cm",
+        "1 mm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard melanoma resection margins based on Breslow thickness: Melanoma in situ = 0.5 cm; <1.0 mm depth = 1.0 cm margin; 1.0 - 2.0 mm depth = 1.0 to 2.0 cm margin; >2.0 mm depth = 2.0 cm margin."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "In the Reconstructive Ladder, which step immediately follows Split-Thickness Skin Grafting (STSG) when coverage of a wound with exposed denuded bone is required?",
+      "options": [
+        "Direct primary closure",
+        "Secondary intention healing",
+        "Full-Thickness Skin Graft (FTSG)",
+        "Local vascularized flap",
+        "Free tissue transfer"
+      ],
+      "correctIndex": 3,
+      "explanation": "Grafts (STSG or FTSG) require a vascularized wound bed to survive and cannot take on denuded bone/tendon devoid of periosteum/peritenon. The next step on the ladder for exposed bone is a vascularized Local or Regional Flap."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "During the first 24 to 48 hours following skin graft placement, by what mechanism does the graft survive before vascular connections are re-established?",
+      "options": [
+        "Inosculation",
+        "Plasmatic Imbibition",
+        "Neovascularization",
+        "Angiogenesis",
+        "Re-epithelialization"
+      ],
+      "correctIndex": 1,
+      "explanation": "During the first 24-48 hours, the graft absorbs nutrients and oxygen from the host bed via passive fluid diffusion, a phase called Plasmatic Imbibition. Inosculation occurs at 48-72 hours."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is universally recognized as the single most common cause of skin graft failure?",
+      "options": [
+        "Graft infection by Pseudomonas",
+        "Inadequate tie-over dressing",
+        "Subgraft Hematoma or Seroma",
+        "Poor donor site selection",
+        "Patient malnutrition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subgraft Hematoma or Seroma formation creates a physical barrier between the graft and the host bed, preventing plasmatic imbibition and vascular inosculation, making it the #1 cause of graft failure."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A 28-year-old African American female presents with a prominent, nodular scar over her sternum 1 year after an insect bite. The scar extends well beyond the original boundaries of the bite and has failed to regress. What is the diagnosis?",
+      "options": [
+        "Hypertrophic scar",
+        "Keloid",
+        "Dermatofibroma",
+        "Epidermoid cyst",
+        "Marjolin's ulcer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A raised scar that extends BEYOND the original wound boundaries, fails to regress spontaneously, and occurs commonly over the sternum/earlobes in dark-skinned individuals is a Keloid."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which phase of the WHO Surgical Safety Checklist takes place immediately prior to skin incision in the operating theater?",
+      "options": [
+        "Sign In",
+        "Time Out",
+        "Sign Out",
+        "Briefing",
+        "Debriefing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The WHO Surgical Safety Checklist consists of 3 phases: 1. Sign In (before induction of anesthesia), 2. Time Out (after induction and immediately BEFORE skin incision), 3. Sign Out (before patient leaves OR)."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which step is essential to complete the clinical 'Audit Cycle'?",
+      "options": [
+        "Initial data collection",
+        "Setting a clinical standard",
+        "Re-auditing after implementing change",
+        "Presenting findings at M&M meeting",
+        "Publishing in a peer-reviewed journal"
+      ],
+      "correctIndex": 2,
+      "explanation": "An audit cycle is only completed ('closing the loop') when a Re-audit is conducted after implementing changes to verify if clinical practice has improved toward the set standard."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "A full-thickness skin graft (FTSG / Wolfe graft) differs from a split-thickness skin graft (STSG) in which of the following characteristics?",
+      "options": [
+        "Higher primary contracture and lower secondary contracture",
+        "Lower primary contracture and higher secondary contracture",
+        "Spontaneous donor site healing without closure",
+        "Higher rate of graft take on poor vascular beds",
+        "Contains only epidermis and upper papillary dermis"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTSG contains the entire dermis, giving it higher primary contracture (shrinks immediately on harvesting) but lower secondary contracture (less post-healing contraction, yielding better cosmetic results over joints/face)."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 1": [
     {
       "id": 8,

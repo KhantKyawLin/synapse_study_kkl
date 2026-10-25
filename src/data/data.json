@@ -8641,6 +8641,276 @@
       "answer": "The synovium (synovial membrane) is the primary target site in Rheumatoid Arthritis, whereas the enthesis (insertion of tendon/ligament into bone) is the primary target site in Spondyloarthritis."
     },
     {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How is wound healing defined physiologically?",
+      "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What are the three main overlapping phases of adult cutaneous wound healing?",
+      "answer": "1. Inflammatory phase\n2. Proliferative phase\n3. Remodeling phase"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What characterises primary intention (first intention) wound healing?",
+      "answer": "Closure of a clean, incised wound using sutures, healing without complication through epithelialization and minimal connective tissue formation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How does secondary intention (second intention) wound healing occur?",
+      "answer": "An open wound is left unapproximated to close naturally through granulation tissue formation, contraction, and epithelialization."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What defines tertiary intention (third intention / delayed primary closure) wound healing?",
+      "answer": "A contaminated wound is initially left open to control infection until granulation tissue forms, followed by delayed primary or secondary surgical closure."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What are the four clinical categories used to classify wounds?",
+      "answer": "1. Closed vs Open\n2. Acute vs Chronic\n3. Healing vs Non-healing (problem) wounds\n4. Clean vs Contaminated (septic) wounds"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What primary functions occur during the inflammatory phase of wound healing?",
+      "answer": "Achieving hemostasis, removing devitalized tissue, and preventing invasive infection by microbial pathogens. Diagram showing fibrin matrix, platelets, neutrophils, and bacteria in the inflammatory phase of a wound"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Over what timeframe does the proliferative phase typically occur in cutaneous wound healing?",
+      "answer": "Days 4 to 21 post-wounding. Diagram showing granulation tissue, proliferating fibroblasts, macrophages, and keratinocyte migration during the proliferative phase"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What key cellular events take place during the proliferative phase of wound healing?",
+      "answer": "Granulation tissue fills the wound deficit, endothelial cells sprout (angiogenesis), and keratinocytes migrate to restore epithelial continuity."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is the typical timeframe for the remodeling phase of wound healing?",
+      "answer": "21 days up to 1 year post-injury. Diagram illustrating matrix remodeling, wound contraction, fibroblasts, and immune cells during the remodeling phase"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which structural and cellular changes mark the remodeling phase of a scar?",
+      "answer": "Wound contraction, turnover where collagen breakdown exceeds synthesis, and a marked reduction in fibroblasts and capillary density."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "In wound healing, which blood components act first at day 0 to form the initial plug?",
+      "answer": "Platelets Graph showing peak cell timelines post-injury with platelets at day 0 followed by neutrophils and macrophages"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which immune cells predominate in the wound during the first 1 to 5 days post-injury?",
+      "answer": "Neutrophils (polymorphonuclear leukocytes)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which cells replace neutrophils as the dominant regulatory and phagocytic cell type during the transition from the inflammatory to proliferative phase?",
+      "answer": "Monocytes / Macrophages"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which cell type is primarily responsible for synthesizing extracellular matrix components and collagen in the healing wound?",
+      "answer": "Fibroblasts"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Enzymatic conversion of protocollagen to functional collagen requires hydroxylase enzyme and four specific cofactors:",
+      "answer": "1. Oxygen ($O_2$)\n2. Ferrous iron ($Fe^{++}$)\n3. Vitamin C (ascorbic acid)\n4. $\\alpha$-ketoglutarate Diagram showing Protocollagen converting to Collagen via Hydroxylation using O2, Fe++, vit C, and alpha ketoglutarate"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Where is Type I collagen predominantly found in the human body?",
+      "answer": "Mature bone and mature skin."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Where is Type II collagen primarily located?",
+      "answer": "Hyaline cartilage"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which tissues are composed primarily of Type III collagen?",
+      "answer": "Cardiovascular structures, infant skin, and active granulation tissue of healing skin wounds."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Where are Type IV and Type V collagens located?",
+      "answer": "Basement membranes"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is the primary role of Vascular Endothelial Growth Factor (VEGF) in wound healing?",
+      "answer": "Promotes angiogenesis (new blood vessel formation)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which cell type secretes Keratinocyte Growth Factor (KGF), and what is its effect?",
+      "answer": "Sourced from fibroblasts; it controls keratinocyte growth/maturation and induces epithelial secretion of other growth factors."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How does Platelet-Derived Growth Factor (PDGF) contribute to matrix synthesis?",
+      "answer": "It recruits macrophages and fibroblasts, and enhances proteoglycan and collagen synthesis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What key actions does Transforming Growth Factor Beta (TGF-$\\beta$) execute during matrix deposition?",
+      "answer": "Induces extracellular matrix synthesis by inhibiting protease activity and upregulating collagen and proteoglycan synthesis."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How does Interferon Alpha (IFN-$\\alpha$) affect fibroblast activity in wound healing?",
+      "answer": "It activates macrophages but inhibits fibroblast proliferation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What distinguishes the actions of Inducible Nitric Oxide Synthase (iNOS) from Endothelial Nitric Oxide Synthase (eNOS)?",
+      "answer": "eNOS is present in endothelial cells and neurons; iNOS is expressed by neutrophils and endothelial cells, driving NO synthesis by macrophages and basal keratinocytes."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What three major determinants dictate the clinical outcome of a burn injury?",
+      "answer": "1. Presence of an inhalational injury\n2. Percentage of Total Body Surface Area (% TBSA) involved\n3. Depth of the burn"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How are burns classified by depth?",
+      "answer": "1. Superficial (1st degree)\n2. Superficial partial thickness (2nd degree)\n3. Deep partial thickness (2nd degree)\n4. Full thickness (3rd / 4th degree)"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "According to the Wallace Rule of Nines, what percentage TBSA is assigned to an adult's entire anterior surface of both thighs, lower half of abdomen, and both forearms with hands?",
+      "answer": "27% TBSA (Forearms & hands = 9%, lower abdomen = 9%, anterior thighs = 9%)."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which TBSA estimation chart should be used for pediatric burn assessment?",
+      "answer": "Lund and Browder Chart"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is the Parkland formula for fluid resuscitation in acute burn management?",
+      "answer": "$\\text{Volume (mL)} = 4 \\times \\text{\\% TBSA} \\times \\text{Weight (kg)}$ of crystalloid fluid."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How is the volume calculated by the Parkland formula administered over the first 24 hours post-burn?",
+      "answer": "Half of the calculated total volume is infused over the first 8 hours post-injury; the remaining half is infused over the subsequent 16 hours."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "How is 24-hour maintenance fluid calculated for a pediatric burn patient weighing under 20 kg?",
+      "answer": "Using dextrose-saline: $100\\text{ mL/kg}$ for the first 10 kg, plus $50\\text{ mL/kg}$ for the next 10 kg."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What fluid type is used in the Muir and Barclay resuscitation formula?",
+      "answer": "Colloids"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Why is colloid resuscitation delayed until 12 to 24 hours post-burn?",
+      "answer": "During the first 12–24 hours, massive fluid shifts and capillary hyperpermeability cause administered plasma proteins to leak into tissues."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What clinical criteria mandate acute admission to a specialized burn unit?",
+      "answer": "1. Extremes of age\n2. Non-accidental injury\n3. Burns involving special areas (hands, face, feet, perineum)\n4. Suspected airway or inhalational injury"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Is an isolated 10% superficial burn an indication for acute burn unit admission?",
+      "answer": "No, an isolated 10% superficial burn does not meet criteria for acute burn unit admission."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Are prophylactic antibiotics indicated for all acute burn patients?",
+      "answer": "No, antibiotic prophylaxis is not required in every burn case and should be used selectively."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What clinical examination findings raise immediate suspicion for inhalational injury?",
+      "answer": "Soot in the nose or oropharynx, loss of nasal hair, burns on the palate or nasal mucosa, deep facial/neck burns, voice change, and stridor."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What physiological deterioration signs signal an evolving inhalational injury?",
+      "answer": "Progressive increase in respiratory effort and rate, rising pulse, anxiety, confusion, and decreasing oxygen saturation."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Does a total burn surface area exceeding 30% TBSA confirm inhalational injury?",
+      "answer": "No, a burn size over 30% TBSA does not in itself define or confirm an inhalational injury."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What are the primary therapeutic interventions for managing inhalational injury?",
+      "answer": "Warm humidified oxygen, nebulizers, airway monitoring/ABG, intubation with ICU support, and chest physiotherapy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "When is an emergency escharotomy indicated?",
+      "answer": "For full-thickness circumferential burns of the chest or extremities that compromise ventilation or distal perfusion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Where are escharotomy incisions placed on the chest?",
+      "answer": "Down the chest lateral to the nipples, across the upper chest below the clavicles, and across the lower chest at the level of the xiphisternum."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What definitive surgical management is performed for deep/full-thickness burns once the patient is stabilized?",
+      "answer": "Tangential excision of necrotic tissue followed by definitive skin coverage using skin grafts or flaps."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What is the primary treatment of choice for Basal Cell Carcinoma (BCC)?",
+      "answer": "Surgical excision"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Which treatment serves as a suitable primary alternative for BCC when surgical excision is contraindicated?",
+      "answer": "Radiotherapy"
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What non-surgical treatment options exist for superficial Basal Cell Carcinoma?",
+      "answer": "Topical chemotherapy, topical immunotherapy, and photodynamic therapy."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What percentage of patients treated for a primary BCC develop a second BCC within 5 years?",
+      "answer": "30% to 40% of patients."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "From where does the thyroid gland embryologically originate and descend?",
+      "answer": "Originates at the base of the tongue at the foramen caecum and descends into the neck via the thyroglossal duct."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What classic clinical sign distinguishes a thyroglossal cyst from a thyroid gland mass on physical exam?",
+      "answer": "A thyroglossal cyst moves upward on tongue protrusion (as well as on swallowing), whereas a thyroid swelling moves on swallowing but NOT on tongue protrusion."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Where is a branchial cyst typically located?",
+      "answer": "In the upper neck, 5 to 10 cm below the angle of the mandible along the anterior border of the sternocleidomastoid muscle."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "What are the characteristic fluid and histologic features of a branchial cyst?",
+      "answer": "Contains fluid rich in cholesterol crystals, smooth margins, minimal mobility, seldom transilluminates, and features prominent lymphoid tissue in its wall."
+    },
+    {
+      "category": "Final Part 2 Surgery - Surgery Module 10",
+      "question": "Why must resected branchial cyst specimens routinely undergo histological evaluation?",
+      "answer": "To exclude an underlying focus of occult squamous cell carcinoma within the cyst wall."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 1",
       "question": "According to Gurtner and Wong (2014), how is wound healing defined?",
       "answer": "The response of an organism to a physical disruption of a tissue or organ to re-establish homeostasis of that tissue/organ and stabilize the entire organism's physiology."

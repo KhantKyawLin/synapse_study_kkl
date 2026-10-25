@@ -175,6 +175,10 @@ function getConditionTag(name) {
     if (/colles|smith|supracondylar|scaphoid/i.test(name)) return 'Upper Limb Fractures';
     if (/osteomyelitis|pott|septic arthritis/i.test(name)) return 'Bone & Joint Infections';
     if (/fracture principles|healing/i.test(name)) return 'Orthopaedic Principles';
+    if (/burn|inhalational/i.test(name)) return 'Burns & Inhalational Injury';
+    if (/basal cell|squamous cell|melanoma|skin.*malignan|marjolin/i.test(name)) return 'Skin Malignancies';
+    if (/reconstructive|graft|flap|keloid|scar/i.test(name)) return 'Plastic & Reconstructive Surgery';
+    if (/checklist|audit|safety/i.test(name)) return 'Clinical Governance & Safety';
     if (/hemorrhoid|fissure|fistula|perianal/i.test(name)) return 'Perianal Disease';
     if (/abscess/i.test(name)) return 'Perianal Disease';
     if (/femoral/i.test(name)) return 'Femoral Hernia';
@@ -237,7 +241,7 @@ function updateDashboardData() {
 
             for (let i = 0; i < rawRows.length; i++) {
                 const row = rawRows[i];
-                if (row && row[0] && /^(name|condition|entity|disease)/i.test(row[0].toString().trim())) {
+                if (row && row[0] && /^(name|condition|entity|disease|topic)/i.test(row[0].toString().trim())) {
                     headerRowIndex = i;
                     headers = row.map(h => h ? h.toString().trim() : '');
                     break;
@@ -411,10 +415,10 @@ function updateQuizData() {
                 }
 
                 // Find Main Quiz / Questions Sheet
-                let quizSheetName = workbook.SheetNames.find(s => /interactive\s*quiz|quiz|practice|questions|exam/i.test(s));
-                if (!quizSheetName) {
-                    quizSheetName = workbook.SheetNames.find(s => s !== keySheetName && !/toc|index|contents/i.test(s)) || workbook.SheetNames[0];
-                }
+                let quizSheetName = workbook.SheetNames.find(s => /interactive\s*quiz/i.test(s))
+                    || workbook.SheetNames.find(s => !/instruction|score|guide|rule|toc|index|answer|key|explanation/i.test(s) && /quiz|practice|questions|exam/i.test(s))
+                    || workbook.SheetNames.find(s => s !== keySheetName && !/toc|index|contents|instruction/i.test(s))
+                    || workbook.SheetNames[0];
 
                 const sheet = workbook.Sheets[quizSheetName];
                 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
