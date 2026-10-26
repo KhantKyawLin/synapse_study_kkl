@@ -8641,6 +8641,381 @@
       "answer": "The synovium (synovial membrane) is the primary target site in Rheumatoid Arthritis, whereas the enthesis (insertion of tendon/ligament into bone) is the primary target site in Spondyloarthritis."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the primary procedural priority in neonatal resuscitation before commencing chest compressions?",
+      "answer": "Effectively delivering air into the lungs (confirmed by visible chest wall movement)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How long should effective ventilation be delivered before reassessing a newborn's breathing and heart rate?",
+      "answer": "30 seconds"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "At what heart rate threshold is cardiopulmonary resuscitation (CPR) initiated in a newborn without spontaneous breathing?",
+      "answer": "Heart rate < 60 beats per minute (or non-detectable)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the recommended ratio of chest compressions to ventilation breaths during neonatal CPR?",
+      "answer": "3 compressions to 1 ventilation breath (3:1 ratio)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How frequently should heart rate and breathing be reassessed during active neonatal resuscitation?",
+      "answer": "Every 30 seconds"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which physiological parameters must be routinely monitored and managed alongside breathing and circulation during neonatal post-resuscitation care?",
+      "answer": "Temperature, oxygen saturation, and blood glucose."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the correct action regarding chest compressions once a newborn's heart rate recovers above 60 beats per minute?",
+      "answer": "Stop chest compressions and continue assisted ventilation until regular spontaneous breathing is established."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What birth weight threshold defines Low Birth Weight (LBW) in an infant?",
+      "answer": "Birth weight less than 2500 g (5 lbs 8 oz)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What birth weight threshold defines Very Low Birth Weight (VLBW)?",
+      "answer": "Birth weight less than 1500 g."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What birth weight threshold defines Extremely Low Birth Weight (ELBW)?",
+      "answer": "Birth weight less than 1000 g."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What gestational age defines a preterm infant?",
+      "answer": "Gestational age less than 37 weeks."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How is Small for Gestational Age (SGA) defined?",
+      "answer": "Birth weight below the 10th percentile for gestational age or more than 2 standard deviations below the mean."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does breast nodule development differ between a preterm infant and a full-term infant?",
+      "answer": "Preterm infants have an imperceptible or flat areola with no breast bud, whereas term infants have a raised/full areola with a developed breast bud (typically 5–10 mm)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How do sole creases on the plantar surface compare between a preterm and term newborn?",
+      "answer": "Preterm infants show absent creases or faint red marks, whereas term infants exhibit creases covering the anterior two-thirds or the entire sole."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does ear cartilage structure and recoil differ in a preterm infant compared to a term infant?",
+      "answer": "Preterm pinnae are flat, soft, and exhibit slow or no recoil, while term pinnae are formed, firm, and show instant recoil."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What physical differences are seen in male genitalia when comparing a preterm infant to a full-term infant?",
+      "answer": "Preterm male newborns have undescended or high-canal testes with a flat, smooth scrotum, whereas term newborns have descended, pendulous testes with deep rugae."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What proportion of term infants develop neonatal jaundice (NNJ) during their first week of life?",
+      "answer": "60%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What proportion of preterm infants present with neonatal hyperbilirubinemia during the first week of life?",
+      "answer": "80%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which form of bilirubin is primarily responsible for the majority of neonatal hyperbilirubinemia cases?",
+      "answer": "Unconjugated (indirect-acting) bilirubin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What are the primary solubility and chemical properties of unconjugated bilirubin?",
+      "answer": "It is nonpolar and lipid-soluble."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What are the chemical and solubility properties of conjugated bilirubin?",
+      "answer": "It is polar and water-soluble."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What umbilical arterial pH cutoff meets the essential criterion for severe acidemia in perinatal asphyxia?",
+      "answer": "$\n\\text{pH} < 7.0\n$"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What Apgar score duration criterion indicates essential evidence of perinatal asphyxia?",
+      "answer": "Persistence of an Apgar score of 0–3 for greater than 5 minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which acute neurological manifestations in the immediate neonatal period point to Hypoxic Ischaemic Encephalopathy (HIE) from perinatal asphyxia?",
+      "answer": "Seizures, coma, or hypotonia."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Besides metabolic acidemia and neurological deficits, what additional clinical finding in the immediate neonatal period fulfills the essential criteria for perinatal asphyxia?",
+      "answer": "Evidence of multiorgan dysfunction."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What vital aspect of developmental history must be asked to identify a major developmental red flag in children?",
+      "answer": "Any history of regression or loss of previously acquired developmental skills."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Name three standardized clinical tools used for formal developmental assessment in pediatrics.",
+      "answer": "1. Schedule of Growing Skills\n2. Griffiths Mental Development Scales\n3. Bayley Scales of Infant Development"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which absolute developmental red flag demands immediate assessment regardless of the child's age?",
+      "answer": "Loss of developmental skills (developmental regression)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "At what age is the complete absence of speech considered a positive red flag for developmental delay?",
+      "answer": "18 months (especially if the child makes no attempt to communicate through alternative means like gestures)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What motor tone finding at any age serves as a positive red flag indicator on developmental evaluation?",
+      "answer": "Persistently low muscle tone or floppiness."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which visual system finding warrants an immediate simultaneous referral to pediatric ophthalmology at any age?",
+      "answer": "Parental or professional concern about fixing or following an object, or a confirmed visual impairment."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "When taking a history for a child presenting with fever, what character traits of the fever pattern should be recorded?",
+      "answer": "Duration, temperature magnitude (high vs low), pattern (continuous vs intermittent), and presence of chills/rigors."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which key clinical history parameters evaluate general wellbeing in a febrile child?",
+      "answer": "Eating, drinking, and urine output."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What organ systems must be routinely screened during symptom review to pinpoint the source of fever in a child?",
+      "answer": "Upper respiratory (coryza), lower respiratory, gastrointestinal, urinary tract, and central nervous system (fits)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which clinical presentation features suggest Dengue fever in a child presenting with acute fever (< 7 days)?",
+      "answer": "High continuous fever, reduced feeding, bleeding manifestations, vomiting, and abdominal pain."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How is the Hess test (tourniquet test) performed and quantified?",
+      "answer": "A blood pressure cuff is inflated between systolic and diastolic pressure, and the number of petechiae within a one-inch square area is counted."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What petechiae count constitutes a positive Hess test under standard clinical criteria?",
+      "answer": "More than 20 petechiae per one-inch square (with > 10 petechiae also considered positive in revised criteria)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What are the reported pooled sensitivity and specificity of the Hess test for diagnosing dengue?",
+      "answer": "Sensitivity is 58% and specificity is 71%."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "During which time frame of illness does the Dengue NS1 antigen test demonstrate its highest sensitivity?",
+      "answer": "During the first 2 days of fever."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which laboratory investigations are routinely indicated in a child suspected of severe Dengue infection?",
+      "answer": "Packed Cell Volume (PCV), Full Blood Count (WBC & Platelets), Dengue NS1 Ag / IgM / IgG, Coagulation profile, Blood grouping & cross-matching, Liver Function Tests (LFT), and Blood Gas analysis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "In a child with high continuous fever, what warning signal is indicated when the child becomes afebrile after 5 days but remains lethargic and drowsy?",
+      "answer": "The critical phase of Dengue, where plasma leakage and shock can occur as the fever defervesces."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "During physical examination of a febrile child, what level of consciousness / general condition classifications are monitored?",
+      "answer": "Well and alert, irritable, restless, or drowsy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the primary mechanical goal of ventilation during initial newborn resuscitation?",
+      "answer": "Achieving effective lung inflation to establish functional residual capacity."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the gestational age cutoff separating a full-term newborn from a post-term newborn?",
+      "answer": "42 completed weeks of gestation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does the Square Window angle (wrist flexion) change with increasing gestational age in a newborn?",
+      "answer": "The angle decreases as maturity increases (from > 90° in extreme prematurity down to 0° in term/post-term infants)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does the Popliteal Angle alter as a newborn approaches full physical maturity?",
+      "answer": "The popliteal angle decreases with maturity due to increasing flexor muscle tone (from 180° down to < 90°)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does skin appearance evolve from early preterm to post-term gestation on physical maturity scoring?",
+      "answer": "Skin transitions from gelatinous, red, translucent/friable skin to smooth pink skin, progressing to cracking/peeling, and ultimately leathery, cracked, wrinkled skin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does lanugo hair distribution change as gestational maturity progresses?",
+      "answer": "Lanugo appears abundant in early prematurity, thins across mid-gestation, and becomes mostly bald in full-term infants."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What distinction separates physiological jaundice from pathological jaundice regarding time of onset?",
+      "answer": "Pathological jaundice typically appears within the first 24 hours of life, whereas physiological jaundice appears after 24 hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Why are preterm infants at higher risk for unconjugated hyperbilirubinemia than term infants?",
+      "answer": "Due to immature hepatic glucuronosyltransferase activity, shorter red blood cell lifespan, and increased enterohepatic circulation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Why is unconjugated bilirubin capable of crossing the blood-brain barrier to cause kernicterus?",
+      "answer": "Because it is lipid-soluble and uncharged, allowing it to diffuse across cell membranes when unbound to albumin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What defines prolonged neonatal jaundice in a full-term infant versus a preterm infant?",
+      "answer": "Jaundice persisting beyond 14 days of life in a term infant, or beyond 21 days in a preterm infant."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What hearing screen finding indicates a mandatory prompt referral for expert audiological assessment?",
+      "answer": "Hearing loss confirmed or suspected at any age."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does arm recoil reflect neurological maturity in a newborn?",
+      "answer": "Preterm infants show sluggish recoil with a wide angle (180°), whereas mature term infants rapidly recoil flexed arms to an angle < 90°."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the Scarf Sign assessment in a newborn neuromuscular exam?",
+      "answer": "Drawing the infant's elbow across the chest toward the opposite shoulder; immature infants cross the midline easily due to low tone."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the Heel to Ear assessment evaluating in the New Ballard Score?",
+      "answer": "Flexibility and passive tone in the pelvic girdle; preterm infants allow the foot to reach the ear easily with minimal resistance."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What key laboratory test differentiates conjugated hyperbilirubinemia from unconjugated hyperbilirubinemia?",
+      "answer": "Fractionated serum bilirubin (direct vs. total serum bilirubin)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "In a child with continuous fever, why is it critical to ask about recent intake of analgesics like Paracetamol or Ibuprofen?",
+      "answer": "To determine whether temperature drops represent true defervescence or temporary antipyretic suppression, and to guard against antipyretic overdose."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What clinical feature differentiates Dengue hemorrhagic manifestations from minor fever rashes?",
+      "answer": "Presence of non-blanching petechiae, purpura, ecchymoses, or mucosal bleeding (epistaxis, gum bleeding)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Why is monitoring Packed Cell Volume (PCV) crucial during the management of Dengue fever?",
+      "answer": "A rising PCV reflects hemoconcentration caused by plasma leakage, signaling progression toward Dengue shock."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What baseline neurological examination components should be performed during pediatric developmental assessment?",
+      "answer": "Observation in the clinic room, tone/reflexes, eye movement/vision check, occipitofrontal circumference (OFC), height, weight, and systemic examination."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How does female genitalia physical appearance differ between an extremely preterm infant and a term infant?",
+      "answer": "Preterm female infants have a prominent clitoris and flat labia majora, while term infants have labia majora completely covering the clitoris and labia minora."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What primary mechanism causes multiorgan dysfunction in Hypoxic Ischaemic Encephalopathy (HIE)?",
+      "answer": "Perinatal asphyxia leading to systemic hypoxemia, tissue ischemia, reperfusion injury, and impaired organ perfusion."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What physiological change occurs when a newborn transitions successfully during resuscitation?",
+      "answer": "Lung expansion reduces pulmonary vascular resistance, increasing pulmonary blood flow and heart rate."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the primary diagnostic utility of Dengue IgM and IgG antibody testing?",
+      "answer": "IgM indicates acute or recent infection (elevating after day 3–5), while IgG indicates past infection or secondary infection status."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Why is blood gas analysis indicated in severe acute infections or Dengue with shock?",
+      "answer": "To detect metabolic acidosis and assess tissue hypoperfusion or respiratory compromise."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What gestational age score is assigned when total physical and neuromuscular maturity rating equals 40 on the Ballard scale?",
+      "answer": "40 weeks gestation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What maturity rating score on the Ballard Scale corresponds to 20 weeks gestation?",
+      "answer": "-10 rating score."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "In a 7-year-old boy presenting with high continuous fever for 5 days and progressive drowsiness, what initial triage classification is required?",
+      "answer": "Emergency medical evaluation for severe fever with altered consciousness (suspected Dengue critical phase or central nervous system infection)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the key difference between an acute fever and a prolonged fever based on duration criteria in pediatric evaluation?",
+      "answer": "Acute fever is defined as lasting less than 7 days."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What liver abnormality can occur in acute Dengue infection?",
+      "answer": "Hepatomegaly and elevated transaminases (AST/ALT) on Liver Function Tests."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What coagulation changes should be monitored in severe viral infections like Dengue?",
+      "answer": "Thrombocytopenia, prolonged Prothrombin Time (PT/INR), and prolonged Activated Partial Thromboplastin Time (aPTT)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Why is routine monitoring of blood glucose essential during newborn resuscitation and post-resuscitation care?",
+      "answer": "To detect and correct hypoglycemia, which exacerbates hypoxic-ischemic brain injury."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which structural assessment of the newborn eye/ear domain indicates full physical maturity on the Ballard Scale?",
+      "answer": "Thick cartilage with a stiff ear pinna that instantly recoils when folded."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What primary physiological challenge causes hypothermia in low birth weight and preterm infants?",
+      "answer": "High surface area-to-body mass ratio, thin skin, lack of subcutaneous fat, and depleted brown adipose tissue stores."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."

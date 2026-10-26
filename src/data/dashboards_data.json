@@ -2395,6 +2395,162 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 1 Database": [
+    {
+      "Name": "Low Birth Weight (LBW) & Preterm",
+      "Tag": "Gestational Physiology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Birth weight <2500g regardless of gestational age; Preterm <37 completed weeks"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immaturity of organ systems surfactant deficiency impaired thermoregulation and renal function"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hypothermia hypoglycemia respiratory distress feeding intolerance; Red Flags: Apnea necrotizing enterocolitis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Gestational age scoring (Ballard) blood glucose SpO2 monitoring; Thermal care + KMC + parenteral/enteral feeding"
+        }
+      ]
+    },
+    {
+      "Name": "Newborn Resuscitation (Golden Minute)",
+      "Tag": "Resuscitation & Emergencies",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Perinatal asphyxia or birth depression requiring immediate resuscitation within 60 seconds"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Interruption of placental gas exchange leading to hypoxia hypercapnia and secondary apnea"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Apnea gasping or cyanosis HR <100 bpm limp muscle tone; Red Flags: HR <60 bpm despite effective PPV"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "APGAR scoring continuous heart rate monitoring; Provide warmth + PPV with room air (21%) + 3:1 chest compressions"
+        }
+      ]
+    },
+    {
+      "Name": "Neonatal Hyperbilirubinemia & Jaundice",
+      "Tag": "Metabolic / Hepatic",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Unconjugated or conjugated hyperbilirubinemia; Pathological if onset <24 hours of life"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immaturity of hepatic UDP-glucuronosyltransferase (UGT) enzyme or ABO/Rh isoimmunization"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Jaundice progressing cephalocaudally lethargy poor feeding; Red Flags: Opisthotonos high-pitched cry (Kernicterus)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum total and direct bilirubin blood group/Coombs test; Intensive Phototherapy (460-490 nm) + DVET"
+        }
+      ]
+    },
+    {
+      "Name": "Early-Onset Neonatal Sepsis (EOS)",
+      "Tag": "Infectious Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Onset <72 hours of life from vertical intrapartum transmission (GBS E. coli Listeria)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Invasive bacterial bloodstream infection triggering SIRS and pulmonary alveolar flooding"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Temperature instability (hypothermia/fever) lethargy grunting tachypnea (RR >60) poor suction"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood culture FBC (I:T ratio >0.2) serial CRP CXR; Empirical IV Ampicillin + Gentamicin"
+        }
+      ]
+    },
+    {
+      "Name": "Hypoxic Ischemic Encephalopathy (HIE)",
+      "Tag": "Neurology / Birth Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Perinatal asphyxia resulting in systemic hypoxemia and reduced cerebral blood flow"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Primary energy failure followed by secondary reperfusion injury neuronal apoptosis and cerebral edema"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Stage I (Hyperalert) Stage II (Lethargy seizures hypotonia) Stage III (Stupor coma flaccid)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "aEEG / EEG cranial ultrasound MRI brain; Therapeutic Hypothermia (33.5C for 72h initiated within 6h)"
+        }
+      ]
+    },
+    {
+      "Name": "Global Developmental Delay (GDD)",
+      "Tag": "Neurological / Milestone",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Significant delay (>2 SD below mean) in 2 or more developmental domains in children <5 years"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Genetic chromosomal environmental or structural brain insult impairing neurodevelopment"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Failure to achieve age-appropriate gross/fine motor speech or social milestones; Red Flag: Hand preference <12 months"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Developmental screening tools (Denver II / ASQ) chromosomal microarray MRI brain; Multidisciplinary intervention"
+        }
+      ]
+    },
+    {
+      "Name": "Down Syndrome (Trisomy 21)",
+      "Tag": "Chromosomal Disorder",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Trisomy 21 (meiotic nondisjunction in 95% of cases) associated with maternal age"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Gene dosage effect from extra chromosome 21 material disrupting organogenesis and neurodevelopment"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Up-slanting palpebral fissures epicanthic folds flat nasal bridge single palmar crease sandal gap hypotonia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Karyotype / Chromosomal microarray Echocardiogram (40% AVSD); Early intervention + cardiac surveillance"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",

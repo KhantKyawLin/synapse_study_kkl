@@ -6047,6 +6047,428 @@
       "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 1": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A newborn infant is assessed immediately after birth. The birth weight is recorded as 2,100 g at 38 weeks of gestation. How is this infant classified based on birth weight?",
+      "options": [
+        "Extremely Low Birth Weight (ELBW)",
+        "Very Low Birth Weight (VLBW)",
+        "Low Birth Weight (LBW)",
+        "Normal Birth Weight",
+        "Very High Birth Weight"
+      ],
+      "correctIndex": 2,
+      "explanation": "WHO defines Low Birth Weight (LBW) strictly as birth weight < 2,500 g regardless of gestational age. VLBW is < 1,500 g and ELBW is < 1,000 g."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the clinical definition of a preterm birth according to WHO guidelines?",
+      "options": [
+        "Delivery before 32 completed weeks",
+        "Delivery before 35 completed weeks",
+        "Delivery before 37 completed weeks (<37+0 weeks)",
+        "Delivery before 38 completed weeks",
+        "Delivery before 40 completed weeks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Preterm birth is defined as delivery occurring at less than 37 completed weeks of gestation (<37+0 weeks)."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "An infant delivered at term has a birth weight of 850 g. What is the correct birth weight classification for this neonate?",
+      "options": [
+        "Extremely Low Birth Weight (ELBW)",
+        "Very Low Birth Weight (VLBW)",
+        "Low Birth Weight (LBW) only",
+        "Small for Gestational Age only",
+        "Normal Birth Weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extremely Low Birth Weight (ELBW) is defined as a birth weight strictly < 1,000 g."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which of the following birth weights strictly defines a Very Low Birth Weight (VLBW) infant?",
+      "options": [
+        "Birth weight < 2,500 g",
+        "Birth weight < 2,000 g",
+        "Birth weight < 1,500 g",
+        "Birth weight < 1,000 g",
+        "Birth weight < 750 g"
+      ],
+      "correctIndex": 2,
+      "explanation": "Very Low Birth Weight (VLBW) is strictly defined as birth weight < 1,500 g."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "An infant's birth weight falls below the 10th percentile for their specific gestational age. What is the correct clinical designation?",
+      "options": [
+        "Very Low Birth Weight",
+        "Small for Gestational Age (SGA)",
+        "Premature",
+        "Dysmature only",
+        "Microcephalic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Small for Gestational Age (SGA) is defined as a birth weight below the 10th percentile for a given gestational age."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "During newborn resuscitation ('Golden Minute'), what are the essential initial steps performed immediately after delivery?",
+      "options": [
+        "Immediate chest compressions and IV adrenaline",
+        "Immediate endotracheal intubation and oxygen",
+        "Provide warmth, position airway, clear secretions if obstructed, dry thoroughly, and stimulate",
+        "Administer 100% oxygen via bag-valve mask for 2 minutes",
+        "Naloxone administration and umbilical line insertion"
+      ],
+      "correctIndex": 2,
+      "explanation": "The golden minute initial steps focus on providing warmth, positioning the airway, clearing secretions if necessary, drying, and tactile stimulation."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A newly delivered neonate is apneic and has a heart rate of 80 beats per minute at 30 seconds of life despite drying and stimulation. What is the immediate next intervention?",
+      "options": [
+        "Continue tactile stimulation for another 60 seconds",
+        "Initiate Positive Pressure Ventilation (PPV) with room air (21% O2)",
+        "Start chest compressions at 3:1 ratio",
+        "Administer IV Adrenaline via umbilical vein",
+        "Apply nasal CPAP at 10 cmH2O"
+      ],
+      "correctIndex": 1,
+      "explanation": "Positive Pressure Ventilation (PPV) is indicated immediately if the neonate is apneic, gasping, or has a heart rate < 100 bpm after initial steps."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the recommended chest compression-to-ventilation ratio for neonatal resuscitation?",
+      "options": [
+        "30:2",
+        "15:2",
+        "5:1",
+        "3:1",
+        "Continuous compressions without ventilation"
+      ],
+      "correctIndex": 3,
+      "explanation": "In neonatal resuscitation, the coordinated ratio is 3 compressions to 1 ventilation (3:1 ratio), delivering 90 compressions and 30 breaths per minute."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Chest compressions are indicated in a newborn during resuscitation if the heart rate remains below what threshold despite 30 seconds of effective PPV?",
+      "options": [
+        "< 100 beats/min",
+        "< 80 beats/min",
+        "< 60 beats/min",
+        "< 40 beats/min",
+        "< 20 beats/min"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chest compressions are indicated when the heart rate remains < 60 beats per minute despite at least 30 seconds of effective positive pressure ventilation."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which technique is correct for inserting a Guedel airway in a neonate or infant to prevent soft tissue trauma?",
+      "options": [
+        "Insert upside down (concavity upwards) and rotate 180 degrees",
+        "Insert concavity facing downwards (right-side up) following the natural airway curve, assisted by a tongue depressor",
+        "Insert halfway, rotate 90 degrees, and push inward",
+        "Insert concavity facing upwards and rotate 270 degrees",
+        "Guedel airways are strictly contraindicated in all neonates"
+      ],
+      "correctIndex": 1,
+      "explanation": "In infants and neonates, the Guedel airway must be inserted concavity facing downwards (right-side up) using a tongue depressor to avoid palate trauma."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A full-term newborn develops visible jaundice at 12 hours of life. What is the classification of this jaundice?",
+      "options": [
+        "Physiological jaundice",
+        "Breast milk jaundice",
+        "Pathological jaundice",
+        "Breastfeeding failure jaundice",
+        "Normal neonatal adaptation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jaundice appearing within the first 24 hours of life is ALWAYS pathological and requires urgent investigation (e.g., ABO/Rh hemolytic disease, infection)."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the most severe neurological complication of untreated severe indirect hyperbilirubinemia in a neonate?",
+      "options": [
+        "Cerebral palsy - spastic hemiplegia",
+        "Kernicterus (Bilirubin-Induced Neurologic Dysfunction / BIND)",
+        "Subdural hematoma",
+        "Hypoxic ischemic encephalopathy",
+        "Hydrocephalus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unbound unconjugated bilirubin crosses the blood-brain barrier and deposits in the basal ganglia and brainstem nuclei, causing Kernicterus."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What light wavelength spectrum provides maximal effectiveness during phototherapy for neonatal jaundice?",
+      "options": [
+        "Ultraviolet light (200–300 nm)",
+        "Blue-green light (460–490 nm)",
+        "Infrared light (700–900 nm)",
+        "Red light (620–750 nm)",
+        "Yellow light (570–590 nm)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phototherapy uses blue-green light in the 460–490 nm spectrum to convert unconjugated bilirubin into water-soluble lumirubin via structural photoisomerization."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which procedure is indicated when serum bilirubin reaches critical exchange thresholds to rapidly remove antibody-coated RBCs and circulating bilirubin?",
+      "options": [
+        "Double-volume exchange transfusion (DVET)",
+        "Single-unit packed red cell transfusion",
+        "Fresh frozen plasma infusion",
+        "IV Albumin infusion alone",
+        "Whole blood venesection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Double-volume exchange transfusion removes sensitized RBCs, circulating maternal antibodies, and reduces serum bilirubin level by ~50%."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What operational time frame defines Early-Onset Neonatal Sepsis (EOS)?",
+      "options": [
+        "Onset within the first 24 hours of life",
+        "Onset within the first 72 hours of life (< 72 hours)",
+        "Onset between 7 days and 28 days of life",
+        "Onset after 30 days of life",
+        "Onset strictly at delivery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early-Onset Neonatal Sepsis (EOS) manifests within the first 72 hours of life (or < 7 days in some guidelines; classically < 72h in hospital settings) due to vertical intrapartum transmission."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A mother has intrapartum fever of 38.5°C and rupture of membranes for 24 hours prior to delivery. What are these major risk factors for in the newborn?",
+      "options": [
+        "Transient Tachypnea of the Newborn",
+        "Early-Onset Neonatal Sepsis and Congenital Pneumonia",
+        "Hyaline Membrane Disease",
+        "Congenital Heart Disease",
+        "Meconium Aspiration Syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maternal intrapartum pyrexia (>38.0°C) and prolonged rupture of membranes (PROM > 18 hours) are major maternal risk factors for early-onset sepsis."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which blood count finding strongly suggests neonatal sepsis?",
+      "options": [
+        "Immature-to-total (I:T) neutrophil ratio > 0.2",
+        "Hemoglobin > 18 g/dL",
+        "Platelet count of 350,000/microL",
+        "Normal total leukocyte count",
+        "Eosinophilia > 10%"
+      ],
+      "correctIndex": 0,
+      "explanation": "An elevated immature-to-total (I:T) neutrophil ratio > 0.2 (indicating left shift) alongside leukopenia (<5,000) or leukocytosis is a strong sepsis marker."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the recommended empirical first-line intravenous antibiotic combination for suspected Early-Onset Neonatal Sepsis?",
+      "options": [
+        "IV Ceftriaxone + IV Vancomycin",
+        "IV Ampicillin (or Penicillin G) + IV Gentamicin",
+        "IV Ciprofloxacin + IV Metronidazole",
+        "Oral Amoxicillin + Oral Erythromycin",
+        "IV Meropenem alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "First-line empirical therapy for EOS covers Group B Streptococcus and Gram-negative enteric bacilli (E. coli) using IV Ampicillin + Gentamicin."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A term neonate presents at 3 hours of life with grunting, tachypnea (RR 75/min), and intercostal retractions. Mother had PROM for 26 hours. What is the most likely diagnosis?",
+      "options": [
+        "Hyaline Membrane Disease",
+        "Congenital Pneumonia / Early-Onset Sepsis",
+        "Meconium Aspiration Syndrome",
+        "Congenital Diaphragmatic Hernia",
+        "Pulmonary Sequestration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early respiratory distress in a term neonate born following prolonged rupture of membranes (PROM >18h) points directly to Congenital Pneumonia / EOS."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A full-term infant born after severe birth asphyxia exhibits lethargy, hypotonia, weak sucking, and focal seizures at 12 hours of life. What stage of Sarnat HIE is this?",
+      "options": [
+        "Stage I (Mild HIE)",
+        "Stage II (Moderate HIE)",
+        "Stage III (Severe HIE)",
+        "Stage IV",
+        "Normal recovery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sarnat Stage II (Moderate HIE) is characterized by lethargy, hypotonia, weak or absent reflexes, and seizures. Stage I features hyperalertness; Stage III features stupor/coma."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Therapeutic hypothermia (cooling to 33.5°C for 72 hours) for HIE must be initiated within what time window after birth to achieve neuroprotection?",
+      "options": [
+        "Within 6 hours of birth",
+        "Within 12 hours of birth",
+        "Within 24 hours of birth",
+        "Within 48 hours of birth",
+        "Anytime within the first week"
+      ],
+      "correctIndex": 0,
+      "explanation": "Therapeutic hypothermia must be initiated within the 6-hour therapeutic window after birth to prevent secondary neuronal apoptosis."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A child can hold their head steady when upright, vocalizes with cooing sounds, and shows a social smile. At what age are these developmental milestones expected?",
+      "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "9 months",
+        "12 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "By 3 months of age, an infant achieves head control, social smiling, and cooing."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "An infant can sit with support, transfer an object from one hand to another, and babbles monosyllables. What is the expected developmental age?",
+      "options": [
+        "3 months",
+        "6 months",
+        "9 months",
+        "12 months",
+        "18 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 6 months, an infant sits with support, transfers objects hand-to-hand, and babbles."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "An infant sits unsupported without assistance, demonstrates a pincer grasp, and responds to their own name. What is the developmental age?",
+      "options": [
+        "3 months",
+        "6 months",
+        "9 months",
+        "12 months",
+        "15 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sitting without support, immature/pincer grasp, and responding to name are classic 9-month milestones."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A toddler walks with one hand held, speaks 1–2 meaningful words ('mama', 'dada'), and plays 'pat-a-cake'. What is the expected age?",
+      "options": [
+        "9 months",
+        "12 months",
+        "18 months",
+        "24 months",
+        "36 months"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 12 months, toddlers walk with one hand held/cruise, say 1–2 words with meaning, and participate in interactive games like pat-a-cake."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "How is Global Developmental Delay (GDD) clinically defined in children under 5 years of age?",
+      "options": [
+        "Delay in gross motor skills only",
+        "Significant delay in 2 or more developmental domains (performance >2 SD below mean)",
+        "Isolated speech delay after 2 years of age",
+        "Mild behavioral difficulty in nursery school",
+        "Temporary regression during hospitalization"
+      ],
+      "correctIndex": 1,
+      "explanation": "Global Developmental Delay is defined as significant delay (performance >2 SD below age-appropriate mean) in 2 or more developmental domains."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "Which of the following is considered a major developmental red flag requiring immediate investigation?",
+      "options": [
+        "Not walking independently at 11 months",
+        "Strong hand preference before 12 months of age",
+        "Speaking 3 words at 14 months",
+        "Stranger anxiety at 8 months",
+        "Not riding a tricycle at 2 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hand preference before 12 months is abnormal and indicates focal motor weakness / hemiplegic cerebral palsy on the contralateral side."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A newborn presents with up-slanting palpebral fissures, prominent epicanthic folds, a flat nasal bridge, and a single transverse palmar crease. What is the diagnosis?",
+      "options": [
+        "Edwards Syndrome (Trisomy 18)",
+        "Down Syndrome (Trisomy 21)",
+        "Patau Syndrome (Trisomy 13)",
+        "Turner Syndrome",
+        "Fragile X Syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "These are classic dysmorphic facial and physical features of Down Syndrome (Trisomy 21)."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "What is the most common congenital heart defect associated with Down Syndrome (Trisomy 21)?",
+      "options": [
+        "Coarctation of the Aorta",
+        "Atrioventricular Septal Defect (AVSD / Endocardial Cushion Defect)",
+        "Transposition of the Great Arteries",
+        "Bicuspid Aortic Valve",
+        "Hypoplastic Left Heart Syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "AVSD (Endocardial Cushion Defect) accounts for ~40% of congenital heart defects in infants with Down Syndrome."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
+      "question": "A newborn is noted to have a parietal scalp swelling that does NOT cross cranial suture lines. What is the diagnosis?",
+      "options": [
+        "Caput Succedaneum",
+        "Cephalhematoma",
+        "Subgaleal hemorrhage",
+        "Encephalocele",
+        "Subdural hematoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cephalhematoma is a subperiosteal blood accumulation bounded by periosteum, so it does NOT cross suture lines. Caput succedaneum crosses suture lines."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,
