@@ -9016,6 +9016,381 @@
       "answer": "High surface area-to-body mass ratio, thin skin, lack of subcutaneous fat, and depleted brown adipose tissue stores."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What duration defines an acute fever during pediatric clinical evaluation?",
+      "answer": "Acute fever is defined as a fever lasting less than 7 days."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How is the Hess test (tourniquet test) performed for suspected Dengue?",
+      "answer": "A blood pressure cuff is inflated on the forearm to midway between systolic and diastolic pressure ($\\frac{\\text{SBP} + \\text{DBP}}{2}$) for 5 minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What count of petechiae per square inch defines a positive Hess test result?",
+      "answer": "Greater than 20 petechiae per square inch (with $\\ge 10$ also considered positive in revised guidelines)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Which diagnostic test has the highest positive yield during the first two days of Dengue fever?",
+      "answer": "Dengue NS1 Antigen (NS1 Ag) test."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What are three key warning signs indicating Dengue with warning signs (Group B2)?",
+      "answer": "Persistent vomiting, severe abdominal pain, and mucosal bleeding (or lethargy/restlessness and fluid accumulation)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What primary laboratory parameters must be monitored in suspected Dengue fever?",
+      "answer": "Complete Blood Count (WBC, Platelets) and Hematocrit / Packed Cell Volume (PCV)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What fluid choice is indicated during the critical phase of Dengue for children over 6 months of age?",
+      "answer": "Isotonic intravenous fluids (such as 0.9% Normal Saline or Ringer's Lactate)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What fluid modification is considered for infants under 6 months old during the critical phase of Dengue?",
+      "answer": "Half-strength saline should be considered."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What fever-related criterion must be satisfied prior to discharging a recovered Dengue patient?",
+      "answer": "Absence of fever for at least 48 hours without the use of antipyretic medications."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why is the day of defervescence (fever reduction) critical in Dengue clinical management?",
+      "answer": "It marks the start of the critical phase, where systemic plasma leakage and shock are most likely to develop."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why are Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) like Ibuprofen contraindicated in Dengue?",
+      "answer": "They aggravate platelet dysfunction and significantly increase the risk of gastrointestinal bleeding."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Which antipyretic is safe for fever management in suspected Dengue infection?",
+      "answer": "Paracetamol (Acetaminophen)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What narrow pulse pressure value indicates impending or active Dengue shock?",
+      "answer": "A pulse pressure less than or equal to 20 mmHg ($\\le 20\\ \\text{mmHg}$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What class of pathogens causes most cases of community-acquired pneumonia (CAP) in children under 5 years old?",
+      "answer": "Viruses (most commonly Respiratory Syncytial Virus / RSV)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "According to BTS guidelines, are routine microbiological investigations recommended for mild pediatric CAP treated in the community?",
+      "answer": "No, microbiological testing is not routinely recommended for mild CAP or outpatient management."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "In which pediatric CAP cases are microbiological investigations indicated?",
+      "answer": "In severe pneumonia requiring intensive care or in cases with persistent complications."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Is a routine follow-up chest X-ray required for a previously healthy child recovering well from CAP?",
+      "answer": "No, follow-up radiography is not required in children who were previously healthy and are recovering well."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What clinical or radiological features mandate a follow-up chest radiograph after pediatric CAP?",
+      "answer": "Round pneumonia, lobar collapse, or persisting respiratory symptoms."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is Primary Tuberculosis in pediatric patients?",
+      "answer": "TB infection occurring upon the initial exposure of a pathogen-naive individual to *Mycobacterium tuberculosis*."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What defines Secondary or Reactivation Tuberculosis?",
+      "answer": "TB disease occurring in a person who was previously infected with *Mycobacterium tuberculosis*."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How many effective drugs should be included in an initial pediatric tuberculosis treatment regimen?",
+      "answer": "At least 4 drugs to which the organism is sensitive or the patient is treatment-naive."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What drug delivery strategy is mandatory for pediatric tuberculosis therapy adherence?",
+      "answer": "Daily Directly Observed Therapy (DOT)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the minimum treatment duration for minimal pediatric pulmonary TB after achieving a negative culture?",
+      "answer": "At least 12 months after the last negative culture."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the recommended treatment duration for extensive pediatric pulmonary tuberculosis with cavitary disease?",
+      "answer": "At least 18 months."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What rule governs regimen modification when managing a failing anti-tuberculosis treatment?",
+      "answer": "Do not add a single new drug to a failing regimen."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why is source case tracing vital when evaluating a child with tuberculosis?",
+      "answer": "Children contract TB from infected adult contacts; identifying the adult source confirms sensitivity patterns and prevents further transmission."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What functional airway abnormality represents the primary pathophysiological feature of asthma?",
+      "answer": "Bronchial hyperresponsiveness (airway hyperreactivity) coupled with chronic inflammation and variable airflow obstruction."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What diagnostic trial is recommended for suspected asthma in children under 5 years old?",
+      "answer": "An 8-week trial of a pediatric moderate dose of Inhaled Corticosteroid (ICS)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What step should be taken following an 8-week trial of ICS in a child under 5 if symptoms persist?",
+      "answer": "Stop the ICS treatment and re-evaluate for an alternative diagnosis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What presentation warrants an 8-week trial of moderate-dose ICS in a child under 5?",
+      "answer": "Asthma symptoms occurring 3 or more times per week, waking at night, or symptoms uncontrolled on SABA alone."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the first-line reliever medication for acute asthma symptoms in children?",
+      "answer": "Inhaled Short-Acting Beta-Agonist (SABA), such as Salbutamol."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What step is recommended for a child aged 5–16 with uncontrolled asthma on low-dose ICS and LABA?",
+      "answer": "Change maintenance therapy to a MART (Maintenance and Reliever Therapy) regimen with a low maintenance ICS dose."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What does the clinical acronym MART stand for in asthma management?",
+      "answer": "Maintenance and Reliever Therapy (using a single combination inhaler for daily control and acute relief)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How should therapy be escalated if a child aged 5–16 is uncontrolled on a low-dose ICS MART regimen?",
+      "answer": "Increase the ICS to a pediatric moderate maintenance dose (continuing MART or switching to fixed-dose ICS/LABA with SABA)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What management action is indicated if suspected asthma in a child under 5 is uncontrolled on low-dose ICS plus an LTRA?",
+      "answer": "Stop the LTRA and refer the child to a specialist with expertise in pediatric asthma."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What two initial interventions are essential for managing an acute severe asthma exacerbation in a child?",
+      "answer": "High-flow oxygen and inhaled Short-Acting Beta-Agonist (SABA / Salbutamol)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What target oxygen saturation level should be maintained during acute asthma management in children?",
+      "answer": "Greater than 92% ($>92\\%$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What physical examination finding on chest auscultation indicates an acute asthma exacerbation?",
+      "answer": "Bilateral widespread rhonchi (wheezing) without focal crackles."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why is a spacer device recommended over a metered-dose inhaler (MDI) alone in young children?",
+      "answer": "It optimizes drug delivery to lower airways and reduces reliance on breathing-coordination technique."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the clinical definition of anaphylaxis?",
+      "answer": "A severe, rapid-onset, potentially life-threatening systemic allergic reaction involving airway, breathing, or circulation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the first-line drug of choice for acute anaphylaxis treatment?",
+      "answer": "Intramuscular (IM) Epinephrine / Adrenaline ($1:1,000$ concentration)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the recommended IM Epinephrine ($1:1,000$) dose for an infant under 6 months old?",
+      "answer": "$0.1\\ \\text{mL}$ to $0.15\\ \\text{mL}$ ($100\\ \\mu\\text{g}$ to $150\\ \\mu\\text{g}$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the recommended IM Epinephrine ($1:1,000$) dose for a child aged 6 months to 6 years?",
+      "answer": "$0.15\\ \\text{mL}$ ($150\\ \\mu\\text{g}$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the recommended IM Epinephrine ($1:1,000$) dose for a child aged 6 to 12 years?",
+      "answer": "$0.3\\ \\text{mL}$ ($300\\ \\mu\\text{g}$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the recommended IM Epinephrine ($1:1,000$) dose for adolescents over 12 years and adults?",
+      "answer": "$0.5\\ \\text{mL}$ ($500\\ \\mu\\text{g}$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the preferred injection site for IM epinephrine in pediatric anaphylaxis?",
+      "answer": "The anterolateral aspect of the middle third of the thigh (vastus lateralis muscle)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "At what frequency can IM epinephrine be repeated if anaphylactic symptoms persist?",
+      "answer": "Every 5 minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How is refractory anaphylaxis defined?",
+      "answer": "Persistence of anaphylactic shock or respiratory distress despite administration of 2 proper doses of IM adrenaline."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What single factor represents the greatest risk for fatal anaphylaxis and biphasic reactions?",
+      "answer": "Delayed administration of epinephrine."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the primary pharmacological treatment step for refractory anaphylaxis?",
+      "answer": "Intravenous (IV) low-dose epinephrine infusion."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Should IM adrenaline injections be paused while preparing an IV adrenaline infusion for refractory anaphylaxis?",
+      "answer": "No, IM adrenaline injections should continue every 5 minutes until the IV adrenaline infusion is actively running."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What level-of-care setting is required for managing refractory anaphylaxis?",
+      "answer": "Intensive Care Unit (ICU) setting with continuous monitoring and advanced life support."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What fluid intervention is essential during refractory anaphylactic shock?",
+      "answer": "Rapid IV crystalloid fluid boluses via large-bore IV access to expand intravascular volume."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What classic symptom triad characterizes Acute Epiglottitis?",
+      "answer": "High fever, severe respiratory distress with stridor, and drooling of saliva."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What posture is typically assumed by a child with acute epiglottitis?",
+      "answer": "Sitting upright and leaning forward with head extended (tripod position)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What organism is the most common cause of Acute Epiglottitis in unimmunized children?",
+      "answer": "*Haemophilus influenzae* type b (Hib)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why is direct throat visualization strictly avoided in suspected acute epiglottitis?",
+      "answer": "Physical examination of the pharynx can trigger lethal laryngospasm and total airway occlusion."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What definitive airway procedure is indicated for severe acute epiglottitis?",
+      "answer": "Prophylactic endotracheal intubation in a controlled operating room or ICU environment."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How does Croup (Acute Laryngotracheobronchitis) clinical presentation differ from epiglottitis?",
+      "answer": "Croup features a characteristic barking cough, hoarseness, low-grade fever, and absence of drooling."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the primary medical treatment for moderate-to-severe Croup?",
+      "answer": "Dexamethasone (oral or IM) and nebulized adrenaline."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What clinical picture suggests Foreign Body Aspiration in a playing toddler?",
+      "answer": "Sudden onset of choking and paroxysmal coughing with focal wheeze or stridor in an afebrile child."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What pharyngeal feature distinguishes Laryngeal Diphtheria from standard croup?",
+      "answer": "A adherent greyish pseudomembrane over the larynx/pharynx accompanied by cervical lymphadenopathy (bull neck)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What specific antitoxin therapy must be administered urgently in cases of Laryngeal Diphtheria?",
+      "answer": "Intravenous Anti-Diphtheria Toxin (Diphtheria Antitoxin)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How is Failure to Thrive (FTT) defined on a pediatric growth curve?",
+      "answer": "Weight deceleration crossing 2 or more major centiles or weight remaining consistently below the 3rd percentile."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Are the majority of Failure to Thrive (FTT) cases caused by underlying organic pathology?",
+      "answer": "No, over 80% ($>80\\%$) of cases are non-organic, stemming from environmental, psychosocial, or feeding behavioral factors."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What physical examination finding is most sensitive for acute Testicular Torsion?",
+      "answer": "Absence of the ipsilateral cremasteric reflex."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the critical surgical window to maintain high testicular viability during testicular torsion?",
+      "answer": "Within 6 hours of symptom onset (salvage rate $>90\\%$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why must contralateral orchidopexy be performed during surgical correction of unilateral testicular torsion?",
+      "answer": "The predisposing anatomical anomaly (bell-clapper deformity) is bilateral, putting the unaffected testis at risk."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What clinical features differentiate continuous fever from intermittent fever?",
+      "answer": "Continuous fever remains elevated with minor fluctuations, whereas intermittent fever fluctuates to normal body temperature periodically."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What physical signs indicate plasma leakage in a patient with severe Dengue?",
+      "answer": "Ascites, pleural effusion, and progressive hemoconcentration (rising PCV)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "How does leukopenia and thrombocytopenia assist in diagnosing acute Dengue fever?",
+      "answer": "Rapidly dropping leukocyte and platelet counts typically accompany the onset of plasma leakage near fever defervescence."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What dosage titration range is used for intravenous epinephrine infusion in refractory anaphylactic shock?",
+      "answer": "$0.1\\ \\mu\\text{g/kg/min}$ to $1.0\\ \\mu\\text{g/kg/min}$, titrated to systemic perfusion and blood pressure."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What is the role of Leukotriene Receptor Antagonists (LTRAs) in chronic asthma management for children under 5?",
+      "answer": "Used as an add-on controller option alongside low-dose ICS before specialist referral."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "What clinical features signal severe airway edema during acute anaphylaxis?",
+      "answer": "Inspiratory stridor, voice hoarseness, difficulty swallowing, and progressive upper airway obstruction."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 2",
+      "question": "Why is diagnostic Doppler ultrasound contraindicated if clinical suspicion for testicular torsion is high?",
+      "answer": "Imaging delays definitive surgical exploration and increases the risk of irreversible ischemic testicular necrosis."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."

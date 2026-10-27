@@ -496,13 +496,24 @@ function updateQuizData() {
                     let options = [];
 
                     if (optAIdx !== -1) {
-                        options = [
+                        const rawOpts = [
                             String(row[optAIdx] || ''),
                             optBIdx !== -1 ? String(row[optBIdx] || '') : '',
                             optCIdx !== -1 ? String(row[optCIdx] || '') : '',
                             optDIdx !== -1 ? String(row[optDIdx] || '') : '',
                             optEIdx !== -1 ? String(row[optEIdx] || '') : ''
-                        ].map(o => o.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
+                        ];
+                        let candidateOptions = [];
+                        for (const raw of rawOpts) {
+                            if (!raw) continue;
+                            if (/[A-E][.)]\s/i.test(raw) && /\r?\n\s*[A-E][.)]\s/i.test(raw)) {
+                                const subOpts = raw.split(/\r?\n\s*(?=[A-E][.)]\s)/i);
+                                candidateOptions.push(...subOpts);
+                            } else {
+                                candidateOptions.push(raw);
+                            }
+                        }
+                        options = candidateOptions.map(o => o.replace(/^(?:[A-E][.)\s:-]+|\([A-E]\)\s*)/i, '').trim()).filter(Boolean);
                     }
 
                     if (options.length < 3 && /[A-E][.)]\s/.test(questionText)) {

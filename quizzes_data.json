@@ -6469,6 +6469,428 @@
       "explanation": "Cephalhematoma is a subperiosteal blood accumulation bounded by periosteum, so it does NOT cross suture lines. Caput succedaneum crosses suture lines."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 2": [
+    {
+      "id": 8,
+      "category": "Community-Acquired Pneumonia",
+      "question": "Which of the following is the most common bacterial pathogen causing Community-Acquired Pneumonia (CAP) in infants and children over 3 weeks of age?",
+      "options": [
+        "Staphylococcus aureus",
+        "Streptococcus pneumoniae",
+        "Mycoplasma pneumoniae",
+        "Haemophilus influenzae type b",
+        "Klebsiella pneumoniae"
+      ],
+      "correctIndex": 1,
+      "explanation": "Streptococcus pneumoniae is the single most common bacterial cause of CAP in infants and children beyond the neonatal period (over 3 weeks to 5 years). Viral etiologies (RSV, Rhinovirus) predominate in children under 2 years, but S. pneumoniae remains the primary bacterial culprit."
+    },
+    {
+      "id": 9,
+      "category": "BTS CAP Guidelines",
+      "question": "According to BTS Guidelines, what is the first-line oral antibiotic recommended for outpatient treatment of uncomplicated CAP in children under 5 years?",
+      "options": [
+        "Oral Azithromycin",
+        "Oral Amoxicillin",
+        "Oral Co-trimoxazole",
+        "Oral Ciprofloxacin",
+        "Oral Cefalexin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oral Amoxicillin is the first-line empiric oral antibiotic of choice for uncomplicated CAP in children under 5 years according to BTS guidelines, as it effectively covers Streptococcus pneumoniae."
+    },
+    {
+      "id": 10,
+      "category": "BTS Hospital Admission Criteria",
+      "question": "Which clinical finding is a mandatory indication for urgent hospital admission in a 2-year-old child with pneumonia?",
+      "options": [
+        "Fever of 38.2°C",
+        "Mild intercostal retractions",
+        "Oxygen saturation (SpO2) < 92% on room air",
+        "Cough duration of 4 days",
+        "Localized crackles on auscultation"
+      ],
+      "correctIndex": 2,
+      "explanation": "An oxygen saturation (SpO2) < 92% on room air indicates severe hypoxemia and is a mandatory criterion for immediate hospital admission and supplemental oxygen therapy under BTS guidelines."
+    },
+    {
+      "id": 11,
+      "category": "Acute Severe Asthma",
+      "question": "A 6-year-old known asthmatic presents with severe breathlessness. Which feature indicates a Life-Threatening Asthma Exacerbation rather than Severe Asthma?",
+      "options": [
+        "Heart rate > 130 bpm",
+        "Respiratory rate > 40/min",
+        "Silent chest on auscultation",
+        "Inability to complete sentences in one breath",
+        "Use of accessory neck muscles"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 'silent chest' signifies critical airflow limitation with minimal air entry, representing a life-threatening asthma exacerbation requiring emergency PICU escalation. Tachypnea and tachycardia represent severe asthma."
+    },
+    {
+      "id": 12,
+      "category": "Acute Asthma Management",
+      "question": "What is the first-line medical management for an acute moderate-to-severe asthma exacerbation in a child?",
+      "options": [
+        "IV Aminophylline infusion",
+        "Inhaled short-acting beta-2 agonist (Salbutamol) via spacer or nebulizer",
+        "Oral Montelukast",
+        "Inhaled Fluticasone high-dose",
+        "IV Antibiotics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inhaled short-acting beta-2 agonists (Salbutamol) administered via MDI with spacer (or oxygen-driven nebulizer) combined with systemic corticosteroids form the mandatory first-line therapy for acute asthma exacerbations."
+    },
+    {
+      "id": 13,
+      "category": "Corticosteroid Therapy in Asthma",
+      "question": "What is the recommended dose and duration of oral prednisolone for an acute asthma exacerbation in a 4-year-old child?",
+      "options": [
+        "0.5 mg/kg for 10 days",
+        "1–2 mg/kg/day (max 40 mg) for 3–5 days",
+        "5 mg/kg/day for 14 days",
+        "10 mg/kg single dose",
+        "0.15 mg/kg single dose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oral prednisolone at 1–2 mg/kg/day (maximum 40 mg) for 3–5 days provides rapid anti-inflammatory action to reverse airway mucosal edema and prevent early relapse. 0.15 mg/kg single dose is used for Croup, not Asthma."
+    },
+    {
+      "id": 14,
+      "category": "Viral Croup (ALTB)",
+      "question": "A 2-year-old boy presents at midnight with a seal-like barking cough, hoarseness, and inspiratory stridor. What is the most common viral causative pathogen?",
+      "options": [
+        "Respiratory Syncytial Virus (RSV)",
+        "Parainfluenza virus type 1",
+        "Adenovirus",
+        "Influenza A virus",
+        "Human Metapneumovirus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parainfluenza virus (specifically Type 1) causes over 75% of acute laryngotracheobronchitis (viral croup) cases in children aged 6 months to 3 years."
+    },
+    {
+      "id": 15,
+      "category": "Croup Management",
+      "question": "What is the primary evidence-based medical treatment for mild-to-moderate viral croup in children?",
+      "options": [
+        "Oral Amoxicillin for 7 days",
+        "Single dose of oral Dexamethasone (0.15 mg/kg)",
+        "Inhaled Salbutamol via spacer",
+        "Steam inhalation",
+        "Oral Cough Suppressant"
+      ],
+      "correctIndex": 1,
+      "explanation": "A single dose of oral Dexamethasone (0.15 mg/kg, max 12 mg) is the primary first-line treatment for all severities of croup, significantly reducing subglottic edema and hospitalization rates within 2–4 hours."
+    },
+    {
+      "id": 16,
+      "category": "Severe Croup Emergency",
+      "question": "A 18-month-old child with croup develops severe inspiratory stridor at rest and chest wall retractions. Which immediate treatment buys time before intubation?",
+      "options": [
+        "IV Hydrocortisone",
+        "Nebulized Racemic / L-Adrenaline",
+        "Nebulized Salbutamol",
+        "IV Aminophylline",
+        "Oral Prednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nebulized L-adrenaline (or racemic adrenaline) causes rapid alpha-adrenergic mucosal vasoconstriction in the subglottic space, providing temporary symptomatic relief in severe stridor at rest while corticosteroids take effect."
+    },
+    {
+      "id": 17,
+      "category": "Acute Epiglottitis",
+      "question": "A 4-year-old unimmunized child presents with high fever, sore throat, severe drooling, dysphagia, and tripoding posture. What is the classic causative pathogen?",
+      "options": [
+        "Streptococcus pyogenes",
+        "Haemophilus influenzae type b (Hib)",
+        "Staphylococcus aureus",
+        "Corynebacterium diphtheriae",
+        "Moraxella catarrhalis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Haemophilus influenzae type b (Hib) is the classic bacterial cause of acute epiglottitis. Its incidence has plummeted following universal Hib conjugate vaccination."
+    },
+    {
+      "id": 18,
+      "category": "Acute Epiglottitis Management",
+      "question": "When acute epiglottitis is clinically suspected in a child, what action is strictly CONTRAINDICATED?",
+      "options": [
+        "Providing high-flow oxygen",
+        "Inspecting the pharynx with a tongue depressor",
+        "Calling a senior anesthetist and ENT surgeon",
+        "Administering IV Ceftriaxone in OT",
+        "Keeping the child calm on parent's lap"
+      ],
+      "correctIndex": 1,
+      "explanation": "Direct inspection of the throat with a tongue depressor or anxiety-inducing invasive procedures are strictly contraindicated because they can trigger fatal laryngospasm and complete airway occlusion."
+    },
+    {
+      "id": 19,
+      "category": "Epiglottitis Radiography",
+      "question": "What classic radiological sign is seen on a lateral neck X-ray in a child with acute epiglottitis?",
+      "options": [
+        "Steeple sign",
+        "Thumbprint sign",
+        "Doughnut sign",
+        "Boot-shaped heart",
+        "Continuous diaphragm sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'thumbprint sign' on a lateral soft tissue neck radiograph represents an enlarged, edematous epiglottis. The 'steeple sign' (subglottic narrowing) is characteristic of Croup."
+    },
+    {
+      "id": 20,
+      "category": "Foreign Body Aspiration",
+      "question": "A 3-year-old child suddenly develops choking while playing with small toys, followed by persistent monophonic wheeze and unilateral decreased breath sounds. What is the gold standard diagnostic and therapeutic intervention?",
+      "options": [
+        "Chest X-ray",
+        "Rigid Bronchoscopy",
+        "CT Chest",
+        "Spirometry",
+        "Nebulized Salbutamol trial"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rigid bronchoscopy under general anesthesia is the definitive gold standard for both diagnosing and safely removing an aspirated tracheobronchial foreign body in a pediatric patient."
+    },
+    {
+      "id": 21,
+      "category": "Pediatric Tuberculosis Pathogenesis",
+      "question": "What components constitute a primary tuberculous complex (Ghon complex) in pediatric pulmonary tuberculosis?",
+      "options": [
+        "Apicopulmonary cavity and apical scarring",
+        "Parenchymal lesion (Ghon focus) + lymphangitis + enlarged regional hilar lymph node",
+        "Caseating granuloma in the liver and spleen",
+        "Bilateral pleural effusions with high ADA",
+        "Calcified pericardial thickening"
+      ],
+      "correctIndex": 1,
+      "explanation": "A primary Ghon complex consists of the primary parenchymal subpleural lesion (Ghon focus) together with lymphatic drainage channels and enlarged, caseating regional hilar/mediastinal lymph nodes."
+    },
+    {
+      "id": 22,
+      "category": "Tuberculin Skin Test (Mantoux)",
+      "question": "What induration size is considered a positive Mantoux test in a child with HIV infection or close contact with a known infectious pulmonary TB case?",
+      "options": [
+        "≥ 2 mm",
+        "≥ 5 mm",
+        "≥ 10 mm",
+        "≥ 15 mm",
+        "≥ 20 mm"
+      ],
+      "correctIndex": 1,
+      "explanation": "An induration size of ≥ 5 mm is considered positive in high-risk children, including those with HIV infection, severe malnutrition, or close contact with an active infectious pulmonary TB case (≥ 10 mm for general population)."
+    },
+    {
+      "id": 23,
+      "category": "Anti-TB Treatment Regimen",
+      "question": "What is the standard first-line Anti-TB regimen for uncomplicated pediatric pulmonary tuberculosis?",
+      "options": [
+        "2 months of RHZ + 4 months of RH",
+        "2 months of RHZE + 4 months of RH",
+        "6 months of RHZE continuously",
+        "2 months of RIF + 10 months of INH",
+        "12 months of INH monotherapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Standard pediatric pulmonary TB treatment consists of a 2-month intensive phase with 4 drugs (Rifampicin, Isoniazid, Pyrazinamide, Ethambutol) followed by a 4-month continuation phase with 2 drugs (Rifampicin, Isoniazid)."
+    },
+    {
+      "id": 24,
+      "category": "Tuberculous Lymphadenitis",
+      "question": "What is the most common extrapulmonary site of tuberculosis infection in children?",
+      "options": [
+        "Tubercular meningitis",
+        "Scrofula (cervical lymphadenitis)",
+        "Spinal TB (Pott's disease)",
+        "Renal tuberculosis",
+        "Tuberculous peritonitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cervical lymphadenitis (scrofula) is the most common extrapulmonary presentation of pediatric tuberculosis, presenting as firm, non-tender, matted cervical lymph nodes."
+    },
+    {
+      "id": 25,
+      "category": "Anaphylaxis Management",
+      "question": "A 5-year-old child develops acute urticaria, wheezing, and hypotension within 10 minutes of peanut ingestion. What is the immediate first-line drug of choice?",
+      "options": [
+        "IV Hydrocortisone",
+        "Intramuscular Adrenaline (1:1,000) into anterolateral thigh",
+        "Inhaled Salbutamol",
+        "Oral Chlorpheniramine",
+        "IV Normal Saline bolus alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intramuscular Adrenaline (1:1,000 solution at 0.01 mg/kg or 0.15 mg for age 1-5 years) injected into the mid-anterolateral thigh is the immediate, life-saving first-line medication for pediatric anaphylaxis."
+    },
+    {
+      "id": 26,
+      "category": "Adrenaline Dosing in Anaphylaxis",
+      "question": "What is the standard intramuscular dose of Adrenaline 1:1,000 for a child aged 6 to 12 years experiencing anaphylaxis?",
+      "options": [
+        "0.05 mg",
+        "0.15 mg",
+        "0.3 mg",
+        "0.5 mg",
+        "1.0 mg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Standard IM Adrenaline 1:1,000 auto-injector/syringe doses: <6 years = 0.15 mg (150 mcg); 6–12 years = 0.3 mg (300 mcg); >12 years/adults = 0.5 mg (500 mcg)."
+    },
+    {
+      "id": 27,
+      "category": "Pertussis (Whooping Cough)",
+      "question": "Which laboratory finding is a classic hematological hallmark strongly supporting the clinical diagnosis of Pertussis (Bordetella pertussis)?",
+      "options": [
+        "Eosinophilia > 20%",
+        "Marked leukocytosis with absolute lymphocytosis",
+        "Severe neutropenia",
+        "Thrombocytopenia < 50,000/uL",
+        "Microcytic hypochromic anemia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bordetella pertussis toxin stimulates lymphocytosis, producing a classic hematological picture of marked leukocytosis (often 20,000–50,000/uL) with predominant absolute mature lymphocytosis."
+    },
+    {
+      "id": 28,
+      "category": "Pertussis Presentation in Infants",
+      "question": "How do young infants under 6 months of age with pertussis typically present instead of the classic inspiratory whoop?",
+      "options": [
+        "High fever and lobar consolidation",
+        "Apneic episodes and cyanosis",
+        "Wheezing and emphysema",
+        "Purpuric rash and shock",
+        "Severe stridor at rest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Young infants (<6 months) lack the muscular force to generate a classic inspiratory 'whoop' and frequently present with severe paroxysmal coughing followed by apneic attacks, cyanosis, and bradycardia."
+    },
+    {
+      "id": 29,
+      "category": "Pertussis Treatment",
+      "question": "What is the first-line antibiotic class used to treat Pertussis and eliminate nasopharyngeal carriage?",
+      "options": [
+        "Penicillins (Amoxicillin)",
+        "Macrolides (Azithromycin / Clarithromycin)",
+        "Aminoglycosides (Gentamicin)",
+        "Fluoroquinolones (Ciprofloxacin)",
+        "Cephalosporins (Ceftriaxone)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Macrolides (Azithromycin for 5 days or Clarithromycin for 7 days) are the drugs of choice for pertussis treatment and post-exposure prophylaxis to eradicate Bordetella pertussis from the nasopharynx."
+    },
+    {
+      "id": 30,
+      "category": "Acute Viral Bronchiolitis",
+      "question": "A 5-month-old infant presents with 2 days of fever and coryza, progressing to tachypnea, chest retractions, bilateral expiratory wheezing, and fine polyphonic crackles. What is the primary underlying causative pathogen?",
+      "options": [
+        "Parainfluenza virus",
+        "Respiratory Syncytial Virus (RSV)",
+        "Mycoplasma pneumoniae",
+        "Adenovirus",
+        "Human Coronavirus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Respiratory Syncytial Virus (RSV) is responsible for 70–80% of all acute bronchiolitis cases in infants under 12 months of age during winter epidemics."
+    },
+    {
+      "id": 31,
+      "category": "Bronchiolitis Management Principles",
+      "question": "Which management strategy is recommended by international guidelines for uncomplicated acute viral bronchiolitis in an infant?",
+      "options": [
+        "Routine oral amoxicillin",
+        "Supportive care (supplemental O2 if SpO2 <92% and fluid/feeding support)",
+        "Routine nebulized salbutamol",
+        "Routine oral prednisolone",
+        "Routine chest physiotherapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Uncomplicated viral bronchiolitis is self-limiting. Guidelines strongly advise against routine antibiotics, bronchodilators, or steroids; management is strictly supportive (oxygen if SpO2 <92% and feeding/hydration support)."
+    },
+    {
+      "id": 32,
+      "category": "COVID-19 in Children & MIS-C",
+      "question": "What syndrome characterized by persistent fever, elevated inflammatory markers, coronary artery involvement, and multiorgan failure can develop 2–6 weeks post-COVID-19 infection in children?",
+      "options": [
+        "Kawasaki Disease",
+        "Multisystem Inflammatory Syndrome in Children (MIS-C)",
+        "Toxic Shock Syndrome",
+        "Macrophage Activation Syndrome",
+        "Guillain-Barré Syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multisystem Inflammatory Syndrome in Children (MIS-C) is a post-infectious hyperinflammatory condition occurring 2–6 weeks after SARS-CoV-2 infection, characterized by fever, multiorgan dysfunction, elevated CRP/ferritin, and cardiac/coronary involvement."
+    },
+    {
+      "id": 33,
+      "category": "Suppurative Lung Disease",
+      "question": "A 10-year-old child presents with chronic productive cough yielding foul-smelling purulent sputum, recurrent chest infections, and digital clubbing. What is the gold standard imaging modality to confirm Bronchiectasis?",
+      "options": [
+        "Plain Chest X-ray",
+        "High-Resolution CT (HRCT) of the chest",
+        "Ultrasound chest",
+        "Bronchoscopy",
+        "Ventilation-perfusion scan"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-Resolution Computed Tomography (HRCT) of the chest is the gold standard diagnostic imaging for confirming bronchiectasis (demonstrating bronchial dilation, wall thickening, and lack of bronchial tapering / 'signet ring' sign)."
+    },
+    {
+      "id": 34,
+      "category": "Cystic Fibrosis Diagnosis",
+      "question": "What is the gold standard diagnostic test for Cystic Fibrosis in a child presenting with chronic pulmonary infections and malabsorption?",
+      "options": [
+        "Serum IgE level",
+        "Quantitative Sweat Chloride Test",
+        "Sputum culture for Pseudomonas",
+        "Stool elastase alone",
+        "Chest X-ray"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quantitative pilocarpine iontophoresis sweat chloride test demonstrating a sweat chloride concentration ≥ 60 mmol/L on two separate occasions is the definitive gold standard for diagnosing Cystic Fibrosis."
+    },
+    {
+      "id": 35,
+      "category": "Physical Signs of Lung Consolidation",
+      "question": "On physical examination of a child with lobar pneumonia, which finding is characteristic of lung tissue consolidation?",
+      "options": [
+        "Hyperresonant percussion note",
+        "Decreased tactile vocal fremitus",
+        "Dull percussion note with bronchial breath sounds and increased vocal resonance",
+        "Tracheal deviation away from affected side",
+        "Vesicular breath sounds with prolonged expiration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lobar consolidation (e.g. bacterial pneumonia) conducts sound rapidly through dense tissue, producing a dull percussion note, coarse crackles, bronchial breath sounds, and increased tactile vocal fremitus/egophony."
+    },
+    {
+      "id": 36,
+      "category": "Physical Signs of Pleural Effusion",
+      "question": "What classic physical examination sign distinguishes a large pleural effusion from pulmonary consolidation?",
+      "options": [
+        "Hyperresonance on percussion",
+        "Stony dull percussion note with absent/diminished breath sounds",
+        "Bronchial breath sounds",
+        "Increased vocal resonance",
+        "Polyphonic wheezing"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pleural effusion presents with a characteristic 'stony dull' percussion note and stony silence (markedly decreased or absent breath sounds and vocal fremitus) over the fluid collection."
+    },
+    {
+      "id": 37,
+      "category": "Inhaled Corticosteroid Safety",
+      "question": "How can local oral adverse effects (oral candidiasis/thrush and dysphonia) of long-term Inhaled Corticosteroid (ICS) therapy be minimized in pediatric asthmatics?",
+      "options": [
+        "Administering ICS strictly at bedtime",
+        "Using a spacer device and rinsing the mouth with water/gargling after inhalation",
+        "Switching to oral prednisolone",
+        "Taking an oral antihistamine concurrently",
+        "Doubling the ICS dose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using a large-volume spacer with MDI and instructing the child to rinse their mouth with water and spit it out after each inhalation drastically reduces local corticosteroid deposition in the oropharynx, preventing candidiasis and hoarseness."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,

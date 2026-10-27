@@ -2551,6 +2551,228 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 2 Database": [
+    {
+      "Name": "Community-Acquired Pneumonia (CAP)",
+      "Tag": "Lower Respiratory Tract Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection of lung parenchyma; S. pneumoniae most common bacterial pathogen beyond neonatal period; RSV/viral in <2y"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Alveolar inflammation fluid exudation and consolidation impairing gas exchange"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fever cough tachypnea chest retractions crackles; Red Flags: SpO2 <92% grunting lethargy inability to feed"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR lobar consolidation FBC leukocytosis elevated CRP; Oral Amoxicillin 1st line outpatient (IV Co-amoxiclav/Cefuroxime if severe)"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Severe Asthma Exacerbation",
+      "Tag": "Obstructive Airway Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Reversible lower airway inflammation and bronchospasm triggered by viral URTIs allergens cold air or exercise"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Eosinophilic mucosal edema airway hyperresponsiveness and smooth muscle constriction"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dyspnea tachypnea polyphonic wheezing prolonged expiration intercostal retractions; Red Flags: Silent chest cyanosis PEF <33% confusion"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "SpO2 monitoring PEF measurement VBG pCO2 retention; Inhaled Salbutamol + Ipratropium via spacer/neb + Oral Prednisolone (1-2 mg/kg) + IV MgSO4"
+        }
+      ]
+    },
+    {
+      "Name": "Viral Croup (ALTB)",
+      "Tag": "Upper Airway Obstruction",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute viral infection of upper airway peaking between 6 months and 3 years; Parainfluenza virus type 1 most common"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Subglottic mucosal edema and inflammation causing anatomical narrowing of upper airway"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Barking seal-like cough hoarseness inspiratory stridor sternal retractions; Red Flags: Stridor at rest severe agitation cyanosis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis Neck XR steeple sign; Single dose Oral Dexamethasone (0.15 mg/kg) for ALL + Nebulized L-Adrenaline if severe"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Epiglottitis",
+      "Tag": "Upper Airway Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe life-threatening bacterial cellulitis of supraglottic structures; Haemophilus influenzae type b (Hib) primary cause"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rapid supraglottic edema causing high-grade airway resistance and fatal airway obstruction"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden high fever severe sore throat drooling dysphagia tripoding posture stridor; Red Flags: Complete airway occlusion (DO NOT examine throat)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Lateral neck XR thumbprint sign blood culture; Secure airway urgently in OT + IV Ceftriaxone"
+        }
+      ]
+    },
+    {
+      "Name": "Foreign Body Aspiration",
+      "Tag": "Airway Obstruction",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accidental inhalation of organic or inorganic foreign body into tracheobronchial tree (most common right main bronchus)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical airway occlusion causing air-trapping atelectasis or distal suppurative infection"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden choking paroxysmal cough persistent monophonic wheeze unilateral diminished breath sounds; Red Flags: Asphyxia silent chest"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Expiratory chest XR ball-valve emphysema; Rigid Bronchoscopy under general anesthesia (diagnostic and therapeutic)"
+        }
+      ]
+    },
+    {
+      "Name": "Pediatric Pulmonary Tuberculosis",
+      "Tag": "Mycobacterial Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection by Mycobacterium tuberculosis via airborne droplet inhalation from infectious adult contact"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Primary Ghon focus + lymphangitis + caseating hilar lymphadenopathy (Ghon complex)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent cough >2 weeks unexplained fever weight loss/failure to thrive night sweats; Red Flags: Respiratory distress hemoptysis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Mantoux test (>=5mm in high risk >=10mm general) GeneXpert on gastric washings CXR lymphadenopathy; 2RHZE / 4RH (6 months total)"
+        }
+      ]
+    },
+    {
+      "Name": "Tuberculous Meningitis (TBM)",
+      "Tag": "CNS Tuberculosis",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Hematogenous dissemination of M. tuberculosis from primary pulmonary focus"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Gelatinous basilar exudate entrapping cranial nerves (III VI VII) and causing vasculitis of circle of Willis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Prodrome fever irritability neck stiffness ptosis cranial nerve palsies seizures; Red Flags: Deep coma opisthotonos hemiplegia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CSF: high protein low glucose (<0.3 ratio) lymphocytic pleocytosis GeneXpert positive; 12-month Anti-TB (RHZE) + IV Dexamethasone (0.6 mg/kg)"
+        }
+      ]
+    },
+    {
+      "Name": "Anaphylaxis in Children",
+      "Tag": "Hypersensitivity Reaction",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe systemic IgE-mediated type I hypersensitivity reaction triggered by foods (peanuts nuts) insect stings or drugs"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Massive systemic histamine and cytokine release causing vasodilation bronchospasm and capillary leak"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Acute urticaria angioedema wheezing dyspnea stridor vomiting abdominal cramps hypotension/shock; Red Flags: Respiratory arrest vascular collapse"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis serum tryptase level; Immediate Intramuscular Adrenaline 1:1,000 (0.01 mg/kg or 0.15mg <6y 0.3mg 6-12y) in anterolateral thigh"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Viral Bronchiolitis",
+      "Tag": "Infant Lower Respiratory Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute viral lower respiratory infection in infants <12 months; Respiratory Syncytial Virus (RSV) primary pathogen (>75%)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Small airway viral necrosis epithelial shedding mucosal edema and mucus plugging causing air-trapping"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Coryza low-grade fever tachypnea intercostal retractions bilateral expiratory wheeze and fine polyphonic crackles; Red Flags: Apnea SpO2 <92% poor feeding"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis RSV nasopharyngeal aspirate PCR; Supportive care (supplemental O2 if SpO2 <92% and feeding/hydration support)"
+        }
+      ]
+    },
+    {
+      "Name": "Pertussis (Whooping Cough)",
+      "Tag": "Bacterial Respiratory Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Highly contagious respiratory infection caused by Bordetella pertussis gram-negative coccobacillus"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pertussis toxin damages ciliated respiratory epithelium causing severe paroxysmal coughing and systemic lymphocytosis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Paroxysmal coughing fits ending in high-pitched inspiratory whoop post-tussive emesis; Red Flags: Apneic attacks in young infants"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Full blood count: marked leukocytosis with absolute lymphocytosis PCR/nasopharyngeal swab; Oral Azithromycin for 5 days"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",
