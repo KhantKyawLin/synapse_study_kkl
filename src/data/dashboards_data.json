@@ -2773,6 +2773,228 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 3 Database": [
+    {
+      "Name": "Ventricular Septal Defect (VSD)",
+      "Tag": "Acyanotic Congenital Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common CHD overall (25-30%); Defect in membranous or muscular interventricular septum"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Left-to-Right shunt resulting in pulmonary hyperperfusion, volume overload of LA and LV, and eventual pulmonary hypertension"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Pansystolic murmur at lower left sternal border, thrill, tachypnea, poor feeding, failure to thrive; Red Flags: Heart failure, Eisenmenger syndrome"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Echocardiogram (gold standard), CXR cardiomegaly; Diuretics (Furosemide) + ACE inhibitors (Captopril) + Surgical repair"
+        }
+      ]
+    },
+    {
+      "Name": "Patent Ductus Arteriosus (PDA)",
+      "Tag": "Acyanotic Congenital Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Failure of ductus arteriosus closure post-birth; High incidence in preterm infants and congenital rubella"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Persistent L-to-R shunting from aorta to pulmonary artery causing pulmonary overcirculation and wide pulse pressure"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Continuous 'machinery' murmur at left infraclavicular area, bounding peripheral pulses, wide pulse pressure; Red Flags: Heart failure, pulmonary hypertension"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Echocardiogram; Indomethacin/IV Ibuprofen for ductal closure in preterms; Surgical ligation or device closure if persistent"
+        }
+      ]
+    },
+    {
+      "Name": "Tetralogy of Fallot (TOF)",
+      "Tag": "Cyanotic Congenital Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common cyanotic CHD beyond infant period; Anterosuperior deviation of infundibular septum"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "4 features: (1) Large VSD, (2) RVOTO/Infundibular stenosis, (3) Overriding aorta, (4) RV hypertrophy; Right-to-Left shunt causes cyanosis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Central cyanosis, clubbing, single S2, ejection systolic murmur; Red Flags: Hypercyanotic 'Tet' spells (hyperpnea, deep cyanosis, syncope)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR: 'Boot-shaped' heart (coeur en sabot), Echocardiogram; Tet Spell Rx: Knee-chest position + 100% O2 + Morphine; Complete surgical repair"
+        }
+      ]
+    },
+    {
+      "Name": "Coarctation of the Aorta",
+      "Tag": "Acyanotic Congenital Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Discrete narrowing of aortic lumen near insertion of ductus arteriosus; Associated with Turner Syndrome (45,X)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical obstruction to LV outflow causing upper limb hypertension and lower extremity hypoperfusion"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Upper extremity hypertension, weak/delayed femoral pulses, radio-femoral delay, cold lower limbs; Red Flags: Severe heart failure, intracranial hemorrhage"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Echocardiogram, CT/MR angiography, rib notching on CXR; PGE1 infusion in duct-dependent neonates; Surgical repair or balloon angioplasty"
+        }
+      ]
+    },
+    {
+      "Name": "Transposition of the Great Arteries (TGA)",
+      "Tag": "Cyanotic Congenital Heart Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Aorta arises from RV and pulmonary artery arises from LV; Most common cyanotic CHD in newborns"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Parallel circulations incompatible with life unless mixing exists via VSD, ASD, or PDA"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Profound cyanosis within first hours of life unresponsive to 100% oxygen, tachypnea, single S2; Red Flags: Severe metabolic acidosis, hypoxemia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR: 'Egg-on-a-string' cardiac contour with narrow mediastinum, Echocardiogram; Immediate PGE1 infusion + Balloon Atrial Septostomy + Arterial Switch Surgery"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Rheumatic Fever (ARF)",
+      "Tag": "Post-Infectious Autoimmune Vasculitis",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Autoimmune non-suppurative reaction 2-4 weeks post-Group A Streptococcal pharyngitis"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Molecular mimicry between GAS M-protein and human cardiac myosin/valvular tissues causing pancarditis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Major Jones criteria: Carditis (MR murmur), Migratory polyarthritis, Sydenham chorea, Erythema marginatum, Subcutaneous nodules"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated ASO titer / Anti-DNase B, high ESR/CRP, ECG PR prolongation, Echocardiogram; IM Benzathine Penicillin G + High-dose Aspirin/Prednisolone"
+        }
+      ]
+    },
+    {
+      "Name": "Kawasaki Disease",
+      "Tag": "Systemic Vasculitis",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Acute self-limiting medium-vessel necrotizing vasculitis peaking in children <5 years"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune-mediated endothelial inflammation with high predilection for coronary artery infiltration and aneurysm formation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fever >=5 days + 4/5 criteria: conjunctivitis, mucositis (strawberry tongue), polymorphic rash, extremity changes, cervical lymphadenopathy; Red Flags: Coronary aneurysms"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "High ESR/CRP, thrombocytosis, Echocardiogram (coronary dilation); Single-dose IVIG (2 g/kg) + High-dose Aspirin within 10 days"
+        }
+      ]
+    },
+    {
+      "Name": "Supraventricular Tachycardia (SVT)",
+      "Tag": "Cardiac Arrhythmia",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common pediatric symptomatic arrhythmia; AV nodal re-entrant tachycardia (AVNRT) or accessory pathway (WPW)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rapid paroxysmal re-entrant circuit resulting in ventricular heart rate >220 bpm in infants or >180 bpm in children"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Palpitations, tachypnea, poor feeding, pallor, rapid regular pulse; Red Flags: Decompensated shock, lethargy, pulmonary edema"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "ECG: Narrow QRS tachycardia with absent or abnormal P waves; Stable Rx: Vagal maneuvers (ice to face) -> Rapid IV Adenosine bolus; Unstable Rx: Synchronized DC Cardioversion (0.5-1 J/kg)"
+        }
+      ]
+    },
+    {
+      "Name": "Infective Endocarditis (IE)",
+      "Tag": "Cardiovascular Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bacterial (S. viridans, S. aureus) or fungal infection of endocardium; Pre-existing CHD is major risk factor"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Endothelial damage creates non-bacterial thrombotic endocarditis where circulating bacteria adhere, forming vegetations"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fever, new or changing cardiac murmur, splenomegaly, petechiae; Red Flags: Embolic strokes, Roth spots, Janeway lesions, Osler nodes"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Duke Criteria: Serial blood cultures positive + Echocardiogram showing vegetation/abscess; High-dose IV Antibiotics for 4-6 weeks + Surgical repair if valvular destruction"
+        }
+      ]
+    },
+    {
+      "Name": "Pediatric Congestive Heart Failure",
+      "Tag": "Cardiovascular Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Inability of heart to meet metabolic demands; Caused by volume overload (VSD, PDA), pressure overload (Coarctation), or myocardial dysfunction"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Neurohormonal activation (RAAS and SNS) causing sodium/water retention, cardiomegaly, and pulmonary/systemic venous congestion"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Tachypnea, diaphoresis during feeds, failure to thrive, hepatomegaly, cardiomegaly, gallop rhythm; Red Flags: Cardiogenic shock, severe pulmonary edema"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR cardiomegaly and pulmonary edema, Echocardiogram, elevated BNP; Loop Diuretics (Furosemide) + ACE Inhibitors (Captopril) + Spironolactone"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",

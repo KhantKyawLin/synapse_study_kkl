@@ -6891,6 +6891,428 @@
       "explanation": "Using a large-volume spacer with MDI and instructing the child to rinse their mouth with water and spit it out after each inhalation drastically reduces local corticosteroid deposition in the oropharynx, preventing candidiasis and hoarseness."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 3": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which of the following is the most common congenital heart defect overall in pediatric clinical practice?",
+      "options": [
+        "Atrial Septal Defect (ASD)",
+        "Ventricular Septal Defect (VSD)",
+        "Patent Ductus Arteriosus (PDA)",
+        "Tetralogy of Fallot (TOF)",
+        "Coarctation of the Aorta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ventricular Septal Defect (VSD) is the most common congenital heart lesion, accounting for approximately 25–30% of all CHD cases. Perimembranous VSD is the most common anatomical subtype."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "A 2-week-old preterm infant presents with bounding peripheral pulses, a wide pulse pressure, and a continuous 'machinery' murmur best heard at the left upper sternal border. What is the diagnosis?",
+      "options": [
+        "Ventricular Septal Defect",
+        "Coarctation of the Aorta",
+        "Patent Ductus Arteriosus (PDA)",
+        "Tetralogy of Fallot",
+        "Pulmonary Stenosis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Patent Ductus Arteriosus (PDA) classically presents with a continuous rough machinery-like murmur, wide pulse pressure, and bounding peripheral pulses due to rapid diastolic runoff into the pulmonary bed."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which four anatomical features constitute the classic tetrad of Tetralogy of Fallot (TOF)?",
+      "options": [
+        "VSD, ASD, PDA, Coarctation",
+        "VSD, RVOTO/Infundibular Stenosis, Overriding Aorta, RV Hypertrophy",
+        "ASD, Tricuspid Atresia, RV Hypertrophy, Overriding Aorta",
+        "VSD, Transposition of Great Arteries, LV Hypertrophy, ASD",
+        "ASD, VSD, Endocardial Cushion Defect, Mitral Regurgitation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tetralogy of Fallot is characterized by: (1) Large VSD, (2) Right Ventricular Outflow Tract Obstruction (RVOTO/infundibular stenosis), (3) Overriding Aorta, and (4) Secondary Right Ventricular Hypertrophy."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "A 9-month-old infant with Tetralogy of Fallot becomes intensely cyanotic, hyperpneic, and agitated while crying. What is the immediate first step in emergency management?",
+      "options": [
+        "Immediate IV Adrenaline administration",
+        "Flex knees to chest (knee-chest positioning)",
+        "Endotracheal intubation and mechanical ventilation",
+        "IV Furosemide bolus",
+        "Synchronized DC cardioversion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Knee-chest positioning immediately increases Systemic Vascular Resistance (SVR), reducing right-to-left shunting across the VSD and driving blood flow into the pulmonary vascular bed to relieve hypercyanotic spell."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "An 8-year-old boy is found to have upper extremity hypertension (BP 140/85 mmHg) with weak, delayed femoral pulses and radio-femoral delay. What is the primary diagnosis?",
+      "options": [
+        "Aortic Stenosis",
+        "Patent Ductus Arteriosus",
+        "Coarctation of the Aorta",
+        "Takayasu Arteritis",
+        "Renal Artery Stenosis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Coarctation of the Aorta presents with upper limb hypertension, diminished or delayed femoral pulses (radio-femoral delay), and a systolic murmur over the left infraclavicular area and back."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which of the following clinical findings constitutes a MAJOR criterion under the revised Jones Criteria for Acute Rheumatic Fever?",
+      "options": [
+        "Fever >38.5°C",
+        "Elevated C-Reactive Protein (CRP)",
+        "Prolonged PR interval on ECG",
+        "Sydenham Chorea",
+        "Arthralgia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sydenham Chorea is one of the 5 Major Jones Criteria (Carditis, Migratory Polyarthritis, Sydenham Chorea, Erythema Marginatum, Subcutaneous Nodules). Fever, elevated CRP/ESR, PR prolongation, and arthralgia are minor criteria."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the recommended minimum duration of secondary penicillin prophylaxis for a child with Acute Rheumatic Fever WITHOUT documented carditis?",
+      "options": [
+        "1 year",
+        "5 years or until age 21 (whichever is longer)",
+        "10 years or until age 21 (whichever is longer)",
+        "10 years or until age 40 (whichever is longer)",
+        "Lifelong prophylaxis"
+      ],
+      "correctIndex": 1,
+      "explanation": "For ARF without carditis, secondary prophylaxis (IM Benzathine Penicillin G every 3–4 weeks) is recommended for 5 years or until age 21, whichever is longer. If carditis was present, it extends to 10 years or age 21/40."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "A full-term newborn presents with severe cyanosis within 2 hours of life that fails to improve with 100% oxygen. Chest X-ray shows a narrow mediastinal shadow with an 'egg-on-a-string' cardiac silhouette. Diagnosis?",
+      "options": [
+        "Tetralogy of Fallot",
+        "Transposition of the Great Arteries (TGA)",
+        "Total Anomalous Pulmonary Venous Connection (TAPVC)",
+        "Tricuspid Atresia",
+        "Hypoplastic Left Heart Syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "TGA presents with cyanosis immediately at birth. Parallel pulmonary and systemic circulations create a narrow mediastinum and 'egg-on-a-string' cardiac contour on CXR due to anteroposterior alignment of great vessels."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "In a newborn with a duct-dependent congenital heart defect (e.g., severe Coarctation or Pulmonary Atresia), which medication is infused immediately to maintain ductal patency?",
+      "options": [
+        "Indomethacin",
+        "Prostaglandin E1 (Alprostadil)",
+        "Ibuprofen",
+        "Digoxin",
+        "Furosemide"
+      ],
+      "correctIndex": 1,
+      "explanation": "Intravenous Prostaglandin E1 (Alprostadil) maintains ductus arteriosus patency in duct-dependent lesions, preventing fatal circulatory collapse until surgical intervention. Indomethacin/Ibuprofen closes the ductus."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "A 5-year-old child presents with a narrow-complex Supraventricular Tachycardia (SVT) at a rate of 230 bpm. He is conscious and hemodynamically stable. What is the initial pharmacological drug of choice?",
+      "options": [
+        "IV Amiodarone",
+        "IV Digoxin",
+        "IV Adenosine (rapid bolus)",
+        "IV Atropine",
+        "Oral Propranolol"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rapid IV Adenosine bolus (0.1 mg/kg, max 6 mg) followed by an immediate normal saline flush is the first-line drug of choice for stable narrow-complex SVT after trying vagal maneuvers (e.g., ice bag to face)."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which chromosomal anomaly is most strongly associated with an Atrioventricular Septal Defect (AVSD / Endocardial Cushion Defect)?",
+      "options": [
+        "Turner Syndrome (45,X)",
+        "Down Syndrome (Trisomy 21)",
+        "Edward Syndrome (Trisomy 18)",
+        "Patau Syndrome (Trisomy 13)",
+        "DiGeorge Syndrome (22q11.2 deletion)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Down Syndrome (Trisomy 21) is strongly associated with AVSD (endocardial cushion defect), accounting for ~40% of all cardiac malformations in infants with Trisomy 21."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which pharmacological agent is indicated to promote closure of a hemodynamically significant Patent Ductus Arteriosus (PDA) in a premature infant?",
+      "options": [
+        "Alprostadil (PGE1)",
+        "IV Ibuprofen or Indomethacin",
+        "Dopamine",
+        "Sildenafil",
+        "Captopril"
+      ],
+      "correctIndex": 1,
+      "explanation": "Non-steroidal anti-inflammatory drugs (NSAIDs) such as IV Ibuprofen or Indomethacin inhibit cyclooxygenase and prostaglandin synthesis, inducing ductal closure in premature neonates."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the most common underlying predisposing factor for Infective Endocarditis in pediatric patients?",
+      "options": [
+        "Intravenous drug abuse",
+        "Pre-existing Congenital Heart Disease (CHD)",
+        "Acute Glomerulonephritis",
+        "Rheumatic Fever without valvular damage",
+        "Bronchial Asthma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pre-existing Congenital Heart Disease (especially unrepaired cyanotic CHD, VSD, or prosthetic valves) is the single most common predisposing risk factor for Infective Endocarditis in children."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which of the following is required to establish the diagnosis of Classic Kawasaki Disease?",
+      "options": [
+        "High fever for >=5 days PLUS at least 4 principal clinical criteria",
+        "High fever for 3 days PLUS coronary aneurysm on echo",
+        "Elevated ASO titer PLUS migratory polyarthritis",
+        "Thrombocytopenia PLUS purpuric rash",
+        "Positive blood culture for Group A Streptococcus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Classic Kawasaki Disease diagnosis requires high fever lasting >=5 days plus at least 4 of 5 features: (1) bilateral non-purulent conjunctivitis, (2) oral mucosal changes, (3) rash, (4) extremity changes, (5) cervical lymphadenopathy (>1.5cm)."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the primary medical treatment administered within the first 10 days of fever in Kawasaki Disease to prevent coronary artery aneurysms?",
+      "options": [
+        "High-dose IV Corticosteroids alone",
+        "Intravenous Immunoglobulin (IVIG 2 g/kg) + High-dose Aspirin",
+        "Oral Penicillin V for 10 days",
+        "IV Ampicillin + Gentamicin",
+        "Subcutaneous Low Molecular Weight Heparin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Single-dose IVIG (2 g/kg over 10–12 hours) combined with high-dose Aspirin (30–50 mg/kg/day) reduces the incidence of coronary artery aneurysms from 20–25% down to <3–5%."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the defining pathophysiological event in Eisenmenger Syndrome?",
+      "options": [
+        "Acute viral myocardial inflammation leading to dilated cardiomyopathy",
+        "Uncorrected large L-to-R shunt causes severe pulmonary hypertension and reversal to R-to-L cyanotic shunt",
+        "Coronary artery thrombosis following vasculitis",
+        "Congenital complete heart block due to maternal SLE",
+        "Progressive aortic valve stenosis leading to LV failure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eisenmenger Syndrome occurs when an uncorrected large left-to-right shunt (e.g., VSD, ASD, PDA) leads to irreversible pulmonary vascular obstructive disease, pulmonary hypertension, and reversal to a cyanotic right-to-left shunt."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the characteristic cardiac auscultatory finding in a child with a hemodynamically significant Atrial Septal Defect (ASD)?",
+      "options": [
+        "Continuous machinery-like murmur at left infraclavicular area",
+        "Fixed, wide splitting of the second heart sound (S2) with a systolic ejection murmur at upper left sternal border",
+        "Harsh pansystolic murmur at lower left sternal border with thrill",
+        "Mid-systolic click followed by late systolic murmur",
+        "Single loud S2 with no murmur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atrial Septal Defect classically presents with fixed, wide splitting of S2 (unaffected by respiration) due to persistent right ventricular volume overload and delayed pulmonary valve closure."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which first-line neurohormonal drug class reduces afterload and improves survival in children with pediatric congestive heart failure secondary to VSD?",
+      "options": [
+        "Loop Diuretics (Furosemide)",
+        "Angiotensin-Converting Enzyme (ACE) Inhibitors (e.g., Captopril)",
+        "Beta-blockers (Propranolol)",
+        "Inotropic agents (Digoxin)",
+        "Calcium Channel Blockers (Amlodipine)"
+      ],
+      "correctIndex": 1,
+      "explanation": "ACE Inhibitors (Captopril, Enalapril) reduce systemic vascular resistance (afterload), reducing left-to-right shunting across VSDs and improving cardiac output in pediatric heart failure."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which condition is the most common cause of ACQUIRED heart disease in children in developing countries?",
+      "options": [
+        "Kawasaki Disease",
+        "Rheumatic Heart Disease (RHD)",
+        "Viral Myocarditis",
+        "Dilated Cardiomyopathy",
+        "Infective Endocarditis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rheumatic Heart Disease remains the leading cause of acquired heart disease in children in developing regions. In contrast, Kawasaki Disease is the leading cause in industrialized nations."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What classic chest radiograph appearance is associated with Tetralogy of Fallot?",
+      "options": [
+        "'Egg-on-a-string' cardiac silhouette",
+        "'Boot-shaped' heart (coeur en sabot) with pulmonary oligemia",
+        "'Snowman' or 'Figure-of-8' sign",
+        "Water-bottle heart silhouette",
+        "Cardiomegaly with pulmonary plethora"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tetralogy of Fallot classically demonstrates a 'boot-shaped' heart (coeur en sabot) on CXR due to right ventricular hypertrophy lifting the apex and concavity of the main pulmonary artery segment."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which cardiovascular anomaly is most specifically associated with Turner Syndrome (45,X)?",
+      "options": [
+        "Supravalvular Aortic Stenosis",
+        "Coarctation of the Aorta & Bicuspid Aortic Valve",
+        "Atrioventricular Septal Defect",
+        "Tetralogy of Fallot",
+        "Transposition of the Great Arteries"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turner Syndrome (45,X) is strongly associated with left-sided obstructive cardiac lesions, most commonly Coarctation of the Aorta (15–20%) and Bicuspid Aortic Valve (30%)."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "A 3-year-old child in SVT (rate 240 bpm) presents with signs of decompensated shock (lethargic, BP 60/40 mmHg, CRT 5 sec). What is the mandatory immediate treatment?",
+      "options": [
+        "Ice bag applied to the face for 30 seconds",
+        "Immediate Synchronized DC Cardioversion (0.5 to 1 J/kg)",
+        "IV Adenosine 0.1 mg/kg rapid bolus",
+        "Oral Digoxin loading dose",
+        "IV Amiodarone over 60 minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unstable SVT with hemodynamic compromise/shock mandates immediate Synchronized DC Cardioversion (0.5–1 J/kg, increasing to 2 J/kg if needed). Vagal maneuvers and Adenosine are for stable SVT."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Infants of Diabetic Mothers (IDM) are at significant risk for which transient, hypertrophic cardiac lesion?",
+      "options": [
+        "Hypertrophic Cardiomyopathy / Asymmetric Septal Hypertrophy",
+        "Dilated Cardiomyopathy",
+        "Mitral Valve Prolapse",
+        "Pulmonary Valve Atresia",
+        "Endocardial Fibroelastosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hyperinsulinemia in infants of diabetic mothers stimulates myocardial glycogen deposition, leading to transient Hypertrophic Cardiomyopathy with asymmetric septal hypertrophy, which usually resolves over months."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "An apical pansystolic murmur radiating to the axilla in a child with acute carditis from Rheumatic Fever indicates which valvular lesion?",
+      "options": [
+        "Aortic Regurgitation",
+        "Mitral Regurgitation",
+        "Tricuspid Regurgitation",
+        "Pulmonary Stenosis",
+        "Mitral Stenosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute rheumatic carditis primarily attacks the mitral valve, causing acute Mitral Regurgitation characterized by an apical high-pitched pansystolic murmur radiating to the axilla."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which chest radiograph sign is pathognomonic for supracardiac Total Anomalous Pulmonary Venous Connection (TAPVC)?",
+      "options": [
+        "Boot-shaped heart",
+        "'Snowman' or 'Figure-of-8' sign",
+        "Egg-on-a-string appearance",
+        "Steeple sign",
+        "Thumbprint sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Supracardiac TAPVC creates a 'snowman' or 'figure-of-8' cardiac contour on CXR due to a dilated vertical vein, left innominate vein, and superior vena cava forming the top sphere above the heart."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Systemic hypertension in a child is clinically defined as systolic and/or diastolic blood pressure at or above which percentile for age, sex, and height?",
+      "options": [
+        "80th percentile",
+        "90th percentile",
+        "95th percentile",
+        "99th percentile",
+        "50th percentile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pediatric hypertension is defined as average SBP and/or DBP >=95th percentile for age, sex, and height measured on at least 3 separate occasions. (BP 90th-95th percentile is prehypertension/elevated BP)."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "What is the most common underlying etiology of secondary hypertension in infants and young children?",
+      "options": [
+        "Essential / Primary Hypertension",
+        "Renal Parenchymal Disease / Renovascular Disease",
+        "Pheochromocytoma",
+        "Cushing Syndrome",
+        "Hyperthyroidism"
+      ],
+      "correctIndex": 1,
+      "explanation": "In young children (<6–10 years), hypertension is overwhelmingly secondary, with Renal Parenchymal Disease (e.g., glomerulonephritis, reflux nephropathy) and Renovascular Disease being the most common causes."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "An 8-month-old infant presents with acute onset tachypnea, poor feeding, gallop rhythm, cardiomegaly on CXR, and tachycardia out of proportion to fever. What is the most likely diagnosis?",
+      "options": [
+        "Acute Rheumatic Fever",
+        "Acute Viral Myocarditis",
+        "Hypertrophic Cardiomyopathy",
+        "Tetralogy of Fallot",
+        "Infective Endocarditis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Viral Myocarditis (most commonly Coxsackie B or Adenovirus) presents in infants with sudden heart failure, cardiomegaly, unexplained tachycardia, gallop rhythm, and respiratory distress."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Antibiotic prophylaxis for Infective Endocarditis prior to invasive dental procedures is recommended strictly for which high-risk pediatric group?",
+      "options": [
+        "All children with repaired ASD without residual shunts",
+        "Unrepaired cyanotic CHD or repaired CHD with residual defects/prosthetics",
+        "Children with a history of Rheumatic Fever without valvular damage",
+        "Children with innocent functional heart murmurs",
+        "All children with Asthmatic bronchitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "AHA guidelines restrict IE dental prophylaxis to highest-risk groups: unrepaired cyanotic CHD, repaired CHD with prosthetic material/devices (first 6 months), or repaired CHD with residual defects adjacent to prosthetic patches."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 3",
+      "question": "Which of the following congenital heart lesions is classified as a CYANOTIC heart defect with a Right-to-Left shunt?",
+      "options": [
+        "Ventricular Septal Defect (VSD)",
+        "Atrial Septal Defect (ASD)",
+        "Transposition of the Great Arteries (TGA)",
+        "Patent Ductus Arteriosus (PDA)",
+        "Coarctation of the Aorta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Transposition of the Great Arteries (TGA), Tetralogy of Fallot (TOF), TAPVC, Tricuspid Atresia, and Truncus Arteriosus are cyanotic CHD lesions involving right-to-left shunts or parallel circulations. VSD, ASD, PDA are acyanotic."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,
