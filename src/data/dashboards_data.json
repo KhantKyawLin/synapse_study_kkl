@@ -2995,6 +2995,228 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 4 Database": [
+    {
+      "Name": "Acute Gastroenteritis & Severe Dehydration",
+      "Tag": "Diarrheal Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Viral (Rotavirus) or bacterial enteric infection causing massive watery diarrhea and vomiting"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Invasive or enterotoxigenic mucosal damage leading to severe fluid/electrolyte loss and hypovolemia"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Lethargic/unconscious sunken eyes skin pinch >2s unable to drink; Red Flags: Hypovolemic shock oliguria"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Stool culture serum electrolytes blood urea/creatinine; WHO Plan C: IV Ringer's Lactate/Normal Saline 100 mL/kg + Zinc 10-14 days"
+        }
+      ]
+    },
+    {
+      "Name": "Severe Acute Malnutrition (SAM)",
+      "Tag": "Nutritional Deficiency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary severe nutrient intake deficiency or underlying chronic disease/infection"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Reductive adaptation tissue wasting loss of visceral protein (Kwashiorkor) or subcutaneous fat (Marasmus)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Marasmus (severe wasting) or Kwashiorkor (bilateral pitting edema flaky-paint rash hair changes); Red Flags: Hypoglycemia <3.0 mmol/L hypothermia sepsis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "WFH <-3 SD MUAC <115 mm blood glucose electrolytes; WHO 10-Step Plan: 10% Glucose F-75 formula ReSoMol empirical antibiotics"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Viral Hepatitis & Hepatitis B",
+      "Tag": "Infectious Liver Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Hepatotropic viral infection (HAV HBV HCV HDV HEV); Perinatal transmission of HBV carries >90% chronicity risk"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune-mediated hepatocyte necrosis resulting in impaired conjugation clearance and synthetic liver failure"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Anorexia nausea right upper quadrant pain jaundice dark urine pale stools; Red Flags: Hepatic encephalopathy INR >2.0"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum transaminases (AST/ALT) Bilirubin HBsAg/HBeAg IgM anti-HAV; Supportive care; Neonatal post-exposure: HBIG + HBV vaccine <12h"
+        }
+      ]
+    },
+    {
+      "Name": "Severe Malaria (P. falciparum)",
+      "Tag": "Vector-Borne Parasitic Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Plasmodium falciparum infection transmitted via female Anopheles mosquito bite"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sequestration of parasitized RBCs in microvasculature causing tissue ischemia inflammation and hemolysis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "High spike fevers chills rigors pallor splenomegaly; Red Flags: Cerebral malaria (coma/seizures) severe anemia blackwater fever"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood film thick/thin smears Rapid Diagnostic Test (RDT) FBC; Intravenous Artesunate (2.4 mg/kg) first-line"
+        }
+      ]
+    },
+    {
+      "Name": "Dengue Hemorrhagic Fever (DHF)",
+      "Tag": "Arboviral Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Secondary infection with different Dengue virus serotype (DEN 1-4)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Antibody-dependent enhancement causing severe capillary hyperpermeability plasma leakage and thrombocytopenia"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "High fever positive Tourniquet test petechiae; Red Flags: Plasma leakage (PCV rise >=20%) severe abdominal pain mucosal bleeding DSS shock"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Dengue NS1 antigen positive Thrombocytopenia <100k PCV rise >=20%; Isotonic IV crystalloid resuscitation (5-7 mL/kg/h)"
+        }
+      ]
+    },
+    {
+      "Name": "Helminthic Infestations (Ascaris / Hookworm / Trichuris)",
+      "Tag": "Intestinal Nematodes",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ingestion of infective eggs (Ascaris Trichuris) or skin penetration by filariform larvae (Hookworm)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Adult worms inhabit intestinal lumen causing mechanical obstruction (Ascaris) blood loss (Hookworm) or mucosal inflammation (Trichuris)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Ascaris: intestinal obstruction; Hookworm: severe iron deficiency anemia; Trichuris: dysentery and rectal prolapse; Pinworm: perianal itch appendicitis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Stool microscopy for ova/parasites FBC for eosinophilia and anemia; Single dose Oral Albendazole (400 mg) or Mebendazole (500 mg)"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Diphtheria",
+      "Tag": "Bacterial Airway Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Corynebacterium diphtheriae infection in unimmunized or incompletely immunized children"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Diphtheria exotoxin inhibits protein synthesis causing tissue necrosis and pseudomembrane formation with systemic myocarditis risk"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sore throat low-grade fever pseudomembrane over tonsils/pharynx 'bull neck' cervical adenopathy; Red Flags: Stridor myocarditis arrhythmia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Throat swab culture (Löffler/Tellurite medium) Elek toxigenicity test; Immediate Diphtheria Antitoxin (DAT) + IV Penicillin G/Erythromycin"
+        }
+      ]
+    },
+    {
+      "Name": "Intussusception",
+      "Tag": "Gastrointestinal Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Invagination of proximal bowel into distal lumen (ileocolic most common); Peaking in infants 3-12 months"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Venous congestion bowel wall edema intestinal obstruction mucosal sloughing and potential bowel necrosis/perforation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Paroxysmal colicky pain screaming with legs drawn up 'red currant jelly' stool sausage-shaped RUQ mass; Red Flags: Peritonitis shock"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Abdominal Ultrasound (target/doughnut sign); Ultrasound-guided Air or Hydrostatic Contrast Enema reduction"
+        }
+      ]
+    },
+    {
+      "Name": "Failure to Thrive (FTT)",
+      "Tag": "Growth Faltering",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Inadequate usable calories due to insufficient intake (organic/inorganic) malabsorption or excessive metabolic demand"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Chronic energy deficit resulting in fat mobilization muscle wasting and delayed physical and neurodevelopmental growth"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Weight dropping across >=2 major percentile lines weight-for-height <5th percentile delayed milestones muscle wasting"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Detailed dietary history growth velocity charting FBC U&Es stool elastase tTG; Nutritional rehabilitation + multidisciplinary team"
+        }
+      ]
+    },
+    {
+      "Name": "Infant Feeding & Weaning Deficiencies",
+      "Tag": "Infant Nutrition",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Delayed introduction of complementary foods (>6 months) or improper early introduction (<4 months) or unfortified diets"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Transition from exclusive breast milk required to meet increasing iron zinc and caloric demands beyond 6 months"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Growth faltering iron deficiency anemia rickets micronutrient deficiencies recurrent infections"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Nutritional assessment growth charting serum ferritin 25-OH Vitamin D; Infant feeding counseling + exclusive breastfeeding for 6m + timely complementary feeding"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",

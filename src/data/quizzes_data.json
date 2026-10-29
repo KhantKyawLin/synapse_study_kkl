@@ -7313,6 +7313,428 @@
       "explanation": "Transposition of the Great Arteries (TGA), Tetralogy of Fallot (TOF), TAPVC, Tricuspid Atresia, and Truncus Arteriosus are cyanotic CHD lesions involving right-to-left shunts or parallel circulations. VSD, ASD, PDA are acyanotic."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 4": [
+    {
+      "id": 7,
+      "category": "WHO Plan B Dehydration",
+      "question": "A 1-year-old child weighing 10 kg presents with acute diarrhea and 'Some Dehydration'. According to WHO Plan B, how much ORS should be administered over 4 hours?",
+      "options": [
+        "500 mL",
+        "750 mL",
+        "1000 mL",
+        "250 mL",
+        "1200 mL"
+      ],
+      "correctIndex": 1,
+      "explanation": "WHO Plan B specifies 75 mL/kg of low-osmolarity ORS given over 4 hours for 'Some Dehydration'. For a 10 kg child, 10 x 75 = 750 mL ORS."
+    },
+    {
+      "id": 8,
+      "category": "Zinc Supplementation in AGE",
+      "question": "What is the recommended dosage and duration of elemental Zinc supplementation for a 10-month-old child with acute gastroenteritis?",
+      "options": [
+        "20 mg/day for 10-14 days",
+        "10 mg/day for 5 days",
+        "5 mg/day for 7 days",
+        "40 mg/day for 14 days",
+        "10 mg/day for 30 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "WHO guidelines recommend elemental zinc (20 mg/day for >6 months; 10 mg/day for <6 months) for 10-14 days to reduce duration and stool frequency."
+    },
+    {
+      "id": 9,
+      "category": "WHO Plan C Severe Dehydration",
+      "question": "In a 2-year-old child with Acute Gastroenteritis and Severe Dehydration (WHO Plan C), how should 100 mL/kg IV Ringer's Lactate be administered?",
+      "options": [
+        "100 mL/kg over 1 hour",
+        "50 mL/kg over 1 hour, then 50 mL/kg over 5 hours",
+        "30 mL/kg over 30 minutes, then 70 mL/kg over 2.5 hours",
+        "30 mL/kg over 1 hour, then 70 mL/kg over 5 hours",
+        "10 mL/kg bolus every 15 minutes for 6 doses"
+      ],
+      "correctIndex": 2,
+      "explanation": "WHO Plan C specifies IV Ringer's Lactate or Normal Saline 100 mL/kg. For older children (>=12 months), 30 mL/kg is given over 30 min, then 70 mL/kg over 2.5 hours."
+    },
+    {
+      "id": 10,
+      "category": "Severe Acute Malnutrition (SAM)",
+      "question": "Which of the following criteria defines Severe Acute Malnutrition (SAM) in a child aged 6-59 months?",
+      "options": [
+        "Weight-for-height < -1 SD",
+        "Mid-Upper Arm Circumference (MUAC) < 125 mm",
+        "Serum Albumin < 35 g/L",
+        "Weight-for-height < -3 SD or MUAC < 115 mm or bilateral pitting edema",
+        "Height-for-age < -2 SD"
+      ],
+      "correctIndex": 3,
+      "explanation": "SAM is defined as WFH < -3 SD, MUAC < 115 mm, or bilateral pitting nutritional edema (kwashiorkor)."
+    },
+    {
+      "id": 11,
+      "category": "Hypoglycemia in SAM",
+      "question": "In a child with Severe Acute Malnutrition, at what threshold is Hypoglycemia defined?",
+      "options": [
+        "Blood glucose < 3.0 mmol/L (< 54 mg/dL)",
+        "Blood glucose < 4.0 mmol/L (< 72 mg/dL)",
+        "Blood glucose < 2.2 mmol/L (< 40 mg/dL)",
+        "Blood glucose < 1.5 mmol/L (< 27 mg/dL)",
+        "Blood glucose < 5.0 mmol/L (< 90 mg/dL)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hypoglycemia in SAM is defined as blood glucose < 3.0 mmol/L (< 54 mg/dL) and requires immediate 5 mL/kg 10% Glucose oral or IV."
+    },
+    {
+      "id": 12,
+      "category": "ReSoMol in SAM",
+      "question": "Why is ReSoMol used instead of standard ORS for rehydration in children with Severe Acute Malnutrition?",
+      "options": [
+        "It contains higher sodium and lower potassium",
+        "It contains no sugar",
+        "It has lower sodium (45 mmol/L) and higher potassium (40 mmol/L) to prevent heart failure",
+        "It is given IV instead of orally",
+        "It contains elemental iron"
+      ],
+      "correctIndex": 2,
+      "explanation": "ReSoMol (Rehydration Solution for Malnutrition) contains lower sodium (45 mmol/L) and higher potassium (40 mmol/L) to avoid fatal fluid overload."
+    },
+    {
+      "id": 13,
+      "category": "F-75 vs F-100 Formulas",
+      "question": "Which nutritional formula is strictly used during Phase 1 (Stabilization Phase) of Severe Acute Malnutrition management?",
+      "options": [
+        "F-100 formula",
+        "F-75 formula",
+        "Full-cream cow's milk",
+        "Ready-to-Use Therapeutic Food (RUTF)",
+        "Soy protein isolate"
+      ],
+      "correctIndex": 1,
+      "explanation": "F-75 (75 kcal/100 mL, 0.9 g protein/100 mL) is used strictly during Phase 1 Stabilization to prevent refeeding syndrome. F-100 is for Phase 2 Catch-up growth."
+    },
+    {
+      "id": 14,
+      "category": "Micronutrients in SAM",
+      "question": "Which micronutrient should be WITHHELD during Phase 1 (Stabilization Phase) of SAM management?",
+      "options": [
+        "Folic acid",
+        "Zinc",
+        "Vitamin A",
+        "Elemental Iron",
+        "Copper"
+      ],
+      "correctIndex": 3,
+      "explanation": "High-dose Vitamin A is given on Day 1. Iron is strictly withheld during Phase 1 because free iron promotes bacterial growth and oxidative stress."
+    },
+    {
+      "id": 15,
+      "category": "Severe Malaria Therapy",
+      "question": "What is the first-line antimalarial drug of choice for severe P. falciparum malaria in children?",
+      "options": [
+        "Intravenous Artesunate",
+        "Oral Chloroquine",
+        "Intravenous Quinine",
+        "Oral Mefloquine",
+        "Intramuscular Artemether"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intravenous Artesunate is the first-line treatment for severe P. falciparum malaria in children, superior to quinine in reducing mortality."
+    },
+    {
+      "id": 16,
+      "category": "Ascariasis Complications",
+      "question": "A 5-year-old boy presents with colicky abdominal pain, vomiting, and abdominal distension. Abdominal X-ray shows intestinal obstruction. Stool history reveals passing roundworms. What is the cause?",
+      "options": [
+        "Strongyloides hyperinfection",
+        "Hookworm infestation",
+        "Bolus of Ascaris lumbricoides worms",
+        "Trichuris trichiura tenesmus",
+        "Enterobius appendicitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "A heavy bolus of adult Ascaris lumbricoides worms classically causes mechanical intestinal obstruction at the ileocecal junction."
+    },
+    {
+      "id": 17,
+      "category": "Hookworm Anemia",
+      "question": "Which intestinal helminth is most characteristically associated with chronic intestinal blood loss and severe Iron Deficiency Anemia?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Hookworm (Ancylostoma / Necator)",
+        "Enterobius vermicularis",
+        "Giardia lamblia",
+        "Hymenolepis nana"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hookworms (Ancylostoma duodenale, Necator americanus) attach to intestinal mucosa causing chronic blood loss and microcytic Iron Deficiency Anemia."
+    },
+    {
+      "id": 18,
+      "category": "Trichuris trichiura (Whipworm)",
+      "question": "A 4-year-old child presents with chronic diarrhea, dysentery, severe tenesmus, and rectal prolapse. Stool microscopy reveals whip-like eggs. What is the organism?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Ancylostoma duodenale",
+        "Strongyloides stercoralis",
+        "Trichuris trichiura",
+        "Enterobius vermicularis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Heavy Trichuris trichiura infection causes severe tenesmus, dysentery, and classic rectal prolapse in young children."
+    },
+    {
+      "id": 19,
+      "category": "Strongyloides vs Hookworm",
+      "question": "What distinguishes cutaneous larva migrans from Strongyloides stercoralis skin manifestations?",
+      "options": [
+        "Strongyloides causes creeping eruption; animal hookworms cause larva currens",
+        "Cutaneous larva migrans is caused by human hookworms only",
+        "Cutaneous larva migrans is caused by animal hookworm larvae; Strongyloides causes larva currens ('racing larva')",
+        "Strongyloides skin lesions never move",
+        "There is no clinical difference"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cutaneous larva migrans ('creeping eruption') is caused by animal hookworm larvae (A. braziliense). Strongyloides stercoralis causes 'larva currens' ('racing larva')."
+    },
+    {
+      "id": 20,
+      "category": "Tourniquet Test (Hess Test)",
+      "question": "How is the Tourniquet Test (Hess test) performed and interpreted for Dengue fever screening?",
+      "options": [
+        "Inflate BP cuff to 200 mmHg for 10 min; positive if >5 petechiae",
+        "Inflate BP cuff to midway between SBP and DBP for 5 min; positive if >=10-20 petechiae/inch^2",
+        "Inflate BP cuff to SBP for 2 min; positive if purpura appears",
+        "Measure capillary refill time at thumb for 10 seconds",
+        "Apply tourniquet to thigh for 15 minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The BP cuff is inflated to midway between SBP and DBP [(SBP+DBP)/2] for 5 minutes. A count of >=10-20 petechiae per square inch is positive."
+    },
+    {
+      "id": 21,
+      "category": "Dengue Hemorrhagic Fever (DHF)",
+      "question": "What is the cardinal pathophysiology that differentiates Dengue Hemorrhagic Fever (DHF) from classical Dengue Fever?",
+      "options": [
+        "Plasma leakage secondary to increased vascular permeability",
+        "Direct bacterial invasion of vascular endothelium",
+        "Absolute autoimmune destruction of liver parenchyma",
+        "Complete bone marrow aplasia",
+        "Intravascular hemolysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The clinical hallmark of DHF separating it from classical Dengue Fever is plasma leakage, evidenced by a >=20% rise in hematocrit (PCV)."
+    },
+    {
+      "id": 22,
+      "category": "Dengue Shock Syndrome (DSS)",
+      "question": "What is the immediate fluid management for a child presenting with Dengue Shock Syndrome (DSS)?",
+      "options": [
+        "Oral Rehydration Solution (ORS) 100 mL/kg",
+        "Immediate IV 5% Dextrose infusion over 12 hours",
+        "Immediate IV isotonic crystalloid bolus (10-20 mL/kg) over 15-30 minutes",
+        "Blood transfusion 20 mL/kg over 4 hours",
+        "Immediate IV Furosemide"
+      ],
+      "correctIndex": 2,
+      "explanation": "DSS requires immediate IV isotonic crystalloid resuscitation (10-20 mL/kg over 15-30 min). Colloids are used if shock persists."
+    },
+    {
+      "id": 23,
+      "category": "Acute Diphtheria",
+      "question": "A 3-year-old unimmunized child presents with fever, sore throat, stridor, 'bull neck' cervical swelling, and a grey adherent pseudomembrane over the tonsils. What is the immediate treatment?",
+      "options": [
+        "Oral Amoxicillin alone",
+        "Inhaled Salbutamol",
+        "Immediate IV Dexamethasone",
+        "Immediate Diphtheria Antitoxin (DAT) + IV Penicillin/Erythromycin",
+        "Surgical tonsillectomy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Corynebacterium diphtheriae causes a pseudomembranous pharyngitis ('bull neck' lymphadenopathy). Primary management is immediate Diphtheria Antitoxin (DAT) + Penicillin/Erythromycin."
+    },
+    {
+      "id": 24,
+      "category": "Intussusception Triad",
+      "question": "What is the classic clinical triad of Intussusception in infants?",
+      "options": [
+        "Fever, jaundice, splenomegaly",
+        "Paroxysmal colicky pain, 'red currant jelly' stool, sausage-shaped RUQ mass",
+        "Bilious vomiting, scaphoid abdomen, PR bleeding",
+        "Constipation, abdominal distension, fever",
+        "Diarrhea, periorbital edema, proteinuria"
+      ],
+      "correctIndex": 1,
+      "explanation": "Classic triad: (1) Paroxysmal colicky abdominal pain, (2) 'Red currant jelly' stool (blood + mucus), and (3) Sausage-shaped right upper quadrant mass."
+    },
+    {
+      "id": 25,
+      "category": "Intussusception Diagnosis & Rx",
+      "question": "What is the primary diagnostic imaging modality and first-line non-surgical management for Ileocolic Intussusception?",
+      "options": [
+        "CT abdomen; emergency laparotomy",
+        "Plain abdominal X-ray; nasogastric decompression",
+        "Abdominal Ultrasound (target/doughnut sign); Ultrasound-guided Air/Hydrostatic Enema reduction",
+        "Barium swallow; oral antibiotics",
+        "MRI abdomen; expectant observation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Abdominal Ultrasound showing 'target/doughnut sign' is diagnostic. First-line non-surgical treatment is Ultrasound-guided Air or Hydrostatic Contrast Enema reduction."
+    },
+    {
+      "id": 26,
+      "category": "Infant Feeding & Breastfeeding",
+      "question": "According to WHO guidelines, what is the recommended duration of Exclusive Breastfeeding for an infant?",
+      "options": [
+        "First 4 completed months",
+        "First 6 completed months (180 days)",
+        "First 9 completed months",
+        "First 12 completed months",
+        "First 2 completed months"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exclusive breastfeeding is recommended for the first 6 completed months (180 days). Complementary foods should be introduced at 6 months."
+    },
+    {
+      "id": 27,
+      "category": "Failure to Thrive (FTT)",
+      "question": "How is Failure to Thrive (FTT) defined on pediatric growth charts?",
+      "options": [
+        "Weight dropping across 2 or more major percentile lines or weight-for-height < 5th percentile",
+        "Height below 50th percentile",
+        "Head circumference > 97th percentile",
+        "Weight above 90th percentile",
+        "BMI-for-age > 85th percentile"
+      ],
+      "correctIndex": 0,
+      "explanation": "FTT is defined as weight dropping across 2 or more major percentile lines on standard growth charts or weight-for-height < 5th percentile."
+    },
+    {
+      "id": 28,
+      "category": "Hepatitis B Transmission",
+      "question": "What is the risk of chronic Hepatitis B infection in an infant acquiring vertical (perinatal) HBV infection from an HBeAg-positive mother without prophylaxis?",
+      "options": [
+        "< 10%",
+        "20-30%",
+        "50%",
+        "> 90%",
+        "0%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Perinatal (vertical) transmission from HBeAg-positive mothers carries a >90% risk of chronic Hepatitis B infection in the infant."
+    },
+    {
+      "id": 29,
+      "category": "Hepatitis B Prevention",
+      "question": "What immunoprophylaxis should a neonate born to an HBsAg-positive mother receive within 12 hours of birth?",
+      "options": [
+        "Hepatitis B vaccine alone at 2 months",
+        "Hepatitis B Immune Globulin (HBIG) alone",
+        "Both Hepatitis B vaccine and HBIG at different anatomical injection sites within 12 hours",
+        "Oral Acyclovir for 14 days",
+        "No prophylaxis required until 1 year"
+      ],
+      "correctIndex": 2,
+      "explanation": "Infants born to HBsAg-positive mothers must receive both Hepatitis B vaccine and Hepatitis B Immune Globulin (HBIG) within 12 hours of birth."
+    },
+    {
+      "id": 30,
+      "category": "Acute Liver Failure in Children",
+      "question": "Which laboratory threshold defines Pediatric Acute Liver Failure without pre-existing liver disease?",
+      "options": [
+        "Serum Bilirubin > 50 umol/L",
+        "Coagulopathy with INR > 2.0 (or INR > 1.5 with hepatic encephalopathy)",
+        "ALT > 100 U/L",
+        "Serum Albumin < 35 g/L",
+        "Platelets < 150,000/uL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute liver failure is defined by hepatic encephalopathy and coagulopathy (INR > 2.0 or INR > 1.5 with encephalopathy) without pre-existing liver disease."
+    },
+    {
+      "id": 31,
+      "category": "Pinworm (Enterobius vermicularis)",
+      "question": "Which intestinal parasite causes intense nocturnal perianal itching and can migrate into the appendiceal lumen causing appendicitis?",
+      "options": [
+        "Ascaris lumbricoides",
+        "Giardia lamblia",
+        "Entamoeba histolytica",
+        "Enterobius vermicularis (Pinworm)",
+        "Trichuris trichiura"
+      ],
+      "correctIndex": 3,
+      "explanation": "Enterobius vermicularis causes nocturnal perianal pruritus (diagnosed via Scotch tape test) and can migrate into the appendiceal lumen causing appendicitis."
+    },
+    {
+      "id": 32,
+      "category": "Vitamin A Deficiency",
+      "question": "What is the earliest clinical symptom of Vitamin A deficiency in children?",
+      "options": [
+        "Bitot's spots",
+        "Keratomalacia",
+        "Night blindness (nyctalopia)",
+        "Corneal ulceration",
+        "Dry skin"
+      ],
+      "correctIndex": 2,
+      "explanation": "First clinical symptom of Vitamin A deficiency is night blindness (nyctalopia), followed by conjunctival xerosis, Bitot's spots, and keratomalacia."
+    },
+    {
+      "id": 33,
+      "category": "Rickets (Vitamin D Deficiency)",
+      "question": "Which skeletal sign is characteristic of Nutritional Rickets (Vitamin D deficiency)?",
+      "options": [
+        "Craniotabes, rachitic rosary, and Harrison's groove",
+        "Osteopetrosis and dense bones",
+        "Scoliosis and kyphosis only",
+        "Shortening of metacarpals",
+        "Bony exostoses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rickets features: craniotabes, delayed fontanelle closure, rachitic rosary (beading of costochondral junctions), Harrison's groove, and bowed legs (genu varum)."
+    },
+    {
+      "id": 34,
+      "category": "Celiac Disease Diagnostics",
+      "question": "What is the most sensitive and specific serological screening test for Celiac Disease in children?",
+      "options": [
+        "IgG Anti-nuclear antibody",
+        "IgA Anti-tissue Transglutaminase (tTG) antibody",
+        "Serum IgE level",
+        "Anti-streptolysin O titer",
+        "Stool elastase"
+      ],
+      "correctIndex": 1,
+      "explanation": "IgA Anti-tissue Transglutaminase (tTG) antibody is the most sensitive and specific screening test. Gold standard confirmation is duodenal biopsy showing villous atrophy."
+    },
+    {
+      "id": 35,
+      "category": "Hypernatremic Dehydration",
+      "question": "In Hypernatremic Dehydration (Serum Na > 150 mmol/L), why must fluid rehydration be carried out slowly over 48 hours?",
+      "options": [
+        "To prevent hypokalemia",
+        "To prevent rapid shift of water into brain cells causing Cerebral Edema and seizures",
+        "To avoid metabolic acidosis",
+        "To prevent acute renal failure",
+        "To avoid pulmonary edema"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serum sodium > 150 mmol/L. Rapid correction risks cerebral edema and convulsions; fluid deficit must be corrected slowly over 48 hours."
+    },
+    {
+      "id": 36,
+      "category": "Exclusive Breastfeeding Advantages",
+      "question": "Which immunological component of human breast milk provides primary passive protection against enteric bacterial pathogens?",
+      "options": [
+        "IgG antibody",
+        "Secretory IgA (sIgA), lactoferrin, and lysozyme",
+        "IgM antibody",
+        "Complement C3",
+        "Interferon gamma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Breast milk contains secretory IgA, lactoferrin, and lysozyme that confer passive mucosal immunity against diarrheal and respiratory infections."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,

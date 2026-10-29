@@ -9741,6 +9741,381 @@
       "answer": "Pulse pressure $\\le 20\\text{ mmHg}$ (associated with cold, clammy extremities, tachycardia, and hypotension)."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "How is the target cuff inflation pressure calculated when performing a Hess test (tourniquet test)?",
+      "answer": "$\\text{Inflation Pressure} = \\frac{\\text{Systolic BP} + \\text{Diastolic BP}}{2}$"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "For how long should the blood pressure cuff remain inflated during a Hess test?",
+      "answer": "5 minutes"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In what specific anatomical area are petechiae counted following cuff deflation in a Hess test?",
+      "answer": "Within a $1\\text{ square inch}$ ($2.5\\text{ cm} \\times 2.5\\text{ cm}$) area on the anterior forearm below the antecubital fossa."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What petechial count threshold indicates a positive Hess test for capillary fragility?",
+      "answer": "$\\ge 20$ petechiae per square inch (with $\\ge 10$ per square inch also considered positive in updated guidelines)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What clinical sign of capillary fragility on the arm is shown below? Forearm showing scattered pinpoint reddish petechiae",
+      "answer": "Petechiae secondary to a positive Hess test (tourniquet test)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What are the pooled sensitivity and specificity of the Hess test for diagnosing dengue?",
+      "answer": "Pooled sensitivity is $58\\%$, and pooled specificity is $71\\%$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What are the three distinct clinical phases in the course of dengue illness?",
+      "answer": "1. Febrile phase\n2. Critical phase\n3. Recovery phase"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "During which phase of dengue illness do circulatory shock and severe plasma leakage typically manifest?",
+      "answer": "The Critical phase (coinciding with defervescence, usually between days 3 and 6 of illness)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What laboratory changes occur to hematocrit and platelet levels during the critical phase of dengue?",
+      "answer": "Hematocrit increases (hemoconcentration due to plasma leakage) while platelet count rapidly decreases."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the typical duration of acute fever in pediatric dengue before defervescence occurs?",
+      "answer": "Acute fever typically lasts $< 7$ days (commonly 2 to 7 days)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Name four key clinical warning signs that indicate progressing severity in dengue.",
+      "answer": "Any four of: Abdominal pain/tenderness, persistent vomiting, clinical fluid accumulation (ascites/effusion), mucosal bleed, lethargy/restlessness, liver enlargement $> 2\\text{ cm}$, or rapid platelet drop with rising Hct."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What hepatic physical examination finding is defined as a clinical warning sign in dengue?",
+      "answer": "Hepatomegaly / liver enlargement $> 2\\text{ cm}$ below the costal margin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What three major clinical entities define Severe Dengue?",
+      "answer": "1. Severe plasma leakage (leading to shock or respiratory distress)\n2. Severe hemorrhage\n3. Severe organ impairment (e.g., AST/ALT $\\ge 1000\\text{ U/L}$, CNS impairment)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What transaminase level defines severe liver involvement in Severe Dengue?",
+      "answer": "AST or ALT $\\ge 1000\\text{ U/L}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "During which days of fever is the Dengue NS1 antigen test most sensitive?",
+      "answer": "The first 2 days of fever (sensitivity $40\\text{--}70\\%$)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "When is the Dengue Duo test (NS1 Ag + IgM/IgG) recommended to achieve an overall sensitivity $> 90\\%$?",
+      "answer": "From day 4 of illness onwards."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the sensitivity of Dengue IgM/IgG serology on the day immediately following shock or defervescence?",
+      "answer": "$100\\%$ sensitivity."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What criteria qualify a pediatric dengue patient for outpatient management (Group A)?",
+      "answer": "1. Dengue without warning signs\n2. Absence of coexisting medical conditions or social risk\n3. Ability to tolerate adequate oral fluids"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What antipyretic medication and dosing regimen are recommended for fever in pediatric dengue?",
+      "answer": "Paracetamol $10\\text{ mg/kg}$ per dose administered 6-hourly as needed."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Why are nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen strictly avoided in dengue?",
+      "answer": "NSAIDs induce gastric mucosal irritation and platelet dysfunction, significantly increasing the risk of gastrointestinal bleeding."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Which dengue patient group requires in-hospital admission and fluid management (Group B)?",
+      "answer": "Patients presenting with dengue and clinical warning signs, or those with coexisting conditions/social risk factors."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What type of intravenous fluid is indicated for clinical rehydration during the critical phase of severe dengue?",
+      "answer": "Isotonic intravenous fluids (such as 0.9% Normal Saline or Ringer's Lactate)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In infants $< 6$ months requiring IV fluid therapy during critical dengue, what fluid concentration should be considered?",
+      "answer": "Half-strength saline (in contrast to older infants and children who receive isotonic fluids)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What minimum urine output target indicates adequate end-organ renal perfusion during IV fluid therapy in dengue?",
+      "answer": "$> 0.5\\text{ ml/kg/hour}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "How long must a dengue patient remain fever-free without antipyretics before satisfying discharge criteria?",
+      "answer": "At least 48 hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What laboratory trends signal successful transition to the recovery phase in dengue?",
+      "answer": "An upward trend in platelet count and a stable hematocrit level without intravenous fluid support."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What two critical conditions must be ruled out before giving an IV fluid bolus to a child in shock from acute gastroenteritis?",
+      "answer": "Severe Acute Malnutrition (SAM) and severe pallor."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the fluid of choice for WHO Treatment Plan C in a child with severe dehydration?",
+      "answer": "Full-Strength Ringer's Lactate (or Normal Saline if Ringer's Lactate is unavailable)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Under WHO Plan C, how is the initial $30\\text{ ml/kg}$ IV fluid bolus administered to a child aged $12$ months to $5$ years?",
+      "answer": "Over $30$ minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Under WHO Plan C, over what duration is the remaining $70\\text{ ml/kg}$ IV fluid given to a child aged $12$ months to $5$ years?",
+      "answer": "Over $2.5$ hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Under WHO Plan C, over what duration is the $70\\text{ ml/kg}$ IV fluid step given to an infant under $12$ months old?",
+      "answer": "Over $5$ hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "If a child reassessed during WHO Plan C remains in circulatory shock, what is the immediate intervention?",
+      "answer": "Repeat the initial $30\\text{ ml/kg}$ IV fluid bolus over $30$ minutes immediately."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "How much ORS solution should be administered after each loose stool for a child aged 2 to 10 years on WHO Plan A?",
+      "answer": "$100\\text{--}200\\text{ ml}$ after each loose stool."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is Rule 1 of WHO Treatment Plan A for managing home gastroenteritis?",
+      "answer": "Give the child more fluids than usual to prevent dehydration."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "How should a caregiver manage oral rehydration if a child vomits while taking ORS?",
+      "answer": "Wait $5\\text{--}10$ minutes, then resume giving ORS at a slower rate (vomiting is NOT a contraindication to ORS)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What clinical disposition is appropriate for a child with acute gastroenteritis and no signs of dehydration?",
+      "answer": "Outpatient management at home under WHO Treatment Plan A."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Name four red-flag symptoms that require immediate return to a health facility during home ORS therapy.",
+      "answer": "1. Repeated vomiting\n2. Poor drinking or inability to drink\n3. High fever\n4. Blood in the stool (or worsening diarrhea)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What clinical features indicate progression to Hepatic Encephalopathy in a child with viral hepatitis?",
+      "answer": "Deepening jaundice, reversal of sleep rhythm (sleeping during the day, awake at night), drowsiness, and altered consciousness."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What three core dietary and medical management steps are required for Hepatic Encephalopathy?",
+      "answer": "1. Dietary protein restriction\n2. Avoidance of hepatotoxic drugs\n3. Gut sterilization (e.g., lactulose/oral antibiotics)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Does Hepatitis A infection carry a risk of chronic liver disease?",
+      "answer": "No. Hepatitis A causes acute hepatitis (with risk of acute hepatic failure), but chronic infection does NOT occur."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What proportion of older children and adults infected with Hepatitis B virus develop chronic infection?",
+      "answer": "$5\\text{--}10\\%$ (compared to up to $90\\%$ in perinatally infected neonates)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What two major chronic complications develop in $15\\text{--}20\\%$ of patients with chronic Hepatitis B infection?",
+      "answer": "Cirrhosis of the liver and Hepatocellular Carcinoma (HCC)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What immunoprophylaxis protocol must be administered to a newborn of an HBsAg-positive mother?",
+      "answer": "Administer $2\\text{ ml}$ ($200\\text{ IU}$) Hepatitis B Immunoglobulin (HBIG) and Hepatitis B vaccine within the first $12$ hours of life."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What feeding schedule is required for an infant with a birth weight under $1\\text{ kg}$?",
+      "answer": "Hourly feeding."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What feeding schedule is recommended for an infant with a birth weight between $1\\text{ kg}$ and $1.25\\text{ kg}$?",
+      "answer": "2-hourly feeding (12 feeds per 24 hours)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What hygiene instruction should be given to a lactating mother regarding breast care before feeding?",
+      "answer": "The mother may shower daily, but she should NOT wash or wipe her breasts immediately prior to feeding."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Why is it normal for small or low-birth-weight infants to suckle for short periods and fall asleep during feeds?",
+      "answer": "Small infants tire easily due to limited stamina; brief suckling bursts with long pauses are typical while establishing feeds."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the primary causative factor in most pediatric cases of Failure to Thrive (FTT) / faltering growth?",
+      "answer": "Inadequate caloric or nutritional intake (poor nutrition)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What historical term was used in the 1960s to describe non-organic Failure to Thrive?",
+      "answer": "Maternal deprivation syndrome (modern clinicians prefer 'faltering growth')."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What clinical management model is essential for managing Failure to Thrive in pediatric practice?",
+      "answer": "A multidisciplinary team approach combined with underlying etiology-directed treatment and nutritional therapy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the medical treatment for Strongyloidiasis or Cutaneous Larva Migrans?",
+      "answer": "Ivermectin ($200\\ \\mu\\text{g/kg}$ PO daily for 1-2 days) OR Albendazole ($400\\text{ mg}$ PO daily for 3 days)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What single oral dose of Albendazole is administered to treat worm infestations in children $> 2$ years old?",
+      "answer": "$400\\text{ mg}$ orally once."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What single oral dose of Albendazole is administered for worm infestations in children $< 2$ years old?",
+      "answer": "$200\\text{ mg}$ orally once."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Which two antihelminthic drugs are first-line choices for treating Ascariasis (roundworm)?",
+      "answer": "Albendazole or Mebendazole."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Which antihelminthic agent is indicated for the treatment of Enterobiasis (pinworm)?",
+      "answer": "Albendazole (or Mebendazole)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In pediatric management guidelines, is Mebendazole classified as the primary drug of choice for Hookworm?",
+      "answer": "False (Albendazole is preferred)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In the management of complicated malaria presenting with seizures, are anticonvulsants indicated?",
+      "answer": "True."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Are routine rapid boluses of IV fluids indicated in complicated malaria without gastroenteritis?",
+      "answer": "False (Fluid boluses carry high risks of cerebral and pulmonary edema)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What acute immune-complex syndrome presenting with fever, urticaria, and eosinophilia occurs in early Schistosomiasis?",
+      "answer": "Katayama syndrome."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Is Albendazole the treatment of choice for Schistosomiasis?",
+      "answer": "False (Praziquantel is the drug of choice for Schistosomiasis)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What potentially fatal complication occurs in immunocompromised patients with *Strongyloides stercoralis* infestation?",
+      "answer": "Hyperinfestation syndrome (disseminated strongyloidiasis)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In a 2-year-old child presenting with bloody dysenteric stools, what immediate diagnostic investigation should be requested?",
+      "answer": "Stool Routine Examination (Stool RE) and microscopy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What is the primary pharmacological objective of lactulose therapy in Hepatic Encephalopathy?",
+      "answer": "To acidify the colonic lumen, trapping serum ammonia as non-absorbable ammonium ($NH_4^+$) and enhancing its fecal excretion."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "In pediatric shock assessment, what pulse pressure value defines narrow pulse pressure?",
+      "answer": "Pulse pressure $\\le 20\\text{ mmHg}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What two physical findings on respiratory/abdominal exam indicate clinical plasma leakage in critical dengue?",
+      "answer": "Pleural effusion and ascites."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "How is pulse pressure mathematically calculated from blood pressure measurements?",
+      "answer": "$\\text{Pulse Pressure} = \\text{Systolic BP} - \\text{Diastolic BP}$"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What capillary refill time (CRT) threshold indicates delayed peripheral perfusion in a febrile child?",
+      "answer": "CRT $> 2$ seconds."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What haematological parameter serves as the earliest quantitative marker of intravascular plasma leakage in Dengue?",
+      "answer": "A rising Packed Cell Volume (PCV) / Hematocrit."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What primary rehydration approach is used during the initial 4 hours of WHO Treatment Plan B?",
+      "answer": "Oral Rehydration Solution (ORS) administered orally under supervision."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "If a child on WHO Plan B develops signs of severe dehydration upon reassessment, what step should be taken?",
+      "answer": "Switch immediately to WHO Treatment Plan C (Intravenous fluid therapy)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What bacterial pathogen causes Diphtheria, and what is its characteristic pharyngeal exam finding?",
+      "answer": "*Corynebacterium diphtheriae*, presenting with a grey-white adherent pseudomembrane over the tonsils and pharynx."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "Why should healthcare providers avoid forcefully scraping or detaching a diphtheritic pseudomembrane?",
+      "answer": "Forceful removal causes profuse bleeding and triggers rapid systemic absorption of deadly diphtheria exotoxin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What life-threatening upper respiratory complication occurs in severe pharyngeal diphtheria?",
+      "answer": "Acute upper airway obstruction secondary to extensive membrane extension and soft tissue neck edema ('bull neck')."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What systemic cardiovascular complication is caused by absorbed diphtheria exotoxin?",
+      "answer": "Acute diphtheritic myocarditis (leading to heart block, arrhythmias, and acute heart failure)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 4",
+      "question": "What urgent specific neutralization therapy is required upon clinical diagnosis of diphtheria?",
+      "answer": "Diphtheria Antitoxin (DAT) along with antibiotic therapy (Erythromycin or Penicillin G)."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."
