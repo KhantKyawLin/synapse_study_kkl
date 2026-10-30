@@ -10116,6 +10116,331 @@
       "answer": "Diphtheria Antitoxin (DAT) along with antibiotic therapy (Erythromycin or Penicillin G)."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the conventional definition of status epilepticus in children?",
+      "answer": "A prolonged seizure lasting >30 minutes, or recurrent seizures over a 30-minute period without recovery of consciousness between episodes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the operational working definition of status epilepticus that warrants immediate aggressive treatment?",
+      "answer": "Any seizure lasting >5 minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What are the two primary management goals when treating active status epilepticus?",
+      "answer": "1. Maintain vital functions while stopping the seizure.\n2. Identify and treat the underlying cause."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which common underlying systemic and metabolic causes should be investigated in pediatric status epilepticus?",
+      "answer": "CNS infection, encephalopathy, electrolyte disturbances (such as hyponatremia or hypernatremia), and underlying epilepsy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Under what specific clinical conditions is a lumbar puncture indicated during a seizure evaluation?",
+      "answer": "When there are no signs of raised intracranial pressure (ICP) and the child's Glasgow Coma Scale (GCS) score is >12."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "How should intravenous Lorazepam be diluted and administered for active pediatric seizures?",
+      "answer": "Dilute with an equal volume of 0.9% Sodium Chloride or Water for Injection, and administer slowly into a large vein at a rate not exceeding 50 mcg/kg over 3–5 minutes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the maximum allowed concentration and administration time limit for intravenous Diazepam infusion?",
+      "answer": "Dilute to a concentration of not more than 10 mg in 200 mL, with a maximum of 6 hours between addition and completion of administration."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What proportion of the pediatric population experiences febrile seizures?",
+      "answer": "2% to 4%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the prevalence of epilepsy in the pediatric population?",
+      "answer": "Approximately 1%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What percentage of individuals worldwide experience at least one seizure during their lifetime?",
+      "answer": "Up to 10%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the formal physiological definition of an epileptic seizure?",
+      "answer": "A transient occurrence of signs and/or symptoms due to abnormal excessive or synchronous neuronal activity in the brain."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Does a single isolated seizure satisfy the diagnostic criteria for epilepsy?",
+      "answer": "No; one seizure does not signify epilepsy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Is long-term anti-epileptic drug (AED) therapy indicated after a first acute symptomatic seizure provoked by an active CNS infection?",
+      "answer": "No; long-term AED treatment is generally not indicated for a single acute symptomatic seizure provoked by an active CNS infection."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What clinical feature differentiates Tuberculous Meningitis (TBM) onset from typical acute bacterial meningitis?",
+      "answer": "TBM typically presents with a subacute or chronic illness course (e.g., prolonged fever, weight loss, contact history) rather than an acute onset within 24 hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the immediate primary medical intervention for a child suspected of having acute bacterial meningitis?",
+      "answer": "Immediate initiation of empirical IV antibiotic therapy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which neurological presentations in an acutely unwell child require empirical intravenous Aciclovir therapy?",
+      "answer": "Acute encephalopathy or focal seizures."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Does a negative cerebrospinal fluid HSV PCR result completely exclude Herpes Simplex Virus (HSV) encephalitis in a child?",
+      "answer": "No; a negative HSV PCR result should not be taken to mean the child does not have HSV encephalitis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Can oral aciclovir be substituted if intravenous aciclovir is unavailable for treating HSV encephalitis?",
+      "answer": "No; oral aciclovir is not effective for HSV encephalitis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the required duration of intravenous aciclovir therapy when HSV encephalitis is proven or strongly suspected?",
+      "answer": "3 full weeks of continuous intravenous administration."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What defines Cerebral Palsy?",
+      "answer": "An early-onset, non-progressive motor impairment accompanied by abnormal muscle tone and postural control."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the strict age limit for applying the diagnosis of Global Developmental Delay (GDD)?",
+      "answer": "The term is reserved exclusively for children under 5 years of age."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What functional criteria must be met to diagnose Global Developmental Delay?",
+      "answer": "Significant delay in two or more developmental streams as measured by appropriate standardized screening tests."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "How is Isolated Gross Motor Delay defined?",
+      "answer": "Significant delay in fine or gross motor skills with no impairment in any other developmental domains."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What characterizes Developmental Language Disorders?",
+      "answer": "Significant delay in receptive and/or expressive language skills with no delay in other developmental domains."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which head circumference measurement thresholds warrant urgent specialist developmental referral?",
+      "answer": "A head circumference above the 99.6th centile or below the 0.4th centile."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What trajectory change in head circumference growth charts mandates urgent medical evaluation?",
+      "answer": "Crossing two or more centile lines (either upward or downward) on the appropriate growth chart."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which physical examination motor findings raise strong clinical suspicion of Cerebral Palsy?",
+      "answer": "Asymmetry of movements or abnormal alterations in muscle tone (such as hypertonia)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which persistent gait pattern abnormality requires referral for developmental assessment?",
+      "answer": "Persistent toe walking"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What are the key differential diagnoses to consider when evaluating a pediatric patient with an acute limp and hip pain?",
+      "answer": "Transient Synovitis, Perthes disease, and Slipped Upper Femoral Epiphysis (SUFE)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What underlying pathophysiological event triggers Perthes disease?",
+      "answer": "Infarction leading to avascular necrosis of the capital femoral epiphysis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the male-to-female incidence ratio in Perthes disease?",
+      "answer": "4:1 (predominantly affecting boys)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What percentage of Perthes disease cases present with bilateral hip involvement?",
+      "answer": "10% of cases"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the standard conservative management for Transient Synovitis (Irritable Hip)?",
+      "answer": "Bed rest and simple oral analgesia."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which laboratory tests are essential when performing an initial diagnostic workup for a limping child?",
+      "answer": "Full blood count (FBC), C-reactive protein (CRP), and blood culture."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which imaging studies are recommended to differentiate causes of pediatric hip pain?",
+      "answer": "Plain X-rays (AP and lateral views) and ultrasound of the hip."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the recommended timeframe for referring a child with suspected Juvenile Idiopathic Arthritis (JIA) to a pediatric rheumatology team?",
+      "answer": "Within 6 weeks of symptom onset."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Once a referral for suspected JIA is received, within what timeframe must the specialist pediatric rheumatology team evaluate the child?",
+      "answer": "Within 4 weeks of receiving the referral."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Why is rapid diagnosis and early intervention critical in Juvenile Idiopathic Arthritis (JIA) management?",
+      "answer": "Delay in diagnosis leads to delayed detection and treatment of chronic Anterior Uveitis, which can cause permanent vision damage."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Over what timeframe are intra-articular steroid injections (such as Triamcinolone hexacetonide) absorbed from the injection site?",
+      "answer": "Over 2 to 3 weeks."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the recommended dosage of Triamcinolone Hexacetonide (THA) for large joints in children weighing less than 20 kg?",
+      "answer": "20 mg of THA"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the recommended dosage of Triamcinolone Hexacetonide (THA) for large joints (hips, knees, shoulders) in children weighing more than 20 kg?",
+      "answer": "30 mg to 40 mg of THA"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What dose of Triamcinolone Hexacetonide (THA) is indicated for smaller joints (wrist, midtarsal, subtalar)?",
+      "answer": "10 mg"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the maximum allowed frequency for repeated intra-articular steroid injections into the same joint per year?",
+      "answer": "Not more than 3 times per year per joint."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What activity restriction is recommended following an intra-articular steroid injection in a pediatric joint?",
+      "answer": "Limit ambulation and strenuous physical activity for the first 24 hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the standard weekly dosage and co-prescribed supplementation for Methotrexate (MTX) in pediatric rheumatology?",
+      "answer": "10–15 mg/m² administered once weekly (orally or subcutaneously) alongside folic acid or folinic acid."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the expected timeframe to observe clinical improvement after starting Methotrexate?",
+      "answer": "6 to 12 weeks"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Once a patient on Methotrexate becomes clinically stable, how frequently should routine laboratory monitoring (CBC, LFTs) be performed?",
+      "answer": "Every 12 weeks"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What key systemic contraindication exists for Methotrexate therapy?",
+      "answer": "Pregnancy (due to severe teratogenicity)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "How is the blood pressure cuff inflation level calculated when performing the Hess (tourniquet) test?",
+      "answer": "Inflate the cuff to a pressure midway between systolic and diastolic blood pressure, calculated as $\\frac{\\text{SBP} + \\text{DBP}}{2}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "How long must blood pressure cuff inflation be maintained during the Hess test?",
+      "answer": "5 minutes"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What petechiae count in a 1-inch square area constitutes a positive Hess test result?",
+      "answer": ">20 petechiae per square inch (with $\\ge 10$ also currently accepted as positive)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What are the pooled diagnostic sensitivity and specificity of the Hess test for dengue?",
+      "answer": "Sensitivity: 58%\nSpecificity: 71%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What fever duration threshold classifies an infection as acute fever in dengue screening?",
+      "answer": "Acute fever lasting <7 days."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which major clinical warning signs signal potential progression to severe dengue?",
+      "answer": "Abdominal pain/tenderness, persistent vomiting, clinical fluid accumulation, mucosal bleeding, lethargy or restlessness, liver enlargement >2 cm, and an increase in HCT concurrent with a rapid decrease in platelet count."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What are the three major clinical features that define Severe Dengue?",
+      "answer": "1. Severe plasma leakage (leading to shock or fluid accumulation with respiratory distress).\n2. Severe hemorrhage.\n3. Severe organ impairment."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What serum liver transaminase level criteria indicates severe hepatic involvement in dengue?",
+      "answer": "AST or ALT $\\ge 1000\\text{ U/L}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What criteria qualify a child with dengue for outpatient management under Group A?",
+      "answer": "Dengue without warning signs, absence of coexisting medical conditions or social risks, and ability to tolerate adequate oral hydration."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the recommended antipyretic agent and dosing schedule for pediatric dengue fever?",
+      "answer": "Paracetamol at 10 mg/kg per dose, given every 6 hours as needed."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Which analgesics are strictly avoided in dengue management due to bleeding risk?",
+      "answer": "Nonsteroidal anti-inflammatory drugs (NSAIDs) such as Ibuprofen, and Aspirin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What specific IV fluid composition recommendation applies to critical phase dengue resuscitation in infants under 6 months of age?",
+      "answer": "Consider half-strength saline, whereas isotonic fluids are used for infants aged 6 months and older."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "During which phase of dengue fever is Dengue NS1 antigen testing most sensitive?",
+      "answer": "During the first 2 days of fever (sensitivity 40%–70%)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What is the diagnostic sensitivity of Dengue IgG/IgM serology on the day following defervescence or shock?",
+      "answer": "100%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "Why is the Dengue Duo test (NS1 Ag + IgM/IgG) recommended from day 4 of illness onwards?",
+      "answer": "Combining antigen detection with serology increases overall diagnostic sensitivity to >90%."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What target minimum urine output must be maintained during fluid monitoring in dengue with warning signs?",
+      "answer": ">0.5 mL/kg/hour"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "What pulse pressure value indicates narrow pulse pressure associated with dengue shock?",
+      "answer": "Pulse pressure $\\le 20\\text{ mmHg}$."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."

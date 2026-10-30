@@ -7735,6 +7735,428 @@
       "explanation": "Breast milk contains secretory IgA, lactoferrin, and lysozyme that confer passive mucosal immunity against diarrheal and respiratory infections."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 5": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 3-year-old girl is brought to the emergency department with high fever, vomiting, and severe lethargy for 18 hours. On examination, she is febrile (39.2°C) with neck stiffness and a positive Kernig's sign. Lumbar puncture reveals cloudy CSF with 1,800 WBCs/µL (88% PMNs), protein 2.4 g/L, and CSF glucose 1.1 mmol/L (simultaneous blood glucose 5.5 mmol/L). Which of the following is the most appropriate initial parenteral antimicrobial regimen?",
+      "options": [
+        "Oral Amoxicillin for 10 days",
+        "IV Ceftriaxone (or Cefotaxime) plus IV Vancomycin (plus Dexamethasone)",
+        "IV Oral Acyclovir monotherapy",
+        "Oral Chloramphenicol only",
+        "IV Gentamicin monotherapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Bacterial Meningitis beyond the neonatal period (>1 month) is most commonly caused by Streptococcus pneumoniae and Neisseria meningitidis. Empirical treatment requires high-dose parenteral 3rd generation cephalosporin (Ceftriaxone 100 mg/kg/day or Cefotaxime) plus Vancomycin (to cover penicillin-resistant pneumococci). IV Dexamethasone administered before or with the first antibiotic dose reduces hearing loss and neurological sequelae in S. pneumoniae and Hib meningitis."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 4-year-old boy presents with a 3-week history of low-grade fever, anorexia, progressive apathy, and intermittent headaches. Over the past 2 days, he developed right-sided ptosis, an inability to adduct his right eye, and mild neck stiffness. Lumbar puncture CSF analysis shows: WBC 220/µL (85% lymphocytes), protein 3.2 g/L, and CSF-to-blood glucose ratio 0.22. Chest radiograph demonstrates hilar lymphadenopathy. What is the most likely diagnosis?",
+      "options": [
+        "Viral Aseptic Meningitis",
+        "Tuberculous Meningitis (TBM)",
+        "Pyogenic Pneumococcal Meningitis",
+        "Cryptococcal Meningitis",
+        "Acute Disseminated Encephalomyelitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuberculous Meningitis (TBM) typically presents subacutely with a prodrome of fever, apathy, and weight loss, followed by signs of basilar meningeal exudates causing cranial nerve palsies (CN III, VI, VII). Typical CSF findings include lymphocytic pleocytosis, markedly elevated protein (1.0–5.0 g/L), and severe hypoglycorrhachia (CSF:blood glucose <0.3). Chest X-ray abnormalities (hilar adenopathy or miliary pattern) support the diagnosis."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 2-year-old previously healthy boy experiences a single generalized tonic-clonic seizure lasting 4 minutes during a rapid rise in body temperature to 39.5°C secondary to acute otitis media. Following the seizure, he returns to normal alertness within 15 minutes. Neurological examination is unremarkable. Which of the following best categorizes this seizure?",
+      "options": [
+        "Complex Febrile Seizure",
+        "Simple Febrile Seizure",
+        "Status Epilepticus",
+        "Absence Seizure",
+        "Structural Focal Epilepsy"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Simple Febrile Seizure is defined as a primary generalized tonic-clonic seizure occurring in a child aged 6 to 60 months associated with a fever, lasting less than 15 minutes, and not recurring within a 24-hour period, with full post-ictal neurological recovery."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 3-year-old girl is brought to the resuscitation room actively seizing with continuous generalized clonic movements. Her parents state the seizure started 12 minutes ago at home. Airway is maintained with high-flow oxygen, and blood glucose is 5.2 mmol/L. Vascular access has just been established. What is the immediate first-line pharmacological treatment of choice?",
+      "options": [
+        "IV Phenobarbital 20 mg/kg",
+        "IV Lorazepam 0.1 mg/kg (or IV Diazepam / Buccal Midazolam)",
+        "Oral Carbamazepine",
+        "IV Continuous Propofol Infusion",
+        "IV Levacetam loading dose after 60 minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "For Convulsive Status Epilepticus (seizure lasting >5 minutes), the immediate first-line emergency therapy is a rapid-acting parenteral Benzodiazepine: IV Lorazepam (0.1 mg/kg) or IV Diazepam (0.2 mg/kg), or Buccal Midazolam (0.5 mg/kg) if IV access is delayed."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "An 8-year-old boy presents with acute high fever, severe behavioral disturbance, altered mental status, and focal complex partial seizures. CSF analysis reveals 45 WBCs/µL (lymphocytic predominance), elevated protein, normal glucose, and 85 RBCs/µL without traumatic tap. Brain MRI demonstrates localized hyperintensity and hemorrhagic necrosis within the temporal lobes. What is the definitive treatment of choice?",
+      "options": [
+        "Oral Prednisolone",
+        "Intravenous Acyclovir (10 mg/kg 8-hourly for 14–21 days)",
+        "IV Ceftriaxone",
+        "IV Vancomycin",
+        "Supportive Care without antiviral therapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herpes Simplex Virus (HSV-1) Encephalitis causes necrotizing temporal lobe encephalitis in children, presenting with fever, altered consciousness, focal seizures, and CSF red blood cells. Immediate empirical IV Acyclovir (10 mg/kg 8-hourly for 14–21 days) is mandatory to prevent severe neurological sequelae and mortality."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "During a rural health outbreak in Southeast Asia, a 6-year-old boy presents with high fever, headache, vomiting, progressive stupor, and prominent extrapyramidal tremors with mask-like facies. Vector history confirms heavy exposure to Culex mosquitoes in pig-farming areas. What is the most likely viral etiology?",
+      "options": [
+        "Rabies Virus",
+        "Japanese Encephalitis (JE) Virus",
+        "Dengue Virus Type 4",
+        "Enterovirus 71",
+        "Influenza A Virus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Japanese Encephalitis (JE) is a mosquito-borne flavivirus infection transmitted by Culex mosquitoes (amplifying hosts: pigs/wading birds). It classically targets the basal ganglia and thalamus, producing encephalitis with Parkinsonian extrapyramidal signs (mask-like facies, tremors, rigidity)."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 5-year-old child admitted with viral encephalitis develops acute signs of severely raised intracranial pressure (ICP): bradycardia, marked hypertension, and irregular breathing. What classic physiological triad does this represent?",
+      "options": [
+        "Virchow's Triad",
+        "Cushing's Triad",
+        "Beck's Triad",
+        "Charcot's Triad",
+        "Whipple's Triad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cushing's Triad consists of hypertension (with widening pulse pressure), bradycardia, and respiratory irregularity/bradypnea. It is a critical late sign of life-threatening raised intracranial pressure and impending brainstem herniation."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 4-year-old boy born at 30 weeks gestation with periventricular leukomalacia (PVL) is evaluated for motor delay. On examination, he exhibits bilateral lower limb hypertonia, exaggerated knee and ankle reflexes, bilateral ankle clonus, and a scissoring gait when supported. His upper extremity strength and fine motor skills are relatively preserved. What is the diagnosis?",
+      "options": [
+        "Dyskinetic Cerebral Palsy",
+        "Spastic Diplegic Cerebral Palsy",
+        "Ataxic Cerebral Palsy",
+        "Duchenne Muscular Dystrophy",
+        "Spinal Muscular Atrophy Type 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spastic Diplegic Cerebral Palsy is highly associated with prematurity and periventricular leukomalacia (PVL). It characteristically affects both lower extremities far more severely than the upper extremities, presenting with spasticity, hyperreflexia, ankle clonus, and a classic scissoring gait."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 3-year-old boy presents with a 2-day history of a left-sided limp and refusal to bear weight. He had a mild viral upper respiratory infection 1 week ago. On exam, he is afebrile (37.1°C), well-appearing, with mild limitation of left hip internal rotation and abduction. Blood tests show WBC 7.2 × 10^9/L, ESR 12 mm/h, and CRP 4 mg/L. Hip ultrasound shows a small joint effusion. What is the most likely diagnosis?",
+      "options": [
+        "Septic Arthritis of the Left Hip",
+        "Transient Synovitis (Toxic Synovitis) of the Hip",
+        "Legg-Calvé-Perthes Disease",
+        "Slipped Capital Femoral Epiphysis (SCFE)",
+        "Osteosarcoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transient Synovitis (toxic synovitis) is the most common cause of acute hip pain/limp in young children (ages 3–8). It frequently follows a viral URTI, presents with mild pain and afebrile/low-grade state, normal or minimally elevated inflammatory markers (distinguishing it from Septic Arthritis via Kocher criteria), and resolves spontaneously with rest and NSAIDs."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 6-year-old boy is brought to the clinic due to an acute severe right hip pain and complete inability to bear weight. He appears ill with a fever of 38.9°C. On exam, his right hip is held in flexion, abduction, and external rotation; any passive movement causes intense pain. Blood work: WBC 16.5 × 10^9/L, ESR 55 mm/h, CRP 48 mg/L. What is the urgent management priority?",
+      "options": [
+        "Outpatient reassurance and oral Ibuprofen",
+        "Urgent joint aspiration / arthrotomy and IV Antibiotics for Septic Arthritis",
+        "Immediate hip spica cast application",
+        "Strict bed rest for 6 weeks at home",
+        "Oral Prednisolone for 5 days"
+      ],
+      "correctIndex": 1,
+      "explanation": "Septic Arthritis of the hip is an orthopaedic emergency. Fulfilling Kocher criteria (fever >38.5°C, non-weight bearing, ESR >40, WBC >12,000) yields a >93% probability of septic arthritis. Immediate ultrasound-guided joint aspiration, surgical drainage/decompression, and parenteral antibiotics are mandatory to prevent avascular necrosis of the femoral head."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "An 11-year-old overweight boy presents with a 4-week history of dull, aching right knee and thigh pain accompanied by a painful limp. Examination reveals that when the right hip is passively flexed, it automatically rotates externally. X-rays of the pelvis show displacement of the femoral head relative to the femoral neck along Klein's line. What is the diagnosis?",
+      "options": [
+        "Transient Synovitis",
+        "Slipped Capital Femoral Epiphysis (SCFE)",
+        "Legg-Calvé-Perthes Disease",
+        "Osgood-Schlatter Disease",
+        "Juvenile Idiopathic Arthritis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slipped Capital Femoral Epiphysis (SCFE) classically affects obese adolescent boys (ages 10–16). It often presents as referred knee or thigh pain with a limp and obligatory external rotation during hip flexion. AP and frog-leg lateral radiographs show slippage of the epiphysis (failure of Trethowan's sign / Klein's line)."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 6-year-old boy develops a prominent non-blanching purpuric skin rash concentrated over his buttocks, extensor surfaces of the lower legs, and ankles. Platelet count is normal (280 × 10^9/L). He also complains of bilateral knee swelling, colicky abdominal pain, and dipstick hematuria. What is the underlying pathophysiology of this disorder?",
+      "options": [
+        "Anti-platelet autoantibody destruction",
+        "Systemic IgA vasculitis (Henoch-Schönlein Purpura)",
+        "Group A Streptococcal toxin-mediated capillary leak",
+        "Inherited Factor VIII deficiency",
+        "Vitamin C deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Henoch-Schönlein Purpura (HSP / IgA Vasculitis) is a small-vessel IgA immune-complex vasculitis presenting with non-thrombocytopenic palpable purpura (buttocks/lower limbs), arthralgia/arthritis, colicky abdominal pain (risk of intussusception), and IgA nephropathy (hematuria/proteinuria)."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 4-year-old girl is evaluated for swelling, stiffness, and warmth in her left knee and right ankle lasting for 8 weeks. She has no fever or skin rash. Blood tests reveal negative rheumatoid factor, elevated ESR (32 mm/h), and positive Antinuclear Antibodies (ANA). What ophthalmological complication is she at high risk for, requiring urgent routine slit-lamp screening?",
+      "options": [
+        "Congenital Cataracts",
+        "Asymptomatic Anterior Uveitis",
+        "Optic Neuritis",
+        "Retinal Detachment",
+        "Glaucoma without inflammation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oligoarticular Juvenile Idiopathic Arthritis (JIA) affects <5 joints in young girls and is strongly associated with positive ANA. ANA-positive oligoarticular JIA carries a high risk of chronic asymptomatic anterior uveitis, which can lead to blindness if not detected early via routine slit-lamp examination."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 5-year-old boy presents with a 3-week history of daily high spiking fevers up to 39.8°C that return to baseline daily (quotidian fever), accompanied by an evanescent salmon-pink macular skin rash during fever spikes, generalized lymphadenopathy, and hepatosplenomegaly. Lab work shows WBC 24 × 10^9/L, ferritin 2,800 µg/L, and negative ANA/RF. What is the diagnosis?",
+      "options": [
+        "Oligoarticular JIA",
+        "Systemic Juvenile Idiopathic Arthritis (sJIA / Still's Disease)",
+        "Acute Rheumatic Fever",
+        "Kawasaki Disease",
+        "Polyarticular JIA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Systemic JIA (sJIA / Still's disease) is characterized by quotidian high fever (spiking daily), an evanescent salmon-pink macular rash coinciding with fever, polyserositis, lymphadenopathy, hepatosplenomegaly, extreme leukocytosis, and markedly elevated serum ferritin."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 7-month-old infant presents with developmental delay, loss of previously acquired head control, and sudden repetitive flexor spasms of the neck, trunk, and limbs occurring in clusters upon awakening. Electroencephalogram (EEG) demonstrates a chaotic, high-voltage, disorganized rhythm with multifocal spikes. What is this EEG pattern called?",
+      "options": [
+        "3 Hz Spike-and-Wave",
+        "Hypsarrhythmia",
+        "Burst Suppression",
+        "Generalized Polyspike-and-Wave",
+        "Continuous Slow Wave Sleep"
+      ],
+      "correctIndex": 1,
+      "explanation": "West Syndrome (Infantile Spasms) is characterized by the triad of: (1) epileptic spasms in clusters, (2) developmental arrest/regression, and (3) Hypsarrhythmia on EEG (chaotic, high-voltage, disorganized background with multifocal spikes). First-line therapy is ACTH or Vigabatrin."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "An 8-year-old girl is noted by her teacher to have frequent 5- to 10-second episodes of sudden unresponsiveness and vacant staring while in class, occurring up to 30 times a day. She resumes activity immediately without post-ictal confusion. EEG shows generalized 3 Hz spike-and-wave discharges. What is the first-line medical therapy?",
+      "options": [
+        "Phenytoin",
+        "Ethosuximide (or Sodium Valproate)",
+        "Carbamazepine",
+        "Phenobarbital",
+        "Diazepam"
+      ],
+      "correctIndex": 1,
+      "explanation": "Childhood Absence Epilepsy presents with brief (5–10 second) vacant stares with immediate recovery and classic 3 Hz generalized spike-and-wave discharges on EEG. Ethosuximide (or Sodium Valproate) is the first-line medical treatment of choice."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 10-year-old boy develops rapidly progressive, symmetrical bilateral lower limb weakness and numbness 2 weeks after recovering from a diarrheal illness caused by Campylobacter jejuni. On exam, he has flaccid weakness in both legs with absent deep tendon reflexes (areflexia). Lumbar puncture shows CSF protein 1.8 g/L with only 3 WBCs/µL (albuminocytologic dissociation). What is the diagnosis?",
+      "options": [
+        "Acute Poliomyelitis",
+        "Guillain-Barré Syndrome (GBS / AIDP)",
+        "Transverse Myelitis",
+        "Duchenne Muscular Dystrophy",
+        "Myasthenia Gravis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guillain-Barré Syndrome (GBS / Acute Inflammatory Demyelinating Polyneuropathy) classically presents 1–3 weeks post-infection (e.g., C. jejuni) with ascending flaccid paralysis and generalized areflexia. CSF demonstrates albuminocytologic dissociation (marked high protein with normal cell count)."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 4-year-old boy presents with progressive difficulty standing from a sitting position on the floor. To stand, he uses his hands to 'walk' up his legs and thighs. He also exhibits bilateral calf enlargement due to pseudohypertrophy. Serum Creatine Kinase (CK) is 18,500 U/L. What is the mode of genetic inheritance of this condition?",
+      "options": [
+        "Autosomal Recessive",
+        "X-Linked Recessive",
+        "Autosomal Dominant",
+        "Mitochondrial Inheritance",
+        "X-Linked Dominant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duchenne Muscular Dystrophy (DMD) is an X-linked recessive disorder caused by mutations in the dystrophin gene. It presents in young boys with proximal muscle weakness, Gowers' sign (walking hands up legs to stand), calf pseudohypertrophy, and massively elevated serum CK (>10,000 U/L)."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 5-year-old girl presents with acute onset of unstable gait, frequent falling, and intention tremor 10 days after recovering from Chickenpox (Varicella zoster). Neurological exam demonstrates truncal ataxia and dysmetria, but no fever, neck stiffness, or altered sensorium. CSF is normal. What is the expected clinical course?",
+      "options": [
+        "Rapid progression to permanent quadriplegia",
+        "Spontaneous complete recovery within several weeks (Acute Cerebellar Ataxia)",
+        "Lifelong anticonvulsant dependency",
+        "Immediate neurosurgical shunt requirement",
+        "Fatal respiratory failure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Post-Infectious Cerebellar Ataxia is a benign self-limiting autoimmune condition occurring 1–3 weeks after a viral infection (classically Varicella). It presents with acute gait ataxia and intention tremor without focal neurological deficits, and resolves spontaneously within 2–8 weeks."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 7-year-old boy with Sickle Cell Anemia presents with acute high fever, severe pain, and localized swelling over his left tibia. Blood cultures and bone aspirate grow Gram-negative bacilli. Which organism is particularly associated with osteomyelitis in patients with Sickle Cell Disease?",
+      "options": [
+        "Streptococcus pneumoniae",
+        "Salmonella species (and Staphylococcus aureus)",
+        "Pseudomonas aeruginosa",
+        "Haemophilus influenzae",
+        "Group B Streptococcus"
+      ],
+      "correctIndex": 1,
+      "explanation": "While Staphylococcus aureus is the most common cause of acute hematogenous osteomyelitis in the general pediatric population, Salmonella species are uniquely associated with osteomyelitis in children with Sickle Cell Disease."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 9-year-old girl presents with progressive proximal muscle weakness (difficulty climbing stairs and brushing hair), accompanied by a dusky heliotrope rash over her upper eyelids and erythematous hyperkeratotic papules over the PIP and MCP joints (Gottron's papules). Muscle enzymes (CK, LDH) are markedly elevated. What is the diagnosis?",
+      "options": [
+        "Juvenile Dermatomyositis (JDM)",
+        "Systemic Lupus Erythematosus",
+        "Juvenile Idiopathic Arthritis",
+        "Scleroderma",
+        "Acute Rheumatic Fever"
+      ],
+      "correctIndex": 0,
+      "explanation": "Juvenile Dermatomyositis (JDM) is a pediatric systemic autoimmune vasculopathy characterized by symmetric proximal muscle weakness, classic heliotrope rash (periorbital purple edema), Gottron's papules over knuckles, and elevated muscle enzymes (CK, LDH, AST)."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 15-year-old adolescent girl presents with painful, tender erythematous subcutaneous nodules over her anterior pretibial shins. She has a history of sore throat 2 weeks ago. Throat swab confirms Group A Streptococcal pharyngitis. What is this dermatological physical sign called?",
+      "options": [
+        "Erythema Marginatum",
+        "Erythema Nodosum",
+        "Erythema Multiforme",
+        "Subcutaneous Nodules of ARF",
+        "Malar Rash"
+      ],
+      "correctIndex": 1,
+      "explanation": "Erythema Nodosum consists of painful, tender, erythematous subcutaneous nodules located typically over the pretibial surfaces. Primary causes in children include Group A Streptococcal infection, Tuberculosis, Sarcoidosis, and Inflammatory Bowel Disease."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "An 8-year-old boy presents with acute right facial weakness, inability to close his right eye, and sagging of the right corner of his mouth. On examination, forehead wrinkling is absent on the right side. All other cranial nerves and motor systemic exams are normal. What anatomical structure is involved?",
+      "options": [
+        "Left Motor Cortex (UMN lesion)",
+        "Right Facial Nerve (CN VII Lower Motor Neuron lesion / Bell's Palsy)",
+        "Right Trigeminal Nerve (CN V)",
+        "Left Internal Capsule",
+        "Cerebellar Vermis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bell's Palsy (idiopathic LMN facial nerve palsy) causes weakness of all facial muscles on the affected side, including the upper face (loss of right forehead wrinkling and inability to close right eye). UMN lesions spare the upper forehead due to bilateral cortical innervation."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 12-year-old girl with a history of epilepsy experiences sudden myoclonic jerks of her arms upon awakening in the morning, often dropping her breakfast cup. She had a single generalized tonic-clonic seizure last night after sleep deprivation. EEG shows 4–6 Hz bilateral polyspike-and-wave discharges. What is the diagnosis?",
+      "options": [
+        "Childhood Absence Epilepsy",
+        "Juvenile Myoclonic Epilepsy (JME)",
+        "Lennox-Gastaut Syndrome",
+        "Benign Rolandic Epilepsy",
+        "Temporal Lobe Epilepsy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Juvenile Myoclonic Epilepsy (JME) presents in teenagers with myoclonic jerks occurring predominantly shortly after awakening, generalized tonic-clonic seizures, and 4–6 Hz polyspike-and-wave EEG discharges. Sodium Valproate or Levetiracetam provides effective long-term control."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 1-year-old infant presents with progressive head enlargement, bulging anterior fontanelle, and 'setting-sun' eye sign (downward deviation of gaze). Head circumference has crossed from the 50th to above the 97th percentile. CT scan shows severe dilatation of the lateral and third ventricles with a normal fourth ventricle. Where is the anatomical site of obstruction?",
+      "options": [
+        "Foramen of Monro",
+        "Aqueduct of Sylvius (Cerebral Aqueduct Stenosis)",
+        "Foramen of Luschka",
+        "Arachnoid Villi",
+        "Cisterna Magna"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aqueductal Stenosis (narrowing of the Aqueduct of Sylvius connecting the 3rd and 4th ventricles) causes non-communicating hydrocephalus characterized by dilation of the lateral and 3rd ventricles with a normal non-dilated 4th ventricle."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 4-year-old boy with a ventriculoperitoneal (VP) shunt placed in infancy presents with headache, persistent vomiting, irritability, and lethargy for 24 hours. His temperature is 37.2°C. On exam, he has mild papilledema. What is the most critical immediate diagnostic concern?",
+      "options": [
+        "Viral Gastroenteritis",
+        "VP Shunt Malfunction / Obstruction causing Raised ICP",
+        "Acute Otitis Media",
+        "Febrile Seizure",
+        "Migraine Headache"
+      ],
+      "correctIndex": 1,
+      "explanation": "In any child with a VP shunt presenting with acute headache, vomiting, lethargy, or papilledema, VP shunt malfunction/obstruction resulting in acute raised ICP must be assumed and urgently evaluated via CT head and neurosurgical consultation."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 6-year-old boy presents with acute onset of high fever, petechial skin rash progressing rapidly to ecchymoses and purpura fulminans, profound hypotension, and DIC. Blood cultures confirm Neisseria meningitidis. Which life-threatening adrenal complication is associated with fulminant meningococcemia?",
+      "options": [
+        "Addisonian Autoimmune Crisis",
+        "Waterhouse-Friderichsen Syndrome (Bilateral Adrenal Hemorrhage)",
+        "Cushing Syndrome",
+        "Pheochromocytoma",
+        "Congenital Adrenal Hyperplasia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Waterhouse-Friderichsen Syndrome is catastrophic bilateral adrenal gland hemorrhage secondary to severe fulminant meningococcemia (Neisseria meningitidis), resulting in acute adrenal crisis, profound shock, and high mortality."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 5-year-old child presents with fever, sore throat, and a stiff neck. You consider performing a diagnostic Lumbar Puncture (LP). Which of the following clinical findings is a strict CONTRAINDICATION to performing an immediate LP?",
+      "options": [
+        "Absence of papilledema",
+        "Focal neurological signs (e.g., left-sided hemiparesis) or GCS <13",
+        "Mild fever of 38.2°C",
+        "Normal bleeding parameters",
+        "Maculopapular rash on trunk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strict contraindications to Lumbar Puncture include: focal neurological signs, reduced level of consciousness (GCS <13), papilledema, severe clinical shock/respiratory compromise, or local infection at the LP site, due to the fatal risk of brain herniation."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 7-year-old child presents with a 5-day history of migratory pain and swelling involving the knees, ankles, and wrists. Two weeks ago, he had a sore throat. Exam reveals a new apical pansystolic murmur radiating to the axilla. Blood work shows ESR 75 mm/h and ASO titer 600 IU/mL. According to the Revised Jones Criteria, how is Acute Rheumatic Fever diagnosed in this patient?",
+      "options": [
+        "1 Major criterion alone",
+        "2 Major criteria (Carditis + Polyarthritis) PLUS evidence of preceding Streptococcal infection",
+        "3 Minor criteria without Streptococcal evidence",
+        "Presence of subcutaneous nodules only",
+        "Positive throat culture alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diagnosis of initial Acute Rheumatic Fever requires 2 Major criteria (or 1 Major + 2 Minor criteria) PLUS documented evidence of preceding Group A Streptococcal infection (elevated ASO titer or positive throat culture/antigen test). Here, Carditis + Polyarthritis = 2 Major criteria."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 5",
+      "question": "A 10-year-old child is brought to the ED following a motor vehicle collision. He was an unrestrained passenger. On arrival, his GCS is 14, but he has a 2-cm scalp hematoma and had two episodes of vomiting. According to PECARN neuroimaging guidelines for children ≥2 years, what is the appropriate management?",
+      "options": [
+        "Immediate discharge without observation",
+        "CT head scan or observation based on clinical judgment / worsening signs",
+        "Mandatory MRI brain under anesthesia",
+        "Skull X-rays only",
+        "Immediate Lumbar Puncture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under PECARN head trauma guidelines for children ≥2 years, patients with minor head trauma, scalp hematoma, or vomiting without GCS <14 or signs of basilar skull fracture are at intermediate risk for CiTBI; clinical observation vs. non-contrast CT head is guided by physician judgment and symptom progression."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,
