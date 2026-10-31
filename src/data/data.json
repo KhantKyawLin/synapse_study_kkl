@@ -10441,6 +10441,381 @@
       "answer": "Pulse pressure $\\le 20\\text{ mmHg}$."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What are the characteristic light microscopy findings in Minimal Change Nephrotic Syndrome (MCNS)?",
+      "answer": "Normal glomeruli or a minimal increase in mesangial cells and matrix."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the key electron microscopy feature of Minimal Change Nephrotic Syndrome (MCNS)?",
+      "answer": "Diffuse effacement of the epithelial cell foot processes."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What immunofluorescence pattern is typical for Minimal Change Nephrotic Syndrome (MCNS)?",
+      "answer": "Typically negative for immune complex deposition."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What proportion of children with Minimal Change Nephrotic Syndrome respond well to corticosteroid therapy?",
+      "answer": "More than 90% of children."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which two clinical signs are classically absent in typical Minimal Change Nephrotic Syndrome?",
+      "answer": "Hypertension and gross hematuria."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "In what percentage of Minimal Change Nephrotic Syndrome cases can microscopic hematuria be observed?",
+      "answer": "Approximately 20% of cases."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which patient factors or clinical findings suggest a nephrotic syndrome diagnosis other than MCNS?",
+      "answer": "Age under 1 year, positive family history, extrarenal signs (rash, arthritis, anemia), hypertension, gross hematuria, or renal insufficiency."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the underlying etiology of Post-Streptococcal Glomerulonephritis (PSGN)?",
+      "answer": "Prior infection with nephritogenic strains of Group A beta-haemolytic streptococcus."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the peak pediatric age group for Post-Streptococcal Glomerulonephritis?",
+      "answer": "Children 5 to 12 years of age."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What clinical manifestations constitute the classic presentation of acute glomerulonephritis?",
+      "answer": "Preceding streptococcal infection, haematuria, edema, hypertension, and renal insufficiency (oliguria, raised creatinine)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is renal biopsy NOT routinely performed when Post-Streptococcal Glomerulonephritis is suspected?",
+      "answer": "The diagnosis is primarily clinical; biopsy is reserved for atypical presentations or failure to recover as expected."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is prednisolone contraindicated in the standard management of Post-Streptococcal Glomerulonephritis?",
+      "answer": "PSGN management is strictly supportive (fluid restriction, diuretics, antihypertensives); corticosteroid therapy is indicated for nephrotic syndrome, not PSGN."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What mechanism causes blunting of costophrenic angles on plain chest radiograph in acute glomerulonephritis?",
+      "answer": "Sodium and water retention lead to fluid overload, resulting in pleural effusions."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "4-panel kidney biopsy findings in poststreptococcal glomerulonephritis In panel D of these kidney biopsy findings, what characteristic electron microscopy structure is demonstrated?",
+      "answer": "Subepithelial electron-dense deposits, commonly known as subepithelial humps."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What immunofluorescence findings are seen on renal biopsy in poststreptococcal glomerulonephritis?",
+      "answer": "Bright granular capillary wall staining for complement C3 and IgG."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What bacterial pathogen causes 80% to 90% of pediatric urinary tract infections?",
+      "answer": "Escherichia coli."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Outside the neonatal period, what is the predominant female-to-male ratio for urinary tract infections?",
+      "answer": "2:1 (females to males)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Through what route do pathogens typically reach the kidneys in pediatric UTI after the neonatal period?",
+      "answer": "Ascending spread of infection from the lower urinary tract (not hematogenous spread)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is a urine WBC count $>10^5/\\text{mL}$ an incorrect threshold for defining a UTI?",
+      "answer": "The standard threshold of $>10^5$ refers to bacterial colony-forming units (CFU)/mL on culture, whereas pyuria (WBCs) is defined by much lower counts."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What are the most common presenting symptoms of UTI in infants under 3 months of age?",
+      "answer": "Fever, vomiting, lethargy, and irritability."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What are the most common presenting symptoms of UTI in verbal children aged 3 years or older?",
+      "answer": "Frequency and dysuria."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "According to NICE guidelines, what clinical factors define an Atypical UTI?",
+      "answer": "Seriously ill child, poor urine flow, abdominal/bladder mass, raised creatinine, septicaemia, failure to respond to suitable antibiotics within 48 hours, or non-E. coli infection."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "How is Recurrent UTI defined in pediatric guidelines?",
+      "answer": "2 or more episodes of upper UTI (pyelonephritis); OR 1 upper UTI plus 1 or more lower UTI (cystitis); OR 3 or more episodes of lower UTI."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the first-choice oral antibiotic for UTI in children aged 3 months and over?",
+      "answer": "Cefalexin."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "When is Co-amoxiclav indicated as a first-choice oral agent for pediatric UTI?",
+      "answer": "Only when urine culture results are available and show specific susceptibility."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which intravenous antibiotics are recommended first-line for children with UTI who are vomiting or severely unwell?",
+      "answer": "Cefuroxime, Ceftriaxone, Gentamicin, Amikacin, or Co-amoxiclav (in combination or if susceptible)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the recommended timing for a DMSA scan following an atypical or recurrent UTI?",
+      "answer": "4 to 6 months following the acute infection."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "When is an ultrasound scan recommended during an acute UTI infection in infants younger than 6 months?",
+      "answer": "When the infant has an atypical UTI, recurrent UTI, or fails to respond to treatment within 48 hours."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "DMSA scan showing differential renal function and MCUG image What is the primary purpose of obtaining a DMSA (dimercaptosuccinic acid) nuclear scan after pediatric pyelonephritis?",
+      "answer": "To detect renal parenchymal defect/scarring and evaluate relative individual kidney function."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Under what clinical conditions should a child with Diabetes Mellitus be admitted to the hospital?",
+      "answer": "Very young age, inability of parents to monitor BGL, lack of supportive care at home, severe acute illness, or persistent ketonuria."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What respiratory pattern is pathognomonic for severe Diabetic Ketoacidosis (DKA)?",
+      "answer": "Kussmaul respiration (rapid, deep, sighing respirations)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What core clinical symptoms characterize Diabetic Ketoacidosis in children?",
+      "answer": "Polyuria, polydipsia, weight loss, nausea, frequent vomiting, abdominal pain, lethargy, tachypnea, acetone breath, and disordered sensorium."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is blood glucose checking mandatory in a severely dehydrated child presenting with lethargy or confusion?",
+      "answer": "Hypoglycemia is a deadly complication of acute illness/diarrhea; emergency triage rules dictate checking blood sugar or administering 10% dextrose for AVPU < A."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which two initial investigations must be ordered immediately for a severely dehydrated child with acute diarrhea and altered sensorium?",
+      "answer": "Blood for urea, electrolytes, and creatinine; and blood glucose."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What two initial laboratory tests are required to investigate suspected congenital hypothyroidism in a neonate?",
+      "answer": "Serum Thyroid-Stimulating Hormone (TSH) and Free T4."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the mainstay medical treatment for congenital hypothyroidism?",
+      "answer": "Thyroid hormone replacement therapy (Levothyroxine)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "At what intervals should serum Free T4 and TSH levels be monitored during medical management of pediatric hyperthyroidism?",
+      "answer": "Every 1 to 3 months."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the standard duration of antithyroid drug therapy in children before attempting a trial off treatment?",
+      "answer": "12 to 24 months."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What percentage of children experience relapse within 2 years after completing antithyroid treatment?",
+      "answer": "40% to 75% of children."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What treatment modalities offer permanent remission options following antithyroid drug relapse in children?",
+      "answer": "Radioiodine treatment or subtotal thyroidectomy."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What three physical facial signs define the classic 'Thalassemic facies' (chipmunk facies)?",
+      "answer": "Prominent maxilla (enlarged cheekbones), depressed nasal bridge, and protruding upper teeth / frontal bossing."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What single laboratory test provides definitive diagnostic confirmation for Beta-Thalassemia Major?",
+      "answer": "Hemoglobin electrophoresis (or High-Performance Liquid Chromatography / HPLC)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What hemoglobins are increased and decreased on Hb electrophoresis in Beta-Thalassemia Major?",
+      "answer": "Increased HbF and markedly reduced or absent HbA."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What pre-transfusion hemoglobin level must be maintained during chronic transfusion therapy for Beta-Thalassemia Major?",
+      "answer": "Pre-transfusion $\\text{Hb} > 9.5\\text{--}10\\text{ g/dL}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is regular blood transfusion therapy mandatory in Beta-Thalassemia Major?",
+      "answer": "To correct severe anemia, suppress ineffective erythropoiesis, and prevent skeletal bone deformities."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "At what serum ferritin threshold should iron chelation therapy be initiated in transfused Thalassemia patients?",
+      "answer": "When serum ferritin reaches $1000\\text{--}2000\\ \\mu\\text{g/L}$ (usually after 10–20 blood transfusions)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What procedure offers a curative option for patients with Beta-Thalassemia Major?",
+      "answer": "HLA-matched allogeneic bone marrow transplantation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What red blood cell indices and parameters are seen on complete blood count in Beta-Thalassemia Major?",
+      "answer": "Microcytic hypochromic anemia with reticulocytosis."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Forearm showing petechial rash following tourniquet inflation How is the Hess test (tourniquet test) performed and interpreted?",
+      "answer": "Inflate BP cuff to mid-way between SBP and DBP $\\left(\\frac{\\text{SBP} + \\text{DBP}}{2}\\right)$ for 5 minutes. Count petechiae in a 1-inch square: $>20$ (or $>10$ in updated guidelines) is positive."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What diagnostic specificity and pooled sensitivity does the Hess test possess for dengue diagnosis?",
+      "answer": "Pooled sensitivity of 58% and specificity of 71%."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "During which days of fever is Dengue NS1 Ag testing most sensitive?",
+      "answer": "The highest percentage of positive NS1 Ag tests occurs during the first 2 days of fever."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What clinical features indicate Dengue warning signs during defervescence?",
+      "answer": "Abdominal pain, persistent vomiting, mucosal bleeding, lethargy/restlessness, tender liver enlargement, and plasma leakage (ascites, pleural effusion)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which physical examination findings define dengue shock syndrome?",
+      "answer": "Cold clammy extremities, tachycardia, narrow pulse pressure $(\\le 20\\text{ mmHg})$, or hypotension."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What intravenous fluid choice is indicated during the critical phase of Dengue in infants younger than 6 months?",
+      "answer": "Half-strength saline (isotonic fluids are used for infants $\\ge 6$ months)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What target hourly urine output confirms adequate fluid resuscitation in Dengue critical phase?",
+      "answer": "Urine output $>0.5\\text{ mL/kg/hour}$."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which criteria signal safe discontinuation of intravenous fluids in recovering Dengue patients?",
+      "answer": "Absence of fever for 48 hours without antipyretics, clinical improvement (good appetite, normal hemodynamics, no respiratory distress), rising platelet trend, and stable hematocrit."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which clinical signs correlate with increasing severity of pediatric respiratory distress?",
+      "answer": "Inability to take feeds/food, respiratory rate $>40/\\text{min}$, altered mental state, and intercostal retractions."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is high fever alone NOT a reliability indicator for severity of respiratory distress?",
+      "answer": "Fever indicates systemic infection/inflammation but does not directly quantify work of breathing or impending respiratory failure."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which pediatric respiratory conditions characteristically present with wheezing on examination?",
+      "answer": "Asthma, bronchiolitis, and foreign body inhalation."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why are acute laryngitis and tonsillitis excluded from the differential diagnosis of lower airway wheezing?",
+      "answer": "Acute laryngitis presents with inspiratory stridor and hoarseness, while tonsillitis presents with stertor and sore throat; neither causes intrathoracic expiratory wheezing."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the peak age group affected by Acute Laryngotracheobronchitis (Croup)?",
+      "answer": "Between 6 months and 3 years of age."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What first-line pharmacotherapy effectively treats Croup (ALTB)?",
+      "answer": "Oral Dexamethasone."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What emergency nebulized treatment is used as a time-buying measure before intubation in severe Croup?",
+      "answer": "Nebulized L-adrenaline (1:1,000 solution)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What heart rate threshold defines Supraventricular Tachycardia (SVT) in infants and young children?",
+      "answer": "Heart rate $>180\\text{--}220/\\text{min}$ in infants and children (typically $>160/\\text{min}$ in older individuals)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What characteristic ECG abnormality is seen in pediatric SVT?",
+      "answer": "P waves are absent, retrograde, or obscured within preceding T waves."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why does pediatric SVT with chest pain require hospital admission and continuous monitoring?",
+      "answer": "SVT can precipitate acute heart failure and myocardial ischemia, requiring telemetry monitoring and antiarrhythmic intervention."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What medical conditions form the differential diagnosis of generalized peripheral edema in children?",
+      "answer": "Acute glomerulonephritis, Nephrotic syndrome, Heart failure, and Cirrhosis of the liver."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is angioedema differentiated from general pitting edema in systemic disorders?",
+      "answer": "Angioedema causes transient, asymmetric localized subcutaneous swelling without gravitational pitting edema."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What three main reasons justify combination drug therapy in pediatric HIV and Tuberculosis infections?",
+      "answer": "To increase clinical effectiveness, reduce individual drug side effects, and prevent drug resistance."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why is empiric broad-spectrum combination antibiotic therapy indicated when causal organisms are unknown in severe neonatal sepsis?",
+      "answer": "Empiric coverage (such as Ampicillin plus Gentamicin) covers both Gram-positive and Gram-negative neonatal pathogens, providing lifesaving synergy before culture results arrive."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Why do drug dosages of the same therapeutic agent vary significantly across different pediatric diseases?",
+      "answer": "Dosing depends on the pathophysiological target (e.g., low-dose Prednisolone for mild asthma anti-inflammation vs high-dose Prednisolone for nephrotic syndrome immunosuppression)."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the recommended management for a child presenting with simple mild Henoch-Schönlein Purpura (IgA vasculitis) rash and normal urinalysis?",
+      "answer": "Clinical diagnosis with outpatient monitoring (urine dipstick for proteinuria and blood pressure monitoring for hypertension); most cases resolve spontaneously without intervention."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "When is hospital admission required for a child with Henoch-Schönlein Purpura?",
+      "answer": "When severe renal complications (nephritic/nephrotic signs) or severe abdominal complications (severe pain, bleeding, intussusception) develop."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Diagram of renal corpuscle detailing Bowman's capsule, glomerulus, afferent arteriole, and efferent arteriole Which arteriole carries unfiltered blood directly into the glomerular capillary tuft?",
+      "answer": "The Afferent Arteriole."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What anatomical structure surrounding the glomerular tuft receives the ultrafiltrate before it enters the proximal convoluted tubule?",
+      "answer": "Bowman's Capsule."
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."

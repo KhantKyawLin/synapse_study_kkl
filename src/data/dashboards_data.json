@@ -3549,6 +3549,228 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 6 Database": [
+    {
+      "Name": "Minimal Change Nephrotic Syndrome (MCNS)",
+      "Tag": "Glomerulopathy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "T-cell mediated podocytopathy peaking between 2-3 years of age; Most common pediatric nephrotic syndrome (>80%)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Loss of glomerular polyanionic charge barrier and foot process effacement causing massive selective albuminuria"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Insidious periorbital/facial edema pitting pedal edema ascites normal/low BP; Red Flags: SBP peritonitis or hypovolemic shock"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urine dipstick protein >=3+ to 4+ UPCR >200 mg/mmol Serum Albumin <25 g/L; First-line: Oral Prednisolone 2 mg/kg/day for 4-6 weeks"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Post-Streptococcal Glomerulonephritis (APSGN)",
+      "Tag": "Nephritic Syndrome",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Immune-complex glomerulonephritis developing 1-3 weeks post-GAS pharyngitis or 3-6 weeks post-impetigo"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Glomerular immune complex deposition causing alternative complement pathway activation and capillary hypercellularity"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Nephritic triad: Macroscopic hematuria (tea-colored urine) facial edema hypertension oliguria; Red Flags: Hypertensive encephalopathy"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Dysmorphic RBCs RBC casts Low C3 complement (<6-8 weeks) Elevated ASO titer; Fluid restriction + Furosemide + Nifedipine"
+        }
+      ]
+    },
+    {
+      "Name": "Pediatric Urinary Tract Infection (UTI)",
+      "Tag": "Urinary Tract Infection",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Uropathogenic Escherichia coli accounts for 80-90% of pediatric UTIs; Female predominant after early infancy"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Ascending bacterial colonization of urinary tract causing bladder/renal parenchymal inflammation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Unexplained fever irritability poor feeding dysuria frequency loin pain; Red Flags: Septic shock recurrent pyelonephritis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urine culture >10^5 CFU/mL clean-catch urine dipstick positive nitrites/leukocyte esterase; RBUS post 1st febrile UTI; Oral/IV Co-amoxiclav or Cefuroxime"
+        }
+      ]
+    },
+    {
+      "Name": "Diabetic Ketoacidosis (DKA)",
+      "Tag": "Metabolic Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Absolute or relative insulin deficiency in Type 1 Diabetes Mellitus triggered by new onset infection or non-compliance"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Unopposed lipolysis and ketogenesis generating severe anion gap metabolic acidosis and osmotic diuresis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Polyuria polydipsia weight loss persistent vomiting abdominal pain Kussmaul breathing fruity acetone breath; Red Flags: Cerebral edema lethargy"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood glucose >11 mmol/L arterial pH <7.3 HCO3 <15 mmol/L urine/blood ketones positive; IV 0.9% Normal Saline 10-20 mL/kg 1st hour -> IV soluble insulin 0.1 U/kg/h"
+        }
+      ]
+    },
+    {
+      "Name": "Congenital Hypothyroidism",
+      "Tag": "Thyroid Disease",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thyroid dysgenesis (agenesis ectopy) or dyshormonogenesis; Most common preventable cause of intellectual disability"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Deficiency of thyroid hormones (T4/T3) required for early post-natal brain maturation and skeletal growth"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Prolonged neonatal jaundice lethargy coarse facial features macroglossia open posterior fontanelle umbilical hernia hypotonia, Red Flags: Severe cretinism"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated newborn screening TSH low free T4; Immediate oral Levothyroxine (10-15 mcg/kg/day) initiated within first 2 weeks of life"
+        }
+      ]
+    },
+    {
+      "Name": "Beta-Thalassemia Major (Cooley Anemia)",
+      "Tag": "Hemoglobinopathy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Homozygous beta-globin gene mutations resulting in severe reduction or total absence of beta-globin synthesis"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Imbalanced globin chain synthesis causing precipitation of free alpha chains intra-medullary hemolysis and severe ineffective erythropoiesis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe anemia jaundice hepatosplenomegaly failure to thrive frontal bossing chipmunk facies; Red Flags: Severe heart failure iron overload"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Hb electrophoresis: HbF >90% HbA 0-10% microcytic hypochromic anemia; Hypertransfusion therapy (keep Hb >9.5-10 g/dL) + Iron chelation (Deferasirox)"
+        }
+      ]
+    },
+    {
+      "Name": "G6PD Deficiency",
+      "Tag": "Enzymopathy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "X-linked recessive enzymopathy impaired NADPH production leaving RBCs vulnerable to oxidative stress (fava beans drugs infection)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Oxidative denaturing of hemoglobin resulting in Heinz body formation intravascular hemolysis and acute anemia"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Acute intravascular hemolysis 24-48h post trigger dark cola-colored urine jaundice pallor fatigue; Red Flags: Acute renal failure"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FBC reticulocytosis Heinz bodies on supravital stain decreased G6PD enzyme assay; Avoid oxidative triggers + supportive transfusion if severe"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Lymphoblastic Leukemia (ALL)",
+      "Tag": "Childhood Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Most common pediatric cancer (80% of childhood leukemias); Peak incidence between 2 and 5 years of age"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant clonal proliferation of immature lymphoid progenitor cells replacing normal bone marrow hematopoietic elements"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Anemia fatigue pallor petechiae/purpura fever bone pain generalized lymphadenopathy hepatosplenomegaly; Red Flags: CNS stroke testicular mass"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FBC leukocytosis anemia thrombocytopenia Bone marrow biopsy >=20% (often >80%) lymphoblasts; Combination induction chemotherapy"
+        }
+      ]
+    },
+    {
+      "Name": "Down Syndrome (Trisomy 21)",
+      "Tag": "Chromosomal Disorder",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Meiotic nondisjunction (95%) translocation (4%) or mosaicism (1%) giving 47 chromosomes with extra chromosome 21"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Gene dosage excess on chromosome 21 disrupting normal tissue organogenesis and neurodevelopment"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Up-slanting palpebral fissures epicanthic folds flat nasal bridge single palmar crease sandal gap hypotonia; Red Flags: AVSD duodenal atresia leukemia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Karyotype / Chromosomal microarray Echocardiogram (40% AVSD); Early multidisciplinary intervention + thyroid/cardiac screening"
+        }
+      ]
+    },
+    {
+      "Name": "Turner Syndrome (45,X)",
+      "Tag": "Chromosomal Disorder",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Complete or partial monosomy X (45,X) occurring in 1 in 2,500 live female births"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Lack of second X chromosome causing gonadal dysgenesis (streak ovaries) and lymphatic malformations during embryogenesis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Short stature primary amenorrhea low posterior hairline webbed neck shield chest widely spaced nipples cubitus valgus; Red Flags: Coarctation of Aorta"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Karyotype 45,X elevated LH/FSH Echocardiogram renal ultrasound; Growth Hormone therapy in childhood + Estrogen replacement for puberty induction"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",

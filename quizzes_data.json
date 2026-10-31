@@ -8157,6 +8157,428 @@
       "explanation": "Under PECARN head trauma guidelines for children ≥2 years, patients with minor head trauma, scalp hematoma, or vomiting without GCS <14 or signs of basilar skull fracture are at intermediate risk for CiTBI; clinical observation vs. non-contrast CT head is guided by physician judgment and symptom progression."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 6": [
+    {
+      "id": 7,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 3-year-old boy presents with progressive periorbital swelling, pedal edema, and abdominal distension. Urinalysis shows 4+ protein, no RBCs. Serum albumin is 18 g/L and total cholesterol is 340 mg/dL. What is the most likely diagnosis and first-line treatment?",
+      "options": [
+        "Acute Post-Streptococcal Glomerulonephritis — Furosemide",
+        "Minimal Change Nephrotic Syndrome — Oral Prednisolone (2 mg/kg/day)",
+        "IgA Nephropathy — Oral Cyclophosphamide",
+        "Congenital Nephrotic Syndrome — Renal transplantation",
+        "Henoch-Schönlein Purpura Nephritis — IV Pulse Methylprednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Minimal Change Nephrotic Syndrome (MCNS) accounts for >80% of nephrotic syndrome cases in early childhood (peak age 2-3 years). It is characterized by the triad of heavy proteinuria (>=3+ to 4+), severe hypoalbuminemia (<25 g/L), and hypercholesterolemia with generalized edema. First-line therapy is oral Prednisolone 2 mg/kg/day for 4-6 weeks."
+    },
+    {
+      "id": 8,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 7-year-old girl presents with gross hematuria ('tea-colored urine'), periorbital puffiness, and elevated blood pressure (135/88 mmHg) 2 weeks following a sore throat. Lab work shows low C3 complement and dysmorphic RBCs. Which statement is TRUE regarding this condition?",
+      "options": [
+        "Long-term penicillin prophylaxis is indicated to prevent renal recurrence.",
+        "Serum C3 complement levels typically remain low indefinitely.",
+        "The condition is mediated by alternative complement pathway activation post-Group A Streptococcal pharyngitis.",
+        "Heavy nephrotic-range proteinuria is present in over 90% of cases.",
+        "Immediate renal biopsy is mandatory for diagnosis in all children."
+      ],
+      "correctIndex": 2,
+      "explanation": "Acute Post-Streptococcal Glomerulonephritis (APSGN) follows GAS pharyngitis or impetigo, causing immune-complex deposition and alternative complement pathway consumption (low C3). C3 complement returns to normal within 6-8 weeks. Note: Secondary penicillin prophylaxis is indicated for Rheumatic Fever, NOT for APSGN."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 9-month-old female infant presents with unexplained high fever, irritability, vomiting, and failure to thrive. A clean-catch catheterized urine sample reveals >10^5 CFU/mL of Escherichia coli. What is the primary imaging recommendation following this first febrile UTI?",
+      "options": [
+        "Immediate Micturating Cystourethrogram (MCUG) during acute infection",
+        "Renal and Bladder Ultrasound (RBUS) after acute phase resolution",
+        "Intravenous Pyelogram (IVP)",
+        "Computed Tomography of Kidneys with Contrast",
+        "No imaging is required unless a third UTI occurs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Renal and Bladder Ultrasound (RBUS) is recommended for all infants aged 2 to 24 months after their first febrile UTI to detect structural tract anomalies (e.g., hydronephrosis, posterior urethral valves). Routine immediate MCUG is NO longer indicated unless RBUS shows abnormalities or the UTI is atypical/recurrent."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 10-year-old child with Type 1 Diabetes Mellitus presents with persistent vomiting, abdominal pain, deep rapid breathing (Kussmaul respiration), and fruity acetone breath. Blood glucose is 24 mmol/L, pH is 7.15, and serum bicarbonate is 10 mmol/L. What is the most critical initial management step?",
+      "options": [
+        "Immediate IV bolus of Soluble Insulin at 0.5 units/kg",
+        "IV fluid resuscitation with 0.9% Normal Saline (10-20 mL/kg over 1 hour) before starting insulin",
+        "Rapid IV Sodium Bicarbonate push to correct pH",
+        "IV Administration of 50% Dextrose bolus",
+        "Subcutaneous Insulin Glargine injection"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Diabetic Ketoacidosis (DKA), volume resuscitation with 0.9% Normal Saline (10-20 mL/kg over 1 hour) MUST precede insulin therapy to restore intravascular volume and renal perfusion. Insulin infusion (0.1 units/kg/hour) should start ONLY after fluid resuscitation to prevent sudden circulatory collapse and reduce the risk of cerebral edema."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A neonate at 12 hours of life exhibits jitteriness, lethargy, poor sucking, and a weak cry. Bedside glucose test shows blood glucose of 1.8 mmol/L (32 mg/dL). What is the immediate treatment of choice?",
+      "options": [
+        "Oral Glucagon 1 mg",
+        "Bolus of IV 10% Dextrose at 2 mL/kg (200 mg/kg) followed by continuous infusion",
+        "Bolus of IV 50% Dextrose at 5 mL/kg",
+        "Oral administration of table sugar dissolved in water",
+        "Immediate Subcutaneous Hydrocortisone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Symptomatic neonatal hypoglycemia (blood glucose <2.6 mmol/L) requires an immediate IV bolus of 10% Dextrose at 2 mL/kg (200 mg/kg), followed by a continuous glucose infusion rate (GIR) of 6-8 mg/kg/min. Concentrated dextrose solutions (e.g., D25 or D50) should never be used in neonates due to hyperosmolality and vein sclerosis risk."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 6-week-old infant presents with prolonged physiological jaundice, macroglossia, a large anterior fontanelle, umbilical hernia, dry skin, and severe hypotonia. Routine newborn screening was missed. What is the diagnosis and consequence of delayed therapy?",
+      "options": [
+        "Biliary Atresia — Hepatic cirrhosis",
+        "Congenital Hypothyroidism — Irreversible intellectual disability (cretinism)",
+        "Congenital Adrenal Hyperplasia — Precocious puberty",
+        "Galactosemia — Cataract formation only",
+        "Down Syndrome — Congenital heart block"
+      ],
+      "correctIndex": 1,
+      "explanation": "Congenital Hypothyroidism presents with prolonged neonatal jaundice, macroglossia, hoarse cry, umbilical hernia, open posterior fontanelle, and hypotonia. Thyroid hormone is essential for early post-natal brain development; delayed initiation of Levothyroxine (10-15 mcg/kg/day) beyond 2-4 weeks leads to permanent severe intellectual disability."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 12-year-old girl presents with emotional lability, heat intolerance, weight loss despite increased appetite, exophthalmos, and smooth diffuse thyroid enlargement. Serum TSH is <0.01 mIU/L and free T4 is elevated. She is started on Carbimazole. Which adverse effect requires IMMEDIATE drug cessation and CBC check?",
+      "options": [
+        "Mild transient maculopapular rash",
+        "Severe agranulocytosis presenting with fever and sore throat",
+        "Weight gain",
+        "Mild sinus bradycardia",
+        "Alopecia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carbimazole (or Methimazole) used in Graves' disease can cause life-threatening agranulocytosis (absolute neutrophil count <500/uL). Patients and parents must be warned to immediately stop the drug and obtain an urgent full blood count (FBC) if they develop a sudden fever, sore throat, or mouth ulcers."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "An 8-month-old infant of Mediterranean descent presents with severe pallor, failure to thrive, hepatosplenomegaly, and frontal bossing with maxillary hyperplasia ('chipmunk facies'). Hemoglobin is 4.5 g/dL, microcytic hypochromic. Hemoglobin electrophoresis reveals HbF 95% and HbA 0%. What is the diagnosis?",
+      "options": [
+        "Alpha-Thalassemia Trait",
+        "Beta-Thalassemia Major (Cooley Anemia)",
+        "Sickle Cell Anemia",
+        "G6PD Deficiency",
+        "Iron Deficiency Anemia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta-Thalassemia Major results from homozygous beta-globin gene mutations. Symptoms manifest after 6 months of life as fetal hemoglobin (HbF) transitions to adult Hb. Lack of beta chains causes ineffective erythropoiesis, severe anemia, massive extramedullary hematopoiesis (hepato-splenomegaly, skull bony changes), and HbF >90% on electrophoresis."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 5-year-old asymptomatic boy undergoing routine pre-operative screening is found to have mild anemia (Hb 10.2 g/dL), marked microcytosis (MCV 62 fL), and elevated RBC count (5.8 x 10^12/L). Hemoglobin electrophoresis demonstrates elevated HbA2 (4.8%). What is the correct clinical advice?",
+      "options": [
+        "Start high-dose oral Iron supplementation for 3 months.",
+        "Reassure parents that Beta-Thalassemia Minor is a benign carrier state requiring no iron therapy.",
+        "Initiate monthly packed RBC blood transfusions.",
+        "Refer for immediate splenectomy.",
+        "Begin oral Deferasirox iron chelation therapy."
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta-Thalassemia Minor (Trait) is an asymptomatic heterozygous carrier state presenting with mild microcytic anemia, disproportionately high RBC count, low MCV, and elevated HbA2 (>3.5%). It requires NO treatment. Inappropriate iron therapy must be avoided as it can cause iron overload."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 4-year-old boy develops sudden dark cola-colored urine, jaundice, pallor, and lethargy 36 hours after eating fava beans. FBC reveals Hb 6.2 g/dL and reticulocytosis. Supravital stain reveals Heinz bodies in red cells. What enzyme defect underlies this condition?",
+      "options": [
+        "Pyruvate Kinase deficiency",
+        "Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency",
+        "UDP-Glucuronosyltransferase deficiency",
+        "Methemoglobin Reductase deficiency",
+        "Glucocerebrosidase deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "G6PD Deficiency is an X-linked recessive enzymopathy. G6PD generates NADPH to keep glutathione reduced. Under oxidative stress (fava beans, co-trimoxazole, ciprofloxacin, naphthalene), denatured hemoglobin precipitates as Heinz bodies, causing acute intravascular hemolysis and hemoglobinuria (cola-colored urine)."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 3-year-old child with severe anemia secondary to acute blood loss requires an emergency packed RBC transfusion. What is the standard recommended pediatric blood transfusion volume and rate for non-failing heart conditions?",
+      "options": [
+        "5 mL/kg over 6 hours",
+        "10-15 mL/kg over 2-4 hours",
+        "30 mL/kg rapid bolus over 30 minutes",
+        "50 mL/kg over 12 hours",
+        "1 mL/kg over 1 hour"
+      ],
+      "correctIndex": 1,
+      "explanation": "In pediatric practice, standard Packed Red Blood Cell (PRBC) transfusion volume is 10-15 mL/kg, administered over 2 to 4 hours. A volume of 10 mL/kg of PRBC typically raises the child's hemoglobin concentration by approximately 2 to 3 g/dL."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 4-year-old boy presents with fever, progressive pallor, petechiae on trunk, generalized painless lymphadenopathy, severe bone pain, and hepatosplenomegaly. FBC shows WBC 45,000/uL, Hb 6.5 g/dL, Platelets 22,000/uL. Bone marrow biopsy reveals 85% lymphoblasts. What is the diagnosis?",
+      "options": [
+        "Acute Myeloid Leukemia (AML)",
+        "Acute Lymphoblastic Leukemia (ALL)",
+        "Infectious Mononucleosis",
+        "Aplastic Anemia",
+        "Hodgkin Lymphoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acute Lymphoblastic Leukemia (ALL) is the most common childhood malignancy (peak age 2-5 years). It presents with bone marrow failure (anemia, thrombocytopenic bleeding, neutropenic fever), tissue infiltration (lymphadenopathy, splenomegaly, bone pain), and >=20% (often >80%) lymphoblasts in bone marrow."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A newborn infant is noted to have hypotonia, up-slanting palpebral fissures, epicanthic folds, a flat nasal bridge, a single transverse palmar crease (Simian crease), and a sandal gap between the 1st and 2nd toes. Echocardiogram reveals an Atrioventricular Septal Defect (AVSD). What is the chromosomal diagnosis?",
+      "options": [
+        "Trisomy 18 (Edwards Syndrome)",
+        "Trisomy 13 (Patau Syndrome)",
+        "Trisomy 21 (Down Syndrome)",
+        "45,X (Turner Syndrome)",
+        "47,XXY (Klinefelter Syndrome)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Down Syndrome (Trisomy 21) is the most common chromosomal abnormality in live births (1 in 700). Classic dysmorphic features include hypotonia, up-slanting eyes, epicanthic folds, single palmar crease, and sandal gap. Endocardial cushion defects (AVSD) account for 40% of cardiac lesions in Down Syndrome."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 14-year-old girl is evaluated for short stature (height <3rd percentile) and primary amenorrhea. Physical exam reveals a low posterior hairline, webbed neck (pterygium colli), shield chest with widely spaced nipples, and cubitus valgus. Echo reveals Coarctation of the Aorta. What is her karyotype?",
+      "options": [
+        "47,XXX",
+        "46,XX",
+        "45,X (or 45,XO)",
+        "47,XXY",
+        "46,XY with androgen insensitivity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turner Syndrome (45,X) affects 1 in 2,500 live female births. Characteristics include short stature, primary amenorrhea (gonadal dysgenesis / streak ovaries), webbed neck, shield chest, cubitus valgus, elevated gonadotropins (FSH/LH), and cardiovascular malformations (Coarctation of Aorta and bicuspid aortic valve)."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 16-year-old boy is evaluated for tall stature, gynecomastia, small firm testicles (<2 mL volume), and learning difficulties. Hormonal profile shows low testosterone and markedly elevated LH and FSH. What is the most likely karyotype?",
+      "options": [
+        "47,XYY",
+        "47,XXY (Klinefelter Syndrome)",
+        "46,XY / 45,X mosaicism",
+        "46,XX male",
+        "Fragile X syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Klinefelter Syndrome (47,XXY) is the most common cause of male hypogonadism and infertility (1 in 600 live male births). It is characterized by tall eunuchoid stature, gynecomastia, small firm testes, azoospermia, and hypergonadotropic hypogonadism (high LH/FSH, low testosterone)."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Two parents who are both asymptomatic carriers of Beta-Thalassemia Trait plan to have children. What is the probability that any given child of theirs will be affected by Beta-Thalassemia Major?",
+      "options": [
+        "0%",
+        "25% (1 in 4)",
+        "50% (1 in 2)",
+        "75% (3 in 4)",
+        "100%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beta-Thalassemia is inherited in an Autosomal Recessive manner. When both parents are heterozygous carriers (Aa x Aa), each child has a 25% (1 in 4) chance of inheriting both mutant alleles (aa = affected), a 50% chance of being a carrier (Aa), and a 25% chance of being unaffected non-carrier (AA)."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A mother who is a carrier for G6PD Deficiency (an X-linked recessive disorder) has children with an unaffected normal father. What is the expected inheritance risk for her offspring?",
+      "options": [
+        "100% of sons will be affected.",
+        "50% of sons will be affected, and 50% of daughters will be carriers.",
+        "50% of daughters will be affected.",
+        "All children will be unaffected carriers.",
+        "25% of sons will be affected."
+      ],
+      "correctIndex": 1,
+      "explanation": "In X-linked Recessive inheritance, a carrier mother (X_G6PD X) passes the mutant X chromosome to 50% of her sons (who will be fully affected hemizygotes X_G6PD Y) and to 50% of her daughters (who will be asymptomatic carriers X_G6PD X)."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 6-year-old boy with Henoch-Schönlein Purpura (HSP) develops microscopic hematuria and mild proteinuria on urine dipstick. Renal ultrasound is normal. What is the recommended management for mild HSP nephritis?",
+      "options": [
+        "Immediate bilateral nephrectomy",
+        "Supportive care and regular monitoring of blood pressure and urinalysis for 6 months",
+        "Immediate IV Pulse Cyclophosphamide",
+        "High-dose oral Cyclosporine for 1 year",
+        "Hemodialysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Renal involvement (IgA vasculitis nephritis) occurs in 30-50% of children with HSP. Mild nephritis (microscopic hematuria, minimal proteinuria) resolves spontaneously in the majority of cases and requires supportive care with regular monitoring of urine dipstick and blood pressure for at least 6 months."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "Which urine microscopic finding confirms that hematuria originates from the glomerular capillaries rather than the lower urinary tract?",
+      "options": [
+        "Isomorphic round red blood cells",
+        "Dysmorphic red blood cells (acanthocytes) and Red Blood Cell Casts",
+        "White blood cell clumps",
+        "Calcium oxalate crystals",
+        "Hyaline casts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dysmorphic RBCs (varied size/shape, acanthocytes) and Red Blood Cell (RBC) Casts are diagnostic of glomerular bleeding (e.g., Glomerulonephritis). Non-glomerular lower tract bleeding (UTI, trauma, stones) produces uniform, isomorphic RBCs without casts."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "What is the recommended target HbA1c level for pediatric patients diagnosed with Type 1 Diabetes Mellitus according to ISPAD / AAP guidelines to minimize long-term microvascular complications while avoiding severe hypoglycemia?",
+      "options": [
+        "<5.0%",
+        "<7.0% (or <7.5% depending on individual patient factors)",
+        "<9.5%",
+        "<11.0%",
+        "Exactly 8.5%"
+      ],
+      "correctIndex": 1,
+      "explanation": "The International Society for Pediatric and Adolescent Diabetes (ISPAD) and AAP recommend a target HbA1c <7.0% (53 mmol/mol) for most children and adolescents with Type 1 Diabetes, provided it can be achieved without frequent severe hypoglycemia."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A child in oliguric renal failure develops hyperkalemia with a serum potassium of 7.2 mmol/L. ECG shows tall peaked T waves and widened QRS complex. What is the immediate first-line IV drug to stabilize cardiac membrane excitability?",
+      "options": [
+        "IV Furosemide",
+        "IV 10% Calcium Gluconate (0.5 mL/kg over 5-10 minutes)",
+        "IV Regular Insulin alone",
+        "Oral Kayexalate",
+        "IV Sodium Bicarbonate"
+      ],
+      "correctIndex": 1,
+      "explanation": "In severe hyperkalemia (>6.5 mmol/L with ECG changes), IV 10% Calcium Gluconate (0.5-1.0 mL/kg) is the mandatory FIRST-LINE emergency agent. It antagonizes hyperkalemic membrane depolarization and stabilizes cardiac myocytes within minutes, preventing lethal arrhythmias (VF/asystole)."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "An 11-year-old girl presents with a painless, firm, diffuse goiter, growth deceleration, cold intolerance, constipation, and dry skin. Serum TSH is 45 mIU/L and anti-thyroid peroxidase (anti-TPO) antibodies are strongly positive. What is the diagnosis?",
+      "options": [
+        "Subacute Granulomatous Thyroiditis",
+        "Hashimoto Thyroiditis (Chronic Autoimmune Thyroiditis)",
+        "Endemic Colloid Goiter",
+        "Toxic Multinodular Goiter",
+        "Riedel Thyroiditis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hashimoto Thyroiditis (Chronic Lymphocytic / Autoimmune Thyroiditis) is the most common cause of acquired hypothyroidism and goiter in children and adolescents. It is characterized by elevated anti-TPO and anti-thyroglobulin antibodies, elevated TSH, and low FT4."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 4-year-old girl presents with sudden widespread petechiae and ecchymoses 2 weeks after a mild viral URTI. She is well-appearing with no fever or organomegaly. FBC shows Hb 12.8 g/dL, WBC 7.5 x 10^3/uL, and Platelets 12 x 10^3/uL. What is the primary management for mild asymptomatic acute ITP?",
+      "options": [
+        "Emergency splenectomy",
+        "Observation and reassurance (most resolve spontaneously within 6 months)",
+        "Immediate IV Chemotherapy with Vincristine",
+        "Continuous IV Heparin infusion",
+        "Bone marrow transplantation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary Immune Thrombocytopenia (ITP) in children is usually an acute, self-limiting post-viral autoimmune disorder. In children with mild skin manifestations only (petechiae/purpura), observation without pharmacotherapy is recommended. Pharmacotherapy (IVIG or Anti-D or oral corticosteroids) is reserved for severe mucosal bleeding or trauma."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 7-year-old boy presents with progressive fatigue, mucosal bleeding, and recurrent bacterial infections. FBC reveals pancytopenia (Hb 5.1 g/dL, WBC 1.8 x 10^3/uL, Platelets 14 x 10^3/uL). Bone marrow biopsy reveals extreme hypocellularity with fatty replacement and no abnormal cells. What is the diagnosis?",
+      "options": [
+        "Acute Myeloid Leukemia",
+        "Acquired Severe Aplastic Anemia",
+        "Myelofibrosis",
+        "Megaloblastic Anemia",
+        "Idiopathic Thrombocytopenic Purpura"
+      ],
+      "correctIndex": 1,
+      "explanation": "Acquired Aplastic Anemia is characterized by peripheral pancytopenia (anemia, neutropenia, thrombocytopenia) and a profoundly hypocellular bone marrow where hematopoietic tissue is replaced by fat cells. Definitive treatment is HLA-matched sibling hematopoietic stem cell transplantation or immunosuppressive therapy (ATG + Cyclosporine)."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 14-year-old boy presents with painless, rubbery, firm cervical lymphadenopathy, low-grade drenching night sweats, weight loss of >10%, and persistent fever ('B symptoms'). Biopsy of the lymph node reveals giant multinucleated cells with prominent nucleoli ('owl-eye' appearance). What are these diagnostic cells called?",
+      "options": [
+        "Gaucher cells",
+        "Reed-Sternberg cells (Hodgkin Lymphoma)",
+        "Auer rods",
+        "Smudge cells",
+        "Heinz bodies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hodgkin Lymphoma classically presents in adolescents with painless cervical/supraclavicular lymphadenopathy and systemic B symptoms. Biopsy of involved nodes reveals pathognomonic Reed-Sternberg cells (giant binucleated B lymphocytes with 'owl-eye' inclusion-like nucleoli)."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A child with high-burden T-cell ALL begins induction chemotherapy. 24 hours later, lab results show hyperuricemia, hyperkalemia, hyperphosphatemia, and secondary hypocalcemia. What metabolic emergency is occurring?",
+      "options": [
+        "Tumor Lysis Syndrome (TLS)",
+        "Diabetic Ketoacidosis",
+        "Syndrome of Inappropriate ADH (SIADH)",
+        "Acute Adrenal Crisis",
+        "Acute Pancreatitis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tumor Lysis Syndrome (TLS) occurs when massive breakdown of neoplastic cells releases intracellular contents into circulation, leading to hyperuricemia, hyperkalemia, hyperphosphatemia, and hypocalcemia. Management includes aggressive IV hyperhydration and Rasburicase (or Allopurinol)."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A newborn female infant is born with ambiguous genitalia (clitoromegaly and fused labioscrotal folds). At 12 days of life, she presents with vomiting, severe dehydration, hyponatremia (118 mmol/L), and hyperkalemia (6.8 mmol/L). What is the most common enzyme deficiency?",
+      "options": [
+        "11-beta-hydroxylase deficiency",
+        "21-hydroxylase deficiency (Congenital Adrenal Hyperplasia)",
+        "17-alpha-hydroxylase deficiency",
+        "5-alpha-reductase deficiency",
+        "Aromatase deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "21-hydroxylase deficiency accounts for >90% of Congenital Adrenal Hyperplasia (CAH). Impaired cortisol and aldosterone synthesis leads to salt-wasting adrenal crisis (hyponatremia, hyperkalemia, hypovolemia) at 1-2 weeks of life, while excess androgen precursors cause virilization/ambiguous genitalia in 46,XX females."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 4-year-old boy presents with blue sclerae, recurrent low-trauma bone fractures, early-onset conductive hearing loss, and opalescent teeth (dentinogenesis imperfecta). Karyotype is normal. Mutations in COL1A1 or COL1A2 genes are identified. What is the diagnosis?",
+      "options": [
+        "Achondroplasia",
+        "Osteogenesis Imperfecta (Type I)",
+        "Marfan Syndrome",
+        "Ehlers-Danlos Syndrome",
+        "Rickets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osteogenesis Imperfecta ('brittle bone disease') is an inherited connective tissue disorder caused by mutations in COL1A1/COL1A2 affecting Type I collagen synthesis. Type I OI presents with blue sclerae, fragile bones subject to multiple fractures, dentinogenesis imperfecta, and hearing loss."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A tall 15-year-old boy with disproportionately long limbs, arachnodactyly, pectus excavatum, joint hypermobility, and upward/temporal lens dislocation (ectopia lentis) undergoes screening. What major cardiovascular complication must be routinely monitored by Echocardiography?",
+      "options": [
+        "Pulmonary Valve Stenosis",
+        "Progressive Aortic Root Dilation and Aortic Aneurysm / Dissection",
+        "Ventricular Septal Defect",
+        "Endocardial Cushion Defect",
+        "Ebstein Anomaly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marfan Syndrome is an Autosomal Dominant connective tissue disorder caused by FBN1 gene mutations (fibrillin-1). Key features include tall stature, arachnodactyly, ectopia lentis (upward lens subluxation), and life-threatening progressive aortic root dilation causing aortic regurgitation and aortic dissection."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 6",
+      "question": "A 6-year-old child presents with 8 smooth coffee-colored macules (>5 mm in diameter) on the trunk, axillary and inguinal freckling (Crowe sign), and iris hamartomas (Lisch nodules). What is the genetic diagnosis and mode of inheritance?",
+      "options": [
+        "Tuberous Sclerosis — Autosomal Recessive",
+        "Neurofibromatosis Type 1 (NF1) — Autosomal Dominant",
+        "Sturge-Weber Syndrome — Sporadic somatic",
+        "McCune-Albright Syndrome — Mosaic mutation",
+        "Ataxia-Telangiectasia — X-linked Recessive"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neurofibromatosis Type 1 (NF1 / Von Recklinghausen disease) is an Autosomal Dominant neurocutaneous disorder (NF1 gene on chromosome 17q11.2). Diagnostic criteria require >=2 of: >=6 café-au-lait spots (>5mm prepubertal, >15mm postpubertal), axillary/inguinal freckling, >=2 Lisch nodules, optic glioma, neurofibromas, or osseous lesions."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,
