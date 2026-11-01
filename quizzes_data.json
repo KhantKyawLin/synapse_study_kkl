@@ -8579,6 +8579,428 @@
       "explanation": "Neurofibromatosis Type 1 (NF1 / Von Recklinghausen disease) is an Autosomal Dominant neurocutaneous disorder (NF1 gene on chromosome 17q11.2). Diagnostic criteria require >=2 of: >=6 café-au-lait spots (>5mm prepubertal, >15mm postpubertal), axillary/inguinal freckling, >=2 Lisch nodules, optic glioma, neurofibromas, or osseous lesions."
     }
   ],
+  "Final Part 2 Paediatrics - Paediatrics Module 7": [
+    {
+      "id": 8,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 4-week-old male infant presents with a 5-day history of non-bilious projectile vomiting immediately after feeds. He is eager to feed. On abdominal examination, a small, firm, mobile olive-shaped mass is palpable in the epigastrium. Serum chemistry reveals hypochloremic, hypokalemic metabolic alkalosis. What is the definitive management?",
+      "options": [
+        "Barium enema reduction",
+        "Ramstedt pyloromyotomy",
+        "Ladd procedure",
+        "Rectal suction biopsy",
+        "High-dose IV Corticosteroids"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ramstedt pyloromyotomy (extramucosal pyloric myotomy) is the definitive surgical treatment for Hypertrophic Pyloric Stenosis (HPS) after correcting metabolic alkalosis and dehydration with IV fluids."
+    },
+    {
+      "id": 9,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 9-month-old infant is brought to the ED with severe paroxysmal colicky abdominal pain. During episodes, he draws his knees up and cries inconsolably. Between episodes, he is lethargic. On examination, a sausage-shaped mass is felt in the right upper quadrant, and a 'red currant jelly' stool is passed. Abdominal ultrasound shows a target sign. What is the first-line treatment?",
+      "options": [
+        "Immediate exploratory laparotomy",
+        "Ultrasound-guided air or hydrostatic contrast enema reduction",
+        "IV Ampicillin and Gentamicin",
+        "Manual reduction under sedation",
+        "Nasogastric tube decompression alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ultrasound-guided air or hydrostatic contrast enema reduction is the first-line diagnostic and therapeutic management for uncomplicated ileocolic intussusception (success rate >85-90%)."
+    },
+    {
+      "id": 10,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 2-day-old term neonate develops sudden onset of bilious (green) vomiting and abdominal distension. Upper GI contrast series reveals a 'corkscrew' appearance of the duodenum and a abnormal position of the ligament of Treitz to the right of the spine. What is the diagnosis?",
+      "options": [
+        "Hypertrophic Pyloric Stenosis",
+        "Intussusception",
+        "Malrotation with Midgut Volvulus",
+        "Hirschsprung Disease",
+        "Duodenal Atresia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sudden bilious vomiting in a neonate is midgut volvulus secondary to intestinal malrotation until proven otherwise. The Ladd procedure (detorsion, division of Ladd bands, widening of mesentery) is required urgently."
+    },
+    {
+      "id": 11,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A term newborn has failed to pass meconium by 48 hours of life and presents with progressive abdominal distension and bilious vomiting. Digital rectal examination results in a sudden explosive release of liquid stool and gas ('blast sign'). What is the gold standard diagnostic test?",
+      "options": [
+        "Abdominal Ultrasound",
+        "Full-thickness or suction rectal biopsy",
+        "Barium swallow",
+        "Serum calcitonin level",
+        "Stool elastase assay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Suction rectal biopsy is the gold standard diagnostic test for Hirschsprung Disease, demonstrating the absence of ganglion cells in the submucosal (Meissner) and myenteric (Auerbach) plexuses and hypertrophied nerve fibers."
+    },
+    {
+      "id": 12,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 4-year-old boy presents with a sudden onset of severe right groin pain, swelling, and vomiting. Examination reveals a tender, non-reducible, firm mass in the right groin extending into the scrotum. What is the underlying pathophysiology?",
+      "options": [
+        "Incarcerated indirect inguinal hernia due to patent processus vaginalis",
+        "Direct inguinal hernia through Hesselbach triangle",
+        "Non-communicating hydrocele",
+        "Testicular torsion",
+        "Acute epididymitis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pediatric inguinal hernias are almost exclusively indirect hernias caused by failure of the processus vaginalis to obliterate. Incarceration occurs when bowel becomes trapped in the hernial sac."
+    },
+    {
+      "id": 13,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 14-month-old infant presents with a smooth, painless, transilluminating right scrotal swelling. The swelling remains unchanged in size during crying or straining. What is the appropriate initial management?",
+      "options": [
+        "Immediate emergency hydrocelectomy",
+        "Fine needle aspiration of scrotal fluid",
+        "Observation until 12-18 months of age",
+        "Empirical oral cephalexin",
+        "Diagnostic laparoscopy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Simple non-communicating hydroceles in infants usually resolve spontaneously by 12-18 months of age as residual fluid is absorbed. Observation is indicated unless the hydrocele persists past 1-2 years or is communicating."
+    },
+    {
+      "id": 14,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 2-year-old child experiences a sudden episode of choking and coughing while playing with peanuts. On exam, he is afebrile with mild tachypnea and unilateral right-sided monophonic expiratory wheezing. Chest radiograph shows right hyperinflation on expiration. What is the definitive intervention?",
+      "options": [
+        "Nebulized Salbutamol and Budesonide",
+        "Rigid bronchoscopy under general anesthesia",
+        "Chest physiotherapy and postural drainage",
+        "Heimlich maneuver in ED",
+        "Flexible laryngoscopy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rigid bronchoscopy under general anesthesia is both the diagnostic and definitive therapeutic procedure of choice for foreign body aspiration in children, allowing secure airway control and extraction."
+    },
+    {
+      "id": 15,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 3-year-old girl ingests a button battery (disc battery) 1 hour ago. Plain abdominal X-ray confirms the battery is lodged in the mid-esophagus with a characteristic 'double-ring' (halo) sign. What is the required management?",
+      "options": [
+        "Observe for 24 hours to allow spontaneous passage",
+        "Immediate endoscopic removal",
+        "Administer oral syrup of ipecac",
+        "Give 200 mL of oral milk",
+        "Repeat X-ray in 12 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "A button battery lodged in the esophagus is a critical emergency requiring immediate endoscopic removal because mucosal contact causes tissue hydrolysis and liquefactive necrosis, leading to perforation/fistula within 2 hours."
+    },
+    {
+      "id": 16,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 2-year-old child ingests a small US quarter coin. An AP chest X-ray shows the circular coin oriented in the coronal plane at the upper esophagus. The child is completely asymptomatic and drinking fluids normally. What is the recommended management?",
+      "options": [
+        "Immediate emergency rigid esophagoscopy",
+        "Observation and repeat X-ray in 12-24 hours if coin remains in esophagus",
+        "Blind Foley catheter extraction",
+        "Oral administration of mineral oil",
+        "Endoscopic push into stomach"
+      ],
+      "correctIndex": 1,
+      "explanation": "An asymptomatic smooth coin in the esophagus can be observed for 12-24 hours as up to 30-50% pass spontaneously into the stomach. If retained beyond 24 hours or if symptoms develop, endoscopic removal is performed."
+    },
+    {
+      "id": 17,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 3-year-old boy accidentally swallows an alkaline drain cleaner (sodium hydroxide). He has severe oral pain and drooling. What is the most important initial management step?",
+      "options": [
+        "Induce vomiting with syrup of ipecac",
+        "Neutralize with dilute lemon juice or vinegar",
+        "Airway assessment and IV fluid resuscitation without inducing emesis or oral fluids",
+        "Administer activated charcoal",
+        "Perform immediate gastric lavage"
+      ],
+      "correctIndex": 2,
+      "explanation": "In caustic alkali ingestion, emesis and neutralizing agents are strictly contraindicated because re-exposure causes further esophageal liquefactive thermal/chemical injury. Airway assessment and IV fluids are paramount, followed by early endoscopy."
+    },
+    {
+      "id": 18,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 4-year-old girl ingests 20 tablets of paracetamol (400 mg/kg) 2 hours ago. What is the antidote of choice, and what nomogram guides its administration after 4 hours?",
+      "options": [
+        "Atropine; Rumack-Matthew nomogram",
+        "N-acetylcysteine (NAC); Rumack-Matthew nomogram",
+        "Pralidoxime; King's College criteria",
+        "Deferoxamine; Poisoning Severity Score",
+        "Naloxone; Matthew nomogram"
+      ],
+      "correctIndex": 1,
+      "explanation": "N-acetylcysteine (NAC) replenishes hepatic glutathione stores and is the specific antidote for paracetamol hepatotoxicity. Treatment decisions after 4 hours post-ingestion are guided by the Rumack-Matthew nomogram."
+    },
+    {
+      "id": 19,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 2-year-old boy ingests kerosene (a hydrocarbon solvent). He has coughing and drooling. Chest X-ray at 6 hours shows bilateral basilar chemical pneumonitis. Which intervention is strictly CONTRAINDICATED?",
+      "options": [
+        "Supplemental humidified oxygen",
+        "Gastric lavage and induced emesis",
+        "Intravenous fluid hydration",
+        "Continuous pulse oximetry monitoring",
+        "Arterial blood gas analysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gastric lavage and emesis are strictly contraindicated in hydrocarbon ingestion because aspiration of volatile hydrocarbons during vomiting causes severe necrotizing chemical pneumonitis."
+    },
+    {
+      "id": 20,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 5-year-old child presents with profuse salivation, lacrimation, urination, diarrhea, muscle fasciculations, and bradycardia after accidental exposure to an agricultural pesticide. What is the primary initial pharmacological antidote?",
+      "options": [
+        "Atropine sulfate",
+        "Flumazenil",
+        "Naloxone",
+        "Sodium bicarbonate",
+        "Fomepizole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Organophosphate toxicity causes acute cholinergic crisis (SLUDGE/DUMBBELS). High-dose Atropine sulfate is the primary antidote to reverse life-threatening muscarinic symptoms (bronchospasm, secretions), paired with Pralidoxime (2-PAM)."
+    },
+    {
+      "id": 21,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "According to Advanced Trauma Life Support (ATLS) pediatric guidelines, what is the initial fluid resuscitation bolus for a child in hypovolemic shock following blunt abdominal trauma?",
+      "options": [
+        "10 mL/kg of 5% Dextrose",
+        "20 mL/kg of isotonic crystalloid (0.9% Normal Saline or Ringer's Lactate)",
+        "40 mL/kg of 20% Albumin",
+        "10 mL/kg of Packed Red Blood Cells",
+        "50 mL/kg of Hypertonic Saline"
+      ],
+      "correctIndex": 1,
+      "explanation": "The standard initial bolus for pediatric trauma resuscitation in hypovolemic shock is 20 mL/kg of warm isotonic crystalloid (0.9% Normal Saline or Ringer's Lactate), repeated up to 2-3 times if signs of shock persist."
+    },
+    {
+      "id": 22,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 7-year-old boy involved in a motor vehicle accident is hemodynamically stable. Focused Assessment with Sonography for Trauma (FAST) shows a small amount of fluid around the spleen. CT scan confirms a Grade II splenic laceration. What is the preferred management?",
+      "options": [
+        "Immediate emergency splenectomy",
+        "Non-operative management with bed rest and serial abdominal exams",
+        "Splenorrhaphy",
+        "Immediate prophylactic penicillin administration",
+        "Embolization of celiac axis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Over 90-95% of blunt splenic and hepatic injuries in hemodynamically stable pediatric trauma patients are successfully managed non-operatively with ICU monitoring, strict bed rest, and serial hemoglobin measurements."
+    },
+    {
+      "id": 23,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 6-month-old infant is brought to the ED with lethargy and poor feeding. Examination reveals a bulging anterior fontanelle, retinal hemorrhages on fundoscopy, and bilateral subdural hematomas on head CT without external signs of trauma. What is the diagnosis?",
+      "options": [
+        "Accidental fall from bed",
+        "Non-Accidental Trauma (Abusive Head Trauma / Shaken Baby Syndrome)",
+        "Congenital hydrocephalus",
+        "Vitamin K deficiency bleeding",
+        "Meningococcal meningitis"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic triad of abusive head trauma (Shaken Baby Syndrome) consists of encephalopathy/lethargy, subdural hematomas, and extensive retinal hemorrhages. Mandatory child protection notification is required."
+    },
+    {
+      "id": 24,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 3-year-old child weighing 15 kg sustains partial-thickness scalding burns over 20% of total body surface area (TBSA). Using the Parkland formula (4 mL/kg/%TBSA), what is the total fluid requirement in the first 24 hours?",
+      "options": [
+        "600 mL",
+        "1,200 mL",
+        "2,400 mL",
+        "3,000 mL",
+        "4,800 mL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parkland formula = 4 mL x weight (kg) x %TBSA burn = 4 x 15 kg x 20 = 1,200 mL of Ringer's Lactate over 24 hours (half given in first 8 hours, remaining half over next 16 hours), plus maintenance fluids."
+    },
+    {
+      "id": 25,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "According to PECARN head trauma rules, which of the following pediatric patients (<2 years old) has a low risk for clinically important traumatic brain injury (ciTBI) and does NOT require an immediate head CT?",
+      "options": [
+        "GCS score of 14",
+        "Palpable skull fracture",
+        "Normal mental status (GCS 15), no scalp hematoma non-frontal, acting normally per parents",
+        "Worsening lethargy and altered acting",
+        "Loss of consciousness >5 seconds"
+      ],
+      "correctIndex": 2,
+      "explanation": "PECARN rules classify children <2 years with GCS 15, normal behavior, no palpable skull fracture, and no non-frontal scalp hematoma as very low risk (<0.02%) for ciTBI, avoiding CT radiation."
+    },
+    {
+      "id": 26,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A newborn infant presents immediately after birth with excessive salivation, frothing at the mouth, and coughing. Attempt to pass a nasogastric tube fails as it coils in the upper chest. What associated structural anomaly group should be screened for?",
+      "options": [
+        "CHARGE syndrome",
+        "VACTERL association",
+        "Pierre Robin sequence",
+        "Potter sequence",
+        "Alagille syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Esophageal atresia with distal tracheoesophageal fistula (TEF) is associated with VACTERL anomalies in 50% of cases (Vertebral, Anal atresia, Cardiac defects, TEF, Renal anomalies, Limb defects)."
+    },
+    {
+      "id": 27,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A newborn delivered in severe respiratory distress has a scaphoid abdomen and absent left-sided breath sounds with bowel sounds heard in the left hemithorax. What is the immediate stabilization step in the delivery room?",
+      "options": [
+        "Bag-valve-mask ventilation",
+        "Immediate endotracheal intubation and nasogastric tube placement",
+        "High-flow nasal cannula oxygen",
+        "Needle thoracostomy in 2nd intercostal space",
+        "Immediate chest tube placement"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Congenital Diaphragmatic Hernia (CDH), bag-valve-mask ventilation is strictly CONTRAINDICATED because it distends herniated stomach/bowel in the chest, worsening lung compression. Immediate endotracheal intubation and NGT decompression are mandatory."
+    },
+    {
+      "id": 28,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 2-year-old boy presents with painless, massive dark red (maroon-colored) rectal bleeding. He is pale but afebrile and abdominal exam is non-tender. Technetium-99m pertechnetate scintigraphy scan shows localized uptake in the right lower quadrant. What is the diagnosis?",
+      "options": [
+        "Meckel Diverticulum",
+        "Intussusception",
+        "Juvenile polyposis",
+        "Ulcerative colitis",
+        "Henoch-Schönlein Purpura"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meckel diverticulum (vitelline duct remnant) contains ectopic gastric mucosa in 50% of symptomatic cases, causing acid-induced ulceration of adjacent ileum and painless maroon rectal bleeding. The Technetium-99m scan is diagnostic."
+    },
+    {
+      "id": 29,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 6-month-old infant presents with a 1.5 cm soft, reducible bulge at the umbilicus covered by intact skin. The hernia protrudes during crying. What is the recommended management?",
+      "options": [
+        "Immediate surgical herniorrhaphy",
+        "Strapping the hernia with adhesive tape",
+        "Observation as most close spontaneously by 4-5 years of age",
+        "Diagnostic laparoscopy",
+        "Manual reduction under sedation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pediatric umbilical hernias result from incomplete closure of the umbilical ring. Over 80-90% close spontaneously by 4-5 years of age. Surgery is indicated only if persistent >4-5 years, defect >2 cm, or incarcerated."
+    },
+    {
+      "id": 30,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Contrast Gastroschisis with Omphalocele. Which feature is characteristic of Gastroschisis?",
+      "options": [
+        "Defect located midline through umbilical cord insertion",
+        "Eviscerated bowel covered by protective peritoneal sac",
+        "Abdominal wall defect located lateral (usually right) to umbilicus without a protective sac",
+        "High association with Beckwith-Wiedemann syndrome",
+        "Low maternal serum alpha-fetoprotein (AFP)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gastroschisis features a full-thickness abdominal defect to the right of intact umbilicus with exposed bowel floating in amniotic fluid without a protective membrane. Omphalocele occurs midline with a sac."
+    },
+    {
+      "id": 31,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "In pediatric hospital safety, weight-based drug dosage calculation errors represent a major source of adverse drug events. What is a key system-level prevention strategy?",
+      "options": [
+        "Relying on verbal drug orders",
+        "Mandatory dual independent verification of weight-based pediatric dosages",
+        "Stocking concentrated drug vials on pediatric wards",
+        "Discontinuing electronic prescribing systems",
+        "Estimating patient weight by visual appearance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pediatric weight-based dosing carries a high risk of 10-fold calculation errors. Mandatory dual independent verification by two clinicians for high-alert medications is a critical safety prevention protocol."
+    },
+    {
+      "id": 32,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is recognized globally as the single most effective intervention for preventing healthcare-associated infections (HAIs) in pediatric inpatient wards?",
+      "options": [
+        "Routine prophylactic IV antibiotics for all admitted patients",
+        "Rigorous hand hygiene (alcohol rub or soap and water) before and after patient contact",
+        "Continuous UV light disinfection in wards",
+        "Routine daily blood cultures",
+        "Restricting parent visits to 1 hour daily"
+      ],
+      "correctIndex": 1,
+      "explanation": "Proper hand hygiene compliant with WHO 5 Moments is the single most effective, low-cost intervention to prevent nosocomial transmission of multidrug-resistant pathogens in pediatric healthcare settings."
+    },
+    {
+      "id": 33,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "In mass casualty disaster management, what pediatric-specific triage system evaluates ambulatory status, breathing rate (15-45/min), pulse, and AVPU neurological status?",
+      "options": [
+        "START Triage",
+        "JumpSTART Pediatric Triage",
+        "ESI Triage System",
+        "Manchester Triage",
+        "Pediatric Early Warning Score (PEWS)"
+      ],
+      "correctIndex": 1,
+      "explanation": "JumpSTART is an objective disaster triage tool specifically designed for pediatric mass casualty victims aged 1-8 years, incorporating age-appropriate respiratory rates and rescue breathing decisions."
+    },
+    {
+      "id": 34,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "In chemical disaster response, what initial step performed during patient extrication removes up to 80-90% of external liquid chemical contamination?",
+      "options": [
+        "Copious water flushing for 30 minutes",
+        "Removal of all contaminated clothing",
+        "Application of activated charcoal powder",
+        "Administering systemic antidotes",
+        "Oxygen hyperbaric therapy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Removing all outer clothing during chemical contamination removes 80-90% of volatile or liquid chemical agents on skin/fabric before formal water decontamination."
+    },
+    {
+      "id": 35,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 6-year-old child is bitten by a venomous pit viper on the right foot. The foot is swollen and painful. What is the appropriate initial emergency field management?",
+      "options": [
+        "Apply a tight arterial tourniquet proximal to bite",
+        "Make local skin incisions and suck out venom",
+        "Immobilize the affected limb with a splint at heart level and transport urgently",
+        "Apply ice packs directly to bite site",
+        "Administer oral aspirin for pain relief"
+      ],
+      "correctIndex": 2,
+      "explanation": "Field management of snake envenomation requires splinting/immobilization of the bitten limb at heart level to delay lymphatic spread, reassurance, and urgent transport. Tourniquets, incision/suction, and ice are dangerous and contraindicated."
+    },
+    {
+      "id": 36,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 4-year-old child suffers a submersion injury (near-drowning) in a swimming pool and is brought to shore unresponsive and apneic. What is the priority resuscitation sequence?",
+      "options": [
+        "Chest compressions only (CAB approach)",
+        "Immediate 5 rescue breaths followed by CPR (ABC approach prioritising ventilation)",
+        "Abdominal thrusts (Heimlich maneuver) to drain water",
+        "Positioning child upside down",
+        "Defibrillation prior to CPR"
+      ],
+      "correctIndex": 1,
+      "explanation": "Submersion injuries cause primary hypoxic cardiac arrest. Resuscitation MUST prioritize ventilation (5 initial rescue breaths followed by 15:2 CPR in children) to reverse severe arterial hypoxemia."
+    },
+    {
+      "id": 37,
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "A 10-year-old boy presents with right lower quadrant abdominal pain, fever, and anorexia. On exam, pressing on the left lower quadrant elicits pain in the right lower quadrant. What is the name of this physical exam sign?",
+      "options": [
+        "McBurney sign",
+        "Rovsing sign",
+        "Psoas sign",
+        "Obturator sign",
+        "Murphy sign"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rovsing sign is positive when palpation of the left lower quadrant causes referred pain in the right lower quadrant, indicating localized peritoneal irritation in acute appendicitis."
+    }
+  ],
   "Final Part 2 Surgery - Surgery Module 10": [
     {
       "id": 6,

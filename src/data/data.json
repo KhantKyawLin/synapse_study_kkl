@@ -10816,6 +10816,281 @@
       "answer": "Bowman's Capsule."
     },
     {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the peak age of incidence for intussusception in pediatric patients?",
+      "answer": "3 to 12 months"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which preceding infection frequently triggers intussusception by causing Peyer's patch hypertrophy?",
+      "answer": "Viral adenoviral illness"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the gold-standard initial imaging modality for diagnosing pediatric intussusception?",
+      "answer": "Abdominal Ultrasound"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What classic sign is seen on transverse abdominal ultrasound in a patient with intussusception?",
+      "answer": "Target sign (or Donut sign)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What classic sign is seen on longitudinal abdominal ultrasound in intussusception?",
+      "answer": "Pseudokidney sign"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the first-line non-operative definitive treatment for intussusception in the absence of peritonitis or shock?",
+      "answer": "Pneumatic (air) or hydrostatic contrast reduction under fluoroscopic or ultrasound guidance"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What radiological finding on a contrast barium enema indicates an intussusception causing intestinal obstruction?",
+      "answer": "Claw sign (or cup-shaped filling defect / meniscus sign)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the most common anatomical form of intussusception in infants?",
+      "answer": "Ileocolic intussusception"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the approximate success rate of pneumatic or hydrostatic reduction for intussusception?",
+      "answer": "$>80\\text{--}90\\%$"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which clinical findings strictly contraindicate non-operative pneumatic reduction for intussusception?",
+      "answer": "Peritonitis, shock, or evidence of intestinal perforation"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Clinical photo of a newborn baby with a visibly distended and discolored abdomen What serious neonatal intestinal emergency is characterized by bowel wall ischemia, distended abdomen, and rapid deterioration as shown above?",
+      "answer": "Necrotizing Enterocolitis (NEC)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which infant population is predominantly affected by Necrotizing Enterocolitis (NEC)?",
+      "answer": "Preterm infants in the first weeks of life"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What three primary factors contribute to the etiology of Necrotizing Enterocolitis?",
+      "answer": "Ischemia of the bowel wall, infecting organisms, and milk feeding"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What are the immediate initial treatment steps when Necrotizing Enterocolitis is suspected in a neonate?",
+      "answer": "Stop oral feeding (NPO) and administer IV broad-spectrum antibiotics"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What clinical features characterize Bell's Stage I (Suspected) Necrotizing Enterocolitis?",
+      "answer": "Abdominal distension, gastric residuals (aspirated milk), lethargy, and normal or ileus X-ray"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What pathognomonic radiological sign confirms Bell's Stage II (Definite) Necrotizing Enterocolitis?",
+      "answer": "Pneumatosis intestinalis (and/or portal venous gas)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which systemic laboratory abnormalities typically appear in Bell's Stage II Necrotizing Enterocolitis?",
+      "answer": "Metabolic acidosis and thrombocytopenia"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What radiological finding defines Bell's Stage III (Advanced/Perforated) Necrotizing Enterocolitis?",
+      "answer": "Pneumoperitoneum"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Name two classic abdominal X-ray signs that indicate pneumoperitoneum in advanced pediatric NEC.",
+      "answer": "Rigler's sign and the Football sign"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What intervention is required for Bell's Stage III Necrotizing Enterocolitis?",
+      "answer": "Emergency surgical laparotomy"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the most common surgical condition in infancy?",
+      "answer": "Inguinal hernia"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "How does an pediatric inguinal hernia typically present clinically?",
+      "answer": "As an intermittent swelling in the inguinal region or scrotum noticed during crying or straining"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Why should surgical repair of an pediatric inguinal hernia be performed as soon as possible after diagnosis?",
+      "answer": "To prevent the high risk of incarceration and strangulation"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "List two differential diagnoses for acute abdominal pain in infants and toddlers.",
+      "answer": "Intussusception and strangulated inguinal hernia (or acute appendicitis, midgut volvulus)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "In a child presenting with bilious vomiting, distension, and severe pain, what are two major surgical complications of untreated intestinal inflammation or infection?",
+      "answer": "Peritonitis and intestinal perforation"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which diagnostic blood tests assist in identifying enteric fever in a pediatric abdominal presentation?",
+      "answer": "Full blood count (CP), Widal test, and blood culture"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What pressure profile is characteristically observed on cardiac catheterization in Tetralogy of Fallot?",
+      "answer": "Right ventricular systolic pressure is equal to LV pressure, while pulmonary artery pressure is markedly reduced."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What determines systemic arterial oxygen saturation in Tetralogy of Fallot?",
+      "answer": "The magnitude of the right-to-left intra-cardiac shunt"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What non-pharmacological physical maneuver is the immediate first step when managing a hypercyanotic spell in an infant?",
+      "answer": "Calming the infant and placing them on their abdomen in the knee-chest position"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What concentration of oxygen should be administered during an acute hypercyanotic spell?",
+      "answer": "100% oxygen via mask"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What intravenous medication is administered to manage an acute hypercyanotic spell in Tetralogy of Fallot?",
+      "answer": "IV Propranolol ($0.1\\text{--}0.2\\text{ mg/kg}$)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What oral maintenance dosage of propranolol is used for prophylaxis against hypercyanotic spells?",
+      "answer": "$0.5\\text{--}1\\text{ mg/kg/dose}$ 2 to 3 times daily"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the initial management strategy for an asymptomatic Patent Ductus Arteriosus (PDA) in a preterm infant?",
+      "answer": "Conservative observation to wait for spontaneous ductal closure"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which intravenous medication is indicated for pharmacologic closure of a symptomatic Patent Ductus Arteriosus in a preterm infant?",
+      "answer": "IV Indomethacin ($0.1\\text{ mg/kg/day}$ for 3 doses)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the recommended surgical timing for repair of a Patent Ductus Arteriosus (PDA)?",
+      "answer": "As soon as diagnosis is established, preferably before 1 year of age"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What standard surgical procedure is performed to correct a Patent Ductus Arteriosus?",
+      "answer": "Surgical ligation and division of the ductus via a left thoracotomy"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which clinical presentation in a child requires urgent dilated indirect ophthalmoscopy under general anesthesia?",
+      "answer": "Leukocoria (white pupillary reflex), new-onset strabismus, or abnormal red reflex"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Why is Fine Needle Aspiration Biopsy (FNAB) strictly contraindicated in suspected retinoblastoma?",
+      "answer": "It poses a high risk of extraocular tumor seeding along the needle tract."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Within what timeframe should urgent examination under anesthesia be conducted for suspected retinoblastoma?",
+      "answer": "Within 1 to 2 weeks"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What immunopathologic abnormality defines Henoch-Schönlein Purpura (IgA Vasculitis)?",
+      "answer": "Deposition of IgA1-containing immune complexes in small blood vessels"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "How does the platelet count distinguish Henoch-Schönlein Purpura from idiopathic thrombocytopenic purpura (ITP)?",
+      "answer": "Platelet count is normal or elevated in HSP, whereas it is severely reduced in ITP."
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What organ involvement determines the long-term prognosis in Henoch-Schönlein Purpura?",
+      "answer": "Severity of renal involvement (IgA nephritis)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What serial monitoring routine is required for a child diagnosed with HSP?",
+      "answer": "Serial urinalysis and blood pressure measurements for at least 6 to 12 months"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "How is Late-Onset Neonatal Sepsis (LOS) defined temporally?",
+      "answer": "Sepsis presenting after 72 hours of life"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the predominant bacterial organism causing Late-Onset Neonatal Sepsis?",
+      "answer": "Coagulase-Negative Staphylococci (*Staphylococcus epidermidis*)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Name three pathogens besides CoNS implicated in Late-Onset Neonatal Sepsis.",
+      "answer": "*Staphylococcus aureus*, Gram-negative enteric bacilli (*E. coli*, *Klebsiella*), and Group B *Streptococcus*"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What duration defines an acute pediatric fever in clinical history taking?",
+      "answer": "Fever lasting less than 7 days"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What fever pattern is classic for pediatric Dengue infection?",
+      "answer": "High continuous fever"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "List three clinical warning signs in a pediatric patient with suspected Dengue.",
+      "answer": "Reduced feeding, bleeding manifestations, and severe abdominal pain / persistent vomiting"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "On which specific day of the Dengue disease course must warning signs be monitored most closely?",
+      "answer": "On the day of defervescence (when fever subsides)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What is the clinical purpose of performing the Hess test (tourniquet test) in fever evaluation?",
+      "answer": "To evaluate capillary fragility and assess likelihood of Dengue infection"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What count of petechiae per square inch was traditionally required to consider a Hess test positive?",
+      "answer": "$>20$ petechiae per square inch ($\\ge 10$ is now also considered positive)"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "What are the pooled sensitivity and specificity of the Hess test for diagnosing Dengue?",
+      "answer": "Sensitivity of 58% and specificity of 71%"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "During which phase of illness does the Dengue NS1 Ag test yield its highest positivity rate?",
+      "answer": "During the first 2 days of fever"
+    },
+    {
+      "category": "Final Part 2 Paediatrics - Paediatrics Module 7",
+      "question": "Which laboratory parameter must be checked before fluid resuscitation in a Group B2 Dengue patient?",
+      "answer": "Hematocrit (Hct) / Complete Blood Count (CBC)"
+    },
+    {
       "category": "Final Part 2 Surgery - Surgery Module 10",
       "question": "How is wound healing defined physiologically?",
       "answer": "The global response of an organism to physical tissue disruption aimed at re-establishing tissue homeostasis and stabilizing whole-body physiology."

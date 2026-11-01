@@ -3771,6 +3771,228 @@
       ]
     }
   ],
+  "Final Part 2 - Paediatrics Module 7 Database": [
+    {
+      "Name": "Hypertrophic Pyloric Stenosis (HPS)",
+      "Tag": "Gastrointestinal Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Hypertrophy of circular muscle of pylorus peaking in male infants 3-6 weeks of age"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Progressive luminal narrowing of pyloric canal causing gastric outlet obstruction and severe emesis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Non-bilious projectile vomiting after feeds olive-shaped RUQ mass; Red Flags: Severe dehydration hypokalemia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum chemistry: hypochloremic hypokalemic metabolic alkalosis Abdominal US pyloric thickness >=4mm; Ramstedt pyloromyotomy"
+        }
+      ]
+    },
+    {
+      "Name": "Intussusception",
+      "Tag": "Gastrointestinal Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Invagination of proximal bowel into distal lumen (ileocolic most common) in infants 3-12 months"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bowel wall edema vascular compromise mucosal sloughing intestinal obstruction and potential perforation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Paroxysmal colicky abdominal pain screaming with legs drawn up sausage-shaped RUQ mass red currant jelly stool"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Abdominal Ultrasound target/doughnut sign; Ultrasound-guided Air or Hydrostatic Contrast Enema reduction"
+        }
+      ]
+    },
+    {
+      "Name": "Malrotation with Midgut Volvulus",
+      "Tag": "Surgical Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Anomalous intestinal rotation and fixation during embryogenesis resulting in narrow mesenteric root"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Twisting of bowel around superior mesenteric artery causing acute ischemia and total intestinal necrosis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden onset of bilious (green) vomiting in a neonate abdominal distension hematochezia shock; Red Flags: Peritonitis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Upper GI contrast series showing corkscrew sign and Cecum in RUQ; Immediate emergency Ladd Procedure"
+        }
+      ]
+    },
+    {
+      "Name": "Hirschsprung Disease",
+      "Tag": "Congenital GI Disorder",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Congenital aganglionosis of distal bowel due to failure of neural crest cell migration"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Absence of parasympathetic ganglion cells in myenteric and submucosal plexuses preventing distal relaxation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Failure to pass meconium <48h abdominal distension bilious vomiting blast sign on DRE; Red Flags: Enterocolitis (HAEC)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Abdominal X-ray contrast enema transition zone; Gold Standard: Suction Rectal Biopsy showing no ganglion cells"
+        }
+      ]
+    },
+    {
+      "Name": "Incarcerated Inguinal Hernia",
+      "Tag": "Groin / Scrotal Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Persistent patent processus vaginalis allowing abdominal contents to herniate into inguinal canal"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Entrapment of bowel loop within hernia sac causing venous congestion ischemia and strangulation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painful tender non-reducible groin/scrotal swelling vomiting irritability; Red Flags: Strangulation peritonitis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis pelvic ultrasound; Manual reduction under sedation if uncomplicated -> Elective surgical repair"
+        }
+      ]
+    },
+    {
+      "Name": "Foreign Body Aspiration",
+      "Tag": "Airway Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accidental inhalation of foreign object (peanuts seeds small toys) into tracheobronchial tree in toddlers"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical airway obstruction causing air-trapping atelectasis or distal suppurative pulmonary infection"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden choking paroxysmal cough unilateral monophonic expiratory wheeze diminished breath sounds; Red Flags: Asphyxia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Expiratory CXR showing unilateral hyperinflation/atelectasis; Rigid Bronchoscopy under general anesthesia"
+        }
+      ]
+    },
+    {
+      "Name": "Button Battery Ingestion",
+      "Tag": "Toxicological Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accidental ingestion of disc/button batteries peaking in children <5 years of age"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mucosal contact generates electrical current and hydroxide ions causing rapid liquefactive tissue necrosis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dysphagia drooling chest pain refusal to eat; Red Flags: Esophageal perforation tracheoesophageal fistula"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "AP/lateral X-ray showing double-ring/halo sign; Immediate Emergency Endoscopic Removal within 2 hours"
+        }
+      ]
+    },
+    {
+      "Name": "Organophosphate Poisoning",
+      "Tag": "Chemical Ingestion",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accidental exposure or ingestion of organophosphate agricultural insecticides"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inhibition of acetylcholinesterase enzyme causing acute acetylcholine accumulation and cholinergic crisis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Salivation lacrimation urination defecation GI distress emesis (SLUDGE) miosis bradycardia muscle fasciculations"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum cholinesterase level blood atropinization test; High-dose Atropine Sulfate + Pralidoxime (2-PAM)"
+        }
+      ]
+    },
+    {
+      "Name": "Paracetamol (Acetaminophen) Toxicity",
+      "Tag": "Drug Overdose",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Accidental or intentional acute ingestion of paracetamol >150 mg/kg in children"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Depletion of hepatic glutathione leads to accumulation of toxic reactive metabolite NAPQI causing hepatocyte necrosis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Nausea vomiting right upper quadrant pain jaundice oliguria; Red Flags: Acute liver failure encephalopathy"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum paracetamol level plotted on Rumack-Matthew nomogram (>4h post-ingestion) LFTs INR; Intravenous N-acetylcysteine (NAC)"
+        }
+      ]
+    },
+    {
+      "Name": "Abusive Head Trauma (Shaken Baby)",
+      "Tag": "Non-Accidental Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Violent shaking or blunt impact in infants <1 year causing acceleration-deceleration forces"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Tearing of bridging meningeal veins and cerebral shear injury causing subdural hemorrhage and diffuse axonal damage"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Encephalopathy lethargy bulging fontanelle retinal hemorrhages seizures; Red Flags: Unexplained coma skeletal fractures"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Non-contrast CT head showing subdural hematomas skeletal survey fundoscopy; Mandatory Child Protection Reporting"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Surgery Module 10 Database": [
     {
       "Name": "Thermal Burns & TBSA Calculation",
