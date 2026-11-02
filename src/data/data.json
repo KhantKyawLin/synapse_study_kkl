@@ -8641,6 +8641,381 @@
       "answer": "The synovium (synovial membrane) is the primary target site in Rheumatoid Arthritis, whereas the enthesis (insertion of tendon/ligament into bone) is the primary target site in Spondyloarthritis."
     },
     {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "By what gestational age should a pregnant woman's initial booking appointment take place?",
+      "answer": "By $10+0$ weeks of pregnancy."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How many routine antenatal appointments are scheduled for a nulliparous woman versus a parous woman?",
+      "answer": "10 routine appointments for nulliparous women; 7 routine appointments for parous women."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended visit frequency for routine antenatal appointments between 28 and 36 weeks of gestation?",
+      "answer": "Every 2 weeks."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended visit frequency for routine antenatal appointments after 36 weeks of gestation until term?",
+      "answer": "Weekly."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended total weight gain during pregnancy for a woman with a normal booking BMI ($18.5\\text{--}24.9\\text{ kg/m}^2$)?",
+      "answer": "$11\\text{--}16\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended total weight gain during pregnancy for an overweight woman ($\text{BMI } 25\\text{--}29.9\\text{ kg/m}^2$)?",
+      "answer": "$7\\text{--}11\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended total weight gain during pregnancy for an obese woman ($\text{BMI} \\ge 30\\text{ kg/m}^2$)?",
+      "answer": "$5\\text{--}9\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How is anaemia defined by haemoglobin level in the first trimester of pregnancy?",
+      "answer": "Haemoglobin $(\\text{Hb}) < 110\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How is anaemia defined by haemoglobin level in the second and third trimesters of pregnancy?",
+      "answer": "Haemoglobin $(\\text{Hb}) < 105\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How is anaemia defined by haemoglobin level in the postpartum period?",
+      "answer": "Haemoglobin $(\\text{Hb}) < 100\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "At what gestational period is gestational thrombocytopaenia most commonly detected?",
+      "answer": "Beyond 28 weeks' gestation (it rarely presents in the first trimester)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Within what time frame following a potentially sensitizing event should anti-D immunoglobulin be administered to Rhesus D-negative women?",
+      "answer": "As soon as possible, and always within 72 hours of the event."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Under what four conditions is anti-D prophylaxis indicated in pregnancies under 12 weeks' gestation?",
+      "answer": "1. Ectopic pregnancy\n2. Molar pregnancy\n3. Therapeutic termination of pregnancy\n4. Uterine bleeding that is repeated, heavy, or accompanied by abdominal pain"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the minimum recommended dose of anti-D immunoglobulin for potentially sensitizing events occurring before 20 weeks' gestation?",
+      "answer": "$250\\text{ IU}$ (a test for feto-maternal haemorrhage is not required)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "At what gestational age is routine prophylactic anti-D administration offered to Rhesus D-negative women?",
+      "answer": "At 28 weeks' gestation (given either as a single large dose at 28 weeks or as two doses at 28 and 34 weeks)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What screening tools are routinely used at the booking visit in the UK to identify women at risk for thalassaemia?",
+      "answer": "Family Origin Questionnaire (FOQ) and/or Full Blood Count (FBC) results."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What management is offered during pregnancy to a woman identified as rubella non-immune?",
+      "answer": "Advise her to avoid contact with infected individuals during pregnancy, and offer combined MMR vaccination postpartum (MMR is contraindicated during pregnancy)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What spirochaete bacterium is the causative agent of syphilis?",
+      "answer": "*Treponema pallidum*"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "In the absence of preventive measures, what percentage of neonates born to mothers with active Hepatitis B virus will contract chronic infection?",
+      "answer": "$90\\%$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What prophylactic measures must an infant born to an active Hepatitis B mother receive within the first 12 hours of life?",
+      "answer": "Hepatitis B vaccine and one dose of Hepatitis B immune globulin (HBIG)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "At what ages are additional Hepatitis B vaccine doses required for an infant born to a Hepatitis B-infected mother after the birth dose?",
+      "answer": "At 1 month and 6 months of age."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What does the detection of Hepatitis B surface antibody (HBsAb or anti-HBs) indicate?",
+      "answer": "Immunity to Hepatitis B."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What serological marker indicates active Hepatitis B virus circulating in maternal blood?",
+      "answer": "Hepatitis B surface antigen (HBsAg)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the vertical transmission risk of Hepatitis C, and how high can it rise with HIV co-infection?",
+      "answer": "Baseline risk is approximately $5\\%$; it increases up to $36\\%$ with HIV co-infection."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What three interventions minimize vertical transmission of HIV during pregnancy and delivery?",
+      "answer": "1. Initiation of Antiretroviral Therapy (ART) by 24 weeks' gestation if ART-naive\n2. Planned elective caesarean section if viral load $\\ge 400\\text{ HIV RNA copies/mL}$ at 36 weeks\n3. Exclusive formula feeding from birth"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "When should screening be re-offered to a pregnant woman who declines initial HIV screening at booking?",
+      "answer": "At 28 weeks' gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What gestational age window and Crown-Rump Length (CRL) range are optimal for first trimester ultrasound dating?",
+      "answer": "Gestational age: $11+3$ to $13+6$ weeks; CRL: $45\\text{ to }84\\text{ mm}$."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How do maternal free $\\beta$-hCG and PAPP-A serum concentrations alter in trisomy 21 (Down syndrome) pregnancies?",
+      "answer": "Free $\\beta$-hCG concentration is higher; PAPP-A concentration is lower."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Which fetal biometric measurement is used to date a pregnancy between 14 and 20 weeks' gestation?",
+      "answer": "Head Circumference (HC)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the standard gestational age window for performing the second trimester fetal anomaly ultrasound scan?",
+      "answer": "$18+0$ to $20+6$ weeks (or up to $20\\text{--}22$ weeks)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What four serum analytes comprise the second trimester Quadruple test?",
+      "answer": "1. Maternal Alpha-fetoprotein (AFP)\n2. Human Chorionic Gonadotrophin (hCG)\n3. Unconjugated Oestriol ($\\text{uE}_3$)\n4. Inhibin A"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What prophylactic medication and daily dose should be initiated early in pregnancy for women at high risk of developing pre-eclampsia?",
+      "answer": "Low-dose aspirin ($75\\text{ mg}$) daily until delivery."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What maternal high-risk conditions automatically qualify a pregnant woman for aspirin prophylaxis against pre-eclampsia?",
+      "answer": "1. Hypertensive disease in a previous pregnancy\n2. Chronic kidney disease\n3. Autoimmune disease (e.g., SLE or antiphospholipid syndrome)\n4. Type 1 or Type 2 diabetes"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How many moderate risk factors are required to justify commencing low-dose aspirin for pre-eclampsia prevention?",
+      "answer": "Two or more moderate risk factors."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What moderate risk factor cutoffs exist for age, pregnancy interval, and BMI regarding pre-eclampsia risk assessment?",
+      "answer": "Advanced maternal age ($> 40$ years); Pregnancy interval $> 10$ years; Booking $\\text{BMI} \\ge 35\\text{ kg/m}^2$."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What clinical screening evaluations for pre-eclampsia must be performed at every routine antenatal visit?",
+      "answer": "Blood pressure measurement and urinalysis for protein."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What four history factors place a pregnant woman at high risk for preterm birth?",
+      "answer": "1. Previous preterm birth\n2. Late miscarriage\n3. Multifetal pregnancy\n4. Previous cervical surgery (e.g., cone biopsy)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the precise definition of a prolonged (post-term) pregnancy?",
+      "answer": "A pregnancy that continues beyond 42 completed weeks ($294$ days), with gestational age confirmed by ultrasound scan in the first trimester (or no later than 16 weeks)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the incidence of prolonged pregnancy in obstetric practice?",
+      "answer": "$5\\text{--}10\\%$ of all pregnancies."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What two key fetal complications are associated with post-term pregnancy?",
+      "answer": "1. Macrosomia (pre-disposing to shoulder dystocia and injury)\n2. Oligohydramnios (resulting in umbilical cord compression)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What proportion of pregnant women undergo Induction of Labour (IOL) in the UK versus developing countries?",
+      "answer": "Approximately $20\\%$ of women in the UK versus $\\sim 6\\%$ of women in developing countries."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the gestational age threshold for Induction of Labour in pregnancy-induced hypertension or pre-eclampsia?",
+      "answer": "Greater than 37 weeks' gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What bile acid concentration and gestational age threshold indicate Induction of Labour in obstetric cholestasis?",
+      "answer": "Bile acids $> 100\\ \\mu\\text{mol/L}$ at $> 37$ weeks' gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended gestational age threshold for Induction of Labour in maternal diabetes?",
+      "answer": "Greater than 40 weeks' gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What gestational age cutoff indicates Induction of Labour in women of advanced maternal age?",
+      "answer": "Greater than 39 weeks' gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What primary consideration must guide offering Induction of Labour to a woman with an uncomplicated pregnancy lasting beyond 41 weeks?",
+      "answer": "Her preference and informed decision."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How is Antepartum Haemorrhage (APH) defined in obstetric lecture material vs RCOG Green-top Guideline No. 63?",
+      "answer": "Lecture slide definition: Vaginal bleeding after 20 weeks' gestation.\nRCOG Guideline definition: Bleeding from or into the genital tract occurring from $24+0$ weeks of pregnancy prior to birth."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What percentage of overall pregnancies are complicated by Antepartum Haemorrhage?",
+      "answer": "$2\\text{--}5\\%$ of pregnancies ($3\\text{--}5\\%$ according to RCOG GTG 63)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What percentage of direct maternal deaths in the UK are caused by obstetric haemorrhage?",
+      "answer": "Approximately $10\\%$ of direct maternal deaths (and up to $50\\%$ worldwide in some countries)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What are the two major placental causes of Antepartum Haemorrhage?",
+      "answer": "Placental abruption and placenta praevia."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What primary fetal etiology causes Antepartum Haemorrhage?",
+      "answer": "Vasa praevia."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What maternal local genital tract conditions cause Antepartum Haemorrhage?",
+      "answer": "Vaginal trauma, cervical ectropion, cervical carcinoma, and vaginal infection."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What proportion of very preterm babies are born in association with Antepartum Haemorrhage?",
+      "answer": "Up to one-fifth ($20\\%$) of very preterm babies."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the primary mechanism explaining the association between Antepartum Haemorrhage and cerebral palsy?",
+      "answer": "Preterm delivery."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the probability of monochorionic twin pregnancies developing Twin-to-Twin Transfusion Syndrome (TTTS)?",
+      "answer": "A $15\\%$ chance."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Compared to singletons, how much higher is the risk of structural abnormalities in each monozygotic twin?",
+      "answer": "Four times higher ($4\\times$)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the incidence rate of pre-eclampsia in twin versus triplet pregnancies?",
+      "answer": "$40\\%$ in twin pregnancies; $60\\%$ in triplet pregnancies."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the approximate incidence of monochorionic monoamniotic twin pregnancy?",
+      "answer": "Approximately $1\\text{ in }10,000$ pregnancies."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the major cause of perinatal mortality in monoamniotic twin pregnancies?",
+      "answer": "Umbilical cord entanglement causing fetal loss or neurological morbidity."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What proportion of surviving monoamniotic twin pairs without congenital anomalies are affected by discordant birthweight?",
+      "answer": "Approximately $20\\%$."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What management procedures are utilized in Fetal Medicine Units for Twin-to-Twin Transfusion Syndrome (TTTS)?",
+      "answer": "1. Serial amniocentesis and fluid reduction (recipient twin)\n2. Intrauterine blood transfusion (donor twin)\n3. Septostomy, selective fetocide, or fetoscopic laser ablation of placental anastomoses"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "According to university exam criteria, do multiple pregnancies predispose to Diabetes Mellitus or extended duration of labour?",
+      "answer": "No; according to course exam keys, multiple pregnancies do NOT predispose to diabetes mellitus, and labour duration is considered normal (not extended)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How does the cervical os state distinguish a threatened miscarriage from an inevitable or incomplete miscarriage?",
+      "answer": "In a threatened miscarriage, the cervical os is CLOSED.\nIn an inevitable or incomplete miscarriage, the cervical os is OPEN."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What transvaginal ultrasound threshold for endometrial thickness/retained products defines a complete miscarriage?",
+      "answer": "An endometrial thickness or retained product measurement of $< 15\\text{ mm}$ with an empty uterus."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Which early pregnancy disorder is classically associated with a 'snowstorm' appearance on ultrasound?",
+      "answer": "Hydatidiform mole (molar pregnancy)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Which functional endometrial layer is shed during normal menstruation?",
+      "answer": "The stratum compactum (along with the stratum spongiosum; representing the upper functional layers)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Why are serial serum $\\beta$-hCG levels unsuitable for establishing accurate pregnancy dating?",
+      "answer": "Serum $\\beta$-hCG levels vary too widely between individuals; first-trimester ultrasound measuring Crown-Rump Length (CRL) is required for dating."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "How does cffDNA testing aid in Rhesus D management during pregnancy?",
+      "answer": "Non-invasive prenatal testing of maternal blood for cell-free fetal DNA determines fetal Rhesus status, avoiding unnecessary anti-D administration in Rh-D negative women carrying Rh-D negative fetuses."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "Why is late ultrasound scan dating beyond 20 weeks' gestation progressively inaccurate?",
+      "answer": "Biological variability in fetal growth driven by genetic and environmental factors increases as gestation advances."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What level of protection does immediate infant Hepatitis B vaccination plus HBIG confer against chronic Hepatitis B infection?",
+      "answer": "Over $95\\%$ protection."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What is the recommended management when cell-free fetal DNA is not used and a Rhesus D-negative woman delivers a Rhesus D-positive baby?",
+      "answer": "Administer anti-D immunoglobulin postpartum once the cord blood sample confirms the baby is Rhesus D-positive."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What ultrasound parameter is used to screen for trisomies in the first trimester combined screening test?",
+      "answer": "Nuchal Translucency (NT) measurement."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What diagnostic investigations are indicated if a pregnant woman presents with vaginal bleeding and severe pain before 12 weeks' gestation?",
+      "answer": "Transvaginal ultrasound (to evaluate location and viability) and anti-D immunoglobulin prophylaxis if Rhesus D-negative ($250\\text{ IU}$ minimum)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What dietary recommendation regarding portion sizes should be given to pregnant women at booking?",
+      "answer": "Do not 'eat for two'; maintain normal portion sizes and try to avoid snacks."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 1",
+      "question": "What diagnostic step must follow a positive Family Origin Questionnaire or low MCV/MCH on screening for thalassaemia?",
+      "answer": "Referral to a fetal medicine unit for specialist counseling and the option of invasive confirmatory testing."
+    },
+    {
       "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
       "question": "What is the primary procedural priority in neonatal resuscitation before commencing chest compressions?",
       "answer": "Effectively delivering air into the lungs (confirmed by visible chest wall movement)."

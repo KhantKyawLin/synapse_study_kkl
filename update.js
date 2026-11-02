@@ -102,6 +102,9 @@ function updateData() {
         } else if (/paediat/i.test(cleanBase)) {
              const modMatch = cleanBase.match(/module[_-]?(\d+)/i);
              defaultCategory = modMatch ? `Final Part 2 Paediatrics - Paediatrics Module ${modMatch[1]}` : 'Final Part 2 Paediatrics - General Paediatrics';
+        } else if (/(?:^|_)og(?:_|$)|obstetric|gynaecol/i.test(cleanBase)) {
+             const modMatch = cleanBase.match(/module[_-]?(\d+)/i);
+             defaultCategory = modMatch ? `Final Part 2 Obstetrics & Gynaecology - Module ${modMatch[1]}` : 'Final Part 2 Obstetrics & Gynaecology';
         } else if (/(?:^|_)gi(?:_|$)|gastro/i.test(cleanBase)) {
              defaultCategory = 'Final Part 2 Medicine - Gastroenterology & Hepatology';
         } else if (parts.length >= 4) {
@@ -234,6 +237,9 @@ function updateDashboardData() {
         } else if (/paediat/i.test(file)) {
             const modMatch = file.match(/module[_-]?(\d+)/i);
             moduleName = modMatch ? `Final Part 2 - Paediatrics Module ${modMatch[1]} Database` : 'Final Part 2 - Paediatrics Database';
+        } else if (/(?:^|_)og(?:_|$)|obstetric|gynaecol/i.test(file)) {
+            const modMatch = file.match(/module[_-]?(\d+)/i);
+            moduleName = modMatch ? `Final Part 2 - Obstetrics & Gynaecology Module ${modMatch[1]} Database` : 'Final Part 2 - Obstetrics & Gynaecology Database';
         }
         let moduleData = [];
 
@@ -380,6 +386,9 @@ function updateQuizData() {
             } else if (/paediat/i.test(rawBase)) {
                 const modMatch = rawBase.match(/module[_-]?(\d+)/i);
                 moduleName = modMatch ? `Final Part 2 Paediatrics - Paediatrics Module ${modMatch[1]}` : 'Final Part 2 Paediatrics - General Paediatrics';
+            } else if (/(?:^|_)og(?:_|$)|obstetric|gynaecol/i.test(rawBase)) {
+                const modMatch = rawBase.match(/module[_-]?(\d+)/i);
+                moduleName = modMatch ? `Final Part 2 Obstetrics & Gynaecology - Module ${modMatch[1]}` : 'Final Part 2 Obstetrics & Gynaecology';
             } else if (/^endocrine[_-]?1$/i.test(rawBase)) {
                 moduleName = 'Endocrine System - Module 1';
             } else if (/^endocrine[_-]?2$/i.test(rawBase)) {

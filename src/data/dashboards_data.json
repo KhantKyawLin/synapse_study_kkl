@@ -2395,6 +2395,470 @@
       ]
     }
   ],
+  "Final Part 2 - Obstetrics & Gynaecology Module 1 Database": [
+    {
+      "Name": "Antenatal Care & Supplementation",
+      "Tag": "Antenatal Care",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Routine care from booking (<10-12wks) to term; Folic acid 400mcg/d (5mg if high risk: DM, anti-epileptics, BMI>30, prior NTD)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Optimizes maternal-fetal outcomes; early detection of pre-eclampsia, anemia, and fetal anomalies"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Asymptomatic screening; Red Flags: severe headache, visual disturbances, reduced fetal movements"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blood group/Rh, FBC, HbA1c, STI/HIV/HBsAg/Syphilis screening, Down screening (Combined test 11-13+6wks)"
+        }
+      ]
+    },
+    {
+      "Name": "Menstrual Cycle Physiology",
+      "Tag": "Physiology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "28-day average cycle; Follicular phase (variable), Ovulatory phase (LH surge), Luteal phase (fixed 14 days)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "GnRH triggers FSH/LH; Estrogen dominant in follicular phase; Progesterone dominant in luteal phase"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Cyclical menses; Mittelschmerz pain during ovulation; premenstrual mastalgia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum Progesterone (Day 21) >30 nmol/L confirms ovulation; LH surge precedes ovulation by 24-36h"
+        }
+      ]
+    },
+    {
+      "Name": "Maternal Pelvis & Fetal Skull",
+      "Tag": "Anatomy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Pelvic types: Gynaecoid (50%, optimal), Android, Anthropoid, Platypelloid. Fetal skull engaging diameter: Suboccipitobregmatic (9.5cm)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pelvic inlet, cavity, and outlet dimensions dictate passage of fetal skull fontanelles during engagement"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Failure of descent, severe moulding (3+), caput succedaneum (3+), Bandl's ring (impending rupture)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pelvic examination; Obstetric conjugate (>11cm); station in fifths palpable; C-section if CPD/Obstruction"
+        }
+      ]
+    },
+    {
+      "Name": "Multiple Pregnancy & TTTS",
+      "Tag": "Antenatal Care",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Dichorionic (DCDA) vs Monochorionic (MCDA); TTTS affects 10-15% of MCDA twins due to deep AV placental vascular anastomoses"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "MCDA vascular shunting causes donor twin oliguria/FGR and recipient twin polyuria/polyhydramnios/heart failure"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fundal height > dates, severe nausea/vomiting; Red Flags: sudden rapid uterine enlargement, acute polyhydramnios"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS chorionicity at 11-13+6wks: Lambda sign = DCDA, T-sign = MCDA; Quintero staging; Fetoscopic Laser Photocoagulation"
+        }
+      ]
+    },
+    {
+      "Name": "Ectopic Pregnancy",
+      "Tag": "Early Pregnancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Implantation outside uterine cavity (95% tubal ampulla); risk factors: prior PID, tubal surgery, smoking, IUCD,IVF"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Damaged ciliated epithelium impairs tubal transport of blastocyst leading to premature implantation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "6-8wks amenorrhea, unilateral lower abdominal pain, dark spotting; Red Flags: syncope, shoulder pain, peritonism"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS (empty uterus + adnexal mass); serial beta-hCG (<63% rise/48h); IM Methotrexate (50mg/m2) if stable; Laparoscopic Salpingectomy"
+        }
+      ]
+    },
+    {
+      "Name": "Miscarriage & Post-Care",
+      "Tag": "Early Pregnancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Pregnancy loss <24 weeks; types: threatened, inevitable, incomplete, complete, missed, septic; etiology: aneuploidy (50-60%)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Maternal-fetal interface disruption leading to uterine bleeding, cervical dilation, and tissue expulsion"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Vaginal bleeding, crampy pelvic pain; Red Flags: heavy flooding, severe rigors/fever, offensive discharge"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS: Missed miscarriage = CRL >=7mm without FHR or MSD >=25mm without embryo; MVA / Misoprostol + Anti-D"
+        }
+      ]
+    },
+    {
+      "Name": "Manual Vacuum Aspiration (MVA)",
+      "Tag": "Surgical Skill",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Outpatient surgical evacuation of uterus <12-14 weeks using handheld double-valve 60ml syringe and flexible karmen cannulae"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Handheld syringe generates controlled negative suction pressure (~600 mmHg / 60 kPa) to aspirate uterine contents"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Incomplete miscarriage, retained products, termination of pregnancy; Red Flags: severe pain, uterine perforation"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical procedure; cervical dilation if needed; manual suction evacuation under local/paracervical block"
+        }
+      ]
+    },
+    {
+      "Name": "Placenta Praevia & Accreta",
+      "Tag": "Antepartum Haemorrhage",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Placenta low-lying (<20mm from internal os) or covering os; Accreta = abnormally adherent to myometrium (prior C-section risk)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Lower uterine segment elongation causes shearing of placental attachments"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painless bright red bleeding; soft non-tender uterus; high unengaged presenting part; NO DIGITAL VAGINAL EXAM"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS gold standard; Color Doppler for Accreta; Elective C-section at 36-37wks (Praevia) or 34-35wks (Accreta) by senior team"
+        }
+      ]
+    },
+    {
+      "Name": "Placental Abruption",
+      "Tag": "Antepartum Haemorrhage",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Premature separation of normally implanted placenta from uterine wall; risk: hypertension, pre-eclampsia, cocaine, trauma"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rupture of maternal decidual spiral arteries forms retroplacental hematoma that strips placenta"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe continuous abdominal pain, dark vaginal bleeding (may be concealed); woody-hard hypertonic uterus"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis + continuous CTG; IV resuscitation, crossmatch 4U; immediate C-section if fetal distress"
+        }
+      ]
+    },
+    {
+      "Name": "Vasa Praevia",
+      "Tag": "Antepartum Haemorrhage",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Fetal vessels traverse fetal membranes running unprotected across internal cervical os (velamentous cord insertion / succenturiate lobe)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Membrane rupture tear unprotected fetal blood vessels causing rapid fetal exsanguination within minutes"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painless vaginal bleeding occurring immediately upon rupture of membranes (ARM/SROM) + acute fetal bradycardia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Antenatal TVUS with color Doppler; if diagnosed -> elective C-section at 34-36wks; if bleeding on ROM -> immediate Cat 1 C-section"
+        }
+      ]
+    },
+    {
+      "Name": "Prolonged Pregnancy & IOL",
+      "Tag": "Intrapartum Care",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Pregnancy extending to or beyond 42+0 weeks (294 days); post-maturity syndrome, progressive placental insufficiency, oligohydramnios"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Aging placenta with syncytiotrophoblast knotting and reduced villous perfusion impairs fetal oxygenation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Decreased fetal movements, meconium-stained liquor; Red Flags: pathological CTG, absent fetal heart"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Offer IOL between 41+0 and 42+0 weeks; Bishop score assessment; Vaginal Dinoprostone (PGE2) / Propess / Balloon catheter -> ARM + Oxytocin"
+        }
+      ]
+    },
+    {
+      "Name": "Gestational Trophoblastic Disease (GTD)",
+      "Tag": "Early Pregnancy / Oncology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Complete Mole (46XX, empty egg + 1-2 sperm, no fetus, p57 negative) vs Partial Mole (69XXY, 2 sperm + 1 egg, triploid, fetus present, p57 positive)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Abnormal fertilization and uncontrolled trophoblastic proliferation with hydropic swelling of chorionic villi"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Heavy irregular bleeding in 1st/2nd trimester, snowstorm appearance, theca lutein cysts, hyperemesis gravidarum"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Suction curettage (gold standard); serial serum beta-hCG monitoring; Single-agent Methotrexate if GTN develops"
+        }
+      ]
+    },
+    {
+      "Name": "PPROM & Preterm Labour",
+      "Tag": "Maternal-Fetal Medicine",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Rupture of membranes prior to 37+0 weeks (PPROM); Preterm birth <37 weeks; etiology: ascending infection, polyhydramnios, cervical insufficiency"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Infection-induced cytokine release activating collagenases breaking down fetal membranes and triggering uterine contractions"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fluid gushing/pooling in vagina, painful uterine contractions; Red Flags: maternal fever, uterine tenderness, purulent fluid"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Sterile speculum exam + IGFBP-1 / PAMG-1 test; Oral Erythromycin 250mg QDS x10d (NO Co-amoxiclav!); Antenatal Betamethasone 12mg IM; MgSO4 neuroprotection"
+        }
+      ]
+    },
+    {
+      "Name": "Sexually Transmitted Infections in Pregnancy",
+      "Tag": "Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chlamydia, Gonorrhea, Syphilis, HSV, HIV; ascending infection risk and vertical transmission to fetus/neonatal ophthalmia"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pathogen colonization causes pelvic inflammation, chorioamnionitis, PPROM, neonatal conjunctivitis, or congenital syphilis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Purulent vaginal discharge, pelvic pain, genital ulcers, dysuria; Red Flags: high fever, systemic sepsis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Endocervical NAAT swabs; Chlamydia: Oral Azithromycin 1g; Gonorrhea: IM Ceftriaxone 1g; Syphilis: Benzathine Penicillin"
+        }
+      ]
+    },
+    {
+      "Name": "Amniotic Fluid Disorders",
+      "Tag": "Maternal-Fetal Medicine",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Oligohydramnios (AFI <5cm / DVP <2cm) vs Polyhydramnios (AFI >24cm / DVP >8cm); etiology: renal agenesis/PPROM vs GDM/fetal GI atresia"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Imbalance between fetal urine production/swallowing and intramembranous absorption"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fundal height mismatch with dates; dyspnea/abdominal pain in polyhydramnios; limb contractures in oligohydramnios"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Ultrasound AFI/DVP; OGTT for GDM; TORCH screening; Fetal anomaly scan; Amnioreduction if severe polyhydramnios"
+        }
+      ]
+    },
+    {
+      "Name": "Pathological Fetal Growth Restriction (FGR)",
+      "Tag": "Maternal-Fetal Medicine",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "FGR (EFW <10th percentile + abnormal Doppler) vs SGA (constitutionally small, normal Doppler); symmetric vs asymmetric"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Placental vascular insufficiency limits nutrient/oxygen transport, leading to brain-sparing redistribution"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fundal height lag >3cm; reduced fetal movements; umbilical artery absent/reversed end-diastolic flow (AEDF/REDF)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serial biometry + Umbilical Artery Doppler PI; AEDF/REDF -> Betamethasone + MgSO4 -> Delivery by C-section by 32-34wks"
+        }
+      ]
+    },
+    {
+      "Name": "Intrauterine Fetal Demise (IUFD)",
+      "Tag": "Maternal-Fetal Medicine",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Fetal death occurring after 24+0 weeks of gestation; etiology: placental abruption, severe FGR, umbilical cord accidents, Sepsis"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Fetal circulatory collapse leading to tissue autolysis and risk of maternal disseminated intravascular coagulation (DIC)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Absence of fetal movements; regression of breast changes; weight loss; psychological shock"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Ultrasound confirmation of absent fetal cardiac activity by two independent observers; Oral Mifepristone 200mg + Misoprostol"
+        }
+      ]
+    },
+    {
+      "Name": "Breech Presentation & ECV",
+      "Tag": "Obstetric Skill",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Podalic presentation (Frank 70%, Complete, Footling); affects 3-4% of term pregnancies"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Fetal head fails to engage in lower uterine segment due to prematurity, uterine anomalies, or fibroids"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Hard round head palpable in uterine fundus; irregular presenting part on vaginal exam; cord prolapse risk"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Offer External Cephalic Version (ECV) at >=36wks (multiparous) or >=37wks (nulliparous) with Terbutaline tocolysis; C-section if ECV fails"
+        }
+      ]
+    },
+    {
+      "Name": "Antenatal & Intrapartum Fetal Monitoring",
+      "Tag": "Fetal Surveillance",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Auscultation (Pinard/Doppler) & Cardiotocography (CTG); DR C BAVO system (Define Risk, Contractions, Baseline 110-160, Variability 5-25, Accels, Decels)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Uteroplacental perfusion decreases during contractions; hypoxia produces characteristic deceleration patterns"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Non-reassuring CTG: reduced variability, late decelerations, prolonged decelerations; Red Flag: fetal bradycardia <100"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CTG interpretation; Fetal Scalp Blood Sampling (FSBS) pH <7.20 indicates severe fetal acidosis -> immediate delivery"
+        }
+      ]
+    },
+    {
+      "Name": "Subfertility & Infertility Workup",
+      "Tag": "Reproductive Health",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Failure to conceive after 12 months of regular unprotected intercourse; etiology: Anovulation (PCOS 30%), Tubal damage (25%), Male factor (30%)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inability to fertilize or implant due to gamete defect, structural blockage, or hormonal dysregulation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Irregular menses, hirsutism, galactorrhea, pelvic pain, abnormal semen parameters"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Semen analysis; Day 21 Progesterone >30 nmol/L; FSH/LH/AMH; HSG / HyCoSy for tubal patency; Clomifene/Letrozole or IVF"
+        }
+      ]
+    },
+    {
+      "Name": "Maternal & Perinatal Mortality",
+      "Tag": "Public Health",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Direct maternal death (obstetric complications: PPH, sepsis, pre-eclampsia) vs Indirect (pre-existing medical: cardiac, suicide)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Systemic health failures and delayed emergency obstetric care leading to maternal or perinatal demise"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Maternal death up to 42 days post-delivery; Perinatal mortality = Stillbirths + Early Neonatal Deaths (<7 days)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "MMR = Maternal deaths per 100,000 live births; PNMR = Perinatal deaths per 1,000 total births; Confidential Enquiries audit"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Paediatrics Module 1 Database": [
     {
       "Name": "Low Birth Weight (LBW) & Preterm",

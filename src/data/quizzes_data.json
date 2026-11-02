@@ -6047,6 +6047,428 @@
       "explanation": "Antiphospholipid Syndrome (APS) presents with arterial/venous thrombosis and recurrent fetal loss, characterized by Lupus Anticoagulant, Anti-cardiolipin, or Anti-beta-2 glycoprotein 1 autoantibodies."
     }
   ],
+  "Final Part 2 Obstetrics & Gynaecology - Module 1": [
+    {
+      "id": 8,
+      "category": "Antenatal Supplementation",
+      "question": "A 28-year-old primigravida with a BMI of 32 kg/m2 attends her booking appointment at 8 weeks gestation. Which daily dose of folic acid is recommended prior to conception and until 12 weeks of pregnancy?",
+      "options": [
+        "400 micrograms",
+        "800 micrograms",
+        "1 milligram",
+        "2.5 milligrams",
+        "5 milligrams"
+      ],
+      "correctIndex": 4,
+      "explanation": "Women with a BMI >=30 kg/m2, pre-existing diabetes, anti-epileptic drug therapy, or a history of neural tube defects are at high risk and require high-dose Folic Acid (5 mg daily) until 12 weeks of pregnancy."
+    },
+    {
+      "id": 9,
+      "category": "Menstrual Physiology",
+      "question": "During a normal 28-day menstrual cycle, the sudden pre-ovulatory surge of Luteinizing Hormone (LH) is directly triggered by which mechanism?",
+      "options": [
+        "Pre-ovulatory fall in progesterone",
+        "Negative feedback of low estrogen",
+        "Positive feedback of sustained high estrogen levels",
+        "Inhibin B secretion from corpus luteum",
+        "Pulsatile release of human chorionic gonadotropin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sustained high levels of estradiol produced by the dominant follicle exert a positive feedback effect on the anterior pituitary, triggering the LH surge approximately 24–36 hours before ovulation."
+    },
+    {
+      "id": 10,
+      "category": "Maternal Pelvic Mechanics",
+      "question": "In a normal vertex presentation with a fully flexed fetal head, which anatomical diameter engages in the maternal pelvic inlet?",
+      "options": [
+        "Suboccipitobregmatic (9.5 cm)",
+        "Occipitofrontal (11.5 cm)",
+        "Occipitomental (12.5 cm)",
+        "Submentobregmatic (9.5 cm)",
+        "Mentovertical (13.5 cm)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The suboccipitobregmatic diameter (9.5 cm) is the engaging diameter when the fetal head is fully flexed in a normal vertex presentation, presenting the smallest possible diameter to the pelvic inlet."
+    },
+    {
+      "id": 11,
+      "category": "Multiple Pregnancy",
+      "question": "A ultrasound scan at 12 weeks gestation reveals a twin pregnancy. A 'Lambda' (twin peak) sign is identified at the membrane-placenta junction. What is the chorionicity and amnionicity?",
+      "options": [
+        "Monochorionic Monoamniotic (MCMA)",
+        "Monochorionic Diamniotic (MCDA)",
+        "Dichorionic Diamniotic (DCDA)",
+        "Pseudo-monochorionic",
+        "Conjoined twins"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'Lambda' or twin-peak sign on ultrasound between 11–13+6 weeks is pathognomonic for a Dichorionic Diamniotic (DCDA) twin pregnancy, reflecting thick tissue extending into the inter-twin membrane."
+    },
+    {
+      "id": 12,
+      "category": "Twin-to-Twin Transfusion",
+      "question": "Twin-to-Twin Transfusion Syndrome (TTTS) is a severe complication that occurs exclusively in which type of multiple gestation?",
+      "options": [
+        "Dichorionic Diamniotic twins",
+        "Monochorionic twins",
+        "Dizygotic twins with fused placentas",
+        "Tri-amniotic triplets",
+        "Conjoined twins only"
+      ],
+      "correctIndex": 1,
+      "explanation": "TTTS occurs in 10–15% of Monochorionic twin pregnancies due to unbalanced blood flow through deep arteriovenous (AV) placental vascular anastomoses connecting the donor and recipient fetal circulations."
+    },
+    {
+      "id": 13,
+      "category": "Ectopic Pregnancy Diagnosis",
+      "question": "A 26-year-old woman presents at 6 weeks gestation with mild lower abdominal pain and dark vaginal spotting. Transvaginal ultrasound shows an empty uterine cavity and an adnexal mass. Serum beta-hCG is 1,200 IU/L. What is the expected rise in serum beta-hCG over 48 hours for a viable intrauterine pregnancy?",
+      "options": [
+        ">15%",
+        ">33%",
+        ">50%",
+        ">63%",
+        ">99%"
+      ],
+      "correctIndex": 3,
+      "explanation": "In a viable intrauterine pregnancy, serum beta-hCG levels rise by at least 63% over 48 hours. A rise of less than 63% or a plateau indicates an abnormal pregnancy (ectopic or failing intrauterine pregnancy)."
+    },
+    {
+      "id": 14,
+      "category": "Ectopic Medical Management",
+      "question": "Which of the following is a strict clinical prerequisite for initiating single-dose Intramuscular Methotrexate for an ectopic pregnancy?",
+      "options": [
+        "Serum beta-hCG >5,000 IU/L",
+        "Adnexal mass size >40 mm",
+        "Presence of visible fetal cardiac activity",
+        "Absence of severe abdominal pain and serum beta-hCG <1,500-3,000 IU/L",
+        "Presence of moderate free fluid in pouch of Douglas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Systemic Methotrexate (50 mg/m2 IM) requires an hemodynamically stable patient with minimal/no abdominal pain, serum beta-hCG <1,500-3,000 IU/L, adnexal mass <35 mm, and no fetal cardiac activity."
+    },
+    {
+      "id": 15,
+      "category": "Miscarriage Definitions",
+      "question": "A transvaginal ultrasound scan in a 30-year-old woman at 8 weeks gestation demonstrates a fetus with a Crown-Rump Length (CRL) of 8 mm with no cardiac activity. The cervical os is closed. What is the diagnosis?",
+      "options": [
+        "Threatened miscarriage",
+        "Inevitably miscarriage",
+        "Incomplete miscarriage",
+        "Missed miscarriage",
+        "Complete miscarriage"
+      ],
+      "correctIndex": 3,
+      "explanation": "A missed miscarriage is defined as an intrauterine pregnancy with a Crown-Rump Length (CRL) >=7 mm without fetal cardiac activity (or a Mean Sac Diameter >=25 mm without an embryo) and a closed cervix."
+    },
+    {
+      "id": 16,
+      "category": "Anti-D Prophylaxis",
+      "question": "A 24-year-old Rh-D negative unsensitized primigravida suffers a spontaneous complete miscarriage at 10 weeks gestation. She undergoes Manual Vacuum Aspiration for heavy bleeding. What is the correct Anti-D administration protocol?",
+      "options": [
+        "No Anti-D required if <12 weeks",
+        "Administer Anti-D 250 IU within 72 hours",
+        "Administer Anti-D 1500 IU within 14 days",
+        "Routine Anti-D at 28 weeks only",
+        "Perform Kleihauer test and withhold Anti-D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-D Immunoglobulin (at least 250 IU) should be administered to all non-sensitized Rh-D negative women within 72 hours of any surgical intervention for early pregnancy loss (e.g., MVA or evacuation), regardless of gestational age."
+    },
+    {
+      "id": 17,
+      "category": "Manual Vacuum Aspiration",
+      "question": "What is the standard negative suction pressure generated by the handheld double-valve syringe during Manual Vacuum Aspiration (MVA)?",
+      "options": [
+        "100 mmHg",
+        "300 mmHg",
+        "600 mmHg (60 kPa)",
+        "1000 mmHg",
+        "1200 mmHg"
+      ],
+      "correctIndex": 2,
+      "explanation": "The standard 60ml MVA handheld syringe creates a uniform, controlled negative suction pressure of approximately 600 mmHg (60 kPa / 24 inches Hg) when the valves are locked and released."
+    },
+    {
+      "id": 18,
+      "category": "Malpresentations",
+      "question": "Which fetal presenting diameter is engaged in a brow presentation, making vaginal delivery impossible without rotation or flexion?",
+      "options": [
+        "Suboccipitobregmatic (9.5 cm)",
+        "Submentobregmatic (9.5 cm)",
+        "Occipitofrontal (11.5 cm)",
+        "Suboccipitofrontal (10.5 cm)",
+        "Mentovertical (13.5 cm)"
+      ],
+      "correctIndex": 4,
+      "explanation": "In a brow presentation, the head is partially extended, presenting the Mentovertical diameter (13.5 cm). This is the largest diameter of the fetal skull and exceeds all pelvic diameters, preventing vaginal birth."
+    },
+    {
+      "id": 19,
+      "category": "Prolonged Pregnancy",
+      "question": "According to NICE and RCOG guidelines, at what gestational age should women with an uncomplicated singleton pregnancy be offered routine Induction of Labour?",
+      "options": [
+        "39+0 to 40+0 weeks",
+        "40+0 to 40+6 weeks",
+        "41+0 to 42+0 weeks",
+        "42+1 to 43+0 weeks",
+        "Only after 43 weeks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Routine induction of labour should be offered to women with uncomplicated pregnancies between 41+0 and 42+0 weeks to avoid the increased risks of perinatal mortality and post-maturity syndrome."
+    },
+    {
+      "id": 20,
+      "category": "Labour Induction Ripening",
+      "question": "A 32-year-old primigravida at 41+3 weeks is admitted for induction of labour. Her cervical Bishop score is 3. What is the most appropriate initial method for cervical ripening?",
+      "options": [
+        "Intravenous Oxytocin infusion",
+        "Artificial Rupture of Membranes (ARM)",
+        "Vaginal Dinoprostone (PGE2) or osmotic balloon catheter",
+        "Oral Ergometrine",
+        "Oral Misoprostol 400 mcg 2-hourly"
+      ],
+      "correctIndex": 2,
+      "explanation": "An unfavorable cervix (Bishop score <6) requires cervical ripening prior to induction. Recommended methods include vaginal Dinoprostone (PGE2), oral Misoprostol (low dose), or a mechanical balloon catheter."
+    },
+    {
+      "id": 21,
+      "category": "Antepartum Haemorrhage",
+      "question": "A 30-year-old woman at 32 weeks gestation presents with painless, bright red vaginal bleeding. Her uterus is soft and non-tender, and the fetal head is unengaged. What is the most critical immediate diagnostic step?",
+      "options": [
+        "Digital vaginal examination to check cervical dilation",
+        "Transvaginal ultrasound to determine placental location",
+        "Emergency speculum examination with pap smear",
+        "Immediate amniotomy",
+        "Kleihauer-Betke test only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Digital vaginal examination is STRICTLY CONTRAINDICATED in suspected Placenta Praevia as it can provoke catastrophic hemorrhage. Transvaginal ultrasound (TVUS) is the diagnostic gold standard."
+    },
+    {
+      "id": 22,
+      "category": "Placental Abruption",
+      "question": "A 34-year-old multipara at 35 weeks presents with severe, continuous abdominal pain and dark vaginal bleeding. On examination, the uterus is woody-hard, hypertonic, and intensely tender. CTG shows late decelerations. What is the primary diagnosis?",
+      "options": [
+        "Placenta Praevia",
+        "Placental Abruption",
+        "Vasa Praevia",
+        "Uterine Rupture",
+        "Cervical Ectropion"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic triad of constant severe abdominal pain, dark vaginal bleeding (which may be concealed), and a woody-hard, hypertonic tender uterus is pathognomonic for Placental Abruption."
+    },
+    {
+      "id": 23,
+      "category": "Vasa Praevia",
+      "question": "A woman in active labour at 39 weeks experiences spontaneous rupture of membranes. Immediately following the gush of clear fluid, there is fresh vaginal bleeding and the CTG displays severe prolonged fetal bradycardia (60 bpm). What is the likely diagnosis?",
+      "options": [
+        "Placenta Praevia",
+        "Placental Abruption",
+        "Vasa Praevia rupture",
+        "Uterine Rupture",
+        "Cervical laceration"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vasa Praevia involves fetal blood vessels running unprotected across the internal os. Rupture of membranes tears these vessels, leading to painless maternal bleeding combined with immediate severe fetal compromise/exsanguination."
+    },
+    {
+      "id": 24,
+      "category": "Hydatidiform Mole Histology",
+      "question": "Immunohistochemical staining for p57 (a paternally imprinted, maternally expressed gene product) is used to differentiate molar pregnancies. Which pattern is characteristic of a Complete Hydatidiform Mole?",
+      "options": [
+        "Diffusely p57 positive",
+        "p57 negative in cytotrophoblast and villous stroma",
+        "Strong p57 expression in fetal capillaries only",
+        "p57 positive in villous stroma but negative in decidua",
+        "Nuclear p57 positivity in 100% of syncytiotrophoblasts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because a Complete Mole lacks a maternal genome (46,XX diandric), the maternally expressed p57 gene product is not produced, rendering complete moles negative for p57 staining on immunohistochemistry."
+    },
+    {
+      "id": 25,
+      "category": "Gestational Trophoblastic Neoplasia",
+      "question": "A patient undergoing post-molar surveillance shows plateauing serum beta-hCG levels over 3 consecutive weeks. Workup confirms low-risk Gestational Trophoblastic Neoplasia (FIGO score 4). What is the preferred first-line treatment?",
+      "options": [
+        "Hysterectomy",
+        "EMA/CO combination chemotherapy",
+        "Single-agent Intramuscular Methotrexate with Folinic Acid",
+        "Repeat suction curettage",
+        "Pelvic radiotherapy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Low-risk GTN (FIGO prognostic score 0–6) is treated with single-agent chemotherapy, most commonly Intramuscular Methotrexate with Folinic Acid rescue (or Actinomycin D)."
+    },
+    {
+      "id": 26,
+      "category": "PPROM Antibiotics",
+      "question": "A 28-year-old woman at 31 weeks gestation presents with confirmed Preterm Prelabour Rupture of Membranes (PPROM). Which prophylactic oral antibiotic should be prescribed for 10 days?",
+      "options": [
+        "Co-amoxiclav 625 mg TID",
+        "Erythromycin 250 mg QDS",
+        "Doxycycline 100 mg BD",
+        "Ciprofloxacin 500 mg BD",
+        "Trimethoprim 200 mg BD"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oral Erythromycin (250 mg QDS for 10 days) is the recommended prophylactic antibiotic in PPROM. Co-amoxiclav is strictly CONTRAINDICATED as it is associated with an increased risk of neonatal necrotizing enterocolitis (NEC)."
+    },
+    {
+      "id": 27,
+      "category": "Antenatal Corticosteroids",
+      "question": "What is the primary clinical indication for administering antenatal betamethasone (12 mg IM, 2 doses 24 hours apart) to a woman presenting in threatened preterm labour at 29 weeks?",
+      "options": [
+        "To prevent maternal puerperal sepsis",
+        "To arrest uterine contractions",
+        "To reduce neonatal Respiratory Distress Syndrome (RDS), IVH, and mortality",
+        "To increase amniotic fluid volume",
+        "To accelerate fetal renal maturation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antenatal corticosteroids stimulate fetal pneumocyte maturation and surfactant production, significantly reducing the risks of neonatal Respiratory Distress Syndrome (RDS), intraventricular hemorrhage (IVH), and neonatal mortality."
+    },
+    {
+      "id": 28,
+      "category": "Magnesium Sulfate Neuroprotection",
+      "question": "Intravenous Magnesium Sulfate is recommended for neuroprotection against cerebral palsy in infants when delivery is expected before which gestational threshold?",
+      "options": [
+        "28 weeks",
+        "30–32 weeks",
+        "34 weeks",
+        "36 weeks",
+        "37 weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "NICE and RCOG guidelines recommend IV Magnesium Sulfate for fetal neuroprotection in women in established preterm labour or undergoing planned preterm delivery before 30–32 weeks gestation."
+    },
+    {
+      "id": 29,
+      "category": "STIs in Pregnancy",
+      "question": "A 22-year-old pregnant woman at 16 weeks gestation tests positive for Chlamydia trachomatis on routine cervical screening. She is asymptomatic. What is the recommended first-line treatment?",
+      "options": [
+        "Doxycycline 100 mg BD for 7 days",
+        "Azithromycin 1 g oral single dose or Amoxicillin 500 mg TID for 7 days",
+        "Ciprofloxacin 500 mg single dose",
+        "Metronidazole 400 mg BD for 7 days",
+        "Levofloxacin 500 mg daily"
+      ],
+      "correctIndex": 1,
+      "explanation": "Doxycycline and tetracyclines are contraindicated in pregnancy. Recommended regimens for Chlamydia in pregnancy include oral Azithromycin 1 g single dose or oral Amoxicillin 500 mg TID for 7 days."
+    },
+    {
+      "id": 30,
+      "category": "Bacterial Vaginosis",
+      "question": "A pregnant woman presents with a thin, homogenous, greyish-white vaginal discharge with a strong 'fishy' odor. Microscopy reveals clue cells and pH is 5.2. What is the first-line treatment?",
+      "options": [
+        "Oral Fluconazole 150 mg single dose",
+        "Oral Metronidazole 400 mg BD for 5-7 days",
+        "Topical Nystatin cream",
+        "IM Ceftriaxone 1 g",
+        "Oral Doxycycline 100 mg BD"
+      ],
+      "correctIndex": 1,
+      "explanation": "Symptomatic Bacterial Vaginosis in pregnancy is treated with oral Metronidazole (400 mg BD for 5–7 days). Clue cells, pH >4.5, and a positive amine whiff test satisfy Amsel's diagnostic criteria."
+    },
+    {
+      "id": 31,
+      "category": "Vaginitis Differential",
+      "question": "A 29-year-old woman presents with severe vulvovaginal pruritus and thick, white, curdy ('cottage-cheese') discharge. Vaginal pH is 4.0. What is the most likely pathogen?",
+      "options": [
+        "Gardnerella vaginalis",
+        "Trichomonas vaginalis",
+        "Candida albicans",
+        "Chlamydia trachomatis",
+        "Neisseria gonorrhoeae"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thick, curdy white discharge with normal vaginal pH (<4.5) and intense vulval itching is characteristic of Vulvovaginal Candidiasis (Candida albicans)."
+    },
+    {
+      "id": 32,
+      "category": "Amniotic Fluid Index",
+      "question": "On ultrasound evaluation at 34 weeks, a fetus demonstrates a Single Deepest Vertical Pocket (DVP) of 1.2 cm and an Amniotic Fluid Index (AFI) of 3.8 cm. How is this categorized?",
+      "options": [
+        "Normal liquor volume",
+        "Borderline liquor volume",
+        "Oligohydramnios",
+        "Polyhydramnios",
+        "Severe anhydramnios"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oligohydramnios is defined ultrasonographically as an Amniotic Fluid Index (AFI) <5 cm or a Single Deepest Vertical Pocket (DVP) <2 cm."
+    },
+    {
+      "id": 33,
+      "category": "Fetal Growth Restriction",
+      "question": "An ultrasound at 32 weeks shows an estimated fetal weight (EFW) on the 4th percentile. Umbilical Artery Doppler shows Absent End-Diastolic Flow (AEDF). What is the appropriate next step?",
+      "options": [
+        "Immediate emergency C-section within 15 minutes",
+        "Administer antenatal steroids, monitor CTG/Dopplers, and plan delivery by 32–34 weeks",
+        "Discharge and re-scan in 4 weeks",
+        "Induce labour with vaginal prostaglandin immediately",
+        "Perform immediate fetoscopic laser coagulation"
+      ],
+      "correctIndex": 1,
+      "explanation": "In FGR with Absent End-Diastolic Flow (AEDF) in the umbilical artery, antenatal corticosteroids should be administered, continuous monitoring performed, and delivery planned by C-section around 32–34 weeks."
+    },
+    {
+      "id": 34,
+      "category": "Intrauterine Fetal Demise",
+      "question": "A 30-year-old woman at 28 weeks gestation is diagnosed with Intrauterine Fetal Demise (IUFD). She is hemodynamically stable with intact membranes. What is the recommended pharmacological regimen for labour induction?",
+      "options": [
+        "High-dose Oxytocin infusion alone",
+        "Oral Mifepristone 200 mg followed 35–48 hours later by Misoprostol",
+        "Immediate surgical D&E",
+        "Intramuscular Methotrexate",
+        "Vaginal Dinoprostone PGE2 gel alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to RCOG GTG 55, the recommended combination for induction of labour in IUFD is oral Mifepristone 200 mg followed 35–48 hours later by Misoprostol."
+    },
+    {
+      "id": 35,
+      "category": "External Cephalic Version",
+      "question": "A 37-year-old nullipara at 37 weeks has an uncomplicated frank breech presentation. She requests an attempt at External Cephalic Version (ECV). Which medication is routinely administered to increase success rates?",
+      "options": [
+        "Subcutaneous Terbutaline 0.25 mg",
+        "Intravenous Oxytocin 5 IU",
+        "Oral Nifedipine 20 mg",
+        "Intramuscular Ergometrine 500 mcg",
+        "Vaginal Misoprostol 200 mcg"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subcutaneous Terbutaline (0.25 mg), a beta-2 agonist tocolytic, is routinely administered prior to ECV to relax the myometrium and significantly increase version success rates."
+    },
+    {
+      "id": 36,
+      "category": "CTG Interpretation",
+      "question": "On a intrapartum CTG trace, repetitive decelerations are noted that begin after the start of a contraction and return to baseline well after the contraction ends. What is the underlying cause?",
+      "options": [
+        "Fetal head compression (benign)",
+        "Fetal umbilical cord compression",
+        "Uteroplacental insufficiency and fetal hypoxia",
+        "Maternal fever",
+        "Rapid fetal movement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Late decelerations (which peak after the peak of the contraction and return slowly to baseline) are pathological and caused by uteroplacental vascular insufficiency and transient fetal hypoxia."
+    },
+    {
+      "id": 37,
+      "category": "Infertility Assessment",
+      "question": "A 28-year-old woman presenting with primary subfertility undergoes ovulation tracking. What serum Progesterone concentration measured 7 days before expected menses (Day 21 of a 28-day cycle) confirms ovulation?",
+      "options": [
+        ">5 nmol/L",
+        ">10 nmol/L",
+        ">15 nmol/L",
+        ">30 nmol/L",
+        ">100 nmol/L"
+      ],
+      "correctIndex": 3,
+      "explanation": "A mid-luteal serum Progesterone level (Day 21 of a 28-day cycle) greater than 30 nmol/L confirms that ovulation has occurred during that menstrual cycle."
+    }
+  ],
   "Final Part 2 Paediatrics - Paediatrics Module 1": [
     {
       "id": 8,
