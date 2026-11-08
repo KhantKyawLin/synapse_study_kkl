@@ -6891,6 +6891,428 @@
       "explanation": "Vaginal Prostaglandin E2 (PGE2, e.g., Dinoprostone insert/pessary) or mechanical balloon catheter is the standard agent used for cervical ripening when the Bishop score is unfavorable (<6)."
     }
   ],
+  "Final Part 2 Obstetrics & Gynaecology - Module 3": [
+    {
+      "id": 8,
+      "category": "Module 3",
+      "question": "A 28-year-old P2 at 2 hours postpartum following a spontaneous vaginal delivery experiences sudden heavy vaginal bleeding of 1200 ml. On palpation, the uterine fundus is soft, boggy, and located above the umbilicus. What is the most common cause of this condition?",
+      "options": [
+        "Retained placenta (Tissue)",
+        "Lower genital tract laceration (Trauma)",
+        "Uterine atony (Tone)",
+        "Coagulopathy (Thrombin)",
+        "Uterine inversion"
+      ],
+      "correctIndex": 0,
+      "explanation": "1"
+    },
+    {
+      "id": 9,
+      "category": "Module 3",
+      "question": "During management of severe atonic postpartum haemorrhage in a primigravida with a history of severe asthma, which of the following uterotonic agents is strictly CONTRAINDICATED?",
+      "options": [
+        "Intravenous Oxytocin",
+        "Intramuscular Ergometrine",
+        "Intramuscular Carboprost (Hemabate / 15-methyl PGF2a)",
+        "Sublingual Misoprostol",
+        "Intravenous Tranexamic Acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "2"
+    },
+    {
+      "id": 10,
+      "category": "Module 3",
+      "question": "A 32-year-old multipara with pre-eclampsia (BP 165/105 mmHg) develops heavy bleeding due to uterine atony immediately following delivery of the placenta. Which uterotonic medication must be EXCLUDED from her management?",
+      "options": [
+        "Oxytocin 5 IU slow IV",
+        "Ergometrine 500 mcg IM",
+        "Misoprostol 800 mcg sublingually",
+        "Carboprost 250 mcg IM",
+        "Tranexamic acid 1g IV"
+      ],
+      "correctIndex": 2,
+      "explanation": "3"
+    },
+    {
+      "id": 11,
+      "category": "Module 3",
+      "question": "Following delivery of the placenta, a patient suffers refractory uterine atony bleeding despite bimanual massage, IV Oxytocin, IM Carboprost, and sublingual Misoprostol. What is the most appropriate next conservative surgical step?",
+      "options": [
+        "B-Lynch compression suture",
+        "Intrauterine Balloon Tamponade (Bakri Balloon)",
+        "Internal iliac artery ligation",
+        "Subtotal Hysterectomy",
+        "Uterine artery embolization"
+      ],
+      "correctIndex": 3,
+      "explanation": "4"
+    },
+    {
+      "id": 12,
+      "category": "Module 3",
+      "question": "During active management of the 3rd stage of labour, controlled cord traction is applied before placental separation. The patient suddenly complains of severe pelvic pain, followed by profuse bleeding and profound shock. Abdominal examination reveals a missing uterine fundus. What is the immediate priority?",
+      "options": [
+        "Administer 40 IU Oxytocin infusion immediately",
+        "Apply firm manual traction on the umbilical cord",
+        "Immediate manual fundal replacement (Johnson maneuver) BEFORE giving uterotonics",
+        "Perform urgent emergency hysterectomy",
+        "Administer IM Ergometrine"
+      ],
+      "correctIndex": 4,
+      "explanation": "5"
+    },
+    {
+      "id": 13,
+      "category": "Module 3",
+      "question": "A 30-year-old woman at 39 weeks' gestation in her second labour with a previous lower segment Caesarean section scar develops continuous severe abdominal pain between contractions and acute fetal bradycardia of 80 bpm. CTG reveals loss of uterine contraction pattern and station of the presenting part recedes. What is the diagnosis?",
+      "options": [
+        "Placental abruption",
+        "Uterine rupture",
+        "Uterine inversion",
+        "Vasa praevia rupture",
+        "Complete placenta praevia"
+      ],
+      "correctIndex": 0,
+      "explanation": "6"
+    },
+    {
+      "id": 14,
+      "category": "Module 3",
+      "question": "On Day 4 postpartum following a prolonged delivery with PPROM, a patient presents with a temperature of 38.8 C, rigors, tachycardia of 115 bpm, and foul-smelling purulent lochia. What is the most common causative organism of severe puerperal sepsis?",
+      "options": [
+        "Escherichia coli",
+        "Group A Streptococcus (Staphylococcus pyogenes / GAS)",
+        "Staphylococcus aureus",
+        "Clostridium perfringens",
+        "Chlamydia trachomatis"
+      ],
+      "correctIndex": 0,
+      "explanation": "7"
+    },
+    {
+      "id": 15,
+      "category": "Module 3",
+      "question": "A patient is diagnosed with puerperal sepsis on the postnatal ward. According to international guidelines, within what timeframe must the 'Sepsis Six' bundle (including IV broad-spectrum antibiotics and lactate) be initiated?",
+      "options": [
+        "Within 30 minutes",
+        "Within 1 hour",
+        "Within 3 hours",
+        "Within 6 hours",
+        "Within 12 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "8"
+    },
+    {
+      "id": 16,
+      "category": "Module 3",
+      "question": "A Category 1 Emergency Caesarean Section is declared due to acute severe cord prolapse with persistent fetal bradycardia. What is the target maximum Decision-to-Delivery Interval (DDI) for a Category 1 C-section?",
+      "options": [
+        "15 minutes",
+        "30 minutes",
+        "45 minutes",
+        "60 minutes",
+        "75 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "9"
+    },
+    {
+      "id": 17,
+      "category": "Module 3",
+      "question": "Which surgical skin incision is most commonly performed for an elective or urgent Caesarean section due to superior cosmetic result and lower wound dehiscence rate?",
+      "options": [
+        "Maylard incision",
+        "Classical vertical incision",
+        "Joel-Cohen / Pfannenstiel transverse incision",
+        "Cherney incision",
+        "Paramedian incision"
+      ],
+      "correctIndex": 0,
+      "explanation": "10"
+    },
+    {
+      "id": 18,
+      "category": "Module 3",
+      "question": "A 34-year-old woman who smokes 20 cigarettes per day and has a history of migraine with aura requests contraception. Which of the following methods is classified as UKMEC 4 (Absolute Contraindication)?",
+      "options": [
+        "Levonorgestrel Intrauterine System (LNG-IUS)",
+        "Progestogen-Only Pill (POP)",
+        "Combined Oral Contraceptive Pill (COCP)",
+        "Etonogestrel Subdermal Implant",
+        "Copper Intrauterine Device (Cu-IUD)"
+      ],
+      "correctIndex": 0,
+      "explanation": "11"
+    },
+    {
+      "id": 19,
+      "category": "Module 3",
+      "question": "A 22-year-old nulliparous woman presents 48 hours after unprotected sexual intercourse. She requests the most effective form of emergency contraception available. What should be recommended?",
+      "options": [
+        "Oral Levonorgestrel 1.5 mg",
+        "Oral Ulipristal Acetate 30 mg",
+        "Copper Intrauterine Device (Cu-IUD)",
+        "High-dose Combined Oral Contraceptives",
+        "Oral Misoprostol"
+      ],
+      "correctIndex": 0,
+      "explanation": "12"
+    },
+    {
+      "id": 20,
+      "category": "Module 3",
+      "question": "A 25-year-old woman attends for emergency hormonal contraception 96 hours (4 days) after unprotected coitus. She is not taking any enzyme-inducing drugs. Which oral emergency contraceptive is indicated up to 120 hours post-coitus?",
+      "options": [
+        "Levonorgestrel 1.5 mg",
+        "Ulipristal Acetate 30 mg (EllaOne)",
+        "Mifepristone 600 mg",
+        "Norethisterone 5 mg",
+        "Ethinylestradiol 50 mcg"
+      ],
+      "correctIndex": 0,
+      "explanation": "13"
+    },
+    {
+      "id": 21,
+      "category": "Module 3",
+      "question": "A breastfeeding mother at 4 weeks postpartum asks when she needs to start using contraception following delivery. By which postpartum day do non-lactating or partially lactating women become fertile again?",
+      "options": [
+        "Day 7 postpartum",
+        "Day 14 postpartum",
+        "Day 21 postpartum (3 weeks)",
+        "Day 42 postpartum (6 weeks)",
+        "Day 90 postpartum"
+      ],
+      "correctIndex": 0,
+      "explanation": "14"
+    },
+    {
+      "id": 22,
+      "category": "Module 3",
+      "question": "Which of the following progestogen-only contraceptive methods can be safely initiated immediately on Day 1 postpartum without any UKMEC restriction?",
+      "options": [
+        "Combined Oral Contraceptive Pill",
+        "Progestogen-Only Pill (POP) and Subdermal Implant",
+        "Combined Vaginal Ring",
+        "Transdermal Patch",
+        "Estrogen-only HRT"
+      ],
+      "correctIndex": 0,
+      "explanation": "15"
+    },
+    {
+      "id": 23,
+      "category": "Module 3",
+      "question": "During a difficult vacuum-assisted vaginal delivery, a right mediolateral episiotomy is performed. At what angle from the midline introitus should a mediolateral episiotomy be directed to avoid damaging the anal sphincter?",
+      "options": [
+        "10 to 15 degrees",
+        "45 to 60 degrees",
+        "90 degrees",
+        "0 degrees (midline)",
+        "30 degrees"
+      ],
+      "correctIndex": 0,
+      "explanation": "16"
+    },
+    {
+      "id": 24,
+      "category": "Module 3",
+      "question": "How many anatomical tissue layers must be systematically sutured during the surgical repair of a standard mediolateral episiotomy?",
+      "options": [
+        "1 layer",
+        "2 layers",
+        "3 layers (Vaginal mucosa, Perineal muscles, Perineal skin)",
+        "4 layers",
+        "5 layers"
+      ],
+      "correctIndex": 0,
+      "explanation": "17"
+    },
+    {
+      "id": 25,
+      "category": "Module 3",
+      "question": "During post-delivery perineal inspection, a tear is identified that involves the perineal skin, perineal body, and partial disruption of the External Anal Sphincter (EAS) muscle (<50% thickness). How is this injury classified?",
+      "options": [
+        "Second-degree tear",
+        "Grade 3a tear",
+        "Grade 3b tear",
+        "Grade 3c tear",
+        "Fourth-degree tear"
+      ],
+      "correctIndex": 0,
+      "explanation": "18"
+    },
+    {
+      "id": 26,
+      "category": "Module 3",
+      "question": "A 30-year-old multipara presents with persistent heavy vaginal bleeding on Day 14 postpartum. Ultrasound reveals retained placental fragments (RPOC) measuring 3 cm. Blood pressure is 110/70 mmHg, pulse 84 bpm, temp 36.8 C. What is the primary management?",
+      "options": [
+        "Immediate emergency hysterectomy",
+        "High-dose IV Oxytocin infusion alone",
+        "Broad-spectrum oral antibiotics followed by surgical evacuation (SMM/MVA)",
+        "Uterine artery ligation",
+        "Expectant management for 6 weeks"
+      ],
+      "correctIndex": 0,
+      "explanation": "19"
+    },
+    {
+      "id": 27,
+      "category": "Module 3",
+      "question": "A woman requests permanent surgical sterilization via laparoscopic tubal occlusion. She should be counseled that the overall long-term failure rate (pregnancy rate) following Filshie clip application is approximately:",
+      "options": [
+        "1 in 10 (10%)",
+        "1 in 50 (2%)",
+        "1 in 200 (0.5%)",
+        "1 in 1000 (0.1%)",
+        "1 in 5000 (0.02%)"
+      ],
+      "correctIndex": 0,
+      "explanation": "20"
+    },
+    {
+      "id": 28,
+      "category": "Module 3",
+      "question": "Which criterion is required to satisfy the rules of Lactational Amenorrhea Method (LAM) as an effective form of natural postpartum contraception (>98% effective)?",
+      "options": [
+        "Exclusive breastfeeding + Amenorrhea + Infant age <6 months",
+        "Partial breastfeeding + Amenorrhea + Infant age <12 months",
+        "Exclusive breastfeeding + Irregular bleeding + Infant age <3 months",
+        "Bottle feeding + Amenorrhea + Infant age <6 months",
+        "Expressing milk twice daily + Amenorrhea + Infant age <6 months"
+      ],
+      "correctIndex": 0,
+      "explanation": "21"
+    },
+    {
+      "id": 29,
+      "category": "Module 3",
+      "question": "A primigravida experiences a 3rd-degree perineal tear during instrumental delivery. Where should the formal surgical repair of an Obstetric Anal Sphincter Injury (OASIS) be performed?",
+      "options": [
+        "In the delivery room bed under local infiltration",
+        "In an operating theatre under regional or general anaesthesia",
+        "In the outpatient clinic room",
+        "At the bedside without anaesthesia",
+        "In the recovery ward under Entonox"
+      ],
+      "correctIndex": 0,
+      "explanation": "22"
+    },
+    {
+      "id": 30,
+      "category": "Module 3",
+      "question": "Following surgical repair of a 4th-degree perineal tear in operating theatre, which postoperative prescription is MANDATORY to prevent breakdown of the anal sphincter repair?",
+      "options": [
+        "Opioid antidiarrheals (Loperamide)",
+        "Stool softeners / Laxatives + Broad-spectrum IV/Oral Antibiotics",
+        "Aspirin 150mg daily",
+        "Intramuscular Ergometrine",
+        "High-dose estrogen therapy"
+      ],
+      "correctIndex": 0,
+      "explanation": "23"
+    },
+    {
+      "id": 31,
+      "category": "Module 3",
+      "question": "A patient who underwent Caesarean section develops severe PPH unresponsive to IV Oxytocin and IM Ergometrine. During laparotomy, a B-Lynch suture is placed. What is the anatomical mechanism of the B-Lynch suture?",
+      "options": [
+        "Ligation of the internal iliac arteries",
+        "Continuous vertical mechanical compression of the anterior and posterior uterine walls",
+        "Circumferential clamping of the lower uterine segment",
+        "Ligation of ovarian vessels",
+        "Direct balloon inflation of the uterine cavity"
+      ],
+      "correctIndex": 0,
+      "explanation": "24"
+    },
+    {
+      "id": 32,
+      "category": "Module 3",
+      "question": "What is the maximum recommended time window following unprotected sexual intercourse for inserting a Copper Intrauterine Device (Cu-IUD) as emergency contraception?",
+      "options": [
+        "Up to 24 hours only",
+        "Up to 72 hours (3 days)",
+        "Up to 120 hours (5 days) OR up to 5 days after estimated ovulation",
+        "Up to 14 days",
+        "Up to 21 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "25"
+    },
+    {
+      "id": 33,
+      "category": "Module 3",
+      "question": "A 36-year-old woman with a BMI of 38 kg/m2 requests emergency oral contraception 48 hours post-coitus. If Levonorgestrel 1.5 mg is chosen, what dosage modification is required due to her high BMI?",
+      "options": [
+        "Reduce dose to 0.75 mg",
+        "Standard dose 1.5 mg is sufficient",
+        "Double the dose to 3.0 mg (two 1.5mg tablets)",
+        "Combine with oral misoprostol",
+        "Contraindicated; give oral estrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "26"
+    },
+    {
+      "id": 34,
+      "category": "Module 3",
+      "question": "Following an uncomplicated emergency Caesarean section, what is the single most important intervention recommended to reduce the risk of postpartum maternal venous thromboembolism (VTE)?",
+      "options": [
+        "Strict bed rest for 5 days",
+        "Prophylactic Low Molecular Weight Heparin (LMWH) + early mobilization",
+        "High-dose aspirin therapy",
+        "Intravenous fluid overload",
+        "Warfarin 5mg daily"
+      ],
+      "correctIndex": 0,
+      "explanation": "27"
+    },
+    {
+      "id": 35,
+      "category": "Module 3",
+      "question": "A 29-year-old woman attending for contraceptive advice asks about the Levonorgestrel Intrauterine System (LNG-IUS / Mirena). She should be advised that the main mechanism of action of LNG-IUS is:",
+      "options": [
+        "Systemic inhibition of ovulation in 100% of cycles",
+        "Profound endometrial atrophy and cervical mucus thickening",
+        "Induction of chronic pelvic inflammatory response",
+        "Spermicidal action of copper ions",
+        "Disruption of tubal peristalsis"
+      ],
+      "correctIndex": 0,
+      "explanation": "28"
+    },
+    {
+      "id": 36,
+      "category": "Module 3",
+      "question": "During natural family planning using the basal body temperature (BBT) method, what temperature change confirms that ovulation has successfully occurred?",
+      "options": [
+        "A sudden drop in temperature of 1.0 C for 5 days",
+        "A sustained biphasic rise in temperature of 0.2 to 0.5 C",
+        "No change in body temperature throughout the cycle",
+        "Fluctuating daily spikes of 2.0 C",
+        "A single drop of 0.5 C on Day 28"
+      ],
+      "correctIndex": 0,
+      "explanation": "29"
+    },
+    {
+      "id": 37,
+      "category": "Module 3",
+      "question": "A 38-year-old P4 experiences sudden collapse and severe hypotension during manual removal of a retained placenta under general anaesthesia. The obstetrician notes acute uterine inversion. In addition to manual fundal replacement, which medication can be administered to relax a tight uterine contraction ring?",
+      "options": [
+        "Intravenous Oxytocin",
+        "Intramuscular Ergometrine",
+        "Tocolytics (e.g. Sublingual Nitroglycerin / IV Terbutaline / General Anaesthetic agent)",
+        "Intramuscular Carboprost",
+        "Oral Misoprostol"
+      ],
+      "correctIndex": 0,
+      "explanation": "30"
+    }
+  ],
   "Final Part 2 Paediatrics - Paediatrics Module 1": [
     {
       "id": 8,

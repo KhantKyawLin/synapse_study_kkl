@@ -464,11 +464,11 @@ function updateQuizData() {
                 if (qIdx === -1) {
                     qIdx = headers.findIndex(h => /scenario|clinical/i.test(h) && !/total|count|q#/i.test(h));
                 }
-                const optAIdx = headers.findIndex(h => /option\s*a|^a$/i.test(h));
-                const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
-                const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
-                const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
-                const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h) && !/option\s*d\s*[/&]/i.test(h));
+                const optAIdx = headers.findIndex(h => /options?\s*a|^a$/i.test(h));
+                const optBIdx = headers.findIndex(h => /options?\s*b|^b$/i.test(h));
+                const optCIdx = headers.findIndex(h => /options?\s*c|^c$/i.test(h));
+                const optDIdx = headers.findIndex(h => /options?\s*d|^d$/i.test(h));
+                const optEIdx = headers.findIndex(h => /options?\s*e|^e$/i.test(h) && !/options?\s*d\s*[/&]/i.test(h));
                 let ansIdx = headers.findIndex(h => /correct\s*ans|correct\s*answer|correct\s*option|correct\s*choice/i.test(h));
                 if (ansIdx === -1) {
                     ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h) && !/select/i.test(h));

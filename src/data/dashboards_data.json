@@ -3301,6 +3301,448 @@
       ]
     }
   ],
+  "Final Part 2 - Obstetrics & Gynaecology Module 3 Database": [
+    {
+      "Name": "Primary Postpartum Haemorrhage (PPH)",
+      "Tag": "Puerperium",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Cumulative blood loss >=500ml (minor 500-1000ml, major >1000ml) within 24h of delivery. Etiology: 4 Ts (Tone 80%, Tissue, Trauma, Thrombin)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Failure of uterine myometrial contraction (atony) or tissue/vascular disruption preventing mechanical vessel occlusion at placental site."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Profuse vaginal bleeding, soft boggy uterus. Red Flags: Tachycardia (>100 bpm), hypotension (SBP <90), tachypnoea, oliguria, hypovolemic shock."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical estimation + blood crossmatch + FBC + Coag; Uterine massage + IV Oxytocin (Syntocinon) + IM Ergometrine (if no HTN) + IM Carboprost (if no asthma) + Misoprostol + Bakri balloon / B-Lynch"
+        }
+      ]
+    },
+    {
+      "Name": "Secondary Postpartum Haemorrhage",
+      "Tag": "Puerperium",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Excessive/abnormal vaginal bleeding occurring between 24 hours and 6 weeks postpartum. Caused by retained placenta/membranes or endometritis."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Persistent retained trophoblastic tissue or intrauterine bacterial infection causing sloughing of placental bed vessels."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent heavy vaginal bleeding, foul-smelling lochia, pelvic pain, low-grade fever, subinvolution of uterus."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "High vaginal & cervical swabs + Pelvic Ultrasound (RPOC detection); Broad-spectrum oral/IV antibiotics (Co-amoxiclav + Metronidazole) + surgical evacuation if RPOC confirmed."
+        }
+      ]
+    },
+    {
+      "Name": "Uterine Inversion",
+      "Tag": "Intrapartum / PPH",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Indenting or collapse of the uterine fundus into the uterine cavity/vagina during 3rd stage. Risk factors: fundal placenta, excessive cord traction before separation."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inversion of uterine wall secondary to traction on umbilical cord when uterus is relaxed, leading to neurogenic and hypovolemic shock."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe abdominal/pelvic pain, sudden postpartum shock out of proportion to visible blood loss, vaginal mass or absent fundus on abdominal palpation."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical examination; IMMEDIATE manual fundal replacement (Johnson maneuver) BEFORE placental removal or uterotonics; Tocolytics (Nitroglycerin/Terbutaline) if inverted ring tight; Oxytocin AFTER replacement."
+        }
+      ]
+    },
+    {
+      "Name": "Uterine Rupture",
+      "Tag": "Intrapartum / VBAC",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Full-thickness disruption of myometrium and visceral peritoneum during labour. Highest risk in trial of scar (VBAC) or oxytocin misuse."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical tearing of prior Caesarean section lower segment scar under active labour contractions."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden severe breakthrough abdominal pain, cessation of uterine contractions, acute CTG decelerations/bradycardia (55-87%), loss of fetal station, haematuria."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Continuous CTG + clinical exam; Stop Oxytocin immediately + emergency fluid resuscitation + Category 1 Caesarean section with uterine repair or emergency hysterectomy."
+        }
+      ]
+    },
+    {
+      "Name": "Maternal Puerperal Sepsis",
+      "Tag": "Puerperium",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Infection of genital tract occurring from ROM/labour up to 6 weeks postpartum. Most common causative organism: Group A Streptococcus (GAS / Strep pyogenes)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Ascending bacterial infection causing acute endometritis, parametritis, pelvic peritonitis, and systemic inflammatory response syndrome (SIRS)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Pyrexia (>38.3C), chills/rigors, foul purulent lochia, pelvic/uterine tenderness, tachycardia (>100 bpm); Red Flag: serum lactate >4 mmol/L."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Sepsis Six Bundle within 1h: Blood cultures, Lactate, Urine output, High-flow O2, Broad-spectrum IV Antibiotics (Piperacillin/Tazobactam or Co-amoxiclav + Metronidazole), IV crystalloids."
+        }
+      ]
+    },
+    {
+      "Name": "Caesarean Section - Category 1",
+      "Tag": "Operative Delivery",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Emergency Caesarean section indicated when there is immediate threat to maternal or fetal life. Target Decision-to-Delivery Interval (DDI) <30 minutes."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Acute irreversible fetal distress or catastrophic maternal collapse requiring immediate surgical delivery."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Profound persistent fetal bradycardia, uterine rupture, cord prolapse, severe placental abruption, uterine inversion."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Continuous CTG + Rapid multi-disciplinary response; Regional (spinal/epidural) or General Anaesthesia + Joel-Cohen/Pfannenstiel incision + single-dose IV antibiotic prophylaxis."
+        }
+      ]
+    },
+    {
+      "Name": "Caesarean Section - Category 2",
+      "Tag": "Operative Delivery",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Urgent Caesarean section indicated when there is maternal or fetal compromise but no immediate threat to life. Target DDI <75 minutes."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Progressive non-reassuring fetal status or failure to progress in labour without immediate vascular collapse."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Pathological CTG trace without prolonged bradycardia, failure to progress / dystocia with non-reassuring CTG, failed instrumental delivery."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Continuous CTG; Spinal anaesthesia + prophylactic IV antibiotics + antacid prophylaxis (Ranitidine/Sodium citrate)."
+        }
+      ]
+    },
+    {
+      "Name": "Combined Oral Contraceptive Pill (COCP)",
+      "Tag": "Hormonal Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Combined ethinylestradiol + progestogen daily oral pill. UKMEC 4 absolute contraindications: Migraine with aura, BP >=160/100, VTE history, smoking >=15/day age >=35."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inhibition of ovulation via negative feedback on LH/FSH surge + thickening of cervical mucus + endometrial thinning."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Highly effective (>99% perfect use); regulates cycles, reduces dysmenorrhea and HMB, reduces ovarian & endometrial cancer risk."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "BP & BMI assessment before initiation; UKMEC screening; standard 21/7 regimen or continuous tailored regimen."
+        }
+      ]
+    },
+    {
+      "Name": "Levonorgestrel Intrauterine System (LNG-IUS)",
+      "Tag": "LARC Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Levonorgestrel-releasing intrauterine device (Mirena/Kyleena). First-line treatment for Heavy Menstrual Bleeding (HMB); highly effective LARC for 5-8 years."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Local progestogen release causing profound endometrial atrophy, suppression of endo-myometrial vascularity, and thickening of cervical mucus."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Amenorrhea or light spotting after 3-6 months, dramatic reduction in dysmenorrhea and HMB (>90% reduction)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Bimanual exam + STI screen before insertion; insert within 7 days of menses or any time if non-pregnant; check threads post-menses."
+        }
+      ]
+    },
+    {
+      "Name": "Copper Intrauterine Device (Cu-IUD)",
+      "Tag": "LARC Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Non-hormonal intrauterine device containing copper coils. Licensed for 5-10 years. Most effective method of emergency contraception."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Copper ions exert spermicidal action, inhibit sperm motility and fertilization, and induce inflammatory endometrial response preventing implantation."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Non-hormonal contraception; may increase menstrual blood loss and dysmenorrhea in first 3-6 months."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pelvic exam + Chlamydia/Gonorrhea screening; can be inserted up to 5 days (120h) post-UPSI or up to 5 days post-calculated ovulation for emergency contraception."
+        }
+      ]
+    },
+    {
+      "Name": "Emergency Contraception - Ulipristal Acetate",
+      "Tag": "Emergency Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Single oral dose 30mg selective progesterone receptor modulator (EllaOne). Effective up to 120 hours (5 days) post-unprotected intercourse."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Binds to progesterone receptors and delays or inhibits ovulation even after LH surge has begun (unlike Levonorgestrel)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Single oral dose within 120h of UPSI; main side effect: mild nausea, delayed menses."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Contraindicated in severe asthma managed by oral steroids; avoid hormonal contraception for 5 days post-intake; repeat dose if vomiting within 3 hours."
+        }
+      ]
+    },
+    {
+      "Name": "Emergency Contraception - Levonorgestrel",
+      "Tag": "Emergency Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Single oral dose 1.5mg progestogen (Levonelle). Effective up to 72 hours (3 days) post-unprotected intercourse. UKMEC 1 (no medical contraindications)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inhibits LH surge and delays ovulation BEFORE the LH surge has started; ineffective once LH surge has commenced."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Single oral dose within 72h of UPSI; double dose (3mg) if BMI >26 or taking enzyme-inducing drugs."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "No medical contraindications (UKMEC 1); can resume regular hormonal contraception immediately."
+        }
+      ]
+    },
+    {
+      "Name": "Female Sterilization (Tubal Occlusion)",
+      "Tag": "Permanent Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Permanent surgical contraception via laparoscopic mechanical occlusion of bilateral fallopian tubes using Filshie clips or salpingectomy."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical blockage of fallopian tubes preventing ovum transport and sperm-egg interaction."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Permanent non-reversible decision; failure rate approx 1 in 200 (0.5%); ectopic risk if failure occurs."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Comprehensive pre-procedure counseling regarding non-reversibility and LARC alternatives; perform in follicular phase or with effective contraception."
+        }
+      ]
+    },
+    {
+      "Name": "Obstetric Anal Sphincter Injuries (OASIS)",
+      "Tag": "Perineal Trauma",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Laceration extending into anal sphincter complex during vaginal delivery. 3rd degree (anal sphincter tear) & 4th degree (anorectal mucosa tear). Risk: instrumental birth, OP position, macrosomia."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Mechanical tearing of external anal sphincter (EAS), internal anal sphincter (IAS), and rectal mucosa during crowning."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe perineal pain, rectal bleeding; risk of long-term anal incontinence and flatal incontinence if misdiagnosed or inadequately repaired."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Systematic digital rectal examination post-delivery; Repair in operating theatre by trained obstetrician under regional/general anaesthesia using end-to-end or overlap PDS suture + IV antibiotics + oral laxatives."
+        }
+      ]
+    },
+    {
+      "Name": "Episiotomy Procedure & Repair",
+      "Tag": "Perineal Management",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Mediolateral episiotomy incision made at 45-60 degree angle from mid-perineum during crowning. Indicated for instrumental delivery, fetal distress, or rigid perineum."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Surgical incision through perineal skin, vaginal mucosa, and perineal muscles (bulbospongiosus & superficial transverse perineal) to enlarge vaginal introitus."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Controlled enlargement of introitus; protects against ragged 3rd/4th degree midline perineal tears."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Infiltration with 10-20ml 1% Lignocaine; 3-layer continuous suture repair (1: vaginal mucosa, 2: perineal muscle layer, 3: subcuticular perineal skin)."
+        }
+      ]
+    },
+    {
+      "Name": "Fertility Awareness Methods (FAM)",
+      "Tag": "Natural Methods",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Natural family planning using physiological indicators (calendar/Ogino-Knaus, basal body temperature BBT, cervical mucus / Billings method)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Identification of fertile window (5 days before ovulation to 1 day after) to avoid unprotected intercourse."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Requires high user motivation and commitment; typical failure rate 15-24%."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Biphasic BBT rise of 0.2-0.5C indicates post-ovulatory phase; clear, stretchy cervical mucus (spinnbarkeit) indicates peak fertility."
+        }
+      ]
+    },
+    {
+      "Name": "Postpartum Contraceptive Timing",
+      "Tag": "Puerperium",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Contraceptive initiation guidelines following childbirth. Women are non-fertile before Day 21 postpartum; contraception required from Day 21 (3 weeks)."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Postpartum ovulation suppression via lactational amenorrhea (LAM) or physiological anovulation up to 21 days."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "LAM criteria: 100% exclusively breastfeeding, amenorrheic, and <6 months postpartum (98% effective)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Progestogen-only pill (POP) & Implant can be started immediately (Day 1); COCP strictly UKMEC 4 <21 days (VTE risk); Cu-IUD/LNG-IUS inserted within 48h or delayed to >=4 weeks."
+        }
+      ]
+    },
+    {
+      "Name": "B-Lynch Compression Suture",
+      "Tag": "PPH Management",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Surgical continuous bracing suture applied around uterine body to treat refractory uterine atony during Caesarean section or laparotomy."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Provides continuous mechanical vertical compression of anterior and posterior uterine walls, tamponading open myometrial bleeding vessels."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Controls severe PPH without hysterectomy; preserves fertility."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Perform uterine re-assessment; pass 0-Monocryl / Vicryl suture vertically from lower segment over fundus and back through posterior wall; tie securely."
+        }
+      ]
+    },
+    {
+      "Name": "Bakri Intrauterine Balloon Tamponade",
+      "Tag": "PPH Management",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Intrauterine silicone balloon inserted into uterine cavity and inflated with 300-500ml warm normal saline to control atonic PPH."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Direct hydrostatic compression exerted by inflated balloon against inner uterine wall, stopping capillary and venous oozing."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "First-line conservative surgical intervention for refractory PPH failing oxytocics."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Insert balloon into uterine cavity via cervix or C-section incision; inflate with 300-500ml sterile saline; maintain oxytocin infusion; remove after 12-24 hours."
+        }
+      ]
+    },
+    {
+      "Name": "Postpartum Blues vs. Puerperal Sepsis vs. Psychosis",
+      "Tag": "Postpartum Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Differential diagnosis of acute maternal distress in early puerperium."
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hormonal withdrawal (blues), systemic bacterial infection (sepsis), or severe psychiatric neurochemical disturbance (psychosis)."
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Blues: mild lability, tearfulness d3-10, self-limiting. Sepsis: high fever, tachycardia, purulent lochia. Psychosis: delusions, paranoia, infant harm risk (d3-14)."
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Blues: reassurance. Sepsis: Sepsis Six + IV Antibiotics. Psychosis: Emergency psychiatric referral & admission to Mother and Baby Unit (MBU)."
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Paediatrics Module 1 Database": [
     {
       "Name": "Low Birth Weight (LBW) & Preterm",
