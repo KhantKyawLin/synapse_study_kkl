@@ -2859,6 +2859,448 @@
       ]
     }
   ],
+  "Final Part 2 - Obstetrics & Gynaecology Module 2 Database": [
+    {
+      "Name": "Abnormal Uterine Bleeding (AUB / HMB)",
+      "Tag": "Menstrual Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Bleeding from uterine corpus abnormal in duration/volume/frequency; etiology PALM-COEIN"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Structural (Polyps, Adenomyosis, Leiomyoma, Malignancy) or non-structural (Coagulopathy, Ovulatory, Endometrial, Iatrogenic)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Heavy flow, flooding, clots, fatigue, anemia; Red Flags: PMB, PCB, intermenstrual bleeding"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "FBC (ferritin); Pelvic TVUS; LNG-IUS (Mirena) 1st-line; Tranexamic acid / NSAIDs; Endometrial ablation / Hysterectomy"
+        }
+      ]
+    },
+    {
+      "Name": "Endometriosis",
+      "Tag": "Pelvic Pathology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ectopic implantation of functional endometrial glands/stroma outside uterine cavity"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Retrograde menstruation / coelomic metaplasia with estrogen-dependent chronic inflammation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "The 4 Ds: Dysmenorrhea, Deep Dyspareunia, Dyschezia, Dysuria; pelvic pain, subfertility; tender nodularity"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pelvic TVUS (chocolate cysts); Laparoscopy + biopsy (Gold Standard); NSAIDs + COCP/Dienogest or Laparoscopic excision"
+        }
+      ]
+    },
+    {
+      "Name": "Adenomyosis",
+      "Tag": "Uterine Pathology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Benign invasion of endometrial tissue into uterine myometrium with smooth muscle hypertrophy"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hyperplastic myometrium surrounding ectopic endometrial glands causing diffuse enlargement"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Secondary dysmenorrhea, heavy painful menses, enlarged tender globular/bogy uterus"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS (asymmetric myometrial thickening, myometrial cysts); MRI pelvis; LNG-IUS (Mirena) / Hysterectomy"
+        }
+      ]
+    },
+    {
+      "Name": "Primary & Secondary Amenorrhoea",
+      "Tag": "Endocrine Gynaecology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary: no menses by 15 with secondary sexual characteristics or 13 without; Secondary: absence >3-6 months"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hypothalamic-pituitary-ovarian axis dysfunction, WHO Class I (hypogonadotropic), II (eugonadotropic/PCOS), III (hypergonadotropic/POF)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Lack of menses, galactorrhea, hirsutism, hot flashes; Red Flags: anosmia (Kallmann), visual loss (prolactinoma)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pregnancy test (exclude pregnancy 1st); Serum FSH/LH, Prolactin, TSH, Testosterone; Progestin withdrawal test; Pelvic US"
+        }
+      ]
+    },
+    {
+      "Name": "Dysmenorrhoea & PMS",
+      "Tag": "Menstrual Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary dysmenorrhea (excess prostaglandins without pathology) vs Secondary; PMS (luteal phase mood/somatic symptoms)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Prostaglandin F2-alpha induced myometrial hypercontractility & uterine ischemia; PMS progesterone sensitivity"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Painful cramping lower abdominal pain starting before/with menses; PMS: irritability, bloating, breast tenderness"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "NSAIDs (Mefenamic acid) started 1-2 days before menses; COCP; SSRIs for severe PMS/PMDD"
+        }
+      ]
+    },
+    {
+      "Name": "Endometrial Hyperplasia",
+      "Tag": "Uterine Pathology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Proliferation of endometrial glands; Non-atypical vs Atypical (precancerous with 30% progression rate)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Unopposed estrogen stimulation (obesity, peripheral aromatization, PCOS, Tamoxifen, estrogen-only HRT)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Abnormal uterine bleeding, heavy irregular menses, Postmenopausal Bleeding (PMB - Red Flag)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "TVUS Endometrial Thickness (>4mm in PMB); Pipelle biopsy / Hysteroscopy & D&C; LNG-IUS for non-atypical; TH+BSO for atypical"
+        }
+      ]
+    },
+    {
+      "Name": "Ovarian Epithelial Tumours",
+      "Tag": "Ovarian Neoplasms",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Includes Serous (70%), Mucinous, Endometrioid, Clear cell; BRCA1/2 and Lynch syndrome risk factors"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Incessant ovulation causing surface epithelial invagination & malignant genetic mutation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Abdominal distension, persistent bloating, early satiety, pelvic pain; Red Flag: ascites, abdominal mass"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CA-125; Pelvic TVUS; RMI score (>200 = MDT referral); CT Abdomen/Pelvis; Staging Laparotomy + Debulking + Carboplatin/Paclitaxel"
+        }
+      ]
+    },
+    {
+      "Name": "Normal Active Labour & Progress",
+      "Tag": "Intrapartum Care",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Regular painful contractions with progressive cervical effacement and dilation >=5cm"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Uterine basal tone & oxytocin-driven rhythmic contractions advancing station & rotation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Regular uterine contractions, bloody show, rupture of membranes; expected progress >=1cm / 2 hours"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "WHO Labour Care Guide / Partograph monitoring; Fetal heart auscultation / IA; Vaginal exam q4h; Supportive care & pain relief"
+        }
+      ]
+    },
+    {
+      "Name": "Dystocia & Obstructed Labour",
+      "Tag": "Intrapartum Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Abnormal slow progress or arrest of labour; Etiology: 3 Ps (Power, Passenger, Passage)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cephalopelvic disproportion (CPD), malposition (occiput posterior), deflexion (brow/face), hypocontractile uterine power"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Protracted active phase, secondary arrest, severe moulding/caput (3+); Red Flag: Bandl's ring (impending rupture)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Partograph action line crossed; If hypocontractile -> ARM + IV Oxytocin titration; If CPD/brow presentation -> Emergency C-Section"
+        }
+      ]
+    },
+    {
+      "Name": "WHO Labour Care Guide",
+      "Tag": "Intrapartum Monitoring",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Next-generation intrapartum monitoring tool replacing old partograph"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Focuses on respectful maternity care, active phase starting at 5cm, personalized alert triggers"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Alert line at <1cm/2h in active phase; systematically logs maternal/fetal well-being & labour progress"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Fetal heart rate q30m, contraction frequency/duration q30m, maternal BP q4h, urine output, cervical dilation q4h"
+        }
+      ]
+    },
+    {
+      "Name": "Intrapartum Fetal Monitoring (CTG)",
+      "Tag": "Fetal Surveillance",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Continuous Electronic Fetal Monitoring using cardiotocography during high-risk labour"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Assesses fetal autonomic nervous system, brainstem perfusion, and oxygenation under contraction stress"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Normal baseline 110-160 bpm, variability 5-25 bpm, accelerations present; Pathological: late/repetitive variable decelerations"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "DR C BAVO system; Pathological CTG -> Fetal Scalp Blood Sampling (FSBS pH <7.20) or immediate Category 1 C-section"
+        }
+      ]
+    },
+    {
+      "Name": "Delivery of Second Twin Skill",
+      "Tag": "Multiple Delivery",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Management of intrapartum delivery of twin B following successful birth of twin A"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Risk of malpresentation, cord prolapse, or placental abruption following decompression of twin A"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Abdominal palpation to confirm lie of Twin B; internal/external version if transverse; ARM once head engaged"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Continuous CTG Twin B; IV Oxytocin infusion ready; Ultrasound in delivery suite; Vacuum/forceps or ECV/internal podalic version"
+        }
+      ]
+    },
+    {
+      "Name": "Pelvic Inflammatory Disease (PID)",
+      "Tag": "Pelvic Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Ascending polymicrobial upper genital tract infection; Chlamydia, N. gonorrhoeae, M. genitalium"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Endometrial, tubal, and peritoneal mucosal inflammation causing adhesions & tubo-ovarian abscess (TOA)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Bilateral lower abdominal pain, purulent cervical discharge, dyspareunia; Red Flags: chandelier sign, fever >38C, peritonitis"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Endocervical NAAT swabs; Pelvic TVUS; Outpatient: IM Ceftriaxone 1g + Oral Doxycycline 100mg BD + Metronidazole 400mg BD x14d"
+        }
+      ]
+    },
+    {
+      "Name": "Pruritus Vulvae & Lichen Sclerosus",
+      "Tag": "Vulval Dermatoses",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic severe itching of vulva/perineum; Lichen Sclerosus is autoimmune skin dermatosis"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Epidermal thinning, hyperkeratosis, dermal hyalinization, and loss of normal vulval architecture"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Intense vulval pruritus (worse at night), dyspareunia, porcelain-white figure-of-eight plaques around vulva/anus"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Vulval punch biopsy (if atypical/refractory); Ultra-potent topical corticosteroid (Clobetasol propionate 0.05%) for 3 months"
+        }
+      ]
+    },
+    {
+      "Name": "Pain Relief in Labour",
+      "Tag": "Intrapartum Care",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Non-pharmacological vs Pharmacological analgesia options during labour"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Central & peripheral pain pathway modulation during uterine contractions & perineal stretching"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Maternal request for analgesia during active labour phase"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Entonox (50% N2O / 50% O2); Parenteral Opioids (Pethidine / Remifentanil); Epidural analgesia (L3-L4 insertion - most effective)"
+        }
+      ]
+    },
+    {
+      "Name": "Induction & Augmentation of Labour",
+      "Tag": "Intrapartum Protocols",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "IOL: artificial initiation of labour; Augmentation: stimulation of established ineffective labour"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cervical ripening via prostaglandins/mechanical methods followed by oxytocin-induced contractions"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Indications: post-term (41-42wks), pre-eclampsia, PPROM, SGA, maternal medical conditions"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Modified Bishop Score (>=8 favorable); Vaginal PGE2 (Propess/Prostin) or Mechanical balloon catheter -> ARM + IV Oxytocin"
+        }
+      ]
+    },
+    {
+      "Name": "Partograph Interpretation",
+      "Tag": "Intrapartum Monitoring",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Graphic representation of labour progress, maternal, and fetal condition over time"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Visual tracking of cervical dilation rate to detect early deviation from normal active phase progress"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Alert line reached = slow progress; Action line crossed = critical delay requiring intervention"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Plot cervical dilation from 4-5cm; Monitor contractions, fetal HR, moulding, caput, maternal BP/pulse, fluids/urine"
+        }
+      ]
+    },
+    {
+      "Name": "Tubo-Ovarian Abscess (TOA)",
+      "Tag": "Pelvic Infections",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Late complication of severe undertreated PID; inflammatory mass involving tube and ovary"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bacterial necrosis & purulent fluid collection within pelvic adnexa with tissue destruction"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe unilateral/bilateral pelvic pain, high fever, chills, adnexal mass, leukocytosis, elevated CRP"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Pelvic TVUS / CT pelvis (multilocular cystic adnexal mass); Inpatient IV Ceftriaxone + Doxycycline + Metronidazole; Surgical/percutaneous drainage"
+        }
+      ]
+    },
+    {
+      "Name": "Premenstrual Dysphoric Disorder (PMDD)",
+      "Tag": "Menstrual Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe, disabling form of PMS with predominant affective and behavioral symptoms"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Cyclical neurosteroid & serotonin sensitivity fluctuations during luteal phase"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe mood swings, irritability, anxiety, depression resolving within a few days of menses onset"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Daily symptom diary over 2 cycles; First-line SSRIs (Sertraline / Fluoxetine) continuous or luteal-phase dosing; COCP (Yasmin)"
+        }
+      ]
+    },
+    {
+      "Name": "Secondary Amenorrhoea - PCOS",
+      "Tag": "Endocrine Gynaecology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Polycystic Ovary Syndrome; most common cause of ovulatory dysfunction and secondary amenorrhea"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Hyperandrogenism, insulin resistance, and altered LH/FSH ratio (>2:1) causing anovulation"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Oligomenorrhea/amenorrhea, hirsutism, acne, central obesity, subfertility; bilateral polycystic ovaries on US"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Rotterdam Criteria (2 of 3: Oligo/anovulation, Hyperandrogenism, Polycystic ovaries >=20 follicles); Lifestyle/Weight loss + COCP / Letrozole"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Paediatrics Module 1 Database": [
     {
       "Name": "Low Birth Weight (LBW) & Preterm",

@@ -9016,6 +9016,381 @@
       "answer": "Referral to a fetal medicine unit for specialist counseling and the option of invasive confirmatory testing."
     },
     {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "By what gestational age should a pregnant woman be offered her first routine antenatal (booking) appointment with a midwife?",
+      "answer": "By $10^{+0}$ weeks of pregnancy."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How many routine antenatal appointments are planned for a nulliparous woman compared to a parous woman in uncomplicated pregnancies?",
+      "answer": "10 routine appointments for nulliparous women; 7 routine appointments for parous women."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended total gestational weight gain for a woman with a normal pre-pregnancy BMI ($18.5\\text{--}24.9\\text{ kg/m}^2$)?",
+      "answer": "$11\\text{--}16\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended total gestational weight gain for an overweight pregnant woman (BMI $25.0\\text{--}29.9\\text{ kg/m}^2$)?",
+      "answer": "$7\\text{--}11\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended total gestational weight gain for an obese pregnant woman (BMI $\\ge 30\\text{ kg/m}^2$)?",
+      "answer": "$5\\text{--}9\\text{ kg}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What haemoglobin (Hb) threshold defines anaemia during the first trimester of pregnancy?",
+      "answer": "$\\text{Hb} < 110\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What haemoglobin (Hb) threshold defines anaemia during the second and third trimesters of pregnancy?",
+      "answer": "$\\text{Hb} < 105\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What haemoglobin (Hb) threshold defines anaemia in the postpartum period?",
+      "answer": "$\\text{Hb} < 100\\text{ g/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "At what gestational period does gestational thrombocytopaenia most commonly present?",
+      "answer": "Beyond 28 weeks gestation (it rarely presents in the first trimester)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Under 12 weeks gestation, what specific clinical events indicate anti-D immunoglobulin prophylaxis in Rhesus D-negative women?",
+      "answer": "Ectopic pregnancy, molar pregnancy, therapeutic termination of pregnancy, or repeated/heavy/painful uterine bleeding."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the minimum recommended dose of anti-D immunoglobulin for sensitizing events occurring before 20 weeks gestation?",
+      "answer": "$250\\text{ IU}$ (administered within 72 hours of the event)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Is a test for feto-maternal haemorrhage required following a sensitizing event before 20 weeks gestation?",
+      "answer": "No, a test for feto-maternal haemorrhage is not required for events under 20 weeks gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What routine gestational age schedules are recommended for prophylactic anti-D administration in Rhesus D-negative women?",
+      "answer": "Either a single large dose at 28 weeks gestation, or two doses given at 28 and 34 weeks gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Under what condition is anti-D immunoglobulin administered to a Rhesus D-negative woman in the postpartum period?",
+      "answer": "When testing of umbilical cord blood confirms that the neonate is Rhesus D positive."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which non-invasive screening technique on maternal blood can determine fetal Rhesus status to avoid unnecessary anti-D prophylaxis?",
+      "answer": "Non-invasive prenatal testing (NIPT) analyzing cell-free fetal DNA (cffDNA)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What initial screening tools are used at the booking visit to assess a pregnant woman's risk for thalassaemia?",
+      "answer": "The Family Origin Questionnaire (FOQ) and full blood count (FBC) results."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What pattern of genetic inheritance characterizes thalassaemia and sickle cell disorders?",
+      "answer": "Autosomal recessive pattern."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Within what time frame following a potentially sensitizing event must anti-D immunoglobulin be administered?",
+      "answer": "As soon as possible, and always within 72 hours of the event."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Why is repeat blood group and antibody screening recommended for all pregnant women at 28 weeks gestation?",
+      "answer": "To identify atypical maternal red cell antibodies that require clinical monitoring and to confirm Rhesus D status prior to prophylaxis."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What dietary recommendation regarding starchy foods should be given to pregnant women during antenatal counseling?",
+      "answer": "Choose whole grain varieties of starchy foods (e.g., whole grain bread, brown rice, whole wheat pasta)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which exercise activities are explicitly safe and encouraged for maintenance during uncomplicated pregnancy?",
+      "answer": "Aerobic conditioning, strength exercises, walking, swimming, non-contact exercise, and pelvic floor exercises."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What key long-term health benefit does breastfeeding provide for the child later in life?",
+      "answer": "Reduced risk of obesity later in life and association with a higher intelligence quotient (IQ)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What key parameter is routinely screened in urine during return antenatal visits?",
+      "answer": "Proteinuria (protein in urine)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the clinical definition of induction of labour?",
+      "answer": "Stimulating the uterus to begin labour."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the clinical definition of augmentation of labour?",
+      "answer": "Stimulating the uterus during active labour to increase the frequency, duration, and strength of contractions."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What contraction frequency and duration define an established good labour pattern?",
+      "answer": "Three contractions in 10 minutes, each lasting more than 40 seconds."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What are five recognized clinical indications for the induction of labour?",
+      "answer": "Post-dates pregnancy, SGA/IUGR, pre-eclampsia, spontaneous/premature rupture of membranes (PROM), and antepartum haemorrhage (abruptio placentae)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended interval before repeating induction of labour with a mechanical method after an initial failed attempt?",
+      "answer": "48 hours"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What management is indicated if induction of labour fails and repeated induction is inappropriate or unacceptable?",
+      "answer": "Caesarean section (CS)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the most common underlying cause of primary dysfunctional labour (PDL)?",
+      "answer": "Inadequate uterine activity."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Besides primary dysfunctional labour and prolonged latent phase, what pattern characterizes abnormal progress of labour?",
+      "answer": "Secondary arrest of cervical dilatation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What graphic recording tool allows visual assessment of cervical dilatation progress compared to expected norms by parity?",
+      "answer": "The partogram"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How frequently should fetal heart rate (FHR) be auscultated during the first stage of intrapartum labour?",
+      "answer": "Every 15 minutes."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How frequently should fetal heart rate (FHR) be auscultated during the second stage of intrapartum labour?",
+      "answer": "At least every 5 minutes."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "When performing intermittent auscultation during labour, for how long and at what point in the contraction cycle must the fetal heart rate be assessed?",
+      "answer": "For at least 1 minute, immediately after a uterine contraction."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the current guideline recommendation regarding routine 'admission cardiotocography (CTG)' for all labouring women?",
+      "answer": "Routine admission CTG on all women is no longer recommended."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended standard time interval for performing routine vaginal examinations during the first stage of labour?",
+      "answer": "Every 4 hours (or as clinically indicated)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Why are adequate hydration and a light diet maintained during the first stage of intrapartum labour?",
+      "answer": "To prevent maternal ketosis."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the recommended mode of delivery for most laboring women in the absence of absolute contraindications?",
+      "answer": "Vaginal birth"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How is Heavy Menstrual Bleeding (HMB) defined?",
+      "answer": "Excessive menstrual blood loss interfering with a woman's physical, social, emotional, and/or material quality of life."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What benign structural uterine and cervical lesions are commonly associated with Inter-menstrual Bleeding (IMB)?",
+      "answer": "Endometrial polyps, cervical polyps, and endometriosis."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Post-coital bleeding (PCB) is bleeding after intercourse. Which anatomical organ pathology is most commonly implicated?",
+      "answer": "Cervical abnormalities (e.g., cervical ectropion, polyps, or cervical neoplasia)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How is Post-menopausal Bleeding (PMB) defined, and what diagnostic priority must be addressed?",
+      "answer": "Bleeding occurring $>1\\text{ year}$ after cessation of periods; endometrial pathology (malignancy) or vaginal atrophy must be evaluated."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What structural etiology categories are represented by the 'PALM' acronym in the FIGO classification of abnormal uterine bleeding?",
+      "answer": "Polyp, Adenomyosis, Leiomyoma, Malignancy and hyperplasia."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What non-structural etiology categories are represented by the 'COEIN' acronym in the FIGO classification of abnormal uterine bleeding?",
+      "answer": "Coagulopathy, Ovulatory dysfunction, Endometrial, Iatrogenic, Not yet classified."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What are the typical age ranges for the physiological onset of Menarche and the establishment of Menopause?",
+      "answer": "Menarche: 11--14 years; Menopause: 45--55 years."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What defines Primary Dysmenorrhoea, and how does its natural course change with age and parity?",
+      "answer": "Painful menstruation since menarche without identifiable underlying pathology; typically improves after childbirth and declines with increasing age."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What defines Secondary Dysmenorrhoea?",
+      "answer": "Painful menstruation secondary to underlying pelvic pathology (e.g., endometriosis, adenomyosis, fibroids, PID)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What estimated percentage of postpubertal girls experience dysmenorrhoea?",
+      "answer": "Up to 50%"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What first-line dietary and lifestyle modifications are recommended for managing mild-to-moderate premenstrual syndrome (PMS)?",
+      "answer": "Reduce fat, sugar, salt, caffeine, and alcohol; consume frequent high-fibre starchy meals, fruits, and vegetables; engage in regular exercise and stress management."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What validated symptom chart/diary is used to prospectusly record daily symptoms and assess treatment response in PMS?",
+      "answer": "Daily Record of Severity of Problems (DRSP)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which specialist referral is indicated for women presenting with severe PMS combined with marked underlying psychopathology?",
+      "answer": "Referral to a psychiatrist."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "At what age is formal investigation of primary amenorrhoea indicated in the presence of normal secondary sexual development?",
+      "answer": "Age 16"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "At what age is formal investigation of primary amenorrhoea indicated when secondary sexual characteristics are absent?",
+      "answer": "Age 14"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What age threshold defines Premature Ovarian Failure?",
+      "answer": "Cessation of menses before 40 years of age."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What common ovarian endocrine disorder leads to anovulatory secondary amenorrhoea?",
+      "answer": "Polycystic Ovary Syndrome (PCOS)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What structural pathology causes Asherman syndrome, and what type of amenorrhoea does it produce?",
+      "answer": "Intrauterine adhesions (synechiae) and endometrial scarring causing secondary amenorrhoea. Diagram comparing normal uterine cavity with intrauterine synechiae in Asherman's syndrome"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What classic uterine surgical procedure post-delivery or post-miscarriage is the primary iatrogenic cause of Asherman syndrome?",
+      "answer": "Dilatation and Curettage (D&C)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which structural developmental defects present as primary amenorrhoea with outflow tract obstruction and haematocolpos?",
+      "answer": "Müllerian duct anomalies (e.g., imperforate hymen or transverse vaginal septum)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What management strategy is indicated for functional secondary amenorrhoea caused by abnormally low body weight (low BMI)?",
+      "answer": "Dietary advice, nutritional support, and weight restoration."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the mathematical formula for calculating the Risk of Malignancy Index (RMI) in post-menopausal women with ovarian cysts?",
+      "answer": "$\\text{RMI} = U \\times M \\times \\text{CA-125}$ where $U$ is Ultrasound score, $M$ is Menopausal status, and $\\text{CA-125}$ is serum CA-125 level (U/mL)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What Risk of Malignancy Index (RMI) score threshold warrants immediate referral to a specialist gynaecological oncology multidisciplinary team?",
+      "answer": "$\\text{RMI} > 200$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Calculate the RMI of a post-menopausal woman ($M = 3$) with a serum CA-125 level of $15\\text{ U/mL}$ and ultrasound features of a multiloculated bilateral cyst ($U = 3$).",
+      "answer": "$\\text{RMI} = 3 \\times 3 \\times 15 = 135$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which three clinical factors comprise the triad used in RCOG triage for ovarian cyst malignancy risk assessment?",
+      "answer": "Ultrasound score ($U$), Menopausal status ($M$), and Serum CA-125 level."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "According to FIGO staging for ovarian carcinoma, what defining anatomical scope characterizes Stage II disease?",
+      "answer": "Tumour involves one or both ovaries with pelvic extension (below the pelvic brim) or primary peritoneal cancer."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "How is FIGO Stage IIA differentiated from Stage IIB in ovarian cancer staging?",
+      "answer": "Stage IIA involves extension to/implants on the uterus and/or fallopian tubes; Stage IIB involves extension to other pelvic intraperitoneal tissues."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What investigation is performed postmortem or post-delivery to confirm feto-maternal haemorrhage in RhD-negative women following an intrauterine fetal death (IUFD)?",
+      "answer": "Kleihauer-Betke test"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What maternal blood screening component is indicated in the maternal diagnostic workup following an unexplained IUFD or severe IUGR?",
+      "answer": "Maternal thrombophilia screening (and TORCH/Syphilis serology)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What parental laboratory investigation is indicated following intrauterine fetal death (IUFD) to identify structural genetic causes?",
+      "answer": "Parental blood for karyotyping."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What non-pharmacological supportive measure during the first stage of labour promotes physiological progress and pain control?",
+      "answer": "One-to-one continuous midwifery care and emotional support from a dedicated birth partner."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Which single-gene autosomal recessive haemoglobinopathy alters haemoglobin structure and is widely screened at booking?",
+      "answer": "Sickle cell disease (HbSS, HbSC, HbS-beta thalassaemia)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "Why is rubella immunity status assessed during antenatal care screening?",
+      "answer": "To identify susceptible non-immune women so post-partum MMR vaccination can be offered to protect future pregnancies."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What is the key clinical objective of antenatal care regarding minor ailments of pregnancy?",
+      "answer": "To deal with minor ailments and provide reassurance, advice, education, and support to the woman and her family."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "When evaluating uterine contractions during labour, what three parameters are monitored to assess contraction quality?",
+      "answer": "Frequency, duration, and strength of contractions."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 2",
+      "question": "What diagnostic finding at staging laparotomy places an ovarian malignancy involving the left ovary and uterus with positive peritoneal washings into FIGO Stage IIA?",
+      "answer": "Direct extension or metastases strictly to the uterus and/or fallopian tubes (Stage IIA)."
+    },
+    {
       "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
       "question": "What is the primary procedural priority in neonatal resuscitation before commencing chest compressions?",
       "answer": "Effectively delivering air into the lungs (confirmed by visible chest wall movement)."

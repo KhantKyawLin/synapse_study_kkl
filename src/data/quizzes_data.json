@@ -6469,6 +6469,428 @@
       "explanation": "A mid-luteal serum Progesterone level (Day 21 of a 28-day cycle) greater than 30 nmol/L confirms that ovulation has occurred during that menstrual cycle."
     }
   ],
+  "Final Part 2 Obstetrics & Gynaecology - Module 2": [
+    {
+      "id": 8,
+      "category": "Module 2 - AUB",
+      "question": "A 48-year-old woman presents with heavy, irregular menstrual bleeding. Transvaginal ultrasound reveals an endometrial thickness of 7 mm. What is the most appropriate next step in management?",
+      "options": [
+        "Reassure and discharge",
+        "Commence Tranexamic Acid",
+        "Perform endometrial Pipelle biopsy",
+        "Schedule emergency hysterectomy",
+        "Insert copper IUD"
+      ],
+      "correctIndex": 2,
+      "explanation": "In perimenopausal women presenting with abnormal uterine bleeding or an endometrial thickness >4-5mm, an endometrial biopsy (Pipelle or hysteroscopy) is required to rule out endometrial hyperplasia or carcinoma before initiating medical therapy."
+    },
+    {
+      "id": 9,
+      "category": "Module 2 - AUB / HMB",
+      "question": "Which of the following medical options is considered the most effective first-line medical treatment for Heavy Menstrual Bleeding (HMB) according to NICE guidelines?",
+      "options": [
+        "Mefenamic Acid",
+        "Tranexamic Acid",
+        "Combined Oral Contraceptive Pill",
+        "Levonorgestrel-releasing Intrauterine System (LNG-IUS)",
+        "Cyclical Norethisterone"
+      ],
+      "correctIndex": 3,
+      "explanation": "The LNG-IUS (Mirena) reduces menstrual blood loss by over 90% and is recommended as the first-line medical management for heavy menstrual bleeding in women without structural uterine abnormalities."
+    },
+    {
+      "id": 10,
+      "category": "Module 2 - Labour Progress",
+      "question": "In the WHO Labour Care Guide, active phase of first stage of labour is defined as starting at what cervical dilation threshold?",
+      "options": [
+        "3 cm",
+        "4 cm",
+        "5 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Under the updated WHO Labour Care Guide, the active phase of the first stage of labour commences at 5 cm cervical dilation (previously 4 cm on old partographs)."
+    },
+    {
+      "id": 11,
+      "category": "Module 2 - Labour Progress",
+      "question": "What is the expected minimum rate of cervical dilation during the active phase of labour according to standard partograph guidelines?",
+      "options": [
+        "0.5 cm per hour",
+        "1.0 cm per 2 hours",
+        "1.0 cm per hour",
+        "2.0 cm per hour",
+        "1.5 cm per 2 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the active phase of labour, a cervical dilation rate of less than 1 cm over 2 hours is considered slow progress and triggers clinical alert/review."
+    },
+    {
+      "id": 12,
+      "category": "Module 2 - Dysmenorrhoea",
+      "question": "A 19-year-old nulliparous student complains of severe cramping lower abdominal pain starting 1 day before her menses. Pelvic exam is entirely normal. What is the first-line drug therapy?",
+      "options": [
+        "Paracetamol",
+        "Mefenamic Acid (NSAID)",
+        "Tramadol",
+        "Dienogest",
+        "GnRH agonist"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary dysmenorrhea is mediated by uterine prostaglandin F2-alpha release. Non-steroidal anti-inflammatory drugs (NSAIDs) such as mefenamic acid or ibuprofen are first-line pharmacological treatments."
+    },
+    {
+      "id": 13,
+      "category": "Module 2 - Amenorrhoea",
+      "question": "A 16-year-old girl presents with primary amenorrhoea. She has well-developed secondary sexual characteristics. What is the first essential investigation to perform?",
+      "options": [
+        "Serum Prolactin",
+        "Karyotype",
+        "Pelvic Ultrasound",
+        "Serum FSH/LH",
+        "Pregnancy test (beta-hCG)"
+      ],
+      "correctIndex": 4,
+      "explanation": "In any female presenting with amenorrhea (primary or secondary), pregnancy must always be excluded first with a urine/serum beta-hCG test before pursuing complex endocrine workups."
+    },
+    {
+      "id": 14,
+      "category": "Module 2 - Amenorrhoea",
+      "question": "A 26-year-old woman presents with 6 months of secondary amenorrhoea, galactorrhea, and headaches. Serum prolactin is 3,500 mIU/L. What is the primary initial investigation of choice?",
+      "options": [
+        "Pelvic ultrasound",
+        "CT abdomen",
+        "MRI pituitary / brain",
+        "Thyroid scan",
+        "Karyotype"
+      ],
+      "correctIndex": 2,
+      "explanation": "A markedly elevated serum prolactin (>2,000-3,000 mIU/L) accompanied by galactorrhea and headaches strongly points to a prolactin-secreting pituitary micro- or macroadenoma, requiring an MRI brain/pituitary."
+    },
+    {
+      "id": 15,
+      "category": "Module 2 - Ovarian Tumour",
+      "question": "Which calculation formula is used to assess the Risk of Malignancy Index (RMI) for an adnexal mass in gynaecology?",
+      "options": [
+        "RMI = Age x Ultrasound x CA-125",
+        "RMI = Menopausal status (M) x Ultrasound score (U) x CA-125 level",
+        "RMI = CA-125 / BMI",
+        "RMI = HE4 x CA-125",
+        "RMI = Menopausal score + Parity + Tumor size"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Risk of Malignancy Index (RMI 1) is calculated as RMI = U x M x CA-125 (where U = ultrasound score 0-3, M = menopausal status 1 or 3, and CA-125 is absolute level in U/ml). An RMI >200 warrants Gynae-Oncology referral."
+    },
+    {
+      "id": 16,
+      "category": "Module 2 - Ovarian Tumour",
+      "question": "A 62-year-old postmenopausal woman is found to have a multiloculated, solid right ovarian mass with ascites and a CA-125 level of 450 U/ml. What is her RMI score?",
+      "options": [
+        "150",
+        "450",
+        "1350",
+        "4050",
+        "900"
+      ],
+      "correctIndex": 3,
+      "explanation": "RMI = U x M x CA-125. For multiloculated solid mass + ascites, U=3. Postmenopausal status M=3. CA-125 = 450. Thus RMI = 3 x 3 x 450 = 4,050 (RMI >200 = High risk for malignancy)."
+    },
+    {
+      "id": 17,
+      "category": "Module 2 - Abnormal Labour",
+      "question": "During labour, physical examination reveals the fetal head is deflexed, the anterior fontanelle is presenting, and the orbital ridges are palpable. What is the presentation?",
+      "options": [
+        "Occiput posterior",
+        "Face presentation",
+        "Brow presentation",
+        "Vertex presentation",
+        "Compound presentation"
+      ],
+      "correctIndex": 2,
+      "explanation": "A brow presentation occurs when the fetal head is well deflexed, presenting the area between the orbital ridges and the anterior fontanelle. Spontaneous vaginal delivery is impossible at term; emergency Caesarean section is required."
+    },
+    {
+      "id": 18,
+      "category": "Module 2 - Intrapartum CTG",
+      "question": "On a intrapartum CTG trace, what is the normal baseline fetal heart rate range according to NICE guidelines?",
+      "options": [
+        "90-140 bpm",
+        "100-150 bpm",
+        "110-160 bpm",
+        "120-170 bpm",
+        "130-180 bpm"
+      ],
+      "correctIndex": 2,
+      "explanation": "The normal baseline fetal heart rate on a cardiotocograph (CTG) is 110 to 160 beats per minute (bpm)."
+    },
+    {
+      "id": 19,
+      "category": "Module 2 - Intrapartum CTG",
+      "question": "Repetitive late decelerations on a continuous electronic CTG trace during active labour indicate which underlying physiological mechanism?",
+      "options": [
+        "Fetal head compression",
+        "Umbilical cord compression",
+        "Uteroplacental insufficiency / fetal hypoxia",
+        "Maternal hypotension alone",
+        "Fetal movement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Late decelerations (decelerations reaching their nadir after the peak of a contraction) reflect uteroplacental insufficiency and dangerous fetal hypoxia, requiring urgent evaluation and intervention."
+    },
+    {
+      "id": 20,
+      "category": "Module 2 - Endometriosis",
+      "question": "Which of the following is considered the Gold Standard diagnostic procedure for establishing a definitive diagnosis of pelvic endometriosis?",
+      "options": [
+        "Transvaginal Ultrasound",
+        "MRI Pelvis",
+        "Serum CA-125",
+        "Diagnostic Laparoscopy with biopsy confirmation",
+        "Diagnostic Hysteroscopy"
+      ],
+      "correctIndex": 3,
+      "explanation": "While TVUS can detect endometriomas, direct visual inspection via Diagnostic Laparoscopy with histological biopsy confirmation of ectopic glands/stroma is the definitive gold standard for diagnosing endometriosis."
+    },
+    {
+      "id": 21,
+      "category": "Module 2 - Endometriosis",
+      "question": "A 28-year-old woman with severe dysmenorrhea and deep dyspareunia has fixed retroverted uterus and tender uterosacral nodularity. What is the most appropriate first-line medical therapy for pain relief?",
+      "options": [
+        "GnRH agonist alone",
+        "NSAIDs + Combined Oral Contraceptive Pill",
+        "Dazoxiben",
+        "Aromatase inhibitor",
+        "High-dose Tamoxifen"
+      ],
+      "correctIndex": 1,
+      "explanation": "First-line medical management for endometriosis pain consists of simple analgesics/NSAIDs combined with hormonal suppression using the Combined Oral Contraceptive Pill or progestogens (e.g., LNG-IUS or Dienogest)."
+    },
+    {
+      "id": 22,
+      "category": "Module 2 - Adenomyosis",
+      "question": "A 42-year-old multiparous woman presents with severe secondary dysmenorrhea and heavy menses. On examination, the uterus is symmetrically enlarged, globular, and tender. What is the most likely diagnosis?",
+      "options": [
+        "Uterine leiomyoma",
+        "Adenomyosis",
+        "Endometrial carcinoma",
+        "Pelvic Inflammatory Disease",
+        "Cervical polyp"
+      ],
+      "correctIndex": 1,
+      "explanation": "The classic clinical presentation of adenomyosis includes secondary dysmenorrhea, heavy menstrual bleeding, and a symmetrically enlarged, soft/globular, tender uterus."
+    },
+    {
+      "id": 23,
+      "category": "Module 2 - Endometrial Hyperplasia",
+      "question": "Histopathology from an endometrial Pipelle biopsy shows complex endometrial hyperplasia WITH cellular atypia. What is the definitive management for a woman who has completed her family?",
+      "options": [
+        "Continuous oral Medroxyprogesterone",
+        "LNG-IUS (Mirena) insertion",
+        "Total Hysterectomy with Bilateral Salpingo-Oophorectomy (TH+BSO)",
+        "Endometrial ablation",
+        "Repeat biopsy in 3 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atypical endometrial hyperplasia carries up to a 30% risk of coexisting or progressing to invasive adenocarcinoma. In women who have completed childbearing, total hysterectomy with BSO is the definitive treatment."
+    },
+    {
+      "id": 24,
+      "category": "Module 2 - Pain Relief in Labour",
+      "question": "Which method of intrapartum pain relief provides the most effective and complete pain relief during active labour?",
+      "options": [
+        "Entonox (50% N2O / 50% O2)",
+        "IM Pethidine",
+        "Parenteral Remifentanil PCA",
+        "Epidural Analgesia",
+        "Pudendal nerve block"
+      ],
+      "correctIndex": 3,
+      "explanation": "Epidural analgesia (lumbar epidural injection of local anaesthetic and opioid) is the most effective form of pain relief available during labour."
+    },
+    {
+      "id": 25,
+      "category": "Module 2 - Pain Relief in Labour",
+      "question": "What is the most common maternal side effect / complication following the administration of an epidural block during labour?",
+      "options": [
+        "Maternal hypertension",
+        "Maternal hypotension",
+        "Total spinal anesthesia",
+        "Respiratory distress",
+        "Convulsions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maternal hypotension (due to sympathetic blockade causing peripheral vasodilation) is the most common side effect of epidural analgesia, routinely managed with IV fluid preloading and vasopressors."
+    },
+    {
+      "id": 26,
+      "category": "Module 2 - Pruritus Vulvae",
+      "question": "A 65-year-old woman presents with severe, unremitting vulval itching. Examination shows porcelain-white figure-of-eight plaques surrounding the vulva and anus, with loss of the labia minora architecture. What is the first-line treatment?",
+      "options": [
+        "Topical Antifungal (Clotrimazole)",
+        "Topical Estrogen cream",
+        "Ultra-potent topical corticosteroid (Clobetasol propionate 0.05%)",
+        "Oral Acyclovir",
+        "Surgical vulvectomy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lichen sclerosus presents with porcelain-white plaques and architectural distortion. The gold-standard first-line medical therapy is an ultra-potent topical corticosteroid (Clobetasol propionate 0.05%) applied over a 3-month regimen."
+    },
+    {
+      "id": 27,
+      "category": "Module 2 - PID",
+      "question": "A 22-year-old woman presents with bilateral lower abdominal pain, purulent vaginal discharge, and dyspareunia. On pelvic examination, there is marked cervical motion tenderness ('chandelier sign'). What is the outpatient empirical antibiotic regimen?",
+      "options": [
+        "Oral Amoxicillin for 7 days",
+        "Single dose IM Ceftriaxone 1g + Oral Doxycycline 100mg BD + Oral Metronidazole 400mg BD for 14 days",
+        "Oral Ciprofloxacin for 5 days",
+        "IM Gentamicin + Oral Azithromycin",
+        "Oral Fluconazole single dose"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to BASHH/RCOG guidelines, outpatient empirical treatment for acute PID is IM Ceftriaxone 1g single dose + oral Doxycycline 100mg BD + oral Metronidazole 400mg BD for 14 days."
+    },
+    {
+      "id": 28,
+      "category": "Module 2 - Delivery of Second Twin",
+      "question": "Following the delivery of Twin A (cephalic), abdominal palpation reveals Twin B is in a transverse lie with no fetal distress. What is the immediate recommended management step?",
+      "options": [
+        "Immediate emergency Caesarean section",
+        "Perform External Cephalic Version (ECV) or Internal Podalic Version to correct lie",
+        "Perform immediate artificial rupture of membranes (ARM)",
+        "Administer high-dose Oxytocin infusion",
+        "Expectant management for 2 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Following delivery of Twin A, if Twin B is non-vertex/transverse, external cephalic version (ECV) or internal podalic version under ultrasound guidance should be attempted to bring Twin B into longitudinal lie before membrane rupture."
+    },
+    {
+      "id": 29,
+      "category": "Module 2 - Augmentation of Labour",
+      "question": "A nulliparous woman at 6 cm dilation has had no cervical progress over 4 hours despite regular contractions. What is the appropriate initial step for labour augmentation?",
+      "options": [
+        "Immediate Category 1 C-section",
+        "Artificial Rupture of Membranes (ARM) + IV Oxytocin (Syntocinon) infusion",
+        "Administer IM Pethidine",
+        "Insert epidural and re-evaluate in 6 hours",
+        "Tocolysis with Terbutaline"
+      ],
+      "correctIndex": 1,
+      "explanation": "Delay in the active phase of labour due to hypocontractile uterine action is managed by amniotomy (ARM) followed by titration of an IV Oxytocin (Syntocinon) infusion to establish 4-5 contractions per 10 minutes."
+    },
+    {
+      "id": 30,
+      "category": "Module 2 - PMS / PMDD",
+      "question": "Which class of medication is demonstrated to be the most effective first-line psychotropic pharmacological treatment for Premenstrual Dysphoric Disorder (PMDD)?",
+      "options": [
+        "Benzodiazepines",
+        "Selective Serotonin Reuptake Inhibitors (SSRIs)",
+        "Tricyclic Antidepressants",
+        "Antipsychotics",
+        "Beta-blockers"
+      ],
+      "correctIndex": 1,
+      "explanation": "SSRIs (e.g., Sertraline, Fluoxetine) taken either continuously or during the luteal phase (days 14-28) are first-line pharmacological agents for PMDD."
+    },
+    {
+      "id": 31,
+      "category": "Module 2 - Amenorrhoea",
+      "question": "A 22-year-old athlete presents with secondary amenorrhoea for 8 months. Serum FSH and LH are low, and serum oestradiol is low. Pelvic ultrasound is normal. What is the underlying mechanism?",
+      "options": [
+        "Primary ovarian insufficiency",
+        "Polycystic ovary syndrome",
+        "Functional Hypothalamic Amenorrhoea",
+        "Asherman syndrome",
+        "Congenital adrenal hyperplasia"
+      ],
+      "correctIndex": 2,
+      "explanation": "Functional Hypothalamic Amenorrhea (FHA) is caused by suppression of GnRH secretion due to strenuous exercise, low energy availability, or stress, resulting in hypogonadotropic hypogonadism (low FSH, LH, and estrogen)."
+    },
+    {
+      "id": 32,
+      "category": "Module 2 - Ovarian Tumour",
+      "question": "Which histologic subtype of epithelial ovarian cancer is most commonly associated with BRCA1 and BRCA2 germline mutations?",
+      "options": [
+        "Mucinous carcinoma",
+        "Clear cell carcinoma",
+        "High-Grade Serous Carcinoma",
+        "Brenner tumour",
+        "Dysgerminoma"
+      ],
+      "correctIndex": 2,
+      "explanation": "High-Grade Serous Carcinoma (HGSC) accounts for 70-80% of epithelial ovarian cancers and is strongly linked to BRCA1/2 genetic mutations."
+    },
+    {
+      "id": 33,
+      "category": "Module 2 - Tubo-Ovarian Abscess",
+      "question": "A 29-year-old woman with severe PID fails to improve after 72 hours of IV antibiotics. Transvaginal US reveals a 6 cm complex multiloculated cystic adnexal mass. What is the management of choice?",
+      "options": [
+        "Continue oral antibiotics for 1 month",
+        "Immediate radical hysterectomy",
+        "Inpatient IV antibiotics plus image-guided percutaneous or laparoscopic drainage",
+        "Topical steroid therapy",
+        "Observation only"
+      ],
+      "correctIndex": 2,
+      "explanation": "A tubo-ovarian abscess (TOA) >5 cm or failing conservative IV antibiotic therapy requires surgical or percutaneous image-guided drainage alongside ongoing parenteral antibiotics."
+    },
+    {
+      "id": 34,
+      "category": "Module 2 - Partograph",
+      "question": "On a standard partograph, when the plot of cervical dilation crosses to the RIGHT of the 'Action Line', what action is mandated?",
+      "options": [
+        "Discharge the patient home",
+        "Continue routine monitoring for 4 more hours",
+        "Immediate senior obstetric review and decision for intervention (e.g., C-section or operative delivery)",
+        "Stop all IV fluids",
+        "Administer epidural and wait"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crossing the Action Line on a partograph indicates critical delay in labour progress, mandating urgent senior obstetric evaluation for delivery or surgical intervention."
+    },
+    {
+      "id": 35,
+      "category": "Module 2 - Endometrial Hyperplasia",
+      "question": "Which of the following is the primary histological feature that distinguishes atypical endometrial hyperplasia from non-atypical endometrial hyperplasia?",
+      "options": [
+        "Increased gland-to-stroma ratio",
+        "Nuclear atypia and loss of cellular polarity",
+        "Presence of stromal fibrosis",
+        "Myometrial invasion",
+        "Squamous metaplasia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nuclear atypia (pleomorphism, prominent nucleoli, loss of polarity) is the defining histological distinction that confers a high risk of malignant progression in atypical endometrial hyperplasia."
+    },
+    {
+      "id": 36,
+      "category": "Module 2 - Pruritus Vulvae",
+      "question": "A 50-year-old woman presents with persistent vulval itching. Biopsy reveals thickened epithelium with basal cell layer hyperplasia and hyperkeratosis, but NO nuclear atypia. What is the diagnosis?",
+      "options": [
+        "Vulval Paget's disease",
+        "Invasive Squamous Cell Carcinoma",
+        "Lichen Sclerosus / Lichen Simplex Chronicus",
+        "Differentiated VIN (dVIN)",
+        "Melanoma"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epidermal thickening, hyperkeratosis, and basal layer hyperplasia without nuclear atypia represent benign squamous cell hyperplasia / Lichen Simplex Chronicus."
+    },
+    {
+      "id": 37,
+      "category": "Module 2 - Induction of Labour",
+      "question": "What is the primary pharmacological agent used for cervical ripening prior to labor induction in a woman with an unfavorable cervix (Bishop score <6)?",
+      "options": [
+        "IV Oxytocin infusion",
+        "Vaginal Prostaglandin E2 (Dinoprostone / Propess)",
+        "Oral Mifepristone",
+        "IM Ergometrine",
+        "Sublingual Misoprostol 800 mcg"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vaginal Prostaglandin E2 (PGE2, e.g., Dinoprostone insert/pessary) or mechanical balloon catheter is the standard agent used for cervical ripening when the Bishop score is unfavorable (<6)."
+    }
+  ],
   "Final Part 2 Paediatrics - Paediatrics Module 1": [
     {
       "id": 8,

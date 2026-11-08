@@ -468,7 +468,7 @@ function updateQuizData() {
                 const optBIdx = headers.findIndex(h => /option\s*b|^b$/i.test(h));
                 const optCIdx = headers.findIndex(h => /option\s*c|^c$/i.test(h));
                 const optDIdx = headers.findIndex(h => /option\s*d|^d$/i.test(h));
-                const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h));
+                const optEIdx = headers.findIndex(h => /option\s*e|^e$/i.test(h) && !/option\s*d\s*[/&]/i.test(h));
                 let ansIdx = headers.findIndex(h => /correct\s*ans|correct\s*answer|correct\s*option|correct\s*choice/i.test(h));
                 if (ansIdx === -1) {
                     ansIdx = headers.findIndex(h => /your\s*answer|correct|answer|key|solution/i.test(h) && !/select/i.test(h));
@@ -515,8 +515,8 @@ function updateQuizData() {
                         let candidateOptions = [];
                         for (const raw of rawOpts) {
                             if (!raw) continue;
-                            if (/[A-E][.)]\s/i.test(raw) && /\r?\n\s*[A-E][.)]\s/i.test(raw)) {
-                                const subOpts = raw.split(/\r?\n\s*(?=[A-E][.)]\s)/i);
+                            if (/[A-E][:.)]\s/i.test(raw) && (/\s*\|\s*[A-E][:.)]\s/i.test(raw) || /\r?\n\s*[A-E][:.)]\s/i.test(raw))) {
+                                const subOpts = raw.split(/\s*\|\s*(?=[A-E][:.)]\s)|\r?\n\s*(?=[A-E][:.)]\s)/i);
                                 candidateOptions.push(...subOpts);
                             } else {
                                 candidateOptions.push(raw);
