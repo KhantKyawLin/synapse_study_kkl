@@ -3743,6 +3743,536 @@
       ]
     }
   ],
+  "Final Part 2 - Obstetrics & Gynaecology Module 4 Database": [
+    {
+      "Name": "Pre-Eclampsia & Eclampsia",
+      "Tag": "Hypertensive Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Placental shallow trophoblastic invasion & endothelial dysfunction"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Systemic vasospasm and endothelial leak leading to multi-organ impairment"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "BP >=140/90 after 20wks + proteinuria; Red Flags: severe headache, epigastric pain, hyperreflexia, clonus, seizures"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urine PCR >=30 mg/mmol; Aspirin 75-150mg prophylaxis; Oral/IV Labetalol; IV MgSO4 (4g load then 1g/h); Delivery"
+        }
+      ]
+    },
+    {
+      "Name": "Gestational Transient Thyrotoxicosis",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "High hCG cross-stimulating thyroid TSH receptors in early pregnancy / hyperemesis"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Elevated free T4 with suppressed TSH without autoantibodies or goitre"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe nausea, vomiting, mild palpitations, no ophthalmopathy or goitre"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Suppressed TSH with mildly elevated FT4; TPO negative; Self-limiting (resolves by 14-18wks); Reassurance (no antithyroid drugs)"
+        }
+      ]
+    },
+    {
+      "Name": "Graves' Disease in Pregnancy",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Autoimmune stimulation of TSH receptor by TSH-receptor antibodies (TRAb)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Excess thyroid hormone production leading to maternal hypermetabolism and fetal thyrotoxicosis risk"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Goitre, ophthalmopathy (exophthalmos), tachycardia, tremor, heat intolerance"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Suppressed TSH, elevated FT4/FT3, positive TRAb; Propylthiouracil (PTU) in 1st trimester (switch to Carbimazole in 2nd/3rd)"
+        }
+      ]
+    },
+    {
+      "Name": "Addisonian Crisis in Pregnancy",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary adrenal insufficiency decompensation under stress"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inadequate cortisol/aldosterone production leading to severe hypovolemia and vascular collapse"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe vomiting, dehydration, hypotension, abdominal pain, fever"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Hyponatremia, hyperkalemia, hypoglycemia; Immediate IV Hydrocortisone 100mg stat + aggressive IV normal saline resuscitation"
+        }
+      ]
+    },
+    {
+      "Name": "Pheochromocytoma in Pregnancy",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Catecholamine-secreting chromaffin cell tumor of adrenal medulla"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Paroxysmal release of epinephrine/norepinephrine causing severe vasoconstriction and hypertensive crisis"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Classic triad: episodic headache, diaphoresis (sweating), and severe hypertension"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated plasma/urinary free metanephrines; MRI abdomen; Preoperative Alpha-blockade (Phenoxybenzamine/Doxazosin) for 10-14 days before surgery"
+        }
+      ]
+    },
+    {
+      "Name": "Conn Syndrome in Pregnancy",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Primary hyperaldosteronism (aldosterone-producing adrenal adenoma)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Excess aldosterone causes renal sodium/water retention and urinary potassium wasting"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "New-onset hypertension, muscular weakness, fatigue, hypokalemia"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Suppressed plasma renin activity with elevated serum aldosterone; Potassium replacement + Spironolactone (or surgical excision)"
+        }
+      ]
+    },
+    {
+      "Name": "Subclinical Hypothyroidism",
+      "Tag": "Endocrine Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Increased maternal thyroxine demand & TBG elevation in early pregnancy"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Inadequate maternal thyroid hormone production to meet increased gestational demand"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Fatigue, weight gain, constipation, cold intolerance (often subtle)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Elevated TSH (>2.5 mU/L 1st trim / >3.0 2nd-3rd) with normal FT4; Increase Levothyroxine dose by 25-50% upon pregnancy confirmation"
+        }
+      ]
+    },
+    {
+      "Name": "Deep Vein Thrombosis (DVT)",
+      "Tag": "Vascular / VTE",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Virchow's triad in pregnancy (hypercoagulability, venous stasis, pelvic vein compression)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Thrombus formation in deep limb or pelvic veins risk of detachment to PE"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Unilateral leg swelling (>2cm differential), calf tenderness, erythema, lower abdominal pain"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Compression duplex ultrasound (1st line); MRI pelvis if iliac thrombosis suspected; Therapeutic LMWH (Enoxaparin 1mg/kg BD)"
+        }
+      ]
+    },
+    {
+      "Name": "Pulmonary Embolism (PE)",
+      "Tag": "Vascular / VTE",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Detached venous thromboembolus occluding pulmonary arterial circulation"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Sudden increase in right ventricular afterload and severe ventilation-perfusion mismatch"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden dyspnea, pleuritic chest pain, hypoxia, tachycardia, collapse (massive PE - Red Flag)"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CXR followed by V/Q scan or CTPA (D-dimer NOT used); Therapeutic LMWH; Thrombolysis (IV Alteplase) for massive PE with collapse"
+        }
+      ]
+    },
+    {
+      "Name": "Acute Severe Asthma in Pregnancy",
+      "Tag": "Respiratory",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Airway hyperresponsiveness triggered by viral infection or non-compliance"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Bronchospasm, mucosal edema, and mucus plugging impairing maternal/fetal gas exchange"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Dyspnea, wheezing, tachypnoea; Red Flags: PEFR <50% predicted, inability to complete sentences, silent chest"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "PEFR measurement; ABG (PaCO2 >=4.0 kPa indicates fatigue); High-flow O2 (target 94-98%); Nebulized Salbutamol/Ipratropium; IV Hydrocortisone"
+        }
+      ]
+    },
+    {
+      "Name": "Epilepsy & SUDEP",
+      "Tag": "Neurology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Seizure disorder in pregnancy; increased drug clearance and volume of distribution"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Breakthrough seizure activity risking maternal aspiration, hypoxia, and fetal distress"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Generalised tonic-clonic seizures, post-ictal confusion; Red Flags: status epilepticus, SUDEP risk"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Therapeutic drug monitoring; High-dose Folic acid (5mg daily); Lamotrigine / Levetiracetam preferred; Valproate strictly avoided"
+        }
+      ]
+    },
+    {
+      "Name": "Cerebral Venous Sinus Thrombosis (CVST)",
+      "Tag": "Neurology / Puerperium",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Thrombosis of dural venous sinuses in puerperium (hypercoagulable state)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Impaired cerebral venous drainage leading to venous infarction and intracranial hypertension"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Severe persistent progressive headache, vomiting, seizures, focal neurological signs, papilloedema"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CT brain with venography / MRI brain with MRV (1st line); Full therapeutic dose LMWH anticoagulation"
+        }
+      ]
+    },
+    {
+      "Name": "Postnatal Blues",
+      "Tag": "Mood Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Transient neuroendocrine fluctuations following rapid post-delivery hormone withdrawal"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Rapid drop in circulating estrogen and progesterone triggering transient emotional lability"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Tearfulness, emotional lability, mild anxiety, irritability developing days 3-5 postpartum"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis; Reassurance and supportive care; Self-limiting (resolves within 10-14 days without medication)"
+        }
+      ]
+    },
+    {
+      "Name": "Postnatal Depression (PND)",
+      "Tag": "Mood Disorders",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Perinatal mood disorder; 50% recurrence rate in women with previous history"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Persistent deficits in central monoaminergic neurotransmission post-delivery"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Low mood, anhedonia, early morning awakening, guilt, inability to cope, feeling hopeless"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Edinburgh Postnatal Depression Scale (EPDS); Sertraline (safest in breastfeeding) + CBT; Specialist perinatal mental health referral"
+        }
+      ]
+    },
+    {
+      "Name": "Puerperal Psychosis",
+      "Tag": "Psychiatric Emergency",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Severe psychiatric illness; high association with personal/family history of bipolar disorder"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Acute neurochemical dysregulation in immediate postpartum period (1 in 1000 incidence)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Delusions (e.g. baby possessed), hallucinations, severe agitation, mania, thoughts of harm"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Emergency Psychiatric Evaluation; Mandatory immediate admission to Mother and Baby Unit (MBU); Antipsychotics + Mood stabilizers"
+        }
+      ]
+    },
+    {
+      "Name": "Lupus Nephritis & SLE",
+      "Tag": "Rheumatology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Autoimmune disease characterized by polyclonal B-cell activation & complement deficiency"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Immune complex deposition in renal glomeruli causing inflammation and proteinuria"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Malar rash, joint pain (90%), proteinuria, hypertension, renal flare"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "ANA & Anti-dsDNA positive, low C3/C4; Delay pregnancy until 6 months of stable remission; Aspirin + Hydroxychloroquine"
+        }
+      ]
+    },
+    {
+      "Name": "Stress Urinary Incontinence (SUI)",
+      "Tag": "Pelvic Floor",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Urethral hypermobility or intrinsic sphincter deficiency under increased intra-abdominal pressure"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Involuntary urine leakage on coughing, sneezing, laughing, or physical exertion"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Involuntary urine loss during physical stress without prior urge"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical diagnosis; Cough stress test; Urodynamic studies; Pelvic Floor Muscle Training (PFMT) >=3 months 1st line; Surgical Colposuspension"
+        }
+      ]
+    },
+    {
+      "Name": "Overactive Bladder (OAB) / Urge Incontinence",
+      "Tag": "Pelvic Floor",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Involuntary detrusor muscle contractions during bladder filling"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Urgency-predominant incontinence accompanied by frequency and nocturia"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Sudden imperative desire to void, involuntary leakage preceded by urgency"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Urodynamic cystometry (detrusor overactivity); Bladder Training >=6 weeks 1st line; Anticholinergics (Solifenacin) or Mirabegron"
+        }
+      ]
+    },
+    {
+      "Name": "Pelvic Organ Prolapse & Procidentia",
+      "Tag": "Pelvic Floor",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Levator ani muscle & uterosacral ligament weakness (cystocele, rectocele, enterocele, procidentia)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Herniation of pelvic organs past vaginal introitus; Procidentia = complete uterine/vaginal descent"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Pelvic fullness, draggy backache, vaginal bulge, decubitus ulcer on exposed cervix"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Clinical POP-Q exam; Ring Pessary + Topical Oestrogen 1st line (especially in frail elderly); Surgery: Colporrhaphy / Colpoclesis"
+        }
+      ]
+    },
+    {
+      "Name": "Lichen Sclerosus",
+      "Tag": "Vulval Pathology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Chronic autoimmune inflammatory dermatosis of vulva and perineum"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Epidermal hyperkeratosis, dermal hyalinization/fibrosis, loss of rete ridges without atypia"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Intense chronic vulval pruritus, dyspareunia, figure-of-eight porcelain-white plaques"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Vulval punch biopsy; Ultra-potent topical corticosteroid (Clobetasol propionate 0.05%) for 3 months"
+        }
+      ]
+    },
+    {
+      "Name": "Vulval Paget's Disease",
+      "Tag": "Vulval Pathology",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Extramammary intraepidermal adenocarcinoma of vulva"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Intraepidermal proliferation of large pale atypical Paget cells"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Chronic eczematous vulval lesion, burning, severe itching, erythematous plaque with white scales"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Vulval biopsy: CK7 positive, HER2 positive, CEA positive; Wide local excision / Vulvectomy + screen for underlying malignancy"
+        }
+      ]
+    },
+    {
+      "Name": "Gestational Trophoblastic Neoplasia (GTN)",
+      "Tag": "Trophoblastic Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Persistently elevated/rising hCG following molar evacuation or non-molar pregnancy (choriocarcinoma)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Malignant proliferation of trophoblastic tissue with vascular invasion and distant metastases (lung)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Persistent vaginal bleeding, high hCG, pulmonary lesions on imaging"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Serum hCG monitoring; FIGO risk scoring: Low-risk (score 0-6) -> Single-agent Methotrexate; High-risk (score >=7) -> Multi-agent EMA/CO chemotherapy"
+        }
+      ]
+    },
+    {
+      "Name": "Cervical Cancer (Stage IB3 / Advanced)",
+      "Tag": "Cervical Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Invasive cervical carcinoma linked to high-risk hrHPV 16 & 18 (71% of cases)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "High-risk HPV E6/E7 oncogenes inhibit p53 and Rb tumor suppressors leading to invasive growth"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Postcoital bleeding, intermenstrual bleeding, purulent discharge, pelvic pain"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "Cervical biopsy; MRI pelvis + PET-CT (most accurate for nodal metastasis); Stage IB3 (bulky >=4cm) -> Primary Concurrent Chemoradiotherapy"
+        }
+      ]
+    },
+    {
+      "Name": "Ovarian Cancer Staging (FIGO Stage IIA)",
+      "Tag": "Ovarian Malignancy",
+      "details": [
+        {
+          "title": "Key Characteristics & Etiology",
+          "content": "Epithelial ovarian carcinoma (High-grade serous/clear cell linked to Lynch syndrome)"
+        },
+        {
+          "title": "Primary Mechanism & Pathophysiology",
+          "content": "Pelvic extension of ovarian tumor implanting on uterus and/or fallopian tubes (Stage IIA)"
+        },
+        {
+          "title": "Clinical Manifestations & Red Flags",
+          "content": "Abdominal bloating, early satiety, pelvic mass, positive peritoneal washings"
+        },
+        {
+          "title": "Diagnostic Markers & Primary Management",
+          "content": "CA-125; Pelvic TVUS; CT Abdomen/Pelvis; Staging laparotomy + Cytoreductive debulking surgery + Carboplatin/Paclitaxel"
+        }
+      ]
+    }
+  ],
   "Final Part 2 - Paediatrics Module 1 Database": [
     {
       "Name": "Low Birth Weight (LBW) & Preterm",

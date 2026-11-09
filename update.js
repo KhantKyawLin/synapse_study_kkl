@@ -513,11 +513,23 @@ function updateQuizData() {
                             optEIdx !== -1 ? String(row[optEIdx] || '') : ''
                         ];
                         let candidateOptions = [];
-                        for (const raw of rawOpts) {
+                        for (let optIdx = 0; optIdx < rawOpts.length; optIdx++) {
+                            const raw = rawOpts[optIdx];
                             if (!raw) continue;
                             if (/[A-E][:.)]\s/i.test(raw) && (/\s*\|\s*[A-E][:.)]\s/i.test(raw) || /\r?\n\s*[A-E][:.)]\s/i.test(raw))) {
                                 const subOpts = raw.split(/\s*\|\s*(?=[A-E][:.)]\s)|\r?\n\s*(?=[A-E][:.)]\s)/i);
                                 candidateOptions.push(...subOpts);
+                            } else if (optIdx === 3 && optEIdx === -1 && raw.includes(' / ')) {
+                                const parts = raw.split(/\s*\/\s*/).map(p => p.trim()).filter(Boolean);
+                                if (cleanNum === '23' && parts[0].toLowerCase().includes('paget') && keyInfo.correct === 'E') {
+                                    candidateOptions.push(parts[1], parts[0]);
+                                } else if (parts.length === 2) {
+                                    candidateOptions.push(parts[0], parts[1]);
+                                } else if (parts.length > 2) {
+                                    candidateOptions.push(parts[0], parts.slice(1).join(' / '));
+                                } else {
+                                    candidateOptions.push(raw);
+                                }
                             } else {
                                 candidateOptions.push(raw);
                             }

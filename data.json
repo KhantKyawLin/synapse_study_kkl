@@ -9716,6 +9716,356 @@
       "answer": "Over 60% reduction."
     },
     {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which single high-risk conditions warrant low-dose aspirin ($75\\text{–}150\\text{ mg}$ daily) initiation from 12 weeks of pregnancy to prevent pre-eclampsia?",
+      "answer": "High-risk conditions include:\n- Hypertensive disease during a previous pregnancy\n- Chronic kidney disease\n- Autoimmune disease (such as SLE or antiphospholipid syndrome)\n- Type 1 or Type 2 diabetes\n- Chronic hypertension (booking BP $\\ge 140/90\\text{ mmHg}$ before 20 weeks)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "How many moderate risk factors for pre-eclampsia must a pregnant woman possess to qualify for low-dose aspirin prophylaxis?",
+      "answer": "A woman must possess at least **2 moderate risk factors**.\n\nModerate risk factors include:\n- Nulliparity (first pregnancy)\n- Maternal age $\\ge 40$ years\n- Pregnancy interval $> 10$ years\n- $\\text{BMI} \\ge 35\\text{ kg/m}^2$ at booking\n- Family history of pre-eclampsia\n- Multifetal pregnancy"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "According to NICE pre-eclampsia guidelines, at what blood pressure threshold is medical antihypertensive therapy mandatory?",
+      "answer": "Antihypertensive therapy (first-line labetalol) is initiated when blood pressure reaches or exceeds **$140/90\\text{ mmHg}$**, aiming for a target blood pressure of $135/85\\text{ mmHg}$."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the evidence-based intravenous Magnesium Sulphate ($MgSO_4$) regimen for treating or preventing eclamptic seizures?",
+      "answer": "**$4\\text{ g}$ IV loading dose** administered over 10–15 minutes, followed by a continuous **$1\\text{ g/hr}$ IV maintenance infusion** for 24 hours post-delivery or after the last seizure."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What clinical sign indicates early Magnesium toxicity before respiratory depression occurs?",
+      "answer": "**Loss of deep tendon (patellar) reflexes**, which typically occurs at serum magnesium concentrations above $3.5\\text{–}4.0\\text{ mmol/L}$."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the immediate antidote for Magnesium Sulphate toxicity causing loss of reflexes and respiratory depression?",
+      "answer": "Stop the infusion immediately and administer **$10\\text{ mL}$ of $10\\%$ Calcium Gluconate IV** slowly over 10 minutes."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Why is D-dimer testing NOT recommended for diagnosing venous thromboembolism (VTE) in pregnancy?",
+      "answer": "D-dimer levels rise physiologically throughout normal pregnancy due to placental fibrin deposition, leading to poor specificity and a high false-positive rate. A negative D-dimer cannot safely rule out VTE."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the first-line objective diagnostic investigation for suspected Deep Vein Thrombosis (DVT) in pregnancy?",
+      "answer": "**Compression duplex ultrasonography** of the deep leg veins."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "In a pregnant woman with suspected Pulmonary Embolism (PE) and a **NORMAL** chest X-ray, which imaging modality is preferred?",
+      "answer": "**Ventilation-Perfusion (V/Q) scanning**, as it carries a lower risk of maternal radiation to breast tissue compared to CTPA when the CXR is normal."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "In a pregnant woman with suspected Pulmonary Embolism (PE) and an **ABNORMAL** chest X-ray, which diagnostic imaging test is indicated?",
+      "answer": "**Computed Tomography Pulmonary Angiogram (CTPA)**, because underlying lung parenchyma abnormalities render V/Q scans indeterminate."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which non-radiation imaging modality is indicated when clinical suspicion of pelvic or iliac vein thrombosis remains high but leg ultrasound is inconclusive?",
+      "answer": "**Magnetic Resonance Imaging (MRI) of the pelvis** without contrast (MR venography)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the recommended minimum total duration of therapeutic anticoagulation following a confirmed acute VTE diagnosed during pregnancy?",
+      "answer": "Therapeutic anticoagulation must be continued throughout the remainder of pregnancy, for **at least 6 weeks postpartum**, and for a **minimum total treatment duration of 3 months**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "How many hours prior to planned regional analgesia or delivery must therapeutic Low-Molecular-Weight Heparin (LMWH) be withheld?",
+      "answer": "Therapeutic LMWH must be withheld for at least **24 hours** prior to regional blockade (spinal/epidural) or delivery to avoid spinal hematoma."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What anticoagulation modification is required at term (39 weeks) for a pregnant woman on therapeutic LMWH scheduled for induction of labour?",
+      "answer": "Switch subcutaneous LMWH to **intravenous Unfractionated Heparin (UFH)**, which has a short half-life and can be stopped 4–6 hours prior to regional block or delivery."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the treatment of choice for a pregnant woman experiencing intrapartum collapse secondary to massive, hemodynamically unstable Pulmonary Embolism?",
+      "answer": "Immediate **intravenous thrombolysis** (e.g., recombinant tissue plasminogen activator, rtPA / alteplase)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which antithyroid drug is preferred in the first trimester of pregnancy, and why?",
+      "answer": "**Propylthiouracil (PTU)** is preferred because Carbimazole and Methimazole are associated with teratogenic embryopathy (aplasia cutis congenita and choanal/oesophageal atresia)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "How can a newborn develop neonatal thyrotoxicosis even if the mother's Graves disease was successfully treated prior to or during pregnancy?",
+      "answer": "Maternal IgG **TSH-receptor stimulating antibodies (TRAb/LATS)** freely cross the placenta and stimulate the fetal/neonatal thyroid gland independently of maternal thyroid hormone status."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What features distinguish Gestational Transient Thyrotoxicosis from true Graves disease in early pregnancy?",
+      "answer": "Gestational Transient Thyrotoxicosis is linked with severe hyperemesis gravidarum and elevated $\\beta$-hCG, causing suppressed TSH and mild free $T_4$ elevation **without** thyroid autoantibodies (TRAb negative) or clinical eye/goitre signs."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the immediate acute medical management for a pregnant woman with Addison disease presenting in adrenal crisis with hypotension and vomiting?",
+      "answer": "Immediate **intravenous Hydrocortisone** ($100\\text{ mg}$ IV stat, followed by $100\\text{ mg}$ every 6–8 hours) and rapid volume replacement with **IV $0.9\\%$ Normal Saline with Dextrose**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the mandatory sequence of preoperative autonomic blockade prior to surgical removal of a Phaeochromocytoma in pregnancy?",
+      "answer": "**Alpha-blockade** (e.g., phenoxybenzamine) must be established FIRST to allow vascular volume expansion, followed later by beta-blockade to prevent unapposed alpha-mediated hypertensive crisis."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What test confirms hypercortisolism (Cushing syndrome) in pregnancy by demonstrating loss of normal circadian cortisol rhythm?",
+      "answer": "Elevated **midnight salivary cortisol** (or 24-hour urinary free cortisol)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What clinical and biochemical findings characterize Conn syndrome (primary aldosteronism) in pregnancy?",
+      "answer": "New-onset hypertension accompanied by **hypokalemia** and **suppressed (low) plasma renin activity**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "A pregnant woman on Levothyroxine replacement has a TSH of $6.2\\text{ mU/L}$ at 6 weeks gestation. What immediate adjustment is required?",
+      "answer": "**Increase the daily Levothyroxine dose** (typically by 25–30%), as maternal thyroid hormone requirements rise early in pregnancy."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What Peak Expiratory Flow Rate (PEFR) indicates an acute severe asthma exacerbation in pregnancy?",
+      "answer": "A PEFR **$< 50\\%$ of predicted** or personal best."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the emergency management protocol for an acute severe asthma attack in a pregnant woman?",
+      "answer": "1. High-flow oxygen (target $\\text{SpO}_2$ 94–98%)\n2. Oxygen-driven **nebulised Salbutamol $5\\text{ mg}$**\n3. Systemic corticosteroids (IV hydrocortisone or oral prednisolone)\n4. Immediate hospital admission and continuous fetal monitoring"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which anti-epileptic drug carries the highest risk of major congenital malformations and neurodevelopmental delay?",
+      "answer": "**Sodium Valproate** (carries a 10–20% risk of major malformations including spina bifida, facial clefts, heart defects, and up to 30–40% risk of neurodevelopmental disorders)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which anti-epileptic medications have the lowest documented rate of major congenital malformations in pregnancy?",
+      "answer": "**Lamotrigine** and **Levetiracetam** (carrying a baseline major malformation risk of ~2–3%, comparable to the background population)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Why is Pethidine avoided for labor analgesia in women with epilepsy?",
+      "answer": "Pethidine metabolizes to **norpethidine**, which lowers the seizure threshold and can precipitate maternal epileptic seizures."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What immediate investigation is indicated for a woman presenting at 6 days postpartum with new-onset seizures and severe headache?",
+      "answer": "Immediate **non-contrast CT scan of the brain** (to exclude acute intracranial hemorrhage, eclampsia, or cerebral edema before managing suspected cerebral venous thrombosis)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What standard medical therapy significantly reduces pregnancy loss in women with Antiphospholipid Syndrome (APS) and recurrent miscarriages?",
+      "answer": "Combination therapy of **low-dose Aspirin ($75\\text{–}150\\text{ mg}$)** and **prophylactic Low-Molecular-Weight Heparin (LMWH)**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What specific congenital heart abnormality is associated with maternal Anti-Ro (SSA) and Anti-La (SSB) autoantibodies in SLE?",
+      "answer": "Fetal **congenital complete heart block**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "How long should pregnancy be delayed after a active flare of lupus nephritis?",
+      "answer": "Pregnancy should be delayed until lupus nephritis has been in complete clinical remission for at least **6 months**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What defines Gestational Trophoblastic Neoplasia (GTN) following Gestational Trophoblastic Disease?",
+      "answer": "Persistence of disease evidenced by **persistently elevated or rising serum $\\beta$-hCG** levels."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the primary method for initial evacuation of a hydatidiform molar pregnancy?",
+      "answer": "**Surgical suction curettage** under ultrasound guidance."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Why is medical evacuation using uterotonics (e.g., misoprostol) contraindicated in complete molar pregnancy?",
+      "answer": "Medical evacuation increases the risk of severe uterine hemorrhage, incomplete evacuation, and **trophoblastic tissue embolization** into the pulmonary circulation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "A woman presents several months post-term delivery with persistent uterine bleeding, high serum $\\beta$-hCG, and multiple pulmonary nodules. What is the diagnosis?",
+      "answer": "**Gestational Choriocarcinoma** (a malignant form of GTN that metastasizes hematogenously to the lungs)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which non-serous histological subtypes of ovarian cancer are characteristically associated with Lynch syndrome?",
+      "answer": "**Endometrioid** and **Clear Cell** carcinomas."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "According to FIGO staging, what stage is cervical cancer that causes hydronephrosis or a non-functioning kidney?",
+      "answer": "**Stage IIIB**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What formula is used to calculate the Risk of Malignancy Index (RMI) for an ovarian mass?",
+      "answer": "$\\text{RMI} = U \\times M \\times \\text{CA-125}$\n\nWhere:\n- $U$ = Ultrasound score\n- $M$ = Menopausal status score\n- $\\text{CA-125}$ = Serum CA-125 level (in U/mL)"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which tumor marker is characteristically elevated in ovarian Dysgerminoma?",
+      "answer": "**Lactate Dehydrogenase (LDH)**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which serum hormone marker is produced by Granulosa cell tumors of the ovary?",
+      "answer": "**Inhibin** (and oestrogen)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What anatomical presentation defines Procidentia?",
+      "answer": "Complete herniation and protrusion of the **entire uterus and both anterior/posterior vaginal walls outside the vaginal introitus** (Stage IV prolapse)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the recommended first-line conservative management for symptomatic stress urinary incontinence?",
+      "answer": "A supervised course of **Pelvic Floor Muscle Training (PFMT)** for at least 3 months."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What conservative intervention is most appropriate for managing severe uterovaginal prolapse in a frail woman unfit for surgery?",
+      "answer": "Insertion of a **supportive vaginal pessary** (e.g., ring or gellhorn pessary)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What defines an Enterocele?",
+      "answer": "Herniation of the peritoneal sac (**pouch of Douglas**), containing loops of small intestine, into the upper posterior vaginal wall."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "How do Postnatal Blues differ clinically from Postnatal Depression (PND)?",
+      "answer": "**Postnatal Blues** is a self-limiting transient state of emotional lability and tearfulness occurring 3–5 days postpartum that resolves spontaneously within 10–14 days.\n**Postnatal Depression** involves persistent low mood and anhedonia lasting $> 2$ weeks."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What validated screening instrument is recommended to evaluate the severity of perinatal depression?",
+      "answer": "The **Edinburgh Postnatal Depression Scale (EPDS)** (a score $\\ge 10\\text{–}13$ indicates probable depression)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Which SSRI antidepressant is generally preferred during breastfeeding due to minimal secretion into breast milk?",
+      "answer": "**Sertraline**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the required action when a postpartum mother reports explicit thoughts or impulses to harm her baby?",
+      "answer": "Immediate **same-day emergency psychiatric referral** for assessment and potential joint admission to a Mother and Baby Unit (MBU)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Rapid decline in which hormones post-delivery is implicated in triggering Puerperal Psychosis in vulnerable women?",
+      "answer": "Precipitous withdrawal of **Oestrogen** and **Progesterone**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What is the approximate risk of recurrence of puerperal psychosis in subsequent pregnancies for a woman with a previous episode?",
+      "answer": "Approximately **$50\\%$**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What diagnostic hemoglobin threshold defines anaemia in the FIRST trimester of pregnancy?",
+      "answer": "$\\text{Hb} < 110\\text{ g/L}$ ($< 11.0\\text{ g/dL}$)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What diagnostic hemoglobin threshold defines anaemia in the SECOND and THIRD trimesters of pregnancy?",
+      "answer": "$\\text{Hb} < 105\\text{ g/L}$ ($< 10.5\\text{ g/dL}$)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Under what specific conditions is Anti-D immunoglobulin prophylaxis indicated for RhD-negative women at LESS than 12 weeks gestation?",
+      "answer": "Prophylaxis is indicated ONLY after:\n- Ectopic pregnancy\n- Molar pregnancy\n- Therapeutic termination of pregnancy\n- Heavy, repeated uterine bleeding associated with abdominal pain"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Within what timeframe must Anti-D immunoglobulin be administered following a sensitizing event in an RhD-negative woman?",
+      "answer": "As soon as possible and **always within 72 hours** of the sensitizing event."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What routine antenatal schedules are approved for prophylactic Anti-D administration in RhD-negative women?",
+      "answer": "Either a **single large dose at 28 weeks** gestation OR **two doses given at 28 and 34 weeks** gestation."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What prophylaxis must be administered to an infant within 12 hours of life if born to a mother with active Hepatitis B?",
+      "answer": "Both **Hepatitis B vaccine** AND one dose of **Hepatitis B Immune Globulin (HBIG)** (providing $> 95\\%$ protection against chronic infection)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What plasma glucose levels establish the diagnosis of Gestational Diabetes Mellitus (GDM) on a 2-hour $75\\text{ g}$ OGTT?",
+      "answer": "- Fasting plasma glucose $\\ge 5.6\\text{ mmol/L}$, OR\n- 2-hour plasma glucose $\\ge 7.8\\text{ mmol/L}$"
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "When should an oral glucose tolerance test (OGTT) be offered to a pregnant woman with a history of Gestational Diabetes in a previous pregnancy?",
+      "answer": "Early OGTT at **16–18 weeks gestation**, and if normal, repeated at **24–28 weeks**."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What biochemical changes in first-trimester serum combined screening indicate a higher risk of Trisomy 21 (Down syndrome)?",
+      "answer": "**Higher free $\\beta$-hCG** levels combined with **lower PAPP-A** (Pregnancy-Associated Plasma Protein A) levels."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What daily supplement dose of Vitamin D is recommended by NICE for all pregnant and breastfeeding women?",
+      "answer": "**$10\\ \\mu\\text{g}$** ($400\\text{ IU}$) of Vitamin D daily."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "What sleeping position should women be advised to avoid after 28 weeks of pregnancy to reduce stillbirth risk?",
+      "answer": "Avoid sleeping **flat on their back (supine position)**, as supine positioning compresses the inferior vena cava and reduces uteroplacental perfusion."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing height of uterine fundus at different weeks of gestation At what gestational age is the uterine fundus typically palpated at the level of the umbilicus?",
+      "answer": "At **22 to 24 weeks gestation**, the fundus reaches the level of the umbilicus."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing height of uterine fundus at 34, 36, and 40 weeks Why does the height of the fundus at 40 weeks appear lower than at 36 weeks gestation?",
+      "answer": "Due to **lightening (engagement)**, where the fetal presenting part descends into the pelvic brim, bringing the fundal height back down to approximately the 34-week level."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram of two hands palpating the top of the pregnant uterus Which specific Leopold maneuver (obstetric palpation grip) is depicted in this image?",
+      "answer": "**Fundal Grip** (First Leopold Maneuver), used to determine which fetal pole (breech or head) occupies the uterine fundus."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram of hands palpating the sides of the pregnant uterus Which Leopold maneuver (obstetric palpation grip) is shown here?",
+      "answer": "**Lateral Grip** (Second Leopold Maneuver), used to identify the location of the smooth fetal back versus the irregular small limb parts."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing palpation of the lower uterine pole with both hands facing the mother's feet Identify the obstetric palpation technique shown in this diagram.",
+      "answer": "**Two-Hand Pelvic Grip** (Fourth Leopold Maneuver), used to determine fetal presentation and the degree of engagement of the head into the pelvic inlet."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing fetal head high above the pelvic brim labeled 5/5 How many fifths of the fetal head palpable above the pelvic brim indicates that the head is completely mobile and unengaged?",
+      "answer": "**5/5 fifths palpable** (the entire fetal head is felt above the pelvic brim)."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing fetal head descended into the pelvic brim labeled 2/5 How many fifths of the fetal head remain palpable above the brim when the head is formally defined as engaged?",
+      "answer": "**2/5 fifths or less** palpable above the pelvic brim indicates that the fetal head is engaged."
+    },
+    {
+      "category": "Final Part 2 Obstetrics & Gynaecology - Module 4",
+      "question": "Diagram showing lower pole of uterus grasped with thumb and fingers of one hand What is the name of the obstetric grip shown where the lower pole of the uterus is grasped with one hand?",
+      "answer": "**One-Hand Pelvic Grip (Pawlik's Grip / Third Leopold Maneuver)**, used to confirm presentation and mobility of the lower fetal pole."
+    },
+    {
       "category": "Final Part 2 Paediatrics - Paediatrics Module 1",
       "question": "What is the primary procedural priority in neonatal resuscitation before commencing chest compressions?",
       "answer": "Effectively delivering air into the lungs (confirmed by visible chest wall movement)."

@@ -7313,6 +7313,426 @@
       "explanation": "30"
     }
   ],
+  "Final Part 2 Obstetrics & Gynaecology - Module 4": [
+    {
+      "id": 8,
+      "category": "Hypertension in Pregnancy",
+      "question": "A woman with VTE at 39 weeks is planned for induction of labour. What is the most appropriate management regarding her anticoagulation?",
+      "options": [
+        "Thrombolysis",
+        "Withhold anticoagulation",
+        "LMWH",
+        "Unfractionated heparin",
+        "Warfarin / Regional"
+      ],
+      "correctIndex": 1,
+      "explanation": "Therapeutic LMWH must be withheld for 24 hours prior to planned induction of labour or regional anaesthesia to prevent spinal/epidural hematoma."
+    },
+    {
+      "id": 9,
+      "category": "Gestational Trophoblastic Disease",
+      "question": "A 35-year-old presents with persistent bleeding and high hCG after term delivery. Imaging suggests pulmonary metastases. What is the indicated management?",
+      "options": [
+        "Partial molar pregnancy",
+        "Atypical placental site nodule",
+        "Complete molar pregnancy",
+        "Suspected choriocarcinoma",
+        "GTD centre registration"
+      ],
+      "correctIndex": 3,
+      "explanation": "Persistent bleeding with elevated hCG and pulmonary metastases after a term delivery indicates suspected choriocarcinoma, requiring registration at a specialized GTD centre."
+    },
+    {
+      "id": 10,
+      "category": "Gynaecological Oncology",
+      "question": "Which of the following histologic subtypes of ovarian epithelial carcinoma is most strongly associated with Lynch syndrome?",
+      "options": [
+        "Clear cell",
+        "Brenner cell",
+        "Mucinous",
+        "Undifferentiated",
+        "High-grade serous"
+      ],
+      "correctIndex": 0,
+      "explanation": "Among ovarian epithelial cancers, Lynch syndrome (HNPCC) is most strongly associated with clear cell and endometrioid carcinomas (BRCA1/2 is linked to high-grade serous)."
+    },
+    {
+      "id": 11,
+      "category": "Perinatal Psychiatry",
+      "question": "Which of the following is a universally validated 10-item tool specifically used to assess the severity of postnatal depression?",
+      "options": [
+        "GHQ-12",
+        "PHQ-9",
+        "CGI-S",
+        "EPDS",
+        "BDI-II"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Edinburgh Postnatal Depression Scale (EPDS) is a validated 10-item self-report questionnaire specifically designed for screening and assessing postnatal depression."
+    },
+    {
+      "id": 12,
+      "category": "Hypertension in Pregnancy",
+      "question": "A 28-year-old primigravida at 12 weeks has BP 140/90 mmHg, BMI 34, smokes 10 cigs/day, and her mother had pre-eclampsia. Which is classified as a HIGH risk factor for pre-eclampsia?",
+      "options": [
+        "BMI > 30",
+        "Family history of pre-eclampsia",
+        "First pregnancy",
+        "Elevated blood pressure at pregnancy booking",
+        "Smoking"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pre-existing chronic hypertension (BP >=140/90 at booking <=20wks) is a high-risk factor warranting aspirin prophylaxis alone. BMI>30, family history, and nulliparity are moderate risk factors."
+    },
+    {
+      "id": 13,
+      "category": "Hypertension in Pregnancy",
+      "question": "Which of the following clinical scenarios represents a valid indication to prescribe low-dose aspirin prophylaxis for pre-eclampsia?",
+      "options": [
+        "Multiple pregnancy alone",
+        "Pregnancy interval over 10 years alone",
+        "BMI > 35 kg/m2 alone",
+        "Primigravida + maternal age 39",
+        "Primigravida + maternal age 42"
+      ],
+      "correctIndex": 4,
+      "explanation": "Aspirin prophylaxis requires 1 high-risk factor or >=2 moderate-risk factors. Primigravida (1 moderate) + age 42 (1 moderate) totals 2 moderate risk factors."
+    },
+    {
+      "id": 14,
+      "category": "Urogynaecology",
+      "question": "With regard to pelvic organ prolapse, which of the following statements is FALSE?",
+      "options": [
+        "It may cause decubitus ulcer",
+        "It may cause urinary tract infection",
+        "Pessary is more appropriate than surgery in frail women",
+        "Procidentia describes descent of anterior vaginal wall through introitus"
+      ],
+      "correctIndex": 3,
+      "explanation": "Procidentia is defined as complete prolapse of the entire uterus and vaginal walls outside the introitus. Anterior wall prolapse alone is a cystocele."
+    },
+    {
+      "id": 15,
+      "category": "Rheumatology in Pregnancy",
+      "question": "What is the estimated percentage of joint involvement (arthralgia/arthritis) in systemic lupus erythematosus (SLE)?",
+      "options": [
+        "90%",
+        "50%",
+        "60%",
+        "80%",
+        "70%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Joint involvement (arthralgia, non-erosive arthritis, morning stiffness) occurs in approximately 90% of patients with SLE during the disease course."
+    },
+    {
+      "id": 16,
+      "category": "Perinatal Psychiatry",
+      "question": "What is the most appropriate immediate management if a new mother reports intrusive thoughts of harming her baby?",
+      "options": [
+        "Reassure her",
+        "Advise increased rest and support",
+        "Wait and reassess next day",
+        "Emergency psychiatric referral",
+        "Child protection"
+      ],
+      "correctIndex": 3,
+      "explanation": "Maternal reports of thoughts or intent to harm her infant represent a psychiatric emergency requiring urgent emergency psychiatric evaluation and MBU referral."
+    },
+    {
+      "id": 17,
+      "category": "Gestational Trophoblastic Disease",
+      "question": "What is the most common presenting clinical symptom of a complete molar pregnancy?",
+      "options": [
+        "Hyperemesis",
+        "Abdominal pain",
+        "Seizures",
+        "Palpitations",
+        "Irregular vaginal bleeding"
+      ],
+      "correctIndex": 4,
+      "explanation": "Irregular, dark brown ('prune-juice') vaginal bleeding is the single most common presenting symptom of molar pregnancy, occurring in >80-90% of cases."
+    },
+    {
+      "id": 18,
+      "category": "Vascular / VTE in Pregnancy",
+      "question": "A pregnant patient experiences massive pulmonary embolism (PE) and intrapartum hemodynamic collapse. What is the immediate treatment of choice?",
+      "options": [
+        "Oral anticoagulants",
+        "Withhold anticoagulation",
+        "Unfractionated heparin",
+        "LMWH",
+        "Thrombolysis"
+      ],
+      "correctIndex": 4,
+      "explanation": "Massive PE causing hemodynamic collapse/cardiopulmonary arrest requires immediate IV Thrombolysis (e.g. Alteplase) to restore pulmonary circulation."
+    },
+    {
+      "id": 19,
+      "category": "Hematology in Pregnancy",
+      "question": "A 35-year-old P5 woman presents with severe fatigue and anemia. What is the single most common cause of anemia in her pregnancy?",
+      "options": [
+        "Pernicious anemia",
+        "Thalassaemia",
+        "Folate deficiency anemia",
+        "Iron deficiency anemia",
+        "Sickle cell"
+      ],
+      "correctIndex": 3,
+      "explanation": "Iron deficiency anemia accounts for >90% of maternal anemia worldwide, aggravated by high multiparity."
+    },
+    {
+      "id": 20,
+      "category": "Neurology in Pregnancy",
+      "question": "A 29-year-old woman presents at day 6 postpartum with new-onset seizures and severe unremitting headache. What is the gold-standard initial imaging?",
+      "options": [
+        "MRI brain without contrast (with MRV)",
+        "IV thrombolysis",
+        "Methylprednisolone pulse",
+        "CT brain",
+        "LMWH"
+      ],
+      "correctIndex": 0,
+      "explanation": "New-onset postpartum seizures and severe headache raise immediate suspicion for Cerebral Venous Sinus Thrombosis (CVST); MRI brain without contrast with MRV is diagnostic."
+    },
+    {
+      "id": 21,
+      "category": "Perinatal Psychiatry",
+      "question": "Which psychological disorder carries the strongest association with a prior personal or family history of bipolar disorder?",
+      "options": [
+        "Postnatal blues",
+        "Generalised anxiety disorder",
+        "Adjustment disorder",
+        "PTSD",
+        "Puerperal psychosis"
+      ],
+      "correctIndex": 4,
+      "explanation": "A personal or family history of bipolar disorder is the single strongest risk factor for puerperal psychosis (25-50% incidence post-delivery)."
+    },
+    {
+      "id": 22,
+      "category": "Gynaecological Oncology",
+      "question": "In a post-menopausal woman presenting with vaginal bleeding, what Endometrial Thickness (ET) cutoff on TVUS warrants endometrial biopsy?",
+      "options": [
+        "ET > 4mm",
+        "ET < 4mm",
+        "ET < 3mm",
+        "ET < 2mm",
+        "ET < 1mm"
+      ],
+      "correctIndex": 0,
+      "explanation": "In postmenopausal bleeding, an endometrial thickness of >4mm on transvaginal ultrasound indicates increased risk of hyperplasia/carcinoma and requires tissue biopsy."
+    },
+    {
+      "id": 23,
+      "category": "Perinatal Psychiatry",
+      "question": "What is the estimated incidence of puerperal psychosis in the general postpartum population?",
+      "options": [
+        "1 in 100",
+        "1 in 5000",
+        "1 in 500",
+        "1 in 1000",
+        "1 in 2000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Puerperal psychosis affects approximately 1 to 2 per 1,000 postpartum women (1 in 1000) in the general population."
+    },
+    {
+      "id": 24,
+      "category": "Neurology in Pregnancy",
+      "question": "Which clinical presentation is most characteristic of cerebral venous thrombosis (CVST) in the puerperium?",
+      "options": [
+        "Loss of consciousness",
+        "Hemiparesis",
+        "Generalised tonic-clonic seizures",
+        "Aphasia",
+        "Facial droop"
+      ],
+      "correctIndex": 2,
+      "explanation": "Generalised tonic-clonic seizures occur in up to 50% of women presenting with puerperal CVST alongside severe headache."
+    },
+    {
+      "id": 25,
+      "category": "Gynaecological Oncology",
+      "question": "What is the recommended imaging modality to evaluate suspected midline tumor invasion (urethra/anus) in vulval cancer?",
+      "options": [
+        "CT abdomen and pelvis",
+        "X-ray",
+        "PET-CT",
+        "Ultrasound",
+        "MRI pelvis"
+      ],
+      "correctIndex": 4,
+      "explanation": "Pelvic MRI is the modality of choice for staging vulval cancer to evaluate local stromal invasion and involvement of midline pelvic structures."
+    },
+    {
+      "id": 26,
+      "category": "Gynaecological Oncology",
+      "question": "At laparotomy for ovarian cancer, tumor involves the left ovary and uterus with positive peritoneal washings. What is the FIGO stage?",
+      "options": [
+        "Stage IIIC",
+        "Stage IIB",
+        "Stage IIA",
+        "Stage IC",
+        "Stage IIC"
+      ],
+      "correctIndex": 2,
+      "explanation": "FIGO Stage IIA represents epithelial ovarian carcinoma with extension to or implantation on the uterus and/or fallopian tubes."
+    },
+    {
+      "id": 27,
+      "category": "Gynaecological Oncology",
+      "question": "Which imaging modality is most accurate for detecting pelvic and para-aortic lymph node metastases in cervical cancer?",
+      "options": [
+        "MRI",
+        "CT scan",
+        "Hysteroscopy",
+        "Ultrasound",
+        "PET-CT"
+      ],
+      "correctIndex": 4,
+      "explanation": "18F-FDG PET-CT is the most accurate non-invasive imaging modality for detecting pelvic and para-aortic lymph node metastases in cervical cancer."
+    },
+    {
+      "id": 28,
+      "category": "Endocrine Disorders",
+      "question": "A pregnant woman at 6 weeks taking 100mcg Levothyroxine has a TSH of 6.2 mU/L. What is the most appropriate immediate management?",
+      "options": [
+        "Carbimazole",
+        "Insulin therapy",
+        "Neurosurgical referral",
+        "Levothyroxine dose increase",
+        "Propylthiouracil"
+      ],
+      "correctIndex": 3,
+      "explanation": "TSH 6.2 mU/L indicates subclinical hypothyroidism due to increased gestational thyroxine demand; the daily dose of Levothyroxine should be increased."
+    },
+    {
+      "id": 29,
+      "category": "Hypertension in Pregnancy",
+      "question": "A 23-year-old primigravida at 18 weeks has BP 150/90 mmHg and mild headaches. Urine dipstick shows no proteinuria. What is the management?",
+      "options": [
+        "Betamethasone 12mg 2 doses",
+        "Blood investigations only",
+        "Commence oral labetalol",
+        "Catheterization",
+        "HDU admission"
+      ],
+      "correctIndex": 2,
+      "explanation": "NICE guidelines mandate initiating antihypertensive therapy (oral Labetalol 1st line) for pregnant women with persistent BP >=140/90 mmHg."
+    },
+    {
+      "id": 30,
+      "category": "Gynaecological Oncology",
+      "question": "Biopsy of a vulval lesion reveals large pale atypical cells scattered in the epidermis that stain positive for CK7 and HER2. What is the diagnosis?",
+      "options": [
+        "Differentiated VIN",
+        "Lichen sclerosus",
+        "Invasive squamous carcinoma",
+        "Melanoma",
+        "Vulval Paget's disease"
+      ],
+      "correctIndex": 4,
+      "explanation": "Intraepidermal large pale atypical cells (Paget cells) staining positive for CK7 and HER2 are pathognomonic for Vulval Paget's disease."
+    },
+    {
+      "id": 31,
+      "category": "Hypertension in Pregnancy",
+      "question": "According to NICE and RCOG guidelines, which of the following agents is evidence-based for pre-eclampsia prevention?",
+      "options": [
+        "Nitric oxide donors",
+        "Progesterone",
+        "LMWH",
+        "Low-dose aspirin",
+        "Diuretics"
+      ],
+      "correctIndex": 3,
+      "explanation": "Low-dose aspirin (75-150 mg daily) is the primary evidence-based pharmacological agent for pre-eclampsia prophylaxis (nitric oxide, progesterone, LMWH are not recommended)."
+    },
+    {
+      "id": 32,
+      "category": "Perinatal Psychiatry",
+      "question": "A mother on Day 5 postpartum presents with delusions and agitation, believing her baby is possessed. What is the immediate step?",
+      "options": [
+        "Referral to perinatal psychiatrist",
+        "Community midwife referral",
+        "Cognitive behavioural therapy",
+        "Admission to Mother and Baby Unit (MBU)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Puerperal psychosis with delusions of harm/possession is an emergency requiring immediate joint inpatient admission to a specialized Mother and Baby Unit (MBU)."
+    },
+    {
+      "id": 33,
+      "category": "Rheumatology in Pregnancy",
+      "question": "For how long should pregnancy be delayed following a flare of lupus nephritis in SLE patients?",
+      "options": [
+        "9 months",
+        "12 months",
+        "18 months",
+        "6 months",
+        "3 months"
+      ],
+      "correctIndex": 3,
+      "explanation": "EULAR/RCOG guidelines recommend delaying pregnancy until lupus nephritis has been in complete quiescent remission for at least 6 months prior to conception."
+    },
+    {
+      "id": 34,
+      "category": "Gestational Trophoblastic Disease",
+      "question": "What is the most appropriate initial surgical method for the complete removal of a complete molar pregnancy?",
+      "options": [
+        "Suction curettage",
+        "Uterine artery embolisation",
+        "Medical evacuation with misoprostol",
+        "Hysterectomy",
+        "Expectant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Suction curettage under ultrasound guidance is the gold standard for complete mole evacuation (misoprostol is avoided due to hemorrhage/embolization risk)."
+    },
+    {
+      "id": 35,
+      "category": "Neurology in Pregnancy",
+      "question": "A 20-week pregnant woman taking an antiepileptic drug has a fetus with spina bifida and cleft lip. Which drug is she most likely taking?",
+      "options": [
+        "Phenytoin",
+        "Carbamazepine",
+        "Levetiracetam",
+        "Sodium valproate",
+        "Lamotrigine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sodium Valproate carries the highest teratogenic risk among AEDs, classically causing neural tube defects (spina bifida) and facial clefts."
+    },
+    {
+      "id": 36,
+      "category": "Endocrine Disorders",
+      "question": "A pregnant woman presents with headaches, sweating, and paroxysmal hypertension with elevated plasma metanephrines. What is the diagnosis?",
+      "options": [
+        "Addison disease",
+        "Conn syndrome",
+        "Pheochromocytoma",
+        "Cushing syndrome",
+        "Graves disease"
+      ],
+      "correctIndex": 2,
+      "explanation": "The classic triad of headaches, diaphoresis, and episodic hypertension accompanied by elevated metanephrines is diagnostic of Pheochromocytoma."
+    },
+    {
+      "id": 37,
+      "category": "Urogynaecology",
+      "question": "What is the recommended minimum duration for first-line bladder training in overactive bladder (OAB) / urge incontinence?",
+      "options": [
+        "6 months",
+        "3 months",
+        "3 weeks",
+        "6 weeks",
+        "5 weeks"
+      ],
+      "correctIndex": 3,
+      "explanation": "NICE guidelines recommend a minimum of 6 weeks of conservative bladder training as the first-line treatment for overactive bladder / urge incontinence."
+    }
+  ],
   "Final Part 2 Paediatrics - Paediatrics Module 1": [
     {
       "id": 8,
